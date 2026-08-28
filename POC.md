@@ -2,17 +2,29 @@
 
 A proof of concept for the grug-shaped version of Ghostwriter: an immersive, focused writing tool built around **one physical rule** on **one worthy surface**. Everything else is subtraction.
 
-> **Thesis:** A manuscript that keeps your live thought physically still while the writing accumulates around it. No dashboard. No chrome. No AI theatre. One rule, held with conviction.
+> **Thesis:** You review today's ideas, choose one, and drop straight onto a manuscript that keeps your live thought physically still while the writing accumulates around it. No chat. No chrome on the page. No AI theatre. One rule, held with conviction.
+
+---
+
+## 0. The flow this POC covers
+
+```text
+   REVIEW TOPICS  ──▶  SELECT ONE  ──▶  WRITE (the paper)
+   today's ideas      a single idea     one physical rule
+```
+
+The POC is the **whole path from "what should I write about" to the act of writing** — the two frictions the product exists to remove — and nothing after. Reflection pathways, AI critique, and export are deferred (they exist and reattach later).
 
 ---
 
 ## 1. What we're proving
 
-That a single physical constraint — the **fixed writing position** (Idea 8) on a **chrome-free paper** (Idea 4) — is enough to make writing feel immersive and focused, distinctive rather than "another AI writing app."
+Two things, in sequence:
 
-We are **not** proving the reflection flow, the topic desk, or the AI critique in this POC. Those exist and can be reattached later. The POC isolates the core feeling so we can judge it honestly.
+1. That **reviewing today's ideas and selecting one** feels like an editorial desk delivering a story, not a dashboard of equal cards.
+2. That landing on the **chrome-free paper** with the **fixed writing position** (Ideas 4 + 8) makes the act of writing feel immersive and focused — distinctive, not "another AI writing app."
 
-**Success = the writing surface feels inevitable.** You open it, you write, and it feels like paper that knows to stay still — not software you're typing into.
+**Success = the path feels inevitable.** An idea arrives, you choose it, and you're writing on paper that knows to stay still — no seam, no software friction between deciding and writing.
 
 ---
 
@@ -68,31 +80,35 @@ Rules for the surface:
 ## 4. Scope
 
 **In:**
-- Blank manuscript, title + paragraphs (reuse existing paragraph editor).
+- **Topic desk** — review today's ideas as an editorial desk (one dominant story, quieter signals), not a grid of equal cards.
+- **Selection** — choose one idea; it carries through as the manuscript's subject.
+- **Direct hand-off to the paper** — selecting an idea drops you straight onto the manuscript (skip reflection for the POC), with the chosen title seeded.
+- Manuscript, title + paragraphs (reuse existing paragraph editor).
 - The fixed-writing-position rule, tuned.
-- Chrome-free layout.
+- Chrome-free writing layout.
 - Silent, durable autosave (`localStorage`, versioned — already implemented).
 
 **Out (deferred, not deleted):**
-- Topic desk / today view.
-- Reflection pathways.
+- Reflection pathways (Today → *Reflect* → Write becomes Today → Write for the POC).
 - AI critique / margin notes.
 - Export flows.
-- The serverless API proxy (no AI calls in this POC → nothing to secure yet).
 
-Deferring the AI entirely is deliberate: if the paper doesn't feel right *silent*, no amount of AI will save it.
+**One dependency:** the topic desk loads ideas from Claude. For the POC that means either a working local key (dev proxy) or a small hardcoded set of sample topics so the flow is demoable without the API. The serverless proxy decision is still deferred; the paper itself makes no AI calls.
+
+Skipping reflection and everything after the paper is deliberate: this POC proves the *entry into writing*. If arriving at the paper doesn't feel right, nothing downstream will save it.
 
 ---
 
 ## 5. Build plan (small)
 
-1. **Fork a `/write`-only entry** — render the writing shell directly, bypassing `today → reflect`. (Reuse `startBlank`'s path.)
-2. **Strip the chrome** — remove the utility bar and end-of-manuscript button from the write view; keep title + paragraphs + word count.
-3. **Tune the rule** — expose anchor % and quiet floor as constants; try 40% / 0.82, settle-on-pause behavior.
-4. **Silence autosave** — keep the durable write, drop or soften the visible "Saved" state.
-5. **Type + spacing pass** — confirm serif manuscript, generous measure, whitespace.
+1. **Reshape the topic desk** — break the equal-card grid into one dominant story + five quieter signals; stagger them in with Anime.js on load. (Fall back to sample topics if no key.)
+2. **Wire select → write** — choosing an idea seeds the manuscript title/subject and goes straight to the write view, bypassing reflection for the POC.
+3. **Strip the chrome** — remove the utility bar (mode/tone toggles) and the end-of-manuscript button from the write view; keep title + paragraphs + word count.
+4. **Tune the rule** — expose anchor % and quiet floor as constants; try 40% / 0.82, settle-on-pause behavior.
+5. **Silence autosave** — keep the durable write, drop or soften the visible "Saved" state.
+6. **Type + spacing pass** — confirm serif manuscript, generous measure, whitespace on the paper.
 
-All five are edits to existing code, not new systems. Estimated as an afternoon, not a sprint.
+All six are edits to existing code, not new systems. Estimated as an afternoon, not a sprint.
 
 ---
 

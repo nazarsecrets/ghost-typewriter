@@ -1,5 +1,7 @@
 # SVR Ghostwriter V1
 
+The canonical product requirements are defined in [PRD.md](./PRD.md). This file tracks the implementation direction and current build state.
+
 ## Why this exists
 
 Ghostwriter is a personal writing companion for keeping my voice as a designer alive on Medium. Its job is to remove the two frictions that stop me from publishing: not knowing *what* to write about, and losing momentum *while* writing. It solves the first by surfacing relevant, current UX/product prompts (a "ghost" that suggests, never dictates), and the second by giving me a calm, immersive space where the act of writing feels physical and continuous — like a typewriter, but softer and more alive.
