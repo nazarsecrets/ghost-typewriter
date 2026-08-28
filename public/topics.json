@@ -1,0 +1,1088 @@
+{
+  "version": 1,
+  "generatedAt": "2026-08-28T04:52:46.961Z",
+  "windowStart": "2026-07-29T04:52:46.961Z",
+  "windowEnd": "2026-08-28T04:52:46.961Z",
+  "topics": [
+    {
+      "id": "4b9f1fcb7e72",
+      "title": "Best UI/UX Design Tools I Keep Coming Back to as a Designer",
+      "teaser": "If you’re a designer, you’ve probably had the same problem I’ve had: there are dozens of UI/UX design...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Trending",
+      "publishedAt": "2026-08-24T16:45:48.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "41 engagement signals within 4 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Best UI/UX Design Tools I Keep Coming Back to as a Designer",
+          "url": "https://dev.to/devstackcommunity/best-uiux-design-tools-i-keep-coming-back-to-as-a-designer-31fa",
+          "publishedAt": "2026-08-24T16:45:48.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bc880ba0b500",
+      "title": "Show HN: Build your own theme park",
+      "teaser": "I built an agent that helps you build Rollercoaster Tycoon-influenced theme parks. You can prompt something like “Build me a cool theme park” and it’ll build a cohesive theme park with multi",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Trending",
+      "publishedAt": "2026-08-26T16:40:01.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "74 engagement signals within 2 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Build your own theme park",
+          "url": "https://www.magicpatterns.com/theme-park",
+          "publishedAt": "2026-08-26T16:40:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "314df32469b9",
+      "title": "Show HN: Invader – an indie iOS podcast player that never phones home",
+      "teaser": "I got tired of podcast apps with bad UX, so I built and shipped the app I always wanted for myself. Designed entirely with myself as the user in mind, from someone who&#x27;s spent ten years",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-27T12:34:59.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Invader – an indie iOS podcast player that never phones home",
+          "url": "https://invader.gg/",
+          "publishedAt": "2026-08-27T12:34:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "23e62cd19592",
+      "title": "EmoSay: Artificial Intelligence-Driven Text-to-Emotional-Speech System for Affective Communication in Extended Reality",
+      "teaser": "While contemporary neural text-to-speech (TTS) systems have achieved high levels of intelligibility, they frequently lack the emotional nuance required for authentic affective communication.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-27T03:17:55.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "EmoSay: Artificial Intelligence-Driven Text-to-Emotional-Speech System for Affective Communication in Extended Reality",
+          "url": "https://arxiv.org/abs/2608.26566v1",
+          "publishedAt": "2026-08-27T03:17:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "71f8523fd676",
+      "title": "AI has a hospitality problem money can’t fix",
+      "teaser": "Technological efficiency meets high-end service: a luxury hotel lobby where AI-driven recommendations are seamlessly integrated into the check-in process, offering convenience while raising ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-26T21:51:09.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI has a hospitality problem money can’t fix",
+          "url": "https://uxdesign.cc/ai-has-a-hospitality-problem-money-cant-fix-e8fa34e91d62?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-26T21:51:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": "235c0718260d",
+      "title": "What Blade Runner got wrong about AI (so far)",
+      "teaser": "The film gave us rain, ziggurats, and androids; the real machine arrived as a blank place to type. The film is a design masterpiece and a lousy weather forecast, and the gap between the two ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-25T17:12:03.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What Blade Runner got wrong about AI (so far)",
+          "url": "https://uxdesign.cc/what-blade-runner-got-wrong-about-ai-so-far-d01b579288c1?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-27T20:22:49.000Z"
+        },
+        {
+          "name": "uxcollective",
+          "title": "What Blade Runner got right about AI",
+          "url": "https://uxdesign.cc/what-blade-runner-got-right-about-ai-99cc75c0f761?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-25T17:12:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0442a9e578cc",
+      "title": "Researcher-in-the-loop",
+      "teaser": "A model for AI-enabled UX research where t he researcher governs. A UXR researcher governing AI (AI generated) For a few years now, the UX research field has been arguing with itself over wh",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-25T11:18:37.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Researcher-in-the-loop",
+          "url": "https://uxdesign.cc/researcher-in-the-loop-18a8ffddf48e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-25T11:18:37.000Z"
+        }
+      ]
+    },
+    {
+      "id": "76b590bb1d1b",
+      "title": "Show HN: My agents kept hallucinating APIs, so I built them a headless IDE",
+      "teaser": "I built Context Engine last year mostly out of frustration. Agents impressed me and made me angry at the same time: they kept calling APIs that don&#x27;t exist, re-implementing APIs already",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-18T14:01:54.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 1,
+      "categoryReason": "High relevance (1.00) with limited coverage over 10 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: My agents kept hallucinating APIs, so I built them a headless IDE",
+          "url": "https://context-engine.app",
+          "publishedAt": "2026-08-18T14:01:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": "73a6b2c3692c",
+      "title": "No log off, How to become an AI Designer, vibe coded portfolios",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “Online used to be a place you could leave. We designed the exit out of it because an exit reads as a leak. Here is why building",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-24T11:15:25.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "No log off, How to become an AI Designer, vibe coded portfolios",
+          "url": "https://uxdesign.cc/no-log-off-how-to-become-an-ai-designer-vibe-coded-portfolios-deb7ca0e0f5d?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-24T11:15:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9bb8fbde9f3d",
+      "title": "Sterling Cooper built your UX process. We need to redefine it in the age of AI and systems.",
+      "teaser": "Modern creative work was assembled in the mid-century ad agency, and UX inherited the whole show. Now is time for a reset in the age of AI. AI assisted. The rituals of the 1960s ad shop — th",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-23T09:35:34.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Sterling Cooper built your UX process. We need to redefine it in the age of AI and systems.",
+          "url": "https://uxdesign.cc/sterling-cooper-built-your-ux-process-we-need-to-redefine-it-in-the-age-of-ai-and-systems-520a2d3b2a60?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-23T09:35:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6f94edb389bb",
+      "title": "UX Conference November Announced (Nov 9 - Nov 13)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. November 9 - 13, 2026.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-24T06:48:00.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference November Announced (Nov 9 - Nov 13)",
+          "url": "https://www.nngroup.com/training/november/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-24T06:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "99f15730f1d2",
+      "title": "Free Accessibility Certifications and Courses",
+      "teaser": "Originally published on A11y News: 6 free, self-paced courses to take this summer Nowadays...",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-15T13:06:30.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 13 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Free Accessibility Certifications and Courses",
+          "url": "https://dev.to/laura-wissiak/free-accessibility-certifications-and-courses-nb7",
+          "publishedAt": "2026-08-15T13:06:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9e8948b71cbb",
+      "title": "Don't Make Me Think: What Actually Separates Good UX from Digital Torture",
+      "teaser": "There's a rule someone dropped in a product design session that has lived rent-free in my head ever...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-13T12:26:56.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Don't Make Me Think: What Actually Separates Good UX from Digital Torture",
+          "url": "https://dev.to/towernter/dont-make-me-think-what-actually-separates-good-ux-from-digital-torture-354a",
+          "publishedAt": "2026-08-13T12:26:56.000Z"
+        }
+      ]
+    },
+    {
+      "id": "acccbe187d9b",
+      "title": "Show HN: FEDERaiDE, a TUI harness with P2P multi-agent routing and built in IDE",
+      "teaser": "Hi! Federaide is a general purpose multi-agent harness that runs in your terminal. It is meant for recreational programming and automating your scripts. The agents are just named instances o",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-12T15:20:19.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: FEDERaiDE, a TUI harness with P2P multi-agent routing and built in IDE",
+          "url": "https://federaide.rocklab.in",
+          "publishedAt": "2026-08-12T15:20:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "632ad5203758",
+      "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
+      "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-25T21:12:33.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
+          "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
+          "publishedAt": "2026-08-25T21:12:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ce6aa635ee88",
+      "title": "What luxury bags can teach designers about how to adapt to a changing deal",
+      "teaser": "Design isn&#x2019;t becoming lame. Your screens don&#x2019;t vouch for you anymore. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-25T11:18:39.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What luxury bags can teach designers about how to adapt to a changing deal",
+          "url": "https://uxdesign.cc/what-luxury-bags-can-teach-designers-about-how-to-adapt-to-a-changing-deal-3c06caba673d?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-25T11:18:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "385351c1a2c2",
+      "title": "Show HN: Stop Animated Images from Autoplaying",
+      "teaser": "I’ve always been annoyed that browsers autoplay GIFs and other animated images. So I made GIF Control, a browser extension that stops animated images by default, shows the first frame, and a",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-06T16:01:53.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 1,
+      "categoryReason": "High relevance (1.00) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Stop Animated Images from Autoplaying",
+          "url": "https://neonglow.studio/gif-control/",
+          "publishedAt": "2026-08-06T16:01:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "104f50c5e3cb",
+      "title": "Reservoir: The Design System of the NYPL",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-27T18:11:38.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Reservoir: The Design System of the NYPL",
+          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
+          "publishedAt": "2026-08-27T18:11:38.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e92441db722a",
+      "title": "Design tokens: The building blocks of a design system",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-18T16:14:40.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 10 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design tokens: The building blocks of a design system",
+          "url": "https://www.aha.io/engineering/articles/design-tokens-the-building-blocks-of-a-design-system",
+          "publishedAt": "2026-08-18T16:14:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "830a8c6e9c35",
+      "title": "How well do agents use your design system?",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-26T17:51:57.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "How well do agents use your design system?",
+          "url": "https://www.sanity.io/engineering/design-system-evals",
+          "publishedAt": "2026-08-26T17:51:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3c7aee57685a",
+      "title": "BrailleBench: Investigating Multi-Criteria Braille Comprehension in Large Language Models",
+      "teaser": "Although Large language models (LLMs) mediate access to knowledge and computational assistance, their capabilities should benefit vulnerable groups in the same way. However, it is unclear wh",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-27T15:48:39.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "BrailleBench: Investigating Multi-Criteria Braille Comprehension in Large Language Models",
+          "url": "https://arxiv.org/abs/2608.27268v1",
+          "publishedAt": "2026-08-27T15:48:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4b92f1bdd987",
+      "title": "A Point-of-Prescription Safety-Check System for Adverse Drug Reactions in Rural Bangladeshi Hospitals: A Feasibility Study",
+      "teaser": "Adverse drug reactions (ADRs) are a major, largely preventable source of patient harm. In high-income settings, electronic health records store a patient's allergy history and warn prescribe",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-27T15:21:51.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "A Point-of-Prescription Safety-Check System for Adverse Drug Reactions in Rural Bangladeshi Hospitals: A Feasibility Study",
+          "url": "https://arxiv.org/abs/2608.27239v1",
+          "publishedAt": "2026-08-27T15:21:51.000Z"
+        }
+      ]
+    },
+    {
+      "id": "78e76534c11c",
+      "title": "\"A Second Set of Eyes\": The Process and Challenges of Software Documentation Review",
+      "teaser": "Organizations assign documentation work to technical writers, yet the knowledge required to produce it is distributed across developers, managers, and other practitioners. Prior work has est",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-26T17:28:36.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "\"A Second Set of Eyes\": The Process and Challenges of Software Documentation Review",
+          "url": "https://arxiv.org/abs/2608.26232v1",
+          "publishedAt": "2026-08-26T17:28:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f97deb9ddcb6",
+      "title": "Show HN: Propose and Dual-Control for DNS Changes",
+      "teaser": "Hey, Hacker News. I just want to pick your brain for a feature we&#x27;re working on. I don&#x27;t know whether you have seen this as a pain point, but when I work in a company, a lot of tim",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-26T05:06:25.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Propose and Dual-Control for DNS Changes",
+          "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
+          "publishedAt": "2026-08-26T05:06:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d220bf3b8944",
+      "title": "Design Systems in the Age of AI: Five Working Hypotheses",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T11:43:24.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Design Systems in the Age of AI: Five Working Hypotheses",
+          "url": "https://uxdesignresearch.org/en/5-hypotheses/",
+          "publishedAt": "2026-08-07T11:43:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fdc0487b0c2c",
+      "title": "Show HN: LettersPractice – Teach your child to read with a modified SRS engine",
+      "teaser": "Hi everyone. 2nd submission attempt here of a very-indie, very-passion project after a no-op first try. Backstory: ~10 years ago I started tinkering with a web based platform for experimenti",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T14:51:40.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: LettersPractice – Teach your child to read with a modified SRS engine",
+          "url": "https://letterspractice.com/",
+          "publishedAt": "2026-08-07T14:51:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7d6e4a313de2",
+      "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+      "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-28T00:57:31.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+          "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
+          "publishedAt": "2026-08-28T00:57:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "16003594740a",
+      "title": "From Producing to Validating: How AI Is Deskilling Freelancers",
+      "teaser": "Generative AI is promoted as a way to enhance knowledge work, yet its benefits and drawbacks fall unevenly across the workforce. Freelance and gig workers, who commonly lack the upskilling p",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-26T17:51:34.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "From Producing to Validating: How AI Is Deskilling Freelancers",
+          "url": "https://arxiv.org/abs/2608.26089v1",
+          "publishedAt": "2026-08-26T17:51:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2af7bf291caa",
+      "title": "Large Language Model Few-Shot Prompting with Dilemma Training Outperforms Human Surrogates in Predicting Patient Preferences",
+      "teaser": "In serious illness, human surrogates often struggle to accurately predict patient preferences (68% accuracy), causing decision conflict. Personalized Patient Preference Predictor (P4) agents",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-26T13:14:30.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Large Language Model Few-Shot Prompting with Dilemma Training Outperforms Human Surrogates in Predicting Patient Preferences",
+          "url": "https://arxiv.org/abs/2608.25771v1",
+          "publishedAt": "2026-08-26T13:14:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7c2f71191b75",
+      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-26T13:00:00.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+          "publishedAt": "2026-08-26T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "91dce4eb52d0",
+      "title": "Maru: Information Architecture as a Shared Language for Generating Aligned and Persistent User Interfaces",
+      "teaser": "Generative user interfaces (GenUIs) promise on-demand components tailored to users' needs. As users iterate on information tasks, they construct personal structures over information they enc",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-26T09:19:17.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Maru: Information Architecture as a Shared Language for Generating Aligned and Persistent User Interfaces",
+          "url": "https://arxiv.org/abs/2608.25565v1",
+          "publishedAt": "2026-08-26T09:19:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": "23cb55e68070",
+      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
+      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-20T03:23:01.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
+          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
+          "publishedAt": "2026-08-20T03:23:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ac9dfad7cbed",
+      "title": "The function — the role of software in society",
+      "teaser": "A story of inputs, outputs, and the tools between. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-25T22:13:04.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The function — the role of software in society",
+          "url": "https://uxdesign.cc/the-function-the-role-of-software-in-society-8339c99398f3?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-25T22:13:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "be045ee3b363",
+      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
+          "publishedAt": "2026-08-25T21:17:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5de15657393b",
+      "title": "Decoupling Claim Timeouts from Feature Flags",
+      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-25T21:08:28.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Decoupling Claim Timeouts from Feature Flags",
+          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
+          "publishedAt": "2026-08-25T21:08:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "cf3927b1057e",
+      "title": "Stop using OKLCH lightness for your color scale",
+      "teaser": "It&#x2019;s brilliant at generating color, but it can&#x2019;t predict contrast&#x200A;&#x2014;&#x200A;and there&#x2019;s a better number for your palette weights. Continue reading on UX Col",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-23T20:37:16.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Stop using OKLCH lightness for your color scale",
+          "url": "https://uxdesign.cc/stop-using-oklch-lightness-for-your-color-scale-02025deca49d?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-23T20:37:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "df9bd11e9d1f",
+      "title": "Nobody wants a blank page. Nobody touches a perfect one.",
+      "teaser": "Why people can&#x2019;t begin from nothing, and won&#x2019;t touch anything finished. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-23T11:22:08.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Nobody wants a blank page. Nobody touches a perfect one.",
+          "url": "https://uxdesign.cc/nobody-wants-a-blank-page-nobody-touches-a-perfect-one-48d452a26dae?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-23T11:22:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b2fa9b4faa22",
+      "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+      "teaser": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+          "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
+          "publishedAt": "2026-08-11T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "360b69c58d9b",
+      "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
+      "teaser": "As AI reshapes product design, it could give designers greater autonomy or expose the gaps that autonomy makes harder to hide. Exploring both the bull and bear cases, Andy Budd examines what",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-07-29T13:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
+          "url": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
+          "publishedAt": "2026-07-29T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "78a53223a488",
+      "title": "UX Conference October Announced (Oct 26 - Oct 29)",
+      "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. October 26 - October 29, ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-04T08:43:32.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference October Announced (Oct 26 - Oct 29)",
+          "url": "https://www.nngroup.com/training/october-eu/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-04T08:43:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a1d3ee21f6ba",
+      "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
+      "teaser": "Quem desenha interfaces sabe exatamente quais botões, textos e animações empurram alguém a gastar...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-05T10:30:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
+          "url": "https://dev.to/vitoriazzp/o-abismo-entre-cuidar-do-usuario-e-vender-atencao-por-que-precisamos-falar-sobre-dark-patterns-5h1h",
+          "publishedAt": "2026-08-05T10:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ada6df0ec699",
+      "title": "Show HN: Open-source pixel art editor with animation and auto-tiling tilesets",
+      "teaser": "Hi HN! I built a free pixel art editor that runs entirely in the browser — no install, no signup, no watermark. The frontend is open source (MIT): https:&#x2F;&#x2F;github.com&#x2F;comficker",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T02:31:04.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Open-source pixel art editor with animation and auto-tiling tilesets",
+          "url": "https://simplepixelart.com/editor",
+          "publishedAt": "2026-08-07T02:31:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "91d36d862777",
+      "title": "Framework: The first ePaper design system",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-14T05:43:34.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Framework: The first ePaper design system",
+          "url": "https://trmnl.com/blog/framework-design-system",
+          "publishedAt": "2026-08-14T05:43:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "69c2e9207d09",
+      "title": "Dogfooding vs. QA vs. User Research",
+      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T17:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Dogfooding vs. QA vs. User Research",
+          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-07T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4cfc06a222ed",
+      "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
+      "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-13T12:30:43.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
+          "url": "https://www.readiteasy.app/",
+          "publishedAt": "2026-08-13T12:30:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f763a8604b06",
+      "title": "TRMNL ePaper Design System",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T17:46:21.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "TRMNL ePaper Design System",
+          "url": "https://github.com/usetrmnl/trmnl-framework",
+          "publishedAt": "2026-08-11T17:46:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e6cab93ed3a3",
+      "title": "How I Cut UX Review Cycles 30% with an AI Agent: ai agent ux review flutter",
+      "teaser": "Cut Flutter UX review cycles by 30%. See how my custom ai agent ux review flutter identifies forgotten UI elements and product details before human review.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-09T05:01:36.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "How I Cut UX Review Cycles 30% with an AI Agent: ai agent ux review flutter",
+          "url": "https://dev.to/umair24171/how-i-cut-ux-review-cycles-30-with-an-ai-agent-ai-agent-ux-review-flutter-14pm",
+          "publishedAt": "2026-08-09T05:01:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e15a5c736f2d",
+      "title": "Show HN: Chain – A Python-like language with native inline C++",
+      "teaser": "Chain (Formerly Link-Lang) is a Python-syntax scripting language that was built from scratch in C++, with one feature I haven&#x27;t noticed elsewhere: an &#x27;extern \"c\" { }&#x27; block wh",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T15:18:28.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Chain – A Python-like language with native inline C++",
+          "url": "https://github.com/Nebania/chain-lang",
+          "publishedAt": "2026-08-11T15:18:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "89b5656b2a9c",
+      "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
+      "teaser": "Hi HN, react-candlesticks is a React chart library for financial charts (stock, crypto, trading, etc). It support multiple panels and layers, theming, and early support for custom layers and",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-06T13:48:06.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
+          "url": "https://reactcandlesticks.com/demo/",
+          "publishedAt": "2026-08-06T13:48:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "43701b24fca4",
+      "title": "UX Design Research – reflections on the role of UX design in the age of AI",
+      "teaser": "",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T11:33:15.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "UX Design Research – reflections on the role of UX design in the age of AI",
+          "url": "https://uxdesignresearch.org/en/",
+          "publishedAt": "2026-08-07T11:33:15.000Z"
+        }
+      ]
+    }
+  ],
+  "sourceHealth": [
+    {
+      "source": "smashing",
+      "ok": true,
+      "items": 40,
+      "fetchedAt": "2026-08-28T04:52:46.962Z"
+    },
+    {
+      "source": "nngroup",
+      "ok": true,
+      "items": 20,
+      "fetchedAt": "2026-08-28T04:52:46.979Z"
+    },
+    {
+      "source": "uxcollective",
+      "ok": true,
+      "items": 10,
+      "fetchedAt": "2026-08-28T04:52:46.980Z"
+    },
+    {
+      "source": "alistapart",
+      "ok": true,
+      "items": 20,
+      "fetchedAt": "2026-08-28T04:52:46.980Z"
+    },
+    {
+      "source": "uxmatters",
+      "ok": true,
+      "items": 10,
+      "fetchedAt": "2026-08-28T04:52:46.981Z"
+    },
+    {
+      "source": "devto-ux",
+      "ok": true,
+      "items": 30,
+      "fetchedAt": "2026-08-28T04:52:46.981Z"
+    },
+    {
+      "source": "devto-design",
+      "ok": true,
+      "items": 30,
+      "fetchedAt": "2026-08-28T04:52:46.982Z"
+    },
+    {
+      "source": "hn-ux",
+      "ok": true,
+      "items": 8,
+      "fetchedAt": "2026-08-28T04:52:46.982Z"
+    },
+    {
+      "source": "hn-designsystem",
+      "ok": true,
+      "items": 34,
+      "fetchedAt": "2026-08-28T04:52:46.982Z"
+    },
+    {
+      "source": "arxiv-hci",
+      "ok": true,
+      "items": 30,
+      "fetchedAt": "2026-08-28T04:52:46.983Z"
+    },
+    {
+      "source": "gh-radix",
+      "ok": true,
+      "items": 0,
+      "fetchedAt": "2026-08-28T04:52:46.983Z"
+    },
+    {
+      "source": "gh-storybook",
+      "ok": true,
+      "items": 4,
+      "fetchedAt": "2026-08-28T04:52:46.983Z"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+name: Refresh topics
+
+# Provider-independent topic generation (PRD FR-2.2).
+# Runs on a schedule and on demand; commits public/topics.json when it changes.
+
+on:
+  schedule:
+    - cron: "0 */8 * * *" # every 8 hours
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-topics
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build topic manifest
+        env:
+          # Used only to raise GitHub API rate limits for release sources.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run topics:build
+
+      - name: Commit manifest if changed
+        run: |
+          if git diff --quiet -- public/topics.json; then
+            echo "No manifest changes."
+          else
+            git config user.name "topics-bot"
+            git config user.email "topics-bot@users.noreply.github.com"
+            git add public/topics.json
+            git commit -m "chore(topics): refresh manifest"
+            git push
+          fi

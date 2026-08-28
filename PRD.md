@@ -134,6 +134,7 @@ The user may bypass Today and Reflect by choosing **Start with a blank page**.
 | --- | --- | --- |
 | Today | Provider-independent topic pool | Claude-generated topics in local development |
 | Topic categories | 2 Latest, 2 Trending, 2 Under the Radar | 2 Breaking, 2 Trending, 2 Under the Radar |
+| Local topic desk | Honest evergreen fallback and optional inspiration mode | Standalone POC module with 24 curated prompts; not yet integrated |
 | Reflect | Five sequential pathways | Implemented with hosted AI plus deterministic fallback |
 | Write | Paragraph-based immersive manuscript | Implemented |
 | Fixed writing position | Active paragraph near 42% viewport height | Implemented with Anime.js |
@@ -143,6 +144,51 @@ The user may bypass Today and Reflect by choosing **Start with a blank page**.
 | Motion | Six reusable Anime.js behaviors | Implemented |
 | Production hosting | Static GitHub Pages deployment | Not yet configured |
 | Production AI calls | Secure proxy or explicit BYO-key path | Decision required |
+
+### POC findings and product implications
+
+The working POC validates the central Today → Reflect → Write → Review model and provides concrete evidence about which behaviors should remain, change, or be separated.
+
+#### Validated by the working interface
+
+- A direct **Start with a blank page** path protects the core writing job when inspiration or AI services are unavailable.
+- One pathway at a time creates a quieter self-interview than presenting five simultaneous cards.
+- A paragraph-based manuscript makes fixed-position writing, progressive paragraph quieting, and exact paragraph focus possible.
+- A separate Review surface preserves the manuscript as the authoritative object instead of turning it into chat history.
+- A 700ms debounced browser write is sufficient for the current single-author, small-document scope.
+- Centralizing motion in six named Anime.js behaviors makes the “motion serves stillness” rule enforceable.
+- A slim Article/LinkedIn and Reflective/Editorial utility bar is enough configuration for the current product.
+
+#### Validated by the local topic-desk experiment
+
+The `src/topics.ts` POC contains 24 manually curated prompts: four for each of the six product tags. A deterministic date seed selects a stable daily set, while an offset supports manual rotation. The selection algorithm attempts to show one prompt per tag before repeating a tag.
+
+This validates:
+
+- A useful inspiration experience can exist without any API or model.
+- Daily stability is preferable to random reordering on every render.
+- Manual Refresh should advance to a different deterministic set.
+- Tag diversity is a valuable selection constraint independent of recency.
+- The strongest curated content pattern is an observational tension in the title followed by an open reflective question in the teaser.
+- A maintained local pool is a credible fallback and a useful source of editorial calibration for live topic generation.
+
+#### POC limitations that must not become product claims
+
+- The local module is not currently connected to the Today view.
+- Its content is manually authored and does not become current merely because it rotates daily.
+- Breaking, Trending, and Under-the-Radar categories are assigned by array position rather than source evidence.
+- Labels such as “surfaced 2 days ago” are generated and do not represent publication dates.
+- Prompts have no source URL, provenance, engagement signal, or collection timestamp.
+- The generator does not currently persist seen IDs, so repetition across refresh offsets is possible.
+- Prompt records do not yet have stable IDs.
+- Some titles are complete observational sentences rather than short topic labels; this is appropriate for curated prompts but should not be confused with a source-backed news headline.
+- Continue and **Show me another angle** currently perform the same transition even though they communicate different intentions.
+- The reflection response includes an underlying angle, but the POC does not render it.
+- Review is returned as one preformatted text block; the seven editorial sections are not yet represented as structured UI data.
+- Repeating Review currently creates another draft snapshot without distinguishing a revision from a new draft.
+- Browser-storage read failures fall back safely, but write failures do not yet produce a visible persistence warning.
+
+The product must therefore distinguish **source-backed current topics** from **curated evergreen prompts**. Synthetic recency claims are prohibited outside prototypes.
 
 ## 9. Functional requirements
 
@@ -158,13 +204,15 @@ The Today view must present exactly six topics when the current topic pool conta
 
 Each topic must include:
 
-- A three-to-seven-word topic label.
+- A concise topic label, generally three to seven words for source-backed clusters.
 - A concise teaser under 200 characters.
 - One primary tag: Systems, Research, AI, Leadership, Process, or Ethics.
 - Category.
 - Earliest or most relevant publication date.
 - At least one source title and source URL.
 - A brief explanation of why the topic belongs in its category.
+
+Curated evergreen prompts may instead use a short observational sentence up to 90 characters followed by a reflective teaser. They must be visibly labeled as curated or evergreen and are not required to carry source-backed recency metadata.
 
 #### FR-1.2 Category definitions
 
@@ -198,6 +246,7 @@ Category logic must be deterministic and inspectable. A topic may qualify for mu
 - The interface displays the manifest's last-refreshed timestamp.
 - If generation fails, the last valid manifest remains available with a visible stale-state message.
 - If fewer than two qualified topics exist in a category, the product shows fewer results and explains why. It must not fabricate topics.
+- If no valid manifest exists, the product may offer the curated topic desk under an **Evergreen prompts** label without Latest, Trending, or Under-the-Radar claims.
 
 #### FR-1.4 Start without a topic
 
@@ -264,6 +313,21 @@ Initial ranking weights are tunable configuration rather than hard-coded product
 
 Category-specific adjustments may change the weighting. Under the Radar reduces the benefit of high coverage and rewards novelty and niche-source relevance.
 
+#### FR-2.6 Curated topic desk
+
+The curated desk is an offline fallback and may also become a deliberate inspiration mode.
+
+- The pool remains grouped across Systems, Research, AI, Leadership, Process, and Ethics.
+- The maintained pool contains at least four prompts per tag, matching the initial POC baseline; it can expand without changing selection logic.
+- Every curated prompt receives a stable ID and optional editorial version date.
+- A date-seeded deterministic shuffle provides a stable daily desk.
+- A persisted refresh offset and seen-ID history rotate the desk without unnecessary repetition.
+- Selection attempts one prompt per tag before allowing duplicate tags.
+- Curated prompts use an observational title and a question or tension-based teaser.
+- Curated prompts use the category **Evergreen**, not Latest, Trending, Breaking, or Under the Radar.
+- Generated “since” labels are not displayed for curated content.
+- Updating the pool is a lightweight editorial task and does not require rebuilding product logic.
+
 ### FR-3: Reflect
 
 #### FR-3.1 Sequential pathways
@@ -285,10 +349,12 @@ The reflection payload may also contain a one-sentence underlying angle. When sh
 - The user may write an optional response under each question.
 - Responses persist as part of the active session.
 - Continue advances to the next pathway.
+- **Show me another angle** replaces the current question with another prompt of the same pathway type; it does not duplicate Continue behavior.
 - The pathway trail shows visited, current, and future states.
 - Visited pathways remain selectable.
 - Future pathways remain unavailable until reached.
 - The final pathway offers **Enter the manuscript**.
+- Reflection responses remain private working notes and are not automatically inserted into the manuscript.
 
 #### FR-3.3 Prompt generation and fallback
 
@@ -307,6 +373,7 @@ The reflection payload may also contain a one-sentence underlying angle. When sh
 - Paragraph inputs have no visible conventional field borders.
 - Manuscript typography uses an editorial serif; utilities use sans serif.
 - The interface displays a subtle word count.
+- The word count includes the manuscript body but excludes the title; the POC currently counts both and should be aligned before release.
 - Mode, tone, save state, drafts, and export remain secondary.
 
 #### FR-4.2 Paragraph editing
@@ -353,6 +420,8 @@ The editorial review includes, in order:
 6. Two or three alternative titles.
 7. Three relevant hashtags when appropriate.
 
+The provider response should use a validated structured schema for these sections. The interface may render prose within a section, but it must not depend on parsing arbitrary heading text from one unstructured response.
+
 The review must flag buzzwords, performative claims, vague language, unsupported outcomes, and weak connections to systems or product consequences.
 
 #### FR-5.3 Mode and tone
@@ -393,6 +462,7 @@ The active session contains view, mode, tone, selected topic, pathways, pathway 
 - Draft records include a stable ID, title, timestamp, and manuscript content.
 - Selecting a draft restores its title and paragraphs into Write.
 - Requesting a successful review creates a draft snapshot in the current implementation.
+- Requesting Review again must update or intentionally version the existing snapshot rather than silently creating indistinguishable duplicates.
 
 Future consideration: explicit New, Save snapshot, Rename, and Delete actions. These are not required for initial V1 acceptance.
 
@@ -500,15 +570,19 @@ type TopicManifest = {
   generatedAt: string;
   windowStart: string;
   windowEnd: string;
-  topics: Topic[];
+  topics: SourceBackedTopic[];
   sourceHealth: SourceHealth[];
 };
 
-type Topic = {
+type TopicBase = {
   id: string;
   title: string;
   teaser: string;
   tag: "Systems" | "Research" | "AI" | "Leadership" | "Process" | "Ethics";
+};
+
+type SourceBackedTopic = TopicBase & {
+  origin: "source-backed";
   category: "Latest" | "Trending" | "Under the Radar";
   publishedAt: string;
   since: string;
@@ -520,6 +594,12 @@ type Topic = {
     url: string;
     publishedAt: string;
   }>;
+};
+
+type CuratedTopic = TopicBase & {
+  origin: "curated";
+  category: "Evergreen";
+  editorialVersion?: string;
 };
 ```
 
@@ -615,6 +695,7 @@ Avoid:
 - Missing configuration: explain the unavailable enrichment path and preserve blank writing.
 - Refresh failed with cached manifest: show cached topics and their age.
 - No qualified topics: explain that no current material met the relevance threshold.
+- No valid current manifest: offer clearly labeled Evergreen prompts, never simulated freshness labels.
 
 ### Reflection
 
@@ -676,6 +757,9 @@ Number of manuscripts reaching Review or Export per week.
 
 ### Phase 2: Inspiration intelligence
 
+- Integrate the local topic desk as an honest offline fallback.
+- Add stable curated-prompt IDs, persisted seen history, and deterministic refresh offsets.
+- Replace simulated recency labels with the Evergreen category.
 - Add source registry.
 - Add scheduled collection job.
 - Normalize and validate source records.
@@ -707,28 +791,32 @@ The target V1 is accepted when:
 2. Today loads a validated, source-backed topic manifest without Claude.
 3. Under normal source conditions, Today shows two Latest, two Trending, and two Under the Radar topics.
 4. Refresh favors unseen topics and never fabricates replacements.
-5. Topic failure does not block blank writing.
-6. Selecting a topic opens one reflection pathway at a time.
-7. All five pathway types are reachable and visited prompts remain navigable.
-8. Deterministic prompts are available when personalized prompt generation fails.
-9. The manuscript is borderless, paragraph-based, and visually primary.
-10. The active paragraph returns near the fixed writing position.
-11. Older paragraphs remain readable while becoming visually quieter.
-12. All six Anime.js behaviors are wired and reduced motion is respected.
-13. The active session persists across a browser reload.
-14. Recent draft snapshots persist and reopen correctly.
-15. Review appears separately from the manuscript and does not convert writing into chat.
-16. Review failure preserves writing and export.
-17. Markdown and text exports contain the complete title and manuscript.
-18. No production API secret exists in the client bundle.
-19. Keyboard navigation and visible focus work across the primary flow.
-20. Source provenance, refresh age, and category reasoning are visible for every topic.
+5. When no current manifest is available, the local topic desk displays six honestly labeled Evergreen prompts without simulated dates.
+6. Manual Refresh changes the deterministic set and prioritizes unseen prompt IDs.
+7. Topic failure does not block blank writing.
+8. Selecting a topic opens one reflection pathway at a time.
+9. All five pathway types are reachable and visited prompts remain navigable.
+10. Show me another angle changes the current pathway prompt instead of advancing.
+11. Deterministic prompts are available when personalized prompt generation fails.
+12. The manuscript is borderless, paragraph-based, and visually primary.
+13. The active paragraph returns near the fixed writing position.
+14. Older paragraphs remain readable while becoming visually quieter.
+15. All six Anime.js behaviors are wired and reduced motion is respected.
+16. The active session persists across a browser reload.
+17. Recent draft snapshots persist and reopen correctly.
+18. Review appears separately from the manuscript and does not convert writing into chat.
+19. Review failure preserves writing and export.
+20. Markdown and text exports contain the complete title and manuscript.
+21. No production API secret exists in the client bundle.
+22. Keyboard navigation and visible focus work across the primary flow.
+23. Source provenance, refresh age, and category reasoning are visible for every source-backed topic.
 
 ## 18. Risks and mitigations
 
 | Risk | Impact | Mitigation |
 | --- | --- | --- |
 | Sparse UX-specific activity in a short window | Categories may lack two honest topics | Use diverse sources, show fewer topics honestly, retain relevant cached material |
+| Curated prompts are mistaken for live industry signals | Loss of trust | Separate Evergreen origin and prohibit synthetic recency claims |
 | “Trending” based on weak engagement data | Misleading category | Combine source diversity, rising states, and time-based velocity; display category reason |
 | Under-the-radar ranking becomes arbitrary | Low trust | Require high relevance and expose source count and reason |
 | Feed/API changes or rate limits | Refresh failures | Source adapters, health reporting, per-source failure isolation, cached manifest |
@@ -750,6 +838,7 @@ The target V1 is accepted when:
 7. Is Claude retained for critique, or should the provider adapter support multiple hosted and local models at launch?
 8. When should a manuscript become a durable draft snapshot: review, explicit save, navigation away, or a time interval?
 9. Should optional typewriter sound and monospaced typography be included after the silent experience is validated?
+10. Should the curated desk remain a fallback only, or appear as a user-selectable Evergreen mode beside current topics?
 
 ## 20. Decisions already made
 
@@ -764,4 +853,5 @@ The target V1 is accepted when:
 - A multi-source scheduled pipeline is preferred over RSS alone.
 - Hugging Face is used for optional local enrichment rather than as a required hosted content source.
 - Refresh prioritizes unseen topics but does not pretend sources changed when they did not.
+- The local topic pool is valuable as an Evergreen desk, but its generated recency labels are not product truth.
 - Static, free, low-maintenance hosting remains a product constraint.
