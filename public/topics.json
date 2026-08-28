@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-28T04:52:46.961Z",
-  "windowStart": "2026-07-29T04:52:46.961Z",
-  "windowEnd": "2026-08-28T04:52:46.961Z",
+  "generatedAt": "2026-08-28T20:07:56.789Z",
+  "windowStart": "2026-07-29T20:07:56.789Z",
+  "windowEnd": "2026-08-28T20:07:56.789Z",
   "topics": [
     {
       "id": "4b9f1fcb7e72",
@@ -14,7 +14,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "41 engagement signals within 4 days",
+      "categoryReason": "42 engagement signals within 4 days",
       "sources": [
         {
           "name": "devto-design",
@@ -34,7 +34,7 @@
       "publishedAt": "2026-08-26T16:40:01.000Z",
       "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "74 engagement signals within 2 days",
+      "categoryReason": "75 engagement signals within 2 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T03:17:55.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -92,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T21:51:09.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T17:12:03.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -218,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-24T06:48:00.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -298,9 +298,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -358,9 +358,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T18:11:38.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -398,15 +398,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T17:51:57.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "How well do agents use your design system?",
           "url": "https://www.sanity.io/engineering/design-system-evals",
           "publishedAt": "2026-08-26T17:51:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7d6e4a313de2",
+      "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+      "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-28T00:57:31.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+          "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
+          "publishedAt": "2026-08-28T00:57:31.000Z"
         }
       ]
     },
@@ -458,9 +478,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T17:28:36.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -478,9 +498,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T05:06:25.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -511,46 +531,6 @@
       ]
     },
     {
-      "id": "fdc0487b0c2c",
-      "title": "Show HN: LettersPractice – Teach your child to read with a modified SRS engine",
-      "teaser": "Hi everyone. 2nd submission attempt here of a very-indie, very-passion project after a no-op first try. Backstory: ~10 years ago I started tinkering with a web based platform for experimenti",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T14:51:40.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: LettersPractice – Teach your child to read with a modified SRS engine",
-          "url": "https://letterspractice.com/",
-          "publishedAt": "2026-08-07T14:51:40.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7d6e4a313de2",
-      "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
-      "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-28T00:57:31.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
-          "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
-          "publishedAt": "2026-08-28T00:57:31.000Z"
-        }
-      ]
-    },
-    {
       "id": "16003594740a",
       "title": "From Producing to Validating: How AI Is Deskilling Freelancers",
       "teaser": "Generative AI is promoted as a way to enhance knowledge work, yet its benefits and drawbacks fall unevenly across the workforce. Freelance and gig workers, who commonly lack the upskilling p",
@@ -558,9 +538,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T17:51:34.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -640,7 +620,7 @@
       "publishedAt": "2026-08-20T03:23:01.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-design",
@@ -658,9 +638,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T22:13:04.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -678,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -698,9 +678,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -718,9 +698,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-23T20:37:16.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -751,6 +731,26 @@
       ]
     },
     {
+      "id": "a63a4cf7812f",
+      "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
+      "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T10:58:39.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
+          "url": "https://dev.to/ilyas_elaissi/10-ux-design-patterns-every-developer-should-know-and-when-to-skip-them-3olm",
+          "publishedAt": "2026-08-11T10:58:39.000Z"
+        }
+      ]
+    },
+    {
       "id": "b2fa9b4faa22",
       "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
       "teaser": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale ",
@@ -767,26 +767,6 @@
           "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
           "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
           "publishedAt": "2026-08-11T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "360b69c58d9b",
-      "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
-      "teaser": "As AI reshapes product design, it could give designers greater autonomy or expose the gaps that autonomy makes harder to hide. Exploring both the bull and bear cases, Andy Budd examines what",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-07-29T13:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "The Bull And Bear Case For Digital Design In The Age Of AI",
-          "url": "https://smashingmagazine.com/2026/07/bull-and-bear-case-digital-design-age-ai/",
-          "publishedAt": "2026-07-29T13:00:00.000Z"
         }
       ]
     },
@@ -840,7 +820,7 @@
       "publishedAt": "2026-08-07T02:31:04.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -860,33 +840,13 @@
       "publishedAt": "2026-08-14T05:43:34.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Framework: The first ePaper design system",
           "url": "https://trmnl.com/blog/framework-design-system",
           "publishedAt": "2026-08-14T05:43:34.000Z"
-        }
-      ]
-    },
-    {
-      "id": "69c2e9207d09",
-      "title": "Dogfooding vs. QA vs. User Research",
-      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T17:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Dogfooding vs. QA vs. User Research",
-          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-07T17:00:00.000Z"
         }
       ]
     },
@@ -920,33 +880,13 @@
       "publishedAt": "2026-08-11T17:46:21.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "TRMNL ePaper Design System",
           "url": "https://github.com/usetrmnl/trmnl-framework",
           "publishedAt": "2026-08-11T17:46:21.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e6cab93ed3a3",
-      "title": "How I Cut UX Review Cycles 30% with an AI Agent: ai agent ux review flutter",
-      "teaser": "Cut Flutter UX review cycles by 30%. See how my custom ai agent ux review flutter identifies forgotten UI elements and product details before human review.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-09T05:01:36.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "How I Cut UX Review Cycles 30% with an AI Agent: ai agent ux review flutter",
-          "url": "https://dev.to/umair24171/how-i-cut-ux-review-cycles-30-with-an-ai-agent-ai-agent-ux-review-flutter-14pm",
-          "publishedAt": "2026-08-09T05:01:36.000Z"
         }
       ]
     },
@@ -967,6 +907,26 @@
           "title": "Show HN: Chain – A Python-like language with native inline C++",
           "url": "https://github.com/Nebania/chain-lang",
           "publishedAt": "2026-08-11T15:18:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fdc0487b0c2c",
+      "title": "Show HN: LettersPractice – Teach your child to read with a modified SRS engine",
+      "teaser": "Hi everyone. 2nd submission attempt here of a very-indie, very-passion project after a no-op first try. Backstory: ~10 years ago I started tinkering with a web based platform for experimenti",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T14:51:40.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: LettersPractice – Teach your child to read with a modified SRS engine",
+          "url": "https://letterspractice.com/",
+          "publishedAt": "2026-08-07T14:51:40.000Z"
         }
       ]
     },
@@ -1009,6 +969,46 @@
           "publishedAt": "2026-08-07T11:33:15.000Z"
         }
       ]
+    },
+    {
+      "id": "58b5d16c8868",
+      "title": "No New Name Has Replaced “UX”",
+      "teaser": "A survey of 604 tech and design professionals found that “UX” remains the default name for our field, while alternative names remain fragmented.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-07-31T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "No New Name Has Replaced “UX”",
+          "url": "https://www.nngroup.com/articles/no-new-name-ux/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-07-31T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "69c2e9207d09",
+      "title": "Dogfooding vs. QA vs. User Research",
+      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T17:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Dogfooding vs. QA vs. User Research",
+          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-07T17:00:00.000Z"
+        }
+      ]
     }
   ],
   "sourceHealth": [
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-08-28T04:52:46.962Z"
+      "fetchedAt": "2026-08-28T20:07:56.790Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-28T04:52:46.979Z"
+      "fetchedAt": "2026-08-28T20:07:56.826Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-28T04:52:46.980Z"
+      "fetchedAt": "2026-08-28T20:07:56.827Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-28T04:52:46.980Z"
+      "fetchedAt": "2026-08-28T20:07:56.828Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-28T04:52:46.981Z"
+      "fetchedAt": "2026-08-28T20:07:56.828Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-28T04:52:46.981Z"
+      "fetchedAt": "2026-08-28T20:07:56.829Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-28T04:52:46.982Z"
+      "fetchedAt": "2026-08-28T20:07:56.830Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-08-28T04:52:46.982Z"
+      "fetchedAt": "2026-08-28T20:07:56.830Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-08-28T04:52:46.982Z"
+      "fetchedAt": "2026-08-28T20:07:56.831Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-28T04:52:46.983Z"
+      "fetchedAt": "2026-08-28T20:07:56.832Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-08-28T04:52:46.983Z"
+      "fetchedAt": "2026-08-28T20:07:56.832Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-08-28T04:52:46.983Z"
+      "fetchedAt": "2026-08-28T20:07:56.833Z"
     }
   ]
 }
