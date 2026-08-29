@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-28T20:07:56.789Z",
-  "windowStart": "2026-07-29T20:07:56.789Z",
-  "windowEnd": "2026-08-28T20:07:56.789Z",
+  "generatedAt": "2026-08-29T06:42:51.961Z",
+  "windowStart": "2026-07-30T06:42:51.961Z",
+  "windowEnd": "2026-08-29T06:42:51.961Z",
   "topics": [
     {
       "id": "4b9f1fcb7e72",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-08-24T16:45:48.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "42 engagement signals within 4 days",
+      "categoryReason": "42 engagement signals within 5 days",
       "sources": [
         {
           "name": "devto-design",
@@ -32,9 +32,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-08-26T16:40:01.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "75 engagement signals within 2 days",
+      "categoryReason": "80 engagement signals within 3 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -52,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T12:34:59.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T17:12:03.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -138,9 +138,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T11:18:37.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -158,9 +158,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-18T14:01:54.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 10 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -178,9 +178,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-24T11:15:25.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -198,9 +198,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-23T09:35:34.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -231,6 +231,26 @@
       ]
     },
     {
+      "id": "03201d525f0c",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Custodial Era of UX: Cleaning Up After AI",
+          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-28T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "99f15730f1d2",
       "title": "Free Accessibility Certifications and Courses",
       "teaser": "Originally published on A11y News: 6 free, self-paced courses to take this summer Nowadays...",
@@ -240,7 +260,7 @@
       "publishedAt": "2026-08-15T13:06:30.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -260,7 +280,7 @@
       "publishedAt": "2026-08-13T12:26:56.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -280,7 +300,7 @@
       "publishedAt": "2026-08-12T15:20:19.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -318,9 +338,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T11:18:39.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -340,7 +360,7 @@
       "publishedAt": "2026-08-06T16:01:53.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 22 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -358,9 +378,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T18:11:38.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -378,9 +398,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-18T16:14:40.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -398,9 +418,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T17:51:57.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -438,9 +458,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T15:48:39.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -458,9 +478,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T15:21:51.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -478,9 +498,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T17:28:36.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -520,7 +540,7 @@
       "publishedAt": "2026-08-07T11:43:24.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -538,9 +558,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T17:51:34.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -558,9 +578,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T13:14:30.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -578,9 +598,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T13:00:00.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -598,9 +618,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T09:19:17.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -718,35 +738,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-23T11:22:08.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Nobody wants a blank page. Nobody touches a perfect one.",
           "url": "https://uxdesign.cc/nobody-wants-a-blank-page-nobody-touches-a-perfect-one-48d452a26dae?source=rss----138adf9c44c---4",
           "publishedAt": "2026-08-23T11:22:08.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a63a4cf7812f",
-      "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
-      "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-11T10:58:39.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
-          "url": "https://dev.to/ilyas_elaissi/10-ux-design-patterns-every-developer-should-know-and-when-to-skip-them-3olm",
-          "publishedAt": "2026-08-11T10:58:39.000Z"
         }
       ]
     },
@@ -758,9 +758,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-11T10:00:00.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 18 days",
       "sources": [
         {
           "name": "smashing",
@@ -778,15 +778,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-04T08:43:32.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Conference October Announced (Oct 26 - Oct 29)",
           "url": "https://www.nngroup.com/training/october-eu/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-08-04T08:43:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "91d36d862777",
+      "title": "Framework: The first ePaper design system",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-14T05:43:34.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Framework: The first ePaper design system",
+          "url": "https://trmnl.com/blog/framework-design-system",
+          "publishedAt": "2026-08-14T05:43:34.000Z"
         }
       ]
     },
@@ -800,7 +820,7 @@
       "publishedAt": "2026-08-05T10:30:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -831,26 +851,6 @@
       ]
     },
     {
-      "id": "91d36d862777",
-      "title": "Framework: The first ePaper design system",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-14T05:43:34.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Framework: The first ePaper design system",
-          "url": "https://trmnl.com/blog/framework-design-system",
-          "publishedAt": "2026-08-14T05:43:34.000Z"
-        }
-      ]
-    },
-    {
       "id": "4cfc06a222ed",
       "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
       "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
@@ -860,7 +860,7 @@
       "publishedAt": "2026-08-13T12:30:43.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -878,9 +878,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-11T17:46:21.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -898,9 +898,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-11T15:18:28.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -920,7 +920,7 @@
       "publishedAt": "2026-08-07T14:51:40.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -940,7 +940,7 @@
       "publishedAt": "2026-08-06T13:48:06.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -960,7 +960,7 @@
       "publishedAt": "2026-08-07T11:33:15.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -971,22 +971,22 @@
       ]
     },
     {
-      "id": "58b5d16c8868",
-      "title": "No New Name Has Replaced “UX”",
-      "teaser": "A survey of 604 tech and design professionals found that “UX” remains the default name for our field, while alternative names remain fragmented.",
-      "tag": "AI",
+      "id": "a63a4cf7812f",
+      "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
+      "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
+      "tag": "Process",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-07-31T17:00:00.000Z",
-      "since": "4 weeks ago",
+      "publishedAt": "2026-08-11T10:58:39.000Z",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
-          "name": "nngroup",
-          "title": "No New Name Has Replaced “UX”",
-          "url": "https://www.nngroup.com/articles/no-new-name-ux/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-07-31T17:00:00.000Z"
+          "name": "devto-ux",
+          "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
+          "url": "https://dev.to/ilyas_elaissi/10-ux-design-patterns-every-developer-should-know-and-when-to-skip-them-3olm",
+          "publishedAt": "2026-08-11T10:58:39.000Z"
         }
       ]
     },
@@ -1000,7 +1000,7 @@
       "publishedAt": "2026-08-07T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "nngroup",
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-08-28T20:07:56.790Z"
+      "fetchedAt": "2026-08-29T06:42:51.962Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-28T20:07:56.826Z"
+      "fetchedAt": "2026-08-29T06:42:52.008Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-28T20:07:56.827Z"
+      "fetchedAt": "2026-08-29T06:42:52.009Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-28T20:07:56.828Z"
+      "fetchedAt": "2026-08-29T06:42:52.010Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-28T20:07:56.828Z"
+      "fetchedAt": "2026-08-29T06:42:52.011Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-28T20:07:56.829Z"
+      "fetchedAt": "2026-08-29T06:42:52.012Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-28T20:07:56.830Z"
+      "fetchedAt": "2026-08-29T06:42:52.013Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-08-28T20:07:56.830Z"
+      "fetchedAt": "2026-08-29T06:42:52.013Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-08-28T20:07:56.831Z"
+      "fetchedAt": "2026-08-29T06:42:52.014Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-28T20:07:56.832Z"
+      "fetchedAt": "2026-08-29T06:42:52.015Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-08-28T20:07:56.832Z"
+      "fetchedAt": "2026-08-29T06:42:52.016Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-08-28T20:07:56.833Z"
+      "fetchedAt": "2026-08-29T06:42:52.016Z"
     }
   ]
 }
