@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T13:45:52.594Z",
-  "windowStart": "2026-07-30T13:45:52.594Z",
-  "windowEnd": "2026-08-29T13:45:52.594Z",
+  "generatedAt": "2026-08-29T19:20:23.815Z",
+  "windowStart": "2026-07-30T19:20:23.815Z",
+  "windowEnd": "2026-08-29T19:20:23.815Z",
   "topics": [
     {
       "id": "4b9f1fcb7e72",
@@ -14,7 +14,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "5 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "42 engagement signals within 5 days",
+      "categoryReason": "43 engagement signals within 5 days",
       "sources": [
         {
           "name": "devto-design",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T03:17:55.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -218,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-24T06:48:00.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -498,9 +498,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T05:06:25.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -640,7 +640,7 @@
       "publishedAt": "2026-08-20T03:23:01.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-design",
@@ -800,7 +800,7 @@
       "publishedAt": "2026-08-14T05:43:34.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -951,26 +951,6 @@
       ]
     },
     {
-      "id": "58b5d16c8868",
-      "title": "No New Name Has Replaced “UX”",
-      "teaser": "A survey of 604 tech and design professionals found that “UX” remains the default name for our field, while alternative names remain fragmented.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-07-31T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "No New Name Has Replaced “UX”",
-          "url": "https://www.nngroup.com/articles/no-new-name-ux/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-07-31T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "a63a4cf7812f",
       "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
       "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
@@ -1009,6 +989,26 @@
           "publishedAt": "2026-08-07T17:00:00.000Z"
         }
       ]
+    },
+    {
+      "id": "58b5d16c8868",
+      "title": "No New Name Has Replaced “UX”",
+      "teaser": "A survey of 604 tech and design professionals found that “UX” remains the default name for our field, while alternative names remain fragmented.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-07-31T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "No New Name Has Replaced “UX”",
+          "url": "https://www.nngroup.com/articles/no-new-name-ux/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-07-31T17:00:00.000Z"
+        }
+      ]
     }
   ],
   "sourceHealth": [
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-08-29T13:45:52.594Z"
+      "fetchedAt": "2026-08-29T19:20:23.816Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-29T13:45:52.632Z"
+      "fetchedAt": "2026-08-29T19:20:23.867Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-29T13:45:52.633Z"
+      "fetchedAt": "2026-08-29T19:20:23.868Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-29T13:45:52.634Z"
+      "fetchedAt": "2026-08-29T19:20:23.869Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-29T13:45:52.635Z"
+      "fetchedAt": "2026-08-29T19:20:23.870Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-29T13:45:52.636Z"
+      "fetchedAt": "2026-08-29T19:20:23.871Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-29T13:45:52.637Z"
+      "fetchedAt": "2026-08-29T19:20:23.872Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 8,
-      "fetchedAt": "2026-08-29T13:45:52.637Z"
+      "items": 7,
+      "fetchedAt": "2026-08-29T19:20:23.873Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-08-29T13:45:52.638Z"
+      "fetchedAt": "2026-08-29T19:20:23.874Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-29T13:45:52.639Z"
+      "fetchedAt": "2026-08-29T19:20:23.875Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-08-29T13:45:52.639Z"
+      "fetchedAt": "2026-08-29T19:20:23.875Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-08-29T13:45:52.640Z"
+      "fetchedAt": "2026-08-29T19:20:23.877Z"
     }
   ]
 }
