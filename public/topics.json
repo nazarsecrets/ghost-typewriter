@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29T06:42:51.961Z",
-  "windowStart": "2026-07-30T06:42:51.961Z",
-  "windowEnd": "2026-08-29T06:42:51.961Z",
+  "generatedAt": "2026-08-29T13:45:52.594Z",
+  "windowStart": "2026-07-30T13:45:52.594Z",
+  "windowEnd": "2026-08-29T13:45:52.594Z",
   "topics": [
     {
       "id": "4b9f1fcb7e72",
@@ -92,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T21:51:09.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -231,26 +231,6 @@
       ]
     },
     {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "99f15730f1d2",
       "title": "Free Accessibility Certifications and Courses",
       "teaser": "Originally published on A11y News: 6 free, self-paced courses to take this summer Nowadays...",
@@ -318,9 +298,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -438,9 +418,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-28T00:57:31.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -547,6 +527,26 @@
           "title": "Design Systems in the Age of AI: Five Working Hypotheses",
           "url": "https://uxdesignresearch.org/en/5-hypotheses/",
           "publishedAt": "2026-08-07T11:43:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "03201d525f0c",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Custodial Era of UX: Cleaning Up After AI",
+          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-28T17:00:00.000Z"
         }
       ]
     },
@@ -658,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T22:13:04.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -678,9 +678,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -698,9 +698,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -718,9 +718,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-23T20:37:16.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -827,26 +827,6 @@
           "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
           "url": "https://dev.to/vitoriazzp/o-abismo-entre-cuidar-do-usuario-e-vender-atencao-por-que-precisamos-falar-sobre-dark-patterns-5h1h",
           "publishedAt": "2026-08-05T10:30:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "ada6df0ec699",
-      "title": "Show HN: Open-source pixel art editor with animation and auto-tiling tilesets",
-      "teaser": "Hi HN! I built a free pixel art editor that runs entirely in the browser — no install, no signup, no watermark. The frontend is open source (MIT): https:&#x2F;&#x2F;github.com&#x2F;comficker",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T02:31:04.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Open-source pixel art editor with animation and auto-tiling tilesets",
-          "url": "https://simplepixelart.com/editor",
-          "publishedAt": "2026-08-07T02:31:04.000Z"
         }
       ]
     },
@@ -971,6 +951,26 @@
       ]
     },
     {
+      "id": "58b5d16c8868",
+      "title": "No New Name Has Replaced “UX”",
+      "teaser": "A survey of 604 tech and design professionals found that “UX” remains the default name for our field, while alternative names remain fragmented.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-07-31T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "No New Name Has Replaced “UX”",
+          "url": "https://www.nngroup.com/articles/no-new-name-ux/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-07-31T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "a63a4cf7812f",
       "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
       "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-08-29T06:42:51.962Z"
+      "fetchedAt": "2026-08-29T13:45:52.594Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-29T06:42:52.008Z"
+      "fetchedAt": "2026-08-29T13:45:52.632Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-29T06:42:52.009Z"
+      "fetchedAt": "2026-08-29T13:45:52.633Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-29T06:42:52.010Z"
+      "fetchedAt": "2026-08-29T13:45:52.634Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-29T06:42:52.011Z"
+      "fetchedAt": "2026-08-29T13:45:52.635Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-29T06:42:52.012Z"
+      "fetchedAt": "2026-08-29T13:45:52.636Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-29T06:42:52.013Z"
+      "fetchedAt": "2026-08-29T13:45:52.637Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-08-29T06:42:52.013Z"
+      "fetchedAt": "2026-08-29T13:45:52.637Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-08-29T06:42:52.014Z"
+      "fetchedAt": "2026-08-29T13:45:52.638Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-29T06:42:52.015Z"
+      "fetchedAt": "2026-08-29T13:45:52.639Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-08-29T06:42:52.016Z"
+      "fetchedAt": "2026-08-29T13:45:52.639Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-08-29T06:42:52.016Z"
+      "fetchedAt": "2026-08-29T13:45:52.640Z"
     }
   ]
 }
