@@ -1,9 +1,69 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-30T19:14:27.662Z",
-  "windowStart": "2026-07-31T19:14:27.662Z",
-  "windowEnd": "2026-08-30T19:14:27.662Z",
+  "generatedAt": "2026-08-31T04:59:45.222Z",
+  "windowStart": "2026-08-01T04:59:45.222Z",
+  "windowEnd": "2026-08-31T04:59:45.222Z",
   "topics": [
+    {
+      "id": "d3475012c758",
+      "title": "Neuroqueering design practice",
+      "teaser": "A look into design as a craft through the lens of neuroqueering. Illustration by Kristina Gushcheva-Keippilä I remember reading Robert Chapman’s Empire of Normality at a strange threshold: i",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-30T21:46:34.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Neuroqueering design practice",
+          "url": "https://uxdesign.cc/neuroqueering-design-practice-9e2aaf4dd2e5?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-30T21:46:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d59d17c45e7e",
+      "title": "Rethinking success beyond the corporate stairs in the world of design",
+      "teaser": "How AI, metrics, and career anxiety are reshaping design An endless staircase for endless metrics. Planning a linear ten-year ascent assumes the steps will remain stable. When corporate stai",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-30T19:20:13.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Rethinking success beyond the corporate stairs in the world of design",
+          "url": "https://uxdesign.cc/rethinking-success-beyond-the-corporate-stairs-in-the-world-of-design-ae9d10521105?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-30T19:20:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5689c337db6c",
+      "title": "Deceptive Patterns as a Sociotechnical Phenomenon: Review, Catalog, and Discussion",
+      "teaser": "Background: Deceptive patterns are interface design strategies aimed at misleading users or favoring specific interests, compromising user experiences and ethical privacy principles. These p",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-27T20:15:20.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Deceptive Patterns as a Sociotechnical Phenomenon: Review, Catalog, and Discussion",
+          "url": "https://arxiv.org/abs/2608.27684v1",
+          "publishedAt": "2026-08-27T20:15:20.000Z"
+        }
+      ]
+    },
     {
       "id": "4b9f1fcb7e72",
       "title": "Best UI/UX Design Tools I Keep Coming Back to as a Designer",
@@ -12,9 +72,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-08-24T16:45:48.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "43 engagement signals within 6 days",
+      "categoryReason": "44 engagement signals within 7 days",
       "sources": [
         {
           "name": "devto-design",
@@ -32,9 +92,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-08-26T16:40:01.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "82 engagement signals within 4 days",
+      "categoryReason": "82 engagement signals within 5 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -52,15 +112,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T12:34:59.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Invader – an indie iOS podcast player that never phones home",
           "url": "https://invader.gg/",
           "publishedAt": "2026-08-27T12:34:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ac7030c04bc3",
+      "title": "Between Algorithm (AI) and Intuition (Human): Preserving Designer Agency in AI-Assisted Sensemaking of Qualitative UX Data",
+      "teaser": "The integration of AI into qualitative design research presents a fundamental tension: how do we leverage AI while preserving the subjective, intuitive judgments that define design expertise",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-28T15:05:48.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Between Algorithm (AI) and Intuition (Human): Preserving Designer Agency in AI-Assisted Sensemaking of Qualitative UX Data",
+          "url": "https://arxiv.org/abs/2608.28420v1",
+          "publishedAt": "2026-08-28T15:05:48.000Z"
         }
       ]
     },
@@ -138,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T11:18:37.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -160,7 +240,7 @@
       "publishedAt": "2026-08-18T14:01:54.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 12 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -178,35 +258,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-24T11:15:25.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "No log off, How to become an AI Designer, vibe coded portfolios",
-          "url": "https://uxdesign.cc/no-log-off-how-to-become-an-ai-designer-vibe-coded-portfolios-deb7ca0e0f5d?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-24T11:15:25.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9bb8fbde9f3d",
-      "title": "Sterling Cooper built your UX process. We need to redefine it in the age of AI and systems.",
-      "teaser": "Modern creative work was assembled in the mid-century ad agency, and UX inherited the whole show. Now is time for a reset in the age of AI. AI assisted. The rituals of the 1960s ad shop — th",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-23T09:35:34.000Z",
       "since": "1 week ago",
       "relevanceScore": 1,
       "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "Sterling Cooper built your UX process. We need to redefine it in the age of AI and systems.",
-          "url": "https://uxdesign.cc/sterling-cooper-built-your-ux-process-we-need-to-redefine-it-in-the-age-of-ai-and-systems-520a2d3b2a60?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-23T09:35:34.000Z"
+          "title": "No log off, How to become an AI Designer, vibe coded portfolios",
+          "url": "https://uxdesign.cc/no-log-off-how-to-become-an-ai-designer-vibe-coded-portfolios-deb7ca0e0f5d?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-24T11:15:25.000Z"
         }
       ]
     },
@@ -240,13 +300,33 @@
       "publishedAt": "2026-08-15T13:06:30.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 16 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Free Accessibility Certifications and Courses",
           "url": "https://dev.to/laura-wissiak/free-accessibility-certifications-and-courses-nb7",
           "publishedAt": "2026-08-15T13:06:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "77d4f44e5f66",
+      "title": "User Preferences for UI Anchoring in MR: Effects of Task Mobility and Interface Properties",
+      "teaser": "Anchoring - the choice of frame of reference for mixed reality (MR) interface elements - is a critical design decision involving trade-offs between accessibility, interaction comfort, and vi",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-28T08:34:10.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "User Preferences for UI Anchoring in MR: Effects of Task Mobility and Interface Properties",
+          "url": "https://arxiv.org/abs/2608.28064v1",
+          "publishedAt": "2026-08-28T08:34:10.000Z"
         }
       ]
     },
@@ -258,9 +338,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-13T12:26:56.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -280,7 +360,7 @@
       "publishedAt": "2026-08-12T15:20:19.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -318,9 +398,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T11:18:39.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -338,9 +418,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-06T16:01:53.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 24 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -371,6 +451,26 @@
       ]
     },
     {
+      "id": "7d6e4a313de2",
+      "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+      "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-28T00:57:31.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+          "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
+          "publishedAt": "2026-08-28T00:57:31.000Z"
+        }
+      ]
+    },
+    {
       "id": "e92441db722a",
       "title": "Design tokens: The building blocks of a design system",
       "teaser": "",
@@ -380,7 +480,7 @@
       "publishedAt": "2026-08-18T16:14:40.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -411,26 +511,6 @@
       ]
     },
     {
-      "id": "7d6e4a313de2",
-      "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
-      "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-28T00:57:31.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
-          "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
-          "publishedAt": "2026-08-28T00:57:31.000Z"
-        }
-      ]
-    },
-    {
       "id": "3c7aee57685a",
       "title": "BrailleBench: Investigating Multi-Criteria Braille Comprehension in Large Language Models",
       "teaser": "Although Large language models (LLMs) mediate access to knowledge and computational assistance, their capabilities should benefit vulnerable groups in the same way. However, it is unclear wh",
@@ -438,9 +518,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T15:48:39.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -458,35 +538,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T15:21:51.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "A Point-of-Prescription Safety-Check System for Adverse Drug Reactions in Rural Bangladeshi Hospitals: A Feasibility Study",
-          "url": "https://arxiv.org/abs/2608.27239v1",
-          "publishedAt": "2026-08-27T15:21:51.000Z"
-        }
-      ]
-    },
-    {
-      "id": "78e76534c11c",
-      "title": "\"A Second Set of Eyes\": The Process and Challenges of Software Documentation Review",
-      "teaser": "Organizations assign documentation work to technical writers, yet the knowledge required to produce it is distributed across developers, managers, and other practitioners. Prior work has est",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-26T17:28:36.000Z",
       "since": "4 days ago",
       "relevanceScore": 0.571,
       "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "\"A Second Set of Eyes\": The Process and Challenges of Software Documentation Review",
-          "url": "https://arxiv.org/abs/2608.26232v1",
-          "publishedAt": "2026-08-26T17:28:36.000Z"
+          "title": "A Point-of-Prescription Safety-Check System for Adverse Drug Reactions in Rural Bangladeshi Hospitals: A Feasibility Study",
+          "url": "https://arxiv.org/abs/2608.27239v1",
+          "publishedAt": "2026-08-27T15:21:51.000Z"
         }
       ]
     },
@@ -520,7 +580,7 @@
       "publishedAt": "2026-08-07T11:43:24.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -551,46 +611,6 @@
       ]
     },
     {
-      "id": "16003594740a",
-      "title": "From Producing to Validating: How AI Is Deskilling Freelancers",
-      "teaser": "Generative AI is promoted as a way to enhance knowledge work, yet its benefits and drawbacks fall unevenly across the workforce. Freelance and gig workers, who commonly lack the upskilling p",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-26T17:51:34.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "From Producing to Validating: How AI Is Deskilling Freelancers",
-          "url": "https://arxiv.org/abs/2608.26089v1",
-          "publishedAt": "2026-08-26T17:51:34.000Z"
-        }
-      ]
-    },
-    {
-      "id": "2af7bf291caa",
-      "title": "Large Language Model Few-Shot Prompting with Dilemma Training Outperforms Human Surrogates in Predicting Patient Preferences",
-      "teaser": "In serious illness, human surrogates often struggle to accurately predict patient preferences (68% accuracy), causing decision conflict. Personalized Patient Preference Predictor (P4) agents",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-26T13:14:30.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Large Language Model Few-Shot Prompting with Dilemma Training Outperforms Human Surrogates in Predicting Patient Preferences",
-          "url": "https://arxiv.org/abs/2608.25771v1",
-          "publishedAt": "2026-08-26T13:14:30.000Z"
-        }
-      ]
-    },
-    {
       "id": "7c2f71191b75",
       "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
       "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
@@ -598,35 +618,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T13:00:00.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "smashing",
           "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
           "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
           "publishedAt": "2026-08-26T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "91dce4eb52d0",
-      "title": "Maru: Information Architecture as a Shared Language for Generating Aligned and Persistent User Interfaces",
-      "teaser": "Generative user interfaces (GenUIs) promise on-demand components tailored to users' needs. As users iterate on information tasks, they construct personal structures over information they enc",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-26T09:19:17.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Maru: Information Architecture as a Shared Language for Generating Aligned and Persistent User Interfaces",
-          "url": "https://arxiv.org/abs/2608.25565v1",
-          "publishedAt": "2026-08-26T09:19:17.000Z"
         }
       ]
     },
@@ -731,26 +731,6 @@
       ]
     },
     {
-      "id": "df9bd11e9d1f",
-      "title": "Nobody wants a blank page. Nobody touches a perfect one.",
-      "teaser": "Why people can&#x2019;t begin from nothing, and won&#x2019;t touch anything finished. Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-23T11:22:08.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Nobody wants a blank page. Nobody touches a perfect one.",
-          "url": "https://uxdesign.cc/nobody-wants-a-blank-page-nobody-touches-a-perfect-one-48d452a26dae?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-23T11:22:08.000Z"
-        }
-      ]
-    },
-    {
       "id": "b2fa9b4faa22",
       "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
       "teaser": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale ",
@@ -760,7 +740,7 @@
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 20 days",
       "sources": [
         {
           "name": "smashing",
@@ -780,7 +760,7 @@
       "publishedAt": "2026-08-04T08:43:32.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
       "sources": [
         {
           "name": "nngroup",
@@ -820,7 +800,7 @@
       "publishedAt": "2026-08-05T10:30:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -838,9 +818,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-13T12:30:43.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -880,7 +860,7 @@
       "publishedAt": "2026-08-11T15:18:28.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -900,7 +880,7 @@
       "publishedAt": "2026-08-07T14:51:40.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -918,9 +898,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-06T13:48:06.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -940,7 +920,7 @@
       "publishedAt": "2026-08-07T11:33:15.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -960,7 +940,7 @@
       "publishedAt": "2026-08-11T10:58:39.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -996,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-08-30T19:14:27.663Z"
+      "fetchedAt": "2026-08-31T04:59:45.222Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-30T19:14:27.717Z"
+      "fetchedAt": "2026-08-31T04:59:45.276Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-30T19:14:27.719Z"
+      "fetchedAt": "2026-08-31T04:59:45.278Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-30T19:14:27.721Z"
+      "fetchedAt": "2026-08-31T04:59:45.279Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-30T19:14:27.722Z"
+      "fetchedAt": "2026-08-31T04:59:45.280Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-30T19:14:27.724Z"
+      "fetchedAt": "2026-08-31T04:59:45.281Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-30T19:14:27.725Z"
+      "fetchedAt": "2026-08-31T04:59:45.282Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 7,
-      "fetchedAt": "2026-08-30T19:14:27.726Z"
+      "fetchedAt": "2026-08-31T04:59:45.283Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 34,
-      "fetchedAt": "2026-08-30T19:14:27.727Z"
+      "items": 33,
+      "fetchedAt": "2026-08-31T04:59:45.284Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-30T19:14:27.728Z"
+      "fetchedAt": "2026-08-31T04:59:45.285Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-08-30T19:14:27.729Z"
+      "fetchedAt": "2026-08-31T04:59:45.285Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-08-30T19:14:27.730Z"
+      "fetchedAt": "2026-08-31T04:59:45.287Z"
     }
   ]
 }
