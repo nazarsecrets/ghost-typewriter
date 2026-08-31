@@ -1,66 +1,86 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-31T04:59:45.222Z",
-  "windowStart": "2026-08-01T04:59:45.222Z",
-  "windowEnd": "2026-08-31T04:59:45.222Z",
+  "generatedAt": "2026-08-31T16:03:19.944Z",
+  "windowStart": "2026-08-01T16:03:19.944Z",
+  "windowEnd": "2026-08-31T16:03:19.944Z",
   "topics": [
     {
-      "id": "d3475012c758",
-      "title": "Neuroqueering design practice",
-      "teaser": "A look into design as a craft through the lens of neuroqueering. Illustration by Kristina Gushcheva-Keippilä I remember reading Robert Chapman’s Empire of Normality at a strange threshold: i",
+      "id": "dfa1a07b5853",
+      "title": "Design has outgrown the traditional designer",
+      "teaser": "Why design education must reconsider the kind of student it imagines. Photo by shraga kopstein on Unsplash For decades, design offered artistically inclined students an appealing compromise.",
       "tag": "Leadership",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-08-30T21:46:34.000Z",
+      "publishedAt": "2026-08-31T15:56:24.000Z",
       "since": "today",
       "relevanceScore": 1,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "Neuroqueering design practice",
-          "url": "https://uxdesign.cc/neuroqueering-design-practice-9e2aaf4dd2e5?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-30T21:46:34.000Z"
+          "title": "Design has outgrown the traditional designer",
+          "url": "https://uxdesign.cc/design-has-outgrown-the-traditional-designer-adbb657aa30a?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-31T15:56:24.000Z"
         }
       ]
     },
     {
-      "id": "d59d17c45e7e",
-      "title": "Rethinking success beyond the corporate stairs in the world of design",
-      "teaser": "How AI, metrics, and career anxiety are reshaping design An endless staircase for endless metrics. Planning a linear ten-year ascent assumes the steps will remain stable. When corporate stai",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-30T19:20:13.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Rethinking success beyond the corporate stairs in the world of design",
-          "url": "https://uxdesign.cc/rethinking-success-beyond-the-corporate-stairs-in-the-world-of-design-ae9d10521105?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-30T19:20:13.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5689c337db6c",
-      "title": "Deceptive Patterns as a Sociotechnical Phenomenon: Review, Catalog, and Discussion",
-      "teaser": "Background: Deceptive patterns are interface design strategies aimed at misleading users or favoring specific interests, compromising user experiences and ethical privacy principles. These p",
+      "id": "b0d84c025c26",
+      "title": "You can’t grow roses in a cornfield",
+      "teaser": "A conversation with Whitney Hess, on careers, whispers, and where to plant yourself Photo by Bob Bowie on Unsplash Some questions sound administrative but are not, and “why do you want to sw",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-08-27T20:15:20.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "publishedAt": "2026-08-31T15:56:04.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Deceptive Patterns as a Sociotechnical Phenomenon: Review, Catalog, and Discussion",
-          "url": "https://arxiv.org/abs/2608.27684v1",
-          "publishedAt": "2026-08-27T20:15:20.000Z"
+          "name": "uxcollective",
+          "title": "You can’t grow roses in a cornfield",
+          "url": "https://uxdesign.cc/you-cant-grow-roses-in-a-cornfield-490d47dd8f74?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-31T15:56:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1b6b745206df",
+      "title": "Blank pages, Researcher-in-the-loop, Design’s craft crisis",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “Interface design has known this for decades. It’s baked into one of the oldest usability heuristics in the field — Jakob Nielse",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-31T11:59:52.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Blank pages, Researcher-in-the-loop, Design’s craft crisis",
+          "url": "https://uxdesign.cc/blank-pages-researcher-in-the-loop-designs-craft-crisis-7934ab0bc9cf?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-31T11:59:52.000Z"
+        }
+      ]
+    },
+    {
+      "id": "72b0820ee546",
+      "title": "UX in 2027 may be less about interfaces and more about behavior",
+      "teaser": "The signals I see today point to more adaptive interfaces, more delegated actions, and a larger responsibility for designers to define the limits From fixed interfaces to adaptive systems: U",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-31T11:09:53.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "UX in 2027 may be less about interfaces and more about behavior",
+          "url": "https://uxdesign.cc/ux-trends-2027-beyond-interface-design-23e55b1daf07?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-31T11:09:53.000Z"
         }
       ]
     },
@@ -125,22 +145,42 @@
       ]
     },
     {
-      "id": "ac7030c04bc3",
-      "title": "Between Algorithm (AI) and Intuition (Human): Preserving Designer Agency in AI-Assisted Sensemaking of Qualitative UX Data",
-      "teaser": "The integration of AI into qualitative design research presents a fundamental tension: how do we leverage AI while preserving the subjective, intuitive judgments that define design expertise",
-      "tag": "Research",
+      "id": "d3475012c758",
+      "title": "Neuroqueering design practice",
+      "teaser": "A look into design as a craft through the lens of neuroqueering. Illustration by Kristina Gushcheva-Keippilä I remember reading Robert Chapman’s Empire of Normality at a strange threshold: i",
+      "tag": "Leadership",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-08-28T15:05:48.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "publishedAt": "2026-08-30T21:46:34.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Between Algorithm (AI) and Intuition (Human): Preserving Designer Agency in AI-Assisted Sensemaking of Qualitative UX Data",
-          "url": "https://arxiv.org/abs/2608.28420v1",
-          "publishedAt": "2026-08-28T15:05:48.000Z"
+          "name": "uxcollective",
+          "title": "Neuroqueering design practice",
+          "url": "https://uxdesign.cc/neuroqueering-design-practice-9e2aaf4dd2e5?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-30T21:46:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d59d17c45e7e",
+      "title": "Rethinking success beyond the corporate stairs in the world of design",
+      "teaser": "How AI, metrics, and career anxiety are reshaping design An endless staircase for endless metrics. Planning a linear ten-year ascent assumes the steps will remain stable. When corporate stai",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-30T19:20:13.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Rethinking success beyond the corporate stairs in the world of design",
+          "url": "https://uxdesign.cc/rethinking-success-beyond-the-corporate-stairs-in-the-world-of-design-ae9d10521105?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-30T19:20:13.000Z"
         }
       ]
     },
@@ -152,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T03:17:55.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -172,9 +212,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T21:51:09.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -192,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T17:12:03.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -207,26 +247,6 @@
           "title": "What Blade Runner got right about AI",
           "url": "https://uxdesign.cc/what-blade-runner-got-right-about-ai-99cc75c0f761?source=rss----138adf9c44c---4",
           "publishedAt": "2026-08-25T17:12:03.000Z"
-        }
-      ]
-    },
-    {
-      "id": "0442a9e578cc",
-      "title": "Researcher-in-the-loop",
-      "teaser": "A model for AI-enabled UX research where t he researcher governs. A UXR researcher governing AI (AI generated) For a few years now, the UX research field has been arguing with itself over wh",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-25T11:18:37.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Researcher-in-the-loop",
-          "url": "https://uxdesign.cc/researcher-in-the-loop-18a8ffddf48e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-25T11:18:37.000Z"
         }
       ]
     },
@@ -251,22 +271,22 @@
       ]
     },
     {
-      "id": "73a6b2c3692c",
-      "title": "No log off, How to become an AI Designer, vibe coded portfolios",
-      "teaser": "Weekly curated resources for designers — thinkers and makers. “Online used to be a place you could leave. We designed the exit out of it because an exit reads as a leak. Here is why building",
-      "tag": "Systems",
+      "id": "5689c337db6c",
+      "title": "Deceptive Patterns as a Sociotechnical Phenomenon: Review, Catalog, and Discussion",
+      "teaser": "Background: Deceptive patterns are interface design strategies aimed at misleading users or favoring specific interests, compromising user experiences and ethical privacy principles. These p",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-08-24T11:15:25.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 7 days ago",
+      "publishedAt": "2026-08-27T20:15:20.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "No log off, How to become an AI Designer, vibe coded portfolios",
-          "url": "https://uxdesign.cc/no-log-off-how-to-become-an-ai-designer-vibe-coded-portfolios-deb7ca0e0f5d?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-24T11:15:25.000Z"
+          "name": "arxiv-hci",
+          "title": "Deceptive Patterns as a Sociotechnical Phenomenon: Review, Catalog, and Discussion",
+          "url": "https://arxiv.org/abs/2608.27684v1",
+          "publishedAt": "2026-08-27T20:15:20.000Z"
         }
       ]
     },
@@ -291,6 +311,26 @@
       ]
     },
     {
+      "id": "ac7030c04bc3",
+      "title": "Between Algorithm (AI) and Intuition (Human): Preserving Designer Agency in AI-Assisted Sensemaking of Qualitative UX Data",
+      "teaser": "The integration of AI into qualitative design research presents a fundamental tension: how do we leverage AI while preserving the subjective, intuitive judgments that define design expertise",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-28T15:05:48.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Between Algorithm (AI) and Intuition (Human): Preserving Designer Agency in AI-Assisted Sensemaking of Qualitative UX Data",
+          "url": "https://arxiv.org/abs/2608.28420v1",
+          "publishedAt": "2026-08-28T15:05:48.000Z"
+        }
+      ]
+    },
+    {
       "id": "99f15730f1d2",
       "title": "Free Accessibility Certifications and Courses",
       "teaser": "Originally published on A11y News: 6 free, self-paced courses to take this summer Nowadays...",
@@ -307,26 +347,6 @@
           "title": "Free Accessibility Certifications and Courses",
           "url": "https://dev.to/laura-wissiak/free-accessibility-certifications-and-courses-nb7",
           "publishedAt": "2026-08-15T13:06:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "77d4f44e5f66",
-      "title": "User Preferences for UI Anchoring in MR: Effects of Task Mobility and Interface Properties",
-      "teaser": "Anchoring - the choice of frame of reference for mixed reality (MR) interface elements - is a critical design decision involving trade-offs between accessibility, interaction comfort, and vi",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-28T08:34:10.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "User Preferences for UI Anchoring in MR: Effects of Task Mobility and Interface Properties",
-          "url": "https://arxiv.org/abs/2608.28064v1",
-          "publishedAt": "2026-08-28T08:34:10.000Z"
         }
       ]
     },
@@ -378,35 +398,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
           "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
           "publishedAt": "2026-08-25T21:12:33.000Z"
-        }
-      ]
-    },
-    {
-      "id": "ce6aa635ee88",
-      "title": "What luxury bags can teach designers about how to adapt to a changing deal",
-      "teaser": "Design isn&#x2019;t becoming lame. Your screens don&#x2019;t vouch for you anymore. Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-25T11:18:39.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What luxury bags can teach designers about how to adapt to a changing deal",
-          "url": "https://uxdesign.cc/what-luxury-bags-can-teach-designers-about-how-to-adapt-to-a-changing-deal-3c06caba673d?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-25T11:18:39.000Z"
         }
       ]
     },
@@ -438,9 +438,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T18:11:38.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -458,9 +458,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-28T00:57:31.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -498,9 +498,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T17:51:57.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -598,15 +598,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "nngroup",
           "title": "The Custodial Era of UX: Cleaning Up After AI",
           "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-08-28T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "77d4f44e5f66",
+      "title": "User Preferences for UI Anchoring in MR: Effects of Task Mobility and Interface Properties",
+      "teaser": "Anchoring - the choice of frame of reference for mixed reality (MR) interface elements - is a critical design decision involving trade-offs between accessibility, interaction comfort, and vi",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-28T08:34:10.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "User Preferences for UI Anchoring in MR: Effects of Task Mobility and Interface Properties",
+          "url": "https://arxiv.org/abs/2608.28064v1",
+          "publishedAt": "2026-08-28T08:34:10.000Z"
         }
       ]
     },
@@ -640,7 +660,7 @@
       "publishedAt": "2026-08-20T03:23:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "devto-design",
@@ -658,9 +678,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T22:13:04.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -678,9 +698,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -698,35 +718,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Decoupling Claim Timeouts from Feature Flags",
           "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
           "publishedAt": "2026-08-25T21:08:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "cf3927b1057e",
-      "title": "Stop using OKLCH lightness for your color scale",
-      "teaser": "It&#x2019;s brilliant at generating color, but it can&#x2019;t predict contrast&#x200A;&#x2014;&#x200A;and there&#x2019;s a better number for your palette weights. Continue reading on UX Col",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-23T20:37:16.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Stop using OKLCH lightness for your color scale",
-          "url": "https://uxdesign.cc/stop-using-oklch-lightness-for-your-color-scale-02025deca49d?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-23T20:37:16.000Z"
         }
       ]
     },
@@ -840,7 +840,7 @@
       "publishedAt": "2026-08-11T17:46:21.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -867,26 +867,6 @@
           "title": "Show HN: Chain – A Python-like language with native inline C++",
           "url": "https://github.com/Nebania/chain-lang",
           "publishedAt": "2026-08-11T15:18:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fdc0487b0c2c",
-      "title": "Show HN: LettersPractice – Teach your child to read with a modified SRS engine",
-      "teaser": "Hi everyone. 2nd submission attempt here of a very-indie, very-passion project after a no-op first try. Backstory: ~10 years ago I started tinkering with a web based platform for experimenti",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T14:51:40.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: LettersPractice – Teach your child to read with a modified SRS engine",
-          "url": "https://letterspractice.com/",
-          "publishedAt": "2026-08-07T14:51:40.000Z"
         }
       ]
     },
@@ -960,7 +940,7 @@
       "publishedAt": "2026-08-07T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "nngroup",
@@ -976,73 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-08-31T04:59:45.222Z"
+      "fetchedAt": "2026-08-31T16:03:19.945Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-31T04:59:45.276Z"
+      "fetchedAt": "2026-08-31T16:03:20.002Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-31T04:59:45.278Z"
+      "fetchedAt": "2026-08-31T16:03:20.003Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-08-31T04:59:45.279Z"
+      "fetchedAt": "2026-08-31T16:03:20.004Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-08-31T04:59:45.280Z"
+      "fetchedAt": "2026-08-31T16:03:20.006Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-31T04:59:45.281Z"
+      "fetchedAt": "2026-08-31T16:03:20.007Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-31T04:59:45.282Z"
+      "fetchedAt": "2026-08-31T16:03:20.008Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 7,
-      "fetchedAt": "2026-08-31T04:59:45.283Z"
+      "fetchedAt": "2026-08-31T16:03:20.009Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 33,
-      "fetchedAt": "2026-08-31T04:59:45.284Z"
+      "items": 32,
+      "fetchedAt": "2026-08-31T16:03:20.010Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-08-31T04:59:45.285Z"
+      "fetchedAt": "2026-08-31T16:03:20.011Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-08-31T04:59:45.285Z"
+      "fetchedAt": "2026-08-31T16:03:20.011Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-08-31T04:59:45.287Z"
+      "fetchedAt": "2026-08-31T16:03:20.013Z"
     }
   ]
 }
