@@ -1,46 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-01T04:38:33.498Z",
-  "windowStart": "2026-08-02T04:38:33.498Z",
-  "windowEnd": "2026-09-01T04:38:33.498Z",
+  "generatedAt": "2026-09-01T13:23:28.620Z",
+  "windowStart": "2026-08-02T13:23:28.620Z",
+  "windowEnd": "2026-09-01T13:23:28.620Z",
   "topics": [
     {
-      "id": "dd084896c755",
-      "title": "The call for an agentic standard: We need to stop shipping the same form four different times",
-      "teaser": "One description, four renderers. That is the whole argument in a picture. Every assistant draws its own way, and the bill lands on the people who already maintain your button component. This",
+      "id": "331c3e7cba40",
+      "title": "Show HN: I built a real-time translator for Google Meet",
+      "teaser": "I originally didn’t want to build a small tool like this myself — a real-time translation Chrome extension. I assumed there should already be mature products on the market. But after doing s",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-08-31T21:47:30.000Z",
+      "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "today",
-      "relevanceScore": 1,
+      "relevanceScore": 0.857,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "The call for an agentic standard: We need to stop shipping the same form four different times",
-          "url": "https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-31T21:47:30.000Z"
+          "name": "hn-designsystem",
+          "title": "Show HN: I built a real-time translator for Google Meet",
+          "url": "https://meelang.com/",
+          "publishedAt": "2026-09-01T06:20:22.000Z"
         }
       ]
     },
     {
-      "id": "45fb18cb13dd",
-      "title": "User Experience in Human-Machine Interaction: Insights from Field Studies in Autonomous Mobility",
-      "teaser": "Autonomous vehicles (AVs) promise safer, cleaner, and more inclusive mobility, yet large-scale adoption is hindered by user acceptance rather than by technical challenges. Prior studies on a",
-      "tag": "Research",
+      "id": "15cc36a749fc",
+      "title": "Users don’t see your design system",
+      "teaser": "How Gestalt principles power any great design system Continue reading on UX Collective »",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-08-31T09:56:46.000Z",
-      "since": "yesterday",
+      "publishedAt": "2026-09-01T11:28:51.000Z",
+      "since": "today",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "User Experience in Human-Machine Interaction: Insights from Field Studies in Autonomous Mobility",
-          "url": "https://arxiv.org/abs/2608.30526v1",
-          "publishedAt": "2026-08-31T09:56:46.000Z"
+          "name": "uxcollective",
+          "title": "Users don’t see your design system",
+          "url": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-01T11:28:51.000Z"
         }
       ]
     },
@@ -54,7 +54,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "45 engagement signals within 7 days",
+      "categoryReason": "45 engagement signals within 8 days",
       "sources": [
         {
           "name": "devto-design",
@@ -72,15 +72,35 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-08-26T16:40:01.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "82 engagement signals within 5 days",
+      "categoryReason": "82 engagement signals within 6 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Build your own theme park",
           "url": "https://www.magicpatterns.com/theme-park",
           "publishedAt": "2026-08-26T16:40:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "dd084896c755",
+      "title": "The call for an agentic standard: We need to stop shipping the same form four different times",
+      "teaser": "One description, four renderers. That is the whole argument in a picture. Every assistant draws its own way, and the bill lands on the people who already maintain your button component. This",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-31T21:47:30.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The call for an agentic standard: We need to stop shipping the same form four different times",
+          "url": "https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-08-31T21:47:30.000Z"
         }
       ]
     },
@@ -192,9 +212,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-30T21:46:34.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -212,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-30T19:20:13.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -225,62 +245,22 @@
       ]
     },
     {
-      "id": "235c0718260d",
-      "title": "What Blade Runner got wrong about AI (so far)",
-      "teaser": "The film gave us rain, ziggurats, and androids; the real machine arrived as a blank place to type. The film is a design masterpiece and a lousy weather forecast, and the gap between the two ",
-      "tag": "AI",
+      "id": "45fb18cb13dd",
+      "title": "User Experience in Human-Machine Interaction: Insights from Field Studies in Autonomous Mobility",
+      "teaser": "Autonomous vehicles (AVs) promise safer, cleaner, and more inclusive mobility, yet large-scale adoption is hindered by user acceptance rather than by technical challenges. Prior studies on a",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-08-27T20:22:49.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What Blade Runner got wrong about AI (so far)",
-          "url": "https://uxdesign.cc/what-blade-runner-got-wrong-about-ai-so-far-d01b579288c1?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-27T20:22:49.000Z"
-        }
-      ]
-    },
-    {
-      "id": "71f8523fd676",
-      "title": "AI has a hospitality problem money can’t fix",
-      "teaser": "Technological efficiency meets high-end service: a luxury hotel lobby where AI-driven recommendations are seamlessly integrated into the check-in process, offering convenience while raising ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-26T21:51:09.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI has a hospitality problem money can’t fix",
-          "url": "https://uxdesign.cc/ai-has-a-hospitality-problem-money-cant-fix-e8fa34e91d62?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-26T21:51:09.000Z"
-        }
-      ]
-    },
-    {
-      "id": "85b24f0e0417",
-      "title": "LipCoder: Voice-Enabled Coding Toolkit",
-      "teaser": "AI-assisted programming environments have accelerated software development, giving rise to new paradigms like vibe coding. However, their benefits remain largely inaccessible to visually imp",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-31T13:47:44.000Z",
+      "publishedAt": "2026-08-31T09:56:46.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.571,
+      "relevanceScore": 0.857,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "LipCoder: Voice-Enabled Coding Toolkit",
-          "url": "https://arxiv.org/abs/2608.30793v1",
-          "publishedAt": "2026-08-31T13:47:44.000Z"
+          "title": "User Experience in Human-Machine Interaction: Insights from Field Studies in Autonomous Mobility",
+          "url": "https://arxiv.org/abs/2608.30526v1",
+          "publishedAt": "2026-08-31T09:56:46.000Z"
         }
       ]
     },
@@ -305,22 +285,82 @@
       ]
     },
     {
-      "id": "46fed0c1637a",
-      "title": "DOBI: Dynamic Opportunistic Body Input via Spare Joint Recruitment for Hands-Free XR",
-      "teaser": "Extended Reality (XR) systems are often most useful when users are engaged in ongoing physical tasks, yet current interaction techniques still largely assume the hands are available. We pres",
+      "id": "ce0a5bfdbd49",
+      "title": "Your users aren’t unmotivated-they have 1 of 4 problems",
+      "teaser": "How to design for advanced features nobody uses Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-01T11:29:44.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Your users aren’t unmotivated-they have 1 of 4 problems",
+          "url": "https://uxdesign.cc/your-users-arent-unmotivated-they-have-1-of-4-problems-99d709b60376?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-01T11:29:44.000Z"
+        }
+      ]
+    },
+    {
+      "id": "cc2514641e16",
+      "title": "Color scheming with Perplexity tetrads",
+      "teaser": "A case study in GenAI accessible color palettes. Continue reading on UX Collective »",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-08-31T06:56:15.000Z",
+      "publishedAt": "2026-09-01T11:28:18.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Color scheming with Perplexity tetrads",
+          "url": "https://uxdesign.cc/color-scheming-with-perplexity-tetrads-daad13b49732?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-01T11:28:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a5c3ec805549",
+      "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
+      "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-01T08:50:46.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
+          "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
+          "publishedAt": "2026-09-01T08:50:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "497c379c3810",
+      "title": "Development Notes: Navigation UX Is a State Problem",
+      "teaser": "Recent FlatNav development has been a useful reminder that navigation UX is mostly a state-management...",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-31T17:21:46.000Z",
       "since": "yesterday",
       "relevanceScore": 0.429,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "DOBI: Dynamic Opportunistic Body Input via Spare Joint Recruitment for Hands-Free XR",
-          "url": "https://arxiv.org/abs/2608.30341v1",
-          "publishedAt": "2026-08-31T06:56:15.000Z"
+          "name": "devto-ux",
+          "title": "Development Notes: Navigation UX Is a State Problem",
+          "url": "https://dev.to/toddsullivan/development-notes-navigation-ux-is-a-state-problem-10kl",
+          "publishedAt": "2026-08-31T17:21:46.000Z"
         }
       ]
     },
@@ -341,66 +381,6 @@
           "title": "UX Conference November Announced (Nov 9 - Nov 13)",
           "url": "https://www.nngroup.com/training/november/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-08-24T06:48:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "27900d1fd62f",
-      "title": "Towards Effective Generation of Interactive Visualizations with Vibe Coding: An Empirical Study",
-      "teaser": "Constructing interactive visualizations has traditionally required substantial human effort, involving both technical implementation and design decision-making. Recently, vibe coding, a prog",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-30T04:39:22.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Towards Effective Generation of Interactive Visualizations with Vibe Coding: An Empirical Study",
-          "url": "https://arxiv.org/abs/2608.29550v1",
-          "publishedAt": "2026-08-30T04:39:22.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3669ad19303a",
-      "title": "Understanding Behavioral Dark Patterns of High BMI Individuals",
-      "teaser": "Understanding how everyday behaviors influence body weight is essential for designing effective and personalized health interventions. Existing studies largely rely on self-reported question",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-29T15:14:17.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Understanding Behavioral Dark Patterns of High BMI Individuals",
-          "url": "https://arxiv.org/abs/2608.29328v1",
-          "publishedAt": "2026-08-29T15:14:17.000Z"
-        }
-      ]
-    },
-    {
-      "id": "91b318f967b9",
-      "title": "Measuring the \"Interaction Gap\" in Drama Therapy with AI",
-      "teaser": "Generative AI is increasingly being introduced into expressive arts therapy, where it is often credited with offering a non-judgmental environment that supports psychological safety. Existin",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-29T14:29:31.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Measuring the \"Interaction Gap\" in Drama Therapy with AI",
-          "url": "https://arxiv.org/abs/2608.29292v1",
-          "publishedAt": "2026-08-29T14:29:31.000Z"
         }
       ]
     },
@@ -472,15 +452,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
           "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
           "publishedAt": "2026-08-25T21:12:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "85b24f0e0417",
+      "title": "LipCoder: Voice-Enabled Coding Toolkit",
+      "teaser": "AI-assisted programming environments have accelerated software development, giving rise to new paradigms like vibe coding. However, their benefits remain largely inaccessible to visually imp",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-31T13:47:44.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "LipCoder: Voice-Enabled Coding Toolkit",
+          "url": "https://arxiv.org/abs/2608.30793v1",
+          "publishedAt": "2026-08-31T13:47:44.000Z"
         }
       ]
     },
@@ -512,9 +512,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-27T18:11:38.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -532,9 +532,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-28T00:57:31.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -572,9 +572,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-26T17:51:57.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -625,6 +625,86 @@
       ]
     },
     {
+      "id": "46fed0c1637a",
+      "title": "DOBI: Dynamic Opportunistic Body Input via Spare Joint Recruitment for Hands-Free XR",
+      "teaser": "Extended Reality (XR) systems are often most useful when users are engaged in ongoing physical tasks, yet current interaction techniques still largely assume the hands are available. We pres",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-31T06:56:15.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "DOBI: Dynamic Opportunistic Body Input via Spare Joint Recruitment for Hands-Free XR",
+          "url": "https://arxiv.org/abs/2608.30341v1",
+          "publishedAt": "2026-08-31T06:56:15.000Z"
+        }
+      ]
+    },
+    {
+      "id": "27900d1fd62f",
+      "title": "Towards Effective Generation of Interactive Visualizations with Vibe Coding: An Empirical Study",
+      "teaser": "Constructing interactive visualizations has traditionally required substantial human effort, involving both technical implementation and design decision-making. Recently, vibe coding, a prog",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-30T04:39:22.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Towards Effective Generation of Interactive Visualizations with Vibe Coding: An Empirical Study",
+          "url": "https://arxiv.org/abs/2608.29550v1",
+          "publishedAt": "2026-08-30T04:39:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3669ad19303a",
+      "title": "Understanding Behavioral Dark Patterns of High BMI Individuals",
+      "teaser": "Understanding how everyday behaviors influence body weight is essential for designing effective and personalized health interventions. Existing studies largely rely on self-reported question",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-29T15:14:17.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Understanding Behavioral Dark Patterns of High BMI Individuals",
+          "url": "https://arxiv.org/abs/2608.29328v1",
+          "publishedAt": "2026-08-29T15:14:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": "91b318f967b9",
+      "title": "Measuring the \"Interaction Gap\" in Drama Therapy with AI",
+      "teaser": "Generative AI is increasingly being introduced into expressive arts therapy, where it is often credited with offering a non-judgmental environment that supports psychological safety. Existin",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-29T14:29:31.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Measuring the \"Interaction Gap\" in Drama Therapy with AI",
+          "url": "https://arxiv.org/abs/2608.29292v1",
+          "publishedAt": "2026-08-29T14:29:31.000Z"
+        }
+      ]
+    },
+    {
       "id": "03201d525f0c",
       "title": "The Custodial Era of UX: Cleaning Up After AI",
       "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
@@ -632,9 +712,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -685,26 +765,6 @@
       ]
     },
     {
-      "id": "ac9dfad7cbed",
-      "title": "The function — the role of software in society",
-      "teaser": "A story of inputs, outputs, and the tools between. Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-25T22:13:04.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The function — the role of software in society",
-          "url": "https://uxdesign.cc/the-function-the-role-of-software-in-society-8339c99398f3?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-25T22:13:04.000Z"
-        }
-      ]
-    },
-    {
       "id": "be045ee3b363",
       "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
       "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
@@ -712,9 +772,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -732,9 +792,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -854,7 +914,7 @@
       "publishedAt": "2026-08-11T17:46:21.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -943,26 +1003,6 @@
           "publishedAt": "2026-08-11T10:58:39.000Z"
         }
       ]
-    },
-    {
-      "id": "69c2e9207d09",
-      "title": "Dogfooding vs. QA vs. User Research",
-      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T17:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Dogfooding vs. QA vs. User Research",
-          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-07T17:00:00.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -970,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-01T04:38:33.499Z"
+      "fetchedAt": "2026-09-01T13:23:28.621Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-01T04:38:33.543Z"
+      "fetchedAt": "2026-09-01T13:23:28.672Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-01T04:38:33.544Z"
+      "fetchedAt": "2026-09-01T13:23:28.674Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-01T04:38:33.545Z"
+      "fetchedAt": "2026-09-01T13:23:28.675Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-01T04:38:33.545Z"
+      "fetchedAt": "2026-09-01T13:23:28.676Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-01T04:38:33.546Z"
+      "fetchedAt": "2026-09-01T13:23:28.677Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-01T04:38:33.547Z"
+      "fetchedAt": "2026-09-01T13:23:28.678Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 7,
-      "fetchedAt": "2026-09-01T04:38:33.548Z"
+      "fetchedAt": "2026-09-01T13:23:28.679Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 32,
-      "fetchedAt": "2026-09-01T04:38:33.549Z"
+      "fetchedAt": "2026-09-01T13:23:28.680Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-01T04:38:33.550Z"
+      "fetchedAt": "2026-09-01T13:23:28.681Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-01T04:38:33.550Z"
+      "fetchedAt": "2026-09-01T13:23:28.681Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
-      "items": 4,
-      "fetchedAt": "2026-09-01T04:38:33.551Z"
+      "items": 3,
+      "fetchedAt": "2026-09-01T13:23:28.683Z"
     }
   ]
 }
