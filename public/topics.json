@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T12:41:34.873Z",
-  "windowStart": "2026-08-03T12:41:34.873Z",
-  "windowEnd": "2026-09-02T12:41:34.873Z",
+  "generatedAt": "2026-09-02T19:19:18.318Z",
+  "windowStart": "2026-08-03T19:19:18.318Z",
+  "windowEnd": "2026-09-02T19:19:18.318Z",
   "topics": [
-    {
-      "id": "96cf85b2d3c3",
-      "title": "UX Conference September Announced (Sep 14 - Sep 25)",
-      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T20:37:45.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference September Announced (Sep 14 - Sep 25)",
-          "url": "https://www.nngroup.com/training/september/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-01T20:37:45.000Z"
-        }
-      ]
-    },
     {
       "id": "4b9f1fcb7e72",
       "title": "Best UI/UX Design Tools I Keep Coming Back to as a Designer",
@@ -112,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T07:03:00.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -132,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T06:20:22.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -265,22 +245,22 @@
       ]
     },
     {
-      "id": "6f94edb389bb",
-      "title": "UX Conference November Announced (Nov 9 - Nov 13)",
-      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. November 9 - 13, 2026.",
+      "id": "96cf85b2d3c3",
+      "title": "UX Conference September Announced (Sep 14 - Sep 25)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-24T06:48:00.000Z",
-      "since": "1 week ago",
+      "category": "Latest",
+      "publishedAt": "2026-09-01T20:37:45.000Z",
+      "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "nngroup",
-          "title": "UX Conference November Announced (Nov 9 - Nov 13)",
-          "url": "https://www.nngroup.com/training/november/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-24T06:48:00.000Z"
+          "title": "UX Conference September Announced (Sep 14 - Sep 25)",
+          "url": "https://www.nngroup.com/training/september/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-01T20:37:45.000Z"
         }
       ]
     },
@@ -305,26 +285,6 @@
       ]
     },
     {
-      "id": "601373c7e54b",
-      "title": "Show HN: ToolJet – Claude Code and Codex build internal tools, no codegen",
-      "teaser": "Hey HN, Co-founder here. We spent 11 months to build a multi-agent system for generating applications. Then we scrapped it and rebuilt around MCP, letting coding agents do the job instead. O",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-02T12:01:49.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: ToolJet – Claude Code and Codex build internal tools, no codegen",
-          "url": "https://github.com/ToolJet/ToolJet",
-          "publishedAt": "2026-09-02T12:01:49.000Z"
-        }
-      ]
-    },
-    {
       "id": "76b590bb1d1b",
       "title": "Show HN: My agents kept hallucinating APIs, so I built them a headless IDE",
       "teaser": "I built Context Engine last year mostly out of frustration. Agents impressed me and made me angry at the same time: they kept calling APIs that don&#x27;t exist, re-implementing APIs already",
@@ -345,42 +305,42 @@
       ]
     },
     {
-      "id": "72dd61329979",
-      "title": "Making kyōwa possible with AI",
-      "teaser": "On unbundling the Send button, so that words can work as sketches Continue reading on UX Collective »",
+      "id": "6f94edb389bb",
+      "title": "UX Conference November Announced (Nov 9 - Nov 13)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. November 9 - 13, 2026.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-24T06:48:00.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference November Announced (Nov 9 - Nov 13)",
+          "url": "https://www.nngroup.com/training/november/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-24T06:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "601373c7e54b",
+      "title": "Show HN: ToolJet – Claude Code and Codex build internal tools, no codegen",
+      "teaser": "Hey HN, Co-founder here. We spent 11 months to build a multi-agent system for generating applications. Then we scrapped it and rebuilt around MCP, letting coding agents do the job instead. O",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-02T11:15:14.000Z",
+      "publishedAt": "2026-09-02T12:01:49.000Z",
       "since": "today",
       "relevanceScore": 0.429,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Making kyōwa possible with AI",
-          "url": "https://uxdesign.cc/making-ky%C5%8Dwa-possible-with-ai-9f4bf8fae315?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-02T11:15:14.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a9aa1dc21ec8",
-      "title": "Improving UI/UX in a Real-World Application",
-      "teaser": "Introduction While working on DoctPro, I got the opportunity to review the application's UI/UX and...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-31T14:41:00.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Improving UI/UX in a Real-World Application",
-          "url": "https://dev.to/muthushivani_a3e9694edaa0/improving-uiux-in-a-real-world-application-4mdb",
-          "publishedAt": "2026-08-31T14:41:00.000Z"
+          "name": "hn-designsystem",
+          "title": "Show HN: ToolJet – Claude Code and Codex build internal tools, no codegen",
+          "url": "https://github.com/ToolJet/ToolJet",
+          "publishedAt": "2026-09-02T12:01:49.000Z"
         }
       ]
     },
@@ -401,26 +361,6 @@
           "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
           "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
           "publishedAt": "2026-09-01T08:50:46.000Z"
-        }
-      ]
-    },
-    {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
         }
       ]
     },
@@ -472,9 +412,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T06:56:31.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -592,35 +532,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-28T00:57:31.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
           "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
           "publishedAt": "2026-08-28T00:57:31.000Z"
-        }
-      ]
-    },
-    {
-      "id": "78a53223a488",
-      "title": "UX Conference October Announced (Oct 26 - Oct 29)",
-      "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. October 26 - October 29, ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-04T08:43:32.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference October Announced (Oct 26 - Oct 29)",
-          "url": "https://www.nngroup.com/training/october-eu/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-04T08:43:32.000Z"
         }
       ]
     },
@@ -661,6 +581,26 @@
           "title": "How well do agents use your design system?",
           "url": "https://www.sanity.io/engineering/design-system-evals",
           "publishedAt": "2026-08-26T17:51:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "72dd61329979",
+      "title": "Making kyōwa possible with AI",
+      "teaser": "On unbundling the Send button, so that words can work as sketches Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-02T11:15:14.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Making kyōwa possible with AI",
+          "url": "https://uxdesign.cc/making-ky%C5%8Dwa-possible-with-ai-9f4bf8fae315?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-02T11:15:14.000Z"
         }
       ]
     },
@@ -730,11 +670,11 @@
       "teaser": "Hey, Hacker News. I just want to pick your brain for a feature we&#x27;re working on. I don&#x27;t know whether you have seen this as a pain point, but when I work in a company, a lot of tim",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-08-26T05:06:25.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -752,9 +692,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T00:52:50.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -772,9 +712,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T00:44:19.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -825,6 +765,86 @@
       ]
     },
     {
+      "id": "f763a8604b06",
+      "title": "TRMNL ePaper Design System",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T17:46:21.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "TRMNL ePaper Design System",
+          "url": "https://github.com/usetrmnl/trmnl-framework",
+          "publishedAt": "2026-08-11T17:46:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e15a5c736f2d",
+      "title": "Show HN: Chain – A Python-like language with native inline C++",
+      "teaser": "Chain (Formerly Link-Lang) is a Python-syntax scripting language that was built from scratch in C++, with one feature I haven&#x27;t noticed elsewhere: an &#x27;extern \"c\" { }&#x27; block wh",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T15:18:28.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Chain – A Python-like language with native inline C++",
+          "url": "https://github.com/Nebania/chain-lang",
+          "publishedAt": "2026-08-11T15:18:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "03201d525f0c",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Custodial Era of UX: Cleaning Up After AI",
+          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-28T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "89b5656b2a9c",
+      "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
+      "teaser": "Hi HN, react-candlesticks is a React chart library for financial charts (stock, crypto, trading, etc). It support multiple panels and layers, theming, and early support for custom layers and",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-06T13:48:06.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 27 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
+          "url": "https://reactcandlesticks.com/demo/",
+          "publishedAt": "2026-08-06T13:48:06.000Z"
+        }
+      ]
+    },
+    {
       "id": "7c2f71191b75",
       "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
       "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
@@ -854,7 +874,7 @@
       "publishedAt": "2026-08-20T03:23:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-design",
@@ -905,6 +925,46 @@
       ]
     },
     {
+      "id": "43701b24fca4",
+      "title": "UX Design Research – reflections on the role of UX design in the age of AI",
+      "teaser": "",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T11:33:15.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "UX Design Research – reflections on the role of UX design in the age of AI",
+          "url": "https://uxdesignresearch.org/en/",
+          "publishedAt": "2026-08-07T11:33:15.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a63a4cf7812f",
+      "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
+      "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T10:58:39.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
+          "url": "https://dev.to/ilyas_elaissi/10-ux-design-patterns-every-developer-should-know-and-when-to-skip-them-3olm",
+          "publishedAt": "2026-08-11T10:58:39.000Z"
+        }
+      ]
+    },
+    {
       "id": "b2fa9b4faa22",
       "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
       "teaser": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale ",
@@ -925,82 +985,22 @@
       ]
     },
     {
-      "id": "91d36d862777",
-      "title": "Framework: The first ePaper design system",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-14T05:43:34.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Framework: The first ePaper design system",
-          "url": "https://trmnl.com/blog/framework-design-system",
-          "publishedAt": "2026-08-14T05:43:34.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a1d3ee21f6ba",
-      "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
-      "teaser": "Quem desenha interfaces sabe exatamente quais botões, textos e animações empurram alguém a gastar...",
+      "id": "78a53223a488",
+      "title": "UX Conference October Announced (Oct 26 - Oct 29)",
+      "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. October 26 - October 29, ",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-05T10:30:00.000Z",
+      "publishedAt": "2026-08-04T08:43:32.000Z",
       "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
-          "url": "https://dev.to/vitoriazzp/o-abismo-entre-cuidar-do-usuario-e-vender-atencao-por-que-precisamos-falar-sobre-dark-patterns-5h1h",
-          "publishedAt": "2026-08-05T10:30:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "69c2e9207d09",
-      "title": "Dogfooding vs. QA vs. User Research",
-      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
       "sources": [
         {
           "name": "nngroup",
-          "title": "Dogfooding vs. QA vs. User Research",
-          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-07T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4cfc06a222ed",
-      "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
-      "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-13T12:30:43.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
-          "url": "https://www.readiteasy.app/",
-          "publishedAt": "2026-08-13T12:30:43.000Z"
+          "title": "UX Conference October Announced (Oct 26 - Oct 29)",
+          "url": "https://www.nngroup.com/training/october-eu/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-04T08:43:32.000Z"
         }
       ]
     }
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-02T12:41:34.874Z"
+      "fetchedAt": "2026-09-02T19:19:18.319Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-02T12:41:34.929Z"
+      "fetchedAt": "2026-09-02T19:19:18.363Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-02T12:41:34.931Z"
+      "fetchedAt": "2026-09-02T19:19:18.364Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-02T12:41:34.932Z"
+      "fetchedAt": "2026-09-02T19:19:18.365Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-02T12:41:34.933Z"
+      "fetchedAt": "2026-09-02T19:19:18.365Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-02T12:41:34.934Z"
+      "fetchedAt": "2026-09-02T19:19:18.366Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-02T12:41:34.935Z"
+      "fetchedAt": "2026-09-02T19:19:18.367Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-02T12:41:34.936Z"
+      "fetchedAt": "2026-09-02T19:19:18.367Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-09-02T12:41:34.937Z"
+      "fetchedAt": "2026-09-02T19:19:18.368Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-02T12:41:34.938Z"
+      "fetchedAt": "2026-09-02T19:19:18.369Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-02T12:41:34.939Z"
+      "fetchedAt": "2026-09-02T19:19:18.369Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-02T12:41:34.940Z"
+      "fetchedAt": "2026-09-02T19:19:18.370Z"
     }
   ]
 }
