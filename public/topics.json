@@ -1,46 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T12:44:34.508Z",
-  "windowStart": "2026-08-04T12:44:34.508Z",
-  "windowEnd": "2026-09-03T12:44:34.508Z",
+  "generatedAt": "2026-09-03T19:13:36.873Z",
+  "windowStart": "2026-08-04T19:13:36.873Z",
+  "windowEnd": "2026-09-03T19:13:36.873Z",
   "topics": [
     {
-      "id": "6fb9ef47bcea",
-      "title": "UX Conference November Announced (Nov 16 - Nov 19)",
-      "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. Nov 16 - Nov ",
+      "id": "2a6d5002970c",
+      "title": "Show HN: Mu – an agent with actual command line experience",
+      "teaser": "I&#x27;m an old school user that finds the AI agent TUIs too magical, so I experimented with a new agent UX. I implement mu as a shell plugin (zsh and fish for now). Pressing Tab enters agen",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-03T04:50:49.000Z",
+      "publishedAt": "2026-09-03T14:31:41.000Z",
       "since": "today",
-      "relevanceScore": 0.857,
+      "relevanceScore": 0.714,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "nngroup",
-          "title": "UX Conference November Announced (Nov 16 - Nov 19)",
-          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-03T04:50:49.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b78188970aae",
-      "title": "Designing a Japanese 恋みくじ Web Experience: Culture, Emotion, and Responsible UX",
-      "teaser": "Building a Japanese 恋みくじ experience for the web may look simple at first. Prepare a list of...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-03T04:04:17.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Designing a Japanese 恋みくじ Web Experience: Culture, Emotion, and Responsible UX",
-          "url": "https://dev.to/koikuji/designing-a-japanese-lian-mikuzi-web-experience-culture-emotion-and-responsible-ux-2p68",
-          "publishedAt": "2026-09-03T04:04:17.000Z"
+          "name": "hn-ux",
+          "title": "Show HN: Mu – an agent with actual command line experience",
+          "url": "https://github.com/ylxdzsw/mu",
+          "publishedAt": "2026-09-03T14:31:41.000Z"
         }
       ]
     },
@@ -125,26 +105,6 @@
       ]
     },
     {
-      "id": "3959ca76d1b5",
-      "title": "Evaluating Usability in Biomedical Visualization: Rethinking Heuristic Evaluation for Spatial Omics and Multidisciplinary Research Platforms",
-      "teaser": "Introduction: Clinical research informatics (CRI) platforms support biomedical discovery by integrating advanced computational tools into research workflows. Emerging technologies such as sp",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T17:36:29.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Evaluating Usability in Biomedical Visualization: Rethinking Heuristic Evaluation for Spatial Omics and Multidisciplinary Research Platforms",
-          "url": "https://arxiv.org/abs/2609.01569v1",
-          "publishedAt": "2026-09-01T17:36:29.000Z"
-        }
-      ]
-    },
-    {
       "id": "bc880ba0b500",
       "title": "Show HN: Build your own theme park",
       "teaser": "I built an agent that helps you build Rollercoaster Tycoon-influenced theme parks. You can prompt something like “Build me a cool theme park” and it’ll build a cohesive theme park with multi",
@@ -165,26 +125,6 @@
       ]
     },
     {
-      "id": "e38e957cd234",
-      "title": "Ctrl-F-Resist. Practices, Challenges, and Technical Needs of Civil Society Organizations Monitoring the Far-Right Online",
-      "teaser": "As far-right actors increasingly exploit online platforms to disseminate ideology and mobilize supporters, civil society organizations (CSOs) play a vital yet underrecognized role in monitor",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T07:03:00.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Ctrl-F-Resist. Practices, Challenges, and Technical Needs of Civil Society Organizations Monitoring the Far-Right Online",
-          "url": "https://arxiv.org/abs/2609.00808v1",
-          "publishedAt": "2026-09-01T07:03:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "331c3e7cba40",
       "title": "Show HN: I built a real-time translator for Google Meet",
       "teaser": "I originally didn’t want to build a small tool like this myself — a real-time translation Chrome extension. I assumed there should already be mature products on the market. But after doing s",
@@ -192,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T06:20:22.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -285,6 +225,46 @@
       ]
     },
     {
+      "id": "9920dcc5c074",
+      "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
+      "teaser": "Hello! I&#x27;m a student from Spain and I&#x27;m the creator of MesaOS, an open-source operating system written from scratch in Rust for x86_64. I&#x27;ve been working on it mostly by mysel",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-03T17:56:50.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
+          "url": "https://github.com/crackanimad0r/MesaOS",
+          "publishedAt": "2026-09-03T17:56:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6fb9ef47bcea",
+      "title": "UX Conference November Announced (Nov 16 - Nov 19)",
+      "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. Nov 16 - Nov ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-03T04:50:49.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference November Announced (Nov 16 - Nov 19)",
+          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-03T04:50:49.000Z"
+        }
+      ]
+    },
+    {
       "id": "96cf85b2d3c3",
       "title": "UX Conference September Announced (Sep 14 - Sep 25)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
@@ -352,9 +332,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-24T06:48:00.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
       "sources": [
         {
           "name": "nngroup",
@@ -441,46 +421,6 @@
           "title": "Don't Make Me Think: What Actually Separates Good UX from Digital Torture",
           "url": "https://dev.to/towernter/dont-make-me-think-what-actually-separates-good-ux-from-digital-torture-354a",
           "publishedAt": "2026-08-13T12:26:56.000Z"
-        }
-      ]
-    },
-    {
-      "id": "21c2ce61f384",
-      "title": "Slow-Fast Brain-Computer Interfaces: Preventing Neuroadaptive Overfitting in AI-Mediated Neural Interfaces",
-      "teaser": "Artificial intelligence (AI) is transforming brain-computer interfaces (BCIs) from task-specific neural decoders into adaptive systems that complete language, smooth movement, regulate rehab",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T18:37:23.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Slow-Fast Brain-Computer Interfaces: Preventing Neuroadaptive Overfitting in AI-Mediated Neural Interfaces",
-          "url": "https://arxiv.org/abs/2609.01767v1",
-          "publishedAt": "2026-09-01T18:37:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "986448d21b39",
-      "title": "No Pixel Left Behind: Filling Gaps in Anime Colorization",
-      "teaser": "Animation production workflows often involve digital colorization of line art, where small unpainted regions (\"gaps\") frequently occur and remain an underexplored challenge. We conducted a f",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T06:56:31.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "No Pixel Left Behind: Filling Gaps in Anime Colorization",
-          "url": "https://arxiv.org/abs/2609.00800v1",
-          "publishedAt": "2026-09-01T06:56:31.000Z"
         }
       ]
     },
@@ -572,9 +512,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-28T00:57:31.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -645,26 +585,6 @@
       ]
     },
     {
-      "id": "a4a823e8e900",
-      "title": "Better Situational Awareness in AR-HRC? A Comparative Study of Augmented Reality and Mobile Interfaces for Human-Robot Collaboration",
-      "teaser": "Augmented reality (AR) facilitates human-robot collaboration (HRC) by enabling in-situ spatial visualizations of the robot and the joint task. However, in safety-critical HRC scenarios such ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T16:01:57.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Better Situational Awareness in AR-HRC? A Comparative Study of Augmented Reality and Mobile Interfaces for Human-Robot Collaboration",
-          "url": "https://arxiv.org/abs/2609.01461v1",
-          "publishedAt": "2026-09-01T16:01:57.000Z"
-        }
-      ]
-    },
-    {
       "id": "ce0a5bfdbd49",
       "title": "Your users aren’t unmotivated-they have 1 of 4 problems",
       "teaser": "How to design for advanced features nobody uses Continue reading on UX Collective »",
@@ -714,7 +634,7 @@
       "publishedAt": "2026-08-26T05:06:25.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -725,22 +645,22 @@
       ]
     },
     {
-      "id": "a9aa1dc21ec8",
-      "title": "Improving UI/UX in a Real-World Application",
-      "teaser": "Introduction While working on DoctPro, I got the opportunity to review the application's UI/UX and...",
-      "tag": "Process",
+      "id": "4cfc06a222ed",
+      "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
+      "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
+      "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-31T14:41:00.000Z",
-      "since": "3 days ago",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-13T12:30:43.000Z",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Improving UI/UX in a Real-World Application",
-          "url": "https://dev.to/muthushivani_a3e9694edaa0/improving-uiux-in-a-real-world-application-4mdb",
-          "publishedAt": "2026-08-31T14:41:00.000Z"
+          "name": "hn-ux",
+          "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
+          "url": "https://www.readiteasy.app/",
+          "publishedAt": "2026-08-13T12:30:43.000Z"
         }
       ]
     },
@@ -765,22 +685,22 @@
       ]
     },
     {
-      "id": "e15a5c736f2d",
-      "title": "Show HN: Chain – A Python-like language with native inline C++",
-      "teaser": "Chain (Formerly Link-Lang) is a Python-syntax scripting language that was built from scratch in C++, with one feature I haven&#x27;t noticed elsewhere: an &#x27;extern \"c\" { }&#x27; block wh",
+      "id": "f763a8604b06",
+      "title": "TRMNL ePaper Design System",
+      "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-11T15:18:28.000Z",
+      "publishedAt": "2026-08-11T17:46:21.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
       "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "Show HN: Chain – A Python-like language with native inline C++",
-          "url": "https://github.com/Nebania/chain-lang",
-          "publishedAt": "2026-08-11T15:18:28.000Z"
+          "title": "TRMNL ePaper Design System",
+          "url": "https://github.com/usetrmnl/trmnl-framework",
+          "publishedAt": "2026-08-11T17:46:21.000Z"
         }
       ]
     },
@@ -801,26 +721,6 @@
           "title": "The Custodial Era of UX: Cleaning Up After AI",
           "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-08-28T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "89b5656b2a9c",
-      "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
-      "teaser": "Hi HN, react-candlesticks is a React chart library for financial charts (stock, crypto, trading, etc). It support multiple panels and layers, theming, and early support for custom layers and",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-06T13:48:06.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
-          "url": "https://reactcandlesticks.com/demo/",
-          "publishedAt": "2026-08-06T13:48:06.000Z"
         }
       ]
     },
@@ -854,7 +754,7 @@
       "publishedAt": "2026-08-20T03:23:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-design",
@@ -905,6 +805,106 @@
       ]
     },
     {
+      "id": "b2fa9b4faa22",
+      "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+      "teaser": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+          "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
+          "publishedAt": "2026-08-11T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "91d36d862777",
+      "title": "Framework: The first ePaper design system",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-14T05:43:34.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Framework: The first ePaper design system",
+          "url": "https://trmnl.com/blog/framework-design-system",
+          "publishedAt": "2026-08-14T05:43:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a1d3ee21f6ba",
+      "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
+      "teaser": "Quem desenha interfaces sabe exatamente quais botões, textos e animações empurram alguém a gastar...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-05T10:30:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
+          "url": "https://dev.to/vitoriazzp/o-abismo-entre-cuidar-do-usuario-e-vender-atencao-por-que-precisamos-falar-sobre-dark-patterns-5h1h",
+          "publishedAt": "2026-08-05T10:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "69c2e9207d09",
+      "title": "Dogfooding vs. QA vs. User Research",
+      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Dogfooding vs. QA vs. User Research",
+          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-07T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "89b5656b2a9c",
+      "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
+      "teaser": "Hi HN, react-candlesticks is a React chart library for financial charts (stock, crypto, trading, etc). It support multiple panels and layers, theming, and early support for custom layers and",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-06T13:48:06.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
+          "url": "https://reactcandlesticks.com/demo/",
+          "publishedAt": "2026-08-06T13:48:06.000Z"
+        }
+      ]
+    },
+    {
       "id": "43701b24fca4",
       "title": "UX Design Research – reflections on the role of UX design in the age of AI",
       "teaser": "",
@@ -943,66 +943,6 @@
           "publishedAt": "2026-08-11T10:58:39.000Z"
         }
       ]
-    },
-    {
-      "id": "b2fa9b4faa22",
-      "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
-      "teaser": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-11T10:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
-          "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
-          "publishedAt": "2026-08-11T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "91d36d862777",
-      "title": "Framework: The first ePaper design system",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-14T05:43:34.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Framework: The first ePaper design system",
-          "url": "https://trmnl.com/blog/framework-design-system",
-          "publishedAt": "2026-08-14T05:43:34.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a1d3ee21f6ba",
-      "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
-      "teaser": "Quem desenha interfaces sabe exatamente quais botões, textos e animações empurram alguém a gastar...",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-05T10:30:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
-          "url": "https://dev.to/vitoriazzp/o-abismo-entre-cuidar-do-usuario-e-vender-atencao-por-que-precisamos-falar-sobre-dark-patterns-5h1h",
-          "publishedAt": "2026-08-05T10:30:00.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -1010,73 +950,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-03T12:44:34.509Z"
+      "fetchedAt": "2026-09-03T19:13:36.874Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-03T12:44:34.561Z"
+      "fetchedAt": "2026-09-03T19:13:36.915Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-03T12:44:34.562Z"
+      "fetchedAt": "2026-09-03T19:13:36.916Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-03T12:44:34.564Z"
+      "fetchedAt": "2026-09-03T19:13:36.916Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-03T12:44:34.564Z"
+      "fetchedAt": "2026-09-03T19:13:36.917Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-03T12:44:34.565Z"
+      "fetchedAt": "2026-09-03T19:13:36.918Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-03T12:44:34.566Z"
+      "fetchedAt": "2026-09-03T19:13:36.919Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 8,
-      "fetchedAt": "2026-09-03T12:44:34.567Z"
+      "items": 9,
+      "fetchedAt": "2026-09-03T19:13:36.919Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-03T12:44:34.568Z"
+      "fetchedAt": "2026-09-03T19:13:36.920Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-09-03T12:44:34.569Z"
+      "ok": false,
+      "items": 0,
+      "fetchedAt": "2026-09-03T19:13:36.921Z",
+      "error": "This operation was aborted"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-03T12:44:34.570Z"
+      "fetchedAt": "2026-09-03T19:13:36.921Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-03T12:44:34.571Z"
+      "fetchedAt": "2026-09-03T19:13:36.922Z"
     }
   ]
 }
