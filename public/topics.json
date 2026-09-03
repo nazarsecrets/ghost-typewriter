@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-02T19:19:18.318Z",
-  "windowStart": "2026-08-03T19:19:18.318Z",
-  "windowEnd": "2026-09-02T19:19:18.318Z",
+  "generatedAt": "2026-09-03T03:59:40.183Z",
+  "windowStart": "2026-08-04T03:59:40.183Z",
+  "windowEnd": "2026-09-03T03:59:40.183Z",
   "topics": [
+    {
+      "id": "34ba5d756fec",
+      "title": "When the canvas starts acting, who’s really in control?",
+      "teaser": "How agentic interfaces are changing what designers control, from interactions to agency, orchestration and attention. Agentic canvas can now brings context from across tools into one place, ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-02T22:13:30.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "When the canvas starts acting, who’s really in control?",
+          "url": "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-02T22:13:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7e5fcca82895",
+      "title": "AI took away engineering’s right to say no",
+      "teaser": "The closed system of software engineering, where the complexity of the code acted as both a wall and a gatekeeper. AI didn’t touch what engineers actually know. It ended their power to be th",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-02T22:13:11.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI took away engineering’s right to say no",
+          "url": "https://uxdesign.cc/ai-took-away-engineerings-right-to-say-no-839b9b6256f2?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-02T22:13:11.000Z"
+        }
+      ]
+    },
     {
       "id": "4b9f1fcb7e72",
       "title": "Best UI/UX Design Tools I Keep Coming Back to as a Designer",
@@ -152,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-31T15:56:24.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -172,55 +212,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-31T15:56:04.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "You can’t grow roses in a cornfield",
           "url": "https://uxdesign.cc/you-cant-grow-roses-in-a-cornfield-490d47dd8f74?source=rss----138adf9c44c---4",
           "publishedAt": "2026-08-31T15:56:04.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1b6b745206df",
-      "title": "Blank pages, Researcher-in-the-loop, Design’s craft crisis",
-      "teaser": "Weekly curated resources for designers — thinkers and makers. “Interface design has known this for decades. It’s baked into one of the oldest usability heuristics in the field — Jakob Nielse",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-31T11:59:52.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Blank pages, Researcher-in-the-loop, Design’s craft crisis",
-          "url": "https://uxdesign.cc/blank-pages-researcher-in-the-loop-designs-craft-crisis-7934ab0bc9cf?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-31T11:59:52.000Z"
-        }
-      ]
-    },
-    {
-      "id": "72b0820ee546",
-      "title": "UX in 2027 may be less about interfaces and more about behavior",
-      "teaser": "The signals I see today point to more adaptive interfaces, more delegated actions, and a larger responsibility for designers to define the limits From fixed interfaces to adaptive systems: U",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-31T11:09:53.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "UX in 2027 may be less about interfaces and more about behavior",
-          "url": "https://uxdesign.cc/ux-trends-2027-beyond-interface-design-23e55b1daf07?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-31T11:09:53.000Z"
         }
       ]
     },
@@ -232,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T13:38:57.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -265,6 +265,26 @@
       ]
     },
     {
+      "id": "21c2ce61f384",
+      "title": "Slow-Fast Brain-Computer Interfaces: Preventing Neuroadaptive Overfitting in AI-Mediated Neural Interfaces",
+      "teaser": "Artificial intelligence (AI) is transforming brain-computer interfaces (BCIs) from task-specific neural decoders into adaptive systems that complete language, smooth movement, regulate rehab",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-01T18:37:23.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Slow-Fast Brain-Computer Interfaces: Preventing Neuroadaptive Overfitting in AI-Mediated Neural Interfaces",
+          "url": "https://arxiv.org/abs/2609.01767v1",
+          "publishedAt": "2026-09-01T18:37:23.000Z"
+        }
+      ]
+    },
+    {
       "id": "15cc36a749fc",
       "title": "Users don’t see your design system",
       "teaser": "How Gestalt principles power any great design system Continue reading on UX Collective »",
@@ -272,9 +292,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T11:28:51.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -294,13 +314,33 @@
       "publishedAt": "2026-08-18T14:01:54.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 15 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: My agents kept hallucinating APIs, so I built them a headless IDE",
           "url": "https://context-engine.app",
           "publishedAt": "2026-08-18T14:01:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a9aa1dc21ec8",
+      "title": "Improving UI/UX in a Real-World Application",
+      "teaser": "Introduction While working on DoctPro, I got the opportunity to review the application's UI/UX and...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-08-31T14:41:00.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Improving UI/UX in a Real-World Application",
+          "url": "https://dev.to/muthushivani_a3e9694edaa0/improving-uiux-in-a-real-world-application-4mdb",
+          "publishedAt": "2026-08-31T14:41:00.000Z"
         }
       ]
     },
@@ -332,9 +372,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T12:01:49.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -352,9 +392,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T08:50:46.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -374,7 +414,7 @@
       "publishedAt": "2026-08-15T13:06:30.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -394,7 +434,7 @@
       "publishedAt": "2026-08-13T12:26:56.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -434,33 +474,13 @@
       "publishedAt": "2026-08-12T15:20:19.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: FEDERaiDE, a TUI harness with P2P multi-agent routing and built in IDE",
           "url": "https://federaide.rocklab.in",
           "publishedAt": "2026-08-12T15:20:19.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fdc7699b5f39",
-      "title": "RecalibrateGPT: AI Fatigue Resilient Conversational Interfaces",
-      "teaser": "Large language models are powerful, but their interfaces often devolve into a type $\\rightarrow$ read $\\rightarrow$ retype loop, creating conversational AI fatigue, cognitive load, and event",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T00:16:35.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "RecalibrateGPT: AI Fatigue Resilient Conversational Interfaces",
-          "url": "https://arxiv.org/abs/2609.00506v1",
-          "publishedAt": "2026-09-01T00:16:35.000Z"
         }
       ]
     },
@@ -592,9 +612,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T11:15:14.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -632,9 +652,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T11:29:44.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -652,15 +672,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T11:28:18.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Color scheming with Perplexity tetrads",
           "url": "https://uxdesign.cc/color-scheming-with-perplexity-tetrads-daad13b49732?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-01T11:28:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "91d36d862777",
+      "title": "Framework: The first ePaper design system",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-14T05:43:34.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Framework: The first ePaper design system",
+          "url": "https://trmnl.com/blog/framework-design-system",
+          "publishedAt": "2026-08-14T05:43:34.000Z"
         }
       ]
     },
@@ -685,62 +725,42 @@
       ]
     },
     {
-      "id": "1ec30b29ea92",
-      "title": "Learning Feasibility-Aware Latent Spaces for Preference-Based Exploration of Procedural Automotive Wheel Designs",
-      "teaser": "Intelligent design interfaces that rely on preference-based optimization are most useful when their suggestions are both meaningful to users and feasible within the target domain. Procedural",
+      "id": "a1d3ee21f6ba",
+      "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
+      "teaser": "Quem desenha interfaces sabe exatamente quais botões, textos e animações empurram alguém a gastar...",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T00:52:50.000Z",
-      "since": "2 days ago",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-05T10:30:00.000Z",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Learning Feasibility-Aware Latent Spaces for Preference-Based Exploration of Procedural Automotive Wheel Designs",
-          "url": "https://arxiv.org/abs/2609.00527v1",
-          "publishedAt": "2026-09-01T00:52:50.000Z"
+          "name": "devto-ux",
+          "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
+          "url": "https://dev.to/vitoriazzp/o-abismo-entre-cuidar-do-usuario-e-vender-atencao-por-que-precisamos-falar-sobre-dark-patterns-5h1h",
+          "publishedAt": "2026-08-05T10:30:00.000Z"
         }
       ]
     },
     {
-      "id": "337038eee3b2",
-      "title": "Are We There Yet? Assessing Computer-Use Agents for Blind Users' Accessible Interaction with Desktop Applications",
-      "teaser": "Computer-use agents are emerging as a paradigm for agentic human-AI interaction, combining language reasoning with multi-modal interface grounding to operate GUIs. Yet their effectiveness fo",
+      "id": "4cfc06a222ed",
+      "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
+      "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T00:44:19.000Z",
-      "since": "2 days ago",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-13T12:30:43.000Z",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Are We There Yet? Assessing Computer-Use Agents for Blind Users' Accessible Interaction with Desktop Applications",
-          "url": "https://arxiv.org/abs/2609.00524v1",
-          "publishedAt": "2026-09-01T00:44:19.000Z"
-        }
-      ]
-    },
-    {
-      "id": "676f4fa93130",
-      "title": "ErgoAssist: Cognition-Aware Posture Feedback in Wearable Ergonomic Systems",
-      "teaser": "Prolonged digital device use has made poor posture and musculoskeletal discomfort pervasive among knowl- edge workers. Existing ergonomic wearables rely solely on posture thresholds, frequen",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-31T22:25:23.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "ErgoAssist: Cognition-Aware Posture Feedback in Wearable Ergonomic Systems",
-          "url": "https://arxiv.org/abs/2609.00440v1",
-          "publishedAt": "2026-08-31T22:25:23.000Z"
+          "name": "hn-ux",
+          "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
+          "url": "https://www.readiteasy.app/",
+          "publishedAt": "2026-08-13T12:30:43.000Z"
         }
       ]
     },
@@ -754,7 +774,7 @@
       "publishedAt": "2026-08-07T11:43:24.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -765,42 +785,22 @@
       ]
     },
     {
-      "id": "f763a8604b06",
-      "title": "TRMNL ePaper Design System",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "e6cab93ed3a3",
+      "title": "How I Cut UX Review Cycles 30% with an AI Agent: ai agent ux review flutter",
+      "teaser": "Cut Flutter UX review cycles by 30%. See how my custom ai agent ux review flutter identifies forgotten UI elements and product details before human review.",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-11T17:46:21.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "publishedAt": "2026-08-09T05:01:36.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 25 days",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "TRMNL ePaper Design System",
-          "url": "https://github.com/usetrmnl/trmnl-framework",
-          "publishedAt": "2026-08-11T17:46:21.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e15a5c736f2d",
-      "title": "Show HN: Chain – A Python-like language with native inline C++",
-      "teaser": "Chain (Formerly Link-Lang) is a Python-syntax scripting language that was built from scratch in C++, with one feature I haven&#x27;t noticed elsewhere: an &#x27;extern \"c\" { }&#x27; block wh",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-11T15:18:28.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Chain – A Python-like language with native inline C++",
-          "url": "https://github.com/Nebania/chain-lang",
-          "publishedAt": "2026-08-11T15:18:28.000Z"
+          "name": "devto-ux",
+          "title": "How I Cut UX Review Cycles 30% with an AI Agent: ai agent ux review flutter",
+          "url": "https://dev.to/umair24171/how-i-cut-ux-review-cycles-30-with-an-ai-agent-ai-agent-ux-review-flutter-14pm",
+          "publishedAt": "2026-08-09T05:01:36.000Z"
         }
       ]
     },
@@ -825,36 +825,16 @@
       ]
     },
     {
-      "id": "89b5656b2a9c",
-      "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
-      "teaser": "Hi HN, react-candlesticks is a React chart library for financial charts (stock, crypto, trading, etc). It support multiple panels and layers, theming, and early support for custom layers and",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-06T13:48:06.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
-          "url": "https://reactcandlesticks.com/demo/",
-          "publishedAt": "2026-08-06T13:48:06.000Z"
-        }
-      ]
-    },
-    {
       "id": "7c2f71191b75",
       "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
       "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
       "tag": "Research",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-08-26T13:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "smashing",
@@ -925,46 +905,6 @@
       ]
     },
     {
-      "id": "43701b24fca4",
-      "title": "UX Design Research – reflections on the role of UX design in the age of AI",
-      "teaser": "",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T11:33:15.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "UX Design Research – reflections on the role of UX design in the age of AI",
-          "url": "https://uxdesignresearch.org/en/",
-          "publishedAt": "2026-08-07T11:33:15.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a63a4cf7812f",
-      "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
-      "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-11T10:58:39.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
-          "url": "https://dev.to/ilyas_elaissi/10-ux-design-patterns-every-developer-should-know-and-when-to-skip-them-3olm",
-          "publishedAt": "2026-08-11T10:58:39.000Z"
-        }
-      ]
-    },
-    {
       "id": "b2fa9b4faa22",
       "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
       "teaser": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale ",
@@ -974,7 +914,7 @@
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
       "sources": [
         {
           "name": "smashing",
@@ -994,13 +934,73 @@
       "publishedAt": "2026-08-04T08:43:32.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Conference October Announced (Oct 26 - Oct 29)",
           "url": "https://www.nngroup.com/training/october-eu/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-08-04T08:43:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "69c2e9207d09",
+      "title": "Dogfooding vs. QA vs. User Research",
+      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Dogfooding vs. QA vs. User Research",
+          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-07T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f763a8604b06",
+      "title": "TRMNL ePaper Design System",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T17:46:21.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "TRMNL ePaper Design System",
+          "url": "https://github.com/usetrmnl/trmnl-framework",
+          "publishedAt": "2026-08-11T17:46:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9b681575c5c4",
+      "title": "Figma MCP: turning Claude-generated UI into a component library",
+      "teaser": "This is the stretch nobody films. The demo ends at the screenshot; the job ends about a week later, in a Figma file that someone else has to be able to open…",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-06T06:15:32.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Figma MCP: turning Claude-generated UI into a component library",
+          "url": "https://dev.to/phongdesigns/figma-mcp-turning-claude-generated-ui-into-a-component-library-72j",
+          "publishedAt": "2026-08-06T06:15:32.000Z"
         }
       ]
     }
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-02T19:19:18.319Z"
+      "fetchedAt": "2026-09-03T03:59:40.184Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-02T19:19:18.363Z"
+      "fetchedAt": "2026-09-03T03:59:40.237Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-02T19:19:18.364Z"
+      "fetchedAt": "2026-09-03T03:59:40.238Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-02T19:19:18.365Z"
+      "fetchedAt": "2026-09-03T03:59:40.239Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-02T19:19:18.365Z"
+      "fetchedAt": "2026-09-03T03:59:40.240Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-02T19:19:18.366Z"
+      "fetchedAt": "2026-09-03T03:59:40.241Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-02T19:19:18.367Z"
+      "fetchedAt": "2026-09-03T03:59:40.242Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-02T19:19:18.367Z"
+      "fetchedAt": "2026-09-03T03:59:40.243Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 31,
-      "fetchedAt": "2026-09-02T19:19:18.368Z"
+      "items": 30,
+      "fetchedAt": "2026-09-03T03:59:40.244Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-02T19:19:18.369Z"
+      "fetchedAt": "2026-09-03T03:59:40.245Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-02T19:19:18.369Z"
+      "fetchedAt": "2026-09-03T03:59:40.245Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-02T19:19:18.370Z"
+      "fetchedAt": "2026-09-03T03:59:40.246Z"
     }
   ]
 }
