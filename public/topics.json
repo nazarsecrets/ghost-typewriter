@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-04T12:38:29.883Z",
-  "windowStart": "2026-08-05T12:38:29.883Z",
-  "windowEnd": "2026-09-04T12:38:29.883Z",
+  "generatedAt": "2026-09-04T18:55:44.757Z",
+  "windowStart": "2026-08-05T18:55:44.757Z",
+  "windowEnd": "2026-09-04T18:55:44.757Z",
   "topics": [
+    {
+      "id": "ff077aa966ed",
+      "title": "Show HN: Learn/Practice Sudoku strategies web app",
+      "teaser": "So, I wanted to get better at Sudoku puzzles, and I watched a lot of strategy videos, but I just could not grok them. Also I installed a bunch of free Sudoku games on my phone and got very (",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-04T14:35:45.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Learn/Practice Sudoku strategies web app",
+          "url": "https://sw-fun.github.io/sudoku/",
+          "publishedAt": "2026-09-04T14:35:45.000Z"
+        }
+      ]
+    },
     {
       "id": "34ba5d756fec",
       "title": "When the canvas starts acting, who’s really in control?",
@@ -118,9 +138,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T06:20:22.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -198,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T04:50:49.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -340,7 +360,7 @@
       "publishedAt": "2026-08-24T06:48:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "nngroup",
@@ -516,11 +536,11 @@
       "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-08-28T00:57:31.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -680,7 +700,7 @@
       "publishedAt": "2026-08-26T05:06:25.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -760,7 +780,7 @@
       "publishedAt": "2026-08-20T03:23:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "devto-design",
@@ -840,7 +860,7 @@
       "publishedAt": "2026-08-14T05:43:34.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -949,26 +969,6 @@
           "publishedAt": "2026-08-07T17:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "9b681575c5c4",
-      "title": "Figma MCP: turning Claude-generated UI into a component library",
-      "teaser": "This is the stretch nobody films. The demo ends at the screenshot; the job ends about a week later, in a Figma file that someone else has to be able to open…",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-06T06:15:32.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Figma MCP: turning Claude-generated UI into a component library",
-          "url": "https://dev.to/phongdesigns/figma-mcp-turning-claude-generated-ui-into-a-component-library-72j",
-          "publishedAt": "2026-08-06T06:15:32.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -976,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-04T12:38:29.884Z"
+      "fetchedAt": "2026-09-04T18:55:44.757Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-04T12:38:29.936Z"
+      "fetchedAt": "2026-09-04T18:55:44.808Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-04T12:38:29.938Z"
+      "fetchedAt": "2026-09-04T18:55:44.809Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-04T12:38:29.939Z"
+      "fetchedAt": "2026-09-04T18:55:44.810Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-04T12:38:29.940Z"
+      "fetchedAt": "2026-09-04T18:55:44.811Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-04T12:38:29.941Z"
+      "fetchedAt": "2026-09-04T18:55:44.812Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-04T12:38:29.942Z"
+      "fetchedAt": "2026-09-04T18:55:44.814Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 10,
-      "fetchedAt": "2026-09-04T12:38:29.943Z"
+      "items": 11,
+      "fetchedAt": "2026-09-04T18:55:44.814Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-04T12:38:29.944Z"
+      "fetchedAt": "2026-09-04T18:55:44.815Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-04T12:38:29.945Z"
+      "fetchedAt": "2026-09-04T18:55:44.816Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-04T12:38:29.946Z"
+      "fetchedAt": "2026-09-04T18:55:44.817Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-04T12:38:29.947Z"
+      "fetchedAt": "2026-09-04T18:55:44.818Z"
     }
   ]
 }
