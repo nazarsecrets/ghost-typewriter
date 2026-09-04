@@ -1,35 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-04T04:06:02.251Z",
-  "windowStart": "2026-08-05T04:06:02.251Z",
-  "windowEnd": "2026-09-04T04:06:02.251Z",
+  "generatedAt": "2026-09-04T12:38:29.883Z",
+  "windowStart": "2026-08-05T12:38:29.883Z",
+  "windowEnd": "2026-09-04T12:38:29.883Z",
   "topics": [
-    {
-      "id": "096f67798d00",
-      "title": "What Minority Report got wrong about AI (so far)",
-      "teaser": "The film gave us two futures. We rebuilt the one that was easy to demo. The film cautioned against predictive systems and pre-crime, and the we turned it into a screensaver. For two decades,",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T22:16:54.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What Minority Report got wrong about AI (so far)",
-          "url": "https://uxdesign.cc/what-minority-report-got-wrong-about-ai-so-far-9048573aa70f?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-03T22:39:12.000Z"
-        },
-        {
-          "name": "uxcollective",
-          "title": "What Minority Report got right about AI",
-          "url": "https://uxdesign.cc/what-minority-report-got-right-about-ai-45b9f1106431?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-01T22:16:54.000Z"
-        }
-      ]
-    },
     {
       "id": "34ba5d756fec",
       "title": "When the canvas starts acting, who’s really in control?",
@@ -38,9 +12,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T22:13:30.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -58,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T22:13:11.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -78,9 +52,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-08-24T16:45:48.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "45 engagement signals within 10 days",
+      "categoryReason": "45 engagement signals within 11 days",
       "sources": [
         {
           "name": "devto-design",
@@ -91,22 +65,28 @@
       ]
     },
     {
-      "id": "d6da69fcc0c2",
-      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
-      "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
-      "tag": "AI",
+      "id": "096f67798d00",
+      "title": "What Minority Report got wrong about AI (so far)",
+      "teaser": "The film gave us two futures. We rebuilt the one that was easy to demo. The film cautioned against predictive systems and pre-crime, and the we turned it into a screensaver. For two decades,",
+      "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-03T19:19:42.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "publishedAt": "2026-09-01T22:16:54.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
-          "name": "hn-ux",
-          "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
-          "url": "https://devbar.sh",
-          "publishedAt": "2026-09-03T19:19:42.000Z"
+          "name": "uxcollective",
+          "title": "What Minority Report got wrong about AI (so far)",
+          "url": "https://uxdesign.cc/what-minority-report-got-wrong-about-ai-so-far-9048573aa70f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-03T22:39:12.000Z"
+        },
+        {
+          "name": "uxcollective",
+          "title": "What Minority Report got right about AI",
+          "url": "https://uxdesign.cc/what-minority-report-got-right-about-ai-45b9f1106431?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-01T22:16:54.000Z"
         }
       ]
     },
@@ -120,7 +100,7 @@
       "publishedAt": "2026-08-26T16:40:01.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "84 engagement signals within 8 days",
+      "categoryReason": "84 engagement signals within 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -158,9 +138,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-31T21:47:30.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -238,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T20:37:45.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -298,9 +278,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T17:56:50.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -331,42 +311,22 @@
       ]
     },
     {
-      "id": "3e53123d3b0e",
-      "title": "Making Gender-Inclusive Practices Actionable: Evaluating a Research-Informed Computing Education Toolkit",
-      "teaser": "The persistent gender imbalance in computing remains a global concern, and universities offer a key part of the pipeline to address it. Although research has identified practices that suppor",
-      "tag": "Research",
+      "id": "d6da69fcc0c2",
+      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+      "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-03T14:43:51.000Z",
+      "publishedAt": "2026-09-03T19:19:42.000Z",
       "since": "yesterday",
       "relevanceScore": 0.429,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Making Gender-Inclusive Practices Actionable: Evaluating a Research-Informed Computing Education Toolkit",
-          "url": "https://arxiv.org/abs/2609.03936v1",
-          "publishedAt": "2026-09-03T14:43:51.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b758d1344f48",
-      "title": "Point&Spawn: Mid-Air Reference-Free Object Instantiation Using Gaze and Hand Gestures in Extended Reality",
-      "teaser": "Mid-air object instantiation in XR requires users to specify a 3D position without spatial references, such as surfaces or existing objects. We present Point&Spawn, a staged pipeline for pre",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-03T10:58:11.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Point&Spawn: Mid-Air Reference-Free Object Instantiation Using Gaze and Hand Gestures in Extended Reality",
-          "url": "https://arxiv.org/abs/2609.03661v1",
-          "publishedAt": "2026-09-03T10:58:11.000Z"
+          "name": "hn-ux",
+          "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+          "url": "https://devbar.sh",
+          "publishedAt": "2026-09-03T19:19:42.000Z"
         }
       ]
     },
@@ -500,7 +460,7 @@
       "publishedAt": "2026-08-25T21:12:33.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -536,11 +496,11 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-08-27T18:11:38.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -571,6 +531,46 @@
       ]
     },
     {
+      "id": "3e53123d3b0e",
+      "title": "Making Gender-Inclusive Practices Actionable: Evaluating a Research-Informed Computing Education Toolkit",
+      "teaser": "The persistent gender imbalance in computing remains a global concern, and universities offer a key part of the pipeline to address it. Although research has identified practices that suppor",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-03T14:43:51.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Making Gender-Inclusive Practices Actionable: Evaluating a Research-Informed Computing Education Toolkit",
+          "url": "https://arxiv.org/abs/2609.03936v1",
+          "publishedAt": "2026-09-03T14:43:51.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b758d1344f48",
+      "title": "Point&Spawn: Mid-Air Reference-Free Object Instantiation Using Gaze and Hand Gestures in Extended Reality",
+      "teaser": "Mid-air object instantiation in XR requires users to specify a 3D position without spatial references, such as surfaces or existing objects. We present Point&Spawn, a staged pipeline for pre",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-03T10:58:11.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Point&Spawn: Mid-Air Reference-Free Object Instantiation Using Gaze and Hand Gestures in Extended Reality",
+          "url": "https://arxiv.org/abs/2609.03661v1",
+          "publishedAt": "2026-09-03T10:58:11.000Z"
+        }
+      ]
+    },
+    {
       "id": "e92441db722a",
       "title": "Design tokens: The building blocks of a design system",
       "teaser": "",
@@ -580,7 +580,7 @@
       "publishedAt": "2026-08-18T16:14:40.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -600,7 +600,7 @@
       "publishedAt": "2026-08-26T17:51:57.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -718,9 +718,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -780,7 +780,7 @@
       "publishedAt": "2026-08-25T21:17:17.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -800,7 +800,7 @@
       "publishedAt": "2026-08-25T21:08:28.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -851,26 +851,6 @@
       ]
     },
     {
-      "id": "a1d3ee21f6ba",
-      "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
-      "teaser": "Quem desenha interfaces sabe exatamente quais botões, textos e animações empurram alguém a gastar...",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-05T10:30:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
-          "url": "https://dev.to/vitoriazzp/o-abismo-entre-cuidar-do-usuario-e-vender-atencao-por-que-precisamos-falar-sobre-dark-patterns-5h1h",
-          "publishedAt": "2026-08-05T10:30:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "4cfc06a222ed",
       "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
       "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
@@ -887,26 +867,6 @@
           "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
           "url": "https://www.readiteasy.app/",
           "publishedAt": "2026-08-13T12:30:43.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9b681575c5c4",
-      "title": "Figma MCP: turning Claude-generated UI into a component library",
-      "teaser": "This is the stretch nobody films. The demo ends at the screenshot; the job ends about a week later, in a Figma file that someone else has to be able to open…",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-06T06:15:32.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Figma MCP: turning Claude-generated UI into a component library",
-          "url": "https://dev.to/phongdesigns/figma-mcp-turning-claude-generated-ui-into-a-component-library-72j",
-          "publishedAt": "2026-08-06T06:15:32.000Z"
         }
       ]
     },
@@ -980,13 +940,33 @@
       "publishedAt": "2026-08-07T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "Dogfooding vs. QA vs. User Research",
           "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-08-07T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9b681575c5c4",
+      "title": "Figma MCP: turning Claude-generated UI into a component library",
+      "teaser": "This is the stretch nobody films. The demo ends at the screenshot; the job ends about a week later, in a Figma file that someone else has to be able to open…",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-06T06:15:32.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Figma MCP: turning Claude-generated UI into a component library",
+          "url": "https://dev.to/phongdesigns/figma-mcp-turning-claude-generated-ui-into-a-component-library-72j",
+          "publishedAt": "2026-08-06T06:15:32.000Z"
         }
       ]
     }
@@ -996,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-04T04:06:02.251Z"
+      "fetchedAt": "2026-09-04T12:38:29.884Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-04T04:06:02.304Z"
+      "fetchedAt": "2026-09-04T12:38:29.936Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-04T04:06:02.306Z"
+      "fetchedAt": "2026-09-04T12:38:29.938Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-04T04:06:02.307Z"
+      "fetchedAt": "2026-09-04T12:38:29.939Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-04T04:06:02.308Z"
+      "fetchedAt": "2026-09-04T12:38:29.940Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-04T04:06:02.309Z"
+      "fetchedAt": "2026-09-04T12:38:29.941Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-04T04:06:02.310Z"
+      "fetchedAt": "2026-09-04T12:38:29.942Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-04T04:06:02.311Z"
+      "fetchedAt": "2026-09-04T12:38:29.943Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-04T04:06:02.312Z"
+      "fetchedAt": "2026-09-04T12:38:29.944Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-04T04:06:02.313Z"
+      "fetchedAt": "2026-09-04T12:38:29.945Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-04T04:06:02.314Z"
+      "fetchedAt": "2026-09-04T12:38:29.946Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-04T04:06:02.315Z"
+      "fetchedAt": "2026-09-04T12:38:29.947Z"
     }
   ]
 }
