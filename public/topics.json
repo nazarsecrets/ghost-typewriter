@@ -1,26 +1,32 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-03T19:13:36.873Z",
-  "windowStart": "2026-08-04T19:13:36.873Z",
-  "windowEnd": "2026-09-03T19:13:36.873Z",
+  "generatedAt": "2026-09-04T04:06:02.251Z",
+  "windowStart": "2026-08-05T04:06:02.251Z",
+  "windowEnd": "2026-09-04T04:06:02.251Z",
   "topics": [
     {
-      "id": "2a6d5002970c",
-      "title": "Show HN: Mu – an agent with actual command line experience",
-      "teaser": "I&#x27;m an old school user that finds the AI agent TUIs too magical, so I experimented with a new agent UX. I implement mu as a shell plugin (zsh and fish for now). Pressing Tab enters agen",
-      "tag": "AI",
+      "id": "096f67798d00",
+      "title": "What Minority Report got wrong about AI (so far)",
+      "teaser": "The film gave us two futures. We rebuilt the one that was easy to demo. The film cautioned against predictive systems and pre-crime, and the we turned it into a screensaver. For two decades,",
+      "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-03T14:31:41.000Z",
-      "since": "today",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 0 days ago",
+      "publishedAt": "2026-09-01T22:16:54.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
-          "name": "hn-ux",
-          "title": "Show HN: Mu – an agent with actual command line experience",
-          "url": "https://github.com/ylxdzsw/mu",
-          "publishedAt": "2026-09-03T14:31:41.000Z"
+          "name": "uxcollective",
+          "title": "What Minority Report got wrong about AI (so far)",
+          "url": "https://uxdesign.cc/what-minority-report-got-wrong-about-ai-so-far-9048573aa70f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-03T22:39:12.000Z"
+        },
+        {
+          "name": "uxcollective",
+          "title": "What Minority Report got right about AI",
+          "url": "https://uxdesign.cc/what-minority-report-got-right-about-ai-45b9f1106431?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-01T22:16:54.000Z"
         }
       ]
     },
@@ -85,22 +91,22 @@
       ]
     },
     {
-      "id": "7cb725d0411b",
-      "title": "What Minority Report got right about AI",
-      "teaser": "The operator dwarfed by the machine that generates his future for him. The film’s real subject was never the screen. Steven Spielberg’s Precogs Are The Sharpest Portrait Of Generative AI Any",
+      "id": "d6da69fcc0c2",
+      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+      "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-01T22:16:54.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "publishedAt": "2026-09-03T19:19:42.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "What Minority Report got right about AI",
-          "url": "https://uxdesign.cc/what-minority-report-got-right-about-ai-45b9f1106431?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-01T22:16:54.000Z"
+          "name": "hn-ux",
+          "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+          "url": "https://devbar.sh",
+          "publishedAt": "2026-09-03T19:19:42.000Z"
         }
       ]
     },
@@ -172,35 +178,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-31T15:56:24.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Design has outgrown the traditional designer",
           "url": "https://uxdesign.cc/design-has-outgrown-the-traditional-designer-adbb657aa30a?source=rss----138adf9c44c---4",
           "publishedAt": "2026-08-31T15:56:24.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b0d84c025c26",
-      "title": "You can’t grow roses in a cornfield",
-      "teaser": "A conversation with Whitney Hess, on careers, whispers, and where to plant yourself Photo by Bob Bowie on Unsplash Some questions sound administrative but are not, and “why do you want to sw",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-31T15:56:04.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "You can’t grow roses in a cornfield",
-          "url": "https://uxdesign.cc/you-cant-grow-roses-in-a-cornfield-490d47dd8f74?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-31T15:56:04.000Z"
         }
       ]
     },
@@ -212,35 +198,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T13:38:57.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Invader – an indie iOS podcast player that never phones home",
           "url": "https://invader.gg/",
           "publishedAt": "2026-09-01T13:38:57.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9920dcc5c074",
-      "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
-      "teaser": "Hello! I&#x27;m a student from Spain and I&#x27;m the creator of MesaOS, an open-source operating system written from scratch in Rust for x86_64. I&#x27;ve been working on it mostly by mysel",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-03T17:56:50.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
-          "url": "https://github.com/crackanimad0r/MesaOS",
-          "publishedAt": "2026-09-03T17:56:50.000Z"
         }
       ]
     },
@@ -292,15 +258,55 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T11:28:51.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Users don’t see your design system",
           "url": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-01T11:28:51.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2a6d5002970c",
+      "title": "Show HN: Mu – an agent with actual command line experience",
+      "teaser": "I&#x27;m an old school user that finds the AI agent TUIs too magical, so I experimented with a new agent UX. I implement mu as a shell plugin (zsh and fish for now). Pressing Tab enters agen",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-03T14:31:41.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Mu – an agent with actual command line experience",
+          "url": "https://github.com/ylxdzsw/mu",
+          "publishedAt": "2026-09-03T14:31:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9920dcc5c074",
+      "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
+      "teaser": "Hello! I&#x27;m a student from Spain and I&#x27;m the creator of MesaOS, an open-source operating system written from scratch in Rust for x86_64. I&#x27;ve been working on it mostly by mysel",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-03T17:56:50.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
+          "url": "https://github.com/crackanimad0r/MesaOS",
+          "publishedAt": "2026-09-03T17:56:50.000Z"
         }
       ]
     },
@@ -314,13 +320,53 @@
       "publishedAt": "2026-08-18T14:01:54.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 16 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: My agents kept hallucinating APIs, so I built them a headless IDE",
           "url": "https://context-engine.app",
           "publishedAt": "2026-08-18T14:01:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3e53123d3b0e",
+      "title": "Making Gender-Inclusive Practices Actionable: Evaluating a Research-Informed Computing Education Toolkit",
+      "teaser": "The persistent gender imbalance in computing remains a global concern, and universities offer a key part of the pipeline to address it. Although research has identified practices that suppor",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-03T14:43:51.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Making Gender-Inclusive Practices Actionable: Evaluating a Research-Informed Computing Education Toolkit",
+          "url": "https://arxiv.org/abs/2609.03936v1",
+          "publishedAt": "2026-09-03T14:43:51.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b758d1344f48",
+      "title": "Point&Spawn: Mid-Air Reference-Free Object Instantiation Using Gaze and Hand Gestures in Extended Reality",
+      "teaser": "Mid-air object instantiation in XR requires users to specify a 3D position without spatial references, such as surfaces or existing objects. We present Point&Spawn, a staged pipeline for pre",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-03T10:58:11.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Point&Spawn: Mid-Air Reference-Free Object Instantiation Using Gaze and Hand Gestures in Extended Reality",
+          "url": "https://arxiv.org/abs/2609.03661v1",
+          "publishedAt": "2026-09-03T10:58:11.000Z"
         }
       ]
     },
@@ -352,9 +398,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T12:01:49.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -372,9 +418,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T08:50:46.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -394,7 +440,7 @@
       "publishedAt": "2026-08-15T13:06:30.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 20 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -414,7 +460,7 @@
       "publishedAt": "2026-08-13T12:26:56.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -434,7 +480,7 @@
       "publishedAt": "2026-08-12T15:20:19.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -474,7 +520,7 @@
       "publishedAt": "2026-08-06T16:01:53.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 28 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 29 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -572,9 +618,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T11:15:14.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -592,9 +638,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T11:29:44.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -612,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T11:28:18.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -645,26 +691,6 @@
       ]
     },
     {
-      "id": "4cfc06a222ed",
-      "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
-      "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-13T12:30:43.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
-          "url": "https://www.readiteasy.app/",
-          "publishedAt": "2026-08-13T12:30:43.000Z"
-        }
-      ]
-    },
-    {
       "id": "d220bf3b8944",
       "title": "Design Systems in the Age of AI: Five Working Hypotheses",
       "teaser": "",
@@ -674,33 +700,13 @@
       "publishedAt": "2026-08-07T11:43:24.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Design Systems in the Age of AI: Five Working Hypotheses",
           "url": "https://uxdesignresearch.org/en/5-hypotheses/",
           "publishedAt": "2026-08-07T11:43:24.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f763a8604b06",
-      "title": "TRMNL ePaper Design System",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-11T17:46:21.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "TRMNL ePaper Design System",
-          "url": "https://github.com/usetrmnl/trmnl-framework",
-          "publishedAt": "2026-08-11T17:46:21.000Z"
         }
       ]
     },
@@ -734,7 +740,7 @@
       "publishedAt": "2026-08-26T13:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "smashing",
@@ -814,7 +820,7 @@
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
       "sources": [
         {
           "name": "smashing",
@@ -854,13 +860,113 @@
       "publishedAt": "2026-08-05T10:30:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "O abismo entre cuidar do usuário e vender atenção: por que precisamos falar sobre dark patterns",
           "url": "https://dev.to/vitoriazzp/o-abismo-entre-cuidar-do-usuario-e-vender-atencao-por-que-precisamos-falar-sobre-dark-patterns-5h1h",
           "publishedAt": "2026-08-05T10:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4cfc06a222ed",
+      "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
+      "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-13T12:30:43.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
+          "url": "https://www.readiteasy.app/",
+          "publishedAt": "2026-08-13T12:30:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9b681575c5c4",
+      "title": "Figma MCP: turning Claude-generated UI into a component library",
+      "teaser": "This is the stretch nobody films. The demo ends at the screenshot; the job ends about a week later, in a Figma file that someone else has to be able to open…",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-06T06:15:32.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Figma MCP: turning Claude-generated UI into a component library",
+          "url": "https://dev.to/phongdesigns/figma-mcp-turning-claude-generated-ui-into-a-component-library-72j",
+          "publishedAt": "2026-08-06T06:15:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "89b5656b2a9c",
+      "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
+      "teaser": "Hi HN, react-candlesticks is a React chart library for financial charts (stock, crypto, trading, etc). It support multiple panels and layers, theming, and early support for custom layers and",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-06T13:48:06.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
+          "url": "https://reactcandlesticks.com/demo/",
+          "publishedAt": "2026-08-06T13:48:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "43701b24fca4",
+      "title": "UX Design Research – reflections on the role of UX design in the age of AI",
+      "teaser": "",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T11:33:15.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "UX Design Research – reflections on the role of UX design in the age of AI",
+          "url": "https://uxdesignresearch.org/en/",
+          "publishedAt": "2026-08-07T11:33:15.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a63a4cf7812f",
+      "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
+      "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T10:58:39.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
+          "url": "https://dev.to/ilyas_elaissi/10-ux-design-patterns-every-developer-should-know-and-when-to-skip-them-3olm",
+          "publishedAt": "2026-08-11T10:58:39.000Z"
         }
       ]
     },
@@ -883,66 +989,6 @@
           "publishedAt": "2026-08-07T17:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "89b5656b2a9c",
-      "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
-      "teaser": "Hi HN, react-candlesticks is a React chart library for financial charts (stock, crypto, trading, etc). It support multiple panels and layers, theming, and early support for custom layers and",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-06T13:48:06.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
-          "url": "https://reactcandlesticks.com/demo/",
-          "publishedAt": "2026-08-06T13:48:06.000Z"
-        }
-      ]
-    },
-    {
-      "id": "43701b24fca4",
-      "title": "UX Design Research – reflections on the role of UX design in the age of AI",
-      "teaser": "",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T11:33:15.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "UX Design Research – reflections on the role of UX design in the age of AI",
-          "url": "https://uxdesignresearch.org/en/",
-          "publishedAt": "2026-08-07T11:33:15.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a63a4cf7812f",
-      "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
-      "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-11T10:58:39.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
-          "url": "https://dev.to/ilyas_elaissi/10-ux-design-patterns-every-developer-should-know-and-when-to-skip-them-3olm",
-          "publishedAt": "2026-08-11T10:58:39.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -950,74 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-03T19:13:36.874Z"
+      "fetchedAt": "2026-09-04T04:06:02.251Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-03T19:13:36.915Z"
+      "fetchedAt": "2026-09-04T04:06:02.304Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-03T19:13:36.916Z"
+      "fetchedAt": "2026-09-04T04:06:02.306Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-03T19:13:36.916Z"
+      "fetchedAt": "2026-09-04T04:06:02.307Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-03T19:13:36.917Z"
+      "fetchedAt": "2026-09-04T04:06:02.308Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-03T19:13:36.918Z"
+      "fetchedAt": "2026-09-04T04:06:02.309Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-03T19:13:36.919Z"
+      "fetchedAt": "2026-09-04T04:06:02.310Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 9,
-      "fetchedAt": "2026-09-03T19:13:36.919Z"
+      "items": 10,
+      "fetchedAt": "2026-09-04T04:06:02.311Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-03T19:13:36.920Z"
+      "fetchedAt": "2026-09-04T04:06:02.312Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": false,
-      "items": 0,
-      "fetchedAt": "2026-09-03T19:13:36.921Z",
-      "error": "This operation was aborted"
+      "ok": true,
+      "items": 30,
+      "fetchedAt": "2026-09-04T04:06:02.313Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-03T19:13:36.921Z"
+      "fetchedAt": "2026-09-04T04:06:02.314Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-03T19:13:36.922Z"
+      "fetchedAt": "2026-09-04T04:06:02.315Z"
     }
   ]
 }
