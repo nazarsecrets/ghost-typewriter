@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T11:45:50.612Z",
-  "windowStart": "2026-08-06T11:45:50.612Z",
-  "windowEnd": "2026-09-05T11:45:50.612Z",
+  "generatedAt": "2026-09-05T18:02:42.742Z",
+  "windowStart": "2026-08-06T18:02:42.742Z",
+  "windowEnd": "2026-09-05T18:02:42.742Z",
   "topics": [
     {
       "id": "ff077aa966ed",
@@ -32,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-05T00:21:17.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -218,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T04:50:49.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -498,15 +498,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-05T02:16:36.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Arena, the same design system in React and Angular from one contract",
           "url": "https://arena.dravensoft.org/web-benches/",
           "publishedAt": "2026-09-05T02:16:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0216afdd1ec7",
+      "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
+      "teaser": "When a technology company grows quickly, its brand can become a problem before anyone notices...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-19T22:58:59.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
+          "url": "https://dev.to/madebymonogram/how-we-turned-an-ai-brand-identity-into-a-scalable-digital-design-system-eo6",
+          "publishedAt": "2026-08-19T22:58:59.000Z"
         }
       ]
     },
@@ -551,26 +571,6 @@
       ]
     },
     {
-      "id": "385351c1a2c2",
-      "title": "Show HN: Stop Animated Images from Autoplaying",
-      "teaser": "I’ve always been annoyed that browsers autoplay GIFs and other animated images. So I made GIF Control, a browser extension that stops animated images by default, shows the first frame, and a",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-06T16:01:53.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Stop Animated Images from Autoplaying",
-          "url": "https://neonglow.studio/gif-control/",
-          "publishedAt": "2026-08-06T16:01:53.000Z"
-        }
-      ]
-    },
-    {
       "id": "104f50c5e3cb",
       "title": "Reservoir: The Design System of the NYPL",
       "teaser": "",
@@ -600,7 +600,7 @@
       "publishedAt": "2026-08-28T00:57:31.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -758,9 +758,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-26T05:06:25.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -840,7 +840,7 @@
       "publishedAt": "2026-08-20T03:23:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "devto-design",
@@ -891,6 +891,26 @@
       ]
     },
     {
+      "id": "a63a4cf7812f",
+      "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
+      "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T10:58:39.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
+          "url": "https://dev.to/ilyas_elaissi/10-ux-design-patterns-every-developer-should-know-and-when-to-skip-them-3olm",
+          "publishedAt": "2026-08-11T10:58:39.000Z"
+        }
+      ]
+    },
+    {
       "id": "b2fa9b4faa22",
       "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
       "teaser": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale ",
@@ -920,33 +940,13 @@
       "publishedAt": "2026-08-14T05:43:34.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Framework: The first ePaper design system",
           "url": "https://trmnl.com/blog/framework-design-system",
           "publishedAt": "2026-08-14T05:43:34.000Z"
-        }
-      ]
-    },
-    {
-      "id": "69c2e9207d09",
-      "title": "Dogfooding vs. QA vs. User Research",
-      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Dogfooding vs. QA vs. User Research",
-          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-07T17:00:00.000Z"
         }
       ]
     },
@@ -971,26 +971,6 @@
       ]
     },
     {
-      "id": "89b5656b2a9c",
-      "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
-      "teaser": "Hi HN, react-candlesticks is a React chart library for financial charts (stock, crypto, trading, etc). It support multiple panels and layers, theming, and early support for custom layers and",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-06T13:48:06.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: React Candlesticks – JSX composable Canvas charts for financial UIs",
-          "url": "https://reactcandlesticks.com/demo/",
-          "publishedAt": "2026-08-06T13:48:06.000Z"
-        }
-      ]
-    },
-    {
       "id": "43701b24fca4",
       "title": "UX Design Research – reflections on the role of UX design in the age of AI",
       "teaser": "",
@@ -1009,6 +989,26 @@
           "publishedAt": "2026-08-07T11:33:15.000Z"
         }
       ]
+    },
+    {
+      "id": "69c2e9207d09",
+      "title": "Dogfooding vs. QA vs. User Research",
+      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Dogfooding vs. QA vs. User Research",
+          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-07T17:00:00.000Z"
+        }
+      ]
     }
   ],
   "sourceHealth": [
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-05T11:45:50.612Z"
+      "fetchedAt": "2026-09-05T18:02:42.743Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-05T11:45:50.665Z"
+      "fetchedAt": "2026-09-05T18:02:42.796Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-05T11:45:50.666Z"
+      "fetchedAt": "2026-09-05T18:02:42.797Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-05T11:45:50.667Z"
+      "fetchedAt": "2026-09-05T18:02:42.798Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-05T11:45:50.668Z"
+      "fetchedAt": "2026-09-05T18:02:42.799Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-05T11:45:50.669Z"
+      "fetchedAt": "2026-09-05T18:02:42.800Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-05T11:45:50.670Z"
+      "fetchedAt": "2026-09-05T18:02:42.801Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 12,
-      "fetchedAt": "2026-09-05T11:45:50.671Z"
+      "items": 10,
+      "fetchedAt": "2026-09-05T18:02:42.802Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-05T11:45:50.671Z"
+      "fetchedAt": "2026-09-05T18:02:42.803Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-05T11:45:50.672Z"
+      "fetchedAt": "2026-09-05T18:02:42.804Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-05T11:45:50.673Z"
+      "fetchedAt": "2026-09-05T18:02:42.805Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-05T11:45:50.674Z"
+      "fetchedAt": "2026-09-05T18:02:42.806Z"
     }
   ]
 }
