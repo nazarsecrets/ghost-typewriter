@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-05T03:58:27.085Z",
-  "windowStart": "2026-08-06T03:58:27.085Z",
-  "windowEnd": "2026-09-05T03:58:27.085Z",
+  "generatedAt": "2026-09-05T11:45:50.612Z",
+  "windowStart": "2026-08-06T11:45:50.612Z",
+  "windowEnd": "2026-09-05T11:45:50.612Z",
   "topics": [
-    {
-      "id": "7021e0760e4e",
-      "title": "Reading and writing are interfaces. And AI can reduce their friction.",
-      "teaser": "The question is not whether AI reduces work, but where the intellectual work moves. Photo by Mikhail Pushkarev on Unsplash There is plenty of AI slop on the internet, and much of it deserves",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-05T00:21:17.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Reading and writing are interfaces. And AI can reduce their friction.",
-          "url": "https://uxdesign.cc/reading-and-writing-are-interfaces-and-ai-can-reduce-their-friction-13623dea34c0?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-05T00:21:17.000Z"
-        }
-      ]
-    },
     {
       "id": "ff077aa966ed",
       "title": "Show HN: Learn/Practice Sudoku strategies web app",
@@ -45,6 +25,26 @@
       ]
     },
     {
+      "id": "7021e0760e4e",
+      "title": "Reading and writing are interfaces. And AI can reduce their friction.",
+      "teaser": "The question is not whether AI reduces work, but where the intellectual work moves. Photo by Mikhail Pushkarev on Unsplash There is plenty of AI slop on the internet, and much of it deserves",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-05T00:21:17.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Reading and writing are interfaces. And AI can reduce their friction.",
+          "url": "https://uxdesign.cc/reading-and-writing-are-interfaces-and-ai-can-reduce-their-friction-13623dea34c0?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-05T00:21:17.000Z"
+        }
+      ]
+    },
+    {
       "id": "34ba5d756fec",
       "title": "When the canvas starts acting, who’s really in control?",
       "teaser": "How agentic interfaces are changing what designers control, from interactions to agency, orchestration and attention. Agentic canvas can now brings context from across tools into one place, ",
@@ -52,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T22:13:30.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T22:13:11.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -94,7 +94,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "45 engagement signals within 11 days",
+      "categoryReason": "45 engagement signals within 12 days",
       "sources": [
         {
           "name": "devto-design",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T22:16:54.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -140,7 +140,7 @@
       "publishedAt": "2026-08-26T16:40:01.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "84 engagement signals within 9 days",
+      "categoryReason": "84 engagement signals within 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -178,9 +178,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-31T21:47:30.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -211,46 +211,6 @@
       ]
     },
     {
-      "id": "05d51c76f4e3",
-      "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
-      "teaser": "Hey HN, I&#x27;ve been working on this for about a year and figured it was time to share it. Visor started with my own kids. I actually think YouTube has a lot of good content for kids, but ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-04T18:56:11.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
-          "url": "https://gotvisor.com",
-          "publishedAt": "2026-09-04T18:56:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "21537bff3dff",
-      "title": "Using AI for UX Work: Study Guide",
-      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-04T17:00:00.000Z",
-      "since": "today",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Using AI for UX Work: Study Guide",
-          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-04T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "6fb9ef47bcea",
       "title": "UX Conference November Announced (Nov 16 - Nov 19)",
       "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. Nov 16 - Nov ",
@@ -271,26 +231,6 @@
       ]
     },
     {
-      "id": "89ee143012e1",
-      "title": "Show HN: Arena, the same design system in React and Angular from one contract",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-05T02:16:36.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Arena, the same design system in React and Angular from one contract",
-          "url": "https://arena.dravensoft.org/web-benches/",
-          "publishedAt": "2026-09-05T02:16:36.000Z"
-        }
-      ]
-    },
-    {
       "id": "96cf85b2d3c3",
       "title": "UX Conference September Announced (Sep 14 - Sep 25)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
@@ -298,9 +238,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T20:37:45.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -338,9 +278,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T17:56:50.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -398,9 +338,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T19:19:42.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -471,6 +411,46 @@
       ]
     },
     {
+      "id": "05d51c76f4e3",
+      "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
+      "teaser": "Hey HN, I&#x27;ve been working on this for about a year and figured it was time to share it. Visor started with my own kids. I actually think YouTube has a lot of good content for kids, but ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-04T18:56:11.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
+          "url": "https://gotvisor.com",
+          "publishedAt": "2026-09-04T18:56:11.000Z"
+        }
+      ]
+    },
+    {
+      "id": "21537bff3dff",
+      "title": "Using AI for UX Work: Study Guide",
+      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-04T17:00:00.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Using AI for UX Work: Study Guide",
+          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-04T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "99f15730f1d2",
       "title": "Free Accessibility Certifications and Courses",
       "teaser": "Originally published on A11y News: 6 free, self-paced courses to take this summer Nowadays...",
@@ -511,6 +491,26 @@
       ]
     },
     {
+      "id": "89ee143012e1",
+      "title": "Show HN: Arena, the same design system in React and Angular from one contract",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-05T02:16:36.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Arena, the same design system in React and Angular from one contract",
+          "url": "https://arena.dravensoft.org/web-benches/",
+          "publishedAt": "2026-09-05T02:16:36.000Z"
+        }
+      ]
+    },
+    {
       "id": "acccbe187d9b",
       "title": "Show HN: FEDERaiDE, a TUI harness with P2P multi-agent routing and built in IDE",
       "teaser": "Hi! Federaide is a general purpose multi-agent harness that runs in your terminal. It is meant for recreational programming and automating your scripts. The agents are just named instances o",
@@ -538,9 +538,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -560,7 +560,7 @@
       "publishedAt": "2026-08-06T16:01:53.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 29 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 30 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -580,7 +580,7 @@
       "publishedAt": "2026-08-27T18:11:38.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -658,9 +658,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-18T16:14:40.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -680,7 +680,7 @@
       "publishedAt": "2026-08-26T17:51:57.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -796,11 +796,11 @@
       "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-08-28T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "nngroup",
@@ -858,9 +858,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -878,9 +878,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -927,6 +927,26 @@
           "title": "Framework: The first ePaper design system",
           "url": "https://trmnl.com/blog/framework-design-system",
           "publishedAt": "2026-08-14T05:43:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "69c2e9207d09",
+      "title": "Dogfooding vs. QA vs. User Research",
+      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-07T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Dogfooding vs. QA vs. User Research",
+          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-07T17:00:00.000Z"
         }
       ]
     },
@@ -989,26 +1009,6 @@
           "publishedAt": "2026-08-07T11:33:15.000Z"
         }
       ]
-    },
-    {
-      "id": "a63a4cf7812f",
-      "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
-      "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-11T10:58:39.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
-          "url": "https://dev.to/ilyas_elaissi/10-ux-design-patterns-every-developer-should-know-and-when-to-skip-them-3olm",
-          "publishedAt": "2026-08-11T10:58:39.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-05T03:58:27.085Z"
+      "fetchedAt": "2026-09-05T11:45:50.612Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-05T03:58:27.157Z"
+      "fetchedAt": "2026-09-05T11:45:50.665Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-05T03:58:27.158Z"
+      "fetchedAt": "2026-09-05T11:45:50.666Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-05T03:58:27.159Z"
+      "fetchedAt": "2026-09-05T11:45:50.667Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-05T03:58:27.160Z"
+      "fetchedAt": "2026-09-05T11:45:50.668Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-05T03:58:27.161Z"
+      "fetchedAt": "2026-09-05T11:45:50.669Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-05T03:58:27.162Z"
+      "fetchedAt": "2026-09-05T11:45:50.670Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 12,
-      "fetchedAt": "2026-09-05T03:58:27.163Z"
+      "fetchedAt": "2026-09-05T11:45:50.671Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-05T03:58:27.164Z"
+      "fetchedAt": "2026-09-05T11:45:50.671Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-05T03:58:27.166Z"
+      "fetchedAt": "2026-09-05T11:45:50.672Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-05T03:58:27.166Z"
+      "fetchedAt": "2026-09-05T11:45:50.673Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-05T03:58:27.168Z"
+      "fetchedAt": "2026-09-05T11:45:50.674Z"
     }
   ]
 }
