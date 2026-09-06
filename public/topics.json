@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-06T12:03:58.884Z",
-  "windowStart": "2026-08-07T12:03:58.884Z",
-  "windowEnd": "2026-09-06T12:03:58.884Z",
+  "generatedAt": "2026-09-06T18:10:25.795Z",
+  "windowStart": "2026-08-07T18:10:25.795Z",
+  "windowEnd": "2026-09-06T18:10:25.795Z",
   "topics": [
     {
       "id": "ff077aa966ed",
@@ -32,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-05T00:21:17.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -218,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T04:50:49.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -347,6 +347,26 @@
           "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
           "url": "https://devbar.sh",
           "publishedAt": "2026-09-03T19:19:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e35ac8acddba",
+      "title": "Six Dimensions for Evaluating Voice Agent UX (A Framework, Not a Feature List)",
+      "teaser": "Most voice agent reviews I've read grade on two things: does the transcription work, and does the...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-01T12:27:01.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Six Dimensions for Evaluating Voice Agent UX (A Framework, Not a Feature List)",
+          "url": "https://dev.to/perex/six-dimensions-for-evaluating-voice-agent-ux-a-framework-not-a-feature-list-393f",
+          "publishedAt": "2026-09-01T12:27:01.000Z"
         }
       ]
     },
@@ -498,35 +518,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-05T02:16:36.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Arena, the same design system in React and Angular from one contract",
           "url": "https://arena.dravensoft.org/web-benches/",
           "publishedAt": "2026-09-05T02:16:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "acccbe187d9b",
-      "title": "Show HN: FEDERaiDE, a TUI harness with P2P multi-agent routing and built in IDE",
-      "teaser": "Hi! Federaide is a general purpose multi-agent harness that runs in your terminal. It is meant for recreational programming and automating your scripts. The agents are just named instances o",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-12T15:20:19.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: FEDERaiDE, a TUI harness with P2P multi-agent routing and built in IDE",
-          "url": "https://federaide.rocklab.in",
-          "publishedAt": "2026-08-12T15:20:19.000Z"
         }
       ]
     },
@@ -580,7 +580,7 @@
       "publishedAt": "2026-08-28T00:57:31.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -740,13 +740,33 @@
       "publishedAt": "2026-08-26T05:06:25.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Propose and Dual-Control for DNS Changes",
           "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
           "publishedAt": "2026-08-26T05:06:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d944dd93ba64",
+      "title": "Your AI agent's UI is mediocre—and here's how to fix it",
+      "teaser": "Stop shipping mediocre, lifeless AI interfaces. Learn how to use the UI/UX Excellence Prover MCP to enforce professional design standards like spring physics, 8-state microinteractions, and ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-08T03:20:33.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Your AI agent's UI is mediocre—and here's how to fix it",
+          "url": "https://dev.to/renato_marinho/your-ai-agents-ui-is-mediocre-and-heres-how-to-fix-it-4a3o",
+          "publishedAt": "2026-08-08T03:20:33.000Z"
         }
       ]
     },
@@ -767,26 +787,6 @@
           "title": "The Custodial Era of UX: Cleaning Up After AI",
           "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-08-28T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "0216afdd1ec7",
-      "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
-      "teaser": "When a technology company grows quickly, its brand can become a problem before anyone notices...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-19T22:58:59.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
-          "url": "https://dev.to/madebymonogram/how-we-turned-an-ai-brand-identity-into-a-scalable-digital-design-system-eo6",
-          "publishedAt": "2026-08-19T22:58:59.000Z"
         }
       ]
     },
@@ -818,9 +818,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-20T03:23:01.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "devto-design",
@@ -900,7 +900,7 @@
       "publishedAt": "2026-08-14T05:43:34.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -949,26 +949,6 @@
           "publishedAt": "2026-08-11T10:58:39.000Z"
         }
       ]
-    },
-    {
-      "id": "69c2e9207d09",
-      "title": "Dogfooding vs. QA vs. User Research",
-      "teaser": "Dogfooding, or using your own products internally, helps catch bugs, but it can't replace user research: your team knows too much to represent real users.",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Dogfooding vs. QA vs. User Research",
-          "url": "https://www.nngroup.com/articles/dogfooding/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-07T17:00:00.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -976,73 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-06T12:03:58.885Z"
+      "fetchedAt": "2026-09-06T18:10:25.795Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-06T12:03:58.955Z"
+      "fetchedAt": "2026-09-06T18:10:25.847Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-06T12:03:58.957Z"
+      "fetchedAt": "2026-09-06T18:10:25.848Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-06T12:03:58.958Z"
+      "fetchedAt": "2026-09-06T18:10:25.849Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-06T12:03:58.959Z"
+      "fetchedAt": "2026-09-06T18:10:25.850Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-06T12:03:58.960Z"
+      "fetchedAt": "2026-09-06T18:10:25.851Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-06T12:03:58.961Z"
+      "fetchedAt": "2026-09-06T18:10:25.852Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-06T12:03:58.962Z"
+      "fetchedAt": "2026-09-06T18:10:25.853Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 31,
-      "fetchedAt": "2026-09-06T12:03:58.963Z"
+      "items": 30,
+      "fetchedAt": "2026-09-06T18:10:25.854Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-06T12:03:58.965Z"
+      "fetchedAt": "2026-09-06T18:10:25.855Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-06T12:03:58.965Z"
+      "fetchedAt": "2026-09-06T18:10:25.856Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-06T12:03:58.967Z"
+      "fetchedAt": "2026-09-06T18:10:25.857Z"
     }
   ]
 }
