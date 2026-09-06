@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-06T04:05:05.537Z",
-  "windowStart": "2026-08-07T04:05:05.537Z",
-  "windowEnd": "2026-09-06T04:05:05.537Z",
+  "generatedAt": "2026-09-06T12:03:58.884Z",
+  "windowStart": "2026-08-07T12:03:58.884Z",
+  "windowEnd": "2026-09-06T12:03:58.884Z",
   "topics": [
     {
       "id": "ff077aa966ed",
@@ -52,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T22:13:30.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T22:13:11.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -94,7 +94,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "45 engagement signals within 12 days",
+      "categoryReason": "45 engagement signals within 13 days",
       "sources": [
         {
           "name": "devto-design",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T22:16:54.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -138,9 +138,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-08-26T16:40:01.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "84 engagement signals within 10 days",
+      "categoryReason": "84 engagement signals within 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -178,9 +178,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-08-31T21:47:30.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -238,9 +238,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T20:37:45.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -278,9 +278,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T17:56:50.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -338,9 +338,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T19:19:42.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -418,9 +418,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-04T18:56:11.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -438,9 +438,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-04T17:00:00.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -540,7 +540,7 @@
       "publishedAt": "2026-08-25T21:12:33.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 12 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -560,7 +560,7 @@
       "publishedAt": "2026-08-27T18:11:38.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -640,7 +640,7 @@
       "publishedAt": "2026-08-18T16:14:40.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -658,9 +658,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-26T17:51:57.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -751,26 +751,6 @@
       ]
     },
     {
-      "id": "d220bf3b8944",
-      "title": "Design Systems in the Age of AI: Five Working Hypotheses",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T11:43:24.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Design Systems in the Age of AI: Five Working Hypotheses",
-          "url": "https://uxdesignresearch.org/en/5-hypotheses/",
-          "publishedAt": "2026-08-07T11:43:24.000Z"
-        }
-      ]
-    },
-    {
       "id": "03201d525f0c",
       "title": "The Custodial Era of UX: Cleaning Up After AI",
       "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
@@ -780,7 +760,7 @@
       "publishedAt": "2026-08-28T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "nngroup",
@@ -798,9 +778,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-19T22:58:59.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "devto-design",
@@ -860,7 +840,7 @@
       "publishedAt": "2026-08-25T21:17:17.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -880,7 +860,7 @@
       "publishedAt": "2026-08-25T21:08:28.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -951,26 +931,6 @@
       ]
     },
     {
-      "id": "43701b24fca4",
-      "title": "UX Design Research – reflections on the role of UX design in the age of AI",
-      "teaser": "",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-07T11:33:15.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "UX Design Research – reflections on the role of UX design in the age of AI",
-          "url": "https://uxdesignresearch.org/en/",
-          "publishedAt": "2026-08-07T11:33:15.000Z"
-        }
-      ]
-    },
-    {
       "id": "a63a4cf7812f",
       "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
       "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
@@ -1000,7 +960,7 @@
       "publishedAt": "2026-08-07T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
       "sources": [
         {
           "name": "nngroup",
@@ -1016,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-06T04:05:05.537Z"
+      "fetchedAt": "2026-09-06T12:03:58.885Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-06T04:05:05.591Z"
+      "fetchedAt": "2026-09-06T12:03:58.955Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-06T04:05:05.593Z"
+      "fetchedAt": "2026-09-06T12:03:58.957Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-06T04:05:05.594Z"
+      "fetchedAt": "2026-09-06T12:03:58.958Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-06T04:05:05.595Z"
+      "fetchedAt": "2026-09-06T12:03:58.959Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-06T04:05:05.596Z"
+      "fetchedAt": "2026-09-06T12:03:58.960Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-06T04:05:05.597Z"
+      "fetchedAt": "2026-09-06T12:03:58.961Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 10,
-      "fetchedAt": "2026-09-06T04:05:05.598Z"
+      "items": 8,
+      "fetchedAt": "2026-09-06T12:03:58.962Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-09-06T04:05:05.599Z"
+      "fetchedAt": "2026-09-06T12:03:58.963Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-06T04:05:05.600Z"
+      "fetchedAt": "2026-09-06T12:03:58.965Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-06T04:05:05.601Z"
+      "fetchedAt": "2026-09-06T12:03:58.965Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-06T04:05:05.602Z"
+      "fetchedAt": "2026-09-06T12:03:58.967Z"
     }
   ]
 }
