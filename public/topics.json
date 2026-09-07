@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-06T18:10:25.795Z",
-  "windowStart": "2026-08-07T18:10:25.795Z",
-  "windowEnd": "2026-09-06T18:10:25.795Z",
+  "generatedAt": "2026-09-07T04:04:29.298Z",
+  "windowStart": "2026-08-08T04:04:29.298Z",
+  "windowEnd": "2026-09-07T04:04:29.298Z",
   "topics": [
+    {
+      "id": "4cd2a048dece",
+      "title": "AI canvas, Synthetic self, The prompt is the product",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “AI coding agents are bringing some of that interaction model back. You can describe an outcome and let the agent decide which c",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-06T23:49:45.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI canvas, Synthetic self, The prompt is the product",
+          "url": "https://uxdesign.cc/ai-canvas-synthetic-self-the-prompt-is-the-product-801f0da7bea6?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-06T23:49:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "cc274b6b6cf3",
+      "title": "AI in Product teams: In 2026, the growing impact on collaboration",
+      "teaser": "Is the time of blind AI-tool-pushing over? There seems to be a shift in how companies approach AI. Less piecemeal initiatives, more strategic thinking and adoption, which is increasingly aff",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-06T23:47:16.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI in Product teams: In 2026, the growing impact on collaboration",
+          "url": "https://uxdesign.cc/ai-in-product-teams-in-2026-the-growing-impact-on-collaboration-8ea9f6024dca?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-06T23:47:16.000Z"
+        }
+      ]
+    },
     {
       "id": "ff077aa966ed",
       "title": "Show HN: Learn/Practice Sudoku strategies web app",
@@ -12,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-04T14:35:45.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -41,6 +81,26 @@
           "title": "Reading and writing are interfaces. And AI can reduce their friction.",
           "url": "https://uxdesign.cc/reading-and-writing-are-interfaces-and-ai-can-reduce-their-friction-13623dea34c0?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-05T00:21:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": "353db6b4a9f1",
+      "title": "Matched Starts, Divergent Objects: How Human-AI Collaboration Forms What It Explains",
+      "teaser": "Scholarly knowledge is typically encountered in stabilized form, while the process histories through which research objects, claims, and contributions acquire form remain largely hidden. Thi",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-03T23:00:09.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Matched Starts, Divergent Objects: How Human-AI Collaboration Forms What It Explains",
+          "url": "https://arxiv.org/abs/2609.04542v1",
+          "publishedAt": "2026-09-03T23:00:09.000Z"
         }
       ]
     },
@@ -158,35 +218,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T06:20:22.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: I built a real-time translator for Google Meet",
           "url": "https://meelang.com/",
           "publishedAt": "2026-09-01T06:20:22.000Z"
-        }
-      ]
-    },
-    {
-      "id": "dd084896c755",
-      "title": "The call for an agentic standard: We need to stop shipping the same form four different times",
-      "teaser": "One description, four renderers. That is the whole argument in a picture. Every assistant draws its own way, and the bill lands on the people who already maintain your button component. This",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-08-31T21:47:30.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The call for an agentic standard: We need to stop shipping the same form four different times",
-          "url": "https://uxdesign.cc/the-call-for-an-agentic-standard-we-need-to-stop-shipping-the-same-form-four-different-times-be5b9d40e370?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-08-31T21:47:30.000Z"
         }
       ]
     },
@@ -198,9 +238,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T13:38:57.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -258,9 +298,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T11:28:51.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -298,9 +338,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T14:31:41.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -320,7 +360,7 @@
       "publishedAt": "2026-08-18T14:01:54.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 19 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -351,22 +391,22 @@
       ]
     },
     {
-      "id": "e35ac8acddba",
-      "title": "Six Dimensions for Evaluating Voice Agent UX (A Framework, Not a Feature List)",
-      "teaser": "Most voice agent reviews I've read grade on two things: does the transcription work, and does the...",
+      "id": "d72d84a5b7e5",
+      "title": "Hidden In Plain Gaze: Gaze Representations as Privacy Controls for Utility and Re-identification Risk in XR",
+      "teaser": "Intelligent extended reality (XR) systems increasingly use eye and head tracking to infer user intent, task, and attention, but the same signals can also reveal biometric identity. We study ",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-01T12:27:01.000Z",
-      "since": "5 days ago",
+      "publishedAt": "2026-09-04T00:47:22.000Z",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
-          "name": "devto-design",
-          "title": "Six Dimensions for Evaluating Voice Agent UX (A Framework, Not a Feature List)",
-          "url": "https://dev.to/perex/six-dimensions-for-evaluating-voice-agent-ux-a-framework-not-a-feature-list-393f",
-          "publishedAt": "2026-09-01T12:27:01.000Z"
+          "name": "arxiv-hci",
+          "title": "Hidden In Plain Gaze: Gaze Representations as Privacy Controls for Utility and Re-identification Risk in XR",
+          "url": "https://arxiv.org/abs/2609.04592v1",
+          "publishedAt": "2026-09-04T00:47:22.000Z"
         }
       ]
     },
@@ -380,7 +420,7 @@
       "publishedAt": "2026-08-24T06:48:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
       "sources": [
         {
           "name": "nngroup",
@@ -398,9 +438,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T12:01:49.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -418,9 +458,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T08:50:46.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -480,7 +520,7 @@
       "publishedAt": "2026-08-15T13:06:30.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -498,9 +538,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-13T12:26:56.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -598,9 +638,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T14:43:51.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -618,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T10:58:11.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -678,9 +718,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T11:15:14.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -698,35 +738,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T11:29:44.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Your users aren’t unmotivated-they have 1 of 4 problems",
           "url": "https://uxdesign.cc/your-users-arent-unmotivated-they-have-1-of-4-problems-99d709b60376?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-01T11:29:44.000Z"
-        }
-      ]
-    },
-    {
-      "id": "cc2514641e16",
-      "title": "Color scheming with Perplexity tetrads",
-      "teaser": "A case study in GenAI accessible color palettes. Continue reading on UX Collective »",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T11:28:18.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Color scheming with Perplexity tetrads",
-          "url": "https://uxdesign.cc/color-scheming-with-perplexity-tetrads-daad13b49732?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-01T11:28:18.000Z"
         }
       ]
     },
@@ -747,26 +767,6 @@
           "title": "Show HN: Propose and Dual-Control for DNS Changes",
           "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
           "publishedAt": "2026-08-26T05:06:25.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d944dd93ba64",
-      "title": "Your AI agent's UI is mediocre—and here's how to fix it",
-      "teaser": "Stop shipping mediocre, lifeless AI interfaces. Learn how to use the UI/UX Excellence Prover MCP to enforce professional design standards like spring physics, 8-state microinteractions, and ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-08T03:20:33.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Your AI agent's UI is mediocre—and here's how to fix it",
-          "url": "https://dev.to/renato_marinho/your-ai-agents-ui-is-mediocre-and-heres-how-to-fix-it-4a3o",
-          "publishedAt": "2026-08-08T03:20:33.000Z"
         }
       ]
     },
@@ -800,7 +800,7 @@
       "publishedAt": "2026-08-26T13:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "smashing",
@@ -880,7 +880,7 @@
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
       "sources": [
         {
           "name": "smashing",
@@ -918,9 +918,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-13T12:30:43.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -940,7 +940,7 @@
       "publishedAt": "2026-08-11T10:58:39.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -956,73 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-06T18:10:25.795Z"
+      "fetchedAt": "2026-09-07T04:04:29.298Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-06T18:10:25.847Z"
+      "fetchedAt": "2026-09-07T04:04:29.350Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-06T18:10:25.848Z"
+      "fetchedAt": "2026-09-07T04:04:29.351Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-06T18:10:25.849Z"
+      "fetchedAt": "2026-09-07T04:04:29.353Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-06T18:10:25.850Z"
+      "fetchedAt": "2026-09-07T04:04:29.354Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-06T18:10:25.851Z"
+      "fetchedAt": "2026-09-07T04:04:29.355Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-06T18:10:25.852Z"
+      "fetchedAt": "2026-09-07T04:04:29.356Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-06T18:10:25.853Z"
+      "fetchedAt": "2026-09-07T04:04:29.357Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-09-06T18:10:25.854Z"
+      "items": 31,
+      "fetchedAt": "2026-09-07T04:04:29.358Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-06T18:10:25.855Z"
+      "fetchedAt": "2026-09-07T04:04:29.359Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-06T18:10:25.856Z"
+      "fetchedAt": "2026-09-07T04:04:29.360Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-06T18:10:25.857Z"
+      "fetchedAt": "2026-09-07T04:04:29.361Z"
     }
   ]
 }
