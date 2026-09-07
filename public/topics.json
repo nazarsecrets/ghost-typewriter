@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-07T14:09:09.539Z",
-  "windowStart": "2026-08-08T14:09:09.539Z",
-  "windowEnd": "2026-09-07T14:09:09.539Z",
+  "generatedAt": "2026-09-07T19:47:06.340Z",
+  "windowStart": "2026-08-08T19:47:06.340Z",
+  "windowEnd": "2026-09-07T19:47:06.340Z",
   "topics": [
     {
       "id": "ff077aa966ed",
@@ -21,6 +21,26 @@
           "title": "Show HN: Learn/Practice Sudoku strategies web app",
           "url": "https://sw-fun.github.io/sudoku/",
           "publishedAt": "2026-09-04T14:35:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "777eb5ca9e1e",
+      "title": "Strata – A design system that records decisions, not components",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-07T14:25:59.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Strata – A design system that records decisions, not components",
+          "url": "https://github.com/Prometheus-000/strata",
+          "publishedAt": "2026-09-07T14:25:59.000Z"
         }
       ]
     },
@@ -198,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T06:20:22.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -238,9 +258,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T04:50:49.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -391,26 +411,6 @@
       ]
     },
     {
-      "id": "e35ac8acddba",
-      "title": "Six Dimensions for Evaluating Voice Agent UX (A Framework, Not a Feature List)",
-      "teaser": "Most voice agent reviews I've read grade on two things: does the transcription work, and does the...",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T12:27:01.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Six Dimensions for Evaluating Voice Agent UX (A Framework, Not a Feature List)",
-          "url": "https://dev.to/perex/six-dimensions-for-evaluating-voice-agent-ux-a-framework-not-a-feature-list-393f",
-          "publishedAt": "2026-09-01T12:27:01.000Z"
-        }
-      ]
-    },
-    {
       "id": "6f94edb389bb",
       "title": "UX Conference November Announced (Nov 9 - Nov 13)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. November 9 - 13, 2026.",
@@ -420,7 +420,7 @@
       "publishedAt": "2026-08-24T06:48:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
       "sources": [
         {
           "name": "nngroup",
@@ -558,9 +558,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-05T02:16:36.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -751,6 +751,26 @@
       ]
     },
     {
+      "id": "e35ac8acddba",
+      "title": "Six Dimensions for Evaluating Voice Agent UX (A Framework, Not a Feature List)",
+      "teaser": "Most voice agent reviews I've read grade on two things: does the transcription work, and does the...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-01T12:27:01.000Z",
+      "since": "6 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 6 days ago",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Six Dimensions for Evaluating Voice Agent UX (A Framework, Not a Feature List)",
+          "url": "https://dev.to/perex/six-dimensions-for-evaluating-voice-agent-ux-a-framework-not-a-feature-list-393f",
+          "publishedAt": "2026-09-01T12:27:01.000Z"
+        }
+      ]
+    },
+    {
       "id": "ce0a5bfdbd49",
       "title": "Your users aren’t unmotivated-they have 1 of 4 problems",
       "teaser": "How to design for advanced features nobody uses Continue reading on UX Collective »",
@@ -780,7 +800,7 @@
       "publishedAt": "2026-08-26T05:06:25.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -860,7 +880,7 @@
       "publishedAt": "2026-08-20T03:23:01.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "devto-design",
@@ -911,26 +931,6 @@
       ]
     },
     {
-      "id": "91d36d862777",
-      "title": "Framework: The first ePaper design system",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-14T05:43:34.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Framework: The first ePaper design system",
-          "url": "https://trmnl.com/blog/framework-design-system",
-          "publishedAt": "2026-08-14T05:43:34.000Z"
-        }
-      ]
-    },
-    {
       "id": "4cfc06a222ed",
       "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
       "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
@@ -976,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-07T14:09:09.540Z"
+      "fetchedAt": "2026-09-07T19:47:06.340Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-07T14:09:09.593Z"
+      "fetchedAt": "2026-09-07T19:47:06.393Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-07T14:09:09.594Z"
+      "fetchedAt": "2026-09-07T19:47:06.394Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-07T14:09:09.595Z"
+      "fetchedAt": "2026-09-07T19:47:06.396Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-07T14:09:09.596Z"
+      "fetchedAt": "2026-09-07T19:47:06.397Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-07T14:09:09.597Z"
+      "fetchedAt": "2026-09-07T19:47:06.398Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-07T14:09:09.598Z"
+      "fetchedAt": "2026-09-07T19:47:06.399Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-07T14:09:09.599Z"
+      "fetchedAt": "2026-09-07T19:47:06.400Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 31,
-      "fetchedAt": "2026-09-07T14:09:09.600Z"
+      "items": 32,
+      "fetchedAt": "2026-09-07T19:47:06.401Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-07T14:09:09.601Z"
+      "fetchedAt": "2026-09-07T19:47:06.402Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-07T14:09:09.602Z"
+      "fetchedAt": "2026-09-07T19:47:06.403Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-07T14:09:09.603Z"
+      "fetchedAt": "2026-09-07T19:47:06.404Z"
     }
   ]
 }
