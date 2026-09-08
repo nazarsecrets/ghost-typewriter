@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-08T04:05:55.019Z",
-  "windowStart": "2026-08-09T04:05:55.019Z",
-  "windowEnd": "2026-09-08T04:05:55.019Z",
+  "generatedAt": "2026-09-08T12:47:21.945Z",
+  "windowStart": "2026-08-09T12:47:21.945Z",
+  "windowEnd": "2026-09-08T12:47:21.945Z",
   "topics": [
     {
       "id": "ff077aa966ed",
@@ -25,22 +25,22 @@
       ]
     },
     {
-      "id": "8984f94a6407",
-      "title": "The model is behaving impeccably. Your information architecture isn’t.",
-      "teaser": "What a 1960 study of city maps explains about AI context. Continue reading on UX Collective »",
-      "tag": "AI",
+      "id": "350668a4edf0",
+      "title": "If you can externalize your design process, you can win back your time",
+      "teaser": "How Skill.MD helps you spell out the depth of your work for your team and organization Continue reading on UX Collective »",
+      "tag": "Leadership",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-07T22:27:32.000Z",
+      "publishedAt": "2026-09-08T11:13:56.000Z",
       "since": "today",
       "relevanceScore": 0.714,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "The model is behaving impeccably. Your information architecture isn’t.",
-          "url": "https://uxdesign.cc/the-model-is-behaving-impeccably-your-information-architecture-isnt-bfe8881da3c2?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-07T22:27:32.000Z"
+          "title": "If you can externalize your design process, you can win back your time",
+          "url": "https://uxdesign.cc/if-you-can-externalize-your-design-process-you-can-win-back-your-time-59c531521346?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-08T11:13:56.000Z"
         }
       ]
     },
@@ -52,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-06T23:49:45.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-06T23:47:16.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-05T00:21:17.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T22:39:12.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,35 +132,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T22:13:30.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "When the canvas starts acting, who’s really in control?",
           "url": "https://uxdesign.cc/when-the-canvas-starts-acting-whos-really-in-control-0128f641223c?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-02T22:13:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7e5fcca82895",
-      "title": "AI took away engineering’s right to say no",
-      "teaser": "The closed system of software engineering, where the complexity of the code acted as both a wall and a gatekeeper. AI didn’t touch what engineers actually know. It ended their power to be th",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-02T22:13:11.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI took away engineering’s right to say no",
-          "url": "https://uxdesign.cc/ai-took-away-engineerings-right-to-say-no-839b9b6256f2?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-02T22:13:11.000Z"
         }
       ]
     },
@@ -174,7 +154,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "45 engagement signals within 14 days",
+      "categoryReason": "45 engagement signals within 15 days",
       "sources": [
         {
           "name": "devto-design",
@@ -194,7 +174,7 @@
       "publishedAt": "2026-08-26T16:40:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "84 engagement signals within 12 days",
+      "categoryReason": "84 engagement signals within 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -265,62 +245,22 @@
       ]
     },
     {
-      "id": "b6bf8ede4f22",
-      "title": "Tetris had to cheat to feel random",
-      "teaser": "Nobody can see a probability distribution. You only ever see a sequence, and sequences are where human intuition falls apart. Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-07T22:27:53.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Tetris had to cheat to feel random",
-          "url": "https://uxdesign.cc/tetris-had-to-cheat-to-feel-random-201913dc69ed?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-07T22:27:53.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c9caa42f8e9d",
-      "title": "The sycophancy trap: what happens when feelings become the metric",
-      "teaser": "A framework for emotional design that survives contact with an engagement dashboard Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-07T22:27:01.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The sycophancy trap: what happens when feelings become the metric",
-          "url": "https://uxdesign.cc/the-sycophancy-trap-what-happens-when-feelings-become-the-metric-14a4f1f26a75?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-07T22:27:01.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1ccc444cf195",
-      "title": "Villains plan. Heroes react.",
-      "teaser": "What product teams should borrow from the people who want to take over the world. Continue reading on UX Collective »",
+      "id": "8984f94a6407",
+      "title": "The model is behaving impeccably. Your information architecture isn’t.",
+      "teaser": "What a 1960 study of city maps explains about AI context. Continue reading on UX Collective »",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-07T22:26:09.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "publishedAt": "2026-09-07T22:27:32.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "Villains plan. Heroes react.",
-          "url": "https://uxdesign.cc/villains-plan-heroes-react-ee012a510ecb?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-07T22:26:09.000Z"
+          "title": "The model is behaving impeccably. Your information architecture isn’t.",
+          "url": "https://uxdesign.cc/the-model-is-behaving-impeccably-your-information-architecture-isnt-bfe8881da3c2?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-07T22:27:32.000Z"
         }
       ]
     },
@@ -332,9 +272,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T20:37:45.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -372,9 +312,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T17:56:50.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -432,9 +372,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T19:19:42.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -452,9 +392,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T23:00:09.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -532,9 +472,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-04T18:56:11.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -552,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-04T17:00:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -625,6 +565,66 @@
       ]
     },
     {
+      "id": "b6bf8ede4f22",
+      "title": "Tetris had to cheat to feel random",
+      "teaser": "Nobody can see a probability distribution. You only ever see a sequence, and sequences are where human intuition falls apart. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-07T22:27:53.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Tetris had to cheat to feel random",
+          "url": "https://uxdesign.cc/tetris-had-to-cheat-to-feel-random-201913dc69ed?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-07T22:27:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c9caa42f8e9d",
+      "title": "The sycophancy trap: what happens when feelings become the metric",
+      "teaser": "A framework for emotional design that survives contact with an engagement dashboard Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-07T22:27:01.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The sycophancy trap: what happens when feelings become the metric",
+          "url": "https://uxdesign.cc/the-sycophancy-trap-what-happens-when-feelings-become-the-metric-14a4f1f26a75?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-07T22:27:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1ccc444cf195",
+      "title": "Villains plan. Heroes react.",
+      "teaser": "What product teams should borrow from the people who want to take over the world. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-07T22:26:09.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Villains plan. Heroes react.",
+          "url": "https://uxdesign.cc/villains-plan-heroes-react-ee012a510ecb?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-07T22:26:09.000Z"
+        }
+      ]
+    },
+    {
       "id": "632ad5203758",
       "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
       "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
@@ -634,7 +634,7 @@
       "publishedAt": "2026-08-25T21:12:33.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -654,7 +654,7 @@
       "publishedAt": "2026-08-27T18:11:38.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -754,7 +754,7 @@
       "publishedAt": "2026-08-18T16:14:40.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -774,7 +774,7 @@
       "publishedAt": "2026-08-26T17:51:57.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -834,7 +834,7 @@
       "publishedAt": "2026-08-25T21:08:28.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -852,9 +852,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "nngroup",
@@ -914,7 +914,7 @@
       "publishedAt": "2026-08-25T21:17:17.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -990,73 +990,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-08T04:05:55.019Z"
+      "fetchedAt": "2026-09-08T12:47:21.946Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-08T04:05:55.072Z"
+      "fetchedAt": "2026-09-08T12:47:21.999Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-08T04:05:55.073Z"
+      "fetchedAt": "2026-09-08T12:47:22.000Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-08T04:05:55.074Z"
+      "fetchedAt": "2026-09-08T12:47:22.002Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-08T04:05:55.076Z"
+      "fetchedAt": "2026-09-08T12:47:22.002Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-08T04:05:55.077Z"
+      "fetchedAt": "2026-09-08T12:47:22.003Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-08T04:05:55.078Z"
+      "fetchedAt": "2026-09-08T12:47:22.004Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-08T04:05:55.079Z"
+      "fetchedAt": "2026-09-08T12:47:22.005Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 32,
-      "fetchedAt": "2026-09-08T04:05:55.080Z"
+      "fetchedAt": "2026-09-08T12:47:22.006Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-08T04:05:55.081Z"
+      "fetchedAt": "2026-09-08T12:47:22.007Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-08T04:05:55.081Z"
+      "fetchedAt": "2026-09-08T12:47:22.008Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-08T04:05:55.083Z"
+      "fetchedAt": "2026-09-08T12:47:22.009Z"
     }
   ]
 }
