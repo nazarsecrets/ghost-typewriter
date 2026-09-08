@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-07T19:47:06.340Z",
-  "windowStart": "2026-08-08T19:47:06.340Z",
-  "windowEnd": "2026-09-07T19:47:06.340Z",
+  "generatedAt": "2026-09-08T04:05:55.019Z",
+  "windowStart": "2026-08-09T04:05:55.019Z",
+  "windowEnd": "2026-09-08T04:05:55.019Z",
   "topics": [
     {
       "id": "ff077aa966ed",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-04T14:35:45.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -25,22 +25,22 @@
       ]
     },
     {
-      "id": "777eb5ca9e1e",
-      "title": "Strata – A design system that records decisions, not components",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "8984f94a6407",
+      "title": "The model is behaving impeccably. Your information architecture isn’t.",
+      "teaser": "What a 1960 study of city maps explains about AI context. Continue reading on UX Collective »",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-07T14:25:59.000Z",
+      "publishedAt": "2026-09-07T22:27:32.000Z",
       "since": "today",
-      "relevanceScore": 0.571,
+      "relevanceScore": 0.714,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Strata – A design system that records decisions, not components",
-          "url": "https://github.com/Prometheus-000/strata",
-          "publishedAt": "2026-09-07T14:25:59.000Z"
+          "name": "uxcollective",
+          "title": "The model is behaving impeccably. Your information architecture isn’t.",
+          "url": "https://uxdesign.cc/the-model-is-behaving-impeccably-your-information-architecture-isnt-bfe8881da3c2?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-07T22:27:32.000Z"
         }
       ]
     },
@@ -105,6 +105,26 @@
       ]
     },
     {
+      "id": "096f67798d00",
+      "title": "What Minority Report got wrong about AI (so far)",
+      "teaser": "The film gave us two futures. We rebuilt the one that was easy to demo. The film cautioned against predictive systems and pre-crime, and the we turned it into a screensaver. For two decades,",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-03T22:39:12.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What Minority Report got wrong about AI (so far)",
+          "url": "https://uxdesign.cc/what-minority-report-got-wrong-about-ai-so-far-9048573aa70f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-03T22:39:12.000Z"
+        }
+      ]
+    },
+    {
       "id": "34ba5d756fec",
       "title": "When the canvas starts acting, who’s really in control?",
       "teaser": "How agentic interfaces are changing what designers control, from interactions to agency, orchestration and attention. Agentic canvas can now brings context from across tools into one place, ",
@@ -165,32 +185,6 @@
       ]
     },
     {
-      "id": "096f67798d00",
-      "title": "What Minority Report got wrong about AI (so far)",
-      "teaser": "The film gave us two futures. We rebuilt the one that was easy to demo. The film cautioned against predictive systems and pre-crime, and the we turned it into a screensaver. For two decades,",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T22:16:54.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What Minority Report got wrong about AI (so far)",
-          "url": "https://uxdesign.cc/what-minority-report-got-wrong-about-ai-so-far-9048573aa70f?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-03T22:39:12.000Z"
-        },
-        {
-          "name": "uxcollective",
-          "title": "What Minority Report got right about AI",
-          "url": "https://uxdesign.cc/what-minority-report-got-right-about-ai-45b9f1106431?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-01T22:16:54.000Z"
-        }
-      ]
-    },
-    {
       "id": "bc880ba0b500",
       "title": "Show HN: Build your own theme park",
       "teaser": "I built an agent that helps you build Rollercoaster Tycoon-influenced theme parks. You can prompt something like “Build me a cool theme park” and it’ll build a cohesive theme park with multi",
@@ -238,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T13:38:57.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -271,6 +265,66 @@
       ]
     },
     {
+      "id": "b6bf8ede4f22",
+      "title": "Tetris had to cheat to feel random",
+      "teaser": "Nobody can see a probability distribution. You only ever see a sequence, and sequences are where human intuition falls apart. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-07T22:27:53.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Tetris had to cheat to feel random",
+          "url": "https://uxdesign.cc/tetris-had-to-cheat-to-feel-random-201913dc69ed?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-07T22:27:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c9caa42f8e9d",
+      "title": "The sycophancy trap: what happens when feelings become the metric",
+      "teaser": "A framework for emotional design that survives contact with an engagement dashboard Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-07T22:27:01.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The sycophancy trap: what happens when feelings become the metric",
+          "url": "https://uxdesign.cc/the-sycophancy-trap-what-happens-when-feelings-become-the-metric-14a4f1f26a75?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-07T22:27:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1ccc444cf195",
+      "title": "Villains plan. Heroes react.",
+      "teaser": "What product teams should borrow from the people who want to take over the world. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-07T22:26:09.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Villains plan. Heroes react.",
+          "url": "https://uxdesign.cc/villains-plan-heroes-react-ee012a510ecb?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-07T22:26:09.000Z"
+        }
+      ]
+    },
+    {
       "id": "96cf85b2d3c3",
       "title": "UX Conference September Announced (Sep 14 - Sep 25)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
@@ -291,22 +345,22 @@
       ]
     },
     {
-      "id": "15cc36a749fc",
-      "title": "Users don’t see your design system",
-      "teaser": "How Gestalt principles power any great design system Continue reading on UX Collective »",
+      "id": "777eb5ca9e1e",
+      "title": "Strata – A design system that records decisions, not components",
+      "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-01T11:28:51.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "publishedAt": "2026-09-07T14:25:59.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Users don’t see your design system",
-          "url": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-01T11:28:51.000Z"
+          "name": "hn-designsystem",
+          "title": "Strata – A design system that records decisions, not components",
+          "url": "https://github.com/Prometheus-000/strata",
+          "publishedAt": "2026-09-07T14:25:59.000Z"
         }
       ]
     },
@@ -338,9 +392,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T14:31:41.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -360,7 +414,7 @@
       "publishedAt": "2026-08-18T14:01:54.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -438,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-02T12:01:49.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -458,9 +512,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T08:50:46.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -520,7 +574,7 @@
       "publishedAt": "2026-08-15T13:06:30.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -540,7 +594,7 @@
       "publishedAt": "2026-08-13T12:26:56.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -658,9 +712,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T14:43:51.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -678,9 +732,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T10:58:11.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -731,26 +785,6 @@
       ]
     },
     {
-      "id": "72dd61329979",
-      "title": "Making kyōwa possible with AI",
-      "teaser": "On unbundling the Send button, so that words can work as sketches Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-02T11:15:14.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Making kyōwa possible with AI",
-          "url": "https://uxdesign.cc/making-ky%C5%8Dwa-possible-with-ai-9f4bf8fae315?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-02T11:15:14.000Z"
-        }
-      ]
-    },
-    {
       "id": "e35ac8acddba",
       "title": "Six Dimensions for Evaluating Voice Agent UX (A Framework, Not a Feature List)",
       "teaser": "Most voice agent reviews I've read grade on two things: does the transcription work, and does the...",
@@ -758,35 +792,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-01T12:27:01.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "devto-design",
           "title": "Six Dimensions for Evaluating Voice Agent UX (A Framework, Not a Feature List)",
           "url": "https://dev.to/perex/six-dimensions-for-evaluating-voice-agent-ux-a-framework-not-a-feature-list-393f",
           "publishedAt": "2026-09-01T12:27:01.000Z"
-        }
-      ]
-    },
-    {
-      "id": "ce0a5bfdbd49",
-      "title": "Your users aren’t unmotivated-they have 1 of 4 problems",
-      "teaser": "How to design for advanced features nobody uses Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-01T11:29:44.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Your users aren’t unmotivated-they have 1 of 4 problems",
-          "url": "https://uxdesign.cc/your-users-arent-unmotivated-they-have-1-of-4-problems-99d709b60376?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-01T11:29:44.000Z"
         }
       ]
     },
@@ -860,7 +874,7 @@
       "publishedAt": "2026-08-26T13:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "smashing",
@@ -920,7 +934,7 @@
       "publishedAt": "2026-08-11T10:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
       "sources": [
         {
           "name": "smashing",
@@ -940,7 +954,7 @@
       "publishedAt": "2026-08-13T12:30:43.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -960,7 +974,7 @@
       "publishedAt": "2026-08-11T10:58:39.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -976,73 +990,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-07T19:47:06.340Z"
+      "fetchedAt": "2026-09-08T04:05:55.019Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-07T19:47:06.393Z"
+      "fetchedAt": "2026-09-08T04:05:55.072Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-07T19:47:06.394Z"
+      "fetchedAt": "2026-09-08T04:05:55.073Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-07T19:47:06.396Z"
+      "fetchedAt": "2026-09-08T04:05:55.074Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-07T19:47:06.397Z"
+      "fetchedAt": "2026-09-08T04:05:55.076Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-07T19:47:06.398Z"
+      "fetchedAt": "2026-09-08T04:05:55.077Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-07T19:47:06.399Z"
+      "fetchedAt": "2026-09-08T04:05:55.078Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-07T19:47:06.400Z"
+      "fetchedAt": "2026-09-08T04:05:55.079Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 32,
-      "fetchedAt": "2026-09-07T19:47:06.401Z"
+      "fetchedAt": "2026-09-08T04:05:55.080Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-07T19:47:06.402Z"
+      "fetchedAt": "2026-09-08T04:05:55.081Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-07T19:47:06.403Z"
+      "fetchedAt": "2026-09-08T04:05:55.081Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-07T19:47:06.404Z"
+      "fetchedAt": "2026-09-08T04:05:55.083Z"
     }
   ]
 }
