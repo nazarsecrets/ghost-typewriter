@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T12:52:07.774Z",
-  "windowStart": "2026-08-10T12:52:07.774Z",
-  "windowEnd": "2026-09-09T12:52:07.774Z",
+  "generatedAt": "2026-09-09T19:11:27.380Z",
+  "windowStart": "2026-08-10T19:11:27.380Z",
+  "windowEnd": "2026-09-09T19:11:27.380Z",
   "topics": [
     {
       "id": "5327f847241c",
@@ -25,6 +25,26 @@
       ]
     },
     {
+      "id": "51819eaaf5d7",
+      "title": "From UX to AX: How AI Agents Change Application Design",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-09T14:49:13.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "From UX to AX: How AI Agents Change Application Design",
+          "url": "https://geekyants.com/en-us/blog/from-ux-to-ax-designing-applications-for-a-world-of-ai-agents",
+          "publishedAt": "2026-09-09T14:49:13.000Z"
+        }
+      ]
+    },
+    {
       "id": "ff077aa966ed",
       "title": "Show HN: Learn/Practice Sudoku strategies web app",
       "teaser": "So, I wanted to get better at Sudoku puzzles, and I watched a lot of strategy videos, but I just could not grok them. Also I installed a bunch of free Sudoku games on my phone and got very (",
@@ -41,26 +61,6 @@
           "title": "Show HN: Learn/Practice Sudoku strategies web app",
           "url": "https://sw-fun.github.io/sudoku/",
           "publishedAt": "2026-09-04T14:35:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "94dd951b774d",
-      "title": "The Death Of The Button: Why The Best Interface Is No Interface",
-      "teaser": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-09T10:00:00.000Z",
-      "since": "today",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "The Death Of The Button: Why The Best Interface Is No Interface",
-          "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
-          "publishedAt": "2026-09-09T10:00:00.000Z"
         }
       ]
     },
@@ -234,7 +234,7 @@
       "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -265,6 +265,26 @@
       ]
     },
     {
+      "id": "94dd951b774d",
+      "title": "The Death Of The Button: Why The Best Interface Is No Interface",
+      "teaser": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-09T10:00:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "The Death Of The Button: Why The Best Interface Is No Interface",
+          "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
+          "publishedAt": "2026-09-09T10:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "6fb9ef47bcea",
       "title": "UX Conference November Announced (Nov 16 - Nov 19)",
       "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. Nov 16 - Nov ",
@@ -272,15 +292,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T04:50:49.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Conference November Announced (Nov 16 - Nov 19)",
           "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-03T04:50:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8d1ceb015e65",
+      "title": "Date Slop: building a deliberately bad UX with AI",
+      "teaser": "A while ago now, I entered a Bad UX competition, where a prize went to the worst date-picker. Since...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-08T21:38:18.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Date Slop: building a deliberately bad UX with AI",
+          "url": "https://dev.to/hdv/date-slop-building-a-deliberately-bad-ux-with-ai-3nml",
+          "publishedAt": "2026-09-08T21:38:18.000Z"
         }
       ]
     },
@@ -474,7 +514,7 @@
       "publishedAt": "2026-08-24T06:48:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "nngroup",
@@ -612,9 +652,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-05T02:16:36.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -641,6 +681,26 @@
           "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
           "url": "https://dev.to/pasindu_balasooriya/heartbeats-not-clicks-ux-under-extreme-pressure-4bmi",
           "publishedAt": "2026-09-08T12:15:27.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0216afdd1ec7",
+      "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
+      "teaser": "When a technology company grows quickly, its brand can become a problem before anyone notices...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-19T22:58:59.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
+          "url": "https://dev.to/madebymonogram/how-we-turned-an-ai-brand-identity-into-a-scalable-digital-design-system-eo6",
+          "publishedAt": "2026-08-19T22:58:59.000Z"
         }
       ]
     },
@@ -794,7 +854,7 @@
       "publishedAt": "2026-08-28T00:57:31.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -854,7 +914,7 @@
       "publishedAt": "2026-08-26T05:06:25.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -934,73 +994,13 @@
       "publishedAt": "2026-08-20T03:23:01.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "devto-design",
           "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
           "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
           "publishedAt": "2026-08-20T03:23:01.000Z"
-        }
-      ]
-    },
-    {
-      "id": "be045ee3b363",
-      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
-          "publishedAt": "2026-08-25T21:17:17.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b2fa9b4faa22",
-      "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
-      "teaser": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-11T10:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
-          "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
-          "publishedAt": "2026-08-11T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4cfc06a222ed",
-      "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
-      "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-13T12:30:43.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
-          "url": "https://www.readiteasy.app/",
-          "publishedAt": "2026-08-13T12:30:43.000Z"
         }
       ]
     }
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-09T12:52:07.775Z"
+      "fetchedAt": "2026-09-09T19:11:27.380Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-09T12:52:07.828Z"
+      "fetchedAt": "2026-09-09T19:11:27.451Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-09T12:52:07.829Z"
+      "fetchedAt": "2026-09-09T19:11:27.452Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-09T12:52:07.830Z"
+      "fetchedAt": "2026-09-09T19:11:27.454Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-09T12:52:07.831Z"
+      "fetchedAt": "2026-09-09T19:11:27.455Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-09T12:52:07.832Z"
+      "fetchedAt": "2026-09-09T19:11:27.457Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-09T12:52:07.833Z"
+      "fetchedAt": "2026-09-09T19:11:27.458Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 8,
-      "fetchedAt": "2026-09-09T12:52:07.833Z"
+      "items": 9,
+      "fetchedAt": "2026-09-09T19:11:27.459Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-09-09T12:52:07.834Z"
+      "fetchedAt": "2026-09-09T19:11:27.460Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-09T12:52:07.835Z"
+      "fetchedAt": "2026-09-09T19:11:27.461Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-09T12:52:07.836Z"
+      "fetchedAt": "2026-09-09T19:11:27.462Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-09T12:52:07.837Z"
+      "fetchedAt": "2026-09-09T19:11:27.464Z"
     }
   ]
 }
