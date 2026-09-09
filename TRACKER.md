@@ -13,20 +13,15 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 **Classification:** every new progress item is labeled **[UX]**, **[Dev]**, or
 **[UX+Dev]**. Read-only inspection does not require a separate tracker entry.
 
-_Last updated: 2026-08-28_
+_Last updated: 2026-09-09_
 
 ---
 
 ## 🎯 Next action (do this next)
 
-**Wire `loadTopics()` into the Today view** (`ghostwriter.tsx`), replacing the
-Claude topic call. This connects the finished content pipeline to the UI and
-removes the last paid dependency from the `topics → select → write` flow.
-
-Involves: swap `loadTopics` internals → `topicSource.loadTopics()`; handle the
-`Latest/Trending/Under the Radar` + `Evergreen` category shapes; wire manual
-refresh to `advanceDeskOffset()`; show provenance (source link + `categoryReason`,
-or "Evergreen prompts" label). Functional first; visual desk redesign is separate.
+**Show partial source-backed desks honestly when a category has fewer than two
+topics.** Keep the available current topics and visibly disclose the shortfall
+instead of replacing the entire desk with Evergreen prompts.
 
 ---
 
@@ -39,8 +34,7 @@ _(nothing currently — pick up the Next action above)_
 ## ⬜ Pending
 
 ### Dev
-- ⬜ Wire `loadTopics()` into Today view — **this is the Next action above**
-- ⬜ Show fewer source-backed topics honestly when a category has <2 (currently falls back to full Evergreen)
+- ⬜ Show fewer source-backed topics honestly when a category has <2 — **this is the Next action above**
 - ⬜ Optional local Hugging Face embedding pass in the pipeline for semantic relevance/clustering (seam left in `enrich.ts`)
 - ⬜ Production AI path for Reflect/Review: free serverless proxy **or** BYO-key mode (PRD FR-10) — the one open V1 build-sequence item
 - ⬜ Configure GitHub Pages build + deploy workflow
@@ -50,19 +44,39 @@ _(nothing currently — pick up the Next action above)_
 - ⬜ Align word count to exclude the title (PRD FR-4.1)
 
 ### UX
-- ⬜ Editorial-desk redesign of Today: one dominant story + quieter signals (log.md idea 1)
 - ⬜ Strip write-view chrome to the "paper" (POC.md §3; log.md idea 4)
 - ⬜ Tune fixed writing position: anchor %, quiet floor, settle-on-pause (POC.md §6; log.md idea 8)
-- ⬜ Reflect as a true one-at-a-time self-interview; differentiate "Continue" vs "Show me another angle" (PRD FR-3.2; log.md idea 3)
+- ⬜ Reflect as an optional one-at-a-time self-interview; preserve direct Choose → Write and differentiate "Continue" vs "Show me another angle" (PRD FR-3.2; log.md idea 3)
 - ⬜ Render the reflection "angle" (currently unused)
 - ⬜ Motion language: add the two missing behaviors (accept-insight, margin-comment) if ideas 5/7 are pursued (log.md idea 6)
 - ⬜ Optional immersion: soft caret, paper texture, opt-in Web Audio, View Transitions (PRD FR-8)
 - ⬜ Accessibility + reduced-motion pass across the primary flow
+- ⬜ **[UX+Dev]** Prototype typing-as-reward feedback that settles on pause and becomes quieter during sustained flow (POC.md §4; log.md idea 10)
+- ⬜ **[UX]** Define the dormant Ghost invocation and contextual lens chooser without permanent writing-time AI chrome (PRD FR-5.0; log.md idea 11)
+- ⬜ **[UX+Dev]** Design passage-anchored Ghost margin notes for Idea, Clarity, Voice, Evidence, and Structure while preserving the raw draft (PRD FR-5.1; log.md idea 12)
 
 ---
 
 ## ✅ Completed
 
+- ✅ **2026-09-09 [UX+Dev]** — Redesigned Today as a responsive editorial desk
+  with one rank-first lead story, five quieter signals, visible editorial lenses,
+  honest provenance, and complete loading/empty states; verified desktop,
+  mobile, refresh, selection, and Evergreen behavior, with Lighthouse scores of
+  100 performance / 100 accessibility / 100 best practices.
+- ✅ **2026-09-08 [UX+Dev]** — Connected Today to the provider-independent
+  topic loader, added source/category provenance and honest stale/Evergreen
+  labels, wired refresh rotation, and verified source-backed and fallback flows
+  in-browser with no topic-selection Anthropic request when unconfigured;
+  synchronized the PRD and implementation-plan status.
+- ✅ **2026-08-28 [UX]** — Audited the intentional-writing considerations
+  against PRD, POC, implementation plan, README, and ideas backlog; confirmed
+  coverage and preserved the distinction between documented direction and
+  pending UI implementation.
+- ✅ **2026-08-28 [UX]** — Integrated the intentional-writing doctrine across
+  PRD, POC, implementation plan, README, and ideas backlog: World / Me / Ghost,
+  Discover → Choose → Write, optional Guided Reflect, invoked Ghost, raw-draft
+  authority, and typing as intrinsic reward.
 - ✅ **2026-08-28 [Dev]** — Added root `AGENTS.md` with the mandatory
   tracker workflow, mirrored the rule in `CLAUDE.md`, and established UX / Dev /
   UX+Dev classification for every meaningful project action.

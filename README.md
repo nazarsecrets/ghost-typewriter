@@ -1,19 +1,21 @@
 # SVR Ghostwriter
 
-A personal writing environment for turning current UX ideas into grounded, reflective articles.
+An intentional writing environment with an optional AI collaborator for turning current UX ideas into grounded, reflective articles.
 
-The V1 flow is: **Today → Reflect → Write → Review → Refine → Export**.
+The product loop is: **Discover → Choose → Write → Reflect → Ghost → Refine → Draft**.
+
+World supplies things worth noticing. You remain the author. Ghost questions and refines only when invited.
 
 ## Run locally
 
 ```sh
 cp .env.example .env
-# Add ANTHROPIC_API_KEY to .env
+# Optional: add ANTHROPIC_API_KEY for personalized Reflect/Review
 npm install
 npm run dev
 ```
 
-The browser calls the local Vite proxy at `/api/anthropic`; the API key stays in the development server environment.
+Topic discovery and writing do not require an API key. Optional local AI requests use the Vite proxy at `/api/anthropic`; the key stays in the development server environment.
 
 ## Validate
 

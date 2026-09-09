@@ -104,8 +104,73 @@ Generous width and vertical whitespace. Serif for manuscript, sans for system UI
 
 ---
 
+## Idea 9 — Intellectual serendipity, not a prompt library
+
+**The move.** Today feels like a small editorial desk delivering a few things worth thinking about. One story leads; the remaining signals are quieter. Possible reader-facing lenses are Design, Technology, Industry, Ways of Working, and Self.
+
+**Why it matters.** The product begins creating value before writing starts: it broadens professional awareness without asking the author to search or prompt an AI.
+
+**Current state.** Implemented. Today gives the highest-ranked idea dominant editorial weight, presents five quieter signals beside it, and maps existing product tags into Design, Technology, Industry, Ways of Working, and Self lenses. Source-backed and Evergreen provenance remain explicit.
+
+**Open questions.**
+- Are the editorial lenses useful navigation or unnecessary taxonomy?
+- Should one dominant story be selected by rank, category, or author preference?
+- How much source context belongs on the desk before it becomes a news reader?
+
+---
+
+## Idea 10 — Typing enters a quieter flow state
+
+**The move.** A keystroke gets a minute mechanical response; after sustained writing, nonessential feedback reduces and the environment becomes quieter.
+
+```text
+keypress → character lands → cursor advances → page fills → environment quiets
+```
+
+**Why it matters.** The writing becomes intrinsically rewarding without streaks, XP, or productivity pressure.
+
+**Current state.** The manuscript has a fixed paragraph position and quiets old paragraphs, but it does not yet distinguish initial typing from sustained flow or settle only on pause.
+
+**Open questions.**
+- What can respond without adding input latency: character, caret, paper, or optional sound?
+- When does flow begin, and how gradually should feedback recede?
+- Does any per-character animation remain comfortable in long sessions?
+
+---
+
+## Idea 11 — Ghost waits until invoked
+
+**The move.** No permanent AI panel. A quiet dormant mark waits off the paper until the author intentionally invokes it, then offers contextual lenses: question my argument, find what is missing, go deeper, challenge an assumption, or help with structure.
+
+**Why it matters.** It preserves the actor boundary: World supplies material, Me writes, Ghost questions. The AI feels like a collaborator rather than the owner of the document.
+
+**Current state.** Review is a separate surface, which is directionally correct, but it is reached through a visible manuscript-end button and returns a general critique block.
+
+**Open questions.**
+- Is Ghost invoked through a mark, keyboard command, command palette, or combination?
+- Should the mark ever indicate availability, or remain visually inert?
+- Can Guided Reflect use the same invocation grammar without becoming an interruption?
+
+---
+
+## Idea 12 — Editorial pencil in the margin
+
+**The move.** Preserve the raw draft and unfold Ghost observations beside specific passages. Classify notes as Idea, Clarity, Voice, Evidence, or Structure.
+
+**Why it matters.** Questions and annotations develop the writer; automatic rewrites merely polish output. The author explicitly decides what enters the manuscript.
+
+**Current state.** The side-by-side Review layout exists, but the response is one preformatted text block with no passage anchors or structured lenses.
+
+**Open questions.**
+- How is a note anchored when paragraphs change during revision?
+- Does accepting a note copy a prompt into working notes or change prose directly? The current doctrine favors notes, never automatic replacement.
+- Which annotation types deserve distinct motion without expanding the motion language indefinitely?
+
+---
+
 ## Cross-cutting notes
 
 - **3 and 4** define the two core surfaces (the interview, the paper). **6 and 8** are the motion and physics that make both feel alive. They're mutually reinforcing — worth discussing as a set.
 - Much of this scaffolding already exists in code; the gap is mostly **framing, pacing, and restraint**, not net-new engineering — except the two missing motion behaviours in Idea 6, which depend on features outside this shortlist.
 - Not in scope here (but referenced): margin critique (5) and pull-the-thread (7) — both would unlock the missing Idea 6 behaviours if we pursue them later.
+- **9–12** extend the same doctrine: World creates curiosity, the paper protects Me, and Ghost arrives only after intentional invocation.

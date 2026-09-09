@@ -9,7 +9,11 @@
 
 ## 1. Product summary
 
-SVR Ghostwriter is a personal writing environment for a systems-driven B2B product designer who wants to publish grounded UX and product reflections on Medium and LinkedIn.
+SVR Ghostwriter is an intentional writing environment with an optional AI collaborator for a systems-driven B2B product designer who wants to publish grounded UX and product reflections on Medium and LinkedIn. It is not primarily an AI writing tool.
+
+The closest mental model is:
+
+> A typewriter that keeps a designer intellectually curious.
 
 The product removes two recurring barriers:
 
@@ -18,9 +22,11 @@ The product removes two recurring barriers:
 
 Ghostwriter surfaces relevant material, guides the author through a short self-interview, and then retreats into a calm manuscript experience. Editorial critique is available without turning the manuscript into a chatbot.
 
-The product principle is:
+The interaction principle is:
 
 > The AI can move; the writing should feel still.
+
+The Ghost behaves like a well-read collaborator sitting quietly across the room: absent while the author is thinking, available when intentionally invited, and never mistaken for the author.
 
 ## 2. Problem statement
 
@@ -43,6 +49,16 @@ The opportunity is not another general-purpose editor or AI chat interface. It i
 - Reflection questions move one at a time.
 - Editorial notes temporarily appear beside the work.
 - The manuscript and current thought remain visually anchored.
+
+### The three actors
+
+| Actor | Responsibility |
+| --- | --- |
+| **World** | Supplies credible things worth noticing and thinking about |
+| **Me** | Thinks, writes, argues, chooses, and remains the author |
+| **Ghost** | Questions, challenges, connects, and refines only when invited |
+
+The product must never allow Ghost to take over Me. This separation governs topic sourcing, manuscript behavior, AI invocation, review, and revision acceptance.
 
 ## 4. User and jobs to be done
 
@@ -79,8 +95,10 @@ When they return later, they want the manuscript, settings, reflection context, 
 - Calm, editorial, and focused rather than dashboard-like.
 - Physical rhythm without nostalgic typewriter decoration.
 - Motion that communicates state changes without competing with prose.
+- Typing that becomes intrinsically satisfying without scores, streaks, or rewards layered on top.
 - Controls that recede once writing begins.
 - Clear source provenance for inspiration topics.
+- An AI presence that feels invoked and temporary rather than permanent.
 
 ### Non-goals for V1
 
@@ -90,6 +108,8 @@ When they return later, they want the manuscript, settings, reflection context, 
 - Automatic publication to Medium or LinkedIn.
 - General news aggregation.
 - AI-generated complete articles before the author writes.
+- Inline AI completion, permanent AI sidebars, and unsolicited rewrite suggestions.
+- Streaks, XP, badges, or other extrinsic writing gamification.
 - Automated LinkedIn scraping.
 - Complex analytics or engagement optimization.
 - Mobile-native applications.
@@ -103,42 +123,56 @@ When they return later, they want the manuscript, settings, reflection context, 
 5. **Freshness must be honest.** The system never invents novelty when sources have not changed.
 6. **AI is an enhancement, not a gate.** Topic discovery, writing, persistence, and export remain usable without a hosted model.
 7. **Every feature protects focus.** Features that do not reduce friction or preserve momentum remain out of scope.
+8. **Ghost waits to be invited.** It does not interrupt typing, occupy a permanent panel, or offer unsolicited completions.
+9. **The raw draft remains untouched.** Ghost may annotate and propose, but only the author changes the manuscript.
+10. **Behavior carries the delight.** The product may look quiet in a screenshot; it comes alive through typing, paper movement, and intentional transitions rather than decoration.
+11. **Writing is the reward.** Mechanical feedback may reinforce flow, but the product does not gamify authorship.
 
 ## 7. Information architecture and primary flow
 
 ```text
-TODAY
-  Choose a current idea or start with a blank page
-        ↓
-REFLECT
-  One pathway at a time
-        ↓
-WRITE
-  Immersive manuscript at a fixed writing position
-        ↓
-REVIEW
-  Manuscript beside editorial notes
-        ↓
-REFINE
-  Return to the same manuscript and writing context
-        ↓
-EXPORT
-  Markdown, text, or Medium handoff
+DISCOVER → CHOOSE → WRITE → REFLECT → GHOST → REFINE → DRAFT
+   World       Me       Me       Me      invited     Me       made
 ```
 
-The user may bypass Today and Reflect by choosing **Start with a blank page**.
+Mapped to the application:
+
+```text
+TODAY
+  Review a small editorial desk of current or Evergreen ideas
+        ↓
+CHOOSE
+  One idea carries onto the paper; everything else retreats
+        ↓
+WRITE
+  Chrome-free manuscript with a fixed writing position
+        ↓
+REFLECT
+  The author rereads and decides what the draft is saying
+        ↓
+GHOST
+  Intentionally invoke questions, lenses, or editorial notes
+        ↓
+REFINE
+  Accept, reject, or develop suggestions while preserving the raw draft
+        ↓
+DRAFT / EXPORT
+  A durable piece the author made
+```
+
+Guided Memory, Tension, Outcome, System, and People pathways remain an optional way into the manuscript when the author wants help recalling experience. They are not a mandatory gate between choosing an idea and writing. The user may also bypass Today through **Start with a blank page**.
 
 ## 8. Scope and current implementation status
 
 | Capability | Target state | Current state |
 | --- | --- | --- |
-| Today | Provider-independent topic pool | Claude-generated topics in local development |
-| Topic categories | 2 Latest, 2 Trending, 2 Under the Radar | 2 Breaking, 2 Trending, 2 Under the Radar |
-| Local topic desk | Honest evergreen fallback and optional inspiration mode | Standalone POC module with 24 curated prompts; not yet integrated |
-| Reflect | Five sequential pathways | Implemented with hosted AI plus deterministic fallback |
+| Today | Provider-independent topic pool | Static source-backed manifest integrated with an honest Evergreen fallback; no Claude topic request |
+| Topic categories | 2 Latest, 2 Trending, 2 Under the Radar | Implemented when the manifest can fill all three categories |
+| Local topic desk | Honest evergreen fallback and optional inspiration mode | Integrated fallback with stable rotation and explicit no-live-source labeling |
+| Reflect | Optional five-pathway self-interview | Implemented as a mandatory post-selection step; needs optional invocation |
 | Write | Paragraph-based immersive manuscript | Implemented |
 | Fixed writing position | Active paragraph near 42% viewport height | Implemented with Anime.js |
-| Review | Editorial notes beside manuscript | Implemented; currently Claude-dependent |
+| Review | Intentionally invoked Ghost annotations beside untouched manuscript | Separate review surface implemented; visible button, unstructured response, Claude-dependent |
 | Persistence | Debounced local session and recent drafts | Implemented with versioned `localStorage` |
 | Export | Markdown, text, Medium handoff | Implemented |
 | Motion | Six reusable Anime.js behaviors | Implemented |
@@ -147,7 +181,7 @@ The user may bypass Today and Reflect by choosing **Start with a blank page**.
 
 ### POC findings and product implications
 
-The working POC validates the central Today → Reflect → Write → Review model and provides concrete evidence about which behaviors should remain, change, or be separated.
+The working interface validates its individual Today, Reflect, Write, and Review surfaces. The focused paper POC and product doctrine refine their target order to Discover → Choose → Write, with Guided Reflect optional and post-writing Ghost intentionally invoked.
 
 #### Validated by the working interface
 
@@ -157,11 +191,11 @@ The working POC validates the central Today → Reflect → Write → Review mod
 - A separate Review surface preserves the manuscript as the authoritative object instead of turning it into chat history.
 - A 700ms debounced browser write is sufficient for the current single-author, small-document scope.
 - Centralizing motion in six named Anime.js behaviors makes the “motion serves stillness” rule enforceable.
-- A slim Article/LinkedIn and Reflective/Editorial utility bar is enough configuration for the current product.
+- Article/LinkedIn and Reflective/Editorial settings are sufficient configuration, but the paper POC shows they should not remain visible while writing.
 
 #### Validated by the local topic-desk experiment
 
-The `src/topics.ts` POC contains 24 manually curated prompts: four for each of the six product tags. A deterministic date seed selects a stable daily set, while an offset supports manual rotation. The selection algorithm attempts to show one prompt per tag before repeating a tag.
+The `src/topics.ts` POC contains 24 manually curated Evergreen prompts: four for each of the six product tags. Stable IDs, a deterministic date seed, persisted seen history through `topicSource.ts`, and a refresh offset support honest rotation. The selection algorithm attempts to show one prompt per tag before repeating a tag.
 
 This validates:
 
@@ -174,13 +208,9 @@ This validates:
 
 #### POC limitations that must not become product claims
 
-- The local module is not currently connected to the Today view.
-- Its content is manually authored and does not become current merely because it rotates daily.
-- Breaking, Trending, and Under-the-Radar categories are assigned by array position rather than source evidence.
-- Labels such as “surfaced 2 days ago” are generated and do not represent publication dates.
-- Prompts have no source URL, provenance, engagement signal, or collection timestamp.
-- The generator does not currently persist seen IDs, so repetition across refresh offsets is possible.
-- Prompt records do not yet have stable IDs.
+- When a source-backed category contains fewer than two items, the loader currently replaces the entire desk with Evergreen prompts rather than showing fewer current topics honestly.
+- Today now uses a rank-first editorial hierarchy with one lead story and five quieter signals. The usefulness of its Design, Technology, Industry, Ways of Working, and Self lens mapping still needs observation with real use.
+- Evergreen content remains manually authored and does not become current merely because it rotates daily.
 - Some titles are complete observational sentences rather than short topic labels; this is appropriate for curated prompts but should not be confused with a source-backed news headline.
 - Continue and **Show me another angle** currently perform the same transition even though they communicate different intentions.
 - The reflection response includes an underlying angle, but the POC does not render it.
@@ -213,6 +243,10 @@ Each topic must include:
 - A brief explanation of why the topic belongs in its category.
 
 Curated evergreen prompts may instead use a short observational sentence up to 90 characters followed by a reflective teaser. They must be visibly labeled as curated or evergreen and are not required to carry source-backed recency metadata.
+
+The six items must not appear as six equally weighted dashboard cards. The target editorial composition is one dominant idea with five quieter signals. Selecting an idea makes the remaining desk retreat and carries the chosen provocation onto the manuscript.
+
+Potential user-facing editorial lenses—Design, Technology, Industry, Ways of Working, and Self—may help intellectual serendipity. They are a presentation taxonomy to validate, not a replacement for source-backed recency categories or the internal product tags.
 
 #### FR-1.2 Category definitions
 
@@ -330,6 +364,8 @@ The curated desk is an offline fallback and may also become a deliberate inspira
 
 ### FR-3: Reflect
 
+Guided reflection is optional. The default POC path is Choose → Write; the author may invoke guided reflection before writing when a topic feels interesting but still abstract.
+
 #### FR-3.1 Sequential pathways
 
 The Reflect view presents one pathway at a time in this order:
@@ -397,7 +433,38 @@ The reflection payload may also contain a one-sentence underlying angle. When sh
 
 Once writing begins, inspiration and reflection controls retreat. The manuscript must not turn into a conversation thread or display editorial responses inline with prose.
 
+- No permanent AI panel is visible while typing.
+- No inline rewrite, completion, or “improve with AI” affordance interrupts the manuscript.
+- Mode and tone controls are hidden or summoned outside the paper rather than occupying the writing surface.
+- Review is invoked through a deliberate off-paper action, command, or keystroke.
+- Autosave is silent unless it fails.
+
+#### FR-4.5 Typing as intrinsic reward
+
+Typing feedback may use restrained character landing, caret movement, or minute mechanical response to make producing text feel satisfying.
+
+- Feedback must never delay character input or make the manuscript jitter.
+- The first sentence may carry slightly more mechanical character.
+- After sustained writing, nonessential feedback reduces as the environment enters a quieter flow state.
+- Fixed-position settling should occur on paragraph change or a short pause rather than recentering on every keystroke.
+- Feedback is disabled with reduced motion and remains optional if sound is introduced.
+- The product does not use streaks, XP, celebratory counters, or productivity pressure.
+
 ### FR-5: Review and refine
+
+#### FR-5.0 Intentional Ghost invocation
+
+Ghost has no permanent panel. While the author writes, it may be represented by a quiet dormant mark that performs no action until invoked.
+
+When invoked after writing, Ghost offers a small set of author-controlled lenses:
+
+- Question my argument.
+- Find what is missing.
+- Help me go deeper.
+- Challenge this assumption.
+- Help me structure this.
+
+The invocation avoids generic “What can I help you with?” framing. It is contextual to the current manuscript and begins with questions or observations rather than rewritten prose.
 
 #### FR-5.1 Review structure
 
@@ -407,6 +474,18 @@ Review displays:
 - Editorial notes in a separate adjacent panel on desktop.
 - A stacked layout on smaller screens.
 - A clear **Return to manuscript** action.
+- The untouched raw draft as the authoritative left-hand artifact.
+- Ghost observations as separate margin-like annotations rather than inline replacements.
+
+Editorial annotations use these lenses when applicable:
+
+- **Idea:** the argument could go deeper.
+- **Clarity:** a sentence is carrying too much.
+- **Voice:** a passage sounds more generic than the surrounding draft.
+- **Evidence:** a claim would benefit from a concrete example.
+- **Structure:** the strongest idea appears too late or in the wrong place.
+
+Each annotation points to relevant manuscript text and may offer a question or development action. Suggestions do not modify manuscript content until the author explicitly accepts or rewrites them.
 
 #### FR-5.2 Critique requirements
 
@@ -494,6 +573,8 @@ Motion requirements:
 - Excessive stagger is prohibited.
 - `prefers-reduced-motion` disables nonessential movement.
 - The product remains fully usable without animation.
+- Motion remains editorial and mechanical: cursor movement, paper shifts, character impressions, prompt collapse, Ghost appearance, margin annotation, and focus transition.
+- Playfulness comes from behavior rather than decorative effects.
 
 Optional future immersion:
 
@@ -547,7 +628,7 @@ Public sources + manual inspiration inbox
           public/topics.json
                     ↓
         Static React application
-  Today → Reflect → Write → Review → Export
+  Discover → Choose → Write → Reflect → Ghost → Refine → Draft
                     ↓
       Versioned browser localStorage
 
@@ -755,19 +836,24 @@ Number of manuscripts reaching Review or Export per week.
 - Separate review surface.
 - Markdown and text export.
 
-### Phase 2: Inspiration intelligence
+### Phase 2: Inspiration intelligence — foundation implemented
 
-- Integrate the local topic desk as an honest offline fallback.
-- Add stable curated-prompt IDs, persisted seen history, and deterministic refresh offsets.
-- Replace simulated recency labels with the Evergreen category.
-- Add source registry.
-- Add scheduled collection job.
-- Normalize and validate source records.
-- Add deterministic filtering and category logic.
-- Add local Hugging Face embeddings for clustering and relevance.
-- Generate 30–50-topic static manifest.
-- Add seen-topic rotation and source provenance to Today.
-- Rename Breaking to Latest.
+Implemented:
+
+- Honest local Evergreen desk with stable IDs and deterministic selection.
+- Source registry and scheduled collection job.
+- Normalization, validation, deterministic filtering, clustering, ranking, and category logic.
+- Static 30–50-topic manifest.
+- Client manifest validation, balanced selection, seen-topic history, and Evergreen fallback.
+- Today integration through `topicSource.loadTopics()` with no Claude topic request.
+- Manual source-backed and Evergreen desk rotation through `advanceDeskOffset()`.
+- Source provenance, category reasons, manifest age, Latest labeling, and honest Evergreen labeling.
+- Rank-first editorial composition with one dominant story, five quieter signals, and visible editorial lenses.
+
+Remaining:
+
+- Show fewer current topics honestly when a category has fewer than two instead of replacing the full desk.
+- Add optional local Hugging Face embeddings for improved semantic clustering and relevance.
 
 ### Phase 3: Production deployment
 
@@ -794,22 +880,27 @@ The target V1 is accepted when:
 5. When no current manifest is available, the local topic desk displays six honestly labeled Evergreen prompts without simulated dates.
 6. Manual Refresh changes the deterministic set and prioritizes unseen prompt IDs.
 7. Topic failure does not block blank writing.
-8. Selecting a topic opens one reflection pathway at a time.
-9. All five pathway types are reachable and visited prompts remain navigable.
-10. Show me another angle changes the current pathway prompt instead of advancing.
-11. Deterministic prompts are available when personalized prompt generation fails.
-12. The manuscript is borderless, paragraph-based, and visually primary.
-13. The active paragraph returns near the fixed writing position.
-14. Older paragraphs remain readable while becoming visually quieter.
-15. All six Anime.js behaviors are wired and reduced motion is respected.
-16. The active session persists across a browser reload.
-17. Recent draft snapshots persist and reopen correctly.
-18. Review appears separately from the manuscript and does not convert writing into chat.
-19. Review failure preserves writing and export.
-20. Markdown and text exports contain the complete title and manuscript.
-21. No production API secret exists in the client bundle.
-22. Keyboard navigation and visible focus work across the primary flow.
-23. Source provenance, refresh age, and category reasoning are visible for every source-backed topic.
+8. Selecting a topic carries it directly onto the manuscript without requiring AI or guided reflection.
+9. Guided reflection remains intentionally invokable and shows one pathway at a time.
+10. All five pathway types are reachable and visited prompts remain navigable.
+11. Show me another angle changes the current pathway prompt instead of advancing.
+12. Deterministic prompts are available when personalized prompt generation fails.
+13. The manuscript is borderless, paragraph-based, and visually primary.
+14. The active paragraph returns near the fixed writing position without per-keystroke jitter.
+15. Older paragraphs remain readable while becoming visually quieter.
+16. Writing-time controls and permanent AI chrome are absent from the paper.
+17. Typing feedback reduces during sustained flow and respects reduced motion.
+18. Ghost remains dormant until intentionally invoked.
+19. Ghost annotations are classified by Idea, Clarity, Voice, Evidence, or Structure and never overwrite raw prose automatically.
+20. All six Anime.js behaviors are wired and reduced motion is respected.
+21. The active session persists across a browser reload.
+22. Recent draft snapshots persist and reopen correctly.
+23. Review appears separately from the manuscript and does not convert writing into chat.
+24. Review failure preserves writing and export.
+25. Markdown and text exports contain the complete title and manuscript.
+26. No production API secret exists in the client bundle.
+27. Keyboard navigation and visible focus work across the primary flow.
+28. Source provenance, refresh age, and category reasoning are visible for every source-backed topic.
 
 ## 18. Risks and mitigations
 
@@ -825,6 +916,8 @@ The target V1 is accepted when:
 | Local storage is cleared | Lost local-only work | Clear product disclosure; later optional file backup/export |
 | Static hosting cannot hold secrets | Review unavailable in production | Serverless proxy or explicit BYO-key decision |
 | AI critique rewrites the author's identity | Product loses purpose | Strong voice prompt, structured critique, manuscript remains authoritative |
+| Ghost becomes an always-on AI assistant | Writing is interrupted and authorship blurs | Dormant-by-default invocation; no inline completion or permanent panel |
+| Mechanical typing feedback becomes distracting | Flow degrades and input feels delayed | Subtle response, pause-based settling, adaptive reduction, reduced-motion fallback |
 | Motion becomes theatrical | Reduced focus | Six-behavior constraint, short durations, reduced-motion support |
 
 ## 19. Open decisions
@@ -839,6 +932,10 @@ The target V1 is accepted when:
 8. When should a manuscript become a durable draft snapshot: review, explicit save, navigation away, or a time interval?
 9. Should optional typewriter sound and monospaced typography be included after the silent experience is validated?
 10. Should the curated desk remain a fallback only, or appear as a user-selectable Evergreen mode beside current topics?
+11. Should Guided Reflect remain a visible optional route, or appear only when the author asks for help getting started?
+12. What invokes Ghost after writing: a dormant mark, keyboard command, command palette, or combination?
+13. Which typing response—visual character landing, caret behavior, optional sound, or paper movement—adds tactility without delaying input?
+14. Do the visible Design, Technology, Industry, Ways of Working, and Self lenses improve scanning enough to keep?
 
 ## 20. Decisions already made
 
@@ -855,3 +952,11 @@ The target V1 is accepted when:
 - Refresh prioritizes unseen topics but does not pretend sources changed when they did not.
 - The local topic pool is valuable as an Evergreen desk, but its generated recency labels are not product truth.
 - Static, free, low-maintenance hosting remains a product constraint.
+- The product is an intentional writing environment with an optional AI collaborator, not an AI writing tool.
+- World supplies material, Me remains the author, and Ghost questions or refines only when invited.
+- The default POC path is Discover → Choose → Write; guided pre-writing reflection is optional.
+- Ghost has no permanent writing-time panel and does not provide unsolicited inline completion.
+- The raw manuscript remains authoritative and is never changed without explicit author action.
+- Writing itself—not streaks, XP, or productivity scoring—is the reward.
+- Today gives the highest-ranked topic dominant editorial weight and presents the remaining five as quieter signals.
+- Existing product tags map to visible editorial lenses for evaluation without changing source-backed category logic.

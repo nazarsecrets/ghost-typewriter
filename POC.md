@@ -4,6 +4,12 @@ A proof of concept for the grug-shaped version of Ghostwriter: an immersive, foc
 
 > **Thesis:** You review today's ideas, choose one, and drop straight onto a manuscript that keeps your live thought physically still while the writing accumulates around it. No chat. No chrome on the page. No AI theatre. One rule, held with conviction.
 
+This is not a proof of an AI writing tool. It is a proof of an intentional writing environment with an optional collaborator:
+
+> A typewriter that keeps a designer intellectually curious.
+
+The full product has three actors—**World** supplies things worth noticing, **Me** thinks and writes, and **Ghost** questions or refines only when invited. This POC deliberately proves World → Me. Ghost stays out of the room until the paper itself feels inevitable.
+
 ---
 
 ## 0. The flow this POC covers
@@ -77,7 +83,23 @@ Rules for the surface:
 
 ---
 
-## 4. Scope
+## 4. Typing as the reward
+
+The typewriter idea is behavioral rather than decorative. A keystroke may produce a minute character landing, caret response, or paper reaction, but input must remain immediate.
+
+The intended rhythm is:
+
+```text
+keypress → character lands → cursor advances → page fills → environment quiets
+```
+
+- The first sentence may feel slightly more mechanical.
+- Feedback reduces after sustained writing rather than escalating.
+- The fixed position settles on a short pause or paragraph change, not every keystroke.
+- Reduced motion removes nonessential response.
+- There are no streaks, XP, celebrations, or productivity pressure. The reward is that writing feels good.
+
+## 5. Scope
 
 **In:**
 - **Topic desk** — review today's ideas as an editorial desk (one dominant story, quieter signals), not a grid of equal cards.
@@ -93,15 +115,29 @@ Rules for the surface:
 - AI critique / margin notes.
 - Export flows.
 
-**One dependency:** the topic desk loads ideas from Claude. For the POC that means either a working local key (dev proxy) or a small hardcoded set of sample topics so the flow is demoable without the API. The serverless proxy decision is still deferred; the paper itself makes no AI calls.
+**Topic dependency:** Today loads the provider-independent static topic manifest and falls back to the honest local Evergreen desk. Discover → Choose → Write therefore requires no Claude key, serverless proxy, or hosted model. The paper itself makes no AI calls.
 
-Skipping reflection and everything after the paper is deliberate: this POC proves the *entry into writing*. If arriving at the paper doesn't feel right, nothing downstream will save it.
+Skipping guided reflection and everything after the paper is deliberate: this POC proves the *entry into writing*. If arriving at the paper doesn't feel right, nothing downstream will save it.
 
 ---
 
-## 5. Build plan (small)
+## 6. How Ghost reattaches later
 
-1. **Reshape the topic desk** — break the equal-card grid into one dominant story + five quieter signals; stagger them in with Anime.js on load. (Fall back to sample topics if no key.)
+Ghost is deferred, not deleted. It should return only after the author has written and intentionally invokes it—never as a permanent sidebar or inline completion engine.
+
+A quiet dormant mark may offer contextual lenses:
+
+- Question my argument.
+- Find what is missing.
+- Help me go deeper.
+- Challenge this assumption.
+- Help me structure this.
+
+The resulting notes live beside the untouched draft and identify Idea, Clarity, Voice, Evidence, or Structure concerns. Ghost proposes questions and connections; Me decides what enters the manuscript.
+
+## 7. Build plan (small)
+
+1. **Reshape the topic desk — complete.** The highest-ranked topic leads, five quieter signals follow, editorial lenses aid scanning, and source-backed or Evergreen provenance remains explicit. The desk stays still on load; interaction feedback carries the motion.
 2. **Wire select → write** — choosing an idea seeds the manuscript title/subject and goes straight to the write view, bypassing reflection for the POC.
 3. **Strip the chrome** — remove the utility bar (mode/tone toggles) and the end-of-manuscript button from the write view; keep title + paragraphs + word count.
 4. **Tune the rule** — expose anchor % and quiet floor as constants; try 40% / 0.82, settle-on-pause behavior.
@@ -112,7 +148,7 @@ All six are edits to existing code, not new systems. Estimated as an afternoon, 
 
 ---
 
-## 6. What to decide by looking at it
+## 8. What to decide by looking at it
 
 These are tuning questions the POC exists to answer — judged by feel, in the browser, not on paper:
 
@@ -121,13 +157,17 @@ These are tuning questions the POC exists to answer — judged by feel, in the b
 - **Settle timing:** does anchoring on pause feel natural, or do we need continuous tracking?
 - **Whitespace / measure:** how wide is "generous" before the eye loses the line?
 - **Silence:** is a removed save-state trusting-and-calm, or unsettling?
+- **Typing response:** which subtle mechanical cue rewards typing without becoming noticeable or delaying input?
+- **Flow transition:** when should feedback become quieter after sustained writing?
 
 ---
 
-## 7. The grug test
+## 9. The grug test
 
 Before adding anything back, ask of every element: *does this protect the writing, or decorate the software?* The 2026 Apple Design Award for grug went to an app that did **one thing** with total conviction and cut everything else. This POC is that discipline applied to writing:
 
 > Less dashboard. Less chat. Less AI theatre. More typography, silence, pacing, and one physical rule you can feel.
+
+The product should almost look boring in a screenshot. It comes alive only when someone starts typing.
 
 If the silent paper feels inevitable, we reattach the ghostwriter around it — as a presence, not a service. If it doesn't, we fix the paper first.

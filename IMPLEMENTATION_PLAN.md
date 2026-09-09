@@ -4,7 +4,9 @@ The canonical product requirements are defined in [PRD.md](./PRD.md). This file 
 
 ## Why this exists
 
-Ghostwriter is a personal writing companion for keeping my voice as a designer alive on Medium. Its job is to remove the two frictions that stop me from publishing: not knowing *what* to write about, and losing momentum *while* writing. It solves the first by surfacing relevant, current UX/product prompts (a "ghost" that suggests, never dictates), and the second by giving me a calm, immersive space where the act of writing feels physical and continuous — like a typewriter, but softer and more alive.
+Ghostwriter is an intentional writing environment with an optional AI collaborator for keeping my voice as a designer alive on Medium. Its job is to remove the two frictions that stop me from publishing: not knowing *what* to write about, and losing momentum *while* writing. It solves the first by surfacing relevant, current UX/product material from the World, and the second by giving Me a calm, immersive space where the act of writing feels physical and continuous — like a typewriter, but softer and more alive. Ghost suggests only when intentionally invoked; it never becomes the author.
+
+The mental model is: **a typewriter that keeps a designer intellectually curious.**
 
 The intent is deliberately small: a tool for one author, hosted for free, lightweight, and easy to maintain. It should never become a heavy app. Every feature earns its place by protecting focus.
 
@@ -25,7 +27,7 @@ The rule: motion serves stillness. The AI and the interface can move; the writin
 
 ## Hosting: free, on GitHub, easy to maintain
 
-The target is **GitHub Pages** — free, zero-maintenance static hosting straight from the repo. This is a good fit for everything *except* the Anthropic API calls, because Pages serves static files only and cannot hold a secret API key or proxy requests. The local Vite dev proxy that exists today does not deploy.
+The target is **GitHub Pages** — free, zero-maintenance static hosting straight from the repo. Provider-independent topic discovery is compatible with static hosting through `public/topics.json` and the local Evergreen fallback. Only optional personalized Reflect and Ghost review calls require an AI production path; Pages cannot hold their secret key or proxy those requests. The local Vite dev proxy does not deploy.
 
 Two clean paths reconcile "free GitHub hosting" with the AI features (this is the one open item in the build sequence):
 
@@ -38,13 +40,22 @@ Either way the app stays a static bundle, so the immersive front-end and free ho
 
 The AI can move; the writing should feel still. Writing remains the product's center, while reflection and review are temporary modes around the manuscript.
 
+There are three actors:
+
+- **World** supplies credible things worth noticing.
+- **Me** thinks, writes, argues, and decides.
+- **Ghost** questions, challenges, connects, and refines only when invited.
+
+Never let Ghost take over Me. There is no permanent AI panel, unsolicited inline completion, or automatic replacement of raw prose. Writing itself is the reward; no streaks, XP, or productivity theatre are added.
+
 ## Interaction model
 
-1. **Today** — load six current UX/product ideas and choose one.
-2. **Reflect** — move through Memory, Tension, Outcome, System, and People one prompt at a time. Keep a small, navigable trail.
-3. **Write** — enter a borderless manuscript. Keep the active paragraph near 42% of the viewport and soften older paragraphs without hiding them.
-4. **Review** — show editorial critique beside the manuscript rather than converting the manuscript into chat.
-5. **Refine and export** — return to the exact writing position, then export text or Markdown.
+1. **Discover** — load an editorial desk of current or Evergreen UX/product ideas.
+2. **Choose** — one idea carries onto the paper while the rest retreat.
+3. **Write** — enter a borderless manuscript directly; guided pre-writing reflection remains optional.
+4. **Reflect** — reread and decide what the draft is actually saying.
+5. **Ghost** — intentionally invoke argument, depth, evidence, voice, or structure lenses.
+6. **Refine and draft** — preserve the raw manuscript, make author-controlled changes, then export.
 
 ## V1 build sequence
 
@@ -54,6 +65,8 @@ The AI can move; the writing should feel still. Writing remains the product's ce
 - [x] Build a paragraph-based manuscript editor with title, word count, focus anchoring, and quiet paragraph states.
 - [x] Define the six Anime.js motion behaviors: `ghostReveal`, `pathwayExit`, `pathwayEnter`, `focusParagraph`, `quietParagraph`, and `enterWritingMode`.
 - [x] Separate manuscript and editorial review modes.
+- [x] Build the free source-backed topic pipeline, scheduled manifest, client loader, and honest Evergreen fallback.
+- [x] Connect the topic loader to Today, add honest provenance and desk rotation, and remove the Claude topic request.
 - [ ] Add production API handling for GitHub Pages hosting (see "Hosting" above): either a free serverless proxy holding the key, or a static bring-your-own-key fallback. Vite's development proxy is included for local use only and does not deploy.
 - [x] Run browser-level rendering, manuscript entry, autosave, reload persistence, and console QA.
 
@@ -72,8 +85,8 @@ The distinctive element is the fixed writing line: a subtle margin marker and vi
 
 ## Local setup
 
-1. Copy `.env.example` to `.env` and add an Anthropic API key.
+1. Optionally copy `.env.example` to `.env` and add an Anthropic API key for personalized Reflect and Review behavior.
 2. Run `npm install`.
 3. Run `npm run dev`.
 
-The API key is injected only by the local Vite proxy; it is never referenced in browser code.
+Topic discovery and writing work without an API key. When configured, the key is injected only by the local Vite proxy; it is never referenced in browser code.

@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { enterWritingMode, focusParagraph, ghostReveal, pathwayEnter, pathwayExit, quietParagraph } from "./src/motion";
+import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type TopicResult } from "./src/topicSource";
 
 declare const __ANTHROPIC_CONFIGURED__: boolean;
 
@@ -7,13 +8,8 @@ type View = "today" | "reflect" | "write" | "review";
 type Mode = "article" | "linkedin";
 type Tone = "reflective" | "editorial";
 type PathwayType = "Memory" | "Tension" | "Outcome" | "System" | "People";
-type Topic = {
-  title: string;
-  teaser: string;
-  tag: "Systems" | "Research" | "AI" | "Leadership" | "Process" | "Ethics";
-  since: string;
-  recency: "Breaking" | "Trending" | "Under the Radar";
-};
+type Topic = DisplayTopic;
+type EditorialLens = "Design" | "Technology" | "Industry" | "Ways of Working" | "Self";
 type Pathway = { prompt: string; type: PathwayType };
 type Reflection = { angle: string; pathways: Pathway[] };
 type Draft = { id: string; title: string; updatedAt: string; content: string };
@@ -35,11 +31,20 @@ const SESSION_KEY = "svr-ghostwriter-session";
 const DRAFTS_KEY = "svr-ghostwriter-drafts";
 const STORAGE_VERSION = 1;
 const TODAY = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+const SIGNAL_SKELETONS = [0, 1, 2, 3, 4];
+const LENS_BY_TAG: Record<Topic["tag"], EditorialLens> = {
+  Systems: "Design",
+  Research: "Design",
+  AI: "Technology",
+  Leadership: "Self",
+  Process: "Ways of Working",
+  Ethics: "Industry",
+};
 
 const FALLBACK_PATHWAYS: Pathway[] = [
   { type: "Memory", prompt: "Think about the first time this actually became a problem in your work. What do you remember noticing?" },
   { type: "Tension", prompt: "What did everyone initially assume that later turned out to be wrong?" },
-  { type: "Outcome", prompt: "What changed after the team understood the problem more clearly—and what did not?" },
+  { type: "Outcome", prompt: "What changed after the team understood the problem more clearly, and what did not?" },
   { type: "System", prompt: "Which rule, dependency, or workflow kept producing the same tension?" },
   { type: "People", prompt: "Who experienced the problem most directly, and what did you learn by watching or listening to them?" }
 ];
@@ -50,9 +55,66 @@ const INITIAL_SESSION: Session = {
   paragraphs: [""], activeParagraph: 0, review: ""
 };
 
-const TOPICS_PROMPT = `Return exactly 6 UX/product design industry topics that emerged or peaked in the last 30 days as a JSON array. Today is ${TODAY}. Include exactly two Breaking, two Trending, and two Under the Radar topics. Each object must contain title, teaser, tag, since, and recency. Tags must be Systems, Research, AI, Leadership, Process, or Ethics. No markdown.`;
 const PATHWAY_PROMPT = (topic: Topic) => `Act as a reflective writing coach. For the topic "${topic.title}" (${topic.teaser}), return JSON with an angle and exactly five pathways. Use each type exactly once: Memory, Tension, Outcome, System, People. Prompts must help a senior B2B product designer recall specific real work. No markdown.`;
-const CRITIQUE_PROMPT = (mode: Mode, tone: Tone) => `You are a warm, precise UX writing editor. Review this ${mode === "article" ? "reflective UX article" : "LinkedIn post"} in a ${tone === "reflective" ? "gentle, observational" : "crisp, editorial"} tone. Return: grammar and mechanics, voice and tone, structure and flow, a refined version, what changed and why, 2–3 titles, and 3 relevant hashtags. Preserve the author's voice. Avoid buzzwords, performative claims, and vague language.`;
+const CRITIQUE_PROMPT = (mode: Mode, tone: Tone) => `You are a warm, precise UX writing editor. Review this ${mode === "article" ? "reflective UX article" : "LinkedIn post"} in a ${tone === "reflective" ? "gentle, observational" : "crisp, editorial"} tone. Return: grammar and mechanics, voice and tone, structure and flow, a refined version, what changed and why, 2-3 titles, and 3 relevant hashtags. Preserve the author's voice. Avoid buzzwords, performative claims, and vague language.`;
+
+function fallbackReflection(topic: Topic): Reflection {
+  return {
+    angle: `A closer look at how ${topic.title.toLowerCase()} shows up in real product work.`,
+    pathways: FALLBACK_PATHWAYS,
+  };
+}
+
+function editorialLens(topic: Topic): EditorialLens {
+  return LENS_BY_TAG[topic.tag];
+}
+
+function displayCopy(value: string): string {
+  return value
+    .replace(/[—–]/g, "-")
+    .replace(/Published 1 days ago/gi, "Published yesterday");
+}
+
+function displayTeaser(value: string): string {
+  const teaser = displayCopy(value).trim();
+  if (!teaser) return "";
+  return /[.!?…]$/.test(teaser) ? teaser : `${teaser}…`;
+}
+
+function sourceLabel(value: string): string {
+  const knownSources: Record<string, string> = {
+    "arxiv-hci": "arXiv HCI",
+    "devto-design": "DEV Community",
+    "devto-ux": "DEV Community",
+    "hn-designsystem": "Hacker News",
+    "hn-ux": "Hacker News",
+    uxcollective: "UX Collective",
+  };
+  return knownSources[value] ?? value.split("-").map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(" ");
+}
+
+function TopicProvenance({ topic }: { topic: Topic }) {
+  if (topic.origin === "curated") {
+    return <div className="story-provenance is-evergreen">
+      <span>Evergreen</span>
+      <small>Curated prompt, not a live source</small>
+    </div>;
+  }
+
+  const source = topic.sources[0];
+  return <div className="story-provenance">
+    <span>{topic.category}</span>
+    <small>{displayCopy(topic.categoryReason)}</small>
+    <a href={source.url} target="_blank" rel="noreferrer">{sourceLabel(source.name)} ↗</a>
+  </div>;
+}
+
+function TopicDeskSkeleton() {
+  return <div className="editorial-desk desk-skeleton" aria-label="Loading ideas" aria-busy="true">
+    <div className="lead-story"><span className="skeleton-line short" /><span className="skeleton-line title" /><span className="skeleton-line title second" /><span className="skeleton-line body" /></div>
+    <div className="signal-list">{SIGNAL_SKELETONS.map((item) => <div className="signal-story" key={item}><span className="skeleton-line short" /><span className="skeleton-line signal" /><span className="skeleton-line body" /></div>)}</div>
+  </div>;
+}
 
 function readStorage<T>(key: string, fallback: T): T {
   try {
@@ -146,7 +208,7 @@ export default function Ghostwriter() {
   const [paragraphs, setParagraphs] = useState(restored.current.paragraphs.length ? restored.current.paragraphs : [""]);
   const [activeParagraph, setActiveParagraph] = useState(restored.current.activeParagraph);
   const [review, setReview] = useState(restored.current.review);
-  const [topics, setTopics] = useState<Topic[]>([]);
+  const [topicResult, setTopicResult] = useState<TopicResult | null>(null);
   const [topicsLoading, setTopicsLoading] = useState(false);
   const [topicsError, setTopicsError] = useState("");
   const [pathwaysLoading, setPathwaysLoading] = useState(false);
@@ -163,18 +225,22 @@ export default function Ghostwriter() {
   const manuscript = paragraphs.join("\n\n");
   const wordCount = `${title} ${manuscript}`.trim().split(/\s+/).filter(Boolean).length;
   const currentPathway = pathways?.pathways[pathwayIndex];
+  const topics = topicResult?.topics ?? [];
+  const leadTopic = topics[0];
+  const signalTopics = topics.slice(1);
+  const leadTeaser = leadTopic ? displayTeaser(leadTopic.teaser) : "";
 
   const loadTopics = useCallback(async () => {
     setTopicsLoading(true); setTopicsError("");
-    if (!__ANTHROPIC_CONFIGURED__) {
-      setTopicsError("Add ANTHROPIC_API_KEY to .env to load current topics.");
-      setTopicsLoading(false);
-      return;
-    }
-    try { setTopics(parseJson<Topic[]>(await askClaude(undefined, TOPICS_PROMPT, 1100))); }
+    try { setTopicResult(await loadTopicDesk()); }
     catch (error) { setTopicsError(error instanceof Error ? error.message : "Topics could not be loaded."); }
     finally { setTopicsLoading(false); }
   }, []);
+
+  function refreshTopics() {
+    advanceDeskOffset();
+    void loadTopics();
+  }
 
   useEffect(() => {
     if (!topicsRequested.current && view === "today") {
@@ -210,8 +276,14 @@ export default function Ghostwriter() {
 
   async function chooseTopic(topic: Topic) {
     setSelectedTopic(topic); setPathwayIndex(0); setReflectionAnswers({}); setView("reflect"); setPathwaysLoading(true);
+    if (!__ANTHROPIC_CONFIGURED__) {
+      setPathways(fallbackReflection(topic));
+      setPathwaysLoading(false);
+      requestAnimationFrame(() => pathwayEnter(reflectionRef.current));
+      return;
+    }
     try { setPathways(parseJson<Reflection>(await askClaude(undefined, PATHWAY_PROMPT(topic), 1000))); }
-    catch { setPathways({ angle: `A closer look at how ${topic.title.toLowerCase()} shows up in real product work.`, pathways: FALLBACK_PATHWAYS }); }
+    catch { setPathways(fallbackReflection(topic)); }
     finally { setPathwaysLoading(false); requestAnimationFrame(() => pathwayEnter(reflectionRef.current)); }
   }
 
@@ -285,7 +357,7 @@ export default function Ghostwriter() {
 
   return <div className={`app view-${view}`}>
     <header className="app-header">
-      <button className="wordmark" onClick={() => setView("today")} aria-label="Go to Today"><span>SVR</span><i>/</i><span>Ghostwriter</span></button>
+      <button className="wordmark" onClick={() => setView("today")}><span>SVR</span><i>/</i><span>Ghostwriter</span></button>
       <nav>
         {view !== "today" ? <button onClick={() => setView("today")}>Today</button> : null}
         {manuscript.trim() ? <button onClick={() => setView("write")}>Write</button> : null}
@@ -303,14 +375,40 @@ export default function Ghostwriter() {
     {view === "today" ? <main className="today-shell">
       <p className="eyebrow">Today · {TODAY}</p>
       <h1>What is worth<br />noticing?</h1>
-      <div className="today-actions"><p>Choose an idea, then find the experience only you can write about.</p><button className="text-action" onClick={startBlank}>Start with a blank page →</button></div>
-      {topicsLoading ? <div className="loading-line">Listening for current conversations…</div> : null}
+      <div className="today-actions"><p>Choose an idea, then find the experience only you can write about.</p><div className="today-action-links"><button className="text-action" disabled={topicsLoading} onClick={refreshTopics}>Refresh ideas</button><button className="text-action" onClick={startBlank}>Start with a blank page →</button></div></div>
+      {topicsLoading && !topicResult ? <TopicDeskSkeleton /> : null}
       {topicsError ? <div className="error-line"><span>{topicsError}</span><button onClick={() => void loadTopics()}>Try again</button></div> : null}
-      <div className="topic-list">{topics.map((topic, index) => <button className="topic-row" key={topic.title} onClick={() => void chooseTopic(topic)}>
-        <span className="topic-number">{String(index + 1).padStart(2, "0")}</span>
-        <span className="topic-copy"><strong>{topic.title}</strong><small>{topic.teaser}</small></span>
-        <span className="topic-meta">{topic.recency}<small>{topic.since}</small></span><span className="topic-arrow">→</span>
-      </button>)}</div>
+      {topicResult && leadTopic ? <>
+        <div className="desk-heading">
+          <p>{topicResult.origin === "curated" ? "Evergreen prompts" : `${topicResult.stale ? "Earlier" : "Current"} source desk`}</p>
+          {topicResult.generatedAt ? <time dateTime={topicResult.generatedAt}>Updated {new Date(topicResult.generatedAt).toLocaleDateString()}</time> : <span>Six prompts for reflection</span>}
+        </div>
+        <section className="editorial-desk" aria-label="Ideas worth considering">
+          <article className="lead-story">
+            <div className="story-kicker"><span>Lead idea</span><span>{editorialLens(leadTopic)}</span></div>
+            <button className="lead-story-action" onClick={() => void chooseTopic(leadTopic)}>
+              <h2>{displayCopy(leadTopic.title)}</h2>
+              {leadTeaser ? <p>{leadTeaser}</p> : null}
+              <span className="story-invitation">Follow this thought <i>→</i></span>
+            </button>
+            <TopicProvenance topic={leadTopic} />
+          </article>
+          <div className="signal-list" aria-label="More ideas">
+            {signalTopics.map((topic, index) => {
+              const teaser = displayTeaser(topic.teaser);
+              return <article className="signal-story" key={topic.id}>
+                <div className="story-kicker"><span>{String(index + 2).padStart(2, "0")}</span><span>{editorialLens(topic)}</span></div>
+                <button className="signal-story-action" onClick={() => void chooseTopic(topic)}>
+                  <strong>{displayCopy(topic.title)}</strong>
+                  {teaser ? <span>{teaser}</span> : null}
+                </button>
+                <TopicProvenance topic={topic} />
+              </article>;
+            })}
+          </div>
+        </section>
+      </> : null}
+      {!topicsLoading && !topicsError && topicResult && !leadTopic ? <div className="topic-empty"><p>No ideas are available yet.</p><button className="text-action" onClick={refreshTopics}>Try another desk</button></div> : null}
     </main> : null}
 
     {view === "reflect" ? <main className="reflect-shell">
