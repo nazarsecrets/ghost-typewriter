@@ -1,46 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T04:12:58.952Z",
-  "windowStart": "2026-08-10T04:12:58.952Z",
-  "windowEnd": "2026-09-09T04:12:58.952Z",
+  "generatedAt": "2026-09-09T12:52:07.774Z",
+  "windowStart": "2026-08-10T12:52:07.774Z",
+  "windowEnd": "2026-09-09T12:52:07.774Z",
   "topics": [
     {
-      "id": "224e4cc1f737",
-      "title": "Most AI problems are really human problems",
-      "teaser": "The machine room is full; the chair that owns the decision is empty. AI assisted. The cause sits upstream: unread intent, missing oversight, thin context, loose language, unset expectations,",
+      "id": "5327f847241c",
+      "title": "Show HN: Booley – open-source IDE for agentic chip design",
+      "teaser": "I am a digital design engineer, and my day job is designing chips (mostly IP blocks, not full chips) in SystemVerilog. At the start of 2026 I started experimenting with LLM agents like Claud",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-08T20:37:28.000Z",
+      "publishedAt": "2026-09-09T07:34:11.000Z",
       "since": "today",
-      "relevanceScore": 1,
+      "relevanceScore": 0.857,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Most AI problems are really human problems",
-          "url": "https://uxdesign.cc/most-ai-problems-are-really-human-problems-this-is-how-you-can-fix-it-ab64843f845e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-08T20:37:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "bf503dd7b2eb",
-      "title": "Persistent lessons in human-centered automation",
-      "teaser": "What a 1980s photocopier study reveals about the Agentic UX era A mixed-media recreation of a field observation at Bossa Nova Robotics, where a shopper attempts to scan a container of bluebe",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-08T20:34:18.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Persistent lessons in human-centered automation",
-          "url": "https://uxdesign.cc/persistent-lessons-in-human-centered-automation-45b53412e6a5?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-08T20:34:18.000Z"
+          "name": "hn-designsystem",
+          "title": "Show HN: Booley – open-source IDE for agentic chip design",
+          "url": "https://github.com/boldaxolotl/booley",
+          "publishedAt": "2026-09-09T07:34:11.000Z"
         }
       ]
     },
@@ -61,6 +41,66 @@
           "title": "Show HN: Learn/Practice Sudoku strategies web app",
           "url": "https://sw-fun.github.io/sudoku/",
           "publishedAt": "2026-09-04T14:35:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "94dd951b774d",
+      "title": "The Death Of The Button: Why The Best Interface Is No Interface",
+      "teaser": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-09T10:00:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "The Death Of The Button: Why The Best Interface Is No Interface",
+          "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
+          "publishedAt": "2026-09-09T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "224e4cc1f737",
+      "title": "Most AI problems are really human problems",
+      "teaser": "The machine room is full; the chair that owns the decision is empty. AI assisted. The cause sits upstream: unread intent, missing oversight, thin context, loose language, unset expectations,",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-08T20:37:28.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Most AI problems are really human problems",
+          "url": "https://uxdesign.cc/most-ai-problems-are-really-human-problems-this-is-how-you-can-fix-it-ab64843f845e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-08T20:37:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bf503dd7b2eb",
+      "title": "Persistent lessons in human-centered automation",
+      "teaser": "What a 1980s photocopier study reveals about the Agentic UX era A mixed-media recreation of a field observation at Bossa Nova Robotics, where a shopper attempts to scan a container of bluebe",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-08T20:34:18.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Persistent lessons in human-centered automation",
+          "url": "https://uxdesign.cc/persistent-lessons-in-human-centered-automation-45b53412e6a5?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-08T20:34:18.000Z"
         }
       ]
     },
@@ -92,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-06T23:49:45.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-06T23:47:16.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-05T00:21:17.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -154,33 +194,13 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "45 engagement signals within 15 days",
+      "categoryReason": "45 engagement signals within 16 days",
       "sources": [
         {
           "name": "devto-design",
           "title": "Best UI/UX Design Tools I Keep Coming Back to as a Designer",
           "url": "https://dev.to/devstackcommunity/best-uiux-design-tools-i-keep-coming-back-to-as-a-designer-31fa",
           "publishedAt": "2026-08-24T16:45:48.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8242ce98dc7f",
-      "title": "Designing for Healthy, Affordable, and Sustainable Human-HVAC Interactions for Heating in Smart Homes",
-      "teaser": "As geopolitical tensions, energy crises, and energy-intensive AI infrastructure intensify concerns about demand, affordability, and resilience, communities increasingly encounter these chall",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-07T19:52:20.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Designing for Healthy, Affordable, and Sustainable Human-HVAC Interactions for Heating in Smart Homes",
-          "url": "https://arxiv.org/abs/2609.07936v1",
-          "publishedAt": "2026-09-07T19:52:20.000Z"
         }
       ]
     },
@@ -194,7 +214,7 @@
       "publishedAt": "2026-08-26T16:40:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "84 engagement signals within 13 days",
+      "categoryReason": "84 engagement signals within 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -265,26 +285,6 @@
       ]
     },
     {
-      "id": "c2dc7f127c06",
-      "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
-      "teaser": "When UX Is a Matter of Seconds: Designing for High-Stakes Interfaces In high stakes interface...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-08T12:15:27.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
-          "url": "https://dev.to/pasindu_balasooriya/heartbeats-not-clicks-ux-under-extreme-pressure-4bmi",
-          "publishedAt": "2026-09-08T12:15:27.000Z"
-        }
-      ]
-    },
-    {
       "id": "350668a4edf0",
       "title": "If you can externalize your design process, you can win back your time",
       "teaser": "How Skill.MD helps you spell out the depth of your work for your team and organization Continue reading on UX Collective »",
@@ -312,9 +312,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-07T22:27:32.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -330,57 +330,17 @@
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-01T20:37:45.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Conference September Announced (Sep 14 - Sep 25)",
           "url": "https://www.nngroup.com/training/september/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-01T20:37:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "2697958f2dca",
-      "title": "Large-Scale User Behavior Analysis in Multimodal AI-Assisted Manual Task Execution",
-      "teaser": "Conversational Task Assistants (CTAs) are multimodal dialogue systems that support users in complex real-world tasks such as cooking and DIY through voice, text, image, and video interaction",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-07T15:06:21.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Large-Scale User Behavior Analysis in Multimodal AI-Assisted Manual Task Execution",
-          "url": "https://arxiv.org/abs/2609.07594v1",
-          "publishedAt": "2026-09-07T15:06:21.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1588518cc8e1",
-      "title": "From Human Factors to Human-Technology Factors: An HCI Perspective on Technology in Avalanche Safety",
-      "teaser": "The avalanche safety literature has identified human factors that contribute to accidents, yet researchers note a persistent gap between these insights and effective product design. Meanwhil",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-07T14:40:58.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "From Human Factors to Human-Technology Factors: An HCI Perspective on Technology in Avalanche Safety",
-          "url": "https://arxiv.org/abs/2609.07560v1",
-          "publishedAt": "2026-09-07T14:40:58.000Z"
         }
       ]
     },
@@ -412,9 +372,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T17:56:50.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -472,15 +432,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T19:19:42.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
           "url": "https://devbar.sh",
           "publishedAt": "2026-09-03T19:19:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8242ce98dc7f",
+      "title": "Designing for Healthy, Affordable, and Sustainable Human-HVAC Interactions for Heating in Smart Homes",
+      "teaser": "As geopolitical tensions, energy crises, and energy-intensive AI infrastructure intensify concerns about demand, affordability, and resilience, communities increasingly encounter these chall",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-07T19:52:20.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Designing for Healthy, Affordable, and Sustainable Human-HVAC Interactions for Heating in Smart Homes",
+          "url": "https://arxiv.org/abs/2609.07936v1",
+          "publishedAt": "2026-09-07T19:52:20.000Z"
         }
       ]
     },
@@ -552,9 +532,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-04T18:56:11.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -572,9 +552,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-04T17:00:00.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -645,6 +625,26 @@
       ]
     },
     {
+      "id": "c2dc7f127c06",
+      "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
+      "teaser": "When UX Is a Matter of Seconds: Designing for High-Stakes Interfaces In high stakes interface...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-08T12:15:27.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
+          "url": "https://dev.to/pasindu_balasooriya/heartbeats-not-clicks-ux-under-extreme-pressure-4bmi",
+          "publishedAt": "2026-09-08T12:15:27.000Z"
+        }
+      ]
+    },
+    {
       "id": "b6bf8ede4f22",
       "title": "Tetris had to cheat to feel random",
       "teaser": "Nobody can see a probability distribution. You only ever see a sequence, and sequences are where human intuition falls apart. Continue reading on UX Collective »",
@@ -652,9 +652,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-07T22:27:53.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -672,9 +672,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-07T22:27:01.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -692,15 +692,55 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-07T22:26:09.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Villains plan. Heroes react.",
           "url": "https://uxdesign.cc/villains-plan-heroes-react-ee012a510ecb?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-07T22:26:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2697958f2dca",
+      "title": "Large-Scale User Behavior Analysis in Multimodal AI-Assisted Manual Task Execution",
+      "teaser": "Conversational Task Assistants (CTAs) are multimodal dialogue systems that support users in complex real-world tasks such as cooking and DIY through voice, text, image, and video interaction",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-07T15:06:21.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Large-Scale User Behavior Analysis in Multimodal AI-Assisted Manual Task Execution",
+          "url": "https://arxiv.org/abs/2609.07594v1",
+          "publishedAt": "2026-09-07T15:06:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1588518cc8e1",
+      "title": "From Human Factors to Human-Technology Factors: An HCI Perspective on Technology in Avalanche Safety",
+      "teaser": "The avalanche safety literature has identified human factors that contribute to accidents, yet researchers note a persistent gap between these insights and effective product design. Meanwhil",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-07T14:40:58.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "From Human Factors to Human-Technology Factors: An HCI Perspective on Technology in Avalanche Safety",
+          "url": "https://arxiv.org/abs/2609.07560v1",
+          "publishedAt": "2026-09-07T14:40:58.000Z"
         }
       ]
     },
@@ -714,7 +754,7 @@
       "publishedAt": "2026-08-25T21:12:33.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -734,7 +774,7 @@
       "publishedAt": "2026-08-27T18:11:38.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -774,7 +814,7 @@
       "publishedAt": "2026-08-18T16:14:40.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -794,7 +834,7 @@
       "publishedAt": "2026-08-26T17:51:57.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -834,7 +874,7 @@
       "publishedAt": "2026-08-25T21:08:28.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -854,7 +894,7 @@
       "publishedAt": "2026-08-28T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "nngroup",
@@ -914,7 +954,7 @@
       "publishedAt": "2026-08-25T21:17:17.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -963,26 +1003,6 @@
           "publishedAt": "2026-08-13T12:30:43.000Z"
         }
       ]
-    },
-    {
-      "id": "a63a4cf7812f",
-      "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
-      "teaser": "Most developers first encounter design patterns the same way: they google a problem, find an...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-11T10:58:39.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "10 UX Design Patterns Every Developer Should Know (And When to Skip Them)",
-          "url": "https://dev.to/ilyas_elaissi/10-ux-design-patterns-every-developer-should-know-and-when-to-skip-them-3olm",
-          "publishedAt": "2026-08-11T10:58:39.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -990,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-09T04:12:58.953Z"
+      "fetchedAt": "2026-09-09T12:52:07.775Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-09T04:12:59.006Z"
+      "fetchedAt": "2026-09-09T12:52:07.828Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-09T04:12:59.008Z"
+      "fetchedAt": "2026-09-09T12:52:07.829Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-09T04:12:59.009Z"
+      "fetchedAt": "2026-09-09T12:52:07.830Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-09T04:12:59.010Z"
+      "fetchedAt": "2026-09-09T12:52:07.831Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-09T04:12:59.011Z"
+      "fetchedAt": "2026-09-09T12:52:07.832Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-09T04:12:59.012Z"
+      "fetchedAt": "2026-09-09T12:52:07.833Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-09T04:12:59.013Z"
+      "fetchedAt": "2026-09-09T12:52:07.833Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-09-09T04:12:59.014Z"
+      "fetchedAt": "2026-09-09T12:52:07.834Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-09T04:12:59.015Z"
+      "fetchedAt": "2026-09-09T12:52:07.835Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-09T04:12:59.016Z"
+      "fetchedAt": "2026-09-09T12:52:07.836Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-09T04:12:59.017Z"
+      "fetchedAt": "2026-09-09T12:52:07.837Z"
     }
   ]
 }
