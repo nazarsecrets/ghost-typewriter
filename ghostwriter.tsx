@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { enterWritingMode, focusParagraph, ghostReveal, pathwayEnter, pathwayExit, quietParagraph } from "./src/motion";
-import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type TopicResult } from "./src/topicSource";
+import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type EditorialLens, type TopicResult } from "./src/topicSource";
 
 declare const __ANTHROPIC_CONFIGURED__: boolean;
 
@@ -9,7 +9,6 @@ type Mode = "article" | "linkedin";
 type Tone = "reflective" | "editorial";
 type PathwayType = "Memory" | "Tension" | "Outcome" | "System" | "People";
 type Topic = DisplayTopic;
-type EditorialLens = "Design" | "Technology" | "Industry" | "Ways of Working" | "Self";
 type Pathway = { prompt: string; type: PathwayType };
 type Reflection = { angle: string; pathways: Pathway[] };
 type Draft = { id: string; title: string; updatedAt: string; content: string };
@@ -55,23 +54,32 @@ const INITIAL_SESSION: Session = {
   paragraphs: [""], activeParagraph: 0, review: ""
 };
 
-const PATHWAY_PROMPT = (topic: Topic) => `Act as a reflective writing coach. For the topic "${topic.title}" (${topic.teaser}), return JSON with an angle and exactly five pathways. Use each type exactly once: Memory, Tension, Outcome, System, People. Prompts must help a senior B2B product designer recall specific real work. No markdown.`;
+function topicPrompt(topic: Topic): string {
+  return topic.origin === "source-backed" ? topic.provocation : topic.title;
+}
+
+function topicContext(topic: Topic): string {
+  return topic.origin === "source-backed" ? topic.whyNow : topic.teaser;
+}
+
+const PATHWAY_PROMPT = (topic: Topic) => `Act as a reflective writing coach. For the provocation "${topicPrompt(topic)}" (${topicContext(topic)}), return JSON with an angle and exactly five pathways. Use each type exactly once: Memory, Tension, Outcome, System, People. Prompts must help a senior B2B product designer recall specific real work. No markdown.`;
 const CRITIQUE_PROMPT = (mode: Mode, tone: Tone) => `You are a warm, precise UX writing editor. Review this ${mode === "article" ? "reflective UX article" : "LinkedIn post"} in a ${tone === "reflective" ? "gentle, observational" : "crisp, editorial"} tone. Return: grammar and mechanics, voice and tone, structure and flow, a refined version, what changed and why, 2-3 titles, and 3 relevant hashtags. Preserve the author's voice. Avoid buzzwords, performative claims, and vague language.`;
 
 function fallbackReflection(topic: Topic): Reflection {
   return {
-    angle: `A closer look at how ${topic.title.toLowerCase()} shows up in real product work.`,
+    angle: `A closer look at how ${topicPrompt(topic).toLowerCase()} shows up in real product work.`,
     pathways: FALLBACK_PATHWAYS,
   };
 }
 
 function editorialLens(topic: Topic): EditorialLens {
-  return LENS_BY_TAG[topic.tag];
+  return topic.origin === "source-backed" ? topic.lens : LENS_BY_TAG[topic.tag];
 }
 
 function displayCopy(value: string): string {
   return value
     .replace(/[—–]/g, "-")
+    .replace(/Published 0 days ago/gi, "Published today")
     .replace(/Published 1 days ago/gi, "Published yesterday");
 }
 
@@ -105,7 +113,7 @@ function TopicProvenance({ topic }: { topic: Topic }) {
   return <div className="story-provenance">
     <span>{topic.category}</span>
     <small>{displayCopy(topic.categoryReason)}</small>
-    <a href={source.url} target="_blank" rel="noreferrer">{sourceLabel(source.name)} ↗</a>
+    <a href={source.url} target="_blank" rel="noreferrer" title={source.title} aria-label={`Read source: ${source.title}`}>{sourceLabel(source.name)} ↗</a>
   </div>;
 }
 
@@ -228,7 +236,7 @@ export default function Ghostwriter() {
   const topics = topicResult?.topics ?? [];
   const leadTopic = topics[0];
   const signalTopics = topics.slice(1);
-  const leadTeaser = leadTopic ? displayTeaser(leadTopic.teaser) : "";
+  const leadContext = leadTopic ? displayTeaser(topicContext(leadTopic)) : "";
 
   const loadTopics = useCallback(async () => {
     setTopicsLoading(true); setTopicsError("");
@@ -387,20 +395,20 @@ export default function Ghostwriter() {
           <article className="lead-story">
             <div className="story-kicker"><span>Lead idea</span><span>{editorialLens(leadTopic)}</span></div>
             <button className="lead-story-action" onClick={() => void chooseTopic(leadTopic)}>
-              <h2>{displayCopy(leadTopic.title)}</h2>
-              {leadTeaser ? <p>{leadTeaser}</p> : null}
+              <h2>{displayCopy(topicPrompt(leadTopic))}</h2>
+              {leadContext ? <p>{leadTopic.origin === "source-backed" ? "Why now: " : ""}{leadContext}</p> : null}
               <span className="story-invitation">Follow this thought <i>→</i></span>
             </button>
             <TopicProvenance topic={leadTopic} />
           </article>
           <div className="signal-list" aria-label="More ideas">
             {signalTopics.map((topic, index) => {
-              const teaser = displayTeaser(topic.teaser);
+              const context = displayTeaser(topicContext(topic));
               return <article className="signal-story" key={topic.id}>
                 <div className="story-kicker"><span>{String(index + 2).padStart(2, "0")}</span><span>{editorialLens(topic)}</span></div>
                 <button className="signal-story-action" onClick={() => void chooseTopic(topic)}>
-                  <strong>{displayCopy(topic.title)}</strong>
-                  {teaser ? <span>{teaser}</span> : null}
+                  <strong>{displayCopy(topicPrompt(topic))}</strong>
+                  {context ? <span>{topic.origin === "source-backed" ? "Why now: " : ""}{context}</span> : null}
                 </button>
                 <TopicProvenance topic={topic} />
               </article>;
@@ -412,7 +420,7 @@ export default function Ghostwriter() {
     </main> : null}
 
     {view === "reflect" ? <main className="reflect-shell">
-      <div className="reflection-context"><span>{selectedTopic?.tag}</span><strong>{selectedTopic?.title}</strong></div>
+      <div className="reflection-context"><span>{selectedTopic ? editorialLens(selectedTopic) : ""}</span><strong>{selectedTopic ? topicPrompt(selectedTopic) : ""}</strong></div>
       {pathwaysLoading ? <div className="reflection-loading">Finding a way into the story…</div> : null}
       {currentPathway && !pathwaysLoading ? <>
         <div className="pathway-trail" aria-label="Reflection pathways">{pathways?.pathways.map((pathway, index) => <button

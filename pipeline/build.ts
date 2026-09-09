@@ -9,8 +9,10 @@ import { MANIFEST_MAX_TOPICS, SOURCES, WINDOW_DAYS } from "./config.ts";
 import type { Cluster, RawItem, SourceHealth, SourceBackedTopic, TopicManifest } from "./types.ts";
 import { normalize } from "./enrich.ts";
 import { cluster } from "./cluster.ts";
+import { editorialize } from "./editorialize.ts";
 import { applyCategories, rank } from "./rank.ts";
 import { fetchSource } from "./sources.ts";
+import { jaccard, normalizeTitle } from "./util.ts";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const MANIFEST_PATH = join(HERE, "..", "public", "topics.json");
@@ -26,10 +28,10 @@ function sinceLabel(iso: string, now: number): string {
 }
 
 function toTopic(c: Cluster, now: number): SourceBackedTopic {
+  const editorial = editorialize(c);
   return {
     id: c.id,
-    title: c.title,
-    teaser: c.teaser,
+    ...editorial,
     tag: c.tag,
     origin: "source-backed",
     category: c.category,
@@ -43,12 +45,17 @@ function toTopic(c: Cluster, now: number): SourceBackedTopic {
 
 // A manifest is valid only if it carries real, source-backed topics.
 function validate(manifest: TopicManifest): string | null {
-  if (manifest.version !== 1) return "bad version";
+  if (manifest.version !== 2) return "bad version";
   if (!Array.isArray(manifest.topics) || manifest.topics.length === 0) return "no topics produced";
   for (const t of manifest.topics) {
-    if (!t.id || !t.title || !t.tag) return `topic missing required fields (${t.id})`;
+    if (!t.id || !t.title || !t.provocation || !t.whyNow || !t.tag || !t.lens) return `topic missing required fields (${t.id})`;
+    if (!t.provocation.trim().endsWith("?")) return `topic ${t.id} has no question provocation`;
     if (!t.sources?.length || !t.sources[0].url) return `topic ${t.id} has no source URL`;
     if (Number.isNaN(Date.parse(t.publishedAt))) return `topic ${t.id} has invalid date`;
+    const prompt = normalizeTitle(t.provocation);
+    if (t.sources.some((source) => jaccard(prompt, normalizeTitle(source.title)) >= 0.55)) {
+      return `topic ${t.id} repeats source framing`;
+    }
   }
   return null;
 }
@@ -98,7 +105,7 @@ async function main() {
   const clusters = applyCategories(rank(cluster(normalized), now, seenIds), now).slice(0, MANIFEST_MAX_TOPICS);
 
   const manifest: TopicManifest = {
-    version: 1,
+    version: 2,
     generatedAt: new Date(now).toISOString(),
     windowStart: new Date(now - WINDOW_DAYS * 86_400_000).toISOString(),
     windowEnd: new Date(now).toISOString(),

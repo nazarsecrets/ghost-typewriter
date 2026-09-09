@@ -110,7 +110,7 @@ Generous width and vertical whitespace. Serif for manuscript, sans for system UI
 
 **Why it matters.** The product begins creating value before writing starts: it broadens professional awareness without asking the author to search or prompt an AI.
 
-**Current state.** Implemented. Today gives the highest-ranked idea dominant editorial weight, presents five quieter signals beside it, and maps existing product tags into Design, Technology, Industry, Ways of Working, and Self lenses. Source-backed and Evergreen provenance remain explicit.
+**Current state.** Implemented. Today gives the highest-ranked idea dominant editorial weight, presents five quieter signals beside it, and maps existing product tags into Design, Technology, Industry, Ways of Working, and Self lenses. Source-backed items now pass through a deterministic editorial layer: an original question becomes the prompt, a neutral Why now explains the signal, and the article headline remains provenance only. Evergreen provenance remains explicit.
 
 **Open questions.**
 - Are the editorial lenses useful navigation or unnecessary taxonomy?

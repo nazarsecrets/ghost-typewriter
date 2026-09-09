@@ -8,6 +8,7 @@ import type { NormalizedItem, RawItem, Tag } from "./types.ts";
 import { clamp01, daysAgo, hash } from "./util.ts";
 
 const TAGS = Object.keys(TAG_KEYWORDS) as Tag[];
+const LOW_SIGNAL_TITLE = /\b(conference .* announced|best .* tools|top \d+|roundup)\b/i;
 
 function haystack(item: RawItem): string {
   return `${item.title} ${item.description}`.toLowerCase();
@@ -29,8 +30,12 @@ function classify(text: string): Tag[] {
 // Relevance to the author profile. Gated: an item must contain at least one
 // core design/UX term, else it scores 0 and is dropped downstream. Past the
 // gate, relevance is weighted keyword overlap, saturating.
-function relevance(text: string): number {
-  if (!CORE_TERMS.some((term) => text.includes(term))) return 0;
+function relevance(item: RawItem, text: string): number {
+  if (LOW_SIGNAL_TITLE.test(item.title)) return 0;
+  // Algolia search is broad and HN story text is often empty or incidental.
+  // Require its headline itself to establish design relevance.
+  const gateText = item.source.startsWith("hn-") ? item.title.toLowerCase() : text;
+  if (!CORE_TERMS.some((term) => gateText.includes(term))) return 0;
   let score = 0;
   for (const [term, weight] of Object.entries(AUTHOR_PROFILE)) {
     if (text.includes(term)) score += weight;
@@ -45,7 +50,7 @@ export function normalize(raw: RawItem[], now = Date.now()): NormalizedItem[] {
   for (const item of raw) {
     if (daysAgo(item.publishedAt, now) > WINDOW_DAYS) continue; // outside freshness window
     const text = haystack(item);
-    const rel = relevance(text);
+    const rel = relevance(item, text);
     if (rel < MIN_RELEVANCE) continue; // below the gate or too marginal to include
     out.push({
       ...item,

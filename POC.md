@@ -115,7 +115,7 @@ keypress → character lands → cursor advances → page fills → environment 
 - AI critique / margin notes.
 - Export flows.
 
-**Topic dependency:** Today loads the provider-independent static topic manifest and falls back to the honest local Evergreen desk. Discover → Choose → Write therefore requires no Claude key, serverless proxy, or hosted model. The paper itself makes no AI calls.
+**Topic dependency:** Today loads the provider-independent static topic manifest and falls back to the honest local Evergreen desk. Source-backed records are transformed into an original lens-based provocation and neutral Why now signal; article headlines remain provenance rather than prompts. Discover → Choose → Write therefore requires no Claude key, serverless proxy, or hosted model. The paper itself makes no AI calls.
 
 Skipping guided reflection and everything after the paper is deliberate: this POC proves the *entry into writing*. If arriving at the paper doesn't feel right, nothing downstream will save it.
 
@@ -137,7 +137,7 @@ The resulting notes live beside the untouched draft and identify Idea, Clarity, 
 
 ## 7. Build plan (small)
 
-1. **Reshape the topic desk — complete.** The highest-ranked topic leads, five quieter signals follow, editorial lenses aid scanning, and source-backed or Evergreen provenance remains explicit. The desk stays still on load; interaction feedback carries the motion.
+1. **Reshape the topic desk — complete.** The highest-ranked provocation leads, five quieter signals follow, editorial lenses aid scanning, and source-backed or Evergreen provenance remains explicit. For current material, Why now carries the signal and the linked article remains evidence rather than the writing prompt. The desk stays still on load; interaction feedback carries the motion.
 2. **Wire select → write** — choosing an idea seeds the manuscript title/subject and goes straight to the write view, bypassing reflection for the POC.
 3. **Strip the chrome** — remove the utility bar (mode/tone toggles) and the end-of-manuscript button from the write view; keep title + paragraphs + word count.
 4. **Tune the rule** — expose anchor % and quiet floor as constants; try 40% / 0.82, settle-on-pause behavior.

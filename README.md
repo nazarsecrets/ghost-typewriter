@@ -17,6 +17,8 @@ npm run dev
 
 Topic discovery and writing do not require an API key. Optional local AI requests use the Vite proxy at `/api/anthropic`; the key stays in the development server environment.
 
+Current sources are converted into original, lens-based questions by a deterministic local pipeline. Article headlines are kept only as provenance behind each prompt; no hosted model is needed to generate the Today desk.
+
 ## Validate
 
 ```sh

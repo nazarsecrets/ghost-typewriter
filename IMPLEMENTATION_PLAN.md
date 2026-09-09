@@ -67,6 +67,7 @@ Never let Ghost take over Me. There is no permanent AI panel, unsolicited inline
 - [x] Separate manuscript and editorial review modes.
 - [x] Build the free source-backed topic pipeline, scheduled manifest, client loader, and honest Evergreen fallback.
 - [x] Connect the topic loader to Today, add honest provenance and desk rotation, and remove the Claude topic request.
+- [x] Add the deterministic source → signal → provocation layer: original lens-based questions lead, neutral Why now context explains currency, and source headlines remain provenance only.
 - [ ] Add production API handling for GitHub Pages hosting (see "Hosting" above): either a free serverless proxy holding the key, or a static bring-your-own-key fallback. Vite's development proxy is included for local use only and does not deploy.
 - [x] Run browser-level rendering, manuscript entry, autosave, reload persistence, and console QA.
 

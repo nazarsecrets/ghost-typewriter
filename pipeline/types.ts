@@ -3,6 +3,7 @@
 
 export type Tag = "Systems" | "Research" | "AI" | "Leadership" | "Process" | "Ethics";
 export type Category = "Latest" | "Trending" | "Under the Radar";
+export type EditorialLens = "Design" | "Technology" | "Industry" | "Ways of Working" | "Self";
 
 // A single item as fetched from one source, before normalization.
 export type RawItem = {
@@ -45,9 +46,11 @@ export type SourceHealth = {
 
 export type SourceBackedTopic = {
   id: string;
-  title: string;
-  teaser: string;
+  title: string; // neutral theme label; never a source headline
+  provocation: string; // original question offered to the writer
+  whyNow: string; // neutral source-derived context, never copied framing
   tag: Tag;
+  lens: EditorialLens;
   origin: "source-backed";
   category: Category;
   publishedAt: string;
@@ -58,7 +61,7 @@ export type SourceBackedTopic = {
 };
 
 export type TopicManifest = {
-  version: 1;
+  version: 2;
   generatedAt: string;
   windowStart: string;
   windowEnd: string;

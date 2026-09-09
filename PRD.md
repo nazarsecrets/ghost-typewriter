@@ -127,6 +127,7 @@ When they return later, they want the manuscript, settings, reflection context, 
 9. **The raw draft remains untouched.** Ghost may annotate and propose, but only the author changes the manuscript.
 10. **Behavior carries the delight.** The product may look quiet in a screenshot; it comes alive through typing, paper movement, and intentional transitions rather than decoration.
 11. **Writing is the reward.** Mechanical feedback may reinforce flow, but the product does not gamify authorship.
+12. **Sources inform the prompt; they never become the prompt.** Current material supplies evidence and urgency, while Ghostwriter offers an original question that leaves room for the author's experience and point of view.
 
 ## 7. Information architecture and primary flow
 
@@ -205,13 +206,14 @@ This validates:
 - Tag diversity is a valuable selection constraint independent of recency.
 - The strongest curated content pattern is an observational tension in the title followed by an open reflective question in the teaser.
 - A maintained local pool is a credible fallback and a useful source of editorial calibration for live topic generation.
+- A deterministic source-to-provocation layer can turn current material into original writing questions without a hosted language model.
 
 #### POC limitations that must not become product claims
 
 - When a source-backed category contains fewer than two items, the loader currently replaces the entire desk with Evergreen prompts rather than showing fewer current topics honestly.
 - Today now uses a rank-first editorial hierarchy with one lead story and five quieter signals. The usefulness of its Design, Technology, Industry, Ways of Working, and Self lens mapping still needs observation with real use.
 - Evergreen content remains manually authored and does not become current merely because it rotates daily.
-- Some titles are complete observational sentences rather than short topic labels; this is appropriate for curated prompts but should not be confused with a source-backed news headline.
+- Curated prompts and source-backed provocations use different schemas; source headlines are retained only as evidence and provenance.
 - Continue and **Show me another angle** currently perform the same transition even though they communicate different intentions.
 - The reflection response includes an underlying angle, but the POC does not render it.
 - Review is returned as one preformatted text block; the seven editorial sections are not yet represented as structured UI data.
@@ -234,8 +236,10 @@ The Today view must present exactly six topics when the current topic pool conta
 
 Each topic must include:
 
-- A concise topic label, generally three to seven words for source-backed clusters.
-- A concise teaser under 200 characters.
+- A concise, neutral theme label that is not copied from a source headline.
+- An original, open-ended provocation designed to elicit experience, judgment, or a defensible point of view.
+- A short, neutral **Why now** signal that explains why the theme is current without copying source framing.
+- One user-facing lens: Design, Technology, Industry, Ways of Working, or Self.
 - One primary tag: Systems, Research, AI, Leadership, Process, or Ethics.
 - Category.
 - Earliest or most relevant publication date.
@@ -247,6 +251,10 @@ Curated evergreen prompts may instead use a short observational sentence up to 9
 The six items must not appear as six equally weighted dashboard cards. The target editorial composition is one dominant idea with five quieter signals. Selecting an idea makes the remaining desk retreat and carries the chosen provocation onto the manuscript.
 
 Potential user-facing editorial lenses—Design, Technology, Industry, Ways of Working, and Self—may help intellectual serendipity. They are a presentation taxonomy to validate, not a replacement for source-backed recency categories or the internal product tags.
+
+The primary clickable copy is the provocation, never a source headline. Source titles and URLs remain available only as supporting evidence. The conceptual flow is:
+
+`source material → current signal → original provocation → the author's experience and perspective`
 
 #### FR-1.2 Category definitions
 
@@ -333,7 +341,16 @@ The preferred runtime is the scheduled Node job, not the user's browser, to avoi
 
 Hosted Hugging Face inference must not be required. If local model loading fails, the pipeline falls back to deterministic keyword matching, exact deduplication, and source metadata.
 
-Optional local text generation may create teasers, but the pipeline must also support teasers derived from source descriptions without generative AI.
+Optional local text generation may propose additional provocation candidates, but the pipeline must remain fully functional with deterministic, human-authored frames and the same originality validation.
+
+#### FR-2.4a Source-to-provocation transformation
+
+- The baseline pipeline detects a theme using inspectable keyword rules and selects from human-authored provocation frames deterministically.
+- A provocation must be a question, must not reproduce a source headline, and must leave the position open for the author to form.
+- The Why now copy describes the presence of a current signal; it does not summarize or endorse the source author's argument.
+- Source titles remain unchanged inside provenance records so evidence is traceable.
+- Manifest validation rejects missing provocations, missing Why now context, and excessive prompt-to-headline overlap.
+- Hosted generation may improve framing later, but it is never required for topic discovery.
 
 #### FR-2.5 Ranking logic
 
@@ -647,7 +664,7 @@ The target generated manifest follows this conceptual structure:
 
 ```ts
 type TopicManifest = {
-  version: 1;
+  version: 2;
   generatedAt: string;
   windowStart: string;
   windowEnd: string;
@@ -658,11 +675,13 @@ type TopicManifest = {
 type TopicBase = {
   id: string;
   title: string;
-  teaser: string;
   tag: "Systems" | "Research" | "AI" | "Leadership" | "Process" | "Ethics";
 };
 
 type SourceBackedTopic = TopicBase & {
+  provocation: string;
+  whyNow: string;
+  lens: "Design" | "Technology" | "Industry" | "Ways of Working" | "Self";
   origin: "source-backed";
   category: "Latest" | "Trending" | "Under the Radar";
   publishedAt: string;
@@ -678,6 +697,7 @@ type SourceBackedTopic = TopicBase & {
 };
 
 type CuratedTopic = TopicBase & {
+  teaser: string;
   origin: "curated";
   category: "Evergreen";
   editorialVersion?: string;
@@ -900,7 +920,8 @@ The target V1 is accepted when:
 25. Markdown and text exports contain the complete title and manuscript.
 26. No production API secret exists in the client bundle.
 27. Keyboard navigation and visible focus work across the primary flow.
-28. Source provenance, refresh age, and category reasoning are visible for every source-backed topic.
+28. Source provenance, refresh age, category reasoning, and neutral Why now context are visible for every source-backed topic.
+29. No source headline is presented as a writing prompt; every source-backed item carries an original question that passes the overlap gate.
 
 ## 18. Risks and mitigations
 
@@ -908,6 +929,7 @@ The target V1 is accepted when:
 | --- | --- | --- |
 | Sparse UX-specific activity in a short window | Categories may lack two honest topics | Use diverse sources, show fewer topics honestly, retain relevant cached material |
 | Curated prompts are mistaken for live industry signals | Loss of trust | Separate Evergreen origin and prohibit synthetic recency claims |
+| Source authors' headlines become the writer's prompts | Imitative framing and weakened authorship | Transform sources into original provocations; restrict headlines to provenance |
 | “Trending” based on weak engagement data | Misleading category | Combine source diversity, rising states, and time-based velocity; display category reason |
 | Under-the-radar ranking becomes arbitrary | Low trust | Require high relevance and expose source count and reason |
 | Feed/API changes or rate limits | Refresh failures | Source adapters, health reporting, per-source failure isolation, cached manifest |
@@ -926,7 +948,7 @@ The target V1 is accepted when:
 2. Which sources form the initial trusted registry, and which remain experimental?
 3. Should manual inspiration items participate in ranking or appear in a separate personal queue?
 4. Which local Hugging Face embedding model offers the best quality/runtime balance in GitHub Actions?
-5. Should topic teasers remain source-derived or use an optional local generative model?
+5. When should the human-authored provocation library expand, and would optional local generation add enough variety to justify its review burden?
 6. Should production review use a serverless proxy or bring-your-own-key mode?
 7. Is Claude retained for critique, or should the provider adapter support multiple hosted and local models at launch?
 8. When should a manuscript become a durable draft snapshot: review, explicit save, navigation away, or a time interval?

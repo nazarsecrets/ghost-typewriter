@@ -6,12 +6,15 @@
 import { curatedDesk, type Tag } from "./topics";
 
 export type Category = "Latest" | "Trending" | "Under the Radar";
+export type EditorialLens = "Design" | "Technology" | "Industry" | "Ways of Working" | "Self";
 
 export type SourceBackedTopic = {
   id: string;
   title: string;
-  teaser: string;
+  provocation: string;
+  whyNow: string;
   tag: Tag;
+  lens: EditorialLens;
   origin: "source-backed";
   category: Category;
   publishedAt: string;
@@ -22,7 +25,7 @@ export type SourceBackedTopic = {
 };
 
 type Manifest = {
-  version: 1;
+  version: 2;
   generatedAt: string;
   windowStart: string;
   windowEnd: string;
@@ -48,9 +51,10 @@ const STALE_HOURS = 24;
 function isValidManifest(value: unknown): value is Manifest {
   if (!value || typeof value !== "object") return false;
   const m = value as Manifest;
-  if (m.version !== 1 || !Array.isArray(m.topics) || m.topics.length === 0) return false;
+  if (m.version !== 2 || !Array.isArray(m.topics) || m.topics.length === 0) return false;
   return m.topics.every(
-    (t) => t.id && t.title && t.tag && Array.isArray(t.sources) && t.sources[0]?.url && !Number.isNaN(Date.parse(t.publishedAt)),
+    (t) => t.id && t.title && t.provocation?.trim().endsWith("?") && t.whyNow && t.lens && t.tag
+      && Array.isArray(t.sources) && t.sources[0]?.url && !Number.isNaN(Date.parse(t.publishedAt)),
   );
 }
 
@@ -76,12 +80,19 @@ function rememberSeen(ids: string[]) {
 function selectBalanced(topics: SourceBackedTopic[], seen: Set<string>): SourceBackedTopic[] {
   const categories: Category[] = ["Latest", "Trending", "Under the Radar"];
   const chosen: SourceBackedTopic[] = [];
+  const usedProvocations = new Set<string>();
 
   for (const category of categories) {
     const inCategory = topics.filter((t) => t.category === category);
     const unseen = inCategory.filter((t) => !seen.has(t.id));
     const seenPool = inCategory.filter((t) => seen.has(t.id));
-    chosen.push(...[...unseen, ...seenPool].slice(0, 2)); // already rank-ordered
+    const pool = [...unseen, ...seenPool]; // already rank-ordered
+    const diverse = pool.filter((topic) => !usedProvocations.has(topic.provocation)).slice(0, 2);
+    const categoryChoice = diverse.length === 2
+      ? diverse
+      : [...diverse, ...pool.filter((topic) => !diverse.includes(topic))].slice(0, 2);
+    categoryChoice.forEach((topic) => usedProvocations.add(topic.provocation));
+    chosen.push(...categoryChoice);
   }
   return chosen;
 }

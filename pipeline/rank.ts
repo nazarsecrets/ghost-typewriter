@@ -38,15 +38,17 @@ export function rank(clusters: Cluster[], now = Date.now(), seenIds: Set<string>
 function categorize(c: Cluster, now: number): { category: Category; reason: string } {
   const age = Math.round(daysAgo(c.publishedAt, now));
   const sources = new Set(c.items.map((i) => i.source)).size;
-  const engagement = c.items.reduce((n, i) => n + (i.engagement ?? 0), 0);
 
-  // Trending: recent, and corroborated by multiple sources or real engagement.
-  if (age <= CATEGORY_DAYS.trending && (sources >= 2 || engagement >= 40)) {
+  // Trending: recent, and corroborated by multiple sources or surfaced by a
+  // ranked community feed. DEV's `top` endpoint already ranks material within
+  // the requested period, which is a useful momentum signal for a niche desk.
+  const rankedCommunitySignal = c.items.some((item) => item.source.startsWith("devto-"));
+  if (age <= CATEGORY_DAYS.trending && (sources >= 2 || rankedCommunitySignal)) {
     return {
       category: "Trending",
       reason: sources >= 2
         ? `Covered by ${sources} sources within ${age} days`
-        : `${engagement} engagement signals within ${age} days`,
+        : `Ranked in a design community feed within ${age} days`,
     };
   }
   // Latest: very recent single-source coverage.
