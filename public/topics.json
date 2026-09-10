@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T19:11:27.380Z",
-  "windowStart": "2026-08-10T19:11:27.380Z",
-  "windowEnd": "2026-09-09T19:11:27.380Z",
+  "generatedAt": "2026-09-10T04:10:10.626Z",
+  "windowStart": "2026-08-11T04:10:10.626Z",
+  "windowEnd": "2026-09-10T04:10:10.626Z",
   "topics": [
+    {
+      "id": "aaeec53ff421",
+      "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-10T00:13:16.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
+          "url": "https://www.coinbase.com/blog/how-coinbase-design-systems-are-powering-the-ai-prototyping-era",
+          "publishedAt": "2026-09-10T00:13:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "32e53868957e",
+      "title": "What Shakespeare got right about AI",
+      "teaser": "From ink and quill to glowing code: Shakespeare’s exploration of prophecy and equivocation, the art of speaking truths that mislead, anticipates the central challenge of our own relationship",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-09T23:04:39.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What Shakespeare got right about AI",
+          "url": "https://uxdesign.cc/what-shakespeare-got-right-about-ai-4369fc16ab2b?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-09T23:04:39.000Z"
+        }
+      ]
+    },
     {
       "id": "5327f847241c",
       "title": "Show HN: Booley – open-source IDE for agentic chip design",
@@ -12,35 +52,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-09T07:34:11.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Booley – open-source IDE for agentic chip design",
           "url": "https://github.com/boldaxolotl/booley",
           "publishedAt": "2026-09-09T07:34:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "51819eaaf5d7",
-      "title": "From UX to AX: How AI Agents Change Application Design",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-09T14:49:13.000Z",
-      "since": "today",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "From UX to AX: How AI Agents Change Application Design",
-          "url": "https://geekyants.com/en-us/blog/from-ux-to-ax-designing-applications-for-a-world-of-ai-agents",
-          "publishedAt": "2026-09-09T14:49:13.000Z"
         }
       ]
     },
@@ -52,15 +72,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-04T14:35:45.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Learn/Practice Sudoku strategies web app",
           "url": "https://sw-fun.github.io/sudoku/",
           "publishedAt": "2026-09-04T14:35:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c46963ecdd97",
+      "title": "Senseful Consense: Towards Simplified Cookie Banners using Plain Language",
+      "teaser": "While the GDPR and ePrivacy Directive mandate that consent information must be clear and accessible, most modern cookie banners remain obscured by technical jargon, vague phrasing, and frequ",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-09T14:54:50.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Senseful Consense: Towards Simplified Cookie Banners using Plain Language",
+          "url": "https://arxiv.org/abs/2609.10271v1",
+          "publishedAt": "2026-09-09T14:54:50.000Z"
         }
       ]
     },
@@ -112,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-07T14:35:32.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-design",
@@ -145,42 +185,22 @@
       ]
     },
     {
-      "id": "cc274b6b6cf3",
-      "title": "AI in Product teams: In 2026, the growing impact on collaboration",
-      "teaser": "Is the time of blind AI-tool-pushing over? There seems to be a shift in how companies approach AI. Less piecemeal initiatives, more strategic thinking and adoption, which is increasingly aff",
+      "id": "28906f8e1718",
+      "title": "TimeCues Studio: A Workspace for Music Annotation and Algorithm Prototyping",
+      "teaser": "Multimedia applications require precise music annotation-labeled positions, segments, or loops-placed by hand or algorithmically. Machine-learning algorithms are scalable and effective but n",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-06T23:47:16.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "publishedAt": "2026-09-09T15:35:36.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "AI in Product teams: In 2026, the growing impact on collaboration",
-          "url": "https://uxdesign.cc/ai-in-product-teams-in-2026-the-growing-impact-on-collaboration-8ea9f6024dca?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-06T23:47:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7021e0760e4e",
-      "title": "Reading and writing are interfaces. And AI can reduce their friction.",
-      "teaser": "The question is not whether AI reduces work, but where the intellectual work moves. Photo by Mikhail Pushkarev on Unsplash There is plenty of AI slop on the internet, and much of it deserves",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-05T00:21:17.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Reading and writing are interfaces. And AI can reduce their friction.",
-          "url": "https://uxdesign.cc/reading-and-writing-are-interfaces-and-ai-can-reduce-their-friction-13623dea34c0?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-05T00:21:17.000Z"
+          "name": "arxiv-hci",
+          "title": "TimeCues Studio: A Workspace for Music Annotation and Algorithm Prototyping",
+          "url": "https://arxiv.org/abs/2609.10338v1",
+          "publishedAt": "2026-09-09T15:35:36.000Z"
         }
       ]
     },
@@ -254,13 +274,53 @@
       "publishedAt": "2026-09-01T13:38:57.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Invader – an indie iOS podcast player that never phones home",
           "url": "https://invader.gg/",
           "publishedAt": "2026-09-01T13:38:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "51819eaaf5d7",
+      "title": "From UX to AX: How AI Agents Change Application Design",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-09T14:49:13.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "From UX to AX: How AI Agents Change Application Design",
+          "url": "https://geekyants.com/en-us/blog/from-ux-to-ax-designing-applications-for-a-world-of-ai-agents",
+          "publishedAt": "2026-09-09T14:49:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9bd99349c25f",
+      "title": "The origins — the birth, lonely childhood, and adoption of software",
+      "teaser": "Side A, meaning is irrelevant to the problem Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-09T23:04:27.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The origins — the birth, lonely childhood, and adoption of software",
+          "url": "https://uxdesign.cc/the-origins-the-birth-lonely-childhood-and-adoption-of-software-59e3013c3c23?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-09T23:04:27.000Z"
         }
       ]
     },
@@ -272,9 +332,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-09T10:00:00.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -305,22 +365,22 @@
       ]
     },
     {
-      "id": "8d1ceb015e65",
-      "title": "Date Slop: building a deliberately bad UX with AI",
-      "teaser": "A while ago now, I entered a Bad UX competition, where a prize went to the worst date-picker. Since...",
+      "id": "7c73173a0acf",
+      "title": "Agentic Web Accessibility Auditing: Authoring and Evaluating Per-Criterion Worker Agents for WCAG",
+      "teaser": "Automated accessibility assessments differ in the evidence they collect and the requirements they address. We present a framework that combines shared browser tools with criterion-specific w",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-08T21:38:18.000Z",
+      "publishedAt": "2026-09-08T19:27:12.000Z",
       "since": "yesterday",
       "relevanceScore": 0.429,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Date Slop: building a deliberately bad UX with AI",
-          "url": "https://dev.to/hdv/date-slop-building-a-deliberately-bad-ux-with-ai-3nml",
-          "publishedAt": "2026-09-08T21:38:18.000Z"
+          "name": "arxiv-hci",
+          "title": "Agentic Web Accessibility Auditing: Authoring and Evaluating Per-Criterion Worker Agents for WCAG",
+          "url": "https://arxiv.org/abs/2609.09379v1",
+          "publishedAt": "2026-09-08T19:27:12.000Z"
         }
       ]
     },
@@ -332,9 +392,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-08T11:13:56.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -392,9 +452,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-07T14:25:59.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -432,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-03T14:31:41.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -454,7 +514,7 @@
       "publishedAt": "2026-08-18T14:01:54.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 22 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -485,26 +545,6 @@
       ]
     },
     {
-      "id": "8242ce98dc7f",
-      "title": "Designing for Healthy, Affordable, and Sustainable Human-HVAC Interactions for Heating in Smart Homes",
-      "teaser": "As geopolitical tensions, energy crises, and energy-intensive AI infrastructure intensify concerns about demand, affordability, and resilience, communities increasingly encounter these chall",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-07T19:52:20.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Designing for Healthy, Affordable, and Sustainable Human-HVAC Interactions for Heating in Smart Homes",
-          "url": "https://arxiv.org/abs/2609.07936v1",
-          "publishedAt": "2026-09-07T19:52:20.000Z"
-        }
-      ]
-    },
-    {
       "id": "6f94edb389bb",
       "title": "UX Conference November Announced (Nov 9 - Nov 13)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. November 9 - 13, 2026.",
@@ -530,11 +570,11 @@
       "teaser": "Hey HN, Co-founder here. We spent 11 months to build a multi-agent system for generating applications. Then we scrapped it and rebuilt around MCP, letting coding agents do the job instead. O",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-02T12:01:49.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -554,7 +594,7 @@
       "publishedAt": "2026-09-01T08:50:46.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -614,7 +654,7 @@
       "publishedAt": "2026-08-15T13:06:30.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -634,13 +674,33 @@
       "publishedAt": "2026-08-13T12:26:56.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Don't Make Me Think: What Actually Separates Good UX from Digital Torture",
           "url": "https://dev.to/towernter/dont-make-me-think-what-actually-separates-good-ux-from-digital-torture-354a",
           "publishedAt": "2026-08-13T12:26:56.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8d1ceb015e65",
+      "title": "Date Slop: building a deliberately bad UX with AI",
+      "teaser": "A while ago now, I entered a Bad UX competition, where a prize went to the worst date-picker. Since...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-08T21:38:18.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Date Slop: building a deliberately bad UX with AI",
+          "url": "https://dev.to/hdv/date-slop-building-a-deliberately-bad-ux-with-ai-3nml",
+          "publishedAt": "2026-09-08T21:38:18.000Z"
         }
       ]
     },
@@ -672,35 +732,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-08T12:15:27.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "devto-design",
           "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
           "url": "https://dev.to/pasindu_balasooriya/heartbeats-not-clicks-ux-under-extreme-pressure-4bmi",
           "publishedAt": "2026-09-08T12:15:27.000Z"
-        }
-      ]
-    },
-    {
-      "id": "0216afdd1ec7",
-      "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
-      "teaser": "When a technology company grows quickly, its brand can become a problem before anyone notices...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-19T22:58:59.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
-          "url": "https://dev.to/madebymonogram/how-we-turned-an-ai-brand-identity-into-a-scalable-digital-design-system-eo6",
-          "publishedAt": "2026-08-19T22:58:59.000Z"
         }
       ]
     },
@@ -765,42 +805,22 @@
       ]
     },
     {
-      "id": "2697958f2dca",
-      "title": "Large-Scale User Behavior Analysis in Multimodal AI-Assisted Manual Task Execution",
-      "teaser": "Conversational Task Assistants (CTAs) are multimodal dialogue systems that support users in complex real-world tasks such as cooking and DIY through voice, text, image, and video interaction",
-      "tag": "Research",
+      "id": "be045ee3b363",
+      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
+      "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-07T15:06:21.000Z",
-      "since": "2 days ago",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Large-Scale User Behavior Analysis in Multimodal AI-Assisted Manual Task Execution",
-          "url": "https://arxiv.org/abs/2609.07594v1",
-          "publishedAt": "2026-09-07T15:06:21.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1588518cc8e1",
-      "title": "From Human Factors to Human-Technology Factors: An HCI Perspective on Technology in Avalanche Safety",
-      "teaser": "The avalanche safety literature has identified human factors that contribute to accidents, yet researchers note a persistent gap between these insights and effective product design. Meanwhil",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-07T14:40:58.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "From Human Factors to Human-Technology Factors: An HCI Perspective on Technology in Avalanche Safety",
-          "url": "https://arxiv.org/abs/2609.07560v1",
-          "publishedAt": "2026-09-07T14:40:58.000Z"
+          "name": "devto-ux",
+          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
+          "publishedAt": "2026-08-25T21:17:17.000Z"
         }
       ]
     },
@@ -865,6 +885,26 @@
       ]
     },
     {
+      "id": "b2fa9b4faa22",
+      "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+      "teaser": "When tasked with building a highly interactive, tactile web experience, the architecture must serve the art direction. In this article, Alexey Kopytin explains their architectural rationale ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Building Tactile UX: Honoring Intentional Design With Lottie",
+          "url": "https://smashingmagazine.com/2026/08/building-tactile-ux-honoring-intentional-design-lottie/",
+          "publishedAt": "2026-08-11T10:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "e92441db722a",
       "title": "Design tokens: The building blocks of a design system",
       "teaser": "",
@@ -925,6 +965,26 @@
       ]
     },
     {
+      "id": "4cfc06a222ed",
+      "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
+      "teaser": "I built a desktop app that improves the UI&#x2F;UX for reading source code . Code editors&#x2F;IDEs have many features, but I didn&#x27;t make the best use of them when reading the source co",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-13T12:30:43.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Read it easy – Read-only code editor with an improved Go to Definition",
+          "url": "https://www.readiteasy.app/",
+          "publishedAt": "2026-08-13T12:30:43.000Z"
+        }
+      ]
+    },
+    {
       "id": "5de15657393b",
       "title": "Decoupling Claim Timeouts from Feature Flags",
       "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
@@ -943,66 +1003,6 @@
           "publishedAt": "2026-08-25T21:08:28.000Z"
         }
       ]
-    },
-    {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7c2f71191b75",
-      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T13:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
-          "publishedAt": "2026-08-26T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "23cb55e68070",
-      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-20T03:23:01.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
-          "publishedAt": "2026-08-20T03:23:01.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-09T19:11:27.380Z"
+      "fetchedAt": "2026-09-10T04:10:10.627Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-09T19:11:27.451Z"
+      "fetchedAt": "2026-09-10T04:10:10.679Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-09T19:11:27.452Z"
+      "fetchedAt": "2026-09-10T04:10:10.680Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-09T19:11:27.454Z"
+      "fetchedAt": "2026-09-10T04:10:10.682Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-09T19:11:27.455Z"
+      "fetchedAt": "2026-09-10T04:10:10.682Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-09T19:11:27.457Z"
+      "fetchedAt": "2026-09-10T04:10:10.684Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-09T19:11:27.458Z"
+      "fetchedAt": "2026-09-10T04:10:10.685Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-09-09T19:11:27.459Z"
+      "fetchedAt": "2026-09-10T04:10:10.685Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-09-09T19:11:27.460Z"
+      "fetchedAt": "2026-09-10T04:10:10.686Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-09T19:11:27.461Z"
+      "fetchedAt": "2026-09-10T04:10:10.687Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-09T19:11:27.462Z"
+      "fetchedAt": "2026-09-10T04:10:10.688Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-09T19:11:27.464Z"
+      "fetchedAt": "2026-09-10T04:10:10.689Z"
     }
   ]
 }
