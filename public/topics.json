@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-12T12:04:40.682Z",
-  "windowStart": "2026-08-13T12:04:40.682Z",
-  "windowEnd": "2026-09-12T12:04:40.682Z",
+  "generatedAt": "2026-09-12T18:15:47.552Z",
+  "windowStart": "2026-08-13T18:15:47.552Z",
+  "windowEnd": "2026-09-12T18:15:47.552Z",
   "topics": [
     {
       "id": "aaeec53ff421",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T00:13:16.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -125,26 +125,6 @@
       ]
     },
     {
-      "id": "7093c39d1825",
-      "title": "Ethics Training Agents: Facilitating Group-Based Ethics Education with Role-Playing and Discussion for Ethical Reflection and Exploration",
-      "teaser": "Group-based ethics training for Science, Technology, Engineering and Mathematics (STEM) students is a complex challenge, requiring substantial resources and expertise. While activity-based t",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-10T13:29:53.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Ethics Training Agents: Facilitating Group-Based Ethics Education with Role-Playing and Discussion for Ethical Reflection and Exploration",
-          "url": "https://arxiv.org/abs/2609.11529v1",
-          "publishedAt": "2026-09-10T13:29:53.000Z"
-        }
-      ]
-    },
-    {
       "id": "ff077aa966ed",
       "title": "Show HN: Learn/Practice Sudoku strategies web app",
       "teaser": "So, I wanted to get better at Sudoku puzzles, and I watched a lot of strategy videos, but I just could not grok them. Also I installed a bunch of free Sudoku games on my phone and got very (",
@@ -161,26 +141,6 @@
           "title": "Show HN: Learn/Practice Sudoku strategies web app",
           "url": "https://sw-fun.github.io/sudoku/",
           "publishedAt": "2026-09-04T14:35:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c46963ecdd97",
-      "title": "Senseful Consense: Towards Simplified Cookie Banners using Plain Language",
-      "teaser": "While the GDPR and ePrivacy Directive mandate that consent information must be clear and accessible, most modern cookie banners remain obscured by technical jargon, vague phrasing, and frequ",
-      "tag": "Ethics",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-09T14:54:50.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Senseful Consense: Towards Simplified Cookie Banners using Plain Language",
-          "url": "https://arxiv.org/abs/2609.10271v1",
-          "publishedAt": "2026-09-09T14:54:50.000Z"
         }
       ]
     },
@@ -245,26 +205,6 @@
       ]
     },
     {
-      "id": "f0ffa2817ee1",
-      "title": "AI Soccer Analyst: Stage-Aware and Verifiable Human-AI Collaboration for Soccer Data Analysis",
-      "teaser": "Sports data analysts translate domain questions into insights by combining computation with sport-specific domain expertise. Large language models ease programming, but prompt-to-report work",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-10T08:25:09.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AI Soccer Analyst: Stage-Aware and Verifiable Human-AI Collaboration for Soccer Data Analysis",
-          "url": "https://arxiv.org/abs/2609.11224v1",
-          "publishedAt": "2026-09-10T08:25:09.000Z"
-        }
-      ]
-    },
-    {
       "id": "32e53868957e",
       "title": "What Shakespeare got right about AI",
       "teaser": "From ink and quill to glowing code: Shakespeare’s exploration of prophecy and equivocation, the art of speaking truths that mislead, anticipates the central challenge of our own relationship",
@@ -281,26 +221,6 @@
           "title": "What Shakespeare got right about AI",
           "url": "https://uxdesign.cc/what-shakespeare-got-right-about-ai-4369fc16ab2b?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-09T23:04:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "28906f8e1718",
-      "title": "TimeCues Studio: A Workspace for Music Annotation and Algorithm Prototyping",
-      "teaser": "Multimedia applications require precise music annotation-labeled positions, segments, or loops-placed by hand or algorithmically. Machine-learning algorithms are scalable and effective but n",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-09T15:35:36.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "TimeCues Studio: A Workspace for Music Annotation and Algorithm Prototyping",
-          "url": "https://arxiv.org/abs/2609.10338v1",
-          "publishedAt": "2026-09-09T15:35:36.000Z"
         }
       ]
     },
@@ -425,46 +345,6 @@
       ]
     },
     {
-      "id": "1a99f0adc33d",
-      "title": "Bigger than the EAR BOX: A Theory-Grounded Review of XR Accessibility Research for Deaf and Hard of Hearing Communities",
-      "teaser": "Extended Reality (XR) technologies have received growing attention in accessibility research involving Deaf and Hard of Hearing (DHH) communities. Yet less attention has been given to the as",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-10T15:26:53.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Bigger than the EAR BOX: A Theory-Grounded Review of XR Accessibility Research for Deaf and Hard of Hearing Communities",
-          "url": "https://arxiv.org/abs/2609.11706v1",
-          "publishedAt": "2026-09-10T15:26:53.000Z"
-        }
-      ]
-    },
-    {
-      "id": "55653ab53dfc",
-      "title": "\"Coder first, advocate second, college student third\": The Liminality of Going to College as a Blind Computing Student",
-      "teaser": "Blind or low vision (BLV) students are less likely to graduate from college, particularly in computing. Prior work documents accessibility challenges in high school and college, but we lack ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-10T01:03:17.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "\"Coder first, advocate second, college student third\": The Liminality of Going to College as a Blind Computing Student",
-          "url": "https://arxiv.org/abs/2609.10942v1",
-          "publishedAt": "2026-09-10T01:03:17.000Z"
-        }
-      ]
-    },
-    {
       "id": "94dd951b774d",
       "title": "The Death Of The Button: Why The Best Interface Is No Interface",
       "teaser": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving ",
@@ -494,7 +374,7 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
           "name": "nngroup",
@@ -605,26 +485,6 @@
       ]
     },
     {
-      "id": "632ad5203758",
-      "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
-      "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
-          "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
-          "publishedAt": "2026-08-25T21:12:33.000Z"
-        }
-      ]
-    },
-    {
       "id": "54350fec1e22",
       "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
       "teaser": "",
@@ -665,26 +525,6 @@
       ]
     },
     {
-      "id": "104f50c5e3cb",
-      "title": "Reservoir: The Design System of the NYPL",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-27T18:11:38.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Reservoir: The Design System of the NYPL",
-          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
-          "publishedAt": "2026-08-27T18:11:38.000Z"
-        }
-      ]
-    },
-    {
       "id": "d6da69fcc0c2",
       "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
       "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
@@ -705,22 +545,42 @@
       ]
     },
     {
-      "id": "8d1ceb015e65",
-      "title": "Date Slop: building a deliberately bad UX with AI",
-      "teaser": "A while ago now, I entered a Bad UX competition, where a prize went to the worst date-picker. Since...",
-      "tag": "AI",
+      "id": "830a8c6e9c35",
+      "title": "How well do agents use your design system?",
+      "teaser": "",
+      "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-08T21:38:18.000Z",
-      "since": "4 days ago",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T17:51:57.000Z",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Date Slop: building a deliberately bad UX with AI",
-          "url": "https://dev.to/hdv/date-slop-building-a-deliberately-bad-ux-with-ai-3nml",
-          "publishedAt": "2026-09-08T21:38:18.000Z"
+          "name": "hn-designsystem",
+          "title": "How well do agents use your design system?",
+          "url": "https://www.sanity.io/engineering/design-system-evals",
+          "publishedAt": "2026-08-26T17:51:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f97deb9ddcb6",
+      "title": "Show HN: Propose and Dual-Control for DNS Changes",
+      "teaser": "Hey, Hacker News. I just want to pick your brain for a feature we&#x27;re working on. I don&#x27;t know whether you have seen this as a pain point, but when I work in a company, a lot of tim",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T05:06:25.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Propose and Dual-Control for DNS Changes",
+          "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
+          "publishedAt": "2026-08-26T05:06:25.000Z"
         }
       ]
     },
@@ -905,6 +765,26 @@
       ]
     },
     {
+      "id": "5de15657393b",
+      "title": "Decoupling Claim Timeouts from Feature Flags",
+      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:08:28.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Decoupling Claim Timeouts from Feature Flags",
+          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
+          "publishedAt": "2026-08-25T21:08:28.000Z"
+        }
+      ]
+    },
+    {
       "id": "99f15730f1d2",
       "title": "Free Accessibility Certifications and Courses",
       "teaser": "Originally published on A11y News: 6 free, self-paced courses to take this summer Nowadays...",
@@ -945,22 +825,22 @@
       ]
     },
     {
-      "id": "9e8948b71cbb",
-      "title": "Don't Make Me Think: What Actually Separates Good UX from Digital Torture",
-      "teaser": "There's a rule someone dropped in a product design session that has lived rent-free in my head ever...",
-      "tag": "Process",
+      "id": "03201d525f0c",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-13T12:26:56.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Don't Make Me Think: What Actually Separates Good UX from Digital Torture",
-          "url": "https://dev.to/towernter/dont-make-me-think-what-actually-separates-good-ux-from-digital-torture-354a",
-          "publishedAt": "2026-08-13T12:26:56.000Z"
+          "name": "nngroup",
+          "title": "The Custodial Era of UX: Cleaning Up After AI",
+          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-28T17:00:00.000Z"
         }
       ]
     },
@@ -970,17 +850,117 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-05T02:16:36.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Arena, the same design system in React and Angular from one contract",
           "url": "https://arena.dravensoft.org/web-benches/",
           "publishedAt": "2026-09-05T02:16:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7c2f71191b75",
+      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T13:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+          "publishedAt": "2026-08-26T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "23cb55e68070",
+      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
+      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-20T03:23:01.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
+          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
+          "publishedAt": "2026-08-20T03:23:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "be045ee3b363",
+      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
+          "publishedAt": "2026-08-25T21:17:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": "632ad5203758",
+      "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
+      "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:12:33.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 18 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
+          "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
+          "publishedAt": "2026-08-25T21:12:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "104f50c5e3cb",
+      "title": "Reservoir: The Design System of the NYPL",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-27T18:11:38.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Reservoir: The Design System of the NYPL",
+          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
+          "publishedAt": "2026-08-27T18:11:38.000Z"
         }
       ]
     },
@@ -1010,73 +990,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-12T12:04:40.682Z"
+      "fetchedAt": "2026-09-12T18:15:47.553Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-12T12:04:40.729Z"
+      "fetchedAt": "2026-09-12T18:15:47.585Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-12T12:04:40.730Z"
+      "fetchedAt": "2026-09-12T18:15:47.585Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-12T12:04:40.731Z"
+      "fetchedAt": "2026-09-12T18:15:47.586Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-12T12:04:40.732Z"
+      "fetchedAt": "2026-09-12T18:15:47.587Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-12T12:04:40.733Z"
+      "fetchedAt": "2026-09-12T18:15:47.587Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-12T12:04:40.734Z"
+      "fetchedAt": "2026-09-12T18:15:47.588Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 9,
-      "fetchedAt": "2026-09-12T12:04:40.734Z"
+      "items": 8,
+      "fetchedAt": "2026-09-12T18:15:47.589Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-09-12T12:04:40.735Z"
+      "fetchedAt": "2026-09-12T18:15:47.589Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-09-12T12:04:40.736Z"
+      "ok": false,
+      "items": 0,
+      "fetchedAt": "2026-09-12T18:15:47.590Z",
+      "error": "HTTP 429"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-12T12:04:40.737Z"
+      "fetchedAt": "2026-09-12T18:15:47.590Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-12T12:04:40.738Z"
+      "fetchedAt": "2026-09-12T18:15:47.591Z"
     }
   ]
 }
