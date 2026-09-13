@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-13T13:14:30.679Z",
-  "windowStart": "2026-08-14T13:14:30.679Z",
-  "windowEnd": "2026-09-13T13:14:30.679Z",
+  "generatedAt": "2026-09-13T18:41:24.310Z",
+  "windowStart": "2026-08-14T18:41:24.310Z",
+  "windowEnd": "2026-09-13T18:41:24.310Z",
   "topics": [
     {
       "id": "aaeec53ff421",
@@ -254,7 +254,7 @@
       "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -352,9 +352,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-03T04:50:49.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
       "sources": [
         {
           "name": "nngroup",
@@ -521,26 +521,6 @@
           "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
           "url": "https://devbar.sh",
           "publishedAt": "2026-09-03T19:19:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7d6e4a313de2",
-      "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
-      "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-28T00:57:31.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
-          "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
-          "publishedAt": "2026-08-28T00:57:31.000Z"
         }
       ]
     },
@@ -794,7 +774,7 @@
       "publishedAt": "2026-09-05T02:16:36.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -825,22 +805,22 @@
       ]
     },
     {
-      "id": "be045ee3b363",
-      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
-      "tag": "AI",
+      "id": "23cb55e68070",
+      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
+      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "3 weeks ago",
+      "publishedAt": "2026-08-20T03:23:01.000Z",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
-          "publishedAt": "2026-08-25T21:17:17.000Z"
+          "name": "devto-design",
+          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
+          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
+          "publishedAt": "2026-08-20T03:23:01.000Z"
         }
       ]
     },
@@ -885,6 +865,26 @@
       ]
     },
     {
+      "id": "7d6e4a313de2",
+      "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+      "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-28T00:57:31.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+          "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
+          "publishedAt": "2026-08-28T00:57:31.000Z"
+        }
+      ]
+    },
+    {
       "id": "830a8c6e9c35",
       "title": "How well do agents use your design system?",
       "teaser": "",
@@ -914,7 +914,7 @@
       "publishedAt": "2026-08-26T05:06:25.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -1010,74 +1010,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-13T13:14:30.680Z"
+      "fetchedAt": "2026-09-13T18:41:24.310Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-13T13:14:30.732Z"
+      "fetchedAt": "2026-09-13T18:41:24.363Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-13T13:14:30.733Z"
+      "fetchedAt": "2026-09-13T18:41:24.364Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-13T13:14:30.734Z"
+      "fetchedAt": "2026-09-13T18:41:24.365Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-13T13:14:30.735Z"
+      "fetchedAt": "2026-09-13T18:41:24.366Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-13T13:14:30.736Z"
+      "fetchedAt": "2026-09-13T18:41:24.367Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-13T13:14:30.737Z"
+      "fetchedAt": "2026-09-13T18:41:24.368Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-13T13:14:30.738Z"
+      "fetchedAt": "2026-09-13T18:41:24.369Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 29,
-      "fetchedAt": "2026-09-13T13:14:30.739Z"
+      "fetchedAt": "2026-09-13T18:41:24.370Z"
     },
     {
       "source": "arxiv-hci",
       "ok": false,
       "items": 0,
-      "fetchedAt": "2026-09-13T13:14:30.740Z",
+      "fetchedAt": "2026-09-13T18:41:24.371Z",
       "error": "This operation was aborted"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-13T13:14:30.741Z"
+      "fetchedAt": "2026-09-13T18:41:24.372Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-13T13:14:30.742Z"
+      "fetchedAt": "2026-09-13T18:41:24.374Z"
     }
   ]
 }
