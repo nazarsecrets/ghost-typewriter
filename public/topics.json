@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-12T18:15:47.552Z",
-  "windowStart": "2026-08-13T18:15:47.552Z",
-  "windowEnd": "2026-09-12T18:15:47.552Z",
+  "generatedAt": "2026-09-13T04:20:47.039Z",
+  "windowStart": "2026-08-14T04:20:47.039Z",
+  "windowEnd": "2026-09-13T04:20:47.039Z",
   "topics": [
     {
       "id": "aaeec53ff421",
@@ -32,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-11T14:11:09.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -52,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-09T07:34:11.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T15:57:17.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -134,33 +134,13 @@
       "publishedAt": "2026-09-04T14:35:45.000Z",
       "since": "1 week ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 8 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Learn/Practice Sudoku strategies web app",
           "url": "https://sw-fun.github.io/sudoku/",
           "publishedAt": "2026-09-04T14:35:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "224e4cc1f737",
-      "title": "Most AI problems are really human problems",
-      "teaser": "The machine room is full; the chair that owns the decision is empty. AI assisted. The cause sits upstream: unread intent, missing oversight, thin context, loose language, unset expectations,",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-08T20:37:28.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Most AI problems are really human problems",
-          "url": "https://uxdesign.cc/most-ai-problems-are-really-human-problems-this-is-how-you-can-fix-it-ab64843f845e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-08T20:37:28.000Z"
         }
       ]
     },
@@ -172,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-07T14:35:32.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-design",
@@ -274,13 +254,33 @@
       "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: I built a real-time translator for Google Meet",
           "url": "https://meelang.com/",
           "publishedAt": "2026-09-01T06:20:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7c4b33f11f32",
+      "title": "The real reason everyone hates the viral AI food slop images",
+      "teaser": "We&#x2019;ve always made food look better than it is. So why does it feel different when AI does it? Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-12T21:40:38.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The real reason everyone hates the viral AI food slop images",
+          "url": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-12T21:40:38.000Z"
         }
       ]
     },
@@ -294,7 +294,7 @@
       "publishedAt": "2026-09-01T13:38:57.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -312,9 +312,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-09T14:49:13.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -332,9 +332,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T15:57:51.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -352,9 +352,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-09T10:00:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -392,15 +392,55 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T14:22:41.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Quantum Black Design System: an open source release by McKinsey",
           "url": "https://medium.com/quantumblack/announcing-quantumblack-design-system-opensourcing-7dfaf3f8e207",
           "publishedAt": "2026-09-10T14:22:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1d523dc6b5b2",
+      "title": "Duas identidades visuais no mesmo sistema, e a troca que custou quatro linhas",
+      "teaser": "No meio de uma migração de design system, a marca mudou. Não era o plano. O plano era trocar a base...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-08T14:10:37.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Duas identidades visuais no mesmo sistema, e a troca que custou quatro linhas",
+          "url": "https://dev.to/l00p4/duas-identidades-visuais-no-mesmo-sistema-e-a-troca-que-custou-quatro-linhas-1jem",
+          "publishedAt": "2026-09-08T14:10:37.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c2dc7f127c06",
+      "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
+      "teaser": "When UX Is a Matter of Seconds: Designing for High-Stakes Interfaces In high stakes interface...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-08T12:15:27.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
+          "url": "https://dev.to/pasindu_balasooriya/heartbeats-not-clicks-ux-under-extreme-pressure-4bmi",
+          "publishedAt": "2026-09-08T12:15:27.000Z"
         }
       ]
     },
@@ -432,9 +472,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-07T14:25:59.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -474,7 +514,7 @@
       "publishedAt": "2026-09-03T14:31:41.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -492,9 +532,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T14:57:41.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -514,7 +554,7 @@
       "publishedAt": "2026-08-18T14:01:54.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 25 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -541,46 +581,6 @@
           "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
           "url": "https://devbar.sh",
           "publishedAt": "2026-09-03T19:19:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "830a8c6e9c35",
-      "title": "How well do agents use your design system?",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T17:51:57.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "How well do agents use your design system?",
-          "url": "https://www.sanity.io/engineering/design-system-evals",
-          "publishedAt": "2026-08-26T17:51:57.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f97deb9ddcb6",
-      "title": "Show HN: Propose and Dual-Control for DNS Changes",
-      "teaser": "Hey, Hacker News. I just want to pick your brain for a feature we&#x27;re working on. I don&#x27;t know whether you have seen this as a pain point, but when I work in a company, a lot of tim",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T05:06:25.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Propose and Dual-Control for DNS Changes",
-          "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
-          "publishedAt": "2026-08-26T05:06:25.000Z"
         }
       ]
     },
@@ -612,9 +612,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-11T13:00:00.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -634,7 +634,7 @@
       "publishedAt": "2026-08-24T06:48:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "nngroup",
@@ -652,9 +652,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-02T12:01:49.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -674,7 +674,7 @@
       "publishedAt": "2026-09-01T08:50:46.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -765,26 +765,6 @@
       ]
     },
     {
-      "id": "5de15657393b",
-      "title": "Decoupling Claim Timeouts from Feature Flags",
-      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Decoupling Claim Timeouts from Feature Flags",
-          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
-          "publishedAt": "2026-08-25T21:08:28.000Z"
-        }
-      ]
-    },
-    {
       "id": "99f15730f1d2",
       "title": "Free Accessibility Certifications and Courses",
       "teaser": "Originally published on A11y News: 6 free, self-paced courses to take this summer Nowadays...",
@@ -794,7 +774,7 @@
       "publishedAt": "2026-08-15T13:06:30.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 29 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -825,26 +805,6 @@
       ]
     },
     {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "89ee143012e1",
       "title": "Show HN: Arena, the same design system in React and Angular from one contract",
       "teaser": "",
@@ -861,66 +821,6 @@
           "title": "Show HN: Arena, the same design system in React and Angular from one contract",
           "url": "https://arena.dravensoft.org/web-benches/",
           "publishedAt": "2026-09-05T02:16:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7c2f71191b75",
-      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T13:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
-          "publishedAt": "2026-08-26T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "23cb55e68070",
-      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-20T03:23:01.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
-          "publishedAt": "2026-08-20T03:23:01.000Z"
-        }
-      ]
-    },
-    {
-      "id": "be045ee3b363",
-      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
-          "publishedAt": "2026-08-25T21:17:17.000Z"
         }
       ]
     },
@@ -965,6 +865,86 @@
       ]
     },
     {
+      "id": "830a8c6e9c35",
+      "title": "How well do agents use your design system?",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T17:51:57.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "How well do agents use your design system?",
+          "url": "https://www.sanity.io/engineering/design-system-evals",
+          "publishedAt": "2026-08-26T17:51:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f97deb9ddcb6",
+      "title": "Show HN: Propose and Dual-Control for DNS Changes",
+      "teaser": "Hey, Hacker News. I just want to pick your brain for a feature we&#x27;re working on. I don&#x27;t know whether you have seen this as a pain point, but when I work in a company, a lot of tim",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T05:06:25.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Propose and Dual-Control for DNS Changes",
+          "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
+          "publishedAt": "2026-08-26T05:06:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5de15657393b",
+      "title": "Decoupling Claim Timeouts from Feature Flags",
+      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:08:28.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Decoupling Claim Timeouts from Feature Flags",
+          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
+          "publishedAt": "2026-08-25T21:08:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "03201d525f0c",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Custodial Era of UX: Cleaning Up After AI",
+          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-28T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "0216afdd1ec7",
       "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
       "teaser": "When a technology company grows quickly, its brand can become a problem before anyone notices...",
@@ -983,6 +963,46 @@
           "publishedAt": "2026-08-19T22:58:59.000Z"
         }
       ]
+    },
+    {
+      "id": "7c2f71191b75",
+      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T13:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+          "publishedAt": "2026-08-26T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "23cb55e68070",
+      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
+      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-20T03:23:01.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
+          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
+          "publishedAt": "2026-08-20T03:23:01.000Z"
+        }
+      ]
     }
   ],
   "sourceHealth": [
@@ -990,74 +1010,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-12T18:15:47.553Z"
+      "fetchedAt": "2026-09-13T04:20:47.039Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-12T18:15:47.585Z"
+      "fetchedAt": "2026-09-13T04:20:47.091Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-12T18:15:47.585Z"
+      "fetchedAt": "2026-09-13T04:20:47.092Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-12T18:15:47.586Z"
+      "fetchedAt": "2026-09-13T04:20:47.093Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-12T18:15:47.587Z"
+      "fetchedAt": "2026-09-13T04:20:47.094Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-12T18:15:47.587Z"
+      "fetchedAt": "2026-09-13T04:20:47.095Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-12T18:15:47.588Z"
+      "fetchedAt": "2026-09-13T04:20:47.096Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-12T18:15:47.589Z"
+      "fetchedAt": "2026-09-13T04:20:47.097Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 31,
-      "fetchedAt": "2026-09-12T18:15:47.589Z"
+      "items": 30,
+      "fetchedAt": "2026-09-13T04:20:47.098Z"
     },
     {
       "source": "arxiv-hci",
       "ok": false,
       "items": 0,
-      "fetchedAt": "2026-09-12T18:15:47.590Z",
-      "error": "HTTP 429"
+      "fetchedAt": "2026-09-13T04:20:47.099Z",
+      "error": "This operation was aborted"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-12T18:15:47.590Z"
+      "fetchedAt": "2026-09-13T04:20:47.100Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-12T18:15:47.591Z"
+      "fetchedAt": "2026-09-13T04:20:47.101Z"
     }
   ]
 }
