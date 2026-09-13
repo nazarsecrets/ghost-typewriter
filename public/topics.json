@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-13T04:20:47.039Z",
-  "windowStart": "2026-08-14T04:20:47.039Z",
-  "windowEnd": "2026-09-13T04:20:47.039Z",
+  "generatedAt": "2026-09-13T13:14:30.679Z",
+  "windowStart": "2026-08-14T13:14:30.679Z",
+  "windowEnd": "2026-09-13T13:14:30.679Z",
   "topics": [
     {
       "id": "aaeec53ff421",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T00:13:16.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T22:40:55.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T22:38:12.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -172,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-11T17:00:00.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -192,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-09T23:04:39.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -214,7 +214,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "45 engagement signals within 19 days",
+      "categoryReason": "45 engagement signals within 20 days",
       "sources": [
         {
           "name": "devto-design",
@@ -232,9 +232,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-08-26T16:40:01.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "84 engagement signals within 17 days",
+      "categoryReason": "84 engagement signals within 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -261,26 +261,6 @@
           "title": "Show HN: I built a real-time translator for Google Meet",
           "url": "https://meelang.com/",
           "publishedAt": "2026-09-01T06:20:22.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7c4b33f11f32",
-      "title": "The real reason everyone hates the viral AI food slop images",
-      "teaser": "We&#x2019;ve always made food look better than it is. So why does it feel different when AI does it? Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-12T21:40:38.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The real reason everyone hates the viral AI food slop images",
-          "url": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-12T21:40:38.000Z"
         }
       ]
     },
@@ -405,46 +385,6 @@
       ]
     },
     {
-      "id": "1d523dc6b5b2",
-      "title": "Duas identidades visuais no mesmo sistema, e a troca que custou quatro linhas",
-      "teaser": "No meio de uma migração de design system, a marca mudou. Não era o plano. O plano era trocar a base...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-08T14:10:37.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Duas identidades visuais no mesmo sistema, e a troca que custou quatro linhas",
-          "url": "https://dev.to/l00p4/duas-identidades-visuais-no-mesmo-sistema-e-a-troca-que-custou-quatro-linhas-1jem",
-          "publishedAt": "2026-09-08T14:10:37.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c2dc7f127c06",
-      "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
-      "teaser": "When UX Is a Matter of Seconds: Designing for High-Stakes Interfaces In high stakes interface...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-08T12:15:27.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
-          "url": "https://dev.to/pasindu_balasooriya/heartbeats-not-clicks-ux-under-extreme-pressure-4bmi",
-          "publishedAt": "2026-09-08T12:15:27.000Z"
-        }
-      ]
-    },
-    {
       "id": "96cf85b2d3c3",
       "title": "UX Conference September Announced (Sep 14 - Sep 25)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
@@ -454,7 +394,7 @@
       "publishedAt": "2026-09-01T20:37:45.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "nngroup",
@@ -494,7 +434,7 @@
       "publishedAt": "2026-09-03T17:56:50.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -574,13 +514,53 @@
       "publishedAt": "2026-09-03T19:19:42.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
           "url": "https://devbar.sh",
           "publishedAt": "2026-09-03T19:19:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7d6e4a313de2",
+      "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+      "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-28T00:57:31.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+          "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
+          "publishedAt": "2026-08-28T00:57:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7c4b33f11f32",
+      "title": "The real reason everyone hates the viral AI food slop images",
+      "teaser": "We&#x2019;ve always made food look better than it is. So why does it feel different when AI does it? Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-12T21:40:38.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The real reason everyone hates the viral AI food slop images",
+          "url": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-12T21:40:38.000Z"
         }
       ]
     },
@@ -592,9 +572,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-11T21:04:03.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -692,9 +672,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T22:39:57.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -712,9 +692,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T22:38:24.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -734,7 +714,7 @@
       "publishedAt": "2026-09-04T18:56:11.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -754,7 +734,7 @@
       "publishedAt": "2026-09-04T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 9 days",
       "sources": [
         {
           "name": "nngroup",
@@ -792,9 +772,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-09T23:04:27.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -825,6 +805,46 @@
       ]
     },
     {
+      "id": "c2dc7f127c06",
+      "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
+      "teaser": "When UX Is a Matter of Seconds: Designing for High-Stakes Interfaces In high stakes interface...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-08T12:15:27.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
+          "url": "https://dev.to/pasindu_balasooriya/heartbeats-not-clicks-ux-under-extreme-pressure-4bmi",
+          "publishedAt": "2026-09-08T12:15:27.000Z"
+        }
+      ]
+    },
+    {
+      "id": "be045ee3b363",
+      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
+          "publishedAt": "2026-08-25T21:17:17.000Z"
+        }
+      ]
+    },
+    {
       "id": "632ad5203758",
       "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
       "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
@@ -834,7 +854,7 @@
       "publishedAt": "2026-08-25T21:12:33.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -854,7 +874,7 @@
       "publishedAt": "2026-08-27T18:11:38.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -872,9 +892,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-26T17:51:57.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -914,7 +934,7 @@
       "publishedAt": "2026-08-25T21:08:28.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -934,7 +954,7 @@
       "publishedAt": "2026-08-28T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "nngroup",
@@ -952,9 +972,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-19T22:58:59.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-design",
@@ -983,26 +1003,6 @@
           "publishedAt": "2026-08-26T13:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "23cb55e68070",
-      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-20T03:23:01.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
-          "publishedAt": "2026-08-20T03:23:01.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -1010,74 +1010,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-13T04:20:47.039Z"
+      "fetchedAt": "2026-09-13T13:14:30.680Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-13T04:20:47.091Z"
+      "fetchedAt": "2026-09-13T13:14:30.732Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-13T04:20:47.092Z"
+      "fetchedAt": "2026-09-13T13:14:30.733Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-13T04:20:47.093Z"
+      "fetchedAt": "2026-09-13T13:14:30.734Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-13T04:20:47.094Z"
+      "fetchedAt": "2026-09-13T13:14:30.735Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-13T04:20:47.095Z"
+      "fetchedAt": "2026-09-13T13:14:30.736Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-13T04:20:47.096Z"
+      "fetchedAt": "2026-09-13T13:14:30.737Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-13T04:20:47.097Z"
+      "fetchedAt": "2026-09-13T13:14:30.738Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-09-13T04:20:47.098Z"
+      "items": 29,
+      "fetchedAt": "2026-09-13T13:14:30.739Z"
     },
     {
       "source": "arxiv-hci",
       "ok": false,
       "items": 0,
-      "fetchedAt": "2026-09-13T04:20:47.099Z",
+      "fetchedAt": "2026-09-13T13:14:30.740Z",
       "error": "This operation was aborted"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-13T04:20:47.100Z"
+      "fetchedAt": "2026-09-13T13:14:30.741Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-13T04:20:47.101Z"
+      "fetchedAt": "2026-09-13T13:14:30.742Z"
     }
   ]
 }
