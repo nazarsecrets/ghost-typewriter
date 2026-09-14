@@ -1,46 +1,66 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-14T14:55:16.731Z",
-  "windowStart": "2026-08-15T14:55:16.731Z",
-  "windowEnd": "2026-09-14T14:55:16.731Z",
+  "generatedAt": "2026-09-14T20:14:29.880Z",
+  "windowStart": "2026-08-15T20:14:29.880Z",
+  "windowEnd": "2026-09-14T20:14:29.880Z",
   "topics": [
     {
-      "id": "0138ab310b7e",
-      "title": "For the Designless",
-      "teaser": "On the value of cultural references, and the cost of losing them at scale. Photo by Yonghyun Lee on Unplash A designer is not an artist. A designer is a commercial problem-solver, hired to t",
-      "tag": "AI",
+      "id": "22e0cc60e9b8",
+      "title": "The UX Double Diamond is dead, and in AI only one survives for software",
+      "teaser": "Two diamonds drawn for a world where the second one cost real money. Both the double diamond and design thinking priced building as the risky step, and that price collapsed. What’s left is a",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-14T13:59:28.000Z",
+      "publishedAt": "2026-09-14T18:52:50.000Z",
       "since": "today",
       "relevanceScore": 1,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "For the Designless",
-          "url": "https://uxdesign.cc/for-the-designless-0d3e7936a70c?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-14T13:59:28.000Z"
+          "title": "The UX Double Diamond is dead, and in AI only one survives for software",
+          "url": "https://uxdesign.cc/the-ux-double-diamond-is-dead-and-in-ai-only-one-survives-for-software-heres-how-to-adapt-f63b57c524ed?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-14T18:52:50.000Z"
         }
       ]
     },
     {
-      "id": "7fcdb9c97d56",
-      "title": "Five eras of UX, First drafts, Logos made of data, Voice AIUX patterns",
-      "teaser": "Weekly curated resources for designers — thinkers and makers. “There are two famous lines about history, and UX earns both. George Santayana wrote that those who cannot remember the past are",
-      "tag": "Systems",
+      "id": "1058c8c3ff34",
+      "title": "LatentVerse: A Framework for Understanding Shared and Modality-Specific Information in Multimodal Latent Representations",
+      "teaser": "Latent embeddings have become a central data abstraction in modern machine learning, especially in biomedicine, where foundation models are increasingly used to encode multimodal data like c",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-14T11:26:18.000Z",
-      "since": "today",
+      "publishedAt": "2026-09-11T02:34:29.000Z",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Five eras of UX, First drafts, Logos made of data, Voice AIUX patterns",
-          "url": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-14T11:26:18.000Z"
+          "name": "arxiv-hci",
+          "title": "LatentVerse: A Framework for Understanding Shared and Modality-Specific Information in Multimodal Latent Representations",
+          "url": "https://arxiv.org/abs/2609.12364v1",
+          "publishedAt": "2026-09-11T02:34:29.000Z"
+        }
+      ]
+    },
+    {
+      "id": "172170421eb1",
+      "title": "Test Complex Interactions Earlier with AI Prototyping",
+      "teaser": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-11T17:00:00.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Test Complex Interactions Earlier with AI Prototyping",
+          "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-11T17:00:00.000Z"
         }
       ]
     },
@@ -85,6 +105,46 @@
       ]
     },
     {
+      "id": "0138ab310b7e",
+      "title": "For the Designless",
+      "teaser": "On the value of cultural references, and the cost of losing them at scale. Photo by Yonghyun Lee on Unplash A designer is not an artist. A designer is a commercial problem-solver, hired to t",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-14T13:59:28.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "For the Designless",
+          "url": "https://uxdesign.cc/for-the-designless-0d3e7936a70c?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-14T13:59:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7fcdb9c97d56",
+      "title": "Five eras of UX, First drafts, Logos made of data, Voice AIUX patterns",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “There are two famous lines about history, and UX earns both. George Santayana wrote that those who cannot remember the past are",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-14T11:26:18.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Five eras of UX, First drafts, Logos made of data, Voice AIUX patterns",
+          "url": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-14T11:26:18.000Z"
+        }
+      ]
+    },
+    {
       "id": "5327f847241c",
       "title": "Show HN: Booley – open-source IDE for agentic chip design",
       "teaser": "I am a digital design engineer, and my day job is designing chips (mostly IP blocks, not full chips) in SystemVerilog. At the start of 2026 I started experimenting with LLM agents like Claud",
@@ -92,15 +152,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-09T07:34:11.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Booley – open-source IDE for agentic chip design",
           "url": "https://github.com/boldaxolotl/booley",
           "publishedAt": "2026-09-09T07:34:11.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2229d841005b",
+      "title": "Involving before Evolving: A Vision for Trustworthy Enterprise Digital Twin Engineering",
+      "teaser": "Enterprise Digital Twins (EDTs) promise data-driven decision support at organizational scale, but realizing them requires navigating siloed departments, tacit knowledge, and high-stakes deci",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-11T17:06:48.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Involving before Evolving: A Vision for Trustworthy Enterprise Digital Twin Engineering",
+          "url": "https://arxiv.org/abs/2609.13071v1",
+          "publishedAt": "2026-09-11T17:06:48.000Z"
         }
       ]
     },
@@ -165,6 +245,46 @@
       ]
     },
     {
+      "id": "6fb9ef47bcea",
+      "title": "UX Conference November Announced (Nov 16 - Nov 19)",
+      "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. Nov 16 - Nov ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-03T04:50:49.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference November Announced (Nov 16 - Nov 19)",
+          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-03T04:50:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "96cf85b2d3c3",
+      "title": "UX Conference September Announced (Sep 14 - Sep 25)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-01T20:37:45.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference September Announced (Sep 14 - Sep 25)",
+          "url": "https://www.nngroup.com/training/september/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-01T20:37:45.000Z"
+        }
+      ]
+    },
+    {
       "id": "1ab71cb3a234",
       "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
       "teaser": "Technical considerations in the design of the Obra shadcn/ui kit Thursday last week, Figma released...",
@@ -185,22 +305,42 @@
       ]
     },
     {
-      "id": "832203659908",
-      "title": "How to say no when a friend asks for a discount",
-      "teaser": "How thinking about price can connect to much bigger things. Continue reading on UX Collective »",
+      "id": "cad763da2d04",
+      "title": "NeuroClick: Preserving Surgeon Autonomy through Hands-Free Earable Tooth-Click Control in Neurosurgery",
+      "teaser": "Neurosurgeons frequently interact with operating room (OR) technologies while sterility and occupied hands constrain control. We introduce earables as a direct, hands-free control platform f",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-11T14:36:59.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "NeuroClick: Preserving Surgeon Autonomy through Hands-Free Earable Tooth-Click Control in Neurosurgery",
+          "url": "https://arxiv.org/abs/2609.12910v1",
+          "publishedAt": "2026-09-11T14:36:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "16dff5876b09",
+      "title": "Designing a Desktop Pet Native to Linux",
+      "teaser": "One of the original ideas behind Mochi was simple I wanted something cute living on my...",
       "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-14T11:20:16.000Z",
+      "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "today",
       "relevanceScore": 0.429,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "How to say no when a friend asks for a discount",
-          "url": "https://uxdesign.cc/how-to-say-no-when-a-friend-asks-for-a-discount-d0e48087eb1d?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-14T11:20:16.000Z"
+          "name": "devto-design",
+          "title": "Designing a Desktop Pet Native to Linux",
+          "url": "https://dev.to/mikachu/designing-a-desktop-pet-native-to-linux-315m",
+          "publishedAt": "2026-09-14T15:57:09.000Z"
         }
       ]
     },
@@ -254,7 +394,7 @@
       "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -285,6 +425,26 @@
       ]
     },
     {
+      "id": "6f94edb389bb",
+      "title": "UX Conference November Announced (Nov 9 - Nov 13)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. November 9 - 13, 2026.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-24T06:48:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference November Announced (Nov 9 - Nov 13)",
+          "url": "https://www.nngroup.com/training/november/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-24T06:48:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "51819eaaf5d7",
       "title": "From UX to AX: How AI Agents Change Application Design",
       "teaser": "",
@@ -305,22 +465,42 @@
       ]
     },
     {
-      "id": "6dab5406779a",
-      "title": "A short history of logos made of data",
-      "teaser": "An idea kept coming back in most branding projects I worked on in the past years: what if we embedded data in the logo? Real data, not symbols of information but information itself. Data tha",
-      "tag": "Process",
+      "id": "baa42e03b559",
+      "title": "\"I Felt Very Seen, But Still Very Alone\": Longitudinal Trajectories of General-Purpose LLM Use for Socioemotional Support",
+      "teaser": "People increasingly use general-purpose chatbots such as ChatGPT, Claude, and Gemini for mental health and emotional support. We report a multi-stage longitudinal qualitative study of 18 U.S",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-10T15:57:51.000Z",
+      "publishedAt": "2026-09-11T00:40:50.000Z",
       "since": "4 days ago",
-      "relevanceScore": 0.714,
+      "relevanceScore": 0.429,
       "categoryReason": "Published 4 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "A short history of logos made of data",
-          "url": "https://uxdesign.cc/a-short-history-of-logos-made-of-data-bd6a89e732ce?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-10T15:57:51.000Z"
+          "name": "arxiv-hci",
+          "title": "\"I Felt Very Seen, But Still Very Alone\": Longitudinal Trajectories of General-Purpose LLM Use for Socioemotional Support",
+          "url": "https://arxiv.org/abs/2609.12314v1",
+          "publishedAt": "2026-09-11T00:40:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "21537bff3dff",
+      "title": "Using AI for UX Work: Study Guide",
+      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-04T17:00:00.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 10 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Using AI for UX Work: Study Guide",
+          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-04T17:00:00.000Z"
         }
       ]
     },
@@ -485,6 +665,26 @@
       ]
     },
     {
+      "id": "832203659908",
+      "title": "How to say no when a friend asks for a discount",
+      "teaser": "How thinking about price can connect to much bigger things. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-14T11:20:16.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "How to say no when a friend asks for a discount",
+          "url": "https://uxdesign.cc/how-to-say-no-when-a-friend-asks-for-a-discount-d0e48087eb1d?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-14T11:20:16.000Z"
+        }
+      ]
+    },
+    {
       "id": "7c4b33f11f32",
       "title": "The real reason everyone hates the viral AI food slop images",
       "teaser": "We&#x2019;ve always made food look better than it is. So why does it feel different when AI does it? Continue reading on UX Collective »",
@@ -645,6 +845,26 @@
       ]
     },
     {
+      "id": "03201d525f0c",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Custodial Era of UX: Cleaning Up After AI",
+          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-28T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "89ee143012e1",
       "title": "Show HN: Arena, the same design system in React and Angular from one contract",
       "teaser": "",
@@ -665,42 +885,22 @@
       ]
     },
     {
-      "id": "c2dc7f127c06",
-      "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
-      "teaser": "When UX Is a Matter of Seconds: Designing for High-Stakes Interfaces In high stakes interface...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-08T12:15:27.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Heartbeats, Not Clicks: UX Under Extreme Pressure",
-          "url": "https://dev.to/pasindu_balasooriya/heartbeats-not-clicks-ux-under-extreme-pressure-4bmi",
-          "publishedAt": "2026-09-08T12:15:27.000Z"
-        }
-      ]
-    },
-    {
-      "id": "23cb55e68070",
-      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
+      "id": "0216afdd1ec7",
+      "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
+      "teaser": "When a technology company grows quickly, its brand can become a problem before anyone notices...",
       "tag": "Systems",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-20T03:23:01.000Z",
+      "publishedAt": "2026-08-19T22:58:59.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-design",
-          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
-          "publishedAt": "2026-08-20T03:23:01.000Z"
+          "title": "How We Turned an AI Brand Identity Into a Scalable Digital Design System",
+          "url": "https://dev.to/madebymonogram/how-we-turned-an-ai-brand-identity-into-a-scalable-digital-design-system-eo6",
+          "publishedAt": "2026-08-19T22:58:59.000Z"
         }
       ]
     },
@@ -794,73 +994,13 @@
       "publishedAt": "2026-08-26T05:06:25.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Propose and Dual-Control for DNS Changes",
           "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
           "publishedAt": "2026-08-26T05:06:25.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5de15657393b",
-      "title": "Decoupling Claim Timeouts from Feature Flags",
-      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Decoupling Claim Timeouts from Feature Flags",
-          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
-          "publishedAt": "2026-08-25T21:08:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7c2f71191b75",
-      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T13:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
-          "publishedAt": "2026-08-26T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "be045ee3b363",
-      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
-          "publishedAt": "2026-08-25T21:17:17.000Z"
         }
       ]
     }
@@ -870,75 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-14T14:55:16.731Z"
+      "fetchedAt": "2026-09-14T20:14:29.880Z"
     },
     {
       "source": "nngroup",
-      "ok": false,
-      "items": 0,
-      "fetchedAt": "2026-09-14T14:55:16.772Z",
-      "error": "fetch failed"
+      "ok": true,
+      "items": 20,
+      "fetchedAt": "2026-09-14T20:14:29.936Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-14T14:55:16.774Z"
+      "fetchedAt": "2026-09-14T20:14:29.938Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-14T14:55:16.774Z"
+      "fetchedAt": "2026-09-14T20:14:29.940Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-14T14:55:16.775Z"
+      "fetchedAt": "2026-09-14T20:14:29.941Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-14T14:55:16.776Z"
+      "fetchedAt": "2026-09-14T20:14:29.942Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-14T14:55:16.777Z"
+      "fetchedAt": "2026-09-14T20:14:29.944Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-09-14T14:55:16.777Z"
+      "fetchedAt": "2026-09-14T20:14:29.945Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 29,
-      "fetchedAt": "2026-09-14T14:55:16.778Z"
+      "fetchedAt": "2026-09-14T20:14:29.946Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": false,
-      "items": 0,
-      "fetchedAt": "2026-09-14T14:55:16.779Z",
-      "error": "HTTP 429"
+      "ok": true,
+      "items": 30,
+      "fetchedAt": "2026-09-14T20:14:29.947Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-14T14:55:16.779Z"
+      "fetchedAt": "2026-09-14T20:14:29.948Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-14T14:55:16.780Z"
+      "fetchedAt": "2026-09-14T20:14:29.949Z"
     }
   ]
 }
