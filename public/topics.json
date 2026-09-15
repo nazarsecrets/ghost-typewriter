@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-15T13:22:03.256Z",
-  "windowStart": "2026-08-16T13:22:03.256Z",
-  "windowEnd": "2026-09-15T13:22:03.256Z",
+  "generatedAt": "2026-09-15T19:37:46.513Z",
+  "windowStart": "2026-08-16T19:37:46.513Z",
+  "windowEnd": "2026-09-15T19:37:46.513Z",
   "topics": [
+    {
+      "id": "39f2707261fd",
+      "title": "Personalizing Personal Health Interfaces: Co-Design with Generative AI",
+      "teaser": "Personal health interfaces present wellbeing data through standardized dashboards that rarely fit how people interpret or act on it. Personalizing them to what people would like to see for t",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-14T05:06:24.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Personalizing Personal Health Interfaces: Co-Design with Generative AI",
+          "url": "https://arxiv.org/abs/2609.15046v1",
+          "publishedAt": "2026-09-14T05:06:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "268e2ace1f28",
+      "title": "Trust by Design: Trust Calibration Through Non-Advisory Socratic Dialogue in Conversational Agents",
+      "teaser": "As conversational AI systems increasingly operate in sensitive domains, the central challenge shifts from usability to trust calibration, ensuring that users rely on systems neither too much",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-13T22:19:18.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Trust by Design: Trust Calibration Through Non-Advisory Socratic Dialogue in Conversational Agents",
+          "url": "https://arxiv.org/abs/2609.14818v1",
+          "publishedAt": "2026-09-13T22:19:18.000Z"
+        }
+      ]
+    },
     {
       "id": "aaeec53ff421",
       "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
@@ -52,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -125,6 +165,26 @@
       ]
     },
     {
+      "id": "544bfa12af4e",
+      "title": "MedVA: An End-to-End Neuro-Symbolic Agentic System for Medical Volume Visualization",
+      "teaser": "Medical volume visualization requires selecting regions of interest (ROIs) and carefully controlling their relative visual emphasis according to a given clinical intent. Implementing these d",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-14T00:48:16.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "MedVA: An End-to-End Neuro-Symbolic Agentic System for Medical Volume Visualization",
+          "url": "https://arxiv.org/abs/2609.14874v1",
+          "publishedAt": "2026-09-14T00:48:16.000Z"
+        }
+      ]
+    },
+    {
       "id": "5327f847241c",
       "title": "Show HN: Booley – open-source IDE for agentic chip design",
       "teaser": "I am a digital design engineer, and my day job is designing chips (mostly IP blocks, not full chips) in SystemVerilog. At the start of 2026 I started experimenting with LLM agents like Claud",
@@ -132,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-09T07:34:11.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -185,42 +245,22 @@
       ]
     },
     {
-      "id": "edd263780606",
-      "title": "UX should just be called Experience Design",
-      "teaser": "",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "UX should just be called Experience Design",
-          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
-          "publishedAt": "2026-09-15T08:01:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "bff5fd8dd3f9",
-      "title": "The death of the deliverable",
-      "teaser": "AI didn&#x2019;t kill the wireframe; it exposed that the wireframe was never really the point Continue reading on UX Collective »",
+      "id": "135a534ad458",
+      "title": "Data storytelling meets interpretable machine learning: Decoding AI decisions for non-experts without revealing sensitive data and model details",
+      "teaser": "AI-driven automated decision-making requires both predictive performance and interpretability. Recent advances in interpretable machine learning (IML) provide tools for explaining model pred",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-15T05:04:14.000Z",
-      "since": "today",
+      "publishedAt": "2026-09-14T15:20:56.000Z",
+      "since": "yesterday",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "The death of the deliverable",
-          "url": "https://uxdesign.cc/the-death-of-the-deliverable-cbaea0123895?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-15T05:04:14.000Z"
+          "name": "arxiv-hci",
+          "title": "Data storytelling meets interpretable machine learning: Decoding AI decisions for non-experts without revealing sensitive data and model details",
+          "url": "https://arxiv.org/abs/2609.15722v1",
+          "publishedAt": "2026-09-14T15:20:56.000Z"
         }
       ]
     },
@@ -265,42 +305,22 @@
       ]
     },
     {
-      "id": "5f7d26253bb5",
-      "title": "The hidden culture of AI",
-      "teaser": "AI isn&#x2019;t culturally neutral. Whose culture are you designing for? Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-15T11:13:46.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The hidden culture of AI",
-          "url": "https://uxdesign.cc/ai-culture-ux-design-36c7d410cd1f?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-15T11:13:46.000Z"
-        }
-      ]
-    },
-    {
-      "id": "bd26fe16c7b3",
-      "title": "The users were confident, but wrong. Here’s how to design for that.",
-      "teaser": "How to design around confusing terminology, and users who feel confident about it Continue reading on UX Collective »",
+      "id": "e013a2daba15",
+      "title": "How—and why—to say no when a friend asks for a discount",
+      "teaser": "How thinking about price can connect to much bigger things. Continue reading on UX Collective »",
       "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-15T11:13:17.000Z",
-      "since": "today",
+      "publishedAt": "2026-09-14T11:20:16.000Z",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "The users were confident, but wrong. Here’s how to design for that.",
-          "url": "https://uxdesign.cc/the-users-were-confident-but-wrong-heres-how-to-design-for-that-4b1546dc5864?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-15T11:13:17.000Z"
+          "title": "How—and why—to say no when a friend asks for a discount",
+          "url": "https://uxdesign.cc/how-to-say-no-when-a-friend-asks-for-a-discount-d0e48087eb1d?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-14T11:20:16.000Z"
         }
       ]
     },
@@ -354,7 +374,7 @@
       "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -425,6 +445,46 @@
       ]
     },
     {
+      "id": "edd263780606",
+      "title": "UX should just be called Experience Design",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-15T08:01:39.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "UX should just be called Experience Design",
+          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
+          "publishedAt": "2026-09-15T08:01:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bff5fd8dd3f9",
+      "title": "The death of the deliverable",
+      "teaser": "AI didn&#x2019;t kill the wireframe; it exposed that the wireframe was never really the point Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-15T05:04:14.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The death of the deliverable",
+          "url": "https://uxdesign.cc/the-death-of-the-deliverable-cbaea0123895?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-15T05:04:14.000Z"
+        }
+      ]
+    },
+    {
       "id": "6fb9ef47bcea",
       "title": "UX Conference November Announced (Nov 16 - Nov 19)",
       "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. Nov 16 - Nov ",
@@ -434,7 +494,7 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
       "sources": [
         {
           "name": "nngroup",
@@ -625,42 +685,42 @@
       ]
     },
     {
-      "id": "7d6e4a313de2",
-      "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
-      "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
-      "tag": "Process",
+      "id": "5f7d26253bb5",
+      "title": "The hidden culture of AI",
+      "teaser": "AI isn&#x2019;t culturally neutral. Whose culture are you designing for? Continue reading on UX Collective »",
+      "tag": "AI",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-28T00:57:31.000Z",
-      "since": "3 weeks ago",
+      "category": "Latest",
+      "publishedAt": "2026-09-15T11:13:46.000Z",
+      "since": "today",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
-          "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
-          "publishedAt": "2026-08-28T00:57:31.000Z"
+          "name": "uxcollective",
+          "title": "The hidden culture of AI",
+          "url": "https://uxdesign.cc/ai-culture-ux-design-36c7d410cd1f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-15T11:13:46.000Z"
         }
       ]
     },
     {
-      "id": "832203659908",
-      "title": "How to say no when a friend asks for a discount",
-      "teaser": "How thinking about price can connect to much bigger things. Continue reading on UX Collective »",
+      "id": "bd26fe16c7b3",
+      "title": "The users were confident, but wrong. Here’s how to design for that.",
+      "teaser": "How to design around confusing terminology, and users who feel confident about it Continue reading on UX Collective »",
       "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-14T11:20:16.000Z",
-      "since": "yesterday",
+      "publishedAt": "2026-09-15T11:13:17.000Z",
+      "since": "today",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "How to say no when a friend asks for a discount",
-          "url": "https://uxdesign.cc/how-to-say-no-when-a-friend-asks-for-a-discount-d0e48087eb1d?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-14T11:20:16.000Z"
+          "title": "The users were confident, but wrong. Here’s how to design for that.",
+          "url": "https://uxdesign.cc/the-users-were-confident-but-wrong-heres-how-to-design-for-that-4b1546dc5864?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-15T11:13:17.000Z"
         }
       ]
     },
@@ -734,7 +794,7 @@
       "publishedAt": "2026-08-24T06:48:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
       "sources": [
         {
           "name": "nngroup",
@@ -832,15 +892,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-05T02:16:36.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Arena, the same design system in React and Angular from one contract",
           "url": "https://arena.dravensoft.org/web-benches/",
           "publishedAt": "2026-09-05T02:16:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "be045ee3b363",
+      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
+          "publishedAt": "2026-08-25T21:17:17.000Z"
         }
       ]
     },
@@ -885,6 +965,26 @@
       ]
     },
     {
+      "id": "7d6e4a313de2",
+      "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+      "teaser": "In remote software demos, the biggest problem is not always the product itself. Sometimes the...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-28T00:57:31.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Where Should I Look? 3 Small UX Problems in Remote Demos",
+          "url": "https://dev.to/masaki_iino_60e1ef88991b5/where-should-i-look-3-small-ux-problems-in-remote-demos-2n1d",
+          "publishedAt": "2026-08-28T00:57:31.000Z"
+        }
+      ]
+    },
+    {
       "id": "830a8c6e9c35",
       "title": "How well do agents use your design system?",
       "teaser": "",
@@ -903,106 +1003,6 @@
           "publishedAt": "2026-08-26T17:51:57.000Z"
         }
       ]
-    },
-    {
-      "id": "f97deb9ddcb6",
-      "title": "Show HN: Propose and Dual-Control for DNS Changes",
-      "teaser": "Hey, Hacker News. I just want to pick your brain for a feature we&#x27;re working on. I don&#x27;t know whether you have seen this as a pain point, but when I work in a company, a lot of tim",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T05:06:25.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Propose and Dual-Control for DNS Changes",
-          "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
-          "publishedAt": "2026-08-26T05:06:25.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5de15657393b",
-      "title": "Decoupling Claim Timeouts from Feature Flags",
-      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Decoupling Claim Timeouts from Feature Flags",
-          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
-          "publishedAt": "2026-08-25T21:08:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7c2f71191b75",
-      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T13:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
-          "publishedAt": "2026-08-26T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "23cb55e68070",
-      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-20T03:23:01.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
-          "publishedAt": "2026-08-20T03:23:01.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -1010,74 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-15T13:22:03.256Z"
+      "fetchedAt": "2026-09-15T19:37:46.513Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-15T13:22:03.308Z"
+      "fetchedAt": "2026-09-15T19:37:46.566Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-15T13:22:03.309Z"
+      "fetchedAt": "2026-09-15T19:37:46.567Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-15T13:22:03.311Z"
+      "fetchedAt": "2026-09-15T19:37:46.568Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-15T13:22:03.312Z"
+      "fetchedAt": "2026-09-15T19:37:46.569Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-15T13:22:03.313Z"
+      "fetchedAt": "2026-09-15T19:37:46.570Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-15T13:22:03.314Z"
+      "fetchedAt": "2026-09-15T19:37:46.571Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-15T13:22:03.315Z"
+      "fetchedAt": "2026-09-15T19:37:46.572Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-15T13:22:03.316Z"
+      "fetchedAt": "2026-09-15T19:37:46.573Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": false,
-      "items": 0,
-      "fetchedAt": "2026-09-15T13:22:03.317Z",
-      "error": "This operation was aborted"
+      "ok": true,
+      "items": 30,
+      "fetchedAt": "2026-09-15T19:37:46.574Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-15T13:22:03.317Z"
+      "fetchedAt": "2026-09-15T19:37:46.575Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-15T13:22:03.318Z"
+      "fetchedAt": "2026-09-15T19:37:46.576Z"
     }
   ]
 }
