@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T13:20:41.852Z",
-  "windowStart": "2026-08-17T13:20:41.852Z",
-  "windowEnd": "2026-09-16T13:20:41.852Z",
+  "generatedAt": "2026-09-16T19:28:51.419Z",
+  "windowStart": "2026-08-17T19:28:51.419Z",
+  "windowEnd": "2026-09-16T19:28:51.419Z",
   "topics": [
+    {
+      "id": "e77e562c8b88",
+      "title": "What Shakespeare got wrong about AI",
+      "teaser": "He wrote about a magic you could always stop. We built the kind that gets loose. He understood us better than science fiction ever has. The one thing he couldn’t imagine was what we actually",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T15:21:34.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What Shakespeare got wrong about AI",
+          "url": "https://uxdesign.cc/what-shakespeare-got-wrong-about-ai-73e9f58bfbc8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-16T15:21:34.000Z"
+        }
+      ]
+    },
     {
       "id": "51b700c4325f",
       "title": "Don’t let AI build a Winchester Mystery House",
@@ -12,35 +32,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-16T07:27:23.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Don’t let AI build a Winchester Mystery House",
           "url": "https://uxdesign.cc/dont-let-ai-build-a-winchester-mystery-house-2cb59ec05a73?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-16T07:27:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8ff7897bd70b",
-      "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15,",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-16T06:59:19.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-          "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-16T06:59:19.000Z"
         }
       ]
     },
@@ -92,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -205,6 +205,26 @@
       ]
     },
     {
+      "id": "8ff7897bd70b",
+      "title": "UX Conference December Announced (Dec 2 - Dec 15)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15,",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T06:59:19.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference December Announced (Dec 2 - Dec 15)",
+          "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-16T06:59:19.000Z"
+        }
+      ]
+    },
+    {
       "id": "1ab71cb3a234",
       "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
       "teaser": "Technical considerations in the design of the Obra shadcn/ui kit Thursday last week, Figma released...",
@@ -241,6 +261,26 @@
           "title": "Test Complex Interactions Earlier with AI Prototyping",
           "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-11T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "169857c0668c",
+      "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
+      "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-14T15:57:09.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
+          "url": "https://dev.to/mikachu/designing-a-desktop-pet-native-to-linux-315m",
+          "publishedAt": "2026-09-14T15:57:09.000Z"
         }
       ]
     },
@@ -294,7 +334,7 @@
       "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -392,9 +432,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-15T05:04:14.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -414,7 +454,7 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
       "sources": [
         {
           "name": "nngroup",
@@ -525,26 +565,6 @@
       ]
     },
     {
-      "id": "169857c0668c",
-      "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
-      "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-14T15:57:09.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
-          "url": "https://dev.to/mikachu/designing-a-desktop-pet-native-to-linux-315m",
-          "publishedAt": "2026-09-14T15:57:09.000Z"
-        }
-      ]
-    },
-    {
       "id": "54350fec1e22",
       "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
       "teaser": "",
@@ -581,26 +601,6 @@
           "title": "Show HN: My agents kept hallucinating APIs, so I built them a headless IDE",
           "url": "https://context-engine.app",
           "publishedAt": "2026-08-18T14:01:54.000Z"
-        }
-      ]
-    },
-    {
-      "id": "104f50c5e3cb",
-      "title": "Reservoir: The Design System of the NYPL",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-27T18:11:38.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Reservoir: The Design System of the NYPL",
-          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
-          "publishedAt": "2026-08-27T18:11:38.000Z"
         }
       ]
     },
@@ -705,26 +705,6 @@
       ]
     },
     {
-      "id": "830a8c6e9c35",
-      "title": "How well do agents use your design system?",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T17:51:57.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "How well do agents use your design system?",
-          "url": "https://www.sanity.io/engineering/design-system-evals",
-          "publishedAt": "2026-08-26T17:51:57.000Z"
-        }
-      ]
-    },
-    {
       "id": "e013a2daba15",
       "title": "How—and why—to say no when a friend asks for a discount",
       "teaser": "How thinking about price can connect to much bigger things. Continue reading on UX Collective »",
@@ -765,26 +745,6 @@
       ]
     },
     {
-      "id": "0e0d4819c55e",
-      "title": "You’re not behind. The feed is built to make you feel that way.",
-      "teaser": "Almost everyone in tech thinks the rest of the industry is further ahead. Most of them are wrong, and for the same reasons. Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-11T21:04:03.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "You’re not behind. The feed is built to make you feel that way.",
-          "url": "https://uxdesign.cc/youre-not-behind-the-feed-is-built-to-make-you-feel-that-way-7719d6a967dc?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-11T21:04:03.000Z"
-        }
-      ]
-    },
-    {
       "id": "21d7dc1f3a54",
       "title": "Building A UX ROI Case That Survives The Boardroom",
       "teaser": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible",
@@ -814,7 +774,7 @@
       "publishedAt": "2026-08-24T06:48:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
       "sources": [
         {
           "name": "nngroup",
@@ -905,6 +865,26 @@
       ]
     },
     {
+      "id": "03201d525f0c",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Custodial Era of UX: Cleaning Up After AI",
+          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-28T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "89ee143012e1",
       "title": "Show HN: Arena, the same design system in React and Angular from one contract",
       "teaser": "",
@@ -914,7 +894,7 @@
       "publishedAt": "2026-09-05T02:16:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -925,22 +905,42 @@
       ]
     },
     {
-      "id": "be045ee3b363",
-      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
-      "tag": "AI",
+      "id": "7c2f71191b75",
+      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "publishedAt": "2026-08-26T13:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
-          "publishedAt": "2026-08-25T21:17:17.000Z"
+          "name": "smashing",
+          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+          "publishedAt": "2026-08-26T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "23cb55e68070",
+      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
+      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-20T03:23:01.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
+          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
+          "publishedAt": "2026-08-20T03:23:01.000Z"
         }
       ]
     },
@@ -965,42 +965,42 @@
       ]
     },
     {
-      "id": "f97deb9ddcb6",
-      "title": "Show HN: Propose and Dual-Control for DNS Changes",
-      "teaser": "Hey, Hacker News. I just want to pick your brain for a feature we&#x27;re working on. I don&#x27;t know whether you have seen this as a pain point, but when I work in a company, a lot of tim",
-      "tag": "AI",
+      "id": "104f50c5e3cb",
+      "title": "Reservoir: The Design System of the NYPL",
+      "teaser": "",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-26T05:06:25.000Z",
+      "publishedAt": "2026-08-27T18:11:38.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Reservoir: The Design System of the NYPL",
+          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
+          "publishedAt": "2026-08-27T18:11:38.000Z"
+        }
+      ]
+    },
+    {
+      "id": "830a8c6e9c35",
+      "title": "How well do agents use your design system?",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T17:51:57.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
       "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "Show HN: Propose and Dual-Control for DNS Changes",
-          "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
-          "publishedAt": "2026-08-26T05:06:25.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5de15657393b",
-      "title": "Decoupling Claim Timeouts from Feature Flags",
-      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Decoupling Claim Timeouts from Feature Flags",
-          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
-          "publishedAt": "2026-08-25T21:08:28.000Z"
+          "title": "How well do agents use your design system?",
+          "url": "https://www.sanity.io/engineering/design-system-evals",
+          "publishedAt": "2026-08-26T17:51:57.000Z"
         }
       ]
     }
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-16T13:20:41.853Z"
+      "fetchedAt": "2026-09-16T19:28:51.419Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-16T13:20:41.908Z"
+      "fetchedAt": "2026-09-16T19:28:51.473Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-16T13:20:41.909Z"
+      "fetchedAt": "2026-09-16T19:28:51.474Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-16T13:20:41.910Z"
+      "fetchedAt": "2026-09-16T19:28:51.475Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-16T13:20:41.911Z"
+      "fetchedAt": "2026-09-16T19:28:51.476Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-16T13:20:41.912Z"
+      "fetchedAt": "2026-09-16T19:28:51.477Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-16T13:20:41.913Z"
+      "fetchedAt": "2026-09-16T19:28:51.478Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-16T13:20:41.914Z"
+      "fetchedAt": "2026-09-16T19:28:51.479Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-09-16T13:20:41.915Z"
+      "items": 29,
+      "fetchedAt": "2026-09-16T19:28:51.480Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-16T13:20:41.916Z"
+      "fetchedAt": "2026-09-16T19:28:51.481Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-16T13:20:41.917Z"
+      "fetchedAt": "2026-09-16T19:28:51.482Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-16T13:20:41.918Z"
+      "fetchedAt": "2026-09-16T19:28:51.483Z"
     }
   ]
 }
