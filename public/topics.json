@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T04:23:29.492Z",
-  "windowStart": "2026-08-17T04:23:29.492Z",
-  "windowEnd": "2026-09-16T04:23:29.492Z",
+  "generatedAt": "2026-09-16T13:20:41.852Z",
+  "windowStart": "2026-08-17T13:20:41.852Z",
+  "windowEnd": "2026-09-16T13:20:41.852Z",
   "topics": [
+    {
+      "id": "51b700c4325f",
+      "title": "Don’t let AI build a Winchester Mystery House",
+      "teaser": "A house built for 38 years without a plan, and the apps we are shipping the same way. Each new feature works alone and connects to nothing. Six architectural moves that give the rooms you ha",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T07:27:23.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Don’t let AI build a Winchester Mystery House",
+          "url": "https://uxdesign.cc/dont-let-ai-build-a-winchester-mystery-house-2cb59ec05a73?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-16T07:27:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8ff7897bd70b",
+      "title": "UX Conference December Announced (Dec 2 - Dec 15)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15,",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T06:59:19.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference December Announced (Dec 2 - Dec 15)",
+          "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-16T06:59:19.000Z"
+        }
+      ]
+    },
     {
       "id": "aaeec53ff421",
       "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
@@ -12,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-10T00:13:16.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -72,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-14T18:52:50.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -145,26 +185,6 @@
       ]
     },
     {
-      "id": "8616e040d182",
-      "title": "8 voice AIUX patterns",
-      "teaser": "8 voice AI UX patterns Mapping emerging Voice AI UX patterns, perceived agent roles, key design decisions and limitations Radio Rex (1922) was the first voice-activated toy ever sold. Rex th",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-10T22:40:55.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "8 voice AIUX patterns",
-          "url": "https://uxdesign.cc/8-voice-aiux-patterns-81324c8feaa0?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-10T22:40:55.000Z"
-        }
-      ]
-    },
-    {
       "id": "ff077aa966ed",
       "title": "Show HN: Learn/Practice Sudoku strategies web app",
       "teaser": "So, I wanted to get better at Sudoku puzzles, and I watched a lot of strategy videos, but I just could not grok them. Also I installed a bunch of free Sudoku games on my phone and got very (",
@@ -212,75 +232,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-11T17:00:00.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "nngroup",
           "title": "Test Complex Interactions Earlier with AI Prototyping",
           "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-11T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "ab18f599b8e4",
-      "title": "Enhancing Procedural Writing Through Personalized Example Retrieval: A Case Study on Cooking Recipes",
-      "teaser": "Writing high-quality procedural texts is a challenging task for many learners. While example-based learning has shown promise as a feedback approach, a limitation arises when all learners re",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-15T12:47:16.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Enhancing Procedural Writing Through Personalized Example Retrieval: A Case Study on Cooking Recipes",
-          "url": "https://arxiv.org/abs/2609.17118v1",
-          "publishedAt": "2026-09-15T12:47:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "93d6cf192d6d",
-      "title": "Beyond \"ChatGPT Can Make Mistakes\": Designing Interventions to Support Metacognitive Monitoring in AI-Assisted Work",
-      "teaser": "AI assistance places a metacognitive demand on users, who must judge their own competence and the system's. Yet designers lack comparative evidence on which interventions to choose, where to",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-15T12:09:18.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Beyond \"ChatGPT Can Make Mistakes\": Designing Interventions to Support Metacognitive Monitoring in AI-Assisted Work",
-          "url": "https://arxiv.org/abs/2609.17065v1",
-          "publishedAt": "2026-09-15T12:09:18.000Z"
-        }
-      ]
-    },
-    {
-      "id": "faa412b560b1",
-      "title": "The hidden culture layer in AI",
-      "teaser": "Why AI gravitates toward certain cultural defaults&#x200A;&#x2014;&#x200A;and what that means for the future of UX. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-15T11:13:46.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The hidden culture layer in AI",
-          "url": "https://uxdesign.cc/ai-culture-ux-design-36c7d410cd1f?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-15T11:13:46.000Z"
         }
       ]
     },
@@ -294,7 +254,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
       "sources": [
         {
           "name": "devto-design",
@@ -314,7 +274,7 @@
       "publishedAt": "2026-08-26T16:40:01.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "84 engagement signals within 20 days",
+      "categoryReason": "84 engagement signals within 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -485,26 +445,6 @@
       ]
     },
     {
-      "id": "fa8b59d3f285",
-      "title": "Figma Design QA Checklist: 30 Things to Check Before Handoff",
-      "teaser": "A Figma file can look finished and still contain dozens of small problems. A color might be slightly...",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-02T10:33:35.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Figma Design QA Checklist: 30 Things to Check Before Handoff",
-          "url": "https://dev.to/nixon_the/figma-design-qa-checklist-30-things-to-check-before-handoff-opc",
-          "publishedAt": "2026-09-02T10:33:35.000Z"
-        }
-      ]
-    },
-    {
       "id": "96cf85b2d3c3",
       "title": "UX Conference September Announced (Sep 14 - Sep 25)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
@@ -514,7 +454,7 @@
       "publishedAt": "2026-09-01T20:37:45.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
       "sources": [
         {
           "name": "nngroup",
@@ -554,7 +494,7 @@
       "publishedAt": "2026-09-03T17:56:50.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -645,6 +585,26 @@
       ]
     },
     {
+      "id": "104f50c5e3cb",
+      "title": "Reservoir: The Design System of the NYPL",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-27T18:11:38.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Reservoir: The Design System of the NYPL",
+          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
+          "publishedAt": "2026-08-27T18:11:38.000Z"
+        }
+      ]
+    },
+    {
       "id": "d6da69fcc0c2",
       "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
       "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
@@ -654,13 +614,73 @@
       "publishedAt": "2026-09-03T19:19:42.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
           "url": "https://devbar.sh",
           "publishedAt": "2026-09-03T19:19:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ab18f599b8e4",
+      "title": "Enhancing Procedural Writing Through Personalized Example Retrieval: A Case Study on Cooking Recipes",
+      "teaser": "Writing high-quality procedural texts is a challenging task for many learners. While example-based learning has shown promise as a feedback approach, a limitation arises when all learners re",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-15T12:47:16.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Enhancing Procedural Writing Through Personalized Example Retrieval: A Case Study on Cooking Recipes",
+          "url": "https://arxiv.org/abs/2609.17118v1",
+          "publishedAt": "2026-09-15T12:47:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "93d6cf192d6d",
+      "title": "Beyond \"ChatGPT Can Make Mistakes\": Designing Interventions to Support Metacognitive Monitoring in AI-Assisted Work",
+      "teaser": "AI assistance places a metacognitive demand on users, who must judge their own competence and the system's. Yet designers lack comparative evidence on which interventions to choose, where to",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-15T12:09:18.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Beyond \"ChatGPT Can Make Mistakes\": Designing Interventions to Support Metacognitive Monitoring in AI-Assisted Work",
+          "url": "https://arxiv.org/abs/2609.17065v1",
+          "publishedAt": "2026-09-15T12:09:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "faa412b560b1",
+      "title": "The hidden culture layer in AI",
+      "teaser": "Why AI gravitates toward certain cultural defaults&#x200A;&#x2014;&#x200A;and what that means for the future of UX. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-15T11:13:46.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The hidden culture layer in AI",
+          "url": "https://uxdesign.cc/ai-culture-ux-design-36c7d410cd1f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-15T11:13:46.000Z"
         }
       ]
     },
@@ -685,6 +705,26 @@
       ]
     },
     {
+      "id": "830a8c6e9c35",
+      "title": "How well do agents use your design system?",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T17:51:57.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "How well do agents use your design system?",
+          "url": "https://www.sanity.io/engineering/design-system-evals",
+          "publishedAt": "2026-08-26T17:51:57.000Z"
+        }
+      ]
+    },
+    {
       "id": "e013a2daba15",
       "title": "How—and why—to say no when a friend asks for a discount",
       "teaser": "How thinking about price can connect to much bigger things. Continue reading on UX Collective »",
@@ -705,26 +745,6 @@
       ]
     },
     {
-      "id": "f97deb9ddcb6",
-      "title": "Show HN: Propose and Dual-Control for DNS Changes",
-      "teaser": "Hey, Hacker News. I just want to pick your brain for a feature we&#x27;re working on. I don&#x27;t know whether you have seen this as a pain point, but when I work in a company, a lot of tim",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T05:06:25.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Propose and Dual-Control for DNS Changes",
-          "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
-          "publishedAt": "2026-08-26T05:06:25.000Z"
-        }
-      ]
-    },
-    {
       "id": "7c4b33f11f32",
       "title": "The real reason everyone hates the viral AI food slop images",
       "teaser": "We&#x2019;ve always made food look better than it is. So why does it feel different when AI does it? Continue reading on UX Collective »",
@@ -732,9 +752,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-12T21:40:38.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -752,9 +772,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-11T21:04:03.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -854,7 +874,7 @@
       "publishedAt": "2026-09-04T18:56:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -874,53 +894,13 @@
       "publishedAt": "2026-09-04T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 12 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "Using AI for UX Work: Study Guide",
           "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-04T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5de15657393b",
-      "title": "Decoupling Claim Timeouts from Feature Flags",
-      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Decoupling Claim Timeouts from Feature Flags",
-          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
-          "publishedAt": "2026-08-25T21:08:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
         }
       ]
     },
@@ -945,42 +925,22 @@
       ]
     },
     {
-      "id": "7c2f71191b75",
-      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
-      "tag": "Research",
+      "id": "be045ee3b363",
+      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-26T13:00:00.000Z",
+      "publishedAt": "2026-08-25T21:17:17.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
-          "name": "smashing",
-          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
-          "publishedAt": "2026-08-26T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "23cb55e68070",
-      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-20T03:23:01.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
-          "publishedAt": "2026-08-20T03:23:01.000Z"
+          "name": "devto-ux",
+          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
+          "publishedAt": "2026-08-25T21:17:17.000Z"
         }
       ]
     },
@@ -994,13 +954,53 @@
       "publishedAt": "2026-08-25T21:12:33.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
           "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
           "publishedAt": "2026-08-25T21:12:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f97deb9ddcb6",
+      "title": "Show HN: Propose and Dual-Control for DNS Changes",
+      "teaser": "Hey, Hacker News. I just want to pick your brain for a feature we&#x27;re working on. I don&#x27;t know whether you have seen this as a pain point, but when I work in a company, a lot of tim",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T05:06:25.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Propose and Dual-Control for DNS Changes",
+          "url": "https://www.loom.com/share/16dff02ee5604b7daf3ebc7c9c93d8a4",
+          "publishedAt": "2026-08-26T05:06:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5de15657393b",
+      "title": "Decoupling Claim Timeouts from Feature Flags",
+      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:08:28.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Decoupling Claim Timeouts from Feature Flags",
+          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
+          "publishedAt": "2026-08-25T21:08:28.000Z"
         }
       ]
     }
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-16T04:23:29.493Z"
+      "fetchedAt": "2026-09-16T13:20:41.853Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-16T04:23:29.533Z"
+      "fetchedAt": "2026-09-16T13:20:41.908Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-16T04:23:29.534Z"
+      "fetchedAt": "2026-09-16T13:20:41.909Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-16T04:23:29.535Z"
+      "fetchedAt": "2026-09-16T13:20:41.910Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-16T04:23:29.535Z"
+      "fetchedAt": "2026-09-16T13:20:41.911Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-16T04:23:29.536Z"
+      "fetchedAt": "2026-09-16T13:20:41.912Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-16T04:23:29.537Z"
+      "fetchedAt": "2026-09-16T13:20:41.913Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-16T04:23:29.538Z"
+      "fetchedAt": "2026-09-16T13:20:41.914Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-16T04:23:29.538Z"
+      "fetchedAt": "2026-09-16T13:20:41.915Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-16T04:23:29.539Z"
+      "fetchedAt": "2026-09-16T13:20:41.916Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-16T04:23:29.540Z"
+      "fetchedAt": "2026-09-16T13:20:41.917Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-16T04:23:29.541Z"
+      "fetchedAt": "2026-09-16T13:20:41.918Z"
     }
   ]
 }
