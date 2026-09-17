@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T13:16:58.200Z",
-  "windowStart": "2026-08-18T13:16:58.200Z",
-  "windowEnd": "2026-09-17T13:16:58.200Z",
+  "generatedAt": "2026-09-17T19:39:28.651Z",
+  "windowStart": "2026-08-18T19:39:28.651Z",
+  "windowEnd": "2026-09-17T19:39:28.651Z",
   "topics": [
     {
       "id": "d9849a31470e",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T04:31:32.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-16T07:27:23.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -194,7 +194,7 @@
       "publishedAt": "2026-09-09T07:34:11.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -252,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-16T06:59:19.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -414,7 +414,7 @@
       "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -465,6 +465,46 @@
       ]
     },
     {
+      "id": "21d7dc1f3a54",
+      "title": "Building A UX ROI Case That Survives The Boardroom",
+      "teaser": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-11T13:00:00.000Z",
+      "since": "6 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 6 days ago",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Building A UX ROI Case That Survives The Boardroom",
+          "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
+          "publishedAt": "2026-09-11T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6f94edb389bb",
+      "title": "UX Conference November Announced (Nov 9 - Nov 13)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. November 9 - 13, 2026.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-24T06:48:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference November Announced (Nov 9 - Nov 13)",
+          "url": "https://www.nngroup.com/training/november/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-24T06:48:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "b4f882fa4584",
       "title": "Quantum Black Design System: an open source release by McKinsey",
       "teaser": "",
@@ -481,6 +521,26 @@
           "title": "Quantum Black Design System: an open source release by McKinsey",
           "url": "https://medium.com/quantumblack/announcing-quantumblack-design-system-opensourcing-7dfaf3f8e207",
           "publishedAt": "2026-09-10T14:22:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "21537bff3dff",
+      "title": "Using AI for UX Work: Study Guide",
+      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-04T17:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Using AI for UX Work: Study Guide",
+          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-04T17:00:00.000Z"
         }
       ]
     },
@@ -585,26 +645,6 @@
       ]
     },
     {
-      "id": "89ee143012e1",
-      "title": "Show HN: Arena, the same design system in React and Angular from one contract",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-05T02:16:36.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Arena, the same design system in React and Angular from one contract",
-          "url": "https://arena.dravensoft.org/web-benches/",
-          "publishedAt": "2026-09-05T02:16:36.000Z"
-        }
-      ]
-    },
-    {
       "id": "94dd951b774d",
       "title": "The Death Of The Button: Why The Best Interface Is No Interface",
       "teaser": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving ",
@@ -652,9 +692,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-15T05:04:14.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -674,7 +714,7 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
       "sources": [
         {
           "name": "nngroup",
@@ -701,6 +741,26 @@
           "title": "Strata – A design system that records decisions, not components",
           "url": "https://github.com/Prometheus-000/strata",
           "publishedAt": "2026-09-07T14:25:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fa8b59d3f285",
+      "title": "Figma Design QA Checklist: 30 Things to Check Before Handoff",
+      "teaser": "A Figma file can look finished and still contain dozens of small problems. A color might be slightly...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-02T10:33:35.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Figma Design QA Checklist: 30 Things to Check Before Handoff",
+          "url": "https://dev.to/nixon_the/figma-design-qa-checklist-30-things-to-check-before-handoff-opc",
+          "publishedAt": "2026-09-02T10:33:35.000Z"
         }
       ]
     },
@@ -765,46 +825,6 @@
       ]
     },
     {
-      "id": "632ad5203758",
-      "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
-      "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
-          "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
-          "publishedAt": "2026-08-25T21:12:33.000Z"
-        }
-      ]
-    },
-    {
-      "id": "104f50c5e3cb",
-      "title": "Reservoir: The Design System of the NYPL",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-27T18:11:38.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Reservoir: The Design System of the NYPL",
-          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
-          "publishedAt": "2026-08-27T18:11:38.000Z"
-        }
-      ]
-    },
-    {
       "id": "d6da69fcc0c2",
       "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
       "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
@@ -825,46 +845,6 @@
       ]
     },
     {
-      "id": "76b590bb1d1b",
-      "title": "Show HN: My agents kept hallucinating APIs, so I built them a headless IDE",
-      "teaser": "I built Context Engine last year mostly out of frustration. Agents impressed me and made me angry at the same time: they kept calling APIs that don&#x27;t exist, re-implementing APIs already",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-18T14:01:54.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: My agents kept hallucinating APIs, so I built them a headless IDE",
-          "url": "https://context-engine.app",
-          "publishedAt": "2026-08-18T14:01:54.000Z"
-        }
-      ]
-    },
-    {
-      "id": "830a8c6e9c35",
-      "title": "How well do agents use your design system?",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T17:51:57.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "How well do agents use your design system?",
-          "url": "https://www.sanity.io/engineering/design-system-evals",
-          "publishedAt": "2026-08-26T17:51:57.000Z"
-        }
-      ]
-    },
-    {
       "id": "c5045d0a0e4d",
       "title": "Misgendering as Breakdown in Human-Machine Communication: How AI Companion Chatbot Users Experience and Repair Misgendering",
       "teaser": "In recent years, large language model-based AI companion and role play chatbots have grown increasingly popular. People turn to these chatbots for emotional support and to engage in romantic",
@@ -872,9 +852,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-16T06:20:36.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -1003,6 +983,26 @@
           "publishedAt": "2026-09-04T18:56:11.000Z"
         }
       ]
+    },
+    {
+      "id": "5de15657393b",
+      "title": "Decoupling Claim Timeouts from Feature Flags",
+      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:08:28.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Decoupling Claim Timeouts from Feature Flags",
+          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
+          "publishedAt": "2026-08-25T21:08:28.000Z"
+        }
+      ]
     }
   ],
   "sourceHealth": [
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-17T13:16:58.200Z"
+      "fetchedAt": "2026-09-17T19:39:28.652Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-17T13:16:58.241Z"
+      "fetchedAt": "2026-09-17T19:39:28.683Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-17T13:16:58.242Z"
+      "fetchedAt": "2026-09-17T19:39:28.684Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-17T13:16:58.243Z"
+      "fetchedAt": "2026-09-17T19:39:28.684Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-17T13:16:58.243Z"
+      "fetchedAt": "2026-09-17T19:39:28.685Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-17T13:16:58.244Z"
+      "fetchedAt": "2026-09-17T19:39:28.685Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-17T13:16:58.245Z"
+      "fetchedAt": "2026-09-17T19:39:28.686Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 10,
-      "fetchedAt": "2026-09-17T13:16:58.246Z"
+      "items": 9,
+      "fetchedAt": "2026-09-17T19:39:28.687Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 29,
-      "fetchedAt": "2026-09-17T13:16:58.246Z"
+      "fetchedAt": "2026-09-17T19:39:28.687Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-17T13:16:58.247Z"
+      "fetchedAt": "2026-09-17T19:39:28.688Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-17T13:16:58.248Z"
+      "fetchedAt": "2026-09-17T19:39:28.688Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-17T13:16:58.249Z"
+      "fetchedAt": "2026-09-17T19:39:28.689Z"
     }
   ]
 }
