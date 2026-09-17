@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T04:29:08.527Z",
-  "windowStart": "2026-08-18T04:29:08.527Z",
-  "windowEnd": "2026-09-17T04:29:08.527Z",
+  "generatedAt": "2026-09-17T13:16:58.200Z",
+  "windowStart": "2026-08-18T13:16:58.200Z",
+  "windowEnd": "2026-09-17T13:16:58.200Z",
   "topics": [
     {
-      "id": "54bc2054ace4",
-      "title": "Affora: A Design System for Agent-Friendly Interfaces",
-      "teaser": "Computer-use agents increasingly operate software designed for people, but interfaces often leave actions or task state unclear to machine readers. We present Affora, a design system that su",
-      "tag": "Systems",
+      "id": "d9849a31470e",
+      "title": "Lost dog—or lost designer?",
+      "teaser": "Why the ethics of AI-generated design depend on context, intention, and consequence Image: Generated with ChatGPT using a one-shot prompt I recently saw a missing-dog poster that caught my a",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-16T17:46:34.000Z",
+      "publishedAt": "2026-09-17T04:31:32.000Z",
       "since": "today",
       "relevanceScore": 1,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Affora: A Design System for Agent-Friendly Interfaces",
-          "url": "https://arxiv.org/abs/2609.19125v1",
-          "publishedAt": "2026-09-16T17:46:34.000Z"
+          "name": "uxcollective",
+          "title": "Lost dog—or lost designer?",
+          "url": "https://uxdesign.cc/lost-dog-or-lost-designer-d5de922e54d9?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-17T04:31:32.000Z"
         }
       ]
     },
@@ -30,11 +30,11 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-10T00:13:16.000Z",
       "since": "1 week ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (1.00) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -45,42 +45,22 @@
       ]
     },
     {
-      "id": "e4f0146e21b0",
-      "title": "Calmables: Demonstrating Closed-Loop Infrared Earables for Thermal Biofeedback and Relaxation Support",
-      "teaser": "We present Calmables, a walk-up demo of a closed-loop infrared earable that uses smart-ring heart rate to create subtle, ear-localized warming cues. Building on work on thermal comfort and i",
-      "tag": "AI",
+      "id": "54bc2054ace4",
+      "title": "Affora: A Design System for Agent-Friendly Interfaces",
+      "teaser": "Computer-use agents increasingly operate software designed for people, but interfaces often leave actions or task state unclear to machine readers. We present Affora, a design system that su",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-16T14:26:28.000Z",
+      "publishedAt": "2026-09-16T17:46:34.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.714,
+      "relevanceScore": 1,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "Calmables: Demonstrating Closed-Loop Infrared Earables for Thermal Biofeedback and Relaxation Support",
-          "url": "https://arxiv.org/abs/2609.18726v1",
-          "publishedAt": "2026-09-16T14:26:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "52e5788b6c0a",
-      "title": "Verify, Offload, Extend & Recommend: Selective Complementarity in AI Support for Physical Activity Planning with Longitudinal Patient Data",
-      "teaser": "Self-tracking technologies create longitudinal patient-generated health data, yet integrating these data into clinical decision-making can increase information-processing demands. Generative",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-16T11:11:02.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Verify, Offload, Extend & Recommend: Selective Complementarity in AI Support for Physical Activity Planning with Longitudinal Patient Data",
-          "url": "https://arxiv.org/abs/2609.18479v1",
-          "publishedAt": "2026-09-16T11:11:02.000Z"
+          "title": "Affora: A Design System for Agent-Friendly Interfaces",
+          "url": "https://arxiv.org/abs/2609.19125v1",
+          "publishedAt": "2026-09-16T17:46:34.000Z"
         }
       ]
     },
@@ -101,26 +81,6 @@
           "title": "Don’t let AI build a Winchester Mystery House",
           "url": "https://uxdesign.cc/dont-let-ai-build-a-winchester-mystery-house-2cb59ec05a73?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-16T07:27:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "54beb52d5928",
-      "title": "A11yLTLNav: Automatic Detection of Accessibility Navigation Failures",
-      "teaser": "For blind and low-vision (BLV) screen-reader users, a website that appears accessible in a static snapshot can become difficult or impossible to navigate once interaction begins. Yet, most a",
-      "tag": "Ethics",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-16T00:39:34.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "A11yLTLNav: Automatic Detection of Accessibility Navigation Failures",
-          "url": "https://arxiv.org/abs/2609.17959v1",
-          "publishedAt": "2026-09-16T00:39:34.000Z"
         }
       ]
     },
@@ -172,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-14T18:52:50.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -285,26 +245,6 @@
       ]
     },
     {
-      "id": "4fd952deac6e",
-      "title": "Integrating Flipped Learning and Generative AI for Practice-Based Design Education: Evidence from a Knit Yarn Design Course",
-      "teaser": "In practice-based design courses such as knit yarn design, students must turn visual ideas into feasible material outcomes. This is difficult because creative decisions are tied to yarn prop",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-16T11:40:53.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Integrating Flipped Learning and Generative AI for Practice-Based Design Education: Evidence from a Knit Yarn Design Course",
-          "url": "https://arxiv.org/abs/2609.18505v1",
-          "publishedAt": "2026-09-16T11:40:53.000Z"
-        }
-      ]
-    },
-    {
       "id": "8ff7897bd70b",
       "title": "UX Conference December Announced (Dec 2 - Dec 15)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15,",
@@ -321,66 +261,6 @@
           "title": "UX Conference December Announced (Dec 2 - Dec 15)",
           "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-16T06:59:19.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4daf7acf96d6",
-      "title": "Apply- Mag: One Tool to Support Many Inclusive Design Methods",
-      "teaser": "Doing inclusive design in HCI practice can be labor-intensive, a costly barrier that some companies and HCI practitioners may be unwilling or unable to overcome. Yet, not doing inclusive des",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-16T00:19:35.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Apply- Mag: One Tool to Support Many Inclusive Design Methods",
-          "url": "https://arxiv.org/abs/2609.17948v1",
-          "publishedAt": "2026-09-16T00:19:35.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d370885cb3ca",
-      "title": "AI Mediators Regulate Emotion and Create Value in Disputes",
-      "teaser": "In conflict and disputes, especially, emotion acts as a salient force in influencing outcomes. Prior work shows negative affect can obstruct collaborative behaviors, which typically lead to ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-15T23:49:39.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AI Mediators Regulate Emotion and Create Value in Disputes",
-          "url": "https://arxiv.org/abs/2609.17933v1",
-          "publishedAt": "2026-09-15T23:49:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8cb50904c937",
-      "title": "Design System Scalability Made iPhone Duo Possible",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-16T21:47:20.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Design System Scalability Made iPhone Duo Possible",
-          "url": "https://blog.romain.garden/blog/design-system-scalability-made-iphone-duo-possible/",
-          "publishedAt": "2026-09-16T21:47:20.000Z"
         }
       ]
     },
@@ -412,9 +292,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-11T17:00:00.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -434,7 +314,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
       "sources": [
         {
           "name": "devto-design",
@@ -465,22 +345,62 @@
       ]
     },
     {
-      "id": "c5045d0a0e4d",
-      "title": "Misgendering as Breakdown in Human-Machine Communication: How AI Companion Chatbot Users Experience and Repair Misgendering",
-      "teaser": "In recent years, large language model-based AI companion and role play chatbots have grown increasingly popular. People turn to these chatbots for emotional support and to engage in romantic",
+      "id": "e4f0146e21b0",
+      "title": "Calmables: Demonstrating Closed-Loop Infrared Earables for Thermal Biofeedback and Relaxation Support",
+      "teaser": "We present Calmables, a walk-up demo of a closed-loop infrared earable that uses smart-ring heart rate to create subtle, ear-localized warming cues. Building on work on thermal comfort and i",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-16T06:20:36.000Z",
+      "publishedAt": "2026-09-16T14:26:28.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.429,
+      "relevanceScore": 0.714,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "Misgendering as Breakdown in Human-Machine Communication: How AI Companion Chatbot Users Experience and Repair Misgendering",
-          "url": "https://arxiv.org/abs/2609.18186v1",
-          "publishedAt": "2026-09-16T06:20:36.000Z"
+          "title": "Calmables: Demonstrating Closed-Loop Infrared Earables for Thermal Biofeedback and Relaxation Support",
+          "url": "https://arxiv.org/abs/2609.18726v1",
+          "publishedAt": "2026-09-16T14:26:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "52e5788b6c0a",
+      "title": "Verify, Offload, Extend & Recommend: Selective Complementarity in AI Support for Physical Activity Planning with Longitudinal Patient Data",
+      "teaser": "Self-tracking technologies create longitudinal patient-generated health data, yet integrating these data into clinical decision-making can increase information-processing demands. Generative",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T11:11:02.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Verify, Offload, Extend & Recommend: Selective Complementarity in AI Support for Physical Activity Planning with Longitudinal Patient Data",
+          "url": "https://arxiv.org/abs/2609.18479v1",
+          "publishedAt": "2026-09-16T11:11:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "54beb52d5928",
+      "title": "A11yLTLNav: Automatic Detection of Accessibility Navigation Failures",
+      "teaser": "For blind and low-vision (BLV) screen-reader users, a website that appears accessible in a static snapshot can become difficult or impossible to navigate once interaction begins. Yet, most a",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T00:39:34.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "A11yLTLNav: Automatic Detection of Accessibility Navigation Failures",
+          "url": "https://arxiv.org/abs/2609.17959v1",
+          "publishedAt": "2026-09-16T00:39:34.000Z"
         }
       ]
     },
@@ -565,6 +485,26 @@
       ]
     },
     {
+      "id": "4fd952deac6e",
+      "title": "Integrating Flipped Learning and Generative AI for Practice-Based Design Education: Evidence from a Knit Yarn Design Course",
+      "teaser": "In practice-based design courses such as knit yarn design, students must turn visual ideas into feasible material outcomes. This is difficult because creative decisions are tied to yarn prop",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T11:40:53.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Integrating Flipped Learning and Generative AI for Practice-Based Design Education: Evidence from a Knit Yarn Design Course",
+          "url": "https://arxiv.org/abs/2609.18505v1",
+          "publishedAt": "2026-09-16T11:40:53.000Z"
+        }
+      ]
+    },
+    {
       "id": "edd263780606",
       "title": "UX should just be called Experience Design",
       "teaser": "",
@@ -585,6 +525,46 @@
       ]
     },
     {
+      "id": "4daf7acf96d6",
+      "title": "Apply- Mag: One Tool to Support Many Inclusive Design Methods",
+      "teaser": "Doing inclusive design in HCI practice can be labor-intensive, a costly barrier that some companies and HCI practitioners may be unwilling or unable to overcome. Yet, not doing inclusive des",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T00:19:35.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Apply- Mag: One Tool to Support Many Inclusive Design Methods",
+          "url": "https://arxiv.org/abs/2609.17948v1",
+          "publishedAt": "2026-09-16T00:19:35.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d370885cb3ca",
+      "title": "AI Mediators Regulate Emotion and Create Value in Disputes",
+      "teaser": "In conflict and disputes, especially, emotion acts as a salient force in influencing outcomes. Prior work shows negative affect can obstruct collaborative behaviors, which typically lead to ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-15T23:49:39.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "AI Mediators Regulate Emotion and Create Value in Disputes",
+          "url": "https://arxiv.org/abs/2609.17933v1",
+          "publishedAt": "2026-09-15T23:49:39.000Z"
+        }
+      ]
+    },
+    {
       "id": "9920dcc5c074",
       "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
       "teaser": "Hello! I&#x27;m a student from Spain and I&#x27;m the creator of MesaOS, an open-source operating system written from scratch in Rust for x86_64. I&#x27;ve been working on it mostly by mysel",
@@ -594,13 +574,33 @@
       "publishedAt": "2026-09-03T17:56:50.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
           "url": "https://github.com/crackanimad0r/MesaOS",
           "publishedAt": "2026-09-03T17:56:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "89ee143012e1",
+      "title": "Show HN: Arena, the same design system in React and Angular from one contract",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-05T02:16:36.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Arena, the same design system in React and Angular from one contract",
+          "url": "https://arena.dravensoft.org/web-benches/",
+          "publishedAt": "2026-09-05T02:16:36.000Z"
         }
       ]
     },
@@ -621,6 +621,26 @@
           "title": "The Death Of The Button: Why The Best Interface Is No Interface",
           "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
           "publishedAt": "2026-09-09T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8cb50904c937",
+      "title": "Design System Scalability Made iPhone Duo Possible",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T21:47:20.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design System Scalability Made iPhone Duo Possible",
+          "url": "https://blog.romain.garden/blog/design-system-scalability-made-iphone-duo-possible/",
+          "publishedAt": "2026-09-16T21:47:20.000Z"
         }
       ]
     },
@@ -714,7 +734,7 @@
       "publishedAt": "2026-09-01T20:37:45.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "nngroup",
@@ -745,6 +765,46 @@
       ]
     },
     {
+      "id": "632ad5203758",
+      "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
+      "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:12:33.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
+          "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
+          "publishedAt": "2026-08-25T21:12:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "104f50c5e3cb",
+      "title": "Reservoir: The Design System of the NYPL",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-27T18:11:38.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Reservoir: The Design System of the NYPL",
+          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
+          "publishedAt": "2026-08-27T18:11:38.000Z"
+        }
+      ]
+    },
+    {
       "id": "d6da69fcc0c2",
       "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
       "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
@@ -754,7 +814,7 @@
       "publishedAt": "2026-09-03T19:19:42.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -781,6 +841,46 @@
           "title": "Show HN: My agents kept hallucinating APIs, so I built them a headless IDE",
           "url": "https://context-engine.app",
           "publishedAt": "2026-08-18T14:01:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": "830a8c6e9c35",
+      "title": "How well do agents use your design system?",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T17:51:57.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "How well do agents use your design system?",
+          "url": "https://www.sanity.io/engineering/design-system-evals",
+          "publishedAt": "2026-08-26T17:51:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c5045d0a0e4d",
+      "title": "Misgendering as Breakdown in Human-Machine Communication: How AI Companion Chatbot Users Experience and Repair Misgendering",
+      "teaser": "In recent years, large language model-based AI companion and role play chatbots have grown increasingly popular. People turn to these chatbots for emotional support and to engage in romantic",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T06:20:36.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Misgendering as Breakdown in Human-Machine Communication: How AI Companion Chatbot Users Experience and Repair Misgendering",
+          "url": "https://arxiv.org/abs/2609.18186v1",
+          "publishedAt": "2026-09-16T06:20:36.000Z"
         }
       ]
     },
@@ -845,26 +945,6 @@
       ]
     },
     {
-      "id": "7c4b33f11f32",
-      "title": "The real reason everyone hates the viral AI food slop images",
-      "teaser": "We&#x2019;ve always made food look better than it is. So why does it feel different when AI does it? Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-12T21:40:38.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The real reason everyone hates the viral AI food slop images",
-          "url": "https://uxdesign.cc/why-people-hate-viral-ai-food-posters-db2b4329ae11?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-12T21:40:38.000Z"
-        }
-      ]
-    },
-    {
       "id": "a5c3ec805549",
       "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
       "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
@@ -914,93 +994,13 @@
       "publishedAt": "2026-09-04T18:56:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
           "url": "https://gotvisor.com",
           "publishedAt": "2026-09-04T18:56:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "21d7dc1f3a54",
-      "title": "Building A UX ROI Case That Survives The Boardroom",
-      "teaser": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-11T13:00:00.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Building A UX ROI Case That Survives The Boardroom",
-          "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
-          "publishedAt": "2026-09-11T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "6f94edb389bb",
-      "title": "UX Conference November Announced (Nov 9 - Nov 13)",
-      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. November 9 - 13, 2026.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-24T06:48:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference November Announced (Nov 9 - Nov 13)",
-          "url": "https://www.nngroup.com/training/november/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-24T06:48:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5de15657393b",
-      "title": "Decoupling Claim Timeouts from Feature Flags",
-      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Decoupling Claim Timeouts from Feature Flags",
-          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
-          "publishedAt": "2026-08-25T21:08:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "21537bff3dff",
-      "title": "Using AI for UX Work: Study Guide",
-      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T17:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 12 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Using AI for UX Work: Study Guide",
-          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-04T17:00:00.000Z"
         }
       ]
     }
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-17T04:29:08.527Z"
+      "fetchedAt": "2026-09-17T13:16:58.200Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-17T04:29:08.585Z"
+      "fetchedAt": "2026-09-17T13:16:58.241Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-17T04:29:08.586Z"
+      "fetchedAt": "2026-09-17T13:16:58.242Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-17T04:29:08.587Z"
+      "fetchedAt": "2026-09-17T13:16:58.243Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-17T04:29:08.588Z"
+      "fetchedAt": "2026-09-17T13:16:58.243Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-17T04:29:08.589Z"
+      "fetchedAt": "2026-09-17T13:16:58.244Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-17T04:29:08.590Z"
+      "fetchedAt": "2026-09-17T13:16:58.245Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-17T04:29:08.591Z"
+      "fetchedAt": "2026-09-17T13:16:58.246Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 29,
-      "fetchedAt": "2026-09-17T04:29:08.592Z"
+      "fetchedAt": "2026-09-17T13:16:58.246Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-17T04:29:08.593Z"
+      "fetchedAt": "2026-09-17T13:16:58.247Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-17T04:29:08.594Z"
+      "fetchedAt": "2026-09-17T13:16:58.248Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-17T04:29:08.595Z"
+      "fetchedAt": "2026-09-17T13:16:58.249Z"
     }
   ]
 }
