@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T04:13:51.146Z",
-  "windowStart": "2026-08-19T04:13:51.146Z",
-  "windowEnd": "2026-09-18T04:13:51.146Z",
+  "generatedAt": "2026-09-18T12:51:46.560Z",
+  "windowStart": "2026-08-19T12:51:46.560Z",
+  "windowEnd": "2026-09-18T12:51:46.560Z",
   "topics": [
+    {
+      "id": "7c06bc58b1fd",
+      "title": "Altman and Amodei’s “unsafe at any prompt” moment for AI",
+      "teaser": "Nader’s fight was never about one car, and neither is this one. AI assisted. Detroit spent a decade calling crashes driver error. The AI industry is running the same defense, now we’re all s",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-18T07:38:53.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Altman and Amodei’s “unsafe at any prompt” moment for AI",
+          "url": "https://uxdesign.cc/altman-and-amodeis-unsafe-at-any-prompt-moment-for-ai-6a73f144b56e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-18T07:38:53.000Z"
+        }
+      ]
+    },
     {
       "id": "a7f773637b8a",
       "title": "Rethinking writing in the world of design and AI",
@@ -12,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T21:33:43.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -32,35 +52,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T21:29:03.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Nothing has changed other than how we talk about it",
           "url": "https://uxdesign.cc/nothing-has-changed-other-than-how-we-talk-about-it-fcc554e853aa?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-17T21:29:03.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8362a31f1eac",
-      "title": "Please don’t stretch your app for foldables",
-      "teaser": "What happens when the screen isn’t a fixed constraint? Foldables have existed in the market since 2019 with the Samsung Galaxy Fold, but it’s really only been an “Android thing.” And if your",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-17T21:34:12.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Please don’t stretch your app for foldables",
-          "url": "https://uxdesign.cc/please-dont-stretch-your-app-for-foldables-a62f1f8230ac?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-17T21:34:12.000Z"
         }
       ]
     },
@@ -94,7 +94,7 @@
       "publishedAt": "2026-09-10T00:13:16.000Z",
       "since": "1 week ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 8 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -185,22 +185,22 @@
       ]
     },
     {
-      "id": "0387b8818487",
-      "title": "greCAPTCHA: Assessing Understanding as Evidence of Research Authorship Under Generative AI",
-      "teaser": "Conferences, journals, funders, schools, and universities are struggling with a surge of potentially AI-generated submissions from ostensibly human authors, who may not have exercised suffic",
-      "tag": "Research",
+      "id": "8362a31f1eac",
+      "title": "Please don’t stretch your app for foldables",
+      "teaser": "What happens when the screen isn’t a fixed constraint? Foldables have existed in the market since 2019 with the Samsung Galaxy Fold, but it’s really only been an “Android thing.” And if your",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-17T14:34:34.000Z",
+      "publishedAt": "2026-09-17T21:34:12.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.571,
+      "relevanceScore": 0.857,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "greCAPTCHA: Assessing Understanding as Evidence of Research Authorship Under Generative AI",
-          "url": "https://arxiv.org/abs/2609.20481v1",
-          "publishedAt": "2026-09-17T14:34:34.000Z"
+          "name": "uxcollective",
+          "title": "Please don’t stretch your app for foldables",
+          "url": "https://uxdesign.cc/please-dont-stretch-your-app-for-foldables-a62f1f8230ac?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-17T21:34:12.000Z"
         }
       ]
     },
@@ -285,46 +285,6 @@
       ]
     },
     {
-      "id": "e7079341108b",
-      "title": "The evidence at work",
-      "teaser": "The floor plan and the flexibility policy were chosen deliberately, by people who had an outcome in mind. When the results arrived, they&#x2026; Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-17T21:29:20.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The evidence at work",
-          "url": "https://uxdesign.cc/the-evidence-at-work-7407503330e8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-17T21:29:20.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e6c239469c87",
-      "title": "The Data Hospital: A Workflow-Based Concept for Explainable Research Data Quality Assistance",
-      "teaser": "Research data quality is multidimensional and purpose-dependent: it emerges from the interplay of data, intended use, contextual knowledge, documentation, intervention decisions, and traceab",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-17T17:50:30.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "The Data Hospital: A Workflow-Based Concept for Explainable Research Data Quality Assistance",
-          "url": "https://arxiv.org/abs/2609.20782v1",
-          "publishedAt": "2026-09-17T17:50:30.000Z"
-        }
-      ]
-    },
-    {
       "id": "172170421eb1",
       "title": "Test Complex Interactions Earlier with AI Prototyping",
       "teaser": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
@@ -332,9 +292,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-11T17:00:00.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -352,9 +312,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-24T16:45:48.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-design",
@@ -445,6 +405,26 @@
       ]
     },
     {
+      "id": "0387b8818487",
+      "title": "greCAPTCHA: Assessing Understanding as Evidence of Research Authorship Under Generative AI",
+      "teaser": "Conferences, journals, funders, schools, and universities are struggling with a surge of potentially AI-generated submissions from ostensibly human authors, who may not have exercised suffic",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-17T14:34:34.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "greCAPTCHA: Assessing Understanding as Evidence of Research Authorship Under Generative AI",
+          "url": "https://arxiv.org/abs/2609.20481v1",
+          "publishedAt": "2026-09-17T14:34:34.000Z"
+        }
+      ]
+    },
+    {
       "id": "b4f882fa4584",
       "title": "Quantum Black Design System: an open source release by McKinsey",
       "teaser": "",
@@ -494,33 +474,13 @@
       "publishedAt": "2026-09-03T17:56:50.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
           "url": "https://github.com/crackanimad0r/MesaOS",
           "publishedAt": "2026-09-03T17:56:50.000Z"
-        }
-      ]
-    },
-    {
-      "id": "89ee143012e1",
-      "title": "Show HN: Arena, the same design system in React and Angular from one contract",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-05T02:16:36.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Arena, the same design system in React and Angular from one contract",
-          "url": "https://arena.dravensoft.org/web-benches/",
-          "publishedAt": "2026-09-05T02:16:36.000Z"
         }
       ]
     },
@@ -552,35 +512,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-16T21:47:20.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Design System Scalability Made iPhone Duo Possible",
           "url": "https://blog.romain.garden/blog/design-system-scalability-made-iphone-duo-possible/",
           "publishedAt": "2026-09-16T21:47:20.000Z"
-        }
-      ]
-    },
-    {
-      "id": "bff5fd8dd3f9",
-      "title": "The death of the deliverable",
-      "teaser": "AI didn&#x2019;t kill the wireframe; it exposed that the wireframe was never really the point Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-15T05:04:14.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The death of the deliverable",
-          "url": "https://uxdesign.cc/the-death-of-the-deliverable-cbaea0123895?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-15T05:04:14.000Z"
         }
       ]
     },
@@ -654,7 +594,7 @@
       "publishedAt": "2026-09-01T20:37:45.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "nngroup",
@@ -685,46 +625,6 @@
       ]
     },
     {
-      "id": "632ad5203758",
-      "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
-      "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
-          "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
-          "publishedAt": "2026-08-25T21:12:33.000Z"
-        }
-      ]
-    },
-    {
-      "id": "104f50c5e3cb",
-      "title": "Reservoir: The Design System of the NYPL",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-27T18:11:38.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Reservoir: The Design System of the NYPL",
-          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
-          "publishedAt": "2026-08-27T18:11:38.000Z"
-        }
-      ]
-    },
-    {
       "id": "d6da69fcc0c2",
       "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
       "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
@@ -734,7 +634,7 @@
       "publishedAt": "2026-09-03T19:19:42.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -745,22 +645,42 @@
       ]
     },
     {
-      "id": "830a8c6e9c35",
-      "title": "How well do agents use your design system?",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "e7079341108b",
+      "title": "The evidence at work",
+      "teaser": "The floor plan and the flexibility policy were chosen deliberately, by people who had an outcome in mind. When the results arrived, they&#x2026; Continue reading on UX Collective »",
+      "tag": "Process",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T17:51:57.000Z",
-      "since": "3 weeks ago",
+      "category": "Latest",
+      "publishedAt": "2026-09-17T21:29:20.000Z",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "How well do agents use your design system?",
-          "url": "https://www.sanity.io/engineering/design-system-evals",
-          "publishedAt": "2026-08-26T17:51:57.000Z"
+          "name": "uxcollective",
+          "title": "The evidence at work",
+          "url": "https://uxdesign.cc/the-evidence-at-work-7407503330e8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-17T21:29:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e6c239469c87",
+      "title": "The Data Hospital: A Workflow-Based Concept for Explainable Research Data Quality Assistance",
+      "teaser": "Research data quality is multidimensional and purpose-dependent: it emerges from the interplay of data, intended use, contextual knowledge, documentation, intervention decisions, and traceab",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-17T17:50:30.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "The Data Hospital: A Workflow-Based Concept for Explainable Research Data Quality Assistance",
+          "url": "https://arxiv.org/abs/2609.20782v1",
+          "publishedAt": "2026-09-17T17:50:30.000Z"
         }
       ]
     },
@@ -854,7 +774,7 @@
       "publishedAt": "2026-09-04T18:56:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -905,6 +825,26 @@
       ]
     },
     {
+      "id": "5de15657393b",
+      "title": "Decoupling Claim Timeouts from Feature Flags",
+      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:08:28.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Decoupling Claim Timeouts from Feature Flags",
+          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
+          "publishedAt": "2026-08-25T21:08:28.000Z"
+        }
+      ]
+    },
+    {
       "id": "21537bff3dff",
       "title": "Using AI for UX Work: Study Guide",
       "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
@@ -914,7 +854,7 @@
       "publishedAt": "2026-09-04T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
       "sources": [
         {
           "name": "nngroup",
@@ -925,22 +865,22 @@
       ]
     },
     {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "tag": "AI",
+      "id": "89ee143012e1",
+      "title": "Show HN: Arena, the same design system in React and Angular from one contract",
+      "teaser": "",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "3 weeks ago",
+      "publishedAt": "2026-09-05T02:16:36.000Z",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
+          "name": "hn-designsystem",
+          "title": "Show HN: Arena, the same design system in React and Angular from one contract",
+          "url": "https://arena.dravensoft.org/web-benches/",
+          "publishedAt": "2026-09-05T02:16:36.000Z"
         }
       ]
     },
@@ -965,42 +905,102 @@
       ]
     },
     {
-      "id": "23cb55e68070",
-      "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-      "teaser": "While working on a design system recently, I kept running into the same frustrating problem: I'd grab...",
-      "tag": "Systems",
+      "id": "be045ee3b363",
+      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-20T03:23:01.000Z",
-      "since": "4 weeks ago",
+      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
-          "name": "devto-design",
-          "title": "How I Built a Color Picker That Actually Converts Colors Correctly (HEX/RGB/HSL)",
-          "url": "https://dev.to/ggwork/how-i-built-a-color-picker-that-actually-converts-colors-correctly-hexrgbhsl-45ga",
-          "publishedAt": "2026-08-20T03:23:01.000Z"
+          "name": "devto-ux",
+          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
+          "publishedAt": "2026-08-25T21:17:17.000Z"
         }
       ]
     },
     {
-      "id": "7c2f71191b75",
-      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
-      "tag": "Research",
+      "id": "632ad5203758",
+      "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
+      "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-26T13:00:00.000Z",
+      "publishedAt": "2026-08-25T21:12:33.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
+          "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
+          "publishedAt": "2026-08-25T21:12:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "104f50c5e3cb",
+      "title": "Reservoir: The Design System of the NYPL",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-27T18:11:38.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Reservoir: The Design System of the NYPL",
+          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
+          "publishedAt": "2026-08-27T18:11:38.000Z"
+        }
+      ]
+    },
+    {
+      "id": "830a8c6e9c35",
+      "title": "How well do agents use your design system?",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-26T17:51:57.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
       "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
-          "name": "smashing",
-          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
-          "publishedAt": "2026-08-26T13:00:00.000Z"
+          "name": "hn-designsystem",
+          "title": "How well do agents use your design system?",
+          "url": "https://www.sanity.io/engineering/design-system-evals",
+          "publishedAt": "2026-08-26T17:51:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "03201d525f0c",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Custodial Era of UX: Cleaning Up After AI",
+          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-28T17:00:00.000Z"
         }
       ]
     }
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-18T04:13:51.146Z"
+      "fetchedAt": "2026-09-18T12:51:46.560Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-18T04:13:51.200Z"
+      "fetchedAt": "2026-09-18T12:51:46.612Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-18T04:13:51.201Z"
+      "fetchedAt": "2026-09-18T12:51:46.613Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-18T04:13:51.202Z"
+      "fetchedAt": "2026-09-18T12:51:46.614Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-18T04:13:51.203Z"
+      "fetchedAt": "2026-09-18T12:51:46.615Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-18T04:13:51.204Z"
+      "fetchedAt": "2026-09-18T12:51:46.616Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-18T04:13:51.205Z"
+      "fetchedAt": "2026-09-18T12:51:46.617Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-09-18T04:13:51.206Z"
+      "fetchedAt": "2026-09-18T12:51:46.618Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 29,
-      "fetchedAt": "2026-09-18T04:13:51.206Z"
+      "fetchedAt": "2026-09-18T12:51:46.619Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-18T04:13:51.208Z"
+      "fetchedAt": "2026-09-18T12:51:46.620Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-18T04:13:51.208Z"
+      "fetchedAt": "2026-09-18T12:51:46.621Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-18T04:13:51.210Z"
+      "fetchedAt": "2026-09-18T12:51:46.622Z"
     }
   ]
 }
