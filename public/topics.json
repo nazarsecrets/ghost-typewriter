@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T12:24:30.205Z",
-  "windowStart": "2026-08-20T12:24:30.205Z",
-  "windowEnd": "2026-09-19T12:24:30.205Z",
+  "generatedAt": "2026-09-19T18:31:52.249Z",
+  "windowStart": "2026-08-20T18:31:52.249Z",
+  "windowEnd": "2026-09-19T18:31:52.249Z",
   "topics": [
     {
       "id": "7c06bc58b1fd",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T04:31:32.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -101,6 +101,26 @@
           "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
           "url": "https://www.coinbase.com/blog/how-coinbase-design-systems-are-powering-the-ai-prototyping-era",
           "publishedAt": "2026-09-10T00:13:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1a21822c8e83",
+      "title": "Props Are Not a Design System",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-19T16:29:03.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Props Are Not a Design System",
+          "url": "https://vitonsky.net/blog/2026/09/18/design-system/",
+          "publishedAt": "2026-09-19T16:29:03.000Z"
         }
       ]
     },
@@ -132,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -374,7 +394,7 @@
       "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -554,7 +574,7 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "nngroup",
@@ -854,7 +874,7 @@
       "publishedAt": "2026-09-05T02:16:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -881,26 +901,6 @@
           "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
           "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
           "publishedAt": "2026-08-25T21:12:33.000Z"
-        }
-      ]
-    },
-    {
-      "id": "104f50c5e3cb",
-      "title": "Reservoir: The Design System of the NYPL",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-27T18:11:38.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Reservoir: The Design System of the NYPL",
-          "url": "https://nypl.github.io/nypl-design-system/reservoir/v4/",
-          "publishedAt": "2026-08-27T18:11:38.000Z"
         }
       ]
     },
@@ -990,73 +990,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-19T12:24:30.206Z"
+      "fetchedAt": "2026-09-19T18:31:52.249Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-19T12:24:30.264Z"
+      "fetchedAt": "2026-09-19T18:31:52.302Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-19T12:24:30.265Z"
+      "fetchedAt": "2026-09-19T18:31:52.304Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-19T12:24:30.266Z"
+      "fetchedAt": "2026-09-19T18:31:52.305Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-19T12:24:30.267Z"
+      "fetchedAt": "2026-09-19T18:31:52.306Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-19T12:24:30.268Z"
+      "fetchedAt": "2026-09-19T18:31:52.308Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-19T12:24:30.269Z"
+      "fetchedAt": "2026-09-19T18:31:52.309Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-09-19T12:24:30.270Z"
+      "fetchedAt": "2026-09-19T18:31:52.310Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 29,
-      "fetchedAt": "2026-09-19T12:24:30.271Z"
+      "items": 28,
+      "fetchedAt": "2026-09-19T18:31:52.311Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-19T12:24:30.272Z"
+      "fetchedAt": "2026-09-19T18:31:52.312Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-19T12:24:30.273Z"
+      "fetchedAt": "2026-09-19T18:31:52.312Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-19T12:24:30.274Z"
+      "fetchedAt": "2026-09-19T18:31:52.313Z"
     }
   ]
 }
