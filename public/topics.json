@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-19T04:10:18.885Z",
-  "windowStart": "2026-08-20T04:10:18.885Z",
-  "windowEnd": "2026-09-19T04:10:18.885Z",
+  "generatedAt": "2026-09-19T12:24:30.205Z",
+  "windowStart": "2026-08-20T12:24:30.205Z",
+  "windowEnd": "2026-09-19T12:24:30.205Z",
   "topics": [
-    {
-      "id": "1c4a41f71250",
-      "title": "Whatever happened to “Download on the App Store” buttons?",
-      "teaser": "They used to be all over the web; now they’re almost extinct. What ever happened to “Download on the App Store” buttons? What buttons? Not too long ago, every website that tried to get its u",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-18T21:20:51.000Z",
-      "since": "today",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Whatever happened to “Download on the App Store” buttons?",
-          "url": "https://uxdesign.cc/whatever-happened-to-download-on-the-app-store-buttons-e39edb72df79?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-18T21:20:51.000Z"
-        }
-      ]
-    },
     {
       "id": "7c06bc58b1fd",
       "title": "Altman and Amodei’s “unsafe at any prompt” moment for AI",
@@ -52,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T21:33:43.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T21:29:03.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -114,7 +94,7 @@
       "publishedAt": "2026-09-10T00:13:16.000Z",
       "since": "1 week ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 9 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -212,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T21:34:12.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -305,16 +285,36 @@
       ]
     },
     {
+      "id": "1c4a41f71250",
+      "title": "Whatever happened to “Download on the App Store” buttons?",
+      "teaser": "They used to be all over the web; now they’re almost extinct. What ever happened to “Download on the App Store” buttons? What buttons? Not too long ago, every website that tried to get its u",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-18T21:20:51.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Whatever happened to “Download on the App Store” buttons?",
+          "url": "https://uxdesign.cc/whatever-happened-to-download-on-the-app-store-buttons-e39edb72df79?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-18T21:20:51.000Z"
+        }
+      ]
+    },
+    {
       "id": "172170421eb1",
       "title": "Test Complex Interactions Earlier with AI Prototyping",
       "teaser": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-11T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
       "sources": [
         {
           "name": "nngroup",
@@ -334,7 +334,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-design",
@@ -494,7 +494,7 @@
       "publishedAt": "2026-09-03T17:56:50.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -532,9 +532,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-16T21:47:20.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -612,9 +612,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-01T20:37:45.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
       "sources": [
         {
           "name": "nngroup",
@@ -654,7 +654,7 @@
       "publishedAt": "2026-09-03T19:19:42.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -672,9 +672,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T21:29:20.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -692,9 +692,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T17:50:30.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -774,7 +774,7 @@
       "publishedAt": "2026-09-04T18:56:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -834,7 +834,7 @@
       "publishedAt": "2026-09-04T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
       "sources": [
         {
           "name": "nngroup",
@@ -872,9 +872,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -894,7 +894,7 @@
       "publishedAt": "2026-08-27T18:11:38.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -912,9 +912,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -934,7 +934,7 @@
       "publishedAt": "2026-08-28T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "nngroup",
@@ -972,9 +972,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -990,73 +990,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-19T04:10:18.885Z"
+      "fetchedAt": "2026-09-19T12:24:30.206Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-19T04:10:18.940Z"
+      "fetchedAt": "2026-09-19T12:24:30.264Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-19T04:10:18.941Z"
+      "fetchedAt": "2026-09-19T12:24:30.265Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-19T04:10:18.942Z"
+      "fetchedAt": "2026-09-19T12:24:30.266Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-19T04:10:18.943Z"
+      "fetchedAt": "2026-09-19T12:24:30.267Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-19T04:10:18.944Z"
+      "fetchedAt": "2026-09-19T12:24:30.268Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-19T04:10:18.946Z"
+      "fetchedAt": "2026-09-19T12:24:30.269Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-09-19T04:10:18.946Z"
+      "fetchedAt": "2026-09-19T12:24:30.270Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 29,
-      "fetchedAt": "2026-09-19T04:10:18.947Z"
+      "fetchedAt": "2026-09-19T12:24:30.271Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-19T04:10:18.948Z"
+      "fetchedAt": "2026-09-19T12:24:30.272Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-19T04:10:18.949Z"
+      "fetchedAt": "2026-09-19T12:24:30.273Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
-      "items": 2,
-      "fetchedAt": "2026-09-19T04:10:18.950Z"
+      "items": 1,
+      "fetchedAt": "2026-09-19T12:24:30.274Z"
     }
   ]
 }
