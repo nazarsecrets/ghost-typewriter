@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T12:58:49.865Z",
-  "windowStart": "2026-08-21T12:58:49.865Z",
-  "windowEnd": "2026-09-20T12:58:49.865Z",
+  "generatedAt": "2026-09-20T18:37:55.070Z",
+  "windowStart": "2026-08-21T18:37:55.070Z",
+  "windowEnd": "2026-09-20T18:37:55.070Z",
   "topics": [
     {
       "id": "7c06bc58b1fd",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T04:31:32.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -261,26 +261,6 @@
           "title": "UX Conference December Announced (Dec 2 - Dec 15)",
           "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-16T06:59:19.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9a603fa3c167",
-      "title": "AI nutrition facts",
-      "teaser": "Designing an interface between writers, readers, and AI Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-20T12:36:44.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI nutrition facts",
-          "url": "https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-20T12:36:44.000Z"
         }
       ]
     },
@@ -414,7 +394,7 @@
       "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -592,15 +572,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-03T04:50:49.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Conference November Announced (Nov 16 - Nov 19)",
           "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-03T04:50:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9a603fa3c167",
+      "title": "AI nutrition facts",
+      "teaser": "Designing an interface between writers, readers, and AI Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-20T12:36:44.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI nutrition facts",
+          "url": "https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-20T12:36:44.000Z"
         }
       ]
     },
@@ -874,7 +874,7 @@
       "publishedAt": "2026-09-05T02:16:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -990,73 +990,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-20T12:58:49.866Z"
+      "fetchedAt": "2026-09-20T18:37:55.071Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-20T12:58:49.920Z"
+      "fetchedAt": "2026-09-20T18:37:55.123Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-20T12:58:49.921Z"
+      "fetchedAt": "2026-09-20T18:37:55.124Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-20T12:58:49.922Z"
+      "fetchedAt": "2026-09-20T18:37:55.125Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-20T12:58:49.923Z"
+      "fetchedAt": "2026-09-20T18:37:55.126Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-20T12:58:49.924Z"
+      "fetchedAt": "2026-09-20T18:37:55.127Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-20T12:58:49.926Z"
+      "fetchedAt": "2026-09-20T18:37:55.128Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-09-20T12:58:49.926Z"
+      "fetchedAt": "2026-09-20T18:37:55.129Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 28,
-      "fetchedAt": "2026-09-20T12:58:49.927Z"
+      "fetchedAt": "2026-09-20T18:37:55.130Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-20T12:58:49.928Z"
+      "fetchedAt": "2026-09-20T18:37:55.131Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-20T12:58:49.929Z"
+      "fetchedAt": "2026-09-20T18:37:55.131Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-20T12:58:49.930Z"
+      "fetchedAt": "2026-09-20T18:37:55.132Z"
     }
   ]
 }
