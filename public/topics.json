@@ -1,26 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T04:27:34.756Z",
-  "windowStart": "2026-08-22T04:27:34.756Z",
-  "windowEnd": "2026-09-21T04:27:34.756Z",
+  "generatedAt": "2026-09-21T15:00:00.684Z",
+  "windowStart": "2026-08-22T15:00:00.684Z",
+  "windowEnd": "2026-09-21T15:00:00.684Z",
   "topics": [
     {
-      "id": "451c615e8e66",
-      "title": "GUIDE: Designer-in-the-loop Authoring of Conformant Generative User Interfaces",
-      "teaser": "Generative User Interfaces (GenUIs) enable applications to generate interfaces on demand from user needs and context. Like conventional UIs, they must still reflect designers' intent and con",
+      "id": "484ee2b5ee72",
+      "title": "For the Designless, The death of the deliverable, iPhone Duo’s UX",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “A designer is not an artist. A designer is a commercial problem-solver, hired to take a client’s half-formed intent — a vibe, a",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-18T03:53:00.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "publishedAt": "2026-09-21T11:36:07.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "GUIDE: Designer-in-the-loop Authoring of Conformant Generative User Interfaces",
-          "url": "https://arxiv.org/abs/2609.21285v1",
-          "publishedAt": "2026-09-18T03:53:00.000Z"
+          "name": "uxcollective",
+          "title": "For the Designless, The death of the deliverable, iPhone Duo’s UX",
+          "url": "https://uxdesign.cc/for-the-designless-the-death-of-the-deliverable-iphone-duos-ux-d8ce63862469?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-21T11:36:07.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d3e98d9554ef",
+      "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
+      "teaser": "Jev&#x27;s launch inspired me to work on this project. I had used fine tuned bert models, zero-shot models to achieve jev like functionality in healthcare insurance fraud audits in the last ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-21T14:00:16.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
+          "url": "https://deepanwadhwa.github.io/OpenDecision/",
+          "publishedAt": "2026-09-21T14:00:16.000Z"
         }
       ]
     },
@@ -52,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T21:33:43.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T21:29:03.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -114,33 +134,13 @@
       "publishedAt": "2026-09-10T00:13:16.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 11 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
           "url": "https://www.coinbase.com/blog/how-coinbase-design-systems-are-powering-the-ai-prototyping-era",
           "publishedAt": "2026-09-10T00:13:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "51b700c4325f",
-      "title": "Don’t let AI build a Winchester Mystery House",
-      "teaser": "A house built for 38 years without a plan, and the apps we are shipping the same way. Each new feature works alone and connects to nothing. Six architectural moves that give the rooms you ha",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-16T07:27:23.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Don’t let AI build a Winchester Mystery House",
-          "url": "https://uxdesign.cc/dont-let-ai-build-a-winchester-mystery-house-2cb59ec05a73?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-16T07:27:23.000Z"
         }
       ]
     },
@@ -152,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -185,6 +185,26 @@
       ]
     },
     {
+      "id": "30da9bac980b",
+      "title": "Show HN: Boxy – Design System and Agent Skill for interfaces with square corners",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-21T07:40:28.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Boxy – Design System and Agent Skill for interfaces with square corners",
+          "url": "http://github.avestura.dev/boxy-design-skill/",
+          "publishedAt": "2026-09-21T07:40:28.000Z"
+        }
+      ]
+    },
+    {
       "id": "5327f847241c",
       "title": "Show HN: Booley – open-source IDE for agentic chip design",
       "teaser": "I am a digital design engineer, and my day job is designing chips (mostly IP blocks, not full chips) in SystemVerilog. At the start of 2026 I started experimenting with LLM agents like Claud",
@@ -205,6 +225,26 @@
       ]
     },
     {
+      "id": "451c615e8e66",
+      "title": "GUIDE: Designer-in-the-loop Authoring of Conformant Generative User Interfaces",
+      "teaser": "Generative User Interfaces (GenUIs) enable applications to generate interfaces on demand from user needs and context. Like conventional UIs, they must still reflect designers' intent and con",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-18T03:53:00.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "GUIDE: Designer-in-the-loop Authoring of Conformant Generative User Interfaces",
+          "url": "https://arxiv.org/abs/2609.21285v1",
+          "publishedAt": "2026-09-18T03:53:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "8362a31f1eac",
       "title": "Please don’t stretch your app for foldables",
       "teaser": "What happens when the screen isn’t a fixed constraint? Foldables have existed in the market since 2019 with the Samsung Galaxy Fold, but it’s really only been an “Android thing.” And if your",
@@ -212,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T21:34:12.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -312,35 +352,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-18T21:20:51.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Whatever happened to “Download on the App Store” buttons?",
           "url": "https://uxdesign.cc/whatever-happened-to-download-on-the-app-store-buttons-e39edb72df79?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-18T21:20:51.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c40bfa70ef41",
-      "title": "Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction",
-      "teaser": "Previous research suggests that the congruency between common VR input devices - such as controllers or hand tracking - and their visual representations (e.g., hand or controller avatars) in",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-18T14:13:39.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction",
-          "url": "https://arxiv.org/abs/2609.21799v1",
-          "publishedAt": "2026-09-18T14:13:39.000Z"
         }
       ]
     },
@@ -352,9 +372,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-19T16:29:03.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -374,7 +394,7 @@
       "publishedAt": "2026-09-11T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
           "name": "nngroup",
@@ -394,7 +414,7 @@
       "publishedAt": "2026-08-24T16:45:48.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
       "sources": [
         {
           "name": "devto-design",
@@ -532,9 +552,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-03T17:56:50.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -572,9 +592,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-16T21:47:20.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -674,7 +694,7 @@
       "publishedAt": "2026-09-01T20:37:45.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "nngroup",
@@ -712,15 +732,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-03T19:19:42.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
           "url": "https://devbar.sh",
           "publishedAt": "2026-09-03T19:19:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c40bfa70ef41",
+      "title": "Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction",
+      "teaser": "Previous research suggests that the congruency between common VR input devices - such as controllers or hand tracking - and their visual representations (e.g., hand or controller avatars) in",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-18T14:13:39.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction",
+          "url": "https://arxiv.org/abs/2609.21799v1",
+          "publishedAt": "2026-09-18T14:13:39.000Z"
         }
       ]
     },
@@ -732,9 +772,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T21:29:20.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -794,7 +834,7 @@
       "publishedAt": "2026-09-04T18:56:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -854,7 +894,7 @@
       "publishedAt": "2026-09-04T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
       "sources": [
         {
           "name": "nngroup",
@@ -874,7 +914,7 @@
       "publishedAt": "2026-09-05T02:16:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -894,7 +934,7 @@
       "publishedAt": "2026-08-25T21:12:33.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -914,7 +954,7 @@
       "publishedAt": "2026-08-25T21:08:28.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -934,7 +974,7 @@
       "publishedAt": "2026-08-28T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "nngroup",
@@ -963,26 +1003,6 @@
           "publishedAt": "2026-08-26T13:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "be045ee3b363",
-      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
-          "publishedAt": "2026-08-25T21:17:17.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -990,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-21T04:27:34.757Z"
+      "fetchedAt": "2026-09-21T15:00:00.685Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-21T04:27:34.799Z"
+      "fetchedAt": "2026-09-21T15:00:00.738Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-21T04:27:34.800Z"
+      "fetchedAt": "2026-09-21T15:00:00.740Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-21T04:27:34.801Z"
+      "fetchedAt": "2026-09-21T15:00:00.741Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-21T04:27:34.802Z"
+      "fetchedAt": "2026-09-21T15:00:00.742Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T04:27:34.803Z"
+      "fetchedAt": "2026-09-21T15:00:00.743Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T04:27:34.803Z"
+      "fetchedAt": "2026-09-21T15:00:00.744Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-09-21T04:27:34.804Z"
+      "fetchedAt": "2026-09-21T15:00:00.745Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 28,
-      "fetchedAt": "2026-09-21T04:27:34.805Z"
+      "items": 30,
+      "fetchedAt": "2026-09-21T15:00:00.746Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T04:27:34.806Z"
+      "fetchedAt": "2026-09-21T15:00:00.747Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-21T04:27:34.806Z"
+      "fetchedAt": "2026-09-21T15:00:00.747Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-21T04:27:34.807Z"
+      "fetchedAt": "2026-09-21T15:00:00.748Z"
     }
   ]
 }
