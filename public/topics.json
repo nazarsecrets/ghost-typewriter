@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T15:00:00.684Z",
-  "windowStart": "2026-08-22T15:00:00.684Z",
-  "windowEnd": "2026-09-21T15:00:00.684Z",
+  "generatedAt": "2026-09-21T20:21:06.935Z",
+  "windowStart": "2026-08-22T20:21:06.935Z",
+  "windowEnd": "2026-09-21T20:21:06.935Z",
   "topics": [
     {
       "id": "484ee2b5ee72",
@@ -25,26 +25,6 @@
       ]
     },
     {
-      "id": "d3e98d9554ef",
-      "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
-      "teaser": "Jev&#x27;s launch inspired me to work on this project. I had used fine tuned bert models, zero-shot models to achieve jev like functionality in healthcare insurance fraud audits in the last ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-21T14:00:16.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
-          "url": "https://deepanwadhwa.github.io/OpenDecision/",
-          "publishedAt": "2026-09-21T14:00:16.000Z"
-        }
-      ]
-    },
-    {
       "id": "7c06bc58b1fd",
       "title": "Altman and Amodei’s “unsafe at any prompt” moment for AI",
       "teaser": "Nader’s fight was never about one car, and neither is this one. AI assisted. Detroit spent a decade calling crashes driver error. The AI industry is running the same defense, now we’re all s",
@@ -52,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-18T07:38:53.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-17T04:31:32.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -185,26 +165,6 @@
       ]
     },
     {
-      "id": "30da9bac980b",
-      "title": "Show HN: Boxy – Design System and Agent Skill for interfaces with square corners",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-21T07:40:28.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Boxy – Design System and Agent Skill for interfaces with square corners",
-          "url": "http://github.avestura.dev/boxy-design-skill/",
-          "publishedAt": "2026-09-21T07:40:28.000Z"
-        }
-      ]
-    },
-    {
       "id": "5327f847241c",
       "title": "Show HN: Booley – open-source IDE for agentic chip design",
       "teaser": "I am a digital design engineer, and my day job is designing chips (mostly IP blocks, not full chips) in SystemVerilog. At the start of 2026 I started experimenting with LLM agents like Claud",
@@ -214,7 +174,7 @@
       "publishedAt": "2026-09-09T07:34:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -232,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-18T03:53:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -305,22 +265,22 @@
       ]
     },
     {
-      "id": "8ff7897bd70b",
-      "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15,",
-      "tag": "AI",
+      "id": "d3e98d9554ef",
+      "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
+      "teaser": "Jev&#x27;s launch inspired me to work on this project. I had used fine tuned bert models, zero-shot models to achieve jev like functionality in healthcare insurance fraud audits in the last ",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-16T06:59:19.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "publishedAt": "2026-09-21T14:00:16.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "nngroup",
-          "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-          "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-16T06:59:19.000Z"
+          "name": "hn-designsystem",
+          "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
+          "url": "https://deepanwadhwa.github.io/OpenDecision/",
+          "publishedAt": "2026-09-21T14:00:16.000Z"
         }
       ]
     },
@@ -385,26 +345,6 @@
       ]
     },
     {
-      "id": "172170421eb1",
-      "title": "Test Complex Interactions Earlier with AI Prototyping",
-      "teaser": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-11T17:00:00.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Test Complex Interactions Earlier with AI Prototyping",
-          "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-11T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "4b9f1fcb7e72",
       "title": "Best UI/UX Design Tools I Keep Coming Back to as a Designer",
       "teaser": "If you’re a designer, you’ve probably had the same problem I’ve had: there are dozens of UI/UX design...",
@@ -454,13 +394,33 @@
       "publishedAt": "2026-09-01T06:20:22.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: I built a real-time translator for Google Meet",
           "url": "https://meelang.com/",
           "publishedAt": "2026-09-01T06:20:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "30da9bac980b",
+      "title": "Show HN: Boxy – Design System and Agent Skill for interfaces with square corners",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-21T07:40:28.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Boxy – Design System and Agent Skill for interfaces with square corners",
+          "url": "http://github.avestura.dev/boxy-design-skill/",
+          "publishedAt": "2026-09-21T07:40:28.000Z"
         }
       ]
     },
@@ -532,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -605,26 +565,6 @@
       ]
     },
     {
-      "id": "6fb9ef47bcea",
-      "title": "UX Conference November Announced (Nov 16 - Nov 19)",
-      "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. Nov 16 - Nov ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-03T04:50:49.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference November Announced (Nov 16 - Nov 19)",
-          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-03T04:50:49.000Z"
-        }
-      ]
-    },
-    {
       "id": "9a603fa3c167",
       "title": "AI nutrition facts",
       "teaser": "Designing an interface between writers, readers, and AI Continue reading on UX Collective »",
@@ -681,26 +621,6 @@
           "title": "Show HN: Mu – an agent with actual command line experience",
           "url": "https://github.com/ylxdzsw/mu",
           "publishedAt": "2026-09-03T14:31:41.000Z"
-        }
-      ]
-    },
-    {
-      "id": "96cf85b2d3c3",
-      "title": "UX Conference September Announced (Sep 14 - Sep 25)",
-      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-01T20:37:45.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference September Announced (Sep 14 - Sep 25)",
-          "url": "https://www.nngroup.com/training/september/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-01T20:37:45.000Z"
         }
       ]
     },
@@ -865,46 +785,6 @@
       ]
     },
     {
-      "id": "6f94edb389bb",
-      "title": "UX Conference November Announced (Nov 9 - Nov 13)",
-      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. November 9 - 13, 2026.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-24T06:48:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference November Announced (Nov 9 - Nov 13)",
-          "url": "https://www.nngroup.com/training/november/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-24T06:48:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "21537bff3dff",
-      "title": "Using AI for UX Work: Study Guide",
-      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T17:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Using AI for UX Work: Study Guide",
-          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-04T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "89ee143012e1",
       "title": "Show HN: Arena, the same design system in React and Angular from one contract",
       "teaser": "",
@@ -921,6 +801,26 @@
           "title": "Show HN: Arena, the same design system in React and Angular from one contract",
           "url": "https://arena.dravensoft.org/web-benches/",
           "publishedAt": "2026-09-05T02:16:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "be045ee3b363",
+      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
+          "publishedAt": "2026-08-25T21:17:17.000Z"
         }
       ]
     },
@@ -965,26 +865,6 @@
       ]
     },
     {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "7c2f71191b75",
       "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
       "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
@@ -1010,73 +890,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-21T15:00:00.685Z"
+      "fetchedAt": "2026-09-21T20:21:06.935Z"
     },
     {
       "source": "nngroup",
-      "ok": true,
-      "items": 20,
-      "fetchedAt": "2026-09-21T15:00:00.738Z"
+      "ok": false,
+      "items": 0,
+      "fetchedAt": "2026-09-21T20:21:06.967Z",
+      "error": "fetch failed"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-21T15:00:00.740Z"
+      "fetchedAt": "2026-09-21T20:21:06.968Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-21T15:00:00.741Z"
+      "fetchedAt": "2026-09-21T20:21:06.969Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-21T15:00:00.742Z"
+      "fetchedAt": "2026-09-21T20:21:06.969Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T15:00:00.743Z"
+      "fetchedAt": "2026-09-21T20:21:06.970Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T15:00:00.744Z"
+      "fetchedAt": "2026-09-21T20:21:06.971Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-09-21T15:00:00.745Z"
+      "fetchedAt": "2026-09-21T20:21:06.971Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T15:00:00.746Z"
+      "fetchedAt": "2026-09-21T20:21:06.972Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T15:00:00.747Z"
+      "fetchedAt": "2026-09-21T20:21:06.972Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-21T15:00:00.747Z"
+      "fetchedAt": "2026-09-21T20:21:06.973Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-21T15:00:00.748Z"
+      "fetchedAt": "2026-09-21T20:21:06.973Z"
     }
   ]
 }
