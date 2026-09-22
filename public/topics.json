@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T13:17:29.374Z",
-  "windowStart": "2026-08-23T13:17:29.374Z",
-  "windowEnd": "2026-09-22T13:17:29.374Z",
+  "generatedAt": "2026-09-22T19:40:14.814Z",
+  "windowStart": "2026-08-23T19:40:14.814Z",
+  "windowEnd": "2026-09-22T19:40:14.814Z",
   "topics": [
     {
       "id": "2ce44bba4326",
@@ -32,55 +32,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T04:33:52.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Nobody starts as an accessibility expert",
           "url": "https://uxdesign.cc/nobody-starts-as-an-accessibility-expert-6a16e8a99960?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-22T04:33:52.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fb1da0e81cd9",
-      "title": "Can stress be quantified?",
-      "teaser": "The science and design behind wearable stress tracking (Image source) Many wearable devices have moved beyond counting steps and tracking heart rate. Now they are trying to measure something",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-22T04:32:17.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Can stress be quantified?",
-          "url": "https://uxdesign.cc/can-stress-be-quantified-d247a81dd0f2?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-22T04:32:17.000Z"
-        }
-      ]
-    },
-    {
-      "id": "435a7f79403d",
-      "title": "Designers lost their unit of measurement. That’s why we’re struggling.",
-      "teaser": "If screens don&#x2019;t work as a unit of measurement, what does instead? Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-22T11:23:11.000Z",
-      "since": "today",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Designers lost their unit of measurement. That’s why we’re struggling.",
-          "url": "https://uxdesign.cc/designers-lost-their-unit-of-measurement-thats-why-we-re-struggling-b3c6beeea74f?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-22T11:23:11.000Z"
         }
       ]
     },
@@ -165,16 +125,36 @@
       ]
     },
     {
+      "id": "fb1da0e81cd9",
+      "title": "Can stress be quantified?",
+      "teaser": "The science and design behind wearable stress tracking (Image source) Many wearable devices have moved beyond counting steps and tracking heart rate. Now they are trying to measure something",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-22T04:32:17.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Can stress be quantified?",
+          "url": "https://uxdesign.cc/can-stress-be-quantified-d247a81dd0f2?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-22T04:32:17.000Z"
+        }
+      ]
+    },
+    {
       "id": "9c23ab338464",
       "title": "The UX Research Methodology subway map trap",
       "teaser": "",
       "tag": "Research",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-15T01:32:15.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -214,7 +194,7 @@
       "publishedAt": "2026-09-09T07:34:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -245,42 +225,22 @@
       ]
     },
     {
-      "id": "c4474549d464",
-      "title": "What is a screen made of?",
-      "teaser": "Flat design was right that the screen isn&#x2019;t leather. Then it assumed that meant nothing. Continue reading on UX Collective »",
+      "id": "435a7f79403d",
+      "title": "Designers lost their unit of measurement. That’s why we’re struggling.",
+      "teaser": "If screens don&#x2019;t work as a unit of measurement, what does instead? Continue reading on UX Collective »",
       "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-22T11:22:00.000Z",
+      "publishedAt": "2026-09-22T11:23:11.000Z",
       "since": "today",
-      "relevanceScore": 0.429,
+      "relevanceScore": 0.714,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "What is a screen made of?",
-          "url": "https://uxdesign.cc/what-is-a-screen-made-of-f2b1318778d4?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-22T11:22:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "945e95ddeefc",
-      "title": "Where does your work go when the tool shuts down?",
-      "teaser": "A quarter of the last decade&#x2019;s web pages have vanished, mostly from sites still online. Who&#x2019;s archiving yours? Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-22T11:21:28.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Where does your work go when the tool shuts down?",
-          "url": "https://uxdesign.cc/where-does-your-work-go-when-the-tool-shuts-down-d3b74c2a74d8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-22T11:21:28.000Z"
+          "title": "Designers lost their unit of measurement. That’s why we’re struggling.",
+          "url": "https://uxdesign.cc/designers-lost-their-unit-of-measurement-thats-why-we-re-struggling-b3c6beeea74f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-22T11:23:11.000Z"
         }
       ]
     },
@@ -292,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-16T06:59:19.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -525,6 +485,46 @@
       ]
     },
     {
+      "id": "c4474549d464",
+      "title": "What is a screen made of?",
+      "teaser": "Flat design was right that the screen isn&#x2019;t leather. Then it assumed that meant nothing. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-22T11:22:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What is a screen made of?",
+          "url": "https://uxdesign.cc/what-is-a-screen-made-of-f2b1318778d4?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-22T11:22:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "945e95ddeefc",
+      "title": "Where does your work go when the tool shuts down?",
+      "teaser": "A quarter of the last decade&#x2019;s web pages have vanished, mostly from sites still online. Who&#x2019;s archiving yours? Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-22T11:21:28.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Where does your work go when the tool shuts down?",
+          "url": "https://uxdesign.cc/where-does-your-work-go-when-the-tool-shuts-down-d3b74c2a74d8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-22T11:21:28.000Z"
+        }
+      ]
+    },
+    {
       "id": "edd263780606",
       "title": "UX should just be called Experience Design",
       "teaser": "",
@@ -634,7 +634,7 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "nngroup",
@@ -854,7 +854,7 @@
       "publishedAt": "2026-08-24T06:48:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
       "sources": [
         {
           "name": "nngroup",
@@ -892,35 +892,15 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-05T02:16:36.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Arena, the same design system in React and Angular from one contract",
           "url": "https://arena.dravensoft.org/web-benches/",
           "publishedAt": "2026-09-05T02:16:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "be045ee3b363",
-      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
-          "publishedAt": "2026-08-25T21:17:17.000Z"
         }
       ]
     },
@@ -1003,6 +983,26 @@
           "publishedAt": "2026-08-26T13:00:00.000Z"
         }
       ]
+    },
+    {
+      "id": "be045ee3b363",
+      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
+          "publishedAt": "2026-08-25T21:17:17.000Z"
+        }
+      ]
     }
   ],
   "sourceHealth": [
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-22T13:17:29.375Z"
+      "fetchedAt": "2026-09-22T19:40:14.815Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-22T13:17:29.427Z"
+      "fetchedAt": "2026-09-22T19:40:14.869Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-22T13:17:29.428Z"
+      "fetchedAt": "2026-09-22T19:40:14.870Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-22T13:17:29.429Z"
+      "fetchedAt": "2026-09-22T19:40:14.871Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-22T13:17:29.430Z"
+      "fetchedAt": "2026-09-22T19:40:14.872Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-22T13:17:29.431Z"
+      "fetchedAt": "2026-09-22T19:40:14.873Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-22T13:17:29.432Z"
+      "fetchedAt": "2026-09-22T19:40:14.874Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-09-22T13:17:29.433Z"
+      "fetchedAt": "2026-09-22T19:40:14.875Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-22T13:17:29.434Z"
+      "fetchedAt": "2026-09-22T19:40:14.876Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-22T13:17:29.435Z"
+      "fetchedAt": "2026-09-22T19:40:14.877Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-22T13:17:29.436Z"
+      "fetchedAt": "2026-09-22T19:40:14.877Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-22T13:17:29.437Z"
+      "fetchedAt": "2026-09-22T19:40:14.879Z"
     }
   ]
 }
