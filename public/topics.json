@@ -1,9 +1,89 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-21T20:21:06.935Z",
-  "windowStart": "2026-08-22T20:21:06.935Z",
-  "windowEnd": "2026-09-21T20:21:06.935Z",
+  "generatedAt": "2026-09-22T04:23:35.121Z",
+  "windowStart": "2026-08-23T04:23:35.121Z",
+  "windowEnd": "2026-09-22T04:23:35.121Z",
   "topics": [
+    {
+      "id": "59c500aeae26",
+      "title": "The lie we keep telling ourselves about regulating AI",
+      "teaser": "The internet’s founders governed a technology nobody agreed on, without kings, presidents, or voting. Congress still can’t figure out how. The excuse for not regulating AI is that nobody can",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-21T22:47:57.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The lie we keep telling ourselves about regulating AI",
+          "url": "https://uxdesign.cc/the-lie-we-keep-telling-ourselves-about-regulating-ai-61e0163d795e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-21T22:47:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7699a11e9ea4",
+      "title": "AI-Assisted Social Story Intervention for Special Education: The Design of AdaptED Stories",
+      "teaser": "Social Stories are widely used to support autistic children in understanding and preparing for everyday situations, but creating stories that are appropriately tailored to each child's needs",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-21T08:09:43.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "AI-Assisted Social Story Intervention for Special Education: The Design of AdaptED Stories",
+          "url": "https://arxiv.org/abs/2609.24245v1",
+          "publishedAt": "2026-09-21T08:09:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8ff7897bd70b",
+      "title": "UX Conference December Announced (Dec 2 - Dec 15)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15,",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-16T06:59:19.000Z",
+      "since": "6 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 6 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference December Announced (Dec 2 - Dec 15)",
+          "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-16T06:59:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "40f0594c112d",
+      "title": "Should the job of a UX designer be reserved for humans?",
+      "teaser": "Should some jobs stay human even when AI does them better? Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-21T22:47:25.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Should the job of a UX designer be reserved for humans?",
+          "url": "https://uxdesign.cc/should-ux-design-be-reserved-for-humans-and-the-future-of-work-9afae1265578?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-21T22:47:25.000Z"
+        }
+      ]
+    },
     {
       "id": "484ee2b5ee72",
       "title": "For the Designless, The death of the deliverable, iPhone Duo’s UX",
@@ -12,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-21T11:36:07.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -85,22 +165,22 @@
       ]
     },
     {
-      "id": "d9849a31470e",
-      "title": "Lost dog—or lost designer?",
-      "teaser": "Why the ethics of AI-generated design depend on context, intention, and consequence Image: Generated with ChatGPT using a one-shot prompt I recently saw a missing-dog poster that caught my a",
+      "id": "172170421eb1",
+      "title": "Test Complex Interactions Earlier with AI Prototyping",
+      "teaser": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-17T04:31:32.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-11T17:00:00.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Lost dog—or lost designer?",
-          "url": "https://uxdesign.cc/lost-dog-or-lost-designer-d5de922e54d9?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-17T04:31:32.000Z"
+          "name": "nngroup",
+          "title": "Test Complex Interactions Earlier with AI Prototyping",
+          "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-11T17:00:00.000Z"
         }
       ]
     },
@@ -152,9 +232,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-11T14:11:09.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 10 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -181,26 +261,6 @@
           "title": "Show HN: Booley – open-source IDE for agentic chip design",
           "url": "https://github.com/boldaxolotl/booley",
           "publishedAt": "2026-09-09T07:34:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "451c615e8e66",
-      "title": "GUIDE: Designer-in-the-loop Authoring of Conformant Generative User Interfaces",
-      "teaser": "Generative User Interfaces (GenUIs) enable applications to generate interfaces on demand from user needs and context. Like conventional UIs, they must still reflect designers' intent and con",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-18T03:53:00.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "GUIDE: Designer-in-the-loop Authoring of Conformant Generative User Interfaces",
-          "url": "https://arxiv.org/abs/2609.21285v1",
-          "publishedAt": "2026-09-18T03:53:00.000Z"
         }
       ]
     },
@@ -232,35 +292,15 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-04T14:35:45.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 17 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Learn/Practice Sudoku strategies web app",
           "url": "https://sw-fun.github.io/sudoku/",
           "publishedAt": "2026-09-04T14:35:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e77e562c8b88",
-      "title": "What Shakespeare got wrong about AI",
-      "teaser": "He wrote about a magic you could always stop. We built the kind that gets loose. He understood us better than science fiction ever has. The one thing he couldn’t imagine was what we actually",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-16T15:21:34.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What Shakespeare got wrong about AI",
-          "url": "https://uxdesign.cc/what-shakespeare-got-wrong-about-ai-73e9f58bfbc8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-16T15:21:34.000Z"
         }
       ]
     },
@@ -272,15 +312,55 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-21T14:00:16.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
           "url": "https://deepanwadhwa.github.io/OpenDecision/",
           "publishedAt": "2026-09-21T14:00:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "af227390ccba",
+      "title": "\"MeBo Leaves a Piece of You Behind\": Designing a Relational Voice-Based Memory Companion for Older Adults",
+      "teaser": "Autobiographical remembering supports identity, well-being, and social connection in later life, yet voice-based memory technologies largely rely on isolated prompts. We designed and built M",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-21T14:51:30.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "\"MeBo Leaves a Piece of You Behind\": Designing a Relational Voice-Based Memory Companion for Older Adults",
+          "url": "https://arxiv.org/abs/2609.24706v1",
+          "publishedAt": "2026-09-21T14:51:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6fb9ef47bcea",
+      "title": "UX Conference November Announced (Nov 16 - Nov 19)",
+      "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. Nov 16 - Nov ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-03T04:50:49.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference November Announced (Nov 16 - Nov 19)",
+          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-03T04:50:49.000Z"
         }
       ]
     },
@@ -294,13 +374,33 @@
       "publishedAt": "2026-09-07T14:35:32.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-design",
           "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
           "url": "https://dev.to/wolfr/opacity-within-variables-and-how-it-affects-a-shadcn-design-system-token-implementation-3ehg",
           "publishedAt": "2026-09-07T14:35:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "96cf85b2d3c3",
+      "title": "UX Conference September Announced (Sep 14 - Sep 25)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-01T20:37:45.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference September Announced (Sep 14 - Sep 25)",
+          "url": "https://www.nngroup.com/training/september/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-01T20:37:45.000Z"
         }
       ]
     },
@@ -370,11 +470,11 @@
       "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -434,7 +534,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -454,13 +554,33 @@
       "publishedAt": "2026-09-01T13:38:57.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Invader – an indie iOS podcast player that never phones home",
           "url": "https://invader.gg/",
           "publishedAt": "2026-09-01T13:38:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6f94edb389bb",
+      "title": "UX Conference November Announced (Nov 9 - Nov 13)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Courses focused on long-lasting skills for UX professionals. November 9 - 13, 2026.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-24T06:48:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference November Announced (Nov 9 - Nov 13)",
+          "url": "https://www.nngroup.com/training/november/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-24T06:48:00.000Z"
         }
       ]
     },
@@ -474,13 +594,33 @@
       "publishedAt": "2026-09-10T14:22:41.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Quantum Black Design System: an open source release by McKinsey",
           "url": "https://medium.com/quantumblack/announcing-quantumblack-design-system-opensourcing-7dfaf3f8e207",
           "publishedAt": "2026-09-10T14:22:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "21537bff3dff",
+      "title": "Using AI for UX Work: Study Guide",
+      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-04T17:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Using AI for UX Work: Study Guide",
+          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-04T17:00:00.000Z"
         }
       ]
     },
@@ -534,7 +674,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 13 days",
       "sources": [
         {
           "name": "smashing",
@@ -572,9 +712,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-20T12:36:44.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -594,7 +734,7 @@
       "publishedAt": "2026-09-07T14:25:59.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -614,7 +754,7 @@
       "publishedAt": "2026-09-03T14:31:41.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -634,7 +774,7 @@
       "publishedAt": "2026-09-10T14:57:41.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -661,26 +801,6 @@
           "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
           "url": "https://devbar.sh",
           "publishedAt": "2026-09-03T19:19:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c40bfa70ef41",
-      "title": "Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction",
-      "teaser": "Previous research suggests that the congruency between common VR input devices - such as controllers or hand tracking - and their visual representations (e.g., hand or controller avatars) in",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-18T14:13:39.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Comparing Hand and Controller Avatars with Hand Tracking and Controller-Based Interaction",
-          "url": "https://arxiv.org/abs/2609.21799v1",
-          "publishedAt": "2026-09-18T14:13:39.000Z"
         }
       ]
     },
@@ -714,7 +834,7 @@
       "publishedAt": "2026-09-01T08:50:46.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -734,7 +854,7 @@
       "publishedAt": "2026-09-02T12:01:49.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -772,15 +892,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-11T13:00:00.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "smashing",
           "title": "Building A UX ROI Case That Survives The Boardroom",
           "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
           "publishedAt": "2026-09-11T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "03201d525f0c",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Custodial Era of UX: Cleaning Up After AI",
+          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-28T17:00:00.000Z"
         }
       ]
     },
@@ -801,26 +941,6 @@
           "title": "Show HN: Arena, the same design system in React and Angular from one contract",
           "url": "https://arena.dravensoft.org/web-benches/",
           "publishedAt": "2026-09-05T02:16:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "be045ee3b363",
-      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
-          "publishedAt": "2026-08-25T21:17:17.000Z"
         }
       ]
     },
@@ -874,7 +994,7 @@
       "publishedAt": "2026-08-26T13:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "smashing",
@@ -890,74 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-21T20:21:06.935Z"
+      "fetchedAt": "2026-09-22T04:23:35.121Z"
     },
     {
       "source": "nngroup",
-      "ok": false,
-      "items": 0,
-      "fetchedAt": "2026-09-21T20:21:06.967Z",
-      "error": "fetch failed"
+      "ok": true,
+      "items": 20,
+      "fetchedAt": "2026-09-22T04:23:35.175Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-21T20:21:06.968Z"
+      "fetchedAt": "2026-09-22T04:23:35.176Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-21T20:21:06.969Z"
+      "fetchedAt": "2026-09-22T04:23:35.177Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-21T20:21:06.969Z"
+      "fetchedAt": "2026-09-22T04:23:35.178Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T20:21:06.970Z"
+      "fetchedAt": "2026-09-22T04:23:35.179Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T20:21:06.971Z"
+      "fetchedAt": "2026-09-22T04:23:35.180Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-09-21T20:21:06.971Z"
+      "fetchedAt": "2026-09-22T04:23:35.181Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T20:21:06.972Z"
+      "fetchedAt": "2026-09-22T04:23:35.182Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-21T20:21:06.972Z"
+      "fetchedAt": "2026-09-22T04:23:35.183Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-21T20:21:06.973Z"
+      "fetchedAt": "2026-09-22T04:23:35.183Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-21T20:21:06.973Z"
+      "fetchedAt": "2026-09-22T04:23:35.185Z"
     }
   ]
 }
