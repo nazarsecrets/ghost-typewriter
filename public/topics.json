@@ -1,9 +1,109 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T19:40:14.814Z",
-  "windowStart": "2026-08-23T19:40:14.814Z",
-  "windowEnd": "2026-09-22T19:40:14.814Z",
+  "generatedAt": "2026-09-23T04:20:22.945Z",
+  "windowStart": "2026-08-24T04:20:22.945Z",
+  "windowEnd": "2026-09-23T04:20:22.945Z",
   "topics": [
+    {
+      "id": "b18ab924e25d",
+      "title": "Show HN: Palette, a Figma plugin that turns one color into a whole UI system",
+      "teaser": "I was inspired to build this because of AI slop design. That led me down the path of why computers didn&#x27;t &#x27;see&#x27; color the way that humans did - and the lack of a common langua",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-22T22:53:01.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Palette, a Figma plugin that turns one color into a whole UI system",
+          "url": "https://www.figma.com/community/plugin/1682163756621093164",
+          "publishedAt": "2026-09-22T22:53:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "21a8f3f0535b",
+      "title": "In the age of AI, the UX field survives on leaders who cultivate juniors",
+      "teaser": "A design lead walks a nervous new hire through their first critique. AI Assisted. Every senior designer was once a bet someone made. The generation of judgment the field needs in ten years d",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-22T21:27:21.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "In the age of AI, the UX field survives on leaders who cultivate juniors",
+          "url": "https://uxdesign.cc/in-the-age-of-ai-the-ux-field-survives-on-leaders-who-cultivate-juniors-595c548f1d70?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-22T21:27:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5fbfafa311f3",
+      "title": "Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows",
+      "teaser": "AI tools for digital product design now offer prompt-to-design capabilities, allowing designers and their non-designer colleagues to create prototypes through conversational workflows with l",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-22T17:13:07.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows",
+          "url": "https://arxiv.org/abs/2609.26725v1",
+          "publishedAt": "2026-09-22T17:13:07.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7ef6ebdc4160",
+      "title": "A Case Study in Accessible Redesign of a Wastewater Dashboard",
+      "teaser": "Public health dashboards communicate data that can inform important decisions, but they often raise accessibility challenges. We present a case study redesigning the Utah Wastewater Surveill",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-21T18:18:07.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "A Case Study in Accessible Redesign of a Wastewater Dashboard",
+          "url": "https://arxiv.org/abs/2609.25273v1",
+          "publishedAt": "2026-09-21T18:18:07.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2ccda4070524",
+      "title": "Why the best resume may be the wrong resume for a design team",
+      "teaser": "What design leadership gets wrong about experience, expertise, and innovation on a team. Continue reading on UX Collective »",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-23T04:06:17.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Why the best resume may be the wrong resume for a design team",
+          "url": "https://uxdesign.cc/why-the-best-resume-may-be-the-wrong-resume-for-a-design-team-c019b8568662?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-23T04:06:17.000Z"
+        }
+      ]
+    },
     {
       "id": "2ce44bba4326",
       "title": "The variance problem in AI products",
@@ -12,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:22:49.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -65,46 +165,6 @@
       ]
     },
     {
-      "id": "484ee2b5ee72",
-      "title": "For the Designless, The death of the deliverable, iPhone Duo’s UX",
-      "teaser": "Weekly curated resources for designers — thinkers and makers. “A designer is not an artist. A designer is a commercial problem-solver, hired to take a client’s half-formed intent — a vibe, a",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-21T11:36:07.000Z",
-      "since": "yesterday",
-      "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "For the Designless, The death of the deliverable, iPhone Duo’s UX",
-          "url": "https://uxdesign.cc/for-the-designless-the-death-of-the-deliverable-iphone-duos-ux-d8ce63862469?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-21T11:36:07.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7699a11e9ea4",
-      "title": "AI-Assisted Social Story Intervention for Special Education: The Design of AdaptED Stories",
-      "teaser": "Social Stories are widely used to support autistic children in understanding and preparing for everyday situations, but creating stories that are appropriately tailored to each child's needs",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-21T08:09:43.000Z",
-      "since": "yesterday",
-      "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AI-Assisted Social Story Intervention for Special Education: The Design of AdaptED Stories",
-          "url": "https://arxiv.org/abs/2609.24245v1",
-          "publishedAt": "2026-09-21T08:09:43.000Z"
-        }
-      ]
-    },
-    {
       "id": "aaeec53ff421",
       "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
       "teaser": "",
@@ -121,6 +181,26 @@
           "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
           "url": "https://www.coinbase.com/blog/how-coinbase-design-systems-are-powering-the-ai-prototyping-era",
           "publishedAt": "2026-09-10T00:13:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "282033201e4d",
+      "title": "The Ethics of Artificial Intelligence in Military Operations",
+      "teaser": "Deep learning systems now mediate military decisions to use force, yet their internal logic resists inspection, their evaluation practices are gameable, and their deployment fractures accoun",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-22T14:38:29.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "The Ethics of Artificial Intelligence in Military Operations",
+          "url": "https://arxiv.org/abs/2609.26507v1",
+          "publishedAt": "2026-09-22T14:38:29.000Z"
         }
       ]
     },
@@ -174,7 +254,7 @@
       "publishedAt": "2026-09-11T14:11:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 11 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -214,13 +294,53 @@
       "publishedAt": "2026-09-04T14:35:45.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 18 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Learn/Practice Sudoku strategies web app",
           "url": "https://sw-fun.github.io/sudoku/",
           "publishedAt": "2026-09-04T14:35:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9e0a39c8708f",
+      "title": "The origins, side B — birth of the un-cool",
+      "teaser": "Software adoption followed crises of complexity&#x2026; and then it kept growing Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-23T04:04:28.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The origins, side B — birth of the un-cool",
+          "url": "https://uxdesign.cc/the-origins-side-b-birth-of-the-un-cool-d1baf83948c8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-23T04:04:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ce8096a5b925",
+      "title": "Benchmarking Robots for Everyday Environments: From Lab Experiments to Real-World Operations",
+      "teaser": "This study introduces an interdisciplinary framework for benchmarking robots deployed in public environments, addressing the gap between traditional laboratory metrics and real-world benchma",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-22T14:28:44.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Benchmarking Robots for Everyday Environments: From Lab Experiments to Real-World Operations",
+          "url": "https://arxiv.org/abs/2609.26490v1",
+          "publishedAt": "2026-09-22T14:28:44.000Z"
         }
       ]
     },
@@ -232,9 +352,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:23:11.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -265,22 +385,22 @@
       ]
     },
     {
-      "id": "40f0594c112d",
-      "title": "Should the job of a UX designer be reserved for humans?",
-      "teaser": "Should some jobs stay human even when AI does them better? Continue reading on UX Collective »",
-      "tag": "AI",
+      "id": "e180e62fb514",
+      "title": "Beyond Task Performance: Lessons Learned from Evaluating an Exploratory VR Interaction Technique",
+      "teaser": "Dense virtual environments present significant challenges for object selection and manipulation, motivating the development of novel interaction techniques. This paper presents RodCast as an",
+      "tag": "Ethics",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-21T22:47:25.000Z",
+      "publishedAt": "2026-09-21T21:11:04.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.714,
+      "relevanceScore": 0.429,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Should the job of a UX designer be reserved for humans?",
-          "url": "https://uxdesign.cc/should-ux-design-be-reserved-for-humans-and-the-future-of-work-9afae1265578?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-21T22:47:25.000Z"
+          "name": "arxiv-hci",
+          "title": "Beyond Task Performance: Lessons Learned from Evaluating an Exploratory VR Interaction Technique",
+          "url": "https://arxiv.org/abs/2609.25414v1",
+          "publishedAt": "2026-09-21T21:11:04.000Z"
         }
       ]
     },
@@ -292,15 +412,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-21T14:00:16.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
           "url": "https://deepanwadhwa.github.io/OpenDecision/",
           "publishedAt": "2026-09-21T14:00:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2732f97ac0d9",
+      "title": "How Children Design and Reason about Trustworthy AI Chatbots",
+      "teaser": "Children increasingly interact with AI chatbots, making trust calibration essential to AI literacy. Prior research has examined children's trust in AI mainly as users evaluating systems buil",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-21T18:02:26.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "How Children Design and Reason about Trustworthy AI Chatbots",
+          "url": "https://arxiv.org/abs/2609.25244v1",
+          "publishedAt": "2026-09-21T18:02:26.000Z"
         }
       ]
     },
@@ -314,7 +454,7 @@
       "publishedAt": "2026-09-07T14:35:32.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "devto-design",
@@ -394,7 +534,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -412,9 +552,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-21T07:40:28.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -434,7 +574,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -454,7 +594,7 @@
       "publishedAt": "2026-09-01T13:38:57.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -474,7 +614,7 @@
       "publishedAt": "2026-09-10T14:22:41.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -492,9 +632,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:22:00.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -512,9 +652,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:21:28.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -530,11 +670,11 @@
       "teaser": "",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-15T08:01:39.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -565,26 +705,6 @@
       ]
     },
     {
-      "id": "af227390ccba",
-      "title": "\"MeBo Leaves a Piece of You Behind\": Designing a Relational Voice-Based Memory Companion for Older Adults",
-      "teaser": "Autobiographical remembering supports identity, well-being, and social connection in later life, yet voice-based memory technologies largely rely on isolated prompts. We designed and built M",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-21T14:51:30.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "\"MeBo Leaves a Piece of You Behind\": Designing a Relational Voice-Based Memory Companion for Older Adults",
-          "url": "https://arxiv.org/abs/2609.24706v1",
-          "publishedAt": "2026-09-21T14:51:30.000Z"
-        }
-      ]
-    },
-    {
       "id": "94dd951b774d",
       "title": "The Death Of The Button: Why The Best Interface Is No Interface",
       "teaser": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving ",
@@ -594,7 +714,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
       "sources": [
         {
           "name": "smashing",
@@ -645,26 +765,6 @@
       ]
     },
     {
-      "id": "9a603fa3c167",
-      "title": "AI nutrition facts",
-      "teaser": "Designing an interface between writers, readers, and AI Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-20T12:36:44.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI nutrition facts",
-          "url": "https://uxdesign.cc/ai-nutrition-facts-cbfa8f9874e8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-20T12:36:44.000Z"
-        }
-      ]
-    },
-    {
       "id": "777eb5ca9e1e",
       "title": "Strata – A design system that records decisions, not components",
       "teaser": "",
@@ -674,7 +774,7 @@
       "publishedAt": "2026-09-07T14:25:59.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -694,7 +794,7 @@
       "publishedAt": "2026-09-03T14:31:41.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -734,7 +834,7 @@
       "publishedAt": "2026-09-10T14:57:41.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -774,7 +874,7 @@
       "publishedAt": "2026-09-01T08:50:46.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -794,7 +894,7 @@
       "publishedAt": "2026-09-02T12:01:49.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -834,7 +934,7 @@
       "publishedAt": "2026-09-11T13:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "smashing",
@@ -903,106 +1003,6 @@
           "publishedAt": "2026-09-05T02:16:36.000Z"
         }
       ]
-    },
-    {
-      "id": "632ad5203758",
-      "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
-      "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
-          "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
-          "publishedAt": "2026-08-25T21:12:33.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5de15657393b",
-      "title": "Decoupling Claim Timeouts from Feature Flags",
-      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Decoupling Claim Timeouts from Feature Flags",
-          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
-          "publishedAt": "2026-08-25T21:08:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7c2f71191b75",
-      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-26T13:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
-          "publishedAt": "2026-08-26T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "be045ee3b363",
-      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:17:17.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
-          "publishedAt": "2026-08-25T21:17:17.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-22T19:40:14.815Z"
+      "fetchedAt": "2026-09-23T04:20:22.946Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-22T19:40:14.869Z"
+      "fetchedAt": "2026-09-23T04:20:22.998Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-22T19:40:14.870Z"
+      "fetchedAt": "2026-09-23T04:20:22.999Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-22T19:40:14.871Z"
+      "fetchedAt": "2026-09-23T04:20:23.000Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-22T19:40:14.872Z"
+      "fetchedAt": "2026-09-23T04:20:23.001Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-22T19:40:14.873Z"
+      "fetchedAt": "2026-09-23T04:20:23.002Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-22T19:40:14.874Z"
+      "fetchedAt": "2026-09-23T04:20:23.003Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-09-22T19:40:14.875Z"
+      "fetchedAt": "2026-09-23T04:20:23.004Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-22T19:40:14.876Z"
+      "fetchedAt": "2026-09-23T04:20:23.005Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-22T19:40:14.877Z"
+      "fetchedAt": "2026-09-23T04:20:23.006Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-22T19:40:14.877Z"
+      "fetchedAt": "2026-09-23T04:20:23.007Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-22T19:40:14.879Z"
+      "fetchedAt": "2026-09-23T04:20:23.008Z"
     }
   ]
 }
