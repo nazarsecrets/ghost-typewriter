@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T13:27:12.962Z",
-  "windowStart": "2026-08-25T13:27:12.962Z",
-  "windowEnd": "2026-09-24T13:27:12.962Z",
+  "generatedAt": "2026-09-24T19:55:12.523Z",
+  "windowStart": "2026-08-25T19:55:12.523Z",
+  "windowEnd": "2026-09-24T19:55:12.523Z",
   "topics": [
     {
-      "id": "e7abc36915cd",
-      "title": "Holistic design systems for the AI coding era",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "4c671c9b8eae",
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "teaser": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard, an open-source desktop app where humans and agents can architect software together in a common workspace. Here’s our repo",
+      "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-24T00:21:16.000Z",
-      "since": "yesterday",
+      "category": "Trending",
+      "publishedAt": "2026-09-24T17:21:36.000Z",
+      "since": "today",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "137 engagement signals within 0 days",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "Holistic design systems for the AI coding era",
-          "url": "https://numeric.substack.com/p/design-systems-at-numeric",
-          "publishedAt": "2026-09-24T00:21:16.000Z"
+          "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+          "url": "https://github.com/devdotfast/whiteboard",
+          "publishedAt": "2026-09-24T17:21:36.000Z"
         }
       ]
     },
@@ -41,6 +41,26 @@
           "title": "Show HN: Palette, a Figma plugin that turns one color into a whole UI system",
           "url": "https://www.figma.com/community/plugin/1682163756621093164",
           "publishedAt": "2026-09-22T22:53:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e7abc36915cd",
+      "title": "Holistic design systems for the AI coding era",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-24T00:21:16.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Holistic design systems for the AI coding era",
+          "url": "https://numeric.substack.com/p/design-systems-at-numeric",
+          "publishedAt": "2026-09-24T00:21:16.000Z"
         }
       ]
     },
@@ -112,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T04:33:52.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -145,22 +165,42 @@
       ]
     },
     {
-      "id": "eea5252eb77d",
-      "title": "Phyll, a UX review for apps built with AI that keeps the design",
-      "teaser": "",
+      "id": "2ccda4070524",
+      "title": "Why the best resume may be the wrong resume for a design team",
+      "teaser": "What design leadership gets wrong about experience, expertise, and innovation on a team. Continue reading on UX Collective »",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-23T04:06:17.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Why the best resume may be the wrong resume for a design team",
+          "url": "https://uxdesign.cc/why-the-best-resume-may-be-the-wrong-resume-for-a-design-team-c019b8568662?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-23T04:06:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fb1da0e81cd9",
+      "title": "Can stress be quantified?",
+      "teaser": "The science and design behind wearable stress tracking (Image source) Many wearable devices have moved beyond counting steps and tracking heart rate. Now they are trying to measure something",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-24T07:54:55.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "publishedAt": "2026-09-22T04:32:17.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
-          "name": "hn-ux",
-          "title": "Phyll, a UX review for apps built with AI that keeps the design",
-          "url": "https://github.com/carlosphyll/phyll",
-          "publishedAt": "2026-09-24T07:54:55.000Z"
+          "name": "uxcollective",
+          "title": "Can stress be quantified?",
+          "url": "https://uxdesign.cc/can-stress-be-quantified-d247a81dd0f2?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-22T04:32:17.000Z"
         }
       ]
     },
@@ -185,26 +225,6 @@
       ]
     },
     {
-      "id": "9c23ab338464",
-      "title": "The UX Research Methodology subway map trap",
-      "teaser": "",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "The UX Research Methodology subway map trap",
-          "url": "https://www.reddit.com/r/UXDesign/comments/1wercj5/the_ux_research_methodology_subway_map_trap/",
-          "publishedAt": "2026-09-15T01:32:15.000Z"
-        }
-      ]
-    },
-    {
       "id": "90b133d0735e",
       "title": "Show HN: Toolcraft – open-source AI harness and starter for building design apps",
       "teaser": "MIT-licensed, 100% free starter kit, UI library, and AI harness for building your own design apps. Works with Codex, Claude, Cursor, or any other agents. I’ve always been passionate about pu",
@@ -225,22 +245,22 @@
       ]
     },
     {
-      "id": "2ccda4070524",
-      "title": "Why the best resume may be the wrong resume for a design team",
-      "teaser": "What design leadership gets wrong about experience, expertise, and innovation on a team. Continue reading on UX Collective »",
-      "tag": "Leadership",
+      "id": "9c23ab338464",
+      "title": "The UX Research Methodology subway map trap",
+      "teaser": "",
+      "tag": "Research",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-23T04:06:17.000Z",
-      "since": "yesterday",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-15T01:32:15.000Z",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Why the best resume may be the wrong resume for a design team",
-          "url": "https://uxdesign.cc/why-the-best-resume-may-be-the-wrong-resume-for-a-design-team-c019b8568662?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-23T04:06:17.000Z"
+          "name": "hn-ux",
+          "title": "The UX Research Methodology subway map trap",
+          "url": "https://www.reddit.com/r/UXDesign/comments/1wercj5/the_ux_research_methodology_subway_map_trap/",
+          "publishedAt": "2026-09-15T01:32:15.000Z"
         }
       ]
     },
@@ -254,93 +274,13 @@
       "publishedAt": "2026-09-09T07:34:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Booley – open-source IDE for agentic chip design",
           "url": "https://github.com/boldaxolotl/booley",
           "publishedAt": "2026-09-09T07:34:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fb1da0e81cd9",
-      "title": "Can stress be quantified?",
-      "teaser": "The science and design behind wearable stress tracking (Image source) Many wearable devices have moved beyond counting steps and tracking heart rate. Now they are trying to measure something",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-22T04:32:17.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Can stress be quantified?",
-          "url": "https://uxdesign.cc/can-stress-be-quantified-d247a81dd0f2?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-22T04:32:17.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d3e98d9554ef",
-      "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
-      "teaser": "Jev&#x27;s launch inspired me to work on this project. I had used fine tuned bert models, zero-shot models to achieve jev like functionality in healthcare insurance fraud audits in the last ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-21T14:00:16.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
-          "url": "https://deepanwadhwa.github.io/OpenDecision/",
-          "publishedAt": "2026-09-21T14:00:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "ff077aa966ed",
-      "title": "Show HN: Learn/Practice Sudoku strategies web app",
-      "teaser": "So, I wanted to get better at Sudoku puzzles, and I watched a lot of strategy videos, but I just could not grok them. Also I installed a bunch of free Sudoku games on my phone and got very (",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T14:35:45.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Learn/Practice Sudoku strategies web app",
-          "url": "https://sw-fun.github.io/sudoku/",
-          "publishedAt": "2026-09-04T14:35:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1ab71cb3a234",
-      "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
-      "teaser": "Technical considerations in the design of the Obra shadcn/ui kit Thursday last week, Figma released...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-07T14:35:32.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
-          "url": "https://dev.to/wolfr/opacity-within-variables-and-how-it-affects-a-shadcn-design-system-token-implementation-3ehg",
-          "publishedAt": "2026-09-07T14:35:32.000Z"
         }
       ]
     },
@@ -374,7 +314,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
       "sources": [
         {
           "name": "nngroup",
@@ -385,42 +325,62 @@
       ]
     },
     {
-      "id": "169857c0668c",
-      "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
-      "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
-      "tag": "Process",
+      "id": "ff077aa966ed",
+      "title": "Show HN: Learn/Practice Sudoku strategies web app",
+      "teaser": "So, I wanted to get better at Sudoku puzzles, and I watched a lot of strategy videos, but I just could not grok them. Also I installed a bunch of free Sudoku games on my phone and got very (",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-14T15:57:09.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "publishedAt": "2026-09-04T14:35:45.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 1,
+      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
-          "url": "https://dev.to/mikachu/designing-a-desktop-pet-native-to-linux-315m",
-          "publishedAt": "2026-09-14T15:57:09.000Z"
+          "name": "hn-ux",
+          "title": "Show HN: Learn/Practice Sudoku strategies web app",
+          "url": "https://sw-fun.github.io/sudoku/",
+          "publishedAt": "2026-09-04T14:35:45.000Z"
         }
       ]
     },
     {
-      "id": "1a21822c8e83",
-      "title": "Props Are Not a Design System",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "d3e98d9554ef",
+      "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
+      "teaser": "Jev&#x27;s launch inspired me to work on this project. I had used fine tuned bert models, zero-shot models to achieve jev like functionality in healthcare insurance fraud audits in the last ",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-19T16:29:03.000Z",
-      "since": "5 days ago",
+      "publishedAt": "2026-09-21T14:00:16.000Z",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "Props Are Not a Design System",
-          "url": "https://vitonsky.net/blog/2026/09/18/design-system/",
-          "publishedAt": "2026-09-19T16:29:03.000Z"
+          "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
+          "url": "https://deepanwadhwa.github.io/OpenDecision/",
+          "publishedAt": "2026-09-21T14:00:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1ab71cb3a234",
+      "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
+      "teaser": "Technical considerations in the design of the Obra shadcn/ui kit Thursday last week, Figma released...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-07T14:35:32.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
+          "url": "https://dev.to/wolfr/opacity-within-variables-and-how-it-affects-a-shadcn-design-system-token-implementation-3ehg",
+          "publishedAt": "2026-09-07T14:35:32.000Z"
         }
       ]
     },
@@ -445,6 +405,26 @@
       ]
     },
     {
+      "id": "eea5252eb77d",
+      "title": "Phyll, a UX review for apps built with AI that keeps the design",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-24T07:54:55.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Phyll, a UX review for apps built with AI that keeps the design",
+          "url": "https://github.com/carlosphyll/phyll",
+          "publishedAt": "2026-09-24T07:54:55.000Z"
+        }
+      ]
+    },
+    {
       "id": "282033201e4d",
       "title": "The Ethics of Artificial Intelligence in Military Operations",
       "teaser": "Deep learning systems now mediate military decisions to use force, yet their internal logic resists inspection, their evaluation practices are gameable, and their deployment fractures accoun",
@@ -465,42 +445,42 @@
       ]
     },
     {
-      "id": "9920dcc5c074",
-      "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
-      "teaser": "Hello! I&#x27;m a student from Spain and I&#x27;m the creator of MesaOS, an open-source operating system written from scratch in Rust for x86_64. I&#x27;ve been working on it mostly by mysel",
-      "tag": "AI",
+      "id": "1a21822c8e83",
+      "title": "Props Are Not a Design System",
+      "teaser": "",
+      "tag": "Systems",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-03T17:56:50.000Z",
-      "since": "3 weeks ago",
+      "category": "Latest",
+      "publishedAt": "2026-09-19T16:29:03.000Z",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "Show HN: MesaOS – An operating system written from scratch in Rust",
-          "url": "https://github.com/crackanimad0r/MesaOS",
-          "publishedAt": "2026-09-03T17:56:50.000Z"
+          "title": "Props Are Not a Design System",
+          "url": "https://vitonsky.net/blog/2026/09/18/design-system/",
+          "publishedAt": "2026-09-19T16:29:03.000Z"
         }
       ]
     },
     {
-      "id": "51819eaaf5d7",
-      "title": "From UX to AX: How AI Agents Change Application Design",
-      "teaser": "",
-      "tag": "AI",
+      "id": "169857c0668c",
+      "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
+      "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
+      "tag": "Process",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-09T14:49:13.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
+      "publishedAt": "2026-09-14T15:57:09.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
-          "name": "hn-ux",
-          "title": "From UX to AX: How AI Agents Change Application Design",
-          "url": "https://geekyants.com/en-us/blog/from-ux-to-ax-designing-applications-for-a-world-of-ai-agents",
-          "publishedAt": "2026-09-09T14:49:13.000Z"
+          "name": "devto-ux",
+          "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
+          "url": "https://dev.to/mikachu/designing-a-desktop-pet-native-to-linux-315m",
+          "publishedAt": "2026-09-14T15:57:09.000Z"
         }
       ]
     },
@@ -512,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-21T07:40:28.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -525,42 +505,22 @@
       ]
     },
     {
-      "id": "edd263780606",
-      "title": "UX should just be called Experience Design",
-      "teaser": "",
+      "id": "9e0a39c8708f",
+      "title": "The origins, side B — birth of the un-cool",
+      "teaser": "Software adoption followed crises of complexity&#x2026; and then it kept growing Continue reading on UX Collective »",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "1 week ago",
+      "category": "Latest",
+      "publishedAt": "2026-09-23T04:04:28.000Z",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
-          "name": "hn-ux",
-          "title": "UX should just be called Experience Design",
-          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
-          "publishedAt": "2026-09-15T08:01:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b4f882fa4584",
-      "title": "Quantum Black Design System: an open source release by McKinsey",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-10T14:22:41.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Quantum Black Design System: an open source release by McKinsey",
-          "url": "https://medium.com/quantumblack/announcing-quantumblack-design-system-opensourcing-7dfaf3f8e207",
-          "publishedAt": "2026-09-10T14:22:41.000Z"
+          "name": "uxcollective",
+          "title": "The origins, side B — birth of the un-cool",
+          "url": "https://uxdesign.cc/the-origins-side-b-birth-of-the-un-cool-d1baf83948c8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-23T04:04:28.000Z"
         }
       ]
     },
@@ -581,86 +541,6 @@
           "title": "Show HN: Invader – an indie iOS podcast player that never phones home",
           "url": "https://invader.gg/",
           "publishedAt": "2026-09-01T13:38:57.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d6da69fcc0c2",
-      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
-      "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-03T19:19:42.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
-          "url": "https://devbar.sh",
-          "publishedAt": "2026-09-03T19:19:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9e0a39c8708f",
-      "title": "The origins, side B — birth of the un-cool",
-      "teaser": "Software adoption followed crises of complexity&#x2026; and then it kept growing Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-23T04:04:28.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The origins, side B — birth of the un-cool",
-          "url": "https://uxdesign.cc/the-origins-side-b-birth-of-the-un-cool-d1baf83948c8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-23T04:04:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "777eb5ca9e1e",
-      "title": "Strata – A design system that records decisions, not components",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-07T14:25:59.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Strata – A design system that records decisions, not components",
-          "url": "https://github.com/Prometheus-000/strata",
-          "publishedAt": "2026-09-07T14:25:59.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8cb50904c937",
-      "title": "Design System Scalability Made iPhone Duo Possible",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-16T21:47:20.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Design System Scalability Made iPhone Duo Possible",
-          "url": "https://blog.romain.garden/blog/design-system-scalability-made-iphone-duo-possible/",
-          "publishedAt": "2026-09-16T21:47:20.000Z"
         }
       ]
     },
@@ -725,22 +605,42 @@
       ]
     },
     {
-      "id": "54350fec1e22",
-      "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
+      "id": "51819eaaf5d7",
+      "title": "From UX to AX: How AI Agents Change Application Design",
       "teaser": "",
-      "tag": "Systems",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-10T14:57:41.000Z",
+      "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
-          "url": "https://www.valet.dev/blog/work-that-looks-like-yours",
-          "publishedAt": "2026-09-10T14:57:41.000Z"
+          "name": "hn-ux",
+          "title": "From UX to AX: How AI Agents Change Application Design",
+          "url": "https://geekyants.com/en-us/blog/from-ux-to-ax-designing-applications-for-a-world-of-ai-agents",
+          "publishedAt": "2026-09-09T14:49:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "edd263780606",
+      "title": "UX should just be called Experience Design",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-15T08:01:39.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "UX should just be called Experience Design",
+          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
+          "publishedAt": "2026-09-15T08:01:39.000Z"
         }
       ]
     },
@@ -765,26 +665,6 @@
       ]
     },
     {
-      "id": "2a6d5002970c",
-      "title": "Show HN: Mu – an agent with actual command line experience",
-      "teaser": "I&#x27;m an old school user that finds the AI agent TUIs too magical, so I experimented with a new agent UX. I implement mu as a shell plugin (zsh and fish for now). Pressing Tab enters agen",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-03T14:31:41.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Mu – an agent with actual command line experience",
-          "url": "https://github.com/ylxdzsw/mu",
-          "publishedAt": "2026-09-03T14:31:41.000Z"
-        }
-      ]
-    },
-    {
       "id": "6fb9ef47bcea",
       "title": "UX Conference November Announced (Nov 16 - Nov 19)",
       "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. Nov 16 - Nov ",
@@ -794,13 +674,53 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Conference November Announced (Nov 16 - Nov 19)",
           "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-03T04:50:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8cb50904c937",
+      "title": "Design System Scalability Made iPhone Duo Possible",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-16T21:47:20.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design System Scalability Made iPhone Duo Possible",
+          "url": "https://blog.romain.garden/blog/design-system-scalability-made-iphone-duo-possible/",
+          "publishedAt": "2026-09-16T21:47:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b4f882fa4584",
+      "title": "Quantum Black Design System: an open source release by McKinsey",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-10T14:22:41.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Quantum Black Design System: an open source release by McKinsey",
+          "url": "https://medium.com/quantumblack/announcing-quantumblack-design-system-opensourcing-7dfaf3f8e207",
+          "publishedAt": "2026-09-10T14:22:41.000Z"
         }
       ]
     },
@@ -825,62 +745,82 @@
       ]
     },
     {
-      "id": "a5c3ec805549",
-      "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
-      "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-01T08:50:46.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
-          "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
-          "publishedAt": "2026-09-01T08:50:46.000Z"
-        }
-      ]
-    },
-    {
-      "id": "601373c7e54b",
-      "title": "Show HN: ToolJet – Claude Code and Codex build internal tools, no codegen",
-      "teaser": "Hey HN, Co-founder here. We spent 11 months to build a multi-agent system for generating applications. Then we scrapped it and rebuilt around MCP, letting coding agents do the job instead. O",
+      "id": "2a6d5002970c",
+      "title": "Show HN: Mu – an agent with actual command line experience",
+      "teaser": "I&#x27;m an old school user that finds the AI agent TUIs too magical, so I experimented with a new agent UX. I implement mu as a shell plugin (zsh and fish for now). Pressing Tab enters agen",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-02T12:01:49.000Z",
+      "publishedAt": "2026-09-03T14:31:41.000Z",
       "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: ToolJet – Claude Code and Codex build internal tools, no codegen",
-          "url": "https://github.com/ToolJet/ToolJet",
-          "publishedAt": "2026-09-02T12:01:49.000Z"
-        }
-      ]
-    },
-    {
-      "id": "05d51c76f4e3",
-      "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
-      "teaser": "Hey HN, I&#x27;ve been working on this for about a year and figured it was time to share it. Visor started with my own kids. I actually think YouTube has a lot of good content for kids, but ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T18:56:11.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
-          "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
-          "url": "https://gotvisor.com",
-          "publishedAt": "2026-09-04T18:56:11.000Z"
+          "title": "Show HN: Mu – an agent with actual command line experience",
+          "url": "https://github.com/ylxdzsw/mu",
+          "publishedAt": "2026-09-03T14:31:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "777eb5ca9e1e",
+      "title": "Strata – A design system that records decisions, not components",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-07T14:25:59.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Strata – A design system that records decisions, not components",
+          "url": "https://github.com/Prometheus-000/strata",
+          "publishedAt": "2026-09-07T14:25:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "54350fec1e22",
+      "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-10T14:57:41.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
+          "url": "https://www.valet.dev/blog/work-that-looks-like-yours",
+          "publishedAt": "2026-09-10T14:57:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d6da69fcc0c2",
+      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+      "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-03T19:19:42.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+          "url": "https://devbar.sh",
+          "publishedAt": "2026-09-03T19:19:42.000Z"
         }
       ]
     },
@@ -905,26 +845,6 @@
       ]
     },
     {
-      "id": "89ee143012e1",
-      "title": "Show HN: Arena, the same design system in React and Angular from one contract",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-05T02:16:36.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Arena, the same design system in React and Angular from one contract",
-          "url": "https://arena.dravensoft.org/web-benches/",
-          "publishedAt": "2026-09-05T02:16:36.000Z"
-        }
-      ]
-    },
-    {
       "id": "21537bff3dff",
       "title": "Using AI for UX Work: Study Guide",
       "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
@@ -945,22 +865,102 @@
       ]
     },
     {
-      "id": "7c2f71191b75",
-      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
-      "tag": "Research",
+      "id": "05d51c76f4e3",
+      "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
+      "teaser": "Hey HN, I&#x27;ve been working on this for about a year and figured it was time to share it. Visor started with my own kids. I actually think YouTube has a lot of good content for kids, but ",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-26T13:00:00.000Z",
-      "since": "4 weeks ago",
+      "publishedAt": "2026-09-04T18:56:11.000Z",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
-          "name": "smashing",
-          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
-          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
-          "publishedAt": "2026-08-26T13:00:00.000Z"
+          "name": "hn-ux",
+          "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
+          "url": "https://gotvisor.com",
+          "publishedAt": "2026-09-04T18:56:11.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a5c3ec805549",
+      "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
+      "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-01T08:50:46.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
+          "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
+          "publishedAt": "2026-09-01T08:50:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "03201d525f0c",
+      "title": "The Custodial Era of UX: Cleaning Up After AI",
+      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Custodial Era of UX: Cleaning Up After AI",
+          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-08-28T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "89ee143012e1",
+      "title": "Show HN: Arena, the same design system in React and Angular from one contract",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-05T02:16:36.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Arena, the same design system in React and Angular from one contract",
+          "url": "https://arena.dravensoft.org/web-benches/",
+          "publishedAt": "2026-09-05T02:16:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "be045ee3b363",
+      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
+          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
+          "publishedAt": "2026-08-25T21:17:17.000Z"
         }
       ]
     },
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-24T13:27:12.963Z"
+      "fetchedAt": "2026-09-24T19:55:12.524Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-24T13:27:13.016Z"
+      "fetchedAt": "2026-09-24T19:55:12.575Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-24T13:27:13.017Z"
+      "fetchedAt": "2026-09-24T19:55:12.577Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-24T13:27:13.018Z"
+      "fetchedAt": "2026-09-24T19:55:12.578Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-24T13:27:13.019Z"
+      "fetchedAt": "2026-09-24T19:55:12.579Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-24T13:27:13.020Z"
+      "fetchedAt": "2026-09-24T19:55:12.580Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-24T13:27:13.021Z"
+      "fetchedAt": "2026-09-24T19:55:12.582Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-24T13:27:13.022Z"
+      "fetchedAt": "2026-09-24T19:55:12.582Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-24T13:27:13.023Z"
+      "fetchedAt": "2026-09-24T19:55:12.583Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-24T13:27:13.024Z"
+      "fetchedAt": "2026-09-24T19:55:12.584Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-24T13:27:13.025Z"
+      "fetchedAt": "2026-09-24T19:55:12.585Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-24T13:27:13.026Z"
+      "fetchedAt": "2026-09-24T19:55:12.586Z"
     }
   ]
 }
