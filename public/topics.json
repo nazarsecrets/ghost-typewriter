@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-24T04:16:45.299Z",
-  "windowStart": "2026-08-25T04:16:45.299Z",
-  "windowEnd": "2026-09-24T04:16:45.299Z",
+  "generatedAt": "2026-09-24T13:27:12.962Z",
+  "windowStart": "2026-08-25T13:27:12.962Z",
+  "windowEnd": "2026-09-24T13:27:12.962Z",
   "topics": [
     {
       "id": "e7abc36915cd",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-24T00:21:16.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -32,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T22:53:01.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -52,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T21:27:21.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T17:13:07.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -132,15 +132,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-21T22:47:57.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "The lie we keep telling ourselves about regulating AI",
           "url": "https://uxdesign.cc/the-lie-we-keep-telling-ourselves-about-regulating-ai-61e0163d795e?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-21T22:47:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "eea5252eb77d",
+      "title": "Phyll, a UX review for apps built with AI that keeps the design",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-24T07:54:55.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Phyll, a UX review for apps built with AI that keeps the design",
+          "url": "https://github.com/carlosphyll/phyll",
+          "publishedAt": "2026-09-24T07:54:55.000Z"
         }
       ]
     },
@@ -154,7 +174,7 @@
       "publishedAt": "2026-09-10T00:13:16.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 14 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -392,9 +412,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-19T16:29:03.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -414,7 +434,7 @@
       "publishedAt": "2026-09-11T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
       "sources": [
         {
           "name": "nngroup",
@@ -454,7 +474,7 @@
       "publishedAt": "2026-09-03T17:56:50.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -574,7 +594,7 @@
       "publishedAt": "2026-09-03T19:19:42.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -630,11 +650,11 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-16T21:47:20.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -794,33 +814,13 @@
       "publishedAt": "2026-09-01T20:37:45.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Conference September Announced (Sep 14 - Sep 25)",
           "url": "https://www.nngroup.com/training/september/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-01T20:37:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "632ad5203758",
-      "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
-      "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:12:33.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
-          "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
-          "publishedAt": "2026-08-25T21:12:33.000Z"
         }
       ]
     },
@@ -874,33 +874,13 @@
       "publishedAt": "2026-09-04T18:56:11.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
           "url": "https://gotvisor.com",
           "publishedAt": "2026-09-04T18:56:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5de15657393b",
-      "title": "Decoupling Claim Timeouts from Feature Flags",
-      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:08:28.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Decoupling Claim Timeouts from Feature Flags",
-          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
-          "publishedAt": "2026-08-25T21:08:28.000Z"
         }
       ]
     },
@@ -954,7 +934,7 @@
       "publishedAt": "2026-09-04T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 20 days",
       "sources": [
         {
           "name": "nngroup",
@@ -965,42 +945,62 @@
       ]
     },
     {
-      "id": "be045ee3b363",
-      "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-      "teaser": "How I ran a systematic 48-hour post-launch audit on an AI video platform — triaging reliability regressions, UX leaks, and data honesty issues across 20 PRs batched by theme, with every fix ",
-      "tag": "AI",
+      "id": "7c2f71191b75",
+      "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+      "teaser": "Data visualisation sits at the intersection of two disciplines that rarely talk to each other: data and design. Meriem Benhabiles explores what changes when you bring structured UX thinking ",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-25T21:17:17.000Z",
+      "publishedAt": "2026-08-26T13:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
       "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Post-Launch Audit: 20 PRs and 12 Fixes in 48 Hours",
-          "url": "https://dev.to/humzakt/post-launch-audit-20-prs-and-12-fixes-in-48-hours-cfc",
-          "publishedAt": "2026-08-25T21:17:17.000Z"
+          "name": "smashing",
+          "title": "Rethinking Data Visualisation: A UX Approach To Dashboards That Actually Drives Decisions",
+          "url": "https://smashingmagazine.com/2026/08/rethinking-data-visualisation-ux-approach-dashboards/",
+          "publishedAt": "2026-08-26T13:00:00.000Z"
         }
       ]
     },
     {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
+      "id": "632ad5203758",
+      "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
+      "teaser": "How double-click transaction deduplication, cost ledger reconciliation, and strict state locks prevent duplicate billing and preserve user configuration in generative AI applications.",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
+      "publishedAt": "2026-08-25T21:12:33.000Z",
       "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
       "sources": [
         {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
+          "name": "devto-ux",
+          "title": "Idempotency Transaction Guards & State Locks in Interactive Generative AI UX",
+          "url": "https://dev.to/humzakt/idempotency-transaction-guards-state-locks-in-interactive-generative-ai-ux-377n",
+          "publishedAt": "2026-08-25T21:12:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5de15657393b",
+      "title": "Decoupling Claim Timeouts from Feature Flags",
+      "teaser": "When disabling the expert review pool killed timeout enforcement, I decoupled the countdown, added three-phase UX, and blocked expired uploads.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-08-25T21:08:28.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Decoupling Claim Timeouts from Feature Flags",
+          "url": "https://dev.to/humzakt/decoupling-claim-timeouts-from-feature-flags-4f0a",
+          "publishedAt": "2026-08-25T21:08:28.000Z"
         }
       ]
     }
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-24T04:16:45.300Z"
+      "fetchedAt": "2026-09-24T13:27:12.963Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-24T04:16:45.353Z"
+      "fetchedAt": "2026-09-24T13:27:13.016Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-24T04:16:45.355Z"
+      "fetchedAt": "2026-09-24T13:27:13.017Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-24T04:16:45.356Z"
+      "fetchedAt": "2026-09-24T13:27:13.018Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-24T04:16:45.357Z"
+      "fetchedAt": "2026-09-24T13:27:13.019Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-24T04:16:45.358Z"
+      "fetchedAt": "2026-09-24T13:27:13.020Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-24T04:16:45.359Z"
+      "fetchedAt": "2026-09-24T13:27:13.021Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 9,
-      "fetchedAt": "2026-09-24T04:16:45.360Z"
+      "items": 10,
+      "fetchedAt": "2026-09-24T13:27:13.022Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-24T04:16:45.361Z"
+      "fetchedAt": "2026-09-24T13:27:13.023Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-24T04:16:45.362Z"
+      "fetchedAt": "2026-09-24T13:27:13.024Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-24T04:16:45.363Z"
+      "fetchedAt": "2026-09-24T13:27:13.025Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-24T04:16:45.364Z"
+      "fetchedAt": "2026-09-24T13:27:13.026Z"
     }
   ]
 }
