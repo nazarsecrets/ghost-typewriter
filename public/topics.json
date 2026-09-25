@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T13:31:40.760Z",
-  "windowStart": "2026-08-26T13:31:40.760Z",
-  "windowEnd": "2026-09-25T13:31:40.760Z",
+  "generatedAt": "2026-09-25T19:56:30.575Z",
+  "windowStart": "2026-08-26T19:56:30.575Z",
+  "windowEnd": "2026-09-25T19:56:30.575Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -14,33 +14,13 @@
       "publishedAt": "2026-09-24T17:21:36.000Z",
       "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "463 engagement signals within 1 days",
+      "categoryReason": "509 engagement signals within 1 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
           "url": "https://github.com/devdotfast/whiteboard",
           "publishedAt": "2026-09-24T17:21:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7a89ba194644",
-      "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
-      "teaser": "Hey HN! I built Proxima Forma because sharing screenshots with my agents was not really doing the job. I am a UX Designer with a developer background so I needed a better tool. Wanted the ag",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-25T09:22:55.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
-          "url": "https://proximaforma.com/",
-          "publishedAt": "2026-09-25T09:22:55.000Z"
         }
       ]
     },
@@ -172,15 +152,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T04:33:52.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Nobody starts as an accessibility expert",
           "url": "https://uxdesign.cc/nobody-starts-as-an-accessibility-expert-6a16e8a99960?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-22T04:33:52.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7a89ba194644",
+      "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
+      "teaser": "Hey HN! I built Proxima Forma because sharing screenshots with my agents was not really doing the job. I am a UX Designer with a developer background so I needed a better tool. Wanted the ag",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-25T09:22:55.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
+          "url": "https://proximaforma.com/",
+          "publishedAt": "2026-09-25T09:22:55.000Z"
         }
       ]
     },
@@ -212,9 +212,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T04:06:17.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -232,35 +232,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T04:32:17.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Can stress be quantified?",
           "url": "https://uxdesign.cc/can-stress-be-quantified-d247a81dd0f2?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-22T04:32:17.000Z"
-        }
-      ]
-    },
-    {
-      "id": "aaeec53ff421",
-      "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-10T00:13:16.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 16 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
-          "url": "https://www.coinbase.com/blog/how-coinbase-design-systems-are-powering-the-ai-prototyping-era",
-          "publishedAt": "2026-09-10T00:13:16.000Z"
         }
       ]
     },
@@ -285,6 +265,26 @@
       ]
     },
     {
+      "id": "aaeec53ff421",
+      "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-10T00:13:16.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 1,
+      "categoryReason": "High relevance (1.00) with limited coverage over 16 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
+          "url": "https://www.coinbase.com/blog/how-coinbase-design-systems-are-powering-the-ai-prototyping-era",
+          "publishedAt": "2026-09-10T00:13:16.000Z"
+        }
+      ]
+    },
+    {
       "id": "9c23ab338464",
       "title": "The UX Research Methodology subway map trap",
       "teaser": "",
@@ -292,9 +292,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -334,7 +334,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
           "name": "nngroup",
@@ -354,7 +354,7 @@
       "publishedAt": "2026-09-09T07:34:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -472,9 +472,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-24T07:54:55.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -532,9 +532,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-21T07:40:28.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -572,9 +572,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T04:04:28.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -674,7 +674,7 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
       "sources": [
         {
           "name": "nngroup",
@@ -970,73 +970,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-25T13:31:40.761Z"
+      "fetchedAt": "2026-09-25T19:56:30.575Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-25T13:31:40.801Z"
+      "fetchedAt": "2026-09-25T19:56:30.628Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-25T13:31:40.802Z"
+      "fetchedAt": "2026-09-25T19:56:30.629Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-25T13:31:40.803Z"
+      "fetchedAt": "2026-09-25T19:56:30.630Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-25T13:31:40.804Z"
+      "fetchedAt": "2026-09-25T19:56:30.631Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-25T13:31:40.804Z"
+      "fetchedAt": "2026-09-25T19:56:30.632Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-25T13:31:40.805Z"
+      "fetchedAt": "2026-09-25T19:56:30.633Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-09-25T13:31:40.806Z"
+      "fetchedAt": "2026-09-25T19:56:30.634Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-25T13:31:40.807Z"
+      "fetchedAt": "2026-09-25T19:56:30.635Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-25T13:31:40.808Z"
+      "fetchedAt": "2026-09-25T19:56:30.636Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-25T13:31:40.808Z"
+      "fetchedAt": "2026-09-25T19:56:30.637Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-25T13:31:40.809Z"
+      "fetchedAt": "2026-09-25T19:56:30.638Z"
     }
   ]
 }
