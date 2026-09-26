@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-26T12:53:58.959Z",
-  "windowStart": "2026-08-27T12:53:58.959Z",
-  "windowEnd": "2026-09-26T12:53:58.959Z",
+  "generatedAt": "2026-09-26T19:08:57.369Z",
+  "windowStart": "2026-08-27T19:08:57.369Z",
+  "windowEnd": "2026-09-26T19:08:57.369Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -14,13 +14,33 @@
       "publishedAt": "2026-09-24T17:21:36.000Z",
       "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "537 engagement signals within 2 days",
+      "categoryReason": "546 engagement signals within 2 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
           "url": "https://github.com/devdotfast/whiteboard",
           "publishedAt": "2026-09-24T17:21:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "846c8a2f2961",
+      "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-26T14:15:39.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
+          "url": "https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/",
+          "publishedAt": "2026-09-26T14:15:39.000Z"
         }
       ]
     },
@@ -152,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T04:33:52.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -212,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T04:06:17.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -274,7 +294,7 @@
       "publishedAt": "2026-09-15T01:32:15.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -312,9 +332,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-16T06:59:19.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
       "sources": [
         {
           "name": "nngroup",
@@ -572,9 +592,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T04:04:28.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -674,7 +694,7 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
       "sources": [
         {
           "name": "nngroup",
@@ -970,73 +990,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-26T12:53:58.959Z"
+      "fetchedAt": "2026-09-26T19:08:57.369Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-26T12:53:58.994Z"
+      "fetchedAt": "2026-09-26T19:08:57.417Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-26T12:53:58.995Z"
+      "fetchedAt": "2026-09-26T19:08:57.418Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-26T12:53:58.996Z"
+      "fetchedAt": "2026-09-26T19:08:57.419Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-26T12:53:58.997Z"
+      "fetchedAt": "2026-09-26T19:08:57.420Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-26T12:53:58.998Z"
+      "fetchedAt": "2026-09-26T19:08:57.421Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-26T12:53:58.999Z"
+      "fetchedAt": "2026-09-26T19:08:57.422Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-26T12:53:58.999Z"
+      "fetchedAt": "2026-09-26T19:08:57.422Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-26T12:53:59.000Z"
+      "fetchedAt": "2026-09-26T19:08:57.423Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-26T12:53:59.001Z"
+      "fetchedAt": "2026-09-26T19:08:57.424Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-26T12:53:59.001Z"
+      "fetchedAt": "2026-09-26T19:08:57.424Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-26T12:53:59.002Z"
+      "fetchedAt": "2026-09-26T19:08:57.425Z"
     }
   ]
 }
