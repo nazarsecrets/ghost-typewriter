@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T19:56:30.575Z",
-  "windowStart": "2026-08-26T19:56:30.575Z",
-  "windowEnd": "2026-09-25T19:56:30.575Z",
+  "generatedAt": "2026-09-26T04:32:49.358Z",
+  "windowStart": "2026-08-27T04:32:49.358Z",
+  "windowEnd": "2026-09-26T04:32:49.358Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -14,7 +14,7 @@
       "publishedAt": "2026-09-24T17:21:36.000Z",
       "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "509 engagement signals within 1 days",
+      "categoryReason": "529 engagement signals within 1 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -132,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:22:49.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -172,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-25T09:22:55.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -192,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-24T14:44:52.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -225,26 +225,6 @@
       ]
     },
     {
-      "id": "fb1da0e81cd9",
-      "title": "Can stress be quantified?",
-      "teaser": "The science and design behind wearable stress tracking (Image source) Many wearable devices have moved beyond counting steps and tracking heart rate. Now they are trying to measure something",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-22T04:32:17.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Can stress be quantified?",
-          "url": "https://uxdesign.cc/can-stress-be-quantified-d247a81dd0f2?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-22T04:32:17.000Z"
-        }
-      ]
-    },
-    {
       "id": "90b133d0735e",
       "title": "Show HN: Toolcraft – open-source AI harness and starter for building design apps",
       "teaser": "MIT-licensed, 100% free starter kit, UI library, and AI harness for building your own design apps. Works with Codex, Claude, Cursor, or any other agents. I’ve always been passionate about pu",
@@ -254,7 +234,7 @@
       "publishedAt": "2026-09-11T14:11:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 14 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -281,6 +261,26 @@
           "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
           "url": "https://www.coinbase.com/blog/how-coinbase-design-systems-are-powering-the-ai-prototyping-era",
           "publishedAt": "2026-09-10T00:13:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "748d9e25e79a",
+      "title": "Is this the line for burgers?",
+      "teaser": "On something already in the scene solving a problem outside its brief Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-25T21:51:14.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Is this the line for burgers?",
+          "url": "https://uxdesign.cc/is-this-the-line-for-burgers-9730dd45999d?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-25T21:51:14.000Z"
         }
       ]
     },
@@ -312,9 +312,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:23:11.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -374,7 +374,7 @@
       "publishedAt": "2026-09-04T14:35:45.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 21 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -394,7 +394,7 @@
       "publishedAt": "2026-09-07T14:35:32.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
       "sources": [
         {
           "name": "devto-design",
@@ -452,9 +452,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-21T14:00:16.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -492,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-19T16:29:03.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -554,7 +554,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -592,9 +592,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:22:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -612,9 +612,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:21:28.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -632,9 +632,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-01T13:38:57.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -654,7 +654,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 17 days",
       "sources": [
         {
           "name": "smashing",
@@ -694,7 +694,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -712,9 +712,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -774,7 +774,7 @@
       "publishedAt": "2026-09-03T14:31:41.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -794,7 +794,7 @@
       "publishedAt": "2026-09-10T14:22:41.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -814,7 +814,7 @@
       "publishedAt": "2026-09-07T14:25:59.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -834,7 +834,7 @@
       "publishedAt": "2026-09-10T14:57:41.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -874,7 +874,7 @@
       "publishedAt": "2026-09-11T13:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "smashing",
@@ -932,9 +932,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-01T08:50:46.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -970,73 +970,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-25T19:56:30.575Z"
+      "fetchedAt": "2026-09-26T04:32:49.358Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-25T19:56:30.628Z"
+      "fetchedAt": "2026-09-26T04:32:49.402Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-25T19:56:30.629Z"
+      "fetchedAt": "2026-09-26T04:32:49.403Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-25T19:56:30.630Z"
+      "fetchedAt": "2026-09-26T04:32:49.404Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-25T19:56:30.631Z"
+      "fetchedAt": "2026-09-26T04:32:49.405Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-25T19:56:30.632Z"
+      "fetchedAt": "2026-09-26T04:32:49.406Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-25T19:56:30.633Z"
+      "fetchedAt": "2026-09-26T04:32:49.407Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-09-25T19:56:30.634Z"
+      "fetchedAt": "2026-09-26T04:32:49.407Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-25T19:56:30.635Z"
+      "fetchedAt": "2026-09-26T04:32:49.408Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-25T19:56:30.636Z"
+      "fetchedAt": "2026-09-26T04:32:49.409Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-25T19:56:30.637Z"
+      "fetchedAt": "2026-09-26T04:32:49.410Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-25T19:56:30.638Z"
+      "fetchedAt": "2026-09-26T04:32:49.411Z"
     }
   ]
 }
