@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T13:46:35.394Z",
-  "windowStart": "2026-08-28T13:46:35.394Z",
-  "windowEnd": "2026-09-27T13:46:35.394Z",
+  "generatedAt": "2026-09-27T19:40:52.083Z",
+  "windowStart": "2026-08-28T19:40:52.083Z",
+  "windowEnd": "2026-09-27T19:40:52.083Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -14,7 +14,7 @@
       "publishedAt": "2026-09-24T17:21:36.000Z",
       "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "553 engagement signals within 3 days",
+      "categoryReason": "556 engagement signals within 3 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -172,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T04:33:52.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -225,6 +225,26 @@
       ]
     },
     {
+      "id": "1ab71cb3a234",
+      "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
+      "teaser": "Technical considerations in the design of the Obra shadcn/ui kit Thursday last week, Figma released...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-07T14:35:32.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
+          "url": "https://dev.to/wolfr/opacity-within-variables-and-how-it-affects-a-shadcn-design-system-token-implementation-3ehg",
+          "publishedAt": "2026-09-07T14:35:32.000Z"
+        }
+      ]
+    },
+    {
       "id": "2ccda4070524",
       "title": "Why the best resume may be the wrong resume for a design team",
       "teaser": "What design leadership gets wrong about experience, expertise, and innovation on a team. Continue reading on UX Collective »",
@@ -232,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T04:06:17.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -334,7 +354,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "nngroup",
@@ -354,7 +374,7 @@
       "publishedAt": "2026-09-09T07:34:11.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -552,9 +572,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-21T07:40:28.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -572,9 +592,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T04:04:28.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -672,9 +692,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-03T04:50:49.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
       "sources": [
         {
           "name": "nngroup",
@@ -943,26 +963,6 @@
           "publishedAt": "2026-09-01T08:50:46.000Z"
         }
       ]
-    },
-    {
-      "id": "03201d525f0c",
-      "title": "The Custodial Era of UX: Cleaning Up After AI",
-      "teaser": "AI lets teams build faster than UX can evaluate. UX can adapt by building shared judgment, accelerating evaluation, and guiding AI-generated designs.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-08-28T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Custodial Era of UX: Cleaning Up After AI",
-          "url": "https://www.nngroup.com/articles/ai-ux-debt/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-08-28T17:00:00.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -970,73 +970,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-27T13:46:35.395Z"
+      "fetchedAt": "2026-09-27T19:40:52.084Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-27T13:46:35.449Z"
+      "fetchedAt": "2026-09-27T19:40:52.137Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-27T13:46:35.451Z"
+      "fetchedAt": "2026-09-27T19:40:52.138Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-27T13:46:35.452Z"
+      "fetchedAt": "2026-09-27T19:40:52.139Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-27T13:46:35.453Z"
+      "fetchedAt": "2026-09-27T19:40:52.140Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T13:46:35.454Z"
+      "fetchedAt": "2026-09-27T19:40:52.142Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T13:46:35.456Z"
+      "fetchedAt": "2026-09-27T19:40:52.143Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-27T13:46:35.457Z"
+      "fetchedAt": "2026-09-27T19:40:52.144Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T13:46:35.458Z"
+      "fetchedAt": "2026-09-27T19:40:52.145Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T13:46:35.459Z"
+      "fetchedAt": "2026-09-27T19:40:52.146Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-27T13:46:35.459Z"
+      "fetchedAt": "2026-09-27T19:40:52.147Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-27T13:46:35.461Z"
+      "fetchedAt": "2026-09-27T19:40:52.148Z"
     }
   ]
 }
