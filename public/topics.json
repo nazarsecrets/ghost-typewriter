@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T04:51:47.927Z",
-  "windowStart": "2026-08-28T04:51:47.927Z",
-  "windowEnd": "2026-09-27T04:51:47.927Z",
+  "generatedAt": "2026-09-27T13:46:35.394Z",
+  "windowStart": "2026-08-28T13:46:35.394Z",
+  "windowEnd": "2026-09-27T13:46:35.394Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-09-24T17:21:36.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "552 engagement signals within 2 days",
+      "categoryReason": "553 engagement signals within 3 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -52,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T22:53:01.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T18:54:37.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -92,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T18:13:34.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-24T00:21:16.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -132,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T21:27:21.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -272,9 +272,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-10T00:13:16.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 17 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -294,7 +294,7 @@
       "publishedAt": "2026-09-15T01:32:15.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -385,26 +385,6 @@
       ]
     },
     {
-      "id": "1ab71cb3a234",
-      "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
-      "teaser": "Technical considerations in the design of the Obra shadcn/ui kit Thursday last week, Figma released...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-07T14:35:32.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
-          "url": "https://dev.to/wolfr/opacity-within-variables-and-how-it-affects-a-shadcn-design-system-token-implementation-3ehg",
-          "publishedAt": "2026-09-07T14:35:32.000Z"
-        }
-      ]
-    },
-    {
       "id": "e295355d895c",
       "title": "\"A Necessary Evil\": Teenagers' Sensemaking of Privacy and Safety Settings on Social Media",
       "teaser": "Social media platforms are embedded in teenagers' daily lives, supporting friendship and identity while exposing teenagers to unwanted contact and privacy harms. Previous scholarship has doc",
@@ -412,9 +392,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T18:26:39.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -434,7 +414,7 @@
       "publishedAt": "2026-09-11T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "nngroup",
@@ -492,9 +472,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-25T21:51:14.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -532,9 +512,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-24T22:03:16.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -754,7 +734,7 @@
       "publishedAt": "2026-09-01T20:37:45.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
       "sources": [
         {
           "name": "nngroup",
@@ -772,9 +752,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-16T21:47:20.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -874,7 +854,7 @@
       "publishedAt": "2026-09-03T19:19:42.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -914,7 +894,7 @@
       "publishedAt": "2026-09-04T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 23 days",
       "sources": [
         {
           "name": "nngroup",
@@ -934,7 +914,7 @@
       "publishedAt": "2026-09-04T18:56:11.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -974,7 +954,7 @@
       "publishedAt": "2026-08-28T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
       "sources": [
         {
           "name": "nngroup",
@@ -990,73 +970,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-27T04:51:47.927Z"
+      "fetchedAt": "2026-09-27T13:46:35.395Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-27T04:51:47.968Z"
+      "fetchedAt": "2026-09-27T13:46:35.449Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-27T04:51:47.969Z"
+      "fetchedAt": "2026-09-27T13:46:35.451Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-27T04:51:47.970Z"
+      "fetchedAt": "2026-09-27T13:46:35.452Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-27T04:51:47.970Z"
+      "fetchedAt": "2026-09-27T13:46:35.453Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T04:51:47.971Z"
+      "fetchedAt": "2026-09-27T13:46:35.454Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T04:51:47.972Z"
+      "fetchedAt": "2026-09-27T13:46:35.456Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-27T04:51:47.973Z"
+      "fetchedAt": "2026-09-27T13:46:35.457Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T04:51:47.974Z"
+      "fetchedAt": "2026-09-27T13:46:35.458Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T04:51:47.974Z"
+      "fetchedAt": "2026-09-27T13:46:35.459Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-27T04:51:47.975Z"
+      "fetchedAt": "2026-09-27T13:46:35.459Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-27T04:51:47.976Z"
+      "fetchedAt": "2026-09-27T13:46:35.461Z"
     }
   ]
 }
