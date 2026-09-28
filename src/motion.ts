@@ -1,4 +1,4 @@
-import { animate, stagger } from "animejs";
+import { animate, stagger, type JSAnimation } from "animejs";
 
 const reduceMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -37,7 +37,11 @@ export function paragraphOpacity(distance: number) {
  * the paragraph's top down to the line being written, so a growing paragraph
  * keeps the caret in place instead of pushing it toward the bottom.
  */
+let writingScroll: JSAnimation | null = null;
+export function stopWritingScroll() { writingScroll?.cancel(); writingScroll = null; }
+
 export function focusParagraph(element: HTMLElement | null, caretOffset = 0) {
+  stopWritingScroll();
   if (!element) return;
   const scroller = document.scrollingElement as HTMLElement | null;
   if (!scroller) return;
@@ -45,7 +49,7 @@ export function focusParagraph(element: HTMLElement | null, caretOffset = 0) {
   if (Math.abs(target - window.scrollY) < 1) return;
   // The position is the rule; only the travel to it is motion.
   if (reduceMotion()) { scroller.scrollTop = target; return; }
-  animate(scroller, { scrollTop: target, duration: 500, ease: "inOut(3)" });
+  writingScroll = animate(scroller, { scrollTop: target, duration: 500, ease: "inOut(3)" });
 }
 
 /**

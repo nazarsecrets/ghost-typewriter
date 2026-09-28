@@ -16,12 +16,13 @@ The intent is deliberately small: a tool for one author, hosted for free, lightw
 
 The distinctive feeling I'm after is a **modern, immersive typewriter** — the steadiness and rhythm of a typewriter without its rigidity. This is the emotional core, and motion is how we achieve it.
 
-**Anime.js** is the primary tool for this. It's tiny (~tens of KB), has no runtime dependencies, and drives the six behaviors already defined (`ghostReveal`, `pathwayExit/Enter`, `focusParagraph`, `quietParagraph`, `enterWritingMode`). The signature move is the **fixed writing line**: the active paragraph stays anchored near 42% of the viewport while the page scrolls underneath, so the thought I'm writing stays physically still — the closest digital analog to paper feeding through a carriage.
+**Anime.js** is the primary tool for this. It's tiny (~tens of KB), has no runtime dependencies, and drives the six behaviors already defined (`ghostReveal`, `pathwayExit/Enter`, `focusParagraph`, `quietParagraph`, `enterWritingMode`), joined by the Plume cursor states. The signature move is the **fixed writing line**: the line being written stays anchored near 30% of the viewport while the page scrolls underneath, so the thought I'm writing stays physically still — the closest digital analog to paper feeding through a carriage.
 
 Ways to deepen the immersion, all free and lightweight:
 
 - **Anime.js (in use)** — word-by-word reveals, paragraph focus/quiet transitions, carriage-style scroll anchoring. Keep motion under ~600ms and always gate it behind `prefers-reduced-motion`.
-- **CSS-only touches** — a soft caret, subtle paper grain via the existing palette, a monospaced *option* for the manuscript for a truer typewriter register, and `@keyframes` for ambient details that don't need JS.
+- **The Plume** — the insertion point is a quill drawn over the sheet (`src/PlumeCursor.tsx`, measured by `src/caret.ts`), a visual layer only: native editing, selection and IME stay with the textarea, and reduced motion or forced colors return the system caret.
+- **CSS-only touches** — subtle paper grain via the existing palette, a monospaced *option* for the manuscript for a truer typewriter register, and `@keyframes` for ambient details that don't need JS.
 - **Web Audio API (optional, opt-in)** — a faint keystroke/return-bell sound generated in-browser. No assets, no dependency, muted by default. This is the single highest-impact addition for "typewriter feel" if I want it.
 - **View Transitions API** — native, zero-KB crossfades between the today → reflect → write → review modes, complementing Anime.js for the larger scene changes.
 

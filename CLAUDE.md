@@ -41,8 +41,9 @@ tracker stale. If a task made no tracked progress, say so — don't silently ski
   pipeline) with the Evergreen curated fallback — never a hosted LLM.
 - **Honesty:** never present curated Evergreen prompts as current, and never emit
   synthetic recency ("surfaced N days ago") for non-source-backed content (PRD §8).
-- **Motion:** Anime.js only, the six named behaviors, under ~600ms, always gated
-  behind `prefers-reduced-motion`. Motion serves stillness.
+- **Motion:** Anime.js only, the six named behaviors plus the Plume cursor states,
+  under ~600ms, always gated behind `prefers-reduced-motion`. Motion serves
+  stillness; no state may loop.
 - **Secrets:** no API key ever in the client bundle.
 
 ## Commands
@@ -55,7 +56,10 @@ tracker stale. If a task made no tracked progress, say so — don't silently ski
 ## Layout
 
 - `ghostwriter.tsx` — the app (single component, four views).
-- `src/motion.ts` — the six Anime.js behaviors.
+- `src/motion.ts` — the six Anime.js behaviors, and the writing-rule constants
+  (`WRITING_ANCHOR`, the opacity ladder).
+- `src/PlumeCursor.tsx` / `src/caret.ts` — the quill cursor and the textarea
+  mirror that measures the true insertion point.
 - `src/topics.ts` — Evergreen curated fallback desk.
 - `src/topicSource.ts` — client topic loader (manifest + fallback + selection).
 - `pipeline/` — provider-independent topic generation (Node/tsx).

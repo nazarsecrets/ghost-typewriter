@@ -2,6 +2,9 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState, type Keyboar
 import { enterWritingMode, focusParagraph, pathwayEnter, pathwayExit, quietParagraph } from "./src/motion";
 import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type EditorialLens, type TopicResult } from "./src/topicSource";
 
+import { PlumeCursor, type PlumeOrigin } from "./src/PlumeCursor";
+import { measureCaret } from "./src/caret";
+import { stopWritingScroll } from "./src/motion";
 import { writingGuides } from "./src/writingGuides";
 
 declare const __ANTHROPIC_CONFIGURED__: boolean;
@@ -16,6 +19,7 @@ type Reflection = { angle: string; pathways: Pathway[] };
 type Draft = { id: string; title: string; updatedAt: string; content: string; topic?: Topic | null; notes?: Partial<Record<PathwayType, string>> };
 type Session = {
   draftId?: string;
+  savedAt?: string;
   view: View;
   mode: Mode;
   tone: Tone;
@@ -139,9 +143,9 @@ function writeStorage<T>(key: string, data: T) {
   localStorage.setItem(key, JSON.stringify({ version: STORAGE_VERSION, data }));
 }
 
-async function askClaude(system: string | undefined, content: string, maxTokens = 1400) {
+async function askClaude(system: string | undefined, content: string, maxTokens = 1400, signal?: AbortSignal) {
   const response = await fetch("/api/anthropic/v1/messages", {
-    method: "POST",
+    method: "POST", signal,
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       model: "claude-sonnet-4-20250514", max_tokens: maxTokens,
@@ -156,15 +160,8 @@ async function askClaude(system: string | undefined, content: string, maxTokens 
 /** How long the typing has to stop before the writing position settles. */
 const SETTLE_DELAY = 600;
 
-/**
- * Distance from a paragraph's top down to the line being written. While the
- * caret sits at the end of the paragraph — the normal case during writing —
- * that is its last line; mid-paragraph edits anchor on the paragraph itself.
- */
 function caretOffset(element: HTMLTextAreaElement) {
-  if (element.selectionStart !== element.value.length) return 0;
-  const lineHeight = parseFloat(window.getComputedStyle(element).lineHeight) || 0;
-  return Math.max(0, element.offsetHeight - lineHeight);
+  return measureCaret(element).offsetY;
 }
 
 type ParagraphEditorProps = {
@@ -174,9 +171,10 @@ type ParagraphEditorProps = {
   onChange: (index: number, value: string) => void;
   onEnter: (index: number, before: string, after: string) => void;
   onEmptyBackspace: (index: number) => void;
+  onSelection: (index: number, start: number, end: number) => void;
 };
 
-function ParagraphEditor({ value, index, activeIndex, register, onActivate, onChange, onEnter, onEmptyBackspace }: ParagraphEditorProps) {
+function ParagraphEditor({ value, index, activeIndex, register, onActivate, onChange, onEnter, onEmptyBackspace, onSelection }: ParagraphEditorProps) {
   const localRef = useRef<HTMLTextAreaElement | null>(null);
   const resize = useCallback(() => {
     const element = localRef.current;
@@ -192,6 +190,7 @@ function ParagraphEditor({ value, index, activeIndex, register, onActivate, onCh
   }
 
   function handleKeyDown(event: KeyboardEvent<HTMLTextAreaElement>) {
+    stopWritingScroll();
     if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) {
       event.preventDefault();
       const start = event.currentTarget.selectionStart;
@@ -205,8 +204,9 @@ function ParagraphEditor({ value, index, activeIndex, register, onActivate, onCh
   return <textarea
     ref={setRef}
     className={`manuscript-paragraph ${index === activeIndex ? "is-active" : ""} ${index < activeIndex ? "is-past" : ""} ${index < activeIndex - 1 ? "is-distant" : ""}`}
-    value={value} rows={1} aria-label={`Paragraph ${index + 1}`}
+    value={value} rows={1} name={`paragraph-${index}`} autoComplete="off" aria-label={`Paragraph ${index + 1}`}
     placeholder={index === 0 ? "Start with what you noticed…" : "Continue the thought…"}
+    onSelect={(event) => onSelection(index, event.currentTarget.selectionStart, event.currentTarget.selectionEnd)}
     onFocus={() => onActivate(index)} onChange={(event) => onChange(index, event.target.value)} onKeyDown={handleKeyDown}
   />;
 }
@@ -230,7 +230,12 @@ export default function Ghostwriter() {
   const [topicsLoading, setTopicsLoading] = useState(false);
   const [topicsError, setTopicsError] = useState("");
   const [reviewLoading, setReviewLoading] = useState(false);
-  const [saveStatus, setSaveStatus] = useState<"saved" | "unsaved" | "error">("saved");
+  const [saveStatus, setSaveStatus] = useState<"saved" | "unsaved" | "saving" | "error">("saved");
+  const [savedAt, setSavedAt] = useState<string | undefined>(initialSession.savedAt);
+  const [plumeOrigin, setPlumeOrigin] = useState<PlumeOrigin | null>(null);
+  const savedSelection = useRef<{ index: number; start: number; end: number } | null>(null);
+  const previousView = useRef(view);
+  const reviewRequest = useRef<AbortController | null>(null);
   const [drafts, setDrafts] = useState(() => readStorage<Draft[]>(DRAFTS_KEY, []));
   const [showDrafts, setShowDrafts] = useState(false);
   const reflectionRef = useRef<HTMLDivElement | null>(null);
@@ -272,24 +277,35 @@ export default function Ghostwriter() {
     if (serialized === lastSavedSession.current) return;
     setSaveStatus("unsaved");
     const persist = () => {
+      setSaveStatus("saving");
       try {
+        const timestamp = new Date().toISOString();
         if (title.trim() || manuscript.trim() || Object.values(reflectionAnswers).some((answer) => answer?.trim()) || readStorage<Draft[]>(DRAFTS_KEY, []).some((draft) => draft.id === draftId)) {
           const draft: Draft = { id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
           const updated = [draft, ...readStorage<Draft[]>(DRAFTS_KEY, []).filter((item) => item.id !== draftId)];
           writeStorage(DRAFTS_KEY, updated);
           setDrafts(updated);
         }
-        writeStorage(SESSION_KEY, session);
+        writeStorage(SESSION_KEY, { ...session, savedAt: timestamp });
+        setSavedAt(timestamp);
         lastSavedSession.current = serialized;
         setSaveStatus("saved");
       } catch { setSaveStatus("error"); }
     };
     const timer = window.setTimeout(persist, 700);
+    const beforeUnload = (event: BeforeUnloadEvent) => {
+      if (serialized !== lastSavedSession.current) {
+        persist();
+        if (serialized !== lastSavedSession.current) { event.preventDefault(); event.returnValue = ""; }
+      }
+    };
+    window.addEventListener("beforeunload", beforeUnload);
     const flush = () => { if (document.visibilityState === "hidden") persist(); };
     document.addEventListener("visibilitychange", flush);
     window.addEventListener("pagehide", persist);
     return () => {
       window.clearTimeout(timer);
+      window.removeEventListener("beforeunload", beforeUnload);
       document.removeEventListener("visibilitychange", flush);
       window.removeEventListener("pagehide", persist);
     };
@@ -303,7 +319,14 @@ export default function Ghostwriter() {
     const refs = writing ? paragraphRefs.current : reflectParagraphRefs.current;
     const element = refs.get(activeParagraph) || null;
     // Synchronous, before paint: a split paragraph must not drop the next keystroke.
-    element?.focus({ preventScroll: true });
+    const changedView = previousView.current !== view;
+    previousView.current = view;
+    // Avoid summoning the mobile keyboard just by opening a document.
+    if (element && (!matchMedia("(pointer: coarse)").matches || !changedView)) {
+      element.focus({ preventScroll: true });
+      const selection = savedSelection.current;
+      if (selection?.index === activeParagraph) element.setSelectionRange(selection.start, selection.end);
+    }
     if (!writing || !element) return;
     focusParagraph(element, caretOffset(element));
     quietParagraph([...refs.entries()].map(([index, paragraph]) => ({ element: paragraph, distance: activeParagraph - index })));
@@ -314,7 +337,9 @@ export default function Ghostwriter() {
     if (view !== "write") return;
     const element = paragraphRefs.current.get(activeParagraph);
     if (!element) return;
-    const timer = window.setTimeout(() => focusParagraph(element, caretOffset(element)), SETTLE_DELAY);
+    const timer = window.setTimeout(() => {
+      if (document.activeElement === element) focusParagraph(element, caretOffset(element));
+    }, SETTLE_DELAY);
     return () => window.clearTimeout(timer);
   }, [view, activeParagraph, paragraphs]);
 
@@ -330,6 +355,7 @@ export default function Ghostwriter() {
 
   function chooseTopic(topic: Topic) {
     if (!preserveDraft()) return;
+    savedSelection.current = null; setPlumeOrigin(null); reviewRequest.current?.abort();
     setDraftId(crypto.randomUUID()); setSelectedTopic(topic); setTitle(topic.title);
     setParagraphs([""]); setActiveParagraph(0); setPathwayIndex(0);
     setReflectionAnswers({}); setReview(""); setPathways(fallbackReflection(topic)); setView("reflect");
@@ -341,18 +367,31 @@ export default function Ghostwriter() {
   }
 
   function enterWriting() {
-    pathwayExit(reflectionRef.current);
-    window.setTimeout(() => { setView("write"); requestAnimationFrame(() => enterWritingMode(writingRef.current)); }, 190);
+    const question = reflectionRef.current?.querySelector("h1");
+    if (question && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      const rect = question.getBoundingClientRect();
+      const style = getComputedStyle(question);
+      setPlumeOrigin({ x: rect.left, y: rect.top, width: rect.width, height: rect.height, text: question.textContent || "", font: style.font, letterSpacing: style.letterSpacing, id: performance.now() });
+    } else setPlumeOrigin(null);
+    setView("write");
+  }
+
+  function rememberSelection(index: number, start: number, end: number) {
+    savedSelection.current = { index, start, end };
   }
 
   function updateParagraph(index: number, value: string) {
+    stopWritingScroll();
     setParagraphs((current) => current.map((paragraph, paragraphIndex) => paragraphIndex === index ? value : paragraph));
   }
   function addParagraph(index: number, before: string, after: string) {
+    savedSelection.current = { index: index + 1, start: 0, end: 0 };
     setParagraphs((current) => [...current.slice(0, index), before, after, ...current.slice(index + 1)]);
     setActiveParagraph(index + 1);
   }
   function removeEmptyParagraph(index: number) {
+    const end = paragraphs[index - 1]?.length || 0;
+    savedSelection.current = { index: index - 1, start: end, end };
     setParagraphs((current) => current.filter((_, paragraphIndex) => paragraphIndex !== index));
     setActiveParagraph(index - 1);
   }
@@ -366,13 +405,15 @@ export default function Ghostwriter() {
   }
 
   async function requestReview() {
-    if (!manuscript.trim()) return;
+    if (!manuscript.trim() || reviewLoading) return;
+    const controller = new AbortController();
+    reviewRequest.current = controller;
     setView("review"); setReviewLoading(true);
     try {
-      const response = await askClaude(CRITIQUE_PROMPT(mode, tone), `${title ? `${title}\n\n` : ""}${manuscript}`, 2600);
+      const response = await askClaude(CRITIQUE_PROMPT(mode, tone), `${title ? `${title}\n\n` : ""}${manuscript}`, 2600, controller.signal);
       setReview(response);
 
-    } catch (error) { setReview(`The review could not be loaded. ${error instanceof Error ? error.message : "Try again."}`); }
+    } catch (error) { if (controller.signal.aborted) return; setReview(`The review could not be loaded. ${error instanceof Error ? error.message : "Try again."}`); }
     finally { setReviewLoading(false); }
   }
 
@@ -390,10 +431,14 @@ export default function Ghostwriter() {
 
   function startBlank() {
     if (!preserveDraft()) return;
+    savedSelection.current = null; setPlumeOrigin(null); reviewRequest.current?.abort();
     setDraftId(crypto.randomUUID()); setPathways(null); setReflectionAnswers({}); setPathwayIndex(0); setReview("");
     setSelectedTopic(null); setTitle(""); setParagraphs([""]); setActiveParagraph(0); setView("write");
     requestAnimationFrame(() => enterWritingMode(writingRef.current));
   }
+
+  const saveLabel = saveStatus === "saved" ? "All changes saved" : saveStatus === "error" ? "Could not save" : saveStatus === "saving" ? "Saving…" : "Unsaved changes";
+  const saveTimeLabel = savedAt ? `Saved on this device at ${new Date(savedAt).toLocaleTimeString()}` : "Saved on this device";
 
   const utility = <div className="utility-bar" aria-label="Writing settings">
     <div className="segmented">
@@ -404,10 +449,11 @@ export default function Ghostwriter() {
       <button className={tone === "reflective" ? "selected" : ""} onClick={() => setTone("reflective")}>Reflective</button>
       <button className={tone === "editorial" ? "selected" : ""} onClick={() => setTone("editorial")}>Editorial</button>
     </div>
-    <span className={`save-state ${saveStatus}`}>{saveStatus === "saved" ? "Saved on this device" : saveStatus === "error" ? "Could not save" : "Saving…"}</span>
+    <span className={`save-state ${saveStatus}`} role="status" title={saveTimeLabel}>{saveLabel}</span>
   </div>;
 
   return <div className={`app view-${view}`}>
+    <PlumeCursor active={view === "write" || view === "reflect"} busy={reviewLoading} origin={plumeOrigin} />
     <header className="app-header">
       <button className="wordmark" onClick={() => setView("today")}><span>SVR</span><i>/</i><span>Ghostwriter</span></button>
       <nav>
@@ -423,6 +469,7 @@ export default function Ghostwriter() {
       <div className="drawer-heading"><span>Recent drafts</span><button onClick={() => setShowDrafts(false)}>Close</button></div>
       {drafts.length ? drafts.map((draft) => <button className="draft-row" key={draft.id} onClick={() => {
         if (!preserveDraft()) return;
+        savedSelection.current = null; setPlumeOrigin(null); reviewRequest.current?.abort();
         setDraftId(draft.id); setSelectedTopic(draft.topic || null); setPathways(null); setReflectionAnswers(draft.notes || {}); setPathwayIndex(0); setReview("");
         setTitle(draft.title); setParagraphs(draft.content.split(/\n\s*\n/)); setActiveParagraph(0); setShowDrafts(false); setView("write");
       }}><strong>{draft.title}</strong><span>{new Date(draft.updatedAt).toLocaleDateString()}</span></button>) : <p>No saved drafts yet.</p>}
@@ -469,7 +516,7 @@ export default function Ghostwriter() {
 
     {view === "reflect" ? <main className="reflect-shell">
       <div className="guide-toolbar">
-        <span>{saveStatus === "saved" ? "Saved on this device" : saveStatus === "error" ? "Could not save" : "Saving…"} · {wordCount} {wordCount === 1 ? "word" : "words"}</span>
+        <span><span role="status" title={saveTimeLabel}>{saveLabel}</span> · {wordCount} {wordCount === 1 ? "word" : "words"}</span>
         <button className="text-action" onClick={enterWriting}>Focus on manuscript →</button>
       </div>
       <div className="reflection-stage" ref={reflectionRef}>
@@ -487,13 +534,13 @@ export default function Ghostwriter() {
             setReflectionAnswers({});
           }}>Move earlier notes into manuscript</button>
         </details> : null}
-        <div className="paragraphs">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerReflectParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} />)}</div>
+        <div className="paragraphs">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerReflectParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
       </div>
     </main> : null}
 
     {view === "write" ? <main className="writing-shell" ref={writingRef}>
       <div className="document-toolbar" aria-label="Document actions">
-        <span className="document-status">{saveStatus === "saved" ? "Saved on this device" : saveStatus === "error" ? "Could not save" : "Saving…"}</span>
+        <span className="document-status" role="status" title={saveTimeLabel}>{saveLabel}</span>
         <div>
           <span>{wordCount} {wordCount === 1 ? "word" : "words"}</span>
           {selectedTopic ? <button onClick={() => void openReflection()}>Writing guides</button> : null}
@@ -505,8 +552,8 @@ export default function Ghostwriter() {
       <section className="manuscript">
         {selectedTopic ? <details className="writing-context"><summary>Writing from · {editorialLens(selectedTopic)}</summary><p>{topicPrompt(selectedTopic)}</p><TopicProvenance topic={selectedTopic} /></details> : <p className="manuscript-label">Your manuscript</p>}
         {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context"><summary>Your reflection notes</summary>{Object.entries(reflectionAnswers).map(([label, answer]) => answer?.trim() ? <div key={label}><strong>{label}</strong><p>{answer}</p></div> : null)}</details> : null}
-        <input className="manuscript-title" value={title} onChange={(event) => setTitle(event.target.value)} placeholder="Untitled" aria-label="Manuscript title" />
-        <div className="paragraphs">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} />)}</div>
+        <input name="title" autoComplete="off" className="manuscript-title" value={title} onChange={(event) => setTitle(event.target.value)} placeholder="Untitled" aria-label="Manuscript title" />
+        <div className="paragraphs">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
       </section>
     </main> : null}
 
@@ -515,8 +562,8 @@ export default function Ghostwriter() {
       <div className="review-columns">
         <article className="review-manuscript"><p className="eyebrow">Manuscript · {wordCount} words</p><h1>{title || "Untitled manuscript"}</h1>{paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</article>
         <aside className="editorial-notes">
-          <div className="notes-heading"><span>Ghostwriter review</span><button onClick={() => void requestReview()}>Review again</button></div>
-          {reviewLoading ? <p className="loading-line">Reading closely…</p> : <div className="review-copy">{review}</div>}
+          <div className="notes-heading"><span>Ghostwriter review</span><button disabled={reviewLoading} onClick={() => void requestReview()}>Review again</button></div>
+          {reviewLoading ? <p className="loading-line" role="status">Reading closely…</p> : <div className="review-copy">{review}</div>}
           {!reviewLoading && review ? <div className="export-actions"><button onClick={() => download("md")}>Download Markdown</button><button onClick={() => download("txt")}>Download text</button><button onClick={() => window.open("https://medium.com/new-story", "_blank", "noopener,noreferrer")}>Open Medium</button></div> : null}
         </aside>
       </div>

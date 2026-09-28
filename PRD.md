@@ -176,7 +176,7 @@ Guided Memory, Tension, Outcome, System, and People pathways remain an optional 
 | Local topic desk | Honest evergreen fallback and optional inspiration mode | Integrated fallback with stable rotation and explicit no-live-source labeling |
 | Reflect | Guided writing with a manuscript bypass | Compact prompts, larger response area, free question navigation, explicit note transfer |
 | Write | Paragraph-based immersive manuscript | Implemented |
-| Fixed writing position | Active paragraph near 42% viewport height | Implemented with Anime.js |
+| Fixed writing position | Live line held near 30% viewport height | Implemented with Anime.js |
 | Review | Intentionally invoked Ghost annotations beside untouched manuscript | Separate review surface implemented; visible button, unstructured response, Claude-dependent |
 | Persistence | Debounced local session and recent drafts | Implemented with versioned `localStorage` |
 | Export | Markdown, text, Medium handoff | Implemented |
@@ -443,12 +443,28 @@ The reflection payload may also contain a one-sentence underlying angle. When sh
 
 #### FR-4.3 Fixed writing position
 
-- The active paragraph returns to approximately 40–45% from the top of the viewport.
-- The target position is 42% on supported desktop layouts.
+- The line being written returns to approximately 30% from the top of the viewport.
+- The target position is 30% (`WRITING_ANCHOR` in `src/motion.ts`), settled on a ~600ms pause rather than on every keystroke.
+- The anchor holds the *caret line*, not the paragraph top, so a growing paragraph does not push the caret down the screen.
+- The manuscript's trailing space must exceed `100% - WRITING_ANCHOR` of the viewport, or the last lines of a short draft cannot reach the position.
 - Older paragraphs remain visible.
-- Recent older paragraphs soften progressively toward approximately 0.88 and 0.72 opacity.
+- Older paragraphs soften to 0.72 opacity one paragraph back and 0.42 beyond that; the active paragraph is always restored to full ink.
 - No paragraph becomes inaccessible or permanently hidden.
 - Mobile layouts may remove the visible writing-line marker while retaining readable focus behavior.
+
+#### FR-4.6 The Plume cursor
+
+The insertion point is drawn as a quill rather than the system caret. It is a
+visual layer only: native editing, selection, IME composition, and accessibility
+behavior stay with the textarea.
+
+- A textarea mirror (`src/caret.ts`) measures the true insertion point, including mid-line edits and wrapped lines.
+- Positioning runs on `requestAnimationFrame` and never causes a React render.
+- The native caret is hidden (`caret-color: transparent`) only while the Plume is actually shown, and restored the moment it is not.
+- States: arriving (from the chosen question), writing (a per-keystroke nib reaction), thinking (one breath after ~1.4s idle), resting, departing and responding (while Review is working). No state loops.
+- The Plume hides on selection ranges, blur, IME composition, a hidden tab, and whenever the caret leaves the visible sheet.
+- Under `prefers-reduced-motion` or forced colors the Plume does not render at all and the native caret returns.
+- On coarse pointers the manuscript is not auto-focused on view change, so opening a document never summons the keyboard; the writer taps to begin.
 
 #### FR-4.4 Distraction reduction
 
@@ -583,7 +599,7 @@ Anime.js is the primary motion library. Motion is organized into six reusable be
 | `ghostReveal` | Ghostwriter speaks | Words reveal with restrained irregular timing |
 | `pathwayExit` | Leave current prompt | Rise approximately 12px and fade |
 | `pathwayEnter` | Introduce next prompt | Enter from slightly below and settle |
-| `focusParagraph` | Maintain writing position | Move manuscript so active paragraph returns near 42% |
+| `focusParagraph` | Maintain writing position | Move manuscript so the caret line returns near 30% |
 | `quietParagraph` | Reduce visual competition | Progressively soften older paragraphs |
 | `enterWritingMode` | Transition into manuscript | Reflection retreats and manuscript quietly expands |
 
@@ -599,7 +615,7 @@ Motion requirements:
 
 Optional future immersion:
 
-- A softer custom caret.
+- ~~A softer custom caret.~~ Built as the Plume (FR-4.6).
 - Subtle CSS paper texture.
 - Optional monospaced manuscript type.
 - Opt-in Web Audio keystroke and return sounds, muted by default.
@@ -960,7 +976,7 @@ The target V1 is accepted when:
 10. Should the curated desk remain a fallback only, or appear as a user-selectable Evergreen mode beside current topics?
 11. Should Guided Reflect remain a visible optional route, or appear only when the author asks for help getting started?
 12. What invokes Ghost after writing: a dormant mark, keyboard command, command palette, or combination?
-13. Which typing response—visual character landing, caret behavior, optional sound, or paper movement—adds tactility without delaying input?
+13. ~~Which typing response—visual character landing, caret behavior, optional sound, or paper movement—adds tactility without delaying input?~~ Answered: caret behavior, via the Plume (FR-4.6). Sound and paper movement remain open.
 14. Do the visible Design, Technology, Industry, Ways of Working, and Self lenses improve scanning enough to keep?
 
 ## 20. Decisions already made
@@ -968,8 +984,8 @@ The target V1 is accepted when:
 - The product is personal and single-author first.
 - Writing is the central interface.
 - Reflection shows one pathway at a time.
-- The fixed writing position targets approximately 42% of viewport height.
-- Anime.js powers a restrained six-behavior motion system.
+- The fixed writing position targets approximately 30% of viewport height.
+- Anime.js powers a restrained motion system: the six manuscript behaviors plus the Plume cursor states.
 - Active work and recent drafts use versioned local browser storage.
 - Review is separate from the manuscript rather than chat-based.
 - Topic discovery must stop depending on Claude.

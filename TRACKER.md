@@ -19,11 +19,12 @@ _Last updated: 2026-09-28_ (later same day)
 
 ## 🎯 Next action (do this next)
 
-**[UX+Dev] Sync the docs to the settled writing rule.** PRD.md (three places) and
-POC.md still say 42% anchor and offer 0.82 as the quiet-floor candidate; the
-author settled on 30% and a 1 / 0.72 / 0.42 ladder, now verified in-browser.
-Update PRD §§, POC §§2 and 7, and the open tuning questions in POC §"Anchor
-point" / §"Quiet floor", which these measurements answer.
+**[UX+Dev] Verify the Plume's Review states in a configured build.** The
+departing/responding path (FR-4.6) is the one branch still unverified, because
+`__ANTHROPIC_CONFIGURED__` is false locally so the Review button never renders.
+Run with a key configured and confirm the Plume departs when Review starts,
+returns to the caret when it ends, and that an aborted review leaves no stuck
+state.
 
 ---
 
@@ -37,7 +38,7 @@ _(nothing currently)_
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX+Dev]** Sync PRD and POC to the settled 30% anchor and 1 / 0.72 / 0.42 falloff — **this is the Next action above**.
+- ⬜ **[UX+Dev]** Verify the Plume Review (departing/responding) states in a build with a key configured — **this is the Next action above**.
 - ⬜ **[UX+Dev]** Validate the guided editor in real use: prompt usefulness and reference-bullet proportions. The author clarified that guidance means passive bullets beneath the main prompt, supporting one continuous manuscript.
 - ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
 - ⬜ **[UX+Dev]** Complete the manuscript type, measure, spacing, keyboard, and reduced-motion pass across Today → Write
@@ -68,6 +69,26 @@ _(nothing currently)_
 ## ✅ Completed
 
 - ✅ **2026-09-28 [UX+Dev]** — Replaced identical generic bullets with 60 distinct authored five-guide sets matched to the exact main provocation or Evergreen ID (36 pipeline prompts + 24 Evergreen topics). Guides derive from the selected topic on render, including restored drafts, without AI calls. Coverage validation includes every current manifest topic; build and diff checks pass. Browser QA verified different guides for two prompts within the same theme, reload persistence, and no mobile overflow. Updated guide requirements in PRD, POC, and implementation plan; existing writing-motion work and next action preserved.
+
+- ✅ **2026-09-28 [UX+Dev]** — Completed the Plume job: browser verification and
+  docs alignment. Verified in Chrome at 1280x900, 1280x620 and iPhone-sized, full
+  and reduced motion. The Plume tracks the measured caret (moves exactly with the
+  text through a 150px scroll: 216 -> 66 as the caret goes 226 -> 76); the state
+  machine settles resting -> one `thinking` breath at 1.4s -> resting and never
+  loops; it hides on selection, blur, and IME, restoring `caret-color` each time;
+  under `prefers-reduced-motion` it does not render at all and the native caret
+  returns; editing, selection and text integrity are untouched throughout; no
+  console errors anywhere; no horizontal overflow on mobile. Confirmed that the
+  coarse-pointer rule at `ghostwriter.tsx:325` is deliberate, not a focus bug —
+  opening a document on touch does not summon the keyboard, and tap-to-write then
+  focuses, shows the Plume and persists text. Save states and timestamps are in
+  place. Documented the Plume as PRD FR-4.6 and in the implementation plan and
+  CLAUDE.md conventions (motion now reads "six named behaviors plus the Plume
+  cursor states; no state may loop"), and synced the stale writing-rule numbers
+  across PRD and POC to the settled 30% anchor and 1 / 0.72 / 0.42 ladder, marking
+  POC's anchor / quiet-floor / settle-timing questions answered. Build passes.
+  Not verified: the departing/responding states during Review, which need a build
+  with a key configured — carried as the next action.
 
 - ✅ **2026-09-28 [UX]** — Raised the writing position: the live line sat at 42% of
   the viewport and read as too low, especially at the start of a draft where only
