@@ -180,7 +180,7 @@ function ParagraphEditor({ value, index, activeIndex, register, onActivate, onCh
     const element = localRef.current;
     if (!element) return;
     element.style.height = "0px";
-    element.style.height = `${Math.max(44, element.scrollHeight)}px`;
+    element.style.height = `${Math.max(48, element.scrollHeight)}px`;
   }, []);
   useLayoutEffect(resize, [resize, value]);
 

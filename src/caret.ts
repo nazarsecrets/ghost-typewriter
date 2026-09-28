@@ -33,5 +33,6 @@ export function measureCaret(element: HTMLTextAreaElement) {
   const offsetY = mark.top - box.top;
   const offsetX = (style.direction === "rtl" ? mark.right : mark.left) - box.left;
   mirror.remove();
-  return { x: rect.left + offsetX - element.scrollLeft, y: rect.top + offsetY - element.scrollTop, offsetY, lineHeight, height: mark.height || lineHeight };
+  const fontSize = parseFloat(style.fontSize) || lineHeight * 0.6;
+  return { x: rect.left + offsetX - element.scrollLeft, y: rect.top + offsetY - element.scrollTop, offsetY, lineHeight, fontSize, height: mark.height || lineHeight };
 }

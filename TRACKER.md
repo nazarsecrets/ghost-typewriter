@@ -19,12 +19,13 @@ _Last updated: 2026-09-28_ (later same day)
 
 ## 🎯 Next action (do this next)
 
-**[UX+Dev] Verify the Plume's Review states in a configured build.** The
-departing/responding path (FR-4.6) is the one branch still unverified, because
-`__ANTHROPIC_CONFIGURED__` is false locally so the Review button never renders.
-Run with a key configured and confirm the Plume departs when Review starts,
-returns to the caret when it ends, and that an aborted review leaves no stuck
-state.
+**[UX+Dev] Write with the new Plume for a real session and judge it by feel.**
+The physics are measured and in spec, but weight, contact and flex are
+judgement calls: check whether the reaction reads as writing rather than
+pulsing, whether the feather at 38px is the right size against 22px serif, and
+whether the idle adjustment is too rare or too visible. Tune the constants at
+the top of `src/PlumeCursor.tsx` (`PLUME_HEIGHT`, `FAST_GAP`, `SLOW_GAP`,
+`IDLE_ADJUST`) rather than rebuilding the behaviour.
 
 ---
 
@@ -38,7 +39,7 @@ _(nothing currently)_
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX+Dev]** Verify the Plume Review (departing/responding) states in a build with a key configured — **this is the Next action above**.
+- ⬜ **[UX+Dev]** Judge the new Plume by writing with it; tune its constants by feel — **this is the Next action above**.
 - ⬜ **[UX+Dev]** Validate the guided editor in real use: prompt usefulness and reference-bullet proportions. The author clarified that guidance means passive bullets beneath the main prompt, supporting one continuous manuscript.
 - ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
 - ⬜ **[UX+Dev]** Complete the manuscript type, measure, spacing, keyboard, and reduced-motion pass across Today → Write
@@ -69,6 +70,35 @@ _(nothing currently)_
 ## ✅ Completed
 
 - ✅ **2026-09-28 [UX+Dev]** — Replaced identical generic bullets with 60 distinct authored five-guide sets matched to the exact main provocation or Evergreen ID (36 pipeline prompts + 24 Evergreen topics). Guides derive from the selected topic on render, including restored drafts, without AI calls. Coverage validation includes every current manifest topic; build and diff checks pass. Browser QA verified different guides for two prompts within the same theme, reload persistence, and no mobile overflow. Updated guide requirements in PRD, POC, and implementation plan; existing writing-motion work and next action preserved.
+
+- ✅ **2026-09-28 [UX+Dev]** — Rebuilt the Plume as a richer, physical quill. No
+  product flow, state, or storage behaviour changed; `PlumeCursor`'s props are
+  untouched, so `ghostwriter.tsx` needed no edit beyond the taller line's resize
+  floor. **Drawing:** a custom 38px quill in four groups (nib / shaft / wide vane /
+  narrow vane) — asymmetric vanes meeting along a curved shaft, bare calamus,
+  raked barbs set clear of the shaft, and a slim cut nib a shade darker than the
+  feather. Iterated three times against zoomed renders; the first two read as a
+  leaf on a stick. **Anchoring:** position is now expressed from the nib tip, not
+  the SVG box — measured landing is dx=0, dy=0 against the baseline immediately
+  after the last glyph — and every transform pivots on the nib, in both the
+  wrapper and the SVG groups. **Physics:** velocity-aware reaction (measured 2.18°
+  for deliberate keys vs 0.69° for continuous typing, which flows horizontally
+  instead of restarting), animations cancelled and replaced rather than queued,
+  and real feather lag (nib peaks at 160ms, shaft ~200ms, vanes ~210-230ms).
+  Added the microscopic ink contact under the nib, the single idle adjustment
+  after ~3.8s, the depart/return handoff around Review, and the reflection
+  transition where the nib draws a curved stroke from the question to the first
+  baseline (verified drawing 1 -> 0). Manuscript line height 1.75 -> 1.95 with
+  more paragraph air so the feather never collides. Raised the visibility guard by
+  the feather's height so the quill never overlaps the fixed header. **Also closed
+  the branch the last entry could not reach:** drove the Review path by
+  intercepting the request locally (no external call) — departing at 55ms, flight
+  fading out, responding, then returning to the exact caret position it left
+  (y 269.1075 both sides). Regression clean: 30% anchor holds, opacity ladder
+  unchanged, reduced motion still renders no Plume and restores the native caret,
+  selection/blur/IME hiding intact, mobile tap-to-write works, no overflow, no
+  console errors. Build passes. PRD FR-4.6 rewritten to specify the drawing,
+  anchoring, writing physics, states and contract.
 
 - ✅ **2026-09-28 [UX+Dev]** — Completed the Plume job: browser verification and
   docs alignment. Verified in Chrome at 1280x900, 1280x620 and iPhone-sized, full

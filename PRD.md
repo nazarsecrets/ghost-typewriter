@@ -458,13 +458,48 @@ The insertion point is drawn as a quill rather than the system caret. It is a
 visual layer only: native editing, selection, IME composition, and accessibility
 behavior stay with the textarea.
 
+**Drawing.** A custom quill of roughly 38px, between real feather anatomy and a
+refined editorial line illustration — never an emoji, stock icon, filled
+silhouette, or Victorian engraving.
+
+- Four logical groups: `nib`, `shaft`, wide vane, narrow vane.
+- The two vanes are deliberately asymmetric and meet along the shaft; the shaft carries a slight curve and runs bare along the calamus below them.
+- Fine individual barbs rake back toward the quill end, set clear of the shaft so they never cross it.
+- The nib is a slim cut wedge with its slit, drawn a shade darker (`#16180f`) than the shaft (`#2b2f2a`) and the feather (`#3a3f38`).
+
+**Anchoring.** Position is expressed from the *nib tip*, never the SVG box.
+
+- The nib tip lands on the text baseline immediately after the last glyph, and follows the caret onto the next line as text wraps.
+- The feather is free to extend outside the line box; it is never shrunk to fit.
+- Every transform pivots on the nib (`transform-origin` at the nib in both the wrapper and the SVG groups), so the quill turns on its point of contact rather than floating beside the text.
+- The manuscript line height accommodates the feather (1.95), and the whole quill is kept clear of the fixed header.
+
+**Writing.** Each keystroke dips the nib toward the baseline, rotates the feather
+a degree or two about the nib, and settles at once.
+
+- The reaction is velocity-aware: deliberate keys give a fuller dip (to 2.0px), more rotation (to 2.0°) and a longer settle; continuous typing gives smaller, faster movement and flows horizontally instead of restarting the animation on every character.
+- Animations are cancelled and replaced, never queued.
+- The feather flexes: the nib leads, the shaft follows ~16ms behind, the vanes ~26–32ms behind that. Measured peaks: nib 160ms, shaft ~200ms, vanes ~210–230ms. Flex, never bounce.
+- A microscopic ink response darkens under the nib on contact and is gone almost at once — pressure on paper, not a fountain-pen animation. No splashes, no particles left on the manuscript.
+
+**States.** arriving, writing, thinking, resting, departing, responding. No state
+loops.
+
+- Idle: after ~3.8s of stillness, one adjustment of about 1px and under a degree, slowly eased, then complete stillness. An object being held, not a mascot.
+- Ghostwriter thinking: the nib lifts off the baseline, the feather rotates upright, the plume withdraws and fades.
+- Ghostwriter finished: the plume returns from the direction it left, the nib approaches the writer's previous caret position, makes contact, and settles — the pen handed back.
+- Reflection → manuscript: the plume travels from the chosen question down to the first writing baseline, the nib drawing one thin curved stroke that connects the two; the stroke fades shortly after, the quill rotates into its writing angle, and focus follows.
+
+**Contract.** The Plume is a visual layer only: native editing, selection, IME
+composition, and accessibility behavior stay with the textarea.
+
 - A textarea mirror (`src/caret.ts`) measures the true insertion point, including mid-line edits and wrapped lines.
 - Positioning runs on `requestAnimationFrame` and never causes a React render.
 - The native caret is hidden (`caret-color: transparent`) only while the Plume is actually shown, and restored the moment it is not.
-- States: arriving (from the chosen question), writing (a per-keystroke nib reaction), thinking (one breath after ~1.4s idle), resting, departing and responding (while Review is working). No state loops.
 - The Plume hides on selection ranges, blur, IME composition, a hidden tab, and whenever the caret leaves the visible sheet.
 - Under `prefers-reduced-motion` or forced colors the Plume does not render at all and the native caret returns.
 - On coarse pointers the manuscript is not auto-focused on view change, so opening a document never summons the keyboard; the writer taps to begin.
+- The Plume is the only skeuomorphic object in the interface: no paper textures, vintage grounds, handwriting faces, ink stains, or shadows around the feather.
 
 #### FR-4.4 Distraction reduction
 
