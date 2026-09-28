@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState, type KeyboardEvent } from "react";
-import { enterWritingMode, focusParagraph, ghostReveal, pathwayEnter, pathwayExit, quietParagraph } from "./src/motion";
+import { enterWritingMode, focusParagraph, pathwayEnter, pathwayExit, quietParagraph } from "./src/motion";
 import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type EditorialLens, type TopicResult } from "./src/topicSource";
 
 declare const __ANTHROPIC_CONFIGURED__: boolean;
@@ -11,8 +11,9 @@ type PathwayType = "Memory" | "Tension" | "Outcome" | "System" | "People";
 type Topic = DisplayTopic;
 type Pathway = { prompt: string; type: PathwayType };
 type Reflection = { angle: string; pathways: Pathway[] };
-type Draft = { id: string; title: string; updatedAt: string; content: string };
+type Draft = { id: string; title: string; updatedAt: string; content: string; topic?: Topic | null; notes?: Partial<Record<PathwayType, string>> };
 type Session = {
+  draftId?: string;
   view: View;
   mode: Mode;
   tone: Tone;
@@ -62,7 +63,6 @@ function topicContext(topic: Topic): string {
   return topic.origin === "source-backed" ? topic.whyNow : topic.teaser;
 }
 
-const PATHWAY_PROMPT = (topic: Topic) => `Act as a reflective writing coach. For the provocation "${topicPrompt(topic)}" (${topicContext(topic)}), return JSON with an angle and exactly five pathways. Use each type exactly once: Memory, Tension, Outcome, System, People. Prompts must help a senior B2B product designer recall specific real work. No markdown.`;
 const CRITIQUE_PROMPT = (mode: Mode, tone: Tone) => `You are a warm, precise UX writing editor. Review this ${mode === "article" ? "reflective UX article" : "LinkedIn post"} in a ${tone === "reflective" ? "gentle, observational" : "crisp, editorial"} tone. Return: grammar and mechanics, voice and tone, structure and flow, a refined version, what changed and why, 2-3 titles, and 3 relevant hashtags. Preserve the author's voice. Avoid buzzwords, performative claims, and vague language.`;
 
 function fallbackReflection(topic: Topic): Reflection {
@@ -151,12 +151,18 @@ async function askClaude(system: string | undefined, content: string, maxTokens 
   return data.content?.find((block: { type: string; text?: string }) => block.type === "text")?.text || "";
 }
 
-function parseJson<T>(text: string): T {
-  return JSON.parse(text.replace(/```json|```/g, "").trim()) as T;
-}
+/** How long the typing has to stop before the writing position settles. */
+const SETTLE_DELAY = 600;
 
-function Words({ children }: { children: string }) {
-  return <>{children.split(" ").map((word, index) => <span data-word key={`${word}-${index}`}>{word}{" "}</span>)}</>;
+/**
+ * Distance from a paragraph's top down to the line being written. While the
+ * caret sits at the end of the paragraph — the normal case during writing —
+ * that is its last line; mid-paragraph edits anchor on the paragraph itself.
+ */
+function caretOffset(element: HTMLTextAreaElement) {
+  if (element.selectionStart !== element.value.length) return 0;
+  const lineHeight = parseFloat(window.getComputedStyle(element).lineHeight) || 0;
+  return Math.max(0, element.offsetHeight - lineHeight);
 }
 
 type ParagraphEditorProps = {
@@ -184,10 +190,10 @@ function ParagraphEditor({ value, index, activeIndex, register, onActivate, onCh
   }
 
   function handleKeyDown(event: KeyboardEvent<HTMLTextAreaElement>) {
-    if (event.key === "Enter" && !event.shiftKey) {
+    if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) {
       event.preventDefault();
       const start = event.currentTarget.selectionStart;
-      onEnter(index, value.slice(0, start), value.slice(start));
+      onEnter(index, value.slice(0, start), value.slice(event.currentTarget.selectionEnd));
     } else if (event.key === "Backspace" && !value && index > 0) {
       event.preventDefault();
       onEmptyBackspace(index);
@@ -196,7 +202,7 @@ function ParagraphEditor({ value, index, activeIndex, register, onActivate, onCh
 
   return <textarea
     ref={setRef}
-    className={`manuscript-paragraph ${index === activeIndex ? "is-active" : ""} ${index < activeIndex ? "is-past" : ""}`}
+    className={`manuscript-paragraph ${index === activeIndex ? "is-active" : ""} ${index < activeIndex ? "is-past" : ""} ${index < activeIndex - 1 ? "is-distant" : ""}`}
     value={value} rows={1} aria-label={`Paragraph ${index + 1}`}
     placeholder={index === 0 ? "Start with what you noticed…" : "Continue the thought…"}
     onFocus={() => onActivate(index)} onChange={(event) => onChange(index, event.target.value)} onKeyDown={handleKeyDown}
@@ -204,7 +210,9 @@ function ParagraphEditor({ value, index, activeIndex, register, onActivate, onCh
 }
 
 export default function Ghostwriter() {
-  const restored = useRef(readStorage(SESSION_KEY, INITIAL_SESSION));
+  const [initialSession] = useState(() => readStorage(SESSION_KEY, INITIAL_SESSION));
+  const restored = useRef(initialSession);
+  const [draftId, setDraftId] = useState(() => initialSession.draftId || crypto.randomUUID());
   const [view, setView] = useState<View>(restored.current.view);
   const [mode, setMode] = useState<Mode>(restored.current.mode);
   const [tone, setTone] = useState<Tone>(restored.current.tone);
@@ -219,20 +227,19 @@ export default function Ghostwriter() {
   const [topicResult, setTopicResult] = useState<TopicResult | null>(null);
   const [topicsLoading, setTopicsLoading] = useState(false);
   const [topicsError, setTopicsError] = useState("");
-  const [pathwaysLoading, setPathwaysLoading] = useState(false);
   const [reviewLoading, setReviewLoading] = useState(false);
-  const [saveStatus, setSaveStatus] = useState<"saved" | "unsaved">("saved");
+  const [saveStatus, setSaveStatus] = useState<"saved" | "unsaved" | "error">("saved");
   const [drafts, setDrafts] = useState(() => readStorage<Draft[]>(DRAFTS_KEY, []));
   const [showDrafts, setShowDrafts] = useState(false);
   const reflectionRef = useRef<HTMLDivElement | null>(null);
   const writingRef = useRef<HTMLDivElement | null>(null);
   const paragraphRefs = useRef(new Map<number, HTMLTextAreaElement>());
+  const reflectParagraphRefs = useRef(new Map<number, HTMLTextAreaElement>());
   const lastSavedSession = useRef(JSON.stringify(restored.current));
   const topicsRequested = useRef(false);
 
   const manuscript = paragraphs.join("\n\n");
-  const wordCount = `${title} ${manuscript}`.trim().split(/\s+/).filter(Boolean).length;
-  const currentPathway = pathways?.pathways[pathwayIndex];
+  const wordCount = manuscript.trim().split(/\s+/).filter(Boolean).length;
   const topics = topicResult?.topics ?? [];
   const leadTopic = topics[0];
   const signalTopics = topics.slice(1);
@@ -258,49 +265,74 @@ export default function Ghostwriter() {
   }, [loadTopics, view]);
 
   useEffect(() => {
-    const session: Session = { view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review };
+    const session: Session = { draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review };
     const serialized = JSON.stringify(session);
     if (serialized === lastSavedSession.current) return;
     setSaveStatus("unsaved");
-    const timer = window.setTimeout(() => {
-      writeStorage(SESSION_KEY, session);
-      lastSavedSession.current = serialized;
-      setSaveStatus("saved");
-    }, 700);
-    return () => window.clearTimeout(timer);
-  }, [view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review]);
+    const persist = () => {
+      try {
+        if (title.trim() || manuscript.trim() || Object.values(reflectionAnswers).some((answer) => answer?.trim()) || readStorage<Draft[]>(DRAFTS_KEY, []).some((draft) => draft.id === draftId)) {
+          const draft: Draft = { id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
+          const updated = [draft, ...readStorage<Draft[]>(DRAFTS_KEY, []).filter((item) => item.id !== draftId)];
+          writeStorage(DRAFTS_KEY, updated);
+          setDrafts(updated);
+        }
+        writeStorage(SESSION_KEY, session);
+        lastSavedSession.current = serialized;
+        setSaveStatus("saved");
+      } catch { setSaveStatus("error"); }
+    };
+    const timer = window.setTimeout(persist, 700);
+    const flush = () => { if (document.visibilityState === "hidden") persist(); };
+    document.addEventListener("visibilitychange", flush);
+    window.addEventListener("pagehide", persist);
+    return () => {
+      window.clearTimeout(timer);
+      document.removeEventListener("visibilitychange", flush);
+      window.removeEventListener("pagehide", persist);
+    };
+  }, [draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review, manuscript]);
 
   useEffect(() => {
     if (view !== "write") return;
     const element = paragraphRefs.current.get(activeParagraph) || null;
     requestAnimationFrame(() => {
       element?.focus({ preventScroll: true });
-      focusParagraph(element);
-      const older = [...paragraphRefs.current.entries()]
-        .filter(([index]) => index < activeParagraph).sort(([a], [b]) => b - a).map(([, paragraph]) => paragraph);
-      quietParagraph(older);
+      if (element) focusParagraph(element, caretOffset(element));
+      quietParagraph([...paragraphRefs.current.entries()]
+        .map(([index, paragraph]) => ({ element: paragraph, distance: activeParagraph - index })));
     });
   }, [activeParagraph, view]);
 
-  async function chooseTopic(topic: Topic) {
-    setSelectedTopic(topic); setPathwayIndex(0); setReflectionAnswers({}); setView("reflect"); setPathwaysLoading(true);
-    if (!__ANTHROPIC_CONFIGURED__) {
-      setPathways(fallbackReflection(topic));
-      setPathwaysLoading(false);
-      requestAnimationFrame(() => pathwayEnter(reflectionRef.current));
-      return;
-    }
-    try { setPathways(parseJson<Reflection>(await askClaude(undefined, PATHWAY_PROMPT(topic), 1000))); }
-    catch { setPathways(fallbackReflection(topic)); }
-    finally { setPathwaysLoading(false); requestAnimationFrame(() => pathwayEnter(reflectionRef.current)); }
+  // The anchor settles on a pause, never on every keystroke (POC.md §2).
+  useEffect(() => {
+    if (view !== "write") return;
+    const element = paragraphRefs.current.get(activeParagraph);
+    if (!element) return;
+    const timer = window.setTimeout(() => focusParagraph(element, caretOffset(element)), SETTLE_DELAY);
+    return () => window.clearTimeout(timer);
+  }, [view, activeParagraph, paragraphs]);
+
+  function preserveDraft() {
+    if (!title.trim() && !manuscript.trim() && !Object.values(reflectionAnswers).some((answer) => answer?.trim())) return true;
+    try {
+      const draft: Draft = { id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
+      const updated = [draft, ...drafts.filter((item) => item.id !== draftId)];
+      writeStorage(DRAFTS_KEY, updated); setDrafts(updated);
+      return true;
+    } catch { setSaveStatus("error"); return false; }
   }
 
-  function moveToPathway(nextIndex: number) {
-    pathwayExit(reflectionRef.current);
-    window.setTimeout(() => {
-      setPathwayIndex(nextIndex);
-      requestAnimationFrame(() => { pathwayEnter(reflectionRef.current); ghostReveal(reflectionRef.current); });
-    }, 190);
+  function chooseTopic(topic: Topic) {
+    if (!preserveDraft()) return;
+    setDraftId(crypto.randomUUID()); setSelectedTopic(topic); setTitle(topic.title);
+    setParagraphs([""]); setActiveParagraph(0); setPathwayIndex(0);
+    setReflectionAnswers({}); setReview(""); setPathways(fallbackReflection(topic)); setView("reflect");
+    requestAnimationFrame(() => pathwayEnter(reflectionRef.current));
+  }
+
+  function openReflection() {
+    setView("reflect");
   }
 
   function enterWriting() {
@@ -322,6 +354,11 @@ export default function Ghostwriter() {
   function registerParagraph(index: number, element: HTMLTextAreaElement | null) {
     if (element) paragraphRefs.current.set(index, element); else paragraphRefs.current.delete(index);
   }
+  // Reflect shares the manuscript surface but not the writing position: its own
+  // map keeps the two views' refs from colliding across a view switch.
+  function registerReflectParagraph(index: number, element: HTMLTextAreaElement | null) {
+    if (element) reflectParagraphRefs.current.set(index, element); else reflectParagraphRefs.current.delete(index);
+  }
 
   async function requestReview() {
     if (!manuscript.trim()) return;
@@ -329,16 +366,16 @@ export default function Ghostwriter() {
     try {
       const response = await askClaude(CRITIQUE_PROMPT(mode, tone), `${title ? `${title}\n\n` : ""}${manuscript}`, 2600);
       setReview(response);
-      const draft: Draft = { id: crypto.randomUUID(), title: title || "Untitled manuscript", updatedAt: new Date().toISOString(), content: manuscript };
-      const updatedDrafts = [draft, ...drafts].slice(0, 20);
-      setDrafts(updatedDrafts); writeStorage(DRAFTS_KEY, updatedDrafts);
+
     } catch (error) { setReview(`The review could not be loaded. ${error instanceof Error ? error.message : "Try again."}`); }
     finally { setReviewLoading(false); }
   }
 
   function download(extension: "txt" | "md") {
     const heading = title || "Untitled manuscript";
-    const content = extension === "md" ? `# ${heading}\n\n${manuscript}` : `${heading}\n\n${manuscript}`;
+    const notes = Object.entries(reflectionAnswers).filter(([, answer]) => answer?.trim()).map(([label, answer]) => `${label}\n${answer}`).join("\n\n");
+    const body = [manuscript, notes ? `Reflection notes\n\n${notes}` : ""].filter(Boolean).join("\n\n");
+    const content = extension === "md" ? `# ${heading}\n\n${body}` : `${heading}\n\n${body}`;
     const blob = new Blob([content], { type: "text/plain;charset=utf-8" });
     const anchor = document.createElement("a");
     anchor.href = URL.createObjectURL(blob);
@@ -347,6 +384,8 @@ export default function Ghostwriter() {
   }
 
   function startBlank() {
+    if (!preserveDraft()) return;
+    setDraftId(crypto.randomUUID()); setPathways(null); setReflectionAnswers({}); setPathwayIndex(0); setReview("");
     setSelectedTopic(null); setTitle(""); setParagraphs([""]); setActiveParagraph(0); setView("write");
     requestAnimationFrame(() => enterWritingMode(writingRef.current));
   }
@@ -360,7 +399,7 @@ export default function Ghostwriter() {
       <button className={tone === "reflective" ? "selected" : ""} onClick={() => setTone("reflective")}>Reflective</button>
       <button className={tone === "editorial" ? "selected" : ""} onClick={() => setTone("editorial")}>Editorial</button>
     </div>
-    <span className={`save-state ${saveStatus}`}>{saveStatus === "saved" ? "Saved" : "Unsaved"}</span>
+    <span className={`save-state ${saveStatus}`}>{saveStatus === "saved" ? "Saved on this device" : saveStatus === "error" ? "Could not save" : "Saving…"}</span>
   </div>;
 
   return <div className={`app view-${view}`}>
@@ -368,14 +407,18 @@ export default function Ghostwriter() {
       <button className="wordmark" onClick={() => setView("today")}><span>SVR</span><i>/</i><span>Ghostwriter</span></button>
       <nav>
         {view !== "today" ? <button onClick={() => setView("today")}>Today</button> : null}
-        {manuscript.trim() ? <button onClick={() => setView("write")}>Write</button> : null}
+        {view !== "write" && (title.trim() || manuscript.trim()) ? <button onClick={() => setView("write")}>Write</button> : null}
         <button onClick={() => setShowDrafts((shown) => !shown)}>Drafts <span>{drafts.length}</span></button>
       </nav>
     </header>
 
+    {saveStatus === "error" ? <div className="storage-error" role="alert">Your changes could not be saved on this device. Export a copy before leaving.<button onClick={() => download("txt")}>Export text</button></div> : null}
+
     {showDrafts ? <aside className="draft-drawer">
       <div className="drawer-heading"><span>Recent drafts</span><button onClick={() => setShowDrafts(false)}>Close</button></div>
       {drafts.length ? drafts.map((draft) => <button className="draft-row" key={draft.id} onClick={() => {
+        if (!preserveDraft()) return;
+        setDraftId(draft.id); setSelectedTopic(draft.topic || null); setPathways(null); setReflectionAnswers(draft.notes || {}); setPathwayIndex(0); setReview("");
         setTitle(draft.title); setParagraphs(draft.content.split(/\n\s*\n/)); setActiveParagraph(0); setShowDrafts(false); setView("write");
       }}><strong>{draft.title}</strong><span>{new Date(draft.updatedAt).toLocaleDateString()}</span></button>) : <p>No saved drafts yet.</p>}
     </aside> : null}
@@ -420,32 +463,49 @@ export default function Ghostwriter() {
     </main> : null}
 
     {view === "reflect" ? <main className="reflect-shell">
-      <div className="reflection-context"><span>{selectedTopic ? editorialLens(selectedTopic) : ""}</span><strong>{selectedTopic ? topicPrompt(selectedTopic) : ""}</strong></div>
-      {pathwaysLoading ? <div className="reflection-loading">Finding a way into the story…</div> : null}
-      {currentPathway && !pathwaysLoading ? <>
-        <div className="pathway-trail" aria-label="Reflection pathways">{pathways?.pathways.map((pathway, index) => <button
-          key={pathway.type} className={index === pathwayIndex ? "current" : index < pathwayIndex ? "visited" : ""}
-          disabled={index > pathwayIndex} onClick={() => moveToPathway(index)}>{pathway.type}{index < (pathways?.pathways.length || 0) - 1 ? <i>→</i> : null}</button>)}</div>
-        <div className="reflection-stage" ref={reflectionRef}>
-          <p className="pathway-label">{currentPathway.type}</p>
-          <h2><Words>{currentPathway.prompt}</Words></h2>
-          <textarea value={reflectionAnswers[currentPathway.type] || ""} onChange={(event) => setReflectionAnswers((current) => ({ ...current, [currentPathway.type]: event.target.value }))} placeholder="Write down what came to mind…" rows={3} />
-          <div className="reflection-actions">
-            {pathwayIndex < (pathways?.pathways.length || 1) - 1 ? <button className="primary-action" onClick={() => moveToPathway(pathwayIndex + 1)}>Continue →</button> : <button className="primary-action" onClick={enterWriting}>Enter the manuscript →</button>}
-            {pathwayIndex < (pathways?.pathways.length || 1) - 1 ? <button className="text-action" onClick={() => moveToPathway(pathwayIndex + 1)}>Show me another angle</button> : null}
-          </div>
-        </div>
-      </> : null}
+      <div className="guide-toolbar">
+        <span>{saveStatus === "saved" ? "Saved on this device" : saveStatus === "error" ? "Could not save" : "Saving…"} · {wordCount} {wordCount === 1 ? "word" : "words"}</span>
+        <button className="text-action" onClick={enterWriting}>Focus on manuscript →</button>
+      </div>
+      <div className="reflection-stage" ref={reflectionRef}>
+        <p className="pathway-label">{selectedTopic ? editorialLens(selectedTopic) : "Your writing"}</p>
+        <h1>{selectedTopic ? topicPrompt(selectedTopic) : "What would you like to explore?"}</h1>
+        <ul className="writing-guides" aria-label="Guides to keep in mind">
+          <li><strong>Memory:</strong> Recall a specific moment from your work.</li>
+          <li><strong>Tension:</strong> Notice what conflicted with your expectations.</li>
+          <li><strong>Outcome:</strong> Consider what changed, and what didn’t.</li>
+          <li><strong>System:</strong> Look for the rules or patterns behind it.</li>
+          <li><strong>People:</strong> Think about who was affected and what they taught you.</li>
+        </ul>
+        {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context">
+          <summary>Your earlier reflection notes</summary>
+          {Object.entries(reflectionAnswers).map(([label, answer]) => answer?.trim() ? <div key={label}><strong>{label}</strong><p>{answer}</p></div> : null)}
+          <button className="text-action" onClick={() => {
+            const notes = Object.values(reflectionAnswers).filter((answer): answer is string => Boolean(answer?.trim()));
+            setParagraphs((current) => [...current.filter((paragraph) => paragraph.trim()), ...notes]);
+            setReflectionAnswers({});
+          }}>Move earlier notes into manuscript</button>
+        </details> : null}
+        <div className="paragraphs">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerReflectParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} />)}</div>
+      </div>
     </main> : null}
 
     {view === "write" ? <main className="writing-shell" ref={writingRef}>
-      <div className="writing-line" aria-hidden="true"><span>writing line</span></div>
-      {utility}
+      <div className="document-toolbar" aria-label="Document actions">
+        <span className="document-status">{saveStatus === "saved" ? "Saved on this device" : saveStatus === "error" ? "Could not save" : "Saving…"}</span>
+        <div>
+          <span>{wordCount} {wordCount === 1 ? "word" : "words"}</span>
+          {selectedTopic ? <button onClick={() => void openReflection()}>Writing guides</button> : null}
+          {__ANTHROPIC_CONFIGURED__ ? <button disabled={!manuscript.trim()} onClick={() => void requestReview()}>Review</button> : null}
+          <button onClick={() => download("md")}>Export</button>
+          <button onClick={startBlank}>New draft</button>
+        </div>
+      </div>
       <section className="manuscript">
-        <div className="manuscript-meta"><span>{wordCount} words</span><span>{selectedTopic?.title || "Open manuscript"}</span></div>
+        {selectedTopic ? <details className="writing-context"><summary>Writing from · {editorialLens(selectedTopic)}</summary><p>{topicPrompt(selectedTopic)}</p><TopicProvenance topic={selectedTopic} /></details> : <p className="manuscript-label">Your manuscript</p>}
+        {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context"><summary>Your reflection notes</summary>{Object.entries(reflectionAnswers).map(([label, answer]) => answer?.trim() ? <div key={label}><strong>{label}</strong><p>{answer}</p></div> : null)}</details> : null}
         <input className="manuscript-title" value={title} onChange={(event) => setTitle(event.target.value)} placeholder="Untitled" aria-label="Manuscript title" />
         <div className="paragraphs">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} />)}</div>
-        <div className="manuscript-end"><button className="primary-action" disabled={!manuscript.trim()} onClick={() => void requestReview()}>Review this draft →</button></div>
       </section>
     </main> : null}
 

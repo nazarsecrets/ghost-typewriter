@@ -13,21 +13,24 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 **Classification:** every new progress item is labeled **[UX]**, **[Dev]**, or
 **[UX+Dev]**. Read-only inspection does not require a separate tracker entry.
 
-_Last updated: 2026-09-09_
+_Last updated: 2026-09-28_ (later same day)
 
 ---
 
 ## 🎯 Next action (do this next)
 
-**[UX+Dev] Wire Choose → Write for the focused POC.** Selecting a provocation
-should enter the manuscript directly, preserve the chosen theme as quiet
-context, and keep Guided Reflect available only as an intentional option.
+**[UX+Dev] Browser QA the writing-space pass.** Type a long multi-paragraph draft
+and confirm: the caret holds at the 40% anchor as a paragraph grows, the anchor
+settles only on a pause (no jitter mid-sentence), the 0.72 / 0.42 falloff reads
+as recession rather than "gone", revisiting an earlier paragraph restores full
+ink, and Reflect → Write no longer feels like a mode switch. Check reduced
+motion, mobile, and reload persistence.
 
 ---
 
 ## 🔄 In progress
 
-_(nothing currently — pick up the Next action above)_
+_(nothing currently)_
 
 ---
 
@@ -35,10 +38,8 @@ _(nothing currently — pick up the Next action above)_
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX+Dev]** Wire Choose → Write and make Guided Reflect optional — **this is the Next action above** (POC.md §5)
-- ⬜ **[UX+Dev]** Strip write-view chrome to the paper: remove writing-time mode/tone controls, manuscript-end Review button, and debug writing-line label (POC.md §3)
+- ⬜ **[UX+Dev]** Validate the guided editor in real use — **this is the Next action above**. The author clarified that guidance means passive bullets beneath the main prompt, supporting one continuous manuscript.
 - ⬜ **[UX+Dev]** Tune the physical writing rule: test 40% anchor, 0.82 quiet floor, and settle-on-pause behavior instead of immediate refocus (POC.md §§2, 7)
-- ⬜ **[UX+Dev]** Make autosave quiet, expose storage-write failure, and align word count to exclude the title (PRD FR-4.1, §14)
 - ⬜ **[UX+Dev]** Complete the manuscript type, measure, spacing, keyboard, and reduced-motion pass across Today → Write
 - ⬜ **[UX+Dev]** Prototype restrained typing-as-reward feedback that becomes quieter during sustained flow (POC.md §4; log.md idea 10)
 
@@ -51,7 +52,7 @@ _(nothing currently — pick up the Next action above)_
 ### Ghost reattachment — after the paper is proven
 
 - ⬜ **[UX]** Define the dormant Ghost invocation and contextual lens chooser without permanent writing-time AI chrome (PRD FR-5.0; log.md idea 11)
-- ⬜ **[UX+Dev]** Restore Reflect as an optional one-at-a-time self-interview; differentiate Continue from Show me another angle and render the currently unused angle (PRD FR-3.2; log.md idea 3)
+- ⬜ **[UX+Dev]** Improve question specificity and evaluate contextual angles; guidance now appears as five passive reference bullets, with no question navigation.
 - ⬜ **[UX+Dev]** Design passage-anchored Ghost margin notes for Idea, Clarity, Voice, Evidence, and Structure while preserving the raw draft (PRD FR-5.1; log.md idea 12)
 - ⬜ **[UX+Dev]** Replace the single Review text block with a structured critique schema and distinguish revisions from new drafts (PRD FR-5.2, FR-6.2)
 - ⬜ **[UX+Dev]** Add accept-insight and margin-comment motion only when their corresponding interactions exist (log.md idea 6)
@@ -66,6 +67,24 @@ _(nothing currently — pick up the Next action above)_
 
 ## ✅ Completed
 
+- ✅ **2026-09-28 [UX+Dev]** — Replaced the sequential Memory/Tension/Outcome/System/People flow with five plain reference bullets beneath the main prompt. One borderless manuscript is shared with focused writing; removed per-question answers and progression. Preserved earlier notes for recovery. Updated product docs. Build and diff checks pass; browser QA confirms five bullets, shared manuscript content, reload persistence, and no mobile overflow.
+
+- ✅ **2026-09-28 [UX+Dev]** — Reworked guided writing per the author's preference:
+  compact prompts, substantially larger response surface, free question navigation,
+  manuscript bypass, and explicit note transfer. Simplified manuscript controls;
+  added stable-ID draft autosave independent of AI review, note preservation,
+  export access, storage-error recovery, and title-excluded word count. Preserved
+  the existing word-spacing fix and corrected selected-text Enter behavior.
+  Production build and diff checks pass; browser QA verified desktop/mobile,
+  reload persistence, note transfer, two-draft switching, Markdown export contents,
+  simulated storage failure, HTTP 200, no horizontal mobile overflow, and no console
+  errors. PRD, POC, and implementation direction updated; anchor tuning remains pending.
+
+- ✅ **2026-09-28 [UX+Dev]** — Fixed Reflect prompt rendering: words were jammed
+  together because the `Words` component put the inter-word space inside the
+  `display:inline-block` `[data-word]` spans (trailing whitespace is trimmed in
+  an inline-block box). Moved the space to a text node between spans; animation
+  target preserved. Typecheck and production build pass.
 - ✅ **2026-09-09 [UX]** — Re-evaluated and reordered the tracker after the
   source-to-provocation work: Choose → Write now leads the focused POC, paper
   work follows in dependency order, and discovery robustness, Ghost, release,

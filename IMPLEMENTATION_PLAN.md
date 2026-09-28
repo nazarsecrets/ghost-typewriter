@@ -1,5 +1,7 @@
 # SVR Ghostwriter V1
 
+> **Guidance clarification (September 28):** Memory, Tension, Outcome, System, and People are passive bullet guides for the main prompt, not separate questions or steps. One continuous manuscript sits beneath them and is shared with the focused writing view. Earlier reflection notes remain recoverable. This supersedes the step-based guided-editor description below.
+
 The canonical product requirements are defined in [PRD.md](./PRD.md). This file tracks the implementation direction and current build state.
 
 ## Why this exists
@@ -47,6 +49,10 @@ There are three actors:
 - **Ghost** questions, challenges, connects, and refines only when invited.
 
 Never let Ghost take over Me. There is no permanent AI panel, unsolicited inline completion, or automatic replacement of raw prose. Writing itself is the reward; no streaks, XP, or productivity theatre are added.
+
+## Current guided-editor update — September 28, 2026
+
+The author chose a guided flow with compact questions and a larger response surface. Topic selection keeps this guided entry; the manuscript is available at any step. Notes can be moved into prose explicitly. Stable draft IDs, local autosave, storage-error feedback, and export now work independently of AI review. Mode/tone controls remain on Review, outside the manuscript.
 
 ## Interaction model
 

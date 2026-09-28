@@ -1,5 +1,7 @@
 # Ghostwriter POC — "The Paper with One Rule"
 
+> **Guidance clarification (September 28):** Memory, Tension, Outcome, System, and People are passive bullet guides for the main prompt, not separate questions or steps. One continuous manuscript sits beneath them and is shared with the focused writing view. Earlier reflection notes remain recoverable. This supersedes the step-based guided-editor description below.
+
 A proof of concept for the grug-shaped version of Ghostwriter: an immersive, focused writing tool built around **one physical rule** on **one worthy surface**. Everything else is subtraction.
 
 > **Thesis:** You review today's ideas, choose one, and drop straight onto a manuscript that keeps your live thought physically still while the writing accumulates around it. No chat. No chrome on the page. No AI theatre. One rule, held with conviction.
@@ -11,6 +13,8 @@ This is not a proof of an AI writing tool. It is a proof of an intentional writi
 The full product has three actors—**World** supplies things worth noticing, **Me** thinks and writes, and **Ghost** questions or refines only when invited. This POC deliberately proves World → Me. Ghost stays out of the room until the paper itself feels inevitable.
 
 ---
+
+> **September 28 direction update:** The author selected guided writing with smaller prompts and more writing space. The current implementation keeps topic → guided writing as the default, with freely selectable questions, an always-available manuscript bypass, and explicit transfer of notes. The direct-entry flow below remains the earlier POC proposal rather than the current default.
 
 ## 0. The flow this POC covers
 

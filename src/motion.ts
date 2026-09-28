@@ -20,18 +20,43 @@ export function pathwayEnter(element: HTMLElement | null) {
   animate(element, { opacity: [0, 1], translateY: [12, 0], duration: 360, ease: "out(3)" });
 }
 
-export function focusParagraph(element: HTMLElement | null) {
-  if (!element || reduceMotion()) return;
-  const scroller = document.scrollingElement as HTMLElement | null;
-  if (!scroller) return;
-  const target = window.scrollY + element.getBoundingClientRect().top - window.innerHeight * 0.42;
-  animate(scroller, { scrollTop: Math.max(0, target), duration: 500, ease: "inOut(3)" });
+/** Tuning constants for the physical writing rule (POC.md §2). */
+export const WRITING_ANCHOR = 0.4;
+export const OPACITY_ACTIVE = 1;
+export const OPACITY_PREVIOUS = 0.72;
+export const OPACITY_DISTANT = 0.42;
+
+/** Resting opacity for a paragraph `distance` paragraphs behind the caret. */
+export function paragraphOpacity(distance: number) {
+  if (distance <= 0) return OPACITY_ACTIVE;
+  return distance === 1 ? OPACITY_PREVIOUS : OPACITY_DISTANT;
 }
 
-export function quietParagraph(elements: HTMLElement[]) {
+/**
+ * Hold the live line at a fixed altitude. `caretOffset` is the distance from
+ * the paragraph's top down to the line being written, so a growing paragraph
+ * keeps the caret in place instead of pushing it toward the bottom.
+ */
+export function focusParagraph(element: HTMLElement | null, caretOffset = 0) {
+  if (!element) return;
+  const scroller = document.scrollingElement as HTMLElement | null;
+  if (!scroller) return;
+  const target = Math.max(0, window.scrollY + element.getBoundingClientRect().top + caretOffset - window.innerHeight * WRITING_ANCHOR);
+  if (Math.abs(target - window.scrollY) < 1) return;
+  // The position is the rule; only the travel to it is motion.
+  if (reduceMotion()) { scroller.scrollTop = target; return; }
+  animate(scroller, { scrollTop: target, duration: 500, ease: "inOut(3)" });
+}
+
+/**
+ * Let older writing recede into the page. Mirrors the resting values the
+ * `is-past` / `is-distant` classes declare, so reduced motion holds the same
+ * hierarchy without animating; the active paragraph is restored to full ink.
+ */
+export function quietParagraph(paragraphs: { element: HTMLElement; distance: number }[]) {
   if (reduceMotion()) return;
-  elements.forEach((element, index) => animate(element, {
-    opacity: Math.max(0.72, 0.9 - index * 0.08), duration: 320, ease: "out(2)"
+  paragraphs.forEach(({ element, distance }) => animate(element, {
+    opacity: paragraphOpacity(distance), duration: 320, ease: "out(2)"
   }));
 }
 

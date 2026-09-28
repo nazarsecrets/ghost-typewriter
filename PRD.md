@@ -1,11 +1,15 @@
 # Product Requirements Document: SVR Ghostwriter
 
+> **Guidance clarification (September 28):** Memory, Tension, Outcome, System, and People are passive bullet guides for the main prompt, not separate questions or steps. One continuous manuscript sits beneath them and is shared with the focused writing view. Earlier reflection notes remain recoverable. This supersedes the step-based guided-editor description below.
+
 **Status:** Draft for product alignment  
 **Version:** 1.0  
-**Last updated:** August 28, 2026  
+**Last updated:** September 28, 2026
 **Primary user:** The author  
 **Target platform:** Responsive web application  
 **Target hosting:** GitHub Pages with optional free serverless AI proxy
+
+> **September 28 UX direction:** The author prefers a guided writing flow with smaller prompts and more writing space. Topic selection opens this spacious guided editor; a visible manuscript bypass remains available at every step. This updates the earlier direct-to-manuscript default below. Reflection notes can be moved into the manuscript explicitly. Drafts and notes save locally without AI review.
 
 ## 1. Product summary
 
@@ -170,7 +174,7 @@ Guided Memory, Tension, Outcome, System, and People pathways remain an optional 
 | Today | Provider-independent topic pool | Static source-backed manifest integrated with an honest Evergreen fallback; no Claude topic request |
 | Topic categories | 2 Latest, 2 Trending, 2 Under the Radar | Implemented when the manifest can fill all three categories |
 | Local topic desk | Honest evergreen fallback and optional inspiration mode | Integrated fallback with stable rotation and explicit no-live-source labeling |
-| Reflect | Optional five-pathway self-interview | Implemented as a mandatory post-selection step; needs optional invocation |
+| Reflect | Guided writing with a manuscript bypass | Compact prompts, larger response area, free question navigation, explicit note transfer |
 | Write | Paragraph-based immersive manuscript | Implemented |
 | Fixed writing position | Active paragraph near 42% viewport height | Implemented with Anime.js |
 | Review | Intentionally invoked Ghost annotations beside untouched manuscript | Separate review surface implemented; visible button, unstructured response, Claude-dependent |
@@ -214,11 +218,11 @@ This validates:
 - Today now uses a rank-first editorial hierarchy with one lead story and five quieter signals. The usefulness of its Design, Technology, Industry, Ways of Working, and Self lens mapping still needs observation with real use.
 - Evergreen content remains manually authored and does not become current merely because it rotates daily.
 - Curated prompts and source-backed provocations use different schemas; source headlines are retained only as evidence and provenance.
-- Continue and **Show me another angle** currently perform the same transition even though they communicate different intentions.
+- Guided navigation now uses explicit question tabs and Next question; the misleading duplicate angle action is removed.
 - The reflection response includes an underlying angle, but the POC does not render it.
 - Review is returned as one preformatted text block; the seven editorial sections are not yet represented as structured UI data.
-- Repeating Review currently creates another draft snapshot without distinguishing a revision from a new draft.
-- Browser-storage read failures fall back safely, but write failures do not yet produce a visible persistence warning.
+- Drafts now retain a stable ID across autosaves; repeating Review no longer creates duplicate snapshots.
+- Browser-storage write failures now display an export recovery warning. Drafts save independently of review.
 
 The product must therefore distinguish **source-backed current topics** from **curated evergreen prompts**. Synthetic recency claims are prohibited outside prototypes.
 
