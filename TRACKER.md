@@ -19,13 +19,11 @@ _Last updated: 2026-09-28_ (later same day)
 
 ## 🎯 Next action (do this next)
 
-**[UX+Dev] Judge the 68px plume against the manuscript by writing with it.** At
-this size the feather necessarily crosses the line above; it is held at 0.72
-opacity on a 2.15 line so the text reads through, but whether that trade is
-right is a judgement call. Tune `DESKTOP_HEIGHT` / `COMPACT_HEIGHT` in
-`src/PlumeCursor.tsx` and the opacity in `.plume-cursor` rather than
-rebuilding. Also decide whether the inkwell's fixed margin position (`56vh`)
-holds up on short viewports.
+**[UX+Dev] Prototype restrained typing-as-reward feedback** that becomes quieter
+during sustained flow (POC.md §4; log.md idea 10) — the last unstarted item in
+the focused POC. The plume now carries the physical feedback, so this is about
+whether anything further is wanted at all, or whether the quill already
+satisfies it.
 
 ---
 
@@ -39,11 +37,10 @@ _(nothing currently)_
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX+Dev]** Judge the 68px plume and the inkwell placement by writing with them — **this is the Next action above**.
 - ⬜ **[UX+Dev]** Validate the guided editor in real use: prompt usefulness and reference-bullet proportions. The author clarified that guidance means passive bullets beneath the main prompt, supporting one continuous manuscript.
 - ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
 - ⬜ **[UX+Dev]** Complete the manuscript type, measure, spacing, keyboard, and reduced-motion pass across Today → Write
-- ⬜ **[UX+Dev]** Prototype restrained typing-as-reward feedback that becomes quieter during sustained flow (POC.md §4; log.md idea 10)
+- ⬜ **[UX+Dev]** Prototype restrained typing-as-reward feedback that becomes quieter during sustained flow (POC.md §4; log.md idea 10) — **this is the Next action above**.
 
 ### Discovery robustness — after the core POC handoff
 
@@ -70,6 +67,27 @@ _(nothing currently)_
 ## ✅ Completed
 
 - ✅ **2026-09-28 [UX+Dev]** — Replaced identical generic bullets with 60 distinct authored five-guide sets matched to the exact main provocation or Evergreen ID (36 pipeline prompts + 24 Evergreen topics). Guides derive from the selected topic on render, including restored drafts, without AI calls. Coverage validation includes every current manifest topic; build and diff checks pass. Browser QA verified different guides for two prompts within the same theme, reload persistence, and no mobile overflow. Updated guide requirements in PRD, POC, and implementation plan; existing writing-motion work and next action preserved.
+
+- ✅ **2026-09-28 [UX+Dev]** — Judged the plume and inkwell by writing with them,
+  and changed both on the evidence. **Size:** wrote a real multi-paragraph passage
+  at 68 / 58 / 50px and compared. 68px was wrong — the feather's full mid-section
+  crosses the line above and sat on top of a word. The bound is typographic: with
+  a 2.15 line on 22px serif, the previous line's x-height is ~57px above the
+  current baseline, so any feather above ~58px crosses the words rather than the
+  gap. Settled at **60px** (the floor of the author's 60-80px range), where only
+  the narrow tip grazes the descenders, and gave opacity back from 0.72 to
+  **0.82** since there is less to see through. **Inkwell:** measured placement at
+  five viewport shapes and found two faults — the well overlapped the text column
+  by 6px at every width (it was clipping the first character of the manuscript
+  placeholder), and at `56vh` it sat above the writing line on short viewports, so
+  the plume travelled down into it. Re-anchored to the bottom-left margin
+  (`bottom: 14vh`, `left: max(12px, calc(50% - 476px))`): now a consistent 34px
+  gap from the column at 1000-1920px wide, always on screen, and at or below the
+  writing line on every shape tested. Regression clean at the settled values: nib
+  exact (60px desktop, 46px phone), all five transitions, 30% anchor, opacity
+  ladder, reduced motion, selection hiding, no overflow, no console errors. Build
+  passes; PRD FR-4.6 records the legibility bound so the size is not re-raised
+  without re-deciding the line height.
 
 - ✅ **2026-09-28 [UX+Dev]** — Plume as a real writing instrument, against the
   author's quill-and-inkwell reference. No flow, autosave, pathway or critique

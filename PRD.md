@@ -458,7 +458,7 @@ The insertion point is drawn as a quill rather than the system caret. It is a
 visual layer only: native editing, selection, IME composition, and accessibility
 behavior stay with the textarea.
 
-**Drawing.** A custom quill of 68px on desktop and 46px on a phone, between real
+**Drawing.** A custom quill of 60px on desktop and 46px on a phone, between real
 feather anatomy and a refined editorial line illustration — never an emoji,
 stock icon, filled silhouette, or Victorian engraving.
 
@@ -467,7 +467,8 @@ stock icon, filled silhouette, or Victorian engraving.
 - The two vanes are deliberately asymmetric and meet along the shaft; the shaft carries a pronounced curve and runs bare along the calamus below them.
 - Barbs rake back toward the quill end and start clear of the shaft so they never cross it; a slight deterministic jitter keeps the outer edge from reading as a perfect arc.
 - The nib is a slim cut wedge with its slit, drawn a shade darker (`#14160e`) than the shaft (`#2b2f2a`) and the feather (`#3a3f38`).
-- At this size the feather necessarily crosses the line above, so the whole quill sits at 0.72 opacity and the manuscript line height is 2.15: the text reads through it.
+- Size is bounded by legibility, not taste: with a 2.15 line height on 22px serif, a feather above ~58px reaches past the x-height of the line above and its full mid-section crosses the words. At 60px only the narrow tip grazes the descenders. 68px was tried and rejected for this reason.
+- The quill sits at 0.82 opacity so the line above reads through the tip.
 
 **Anchoring.** Position is expressed from the *nib tip*, never the SVG box.
 
@@ -493,6 +494,7 @@ loops.
 - Ghostwriter finished: the plume returns from the direction it left, the nib approaches the writer's previous caret position, makes contact, and settles — the pen handed back.
 - Reflection → manuscript: the plume travels from the chosen question down to the first writing baseline, the nib drawing one thin curved stroke that connects the two; the stroke fades shortly after, the quill rotates into its writing angle, and focus follows. Thought, then ink, then writing.
 - Entering a writing session: the inkwell appears in the left margin, the plume lifts out of it, rotates upright and travels to the caret. Leaving: the nib lifts, the plume travels back and settles into the well, which then fades.
+- The well is anchored to the bottom-left margin (`bottom: 14vh`, `left: max(12px, calc(50% - 476px))`), which holds a 34px gap from the text column at every width and keeps it below the writing line on short viewports. It is hidden under 980px, where the lift is skipped.
 - A writing session spans Reflect, Write and Review — only Today is outside it. The inkwell is used for entering and leaving a session, never for Review, where the pen is handed back to the caret it left.
 
 **Contract.** The Plume is a visual layer only: native editing, selection, IME
