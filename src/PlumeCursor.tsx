@@ -10,7 +10,7 @@ type Props = { active: boolean; busy: boolean; origin: PlumeOrigin | null };
  * from that point, so the plume reads as resting on the page, not beside it. */
 const VIEW = { width: 34, height: 56 };
 const NIB = { x: 3, y: 55 };
-const DESKTOP_HEIGHT = 68;
+const DESKTOP_HEIGHT = 60;
 const COMPACT_HEIGHT = 46;
 
 /** Keystroke gaps, in ms, that count as continuous writing versus deliberate

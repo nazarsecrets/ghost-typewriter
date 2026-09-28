@@ -58,8 +58,9 @@ tracker stale. If a task made no tracked progress, say so — don't silently ski
 - `ghostwriter.tsx` — the app (single component, four views).
 - `src/motion.ts` — the six Anime.js behaviors, and the writing-rule constants
   (`WRITING_ANCHOR`, the opacity ladder).
-- `src/PlumeCursor.tsx` / `src/caret.ts` — the quill cursor and the textarea
-  mirror that measures the true insertion point.
+- `src/PlumeCursor.tsx` / `src/caret.ts` — the quill cursor, its inkwell, and the
+  textarea mirror that measures the true insertion point. The vane and barb path
+  data is generated geometry; regenerate it rather than editing path strings.
 - `src/topics.ts` — Evergreen curated fallback desk.
 - `src/topicSource.ts` — client topic loader (manifest + fallback + selection).
 - `pipeline/` — provider-independent topic generation (Node/tsx).

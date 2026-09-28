@@ -180,7 +180,7 @@ function ParagraphEditor({ value, index, activeIndex, register, onActivate, onCh
     const element = localRef.current;
     if (!element) return;
     element.style.height = "0px";
-    element.style.height = `${Math.max(48, element.scrollHeight)}px`;
+    element.style.height = `${Math.max(52, element.scrollHeight)}px`;
   }, []);
   useLayoutEffect(resize, [resize, value]);
 
@@ -453,7 +453,9 @@ export default function Ghostwriter() {
   </div>;
 
   return <div className={`app view-${view}`}>
-    <PlumeCursor active={view === "write" || view === "reflect"} busy={reviewLoading} origin={plumeOrigin} />
+    {/* A writing session spans reflect, write and review: only Today is outside it,
+        so the inkwell is used for entering and leaving, never for Review. */}
+    <PlumeCursor active={view !== "today"} busy={reviewLoading} origin={plumeOrigin} />
     <header className="app-header">
       <button className="wordmark" onClick={() => setView("today")}><span>SVR</span><i>/</i><span>Ghostwriter</span></button>
       <nav>

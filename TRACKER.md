@@ -19,13 +19,13 @@ _Last updated: 2026-09-28_ (later same day)
 
 ## 🎯 Next action (do this next)
 
-**[UX+Dev] Write with the new Plume for a real session and judge it by feel.**
-The physics are measured and in spec, but weight, contact and flex are
-judgement calls: check whether the reaction reads as writing rather than
-pulsing, whether the feather at 38px is the right size against 22px serif, and
-whether the idle adjustment is too rare or too visible. Tune the constants at
-the top of `src/PlumeCursor.tsx` (`PLUME_HEIGHT`, `FAST_GAP`, `SLOW_GAP`,
-`IDLE_ADJUST`) rather than rebuilding the behaviour.
+**[UX+Dev] Judge the 68px plume against the manuscript by writing with it.** At
+this size the feather necessarily crosses the line above; it is held at 0.72
+opacity on a 2.15 line so the text reads through, but whether that trade is
+right is a judgement call. Tune `DESKTOP_HEIGHT` / `COMPACT_HEIGHT` in
+`src/PlumeCursor.tsx` and the opacity in `.plume-cursor` rather than
+rebuilding. Also decide whether the inkwell's fixed margin position (`56vh`)
+holds up on short viewports.
 
 ---
 
@@ -39,7 +39,7 @@ _(nothing currently)_
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX+Dev]** Judge the new Plume by writing with it; tune its constants by feel — **this is the Next action above**.
+- ⬜ **[UX+Dev]** Judge the 68px plume and the inkwell placement by writing with them — **this is the Next action above**.
 - ⬜ **[UX+Dev]** Validate the guided editor in real use: prompt usefulness and reference-bullet proportions. The author clarified that guidance means passive bullets beneath the main prompt, supporting one continuous manuscript.
 - ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
 - ⬜ **[UX+Dev]** Complete the manuscript type, measure, spacing, keyboard, and reduced-motion pass across Today → Write
@@ -70,6 +70,37 @@ _(nothing currently)_
 ## ✅ Completed
 
 - ✅ **2026-09-28 [UX+Dev]** — Replaced identical generic bullets with 60 distinct authored five-guide sets matched to the exact main provocation or Evergreen ID (36 pipeline prompts + 24 Evergreen topics). Guides derive from the selected topic on render, including restored drafts, without AI calls. Coverage validation includes every current manifest topic; build and diff checks pass. Browser QA verified different guides for two prompts within the same theme, reload persistence, and no mobile overflow. Updated guide requirements in PRD, POC, and implementation plan; existing writing-motion work and next action preserved.
+
+- ✅ **2026-09-28 [UX+Dev]** — Plume as a real writing instrument, against the
+  author's quill-and-inkwell reference. No flow, autosave, pathway or critique
+  behaviour changed. **Drawing:** redrawn on a taller 34x56 proportion at 68px
+  desktop / 46px phone, taking the reference's character — soft rounded tip
+  instead of a point, fullness high on the feather, a pronounced shaft curve, and
+  dense fine barbs. The vane outlines and barbs are now *generated* geometry
+  (`tools/quill-geometry.py`) rather than hand-written path data: smoothed width
+  profiles, raked barbs set clear of the shaft, and a deterministic jitter so the
+  edge is not a perfect arc. Regrouped to the three animation groups the spec
+  asks for — feather body / shaft / nib — with no barb animated individually.
+  The inkwell was redrawn as a squat bottle with shoulders, a neck collar and
+  heavy ink, replacing the rounded tub. **New behaviour:** line wraps now read as
+  a larger move than a keystroke (a ~300ms travel down and back, then a landing);
+  entering a writing session lifts the plume out of the inkwell in the left
+  margin and travels it to the caret; leaving stows it back. **Fixed a real
+  regression found in verification:** returning from Review came out of the
+  inkwell instead of being handed back, because `active` treated Review as
+  outside the session. A writing session now spans Reflect, Write and Review —
+  only Today is outside it. **Legibility trade:** at 68px the feather crosses the
+  line above, which no line height can fully clear, so the quill sits at 0.72
+  opacity and the manuscript line height went 1.95 -> 2.15; text now reads
+  through it. Verified in Chrome: enter session hidden->lifting->resting with the
+  inkwell fading to 0.85 and back; one `wrapping` event on a wrapping sentence;
+  reflection->write hidden->arriving->resting; leave session stowing->hidden;
+  Review departing at 59ms -> responding -> returning to the exact caret position
+  it left (y 269.1075 both sides). Nib anchoring exact at both sizes (68px dx=0
+  dy=0 desktop, 46px on phone). Regression clean: 30% anchor, opacity ladder,
+  reduced motion (no plume, native caret), selection/blur/IME hiding, mobile
+  tap-to-write, no overflow, no console errors. Build passes; PRD FR-4.6 and
+  CLAUDE.md updated.
 
 - ✅ **2026-09-28 [UX+Dev]** — Rebuilt the Plume as a richer, physical quill. No
   product flow, state, or storage behaviour changed; `PlumeCursor`'s props are

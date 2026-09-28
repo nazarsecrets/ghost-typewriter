@@ -458,28 +458,31 @@ The insertion point is drawn as a quill rather than the system caret. It is a
 visual layer only: native editing, selection, IME composition, and accessibility
 behavior stay with the textarea.
 
-**Drawing.** A custom quill of roughly 38px, between real feather anatomy and a
-refined editorial line illustration — never an emoji, stock icon, filled
-silhouette, or Victorian engraving.
+**Drawing.** A custom quill of 68px on desktop and 46px on a phone, between real
+feather anatomy and a refined editorial line illustration — never an emoji,
+stock icon, filled silhouette, or Victorian engraving.
 
-- Four logical groups: `nib`, `shaft`, wide vane, narrow vane.
-- The two vanes are deliberately asymmetric and meet along the shaft; the shaft carries a slight curve and runs bare along the calamus below them.
-- Fine individual barbs rake back toward the quill end, set clear of the shaft so they never cross it.
-- The nib is a slim cut wedge with its slit, drawn a shade darker (`#16180f`) than the shaft (`#2b2f2a`) and the feather (`#3a3f38`).
+- Three animation groups: feather body (both vanes and all barbs), `shaft`, `nib`. Individual barbs are never animated.
+- The vane outlines and barb geometry are generated, not hand-drawn: widths follow a smoothed profile whose fullness sits high on the feather, and the tip closes in a soft cap rather than a point.
+- The two vanes are deliberately asymmetric and meet along the shaft; the shaft carries a pronounced curve and runs bare along the calamus below them.
+- Barbs rake back toward the quill end and start clear of the shaft so they never cross it; a slight deterministic jitter keeps the outer edge from reading as a perfect arc.
+- The nib is a slim cut wedge with its slit, drawn a shade darker (`#14160e`) than the shaft (`#2b2f2a`) and the feather (`#3a3f38`).
+- At this size the feather necessarily crosses the line above, so the whole quill sits at 0.72 opacity and the manuscript line height is 2.15: the text reads through it.
 
 **Anchoring.** Position is expressed from the *nib tip*, never the SVG box.
 
 - The nib tip lands on the text baseline immediately after the last glyph, and follows the caret onto the next line as text wraps.
 - The feather is free to extend outside the line box; it is never shrunk to fit.
 - Every transform pivots on the nib (`transform-origin` at the nib in both the wrapper and the SVG groups), so the quill turns on its point of contact rather than floating beside the text.
-- The manuscript line height accommodates the feather (1.95), and the whole quill is kept clear of the fixed header.
+- The whole quill, not just its point of contact, is kept clear of the fixed header.
 
 **Writing.** Each keystroke dips the nib toward the baseline, rotates the feather
 a degree or two about the nib, and settles at once.
 
 - The reaction is velocity-aware: deliberate keys give a fuller dip (to 2.0px), more rotation (to 2.0°) and a longer settle; continuous typing gives smaller, faster movement and flows horizontally instead of restarting the animation on every character.
 - Animations are cancelled and replaced, never queued.
-- The feather flexes: the nib leads, the shaft follows ~16ms behind, the vanes ~26–32ms behind that. Measured peaks: nib 160ms, shaft ~200ms, vanes ~210–230ms. Flex, never bounce.
+- The feather flexes: the nib leads, the shaft follows ~10ms behind, the feather body ~30ms behind that. Measured peaks: nib 160ms, shaft ~200ms, feather ~210–230ms. Flex, never bounce.
+- A line wrap is a larger move than a keystroke and reads as one: the plume travels down and back to the new caret over ~300ms, then lands.
 - A microscopic ink response darkens under the nib on contact and is gone almost at once — pressure on paper, not a fountain-pen animation. No splashes, no particles left on the manuscript.
 
 **States.** arriving, writing, thinking, resting, departing, responding. No state
@@ -488,7 +491,9 @@ loops.
 - Idle: after ~3.8s of stillness, one adjustment of about 1px and under a degree, slowly eased, then complete stillness. An object being held, not a mascot.
 - Ghostwriter thinking: the nib lifts off the baseline, the feather rotates upright, the plume withdraws and fades.
 - Ghostwriter finished: the plume returns from the direction it left, the nib approaches the writer's previous caret position, makes contact, and settles — the pen handed back.
-- Reflection → manuscript: the plume travels from the chosen question down to the first writing baseline, the nib drawing one thin curved stroke that connects the two; the stroke fades shortly after, the quill rotates into its writing angle, and focus follows.
+- Reflection → manuscript: the plume travels from the chosen question down to the first writing baseline, the nib drawing one thin curved stroke that connects the two; the stroke fades shortly after, the quill rotates into its writing angle, and focus follows. Thought, then ink, then writing.
+- Entering a writing session: the inkwell appears in the left margin, the plume lifts out of it, rotates upright and travels to the caret. Leaving: the nib lifts, the plume travels back and settles into the well, which then fades.
+- A writing session spans Reflect, Write and Review — only Today is outside it. The inkwell is used for entering and leaving a session, never for Review, where the pen is handed back to the caret it left.
 
 **Contract.** The Plume is a visual layer only: native editing, selection, IME
 composition, and accessibility behavior stay with the textarea.

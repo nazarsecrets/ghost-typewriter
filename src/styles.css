@@ -124,7 +124,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .manuscript-title { width: 100%; padding: 0; border: 0; background: transparent; color: var(--ink); font: 500 clamp(30px, 4vw, 44px)/1.2 var(--serif); letter-spacing: -.02em; }
 .manuscript-title::placeholder { color: #b7bbb4; }
 .paragraphs { display: grid; gap: 28px; margin-top: 44px; }
-.manuscript-paragraph { display: block; width: 100%; min-height: 48px; overflow: hidden; padding: 0; border: 0; background: transparent; color: var(--ink); resize: none; font: 22px/1.95 var(--serif); transition: opacity .32s ease; }
+.manuscript-paragraph { display: block; width: 100%; min-height: 52px; overflow: hidden; padding: 0; border: 0; background: transparent; color: var(--ink); resize: none; font: 22px/2.15 var(--serif); transition: opacity .32s ease; }
 .manuscript-paragraph::placeholder { color: #b3b7b0; }
 /* The caret is the focus indicator here; an outline would rebuild the box. */
 .manuscript-paragraph:focus-visible { outline: 0; }
@@ -240,7 +240,9 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 /* The plume is a visual caret only: never intercept text editing or selection.
    Size and the nib-tip transform origins are set in JS from the viewport, since
    the quill is 68px on desktop and 46px on a phone. */
-.plume-cursor { position: fixed; top: 0; left: 0; z-index: 40; visibility: hidden; pointer-events: none; color: var(--ink); will-change: transform; }
+/* The quill is large enough to cross the line above, so it sits back a little
+   and lets the text read through it. */
+.plume-cursor { position: fixed; top: 0; left: 0; z-index: 40; visibility: hidden; pointer-events: none; color: var(--ink); opacity: .82; will-change: transform; }
 .plume-flight, .plume-body { display: block; width: 100%; height: 100%; }
 .plume-cursor svg, .plume-inkwell svg { display: block; overflow: visible; }
 /* Every SVG group turns on the nib tip, in view-box units. */
@@ -252,7 +254,9 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .plume-contact { color: var(--ink); }
 .manuscript-paragraph.has-plume { caret-color: transparent; }
 /* The inkwell rests in the left margin of the writing column. */
-.plume-inkwell { position: fixed; z-index: 38; left: max(14px, calc(50% - 436px)); top: 56vh; width: 42px; height: 42px; opacity: 0; visibility: hidden; pointer-events: none; color: #22251f; }
+/* The well sits in the left margin, clear of the text column, and below the
+   writing line on any viewport shape — so the plume always lifts up out of it. */
+.plume-inkwell { position: fixed; z-index: 38; left: max(12px, calc(50% - 476px)); bottom: 14vh; width: 42px; height: 42px; opacity: 0; visibility: hidden; pointer-events: none; color: #22251f; }
 .plume-thought { position: fixed; visibility: hidden; pointer-events: none; z-index: 39; color: var(--ink); line-height: 1.2; }
 .plume-trail { position: fixed; inset: 0; width: 100vw; height: 100vh; visibility: hidden; pointer-events: none; z-index: 39; color: var(--signal); overflow: visible; }
 @media (max-width: 980px) { .plume-inkwell { display: none; } }
