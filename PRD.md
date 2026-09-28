@@ -1,6 +1,6 @@
 # Product Requirements Document: SVR Ghostwriter
 
-> **Guidance clarification (September 28):** Memory, Tension, Outcome, System, and People are passive bullet guides for the main prompt, not separate questions or steps. One continuous manuscript sits beneath them and is shared with the focused writing view. Earlier reflection notes remain recoverable. This supersedes the step-based guided-editor description below.
+> **Guidance clarification (September 28):** Memory, Tension, Outcome, System, and People are passive, prompt-specific bullet guides for the main prompt, not separate questions or steps. Guide copy is selected by the exact provocation (or stable Evergreen ID), with separate authored sets for all current prompts; topic changes and restored drafts derive guides from their selected topic. One continuous manuscript sits beneath them and is shared with the focused writing view. Earlier reflection notes remain recoverable. This supersedes the step-based guided-editor description below.
 
 **Status:** Draft for product alignment  
 **Version:** 1.0  

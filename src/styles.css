@@ -115,15 +115,15 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .save-state.saved { color: var(--signal); }
 /* Gutter mark for the writing position; no element renders it yet. Keep in step
    with WRITING_ANCHOR in src/motion.ts. */
-.writing-line { position: fixed; z-index: 4; top: 40vh; left: max(18px, calc(50% - 390px)); width: 54px; border-top: 1px solid var(--signal); opacity: .55; pointer-events: none; }
+.writing-line { position: fixed; z-index: 4; top: 30vh; left: max(18px, calc(50% - 390px)); width: 54px; border-top: 1px solid var(--signal); opacity: .55; pointer-events: none; }
 .writing-line span { display: block; margin-top: 5px; color: var(--signal); text-transform: uppercase; letter-spacing: .1em; font-size: 7px; }
 /* Trailing space must exceed 100vh - WRITING_ANCHOR so the last line can still
    reach the writing position. */
-.manuscript { width: min(100% - 48px, 700px); min-height: 130vh; margin: 0 auto; padding: clamp(64px, 12vh, 140px) 0 64vh; }
+.manuscript { width: min(100% - 48px, 700px); min-height: 130vh; margin: 0 auto; padding: clamp(40px, 7vh, 96px) 0 72vh; }
 .manuscript-meta { display: flex; justify-content: space-between; margin-bottom: 42px; color: var(--graphite); text-transform: uppercase; letter-spacing: .11em; font-size: 8px; }
 .manuscript-title { width: 100%; padding: 0; border: 0; background: transparent; color: var(--ink); font: 500 clamp(30px, 4vw, 44px)/1.2 var(--serif); letter-spacing: -.02em; }
 .manuscript-title::placeholder { color: #b7bbb4; }
-.paragraphs { display: grid; gap: 23px; margin-top: 56px; }
+.paragraphs { display: grid; gap: 23px; margin-top: 40px; }
 .manuscript-paragraph { display: block; width: 100%; min-height: 44px; overflow: hidden; padding: 0; border: 0; background: transparent; color: var(--ink); resize: none; font: 22px/1.75 var(--serif); transition: opacity .32s ease; }
 .manuscript-paragraph::placeholder { color: #b3b7b0; }
 /* The caret is the focus indicator here; an outline would rebuild the box. */

@@ -1,0 +1,422 @@
+{
+  "When does consistency stop helping a team think clearly?": [
+    "Recall a time a consistency rule obscured a real user need.",
+    "What did the standard make easy to repeat but difficult to question?",
+    "What changed after the team kept or broke that convention?",
+    "How did component approval rules shape what happened?",
+    "How did the people whose needs did not fit the standard experience that decision?"
+  ],
+  "What judgment should a design system preserve rather than automate?": [
+    "Recall a time a component needed judgment that a rule could not capture.",
+    "Which decision needed context rather than another reusable rule?",
+    "What changed after a designer made that judgment explicitly?",
+    "How did the boundary between tokens and product decisions shape what happened?",
+    "How did designers applying the system in an unfamiliar context experience that decision?"
+  ],
+  "Who gets to decide when the system should be broken?": [
+    "Recall a time someone asked to break a design-system rule.",
+    "Who could approve the exception, and whose evidence counted?",
+    "What changed after the exception was approved or refused?",
+    "How did ownership and contribution permissions shape what happened?",
+    "How did the team asking for an exception and the people maintaining the system experience that decision?"
+  ],
+  "What makes an insight powerful enough to change a team's direction?": [
+    "Recall a time a research finding changed a planned product decision.",
+    "What made that finding harder to dismiss than earlier evidence?",
+    "What changed after the team changed direction?",
+    "How did how research reached planning decisions shape what happened?",
+    "How did the person who changed their mind and the participant behind the insight experience that decision?"
+  ],
+  "When does research create understanding, and when does it merely create evidence?": [
+    "Recall a time a study produced evidence without changing anyone’s understanding.",
+    "Was the team trying to learn or to justify an existing choice?",
+    "What changed after the finding challenged the original plan?",
+    "How did the incentives for commissioning research shape what happened?",
+    "How did participants whose experience contradicted the team’s story experience that decision?"
+  ],
+  "Which part of research work most often disappears between learning and deciding?": [
+    "Recall a time an interview insight disappeared before a decision was made.",
+    "Where did the meaning get lost between observation and recommendation?",
+    "What changed after the original observation was brought back into the discussion?",
+    "How did synthesis, handoffs, and decision records shape what happened?",
+    "How did researchers and decision-makers working from different versions of the evidence experience that decision?"
+  ],
+  "What should a designer make legible when the system cannot promise the same answer twice?": [
+    "Recall a time the same AI input produced conflicting answers.",
+    "What could the interface communicate without implying false certainty?",
+    "What changed after uncertainty was made visible?",
+    "How did confidence cues, model variability, and error recovery shape what happened?",
+    "How did someone who needed a dependable answer to act experience that decision?"
+  ],
+  "Where should human judgment remain visible in an AI-assisted workflow?": [
+    "Recall a time a person accepted or overrode an AI recommendation.",
+    "Where did human judgment conflict with the model’s apparent confidence?",
+    "What changed after someone checked, challenged, or corrected the recommendation?",
+    "How did review checkpoints, override controls, and accountability shape what happened?",
+    "How did the person responsible for acting on a wrong recommendation experience that decision?"
+  ],
+  "How does product responsibility change when an interface can act on a person's behalf?": [
+    "Recall a time an interface took an action on someone’s behalf.",
+    "What had the person actually authorized, and what did the system assume?",
+    "What changed after the action was confirmed, reversed, or left uncorrected?",
+    "How did permissions, audit trails, and undo mechanisms shape what happened?",
+    "How did the person affected by an action they did not explicitly choose experience that decision?"
+  ],
+  "When does a prototype begin making decisions the team has not discussed?": [
+    "Recall a time a prototype quietly became a product commitment.",
+    "Which behavior looked settled before anyone had agreed to it?",
+    "What changed after the team surfaced the unspoken decision?",
+    "How did how prototype choices became implementation requirements shape what happened?",
+    "How did engineers or stakeholders who treated the demo as a promise experience that decision?"
+  ],
+  "What becomes easier to misunderstand when a prototype feels complete?": [
+    "Recall a time a polished prototype was mistaken for a finished solution.",
+    "What uncertainty did the polish conceal?",
+    "What changed after the missing states or constraints became visible?",
+    "How did how teams communicate prototype fidelity and scope shape what happened?",
+    "How did someone who estimated effort or made a commitment from the demo experience that decision?"
+  ],
+  "Which question should a prototype answer before it starts persuading people?": [
+    "Recall a time a demo persuaded the team before its main question was tested.",
+    "Which assumption still needed evidence despite the convincing interaction?",
+    "What changed after the prototype was used to test rather than sell the idea?",
+    "How did success criteria for prototypes shape what happened?",
+    "How did participants whose behavior challenged the demo’s story experience that decision?"
+  ],
+  "What changes when accessibility is treated as a design premise rather than a final check?": [
+    "Recall a time access needs shaped the first design decision.",
+    "What would have been different if accessibility had waited until QA?",
+    "What changed after the access need became a starting constraint?",
+    "How did planning, acceptance criteria, and ownership of accessibility shape what happened?",
+    "How did people who could participate because of the early decision experience that decision?"
+  ],
+  "Whose experience reveals the assumptions hidden in a supposedly simple flow?": [
+    "Recall a time someone could not complete a supposedly simple flow.",
+    "Which assumption about ability, context, or equipment did their experience expose?",
+    "What changed after the flow accommodated that experience?",
+    "How did defaults, input methods, and recovery paths shape what happened?",
+    "How did the person navigating the barrier rather than the team’s ideal user experience that decision?"
+  ],
+  "When does an accessibility compromise become a product decision rather than a technical constraint?": [
+    "Recall a time an access barrier was described as technically unavoidable.",
+    "Which part was a technical limit, and which part was a choice about priorities?",
+    "What changed after the compromise was revisited?",
+    "How did budgets, deadlines, and who could accept an accessibility exception shape what happened?",
+    "How did people excluded by the compromise experience that decision?"
+  ],
+  "What does meaningful consent look like when the product benefits from a quick yes?": [
+    "Recall a time a consent screen made agreement easier than understanding.",
+    "Could someone refuse as easily as they could agree?",
+    "What changed after the choice and its consequences became clearer?",
+    "How did conversion targets, defaults, and consent records shape what happened?",
+    "How did someone who wanted the service without accepting every use of their data experience that decision?"
+  ],
+  "Where does personalization become a decision made about people rather than for them?": [
+    "Recall a time personalization inferred a preference someone never expressed.",
+    "When did a helpful adaptation become an unwanted assumption?",
+    "What changed after the person could inspect or change that inference?",
+    "How did data collection, profiling, and preference controls shape what happened?",
+    "How did people inaccurately categorized by the product experience that decision?"
+  ],
+  "Which product incentive makes an ethical design choice hardest to defend?": [
+    "Recall a time a target made an ethical design choice difficult to defend.",
+    "Which metric rewarded the choice you were uncomfortable making?",
+    "What changed after the team challenged or accepted the incentive?",
+    "How did targets, experiments, and decision authority shape what happened?",
+    "How did people bearing costs that the success metric did not count experience that decision?"
+  ],
+  "Which part of collaboration matters most but leaves the least visible artifact?": [
+    "Recall a time a conversation or act of coordination unlocked stalled work.",
+    "Why was that contribution missing from the visible deliverables?",
+    "What changed after shared understanding improved?",
+    "How did how teams recognize coordination and record decisions shape what happened?",
+    "How did the colleague whose invisible work helped others move forward experience that decision?"
+  ],
+  "When does a workflow protect shared understanding, and when does it replace it?": [
+    "Recall a time a team followed the workflow but still misunderstood the decision.",
+    "Which ritual encouraged agreement without shared understanding?",
+    "What changed after someone tested what the team actually understood?",
+    "How did handoff gates, checklists, and feedback loops shape what happened?",
+    "How did people on opposite sides of the handoff experience that decision?"
+  ],
+  "What keeps getting lost between a design decision and its implementation?": [
+    "Recall a time an implemented feature lost the intent of its design.",
+    "What was clear in the design discussion but absent from the handoff?",
+    "What changed after the original rationale reached the implementation team?",
+    "How did decision records, constraints, and review timing shape what happened?",
+    "How did designers and engineers interpreting the same requirement differently experience that decision?"
+  ],
+  "What kind of clarity can a design leader provide without pretending to have certainty?": [
+    "Recall a time a team needed direction while key facts were still unknown.",
+    "What could the leader clarify without claiming to know the outcome?",
+    "What changed after assumptions and decision boundaries were made explicit?",
+    "How did how teams record uncertainty and revisit commitments shape what happened?",
+    "How did colleagues who needed enough clarity to act experience that decision?"
+  ],
+  "Which part of senior design work is important precisely because it is hard to point to?": [
+    "Recall a time a senior designer changed an outcome without producing the artifact.",
+    "What made that contribution valuable but difficult to demonstrate?",
+    "What changed after someone framed the problem or connected the right people?",
+    "How did how performance reviews recognize influence shape what happened?",
+    "How did teammates whose work improved because of that contribution experience that decision?"
+  ],
+  "When should a leader protect the team's judgment instead of accelerating its output?": [
+    "Recall a time a deadline pressured a team to skip an important judgment.",
+    "What would have been lost by treating speed as the only goal?",
+    "What changed after the leader protected time to question the decision?",
+    "How did delivery targets and escalation authority shape what happened?",
+    "How did designers asked to ship and users living with the result experience that decision?"
+  ],
+  "What is the interface asking people to notice, and what does it teach them to ignore?": [
+    "Recall a time visual hierarchy directed attention away from something important.",
+    "What did repeated use teach people to overlook?",
+    "What changed after the overlooked information became more prominent?",
+    "How did ranking, notifications, and visual emphasis shape what happened?",
+    "How did someone who missed information they needed to decide experience that decision?"
+  ],
+  "When does making an interaction easier also make its consequences harder to see?": [
+    "Recall a time a simpler interaction concealed a consequential choice.",
+    "What did the removed friction previously help someone understand?",
+    "What changed after the consequences became visible before acting?",
+    "How did defaults, confirmations, and reversibility shape what happened?",
+    "How did someone who completed the action without anticipating its effect experience that decision?"
+  ],
+  "Which interface choice quietly determines how a person understands the whole product?": [
+    "Recall a time one label or interaction changed how someone understood the product.",
+    "Which mental model did that choice encourage?",
+    "What changed after the interface clarified or corrected that interpretation?",
+    "How did navigation, naming, and recurring interaction patterns shape what happened?",
+    "How did new users building an understanding from their first encounter experience that decision?"
+  ],
+  "What control should never disappear simply because a task can be automated?": [
+    "Recall a time automation removed a control someone still needed.",
+    "Which decision could be automated safely, and which needed a way back?",
+    "What changed after manual control was restored or deliberately retained?",
+    "How did override permissions and recovery mechanisms shape what happened?",
+    "How did people handling cases the automation could not anticipate experience that decision?"
+  ],
+  "When does convenience make a system's judgment harder to question?": [
+    "Recall a time a convenient default made an automated decision hard to question.",
+    "What would someone need to see to disagree with the system?",
+    "What changed after the decision could be inspected or contested?",
+    "How did explanations, defaults, and routes for appeal shape what happened?",
+    "How did someone affected by a convenient but incorrect decision experience that decision?"
+  ],
+  "Which part of the work should automation make more visible rather than remove?": [
+    "Recall a time automation hid work that people needed to understand.",
+    "Which signals of progress, reasoning, or failure should remain visible?",
+    "What changed after the hidden work became observable?",
+    "How did logs, handoffs, and exception reporting shape what happened?",
+    "How did people responsible for monitoring or repairing the automated work experience that decision?"
+  ],
+  "Which rule helps the work scale, and which exception keeps it honest?": [
+    "Recall a time a useful rule needed an exception to remain useful.",
+    "What would strict compliance have missed in that case?",
+    "What changed after the exception informed the rule?",
+    "How did how exceptions are requested, documented, and reviewed shape what happened?",
+    "How did people applying the rule in situations its authors did not anticipate experience that decision?"
+  ],
+  "What would have to be learned before your opinion on this should change?": [
+    "Recall a time evidence caused you to reconsider a strongly held opinion.",
+    "What evidence would actually contradict your current position?",
+    "What changed after you revised or defended your view?",
+    "How did how the team seeks disconfirming evidence shape what happened?",
+    "How did someone whose experience challenged your interpretation experience that decision?"
+  ],
+  "Where should human judgment remain visible as this technology enters the work?": [
+    "Recall a time new technology shifted a decision away from a person.",
+    "Which judgment still needed human context?",
+    "What changed after a person could review or override the technology?",
+    "How did decision ownership and review points shape what happened?",
+    "How did people accountable for decisions made with the technology experience that decision?"
+  ],
+  "What responsibility becomes easier to overlook as this kind of work changes?": [
+    "Recall a time a change in the work left a responsibility without a clear owner.",
+    "What did each person assume somebody else would handle?",
+    "What changed after ownership became explicit?",
+    "How did role boundaries and escalation paths shape what happened?",
+    "How did the person left to absorb the unowned work experience that decision?"
+  ],
+  "Which assumption about how this work gets done deserves to be questioned?": [
+    "Recall a time the real work diverged from the team’s stated process.",
+    "Which assumption about the workflow did that reveal?",
+    "What changed after the team adjusted the process to how the work actually happened?",
+    "How did handoffs, dependencies, and planning rituals shape what happened?",
+    "How did people doing the work the official process overlooked experience that decision?"
+  ],
+  "Who gains agency from this product choice, and who quietly gives some up?": [
+    "Recall a time a product choice gave one person more control and another less.",
+    "Whose convenience depended on someone else losing a choice?",
+    "What changed after that imbalance was acknowledged or changed?",
+    "How did permissions, defaults, and business incentives shape what happened?",
+    "How did the person with the least power to refuse the product’s decision experience that decision?"
+  ],
+  "sys-1": [
+    "Recall a time an agent used a design system without consuming its components.",
+    "What did the agent need beyond visual building blocks?",
+    "What changed after the system described intent as well as components?",
+    "How did machine-readable rules and design ownership shape what happened?",
+    "How did designers and developers relying on an agent’s interpretation experience that decision?"
+  ],
+  "sys-2": [
+    "Recall a time a token change affected more screens than a component change.",
+    "What meaning was lost when a design decision became a variable?",
+    "What changed after the token model changed?",
+    "How did token inheritance, naming, and governance shape what happened?",
+    "How did teams inheriting changes from shared variables experience that decision?"
+  ],
+  "sys-3": [
+    "Recall a time a contribution depended on who proposed it.",
+    "Whose needs were treated as standard and whose as exceptions?",
+    "What changed after the contribution rules changed?",
+    "How did approval rights and ownership of components shape what happened?",
+    "How did contributors without authority over the shared system experience that decision?"
+  ],
+  "sys-4": [
+    "Recall a time breaking a convention produced a better experience.",
+    "What evidence justified the exception?",
+    "What changed after the exception reached the shared system?",
+    "How did how teams distinguish deliberate exceptions from drift shape what happened?",
+    "How did users whose needs exceeded the standard pattern experience that decision?"
+  ],
+  "res-1": [
+    "Recall a time an existing insight could not be found when a decision needed it.",
+    "Was the problem missing research or inaccessible learning?",
+    "What changed after the team rediscovered or repeated the research?",
+    "How did repositories, ownership, and retrieval shape what happened?",
+    "How did researchers repeating work and decision-makers waiting for evidence experience that decision?"
+  ],
+  "res-2": [
+    "Recall a time weekly interviews continued without affecting a decision.",
+    "What would count as learning rather than completing a research ritual?",
+    "What changed after an interview challenged the roadmap?",
+    "How did discovery schedules and incentives shape what happened?",
+    "How did participants whose time produced no visible change experience that decision?"
+  ],
+  "res-3": [
+    "Recall a time research changed a colleague’s mind without producing a polished report.",
+    "What made the evidence persuasive to that person?",
+    "What changed after their conviction changed?",
+    "How did how insights enter decisions and conversations shape what happened?",
+    "How did the colleague who reconsidered and the participant who prompted it experience that decision?"
+  ],
+  "res-4": [
+    "Recall a time two people heard different meanings in the same interview.",
+    "Which interpretation was grounded in observation rather than expectation?",
+    "What changed after the team compared interpretations?",
+    "How did coding, synthesis, and traceability to observations shape what happened?",
+    "How did participants whose words were compressed into themes experience that decision?"
+  ],
+  "ai-1": [
+    "Recall a time a working prototype became the team’s specification.",
+    "What did the running demo leave ambiguous about intended behavior?",
+    "What changed after engineers built from the prototype?",
+    "How did how edge cases and constraints are documented shape what happened?",
+    "How did people expected to maintain behavior that was never specified experience that decision?"
+  ],
+  "ai-2": [
+    "Recall a time a model behaved differently in a scenario you thought you had designed.",
+    "What could you promise when the output was not predictable?",
+    "What changed after you designed for variation instead of one ideal output?",
+    "How did evaluation, confidence cues, and fallback states shape what happened?",
+    "How did people depending on consistent model behavior experience that decision?"
+  ],
+  "ai-3": [
+    "Recall a time someone hesitated at an empty prompt field.",
+    "What did the field assume they already knew how to ask?",
+    "What changed after examples or constraints helped them begin?",
+    "How did onboarding and discoverability of model capabilities shape what happened?",
+    "How did first-time users unsure what the system could do experience that decision?"
+  ],
+  "ai-4": [
+    "Recall a time an AI action bypassed a screen that previously supported understanding.",
+    "Which choice or piece of feedback disappeared with the interface?",
+    "What changed after the product restored a way to inspect the action?",
+    "How did approval, visibility, and reversal of agent actions shape what happened?",
+    "How did people who needed to know what had happened on their behalf experience that decision?"
+  ],
+  "lead-1": [
+    "Recall a time explaining a design decision mattered more than presenting it.",
+    "Which meaning changed as you translated between disciplines?",
+    "What changed after another discipline understood the design rationale?",
+    "How did shared language and decision forums shape what happened?",
+    "How did colleagues outside design interpreting your recommendation experience that decision?"
+  ],
+  "lead-2": [
+    "Recall a time a critique included output generated by a model.",
+    "Who was accountable for a design choice nobody deliberately made?",
+    "What changed after the team questioned the generated output?",
+    "How did review standards and ownership of model-assisted work shape what happened?",
+    "How did designers learning to judge work they had not drawn experience that decision?"
+  ],
+  "lead-3": [
+    "Recall a time a reorganization changed how design work was assigned.",
+    "What happened to craft when roadmap ownership became the organizing rule?",
+    "What changed after reporting lines or team boundaries changed?",
+    "How did staffing, incentives, and design review shape what happened?",
+    "How did designers and partner teams adapting to the new structure experience that decision?"
+  ],
+  "lead-4": [
+    "Recall a time your most valuable contribution was not making an artifact.",
+    "How did you recognize progress that had no deliverable?",
+    "What changed after you clarified a decision or unblocked someone else?",
+    "How did expectations for seniority and performance shape what happened?",
+    "How did teammates who benefited from work they could not point to experience that decision?"
+  ],
+  "proc-1": [
+    "Recall a time a complete handoff still left engineering uncertain.",
+    "Which shared understanding was missing despite the files?",
+    "What changed after the team talked through the decision together?",
+    "How did handoff practices and feedback channels shape what happened?",
+    "How did the designer and engineer holding different assumptions experience that decision?"
+  ],
+  "proc-2": [
+    "Recall a time a velocity target changed what the team chose to design.",
+    "Which useful work became harder to justify because it was not counted?",
+    "What changed after the team optimized for or challenged the metric?",
+    "How did estimation, reporting, and delivery incentives shape what happened?",
+    "How did people doing valuable work outside the measurement experience that decision?"
+  ],
+  "proc-3": [
+    "Recall a time a project moved backward or sideways through the double diamond.",
+    "What did the tidy process story leave out?",
+    "What changed after the team revisited a question it considered settled?",
+    "How did planning assumptions and permission to reopen decisions shape what happened?",
+    "How did colleagues navigating uncertainty hidden by the process diagram experience that decision?"
+  ],
+  "proc-4": [
+    "Recall a time a documented decision was debated again as if it were new.",
+    "Why was the rationale unavailable or unconvincing when it mattered?",
+    "What changed after someone recovered the original context?",
+    "How did document ownership, retrieval, and decision history shape what happened?",
+    "How did people absent from the original discussion experience that decision?"
+  ],
+  "eth-1": [
+    "Recall a time a polite-looking interaction nudged someone against their interests.",
+    "What made the manipulation harder to notice or name?",
+    "What changed after the team exposed or removed the nudge?",
+    "How did defaults, conversion tests, and review criteria shape what happened?",
+    "How did people paying the cost of a seemingly helpful choice experience that decision?"
+  ],
+  "eth-2": [
+    "Recall a time an accessibility improvement was justified through growth.",
+    "Would the team still defend it if it did not improve conversion?",
+    "What changed after the business case changed?",
+    "How did funding criteria and accessibility commitments shape what happened?",
+    "How did people whose access was treated as conditional on business value experience that decision?"
+  ],
+  "eth-3": [
+    "Recall a time a consent flow encouraged agreement before comprehension.",
+    "What did the experiment measure, and what did it ignore about understanding?",
+    "What changed after refusal and consequences became clearer?",
+    "How did A/B testing, defaults, and consent design shape what happened?",
+    "How did people agreeing without realizing what they allowed experience that decision?"
+  ],
+  "eth-4": [
+    "Recall a time personalization depended on data collection users did not expect.",
+    "Where did helpful adaptation cross into unwanted monitoring?",
+    "What changed after data use became visible or controllable?",
+    "How did tracking, inference, and retention choices shape what happened?",
+    "How did people whose behavior became a profile they could not inspect experience that decision?"
+  ]
+}

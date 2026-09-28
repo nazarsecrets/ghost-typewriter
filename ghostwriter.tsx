@@ -2,6 +2,8 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState, type Keyboar
 import { enterWritingMode, focusParagraph, pathwayEnter, pathwayExit, quietParagraph } from "./src/motion";
 import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type EditorialLens, type TopicResult } from "./src/topicSource";
 
+import { writingGuides } from "./src/writingGuides";
+
 declare const __ANTHROPIC_CONFIGURED__: boolean;
 
 type View = "today" | "reflect" | "write" | "review";
@@ -474,11 +476,7 @@ export default function Ghostwriter() {
         <p className="pathway-label">{selectedTopic ? editorialLens(selectedTopic) : "Your writing"}</p>
         <h1>{selectedTopic ? topicPrompt(selectedTopic) : "What would you like to explore?"}</h1>
         <ul className="writing-guides" aria-label="Guides to keep in mind">
-          <li><strong>Memory:</strong> Recall a specific moment from your work.</li>
-          <li><strong>Tension:</strong> Notice what conflicted with your expectations.</li>
-          <li><strong>Outcome:</strong> Consider what changed, and what didn’t.</li>
-          <li><strong>System:</strong> Look for the rules or patterns behind it.</li>
-          <li><strong>People:</strong> Think about who was affected and what they taught you.</li>
+          {writingGuides(selectedTopic).map((guide) => <li key={guide.label}><strong>{guide.label}:</strong> {guide.text}</li>)}
         </ul>
         {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context">
           <summary>Your earlier reflection notes</summary>

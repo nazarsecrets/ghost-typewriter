@@ -21,7 +21,7 @@ _Last updated: 2026-09-28_ (later same day)
 
 **[UX+Dev] Sync the docs to the settled writing rule.** PRD.md (three places) and
 POC.md still say 42% anchor and offer 0.82 as the quiet-floor candidate; the
-author settled on 40% and a 1 / 0.72 / 0.42 ladder, now verified in-browser.
+author settled on 30% and a 1 / 0.72 / 0.42 ladder, now verified in-browser.
 Update PRD §§, POC §§2 and 7, and the open tuning questions in POC §"Anchor
 point" / §"Quiet floor", which these measurements answer.
 
@@ -37,7 +37,7 @@ _(nothing currently)_
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX+Dev]** Sync PRD and POC to the settled 40% anchor and 1 / 0.72 / 0.42 falloff — **this is the Next action above**.
+- ⬜ **[UX+Dev]** Sync PRD and POC to the settled 30% anchor and 1 / 0.72 / 0.42 falloff — **this is the Next action above**.
 - ⬜ **[UX+Dev]** Validate the guided editor in real use: prompt usefulness and reference-bullet proportions. The author clarified that guidance means passive bullets beneath the main prompt, supporting one continuous manuscript.
 - ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
 - ⬜ **[UX+Dev]** Complete the manuscript type, measure, spacing, keyboard, and reduced-motion pass across Today → Write
@@ -52,7 +52,7 @@ _(nothing currently)_
 ### Ghost reattachment — after the paper is proven
 
 - ⬜ **[UX]** Define the dormant Ghost invocation and contextual lens chooser without permanent writing-time AI chrome (PRD FR-5.0; log.md idea 11)
-- ⬜ **[UX+Dev]** Improve question specificity and evaluate contextual angles; guidance now appears as five passive reference bullets, with no question navigation.
+- ⬜ **[UX]** Evaluate the authored prompt-specific guides during real writing and refine weak angles; add guide copy whenever new provocations or Evergreen prompts are introduced.
 - ⬜ **[UX+Dev]** Design passage-anchored Ghost margin notes for Idea, Clarity, Voice, Evidence, and Structure while preserving the raw draft (PRD FR-5.1; log.md idea 12)
 - ⬜ **[UX+Dev]** Replace the single Review text block with a structured critique schema and distinguish revisions from new drafts (PRD FR-5.2, FR-6.2)
 - ⬜ **[UX+Dev]** Add accept-insight and margin-comment motion only when their corresponding interactions exist (log.md idea 6)
@@ -66,6 +66,21 @@ _(nothing currently)_
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-09-28 [UX+Dev]** — Replaced identical generic bullets with 60 distinct authored five-guide sets matched to the exact main provocation or Evergreen ID (36 pipeline prompts + 24 Evergreen topics). Guides derive from the selected topic on render, including restored drafts, without AI calls. Coverage validation includes every current manifest topic; build and diff checks pass. Browser QA verified different guides for two prompts within the same theme, reload persistence, and no mobile overflow. Updated guide requirements in PRD, POC, and implementation plan; existing writing-motion work and next action preserved.
+
+- ✅ **2026-09-28 [UX]** — Raised the writing position: the live line sat at 42% of
+  the viewport and read as too low, especially at the start of a draft where only
+  ~30px of scroll exists and layout, not the anchor, sets the height. Moved
+  `WRITING_ANCHOR` to 0.30 (0.33 first, then 0.30 by the author's eye) and cut the
+  space above the first line (`.manuscript`
+  padding-top `clamp(64px, 12vh, 140px)` -> `clamp(40px, 7vh, 96px)`, `.paragraphs`
+  margin-top 56 -> 40px) so the opening line starts where the anchor would hold it;
+  trailing space raised to 72vh to stay above the 67vh the new anchor needs. The
+  line now sits at 290px of a 900px viewport (32%) identically on the first
+  keystroke and deep into a draft — it never moves. Re-verified: no drift during
+  typing, ladder unchanged, no console errors, no mobile overflow, reload persists.
+  Build passes.
 
 - ✅ **2026-09-28 [UX+Dev]** — Browser QA of the writing-space pass (Playwright on
   Chrome, 1280x900 and iPhone-sized). Found and fixed four defects the build could
