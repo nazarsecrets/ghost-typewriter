@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-27T19:40:52.083Z",
-  "windowStart": "2026-08-28T19:40:52.083Z",
-  "windowEnd": "2026-09-27T19:40:52.083Z",
+  "generatedAt": "2026-09-28T04:53:40.749Z",
+  "windowStart": "2026-08-29T04:53:40.749Z",
+  "windowEnd": "2026-09-28T04:53:40.749Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -14,13 +14,93 @@
       "publishedAt": "2026-09-24T17:21:36.000Z",
       "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "556 engagement signals within 3 days",
+      "categoryReason": "558 engagement signals within 3 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
           "url": "https://github.com/devdotfast/whiteboard",
           "publishedAt": "2026-09-24T17:21:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e6d5525702bf",
+      "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
+      "teaser": "The craft was learned at this table, one marked-up screen at a time. AI assisted, Automation is taking tasks juniors learned on. Here are seven tasks that put the practice back so we keep hu",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-27T19:38:02.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
+          "url": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-27T19:38:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f8519603b303",
+      "title": "Redesigning Trust: Replacing Dark Patterns with Fair Choice Architecture in Financial Interfaces",
+      "teaser": "Digital financial platforms make enrollment effortless and cancellation laborious. This asymmetry is a dark pattern that manipulates users who have already decided to leave. Existing work id",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-24T19:12:47.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Redesigning Trust: Replacing Dark Patterns with Fair Choice Architecture in Financial Interfaces",
+          "url": "https://arxiv.org/abs/2609.30475v1",
+          "publishedAt": "2026-09-24T19:12:47.000Z"
+        }
+      ]
+    },
+    {
+      "id": "de155264fb66",
+      "title": "Show HN: Help us fire our UI/UX designers",
+      "teaser": "Get $10,000 & 3 months of Claude Max on me Redesign http:&#x2F;&#x2F;vosu.ai with any AI tool Better visuals. Better structure If we love it and choose your redesign, I’ll pay for your Claud",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-28T00:29:04.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Help us fire our UI/UX designers",
+          "url": "https://vosu.ai",
+          "publishedAt": "2026-09-28T00:29:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1b1928751064",
+      "title": "Comparative Evaluation of an XR Pen-based Control Interface for Semi-Autonomous Mobile Robot Navigation in Service Environments",
+      "teaser": "Service robots remain difficult to deploy in domestic environments, partly because fully autonomous operation is not yet reliable in unpredictable surroundings, and partly because convention",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-25T11:07:24.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Comparative Evaluation of an XR Pen-based Control Interface for Semi-Autonomous Mobile Robot Navigation in Service Environments",
+          "url": "https://arxiv.org/abs/2609.31117v1",
+          "publishedAt": "2026-09-25T11:07:24.000Z"
         }
       ]
     },
@@ -32,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-26T14:15:39.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -65,42 +145,22 @@
       ]
     },
     {
-      "id": "11170c39dce4",
-      "title": "Understanding Creative Design Practices among Data Artists",
-      "teaser": "Creative and artistic data visualizations communicate stories and invite engagement, yet how designers develop their expressive forms remains poorly understood. We investigate the design pro",
-      "tag": "Research",
+      "id": "17bbd6d00178",
+      "title": "CraftTrace: Unflattening Videos into Malleable, Creation-Inspired Structures for Generative Editing",
+      "teaser": "Recent generative video editing models enable video content modification (e.g., changing a character) but target short clips. Extending them to full multi-shot videos requires tedious work t",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-23T18:54:37.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "publishedAt": "2026-09-24T23:18:23.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "Understanding Creative Design Practices among Data Artists",
-          "url": "https://arxiv.org/abs/2609.28715v1",
-          "publishedAt": "2026-09-23T18:54:37.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a265351a91ae",
-      "title": "Available but Not Usable: Dark Patterns and Interaction Cost in Social Media Privacy and Safety Settings for Teens",
-      "teaser": "Social media platforms are central to teenagers' lives, and their designs can expose users to privacy, safety, and wellbeing harms. Platforms increasingly offer protective settings, though t",
-      "tag": "Ethics",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-23T18:13:34.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Available but Not Usable: Dark Patterns and Interaction Cost in Social Media Privacy and Safety Settings for Teens",
-          "url": "https://arxiv.org/abs/2609.28672v1",
-          "publishedAt": "2026-09-23T18:13:34.000Z"
+          "title": "CraftTrace: Unflattening Videos into Malleable, Creation-Inspired Structures for Generative Editing",
+          "url": "https://arxiv.org/abs/2609.30623v1",
+          "publishedAt": "2026-09-24T23:18:23.000Z"
         }
       ]
     },
@@ -152,35 +212,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:22:49.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The variance problem in AI products",
-          "url": "https://uxdesign.cc/the-variance-problem-in-ai-products-62a58272564c?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-22T11:22:49.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9073e02572a0",
-      "title": "Nobody starts as an accessibility expert",
-      "teaser": "Designers, leave your intimidation at the door. Nobody becomes a designer because they’re excited about compliance. It sounds boring and it sounds like someone else’s job. Most of us are gla",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-22T04:33:52.000Z",
       "since": "6 days ago",
       "relevanceScore": 1,
       "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "Nobody starts as an accessibility expert",
-          "url": "https://uxdesign.cc/nobody-starts-as-an-accessibility-expert-6a16e8a99960?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-22T04:33:52.000Z"
+          "title": "The variance problem in AI products",
+          "url": "https://uxdesign.cc/the-variance-problem-in-ai-products-62a58272564c?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-22T11:22:49.000Z"
         }
       ]
     },
@@ -192,15 +232,55 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-25T09:22:55.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
           "url": "https://proximaforma.com/",
           "publishedAt": "2026-09-25T09:22:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a228d8077d43",
+      "title": "A Quick Guide on Creating a Design System",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-27T22:06:14.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "A Quick Guide on Creating a Design System",
+          "url": "https://www.andrewcoyle.com/blog/a-quick-guide-on-creating-a-design-system",
+          "publishedAt": "2026-09-27T22:06:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7dd8670cf723",
+      "title": "A Benchmarking Framework for Context-aware XR Interfaces",
+      "teaser": "Everyday Extended Reality (XR) systems aim to provide context-aware access to the right functionalities at the right time and place, with minimal manual reconfiguration as users switch conte",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-24T19:03:18.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "A Benchmarking Framework for Context-aware XR Interfaces",
+          "url": "https://arxiv.org/abs/2609.30466v1",
+          "publishedAt": "2026-09-24T19:03:18.000Z"
         }
       ]
     },
@@ -212,35 +292,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-24T14:44:52.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
           "title": "Working with Agentic `Teammates': When a New Organizational Actor Collides with the Human Ecosystem of Work",
           "url": "https://arxiv.org/abs/2609.29901v1",
           "publishedAt": "2026-09-24T14:44:52.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1ab71cb3a234",
-      "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
-      "teaser": "Technical considerations in the design of the Obra shadcn/ui kit Thursday last week, Figma released...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-07T14:35:32.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
-          "url": "https://dev.to/wolfr/opacity-within-variables-and-how-it-affects-a-shadcn-design-system-token-implementation-3ehg",
-          "publishedAt": "2026-09-07T14:35:32.000Z"
         }
       ]
     },
@@ -274,7 +334,7 @@
       "publishedAt": "2026-09-11T14:11:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 16 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -301,6 +361,26 @@
           "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
           "url": "https://www.coinbase.com/blog/how-coinbase-design-systems-are-powering-the-ai-prototyping-era",
           "publishedAt": "2026-09-10T00:13:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2f53d93802f9",
+      "title": "Evaluating the Impact of Adaptive Extended Reality on Human-Robot Interaction Across the Reality-Virtuality Continuum",
+      "teaser": "As populations in developed countries age and labor shortages intensify, Cybernetic Avatars (CAs) are proposed to extend human capabilities through robotic embodiments, requiring effective H",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-25T11:27:38.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Evaluating the Impact of Adaptive Extended Reality on Human-Robot Interaction Across the Reality-Virtuality Continuum",
+          "url": "https://arxiv.org/abs/2609.31138v1",
+          "publishedAt": "2026-09-25T11:27:38.000Z"
         }
       ]
     },
@@ -332,9 +412,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:23:11.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -394,7 +474,7 @@
       "publishedAt": "2026-09-04T14:35:45.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 23 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -405,22 +485,22 @@
       ]
     },
     {
-      "id": "e295355d895c",
-      "title": "\"A Necessary Evil\": Teenagers' Sensemaking of Privacy and Safety Settings on Social Media",
-      "teaser": "Social media platforms are embedded in teenagers' daily lives, supporting friendship and identity while exposing teenagers to unwanted contact and privacy harms. Previous scholarship has doc",
-      "tag": "Ethics",
+      "id": "1ab71cb3a234",
+      "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
+      "teaser": "Technical considerations in the design of the Obra shadcn/ui kit Thursday last week, Figma released...",
+      "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-23T18:26:39.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-07T14:35:32.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "\"A Necessary Evil\": Teenagers' Sensemaking of Privacy and Safety Settings on Social Media",
-          "url": "https://arxiv.org/abs/2609.28685v1",
-          "publishedAt": "2026-09-23T18:26:39.000Z"
+          "name": "devto-design",
+          "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
+          "url": "https://dev.to/wolfr/opacity-within-variables-and-how-it-affects-a-shadcn-design-system-token-implementation-3ehg",
+          "publishedAt": "2026-09-07T14:35:32.000Z"
         }
       ]
     },
@@ -452,9 +532,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-21T14:00:16.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -472,9 +552,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-24T07:54:55.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -514,7 +594,7 @@
       "publishedAt": "2026-09-19T16:29:03.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -554,7 +634,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -612,9 +692,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:22:00.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -632,9 +712,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T11:21:28.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -654,7 +734,7 @@
       "publishedAt": "2026-09-01T13:38:57.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -674,7 +754,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
       "sources": [
         {
           "name": "smashing",
@@ -714,7 +794,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -734,7 +814,7 @@
       "publishedAt": "2026-09-15T08:01:39.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -792,9 +872,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-03T14:31:41.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -812,9 +892,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-10T14:22:41.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -834,7 +914,7 @@
       "publishedAt": "2026-09-07T14:25:59.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -852,9 +932,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-10T14:57:41.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -894,7 +974,7 @@
       "publishedAt": "2026-09-11T13:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "smashing",
@@ -923,46 +1003,6 @@
           "publishedAt": "2026-09-04T17:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "05d51c76f4e3",
-      "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
-      "teaser": "Hey HN, I&#x27;ve been working on this for about a year and figured it was time to share it. Visor started with my own kids. I actually think YouTube has a lot of good content for kids, but ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T18:56:11.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
-          "url": "https://gotvisor.com",
-          "publishedAt": "2026-09-04T18:56:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a5c3ec805549",
-      "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
-      "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-01T08:50:46.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
-          "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
-          "publishedAt": "2026-09-01T08:50:46.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -970,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-27T19:40:52.084Z"
+      "fetchedAt": "2026-09-28T04:53:40.749Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-27T19:40:52.137Z"
+      "fetchedAt": "2026-09-28T04:53:40.802Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-27T19:40:52.138Z"
+      "fetchedAt": "2026-09-28T04:53:40.804Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-27T19:40:52.139Z"
+      "fetchedAt": "2026-09-28T04:53:40.805Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-27T19:40:52.140Z"
+      "fetchedAt": "2026-09-28T04:53:40.806Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T19:40:52.142Z"
+      "fetchedAt": "2026-09-28T04:53:40.807Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T19:40:52.143Z"
+      "fetchedAt": "2026-09-28T04:53:40.808Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 10,
-      "fetchedAt": "2026-09-27T19:40:52.144Z"
+      "items": 11,
+      "fetchedAt": "2026-09-28T04:53:40.809Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-09-27T19:40:52.145Z"
+      "items": 31,
+      "fetchedAt": "2026-09-28T04:53:40.810Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-27T19:40:52.146Z"
+      "fetchedAt": "2026-09-28T04:53:40.811Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-27T19:40:52.147Z"
+      "fetchedAt": "2026-09-28T04:53:40.812Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-27T19:40:52.148Z"
+      "fetchedAt": "2026-09-28T04:53:40.813Z"
     }
   ]
 }
