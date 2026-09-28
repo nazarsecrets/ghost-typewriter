@@ -113,15 +113,21 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .segmented button.selected { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
 .save-state { min-width: 50px; color: var(--graphite); font-size: 9px; text-transform: uppercase; letter-spacing: .1em; }
 .save-state.saved { color: var(--signal); }
-.writing-line { position: fixed; z-index: 4; top: 42vh; left: max(18px, calc(50% - 390px)); width: 54px; border-top: 1px solid var(--signal); opacity: .55; pointer-events: none; }
+/* Gutter mark for the writing position; no element renders it yet. Keep in step
+   with WRITING_ANCHOR in src/motion.ts. */
+.writing-line { position: fixed; z-index: 4; top: 40vh; left: max(18px, calc(50% - 390px)); width: 54px; border-top: 1px solid var(--signal); opacity: .55; pointer-events: none; }
 .writing-line span { display: block; margin-top: 5px; color: var(--signal); text-transform: uppercase; letter-spacing: .1em; font-size: 7px; }
-.manuscript { width: min(100% - 48px, 700px); min-height: 130vh; margin: 0 auto; padding: clamp(64px, 12vh, 140px) 0 50vh; }
+/* Trailing space must exceed 100vh - WRITING_ANCHOR so the last line can still
+   reach the writing position. */
+.manuscript { width: min(100% - 48px, 700px); min-height: 130vh; margin: 0 auto; padding: clamp(64px, 12vh, 140px) 0 64vh; }
 .manuscript-meta { display: flex; justify-content: space-between; margin-bottom: 42px; color: var(--graphite); text-transform: uppercase; letter-spacing: .11em; font-size: 8px; }
 .manuscript-title { width: 100%; padding: 0; border: 0; background: transparent; color: var(--ink); font: 500 clamp(30px, 4vw, 44px)/1.2 var(--serif); letter-spacing: -.02em; }
 .manuscript-title::placeholder { color: #b7bbb4; }
 .paragraphs { display: grid; gap: 23px; margin-top: 56px; }
 .manuscript-paragraph { display: block; width: 100%; min-height: 44px; overflow: hidden; padding: 0; border: 0; background: transparent; color: var(--ink); resize: none; font: 22px/1.75 var(--serif); transition: opacity .32s ease; }
 .manuscript-paragraph::placeholder { color: #b3b7b0; }
+/* The caret is the focus indicator here; an outline would rebuild the box. */
+.manuscript-paragraph:focus-visible { outline: 0; }
 /* Resting states; quietParagraph animates to these same values. */
 .manuscript-paragraph.is-past { opacity: .72; }
 .manuscript-paragraph.is-distant { opacity: .42; }
@@ -207,13 +213,10 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .reflection-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .reflection-heading > span { color: var(--graphite); font-size: 10px; }
 .reflection-stage h2 { min-height: 0; max-width: 760px; font-size: clamp(23px, 2.5vw, 28px); line-height: 1.35; letter-spacing: -.02em; }
-.reflection-stage textarea { min-height: 300px; margin-top: 24px; padding: 24px; background: var(--sheet); border: 1px solid var(--rule); font-size: 21px; line-height: 1.8; }
-.reflection-stage textarea::placeholder { color: var(--graphite); }
 .reflection-actions { margin-top: 20px; }
 @media (max-width: 760px) {
   .reflect-shell { width: calc(100% - 36px); padding-top: 96px; }
   .reflection-stage { margin-top: 28px; }
-  .reflection-stage textarea { min-height: 40vh; padding: 16px; font-size: 19px; }
   .reflection-context { align-items: flex-start; }
 }
 
@@ -229,7 +232,6 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .writing-guides { margin: 24px 0 36px; padding-left: 19px; color: var(--graphite); font-size: 14px; line-height: 1.75; }
 .writing-guides li { padding-left: 4px; margin-block: 5px; }
 .writing-guides strong { color: var(--ink); font-weight: 500; }
-.reflection-stage textarea { margin-top: 0; padding: 20px 0; border: 0; border-top: 1px solid var(--rule); background: transparent; min-height: 45vh; }
 @media (max-width: 760px) {
   .guide-toolbar { flex-wrap: wrap; gap: 12px; }
   .writing-guides { font-size: 13px; }

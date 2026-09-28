@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState, type KeyboardEvent } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState, type KeyboardEvent } from "react";
 import { enterWritingMode, focusParagraph, pathwayEnter, pathwayExit, quietParagraph } from "./src/motion";
 import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type EditorialLens, type TopicResult } from "./src/topicSource";
 
@@ -182,7 +182,7 @@ function ParagraphEditor({ value, index, activeIndex, register, onActivate, onCh
     element.style.height = "0px";
     element.style.height = `${Math.max(44, element.scrollHeight)}px`;
   }, []);
-  useEffect(resize, [resize, value]);
+  useLayoutEffect(resize, [resize, value]);
 
   function setRef(element: HTMLTextAreaElement | null) {
     localRef.current = element;
@@ -293,15 +293,18 @@ export default function Ghostwriter() {
     };
   }, [draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review, manuscript]);
 
-  useEffect(() => {
-    if (view !== "write") return;
-    const element = paragraphRefs.current.get(activeParagraph) || null;
-    requestAnimationFrame(() => {
-      element?.focus({ preventScroll: true });
-      if (element) focusParagraph(element, caretOffset(element));
-      quietParagraph([...paragraphRefs.current.entries()]
-        .map(([index, paragraph]) => ({ element: paragraph, distance: activeParagraph - index })));
-    });
+  // The caret follows the active paragraph in either view; the writing position
+  // and the falloff are the write view's rule alone.
+  useLayoutEffect(() => {
+    const writing = view === "write";
+    if (!writing && view !== "reflect") return;
+    const refs = writing ? paragraphRefs.current : reflectParagraphRefs.current;
+    const element = refs.get(activeParagraph) || null;
+    // Synchronous, before paint: a split paragraph must not drop the next keystroke.
+    element?.focus({ preventScroll: true });
+    if (!writing || !element) return;
+    focusParagraph(element, caretOffset(element));
+    quietParagraph([...refs.entries()].map(([index, paragraph]) => ({ element: paragraph, distance: activeParagraph - index })));
   }, [activeParagraph, view]);
 
   // The anchor settles on a pause, never on every keystroke (POC.md §2).

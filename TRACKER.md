@@ -19,12 +19,11 @@ _Last updated: 2026-09-28_ (later same day)
 
 ## 🎯 Next action (do this next)
 
-**[UX+Dev] Browser QA the writing-space pass.** Type a long multi-paragraph draft
-and confirm: the caret holds at the 40% anchor as a paragraph grows, the anchor
-settles only on a pause (no jitter mid-sentence), the 0.72 / 0.42 falloff reads
-as recession rather than "gone", revisiting an earlier paragraph restores full
-ink, and Reflect → Write no longer feels like a mode switch. Check reduced
-motion, mobile, and reload persistence.
+**[UX+Dev] Sync the docs to the settled writing rule.** PRD.md (three places) and
+POC.md still say 42% anchor and offer 0.82 as the quiet-floor candidate; the
+author settled on 40% and a 1 / 0.72 / 0.42 ladder, now verified in-browser.
+Update PRD §§, POC §§2 and 7, and the open tuning questions in POC §"Anchor
+point" / §"Quiet floor", which these measurements answer.
 
 ---
 
@@ -38,8 +37,9 @@ _(nothing currently)_
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX+Dev]** Validate the guided editor in real use — **this is the Next action above**. The author clarified that guidance means passive bullets beneath the main prompt, supporting one continuous manuscript.
-- ⬜ **[UX+Dev]** Tune the physical writing rule: test 40% anchor, 0.82 quiet floor, and settle-on-pause behavior instead of immediate refocus (POC.md §§2, 7)
+- ⬜ **[UX+Dev]** Sync PRD and POC to the settled 40% anchor and 1 / 0.72 / 0.42 falloff — **this is the Next action above**.
+- ⬜ **[UX+Dev]** Validate the guided editor in real use: prompt usefulness and reference-bullet proportions. The author clarified that guidance means passive bullets beneath the main prompt, supporting one continuous manuscript.
+- ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
 - ⬜ **[UX+Dev]** Complete the manuscript type, measure, spacing, keyboard, and reduced-motion pass across Today → Write
 - ⬜ **[UX+Dev]** Prototype restrained typing-as-reward feedback that becomes quieter during sustained flow (POC.md §4; log.md idea 10)
 
@@ -66,6 +66,38 @@ _(nothing currently)_
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-09-28 [UX+Dev]** — Browser QA of the writing-space pass (Playwright on
+  Chrome, 1280x900 and iPhone-sized). Found and fixed four defects the build could
+  not catch: three later `.reflection-stage textarea` override rules still boxed the
+  new paragraph surface (one with `min-height: 45vh`, which also drove a React
+  "Maximum update depth exceeded" loop against the auto-resize); the global
+  `:focus-visible` outline drew a literal box around the live paragraph (now
+  suppressed for `.manuscript-paragraph` only — the caret is the focus indicator);
+  the caret followed a paragraph split one frame late and dropped keystrokes, fixed
+  by moving focus and auto-resize to `useLayoutEffect`; and `.manuscript`'s 50vh
+  trailing space was less than the 60vh the 40% anchor needs, so the last lines of a
+  short draft could not reach the writing position (now 64vh). Also aligned the dead
+  `.writing-line` gutter style to 40vh. Measured: the caret holds at 380px of an
+  900px viewport (40% = 360) while a paragraph grows 77 -> 193px, identical across
+  nine samples under reduced motion; scroll is bit-identical during typing and only
+  moves on the 600ms settle; the opacity ladder reads 0.42 / 0.42 / 0.72 / 1 and a
+  revisited paragraph returns to full ink. No console errors, no horizontal overflow
+  on mobile, reload persistence intact. Production build passes.
+
+- ✅ **2026-09-28 [UX+Dev]** — Writing-space pass, on the author's direction. Removed
+  the bordered "prompt box" from Reflect (a leftover holding pen that read as a chat
+  composer) and gave Reflect the same borderless paragraph surface as Write, so there
+  is now one writing surface in the app. Made the fixed writing position hold the
+  *caret line* rather than the paragraph top, anchored at 40% with settle-on-pause
+  (600ms) instead of immediate refocus, and honoured the anchor under reduced motion
+  as an instant jump — the position is the rule, only the travel is motion. Deepened
+  the focus falloff to 1 / 0.72 / 0.42 (active / previous / older) as the author's
+  tuning choice, superseding the 0.82 candidate in POC.md §2; the values now live as
+  exposed constants in `src/motion.ts` and are mirrored by `is-past` / `is-distant`
+  resting styles so reduced motion keeps the same hierarchy. Fixed a latent bug where
+  `quietParagraph`'s inline opacity left a revisited earlier paragraph permanently
+  dim. Production build passes; browser QA is the next action.
 
 - ✅ **2026-09-28 [UX+Dev]** — Replaced the sequential Memory/Tension/Outcome/System/People flow with five plain reference bullets beneath the main prompt. One borderless manuscript is shared with focused writing; removed per-question answers and progression. Preserved earlier notes for recovery. Updated product docs. Build and diff checks pass; browser QA confirms five bullets, shared manuscript content, reload persistence, and no mobile overflow.
 
