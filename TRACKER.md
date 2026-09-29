@@ -19,17 +19,17 @@ _Last updated: 2026-09-29_
 
 ## 🎯 Next action (do this next)
 
-**[UX+Dev] Decide how far the typewriter goes into the text itself.** Phase 1
-(paper response) is in. The next two phases are cheap and safe — Return as the
-carriage ritual (`typewriting-feel.md` §6, called the hero interaction) and
-opt-in key sound via Web Audio (§8; PRD FR-8 already says muted by default, and
-Web Audio needs no dependency). Character-level impact and ink imperfection
-(§3 stage 2, §9) are **not possible in the current editor**: the manuscript is a
-`<textarea>`, and you cannot animate a character inside one. That needs either a
-synced overlay that paints the text while the textarea stays the input (keeps
-undo, IME, paste, selection, screen readers — everything §12 protects) or a
-contenteditable rewrite (risks all of it). Do the carriage and sound first, then
-decide the overlay on evidence.
+**[UX] Write a real session on the new surface and judge two things.** First,
+long-session comfort — the half of the keyboard/accessibility item only the
+author can close. Second, whether the mechanical response earns itself: the
+standing instruction is not to add typing effects without a concrete need, and
+there are now four (letter, punctuation, space, erase) plus the carriage return.
+Each is one line in `STRIKE` in `src/motion.ts`; any of them can go.
+
+Two decisions are waiting on that session: **paper grain** (`typewriting-feel.md`
+§10 offers it, the standing instruction forbids paper texture — author's call),
+and **sound** (§8 / PRD FR-8, opt-in and muted by default, needs a Web Audio
+build and a remembered preference).
 
 ---
 
@@ -71,6 +71,56 @@ _(nothing currently)_
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-09-29 [UX+Dev]** — Typewriter quick wins by phase, then §10. **Phase 2
+  (§5 input-specific response):** a keystroke's mechanical work now depends on what
+  the key does — letter +0.55px, punctuation +0.61px (a sharper strike), space
+  +0.36px (a soft tick), Backspace/Delete **-0.50px** (a reverse, back up the
+  line). Arrows, modifiers and shortcuts produce nothing, per §5's warning that
+  restraint protects the writing experience. **Phase 3 (§6 Return as the hero
+  interaction):** Return now moves the machine rather than the line — the sheet
+  travels 2.4px and returns while its shadow deepens, over 260-300ms, on top of
+  the existing line advance. **§10 Paper and surface:** the page could not respond
+  until it was an object, so the manuscript is now a sheet on a desk — the shell
+  takes `--paper`, the sheet `--sheet`, with a soft resting shadow that deepens
+  only on the carriage return via an animated `--sheet-lift` custom property.
+  The page is never animated continuously. Measured: all five input classes
+  distinct, carriage travel -1.71px with shadow lift peaking at 0.83, paper
+  returning to identity and lift 0 at rest, and **zero movement of any kind under
+  reduced motion**. Sheet is 760px wide with a 672px measure on desktop and 370px
+  with a 338px measure on a phone, no horizontal overflow. Regression clean: axe
+  reports no violations across all four surfaces in both motion modes, the 30%
+  anchor and opacity ladder are unchanged, no console errors. Moved the strike
+  from the parent to `ParagraphEditor`, which knows both its own element and the
+  key, removing a ref-map lookup. **Deliberately not done:** the paper grain §10
+  offers, which contradicts the standing no-paper-texture instruction, and sound
+  (§8), which needs a Web Audio build and a remembered mute preference.
+
+
+- ✅ **2026-09-29 [UX+Dev]** — Manuscript keyboard and accessibility pass across
+  Today → guided writing → focused writing, run with axe-core plus keyboard-only
+  traversal, since axe cannot test operability. axe found one issue (no level-one
+  heading in Write, because the manuscript title is an `<input>`); **the keyboard
+  pass found four more, all in the drafts drawer**, which was an `<aside>` with no
+  dialog semantics: focus never entered it, Tab escaped to the toolbar behind it,
+  **Escape did not close it**, and focus was not restored on close. It is now a
+  `role="dialog" aria-modal="true"` element with an accessible name, focus moved
+  to its first control on open, Tab cycling inside it only, Escape closing it, and
+  focus returned to the Drafts trigger (which now carries `aria-haspopup` and
+  `aria-expanded`). Added a visually hidden `h1` mirroring the manuscript title,
+  and `role="group" aria-label="Manuscript"` so the paragraph textareas are not a
+  bare list of unlabelled fields. **Removed three `role="status"` live regions**
+  from the routine save indicator: they announced "Saving… / All changes saved" on
+  every pause, which is the opposite of PRD FR-4.4's "autosave is silent unless it
+  fails" — the indicator stays visible and the failure path keeps `role="alert"`.
+  Verified clean: axe reports no violations in all four surfaces under both full
+  and reduced motion, and a keyboard-only run reaches Today → a topic → guided
+  writing → focused writing, types two paragraphs, opens and dismisses the drafts
+  dialog, and restores focus, with no console errors. Deliberately not added: a
+  skip link — the header carries four controls and choosing a topic focuses the
+  manuscript directly, so there is no block to bypass. The manuscript textareas
+  keep no focus outline by design; the caret is their focus indicator.
+
 
 - ✅ **2026-09-29 [UX+Dev]** — Muted the quill and started the typewriter. The
   author's instrument is a typewriter, so the plume no longer fits the theme;

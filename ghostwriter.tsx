@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, type KeyboardEvent } from "react";
-import { enterWritingMode, focusParagraph, paperImpulse, pathwayEnter, pathwayExit, quietParagraph } from "./src/motion";
+import { carriageReturn, enterWritingMode, focusParagraph, paperImpulse, pathwayEnter, pathwayExit, quietParagraph, strikeOf } from "./src/motion";
 import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type EditorialLens, type TopicResult } from "./src/topicSource";
 
 import { measureCaret } from "./src/caret";
@@ -188,8 +188,23 @@ function ParagraphEditor({ value, index, activeIndex, register, onActivate, onCh
     register(index, element);
   }
 
+  /** The mechanism reacts to keys that do work on the page. Shortcuts, arrows
+   * and bare modifiers are not strikes (typewriting-feel.md §5). */
+  function mechanicalResponse(event: KeyboardEvent<HTMLTextAreaElement>) {
+    if (event.ctrlKey || event.metaKey || event.altKey || event.nativeEvent.isComposing) return;
+    const { key } = event;
+    if (key === "Enter" && !event.shiftKey) {
+      // Return moves the machine, not the line: the paper is the target here.
+      carriageReturn(localRef.current?.closest(".manuscript") as HTMLElement | null);
+      return;
+    }
+    if (key.length !== 1 && key !== "Backspace" && key !== "Delete") return;
+    paperImpulse(localRef.current, strikeOf(key));
+  }
+
   function handleKeyDown(event: KeyboardEvent<HTMLTextAreaElement>) {
     stopWritingScroll();
+    mechanicalResponse(event);
     if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) {
       event.preventDefault();
       const start = event.currentTarget.selectionStart;
@@ -236,6 +251,8 @@ export default function Ghostwriter() {
   const reviewRequest = useRef<AbortController | null>(null);
   const [drafts, setDrafts] = useState(() => readStorage<Draft[]>(DRAFTS_KEY, []));
   const [showDrafts, setShowDrafts] = useState(false);
+  const draftsRef = useRef<HTMLDivElement | null>(null);
+  const draftsOpener = useRef<HTMLElement | null>(null);
   const reflectionRef = useRef<HTMLDivElement | null>(null);
   const writingRef = useRef<HTMLDivElement | null>(null);
   const paragraphRefs = useRef(new Map<number, HTMLTextAreaElement>());
@@ -341,6 +358,33 @@ export default function Ghostwriter() {
     return () => window.clearTimeout(timer);
   }, [view, activeParagraph, paragraphs]);
 
+  // The drafts drawer is a modal dialog: focus enters it, stays inside while it is
+  // open, and returns to the control that opened it.
+  useEffect(() => {
+    if (!showDrafts) return;
+    const drawer = draftsRef.current;
+    if (!drawer) return;
+    const opener = draftsOpener.current;
+    const focusable = () => [...drawer.querySelectorAll<HTMLElement>("button, [href], input, textarea, [tabindex]:not([tabindex='-1'])")];
+    focusable()[0]?.focus();
+    const onKeyDown = (event: globalThis.KeyboardEvent) => {
+      if (event.key === "Escape") { event.preventDefault(); setShowDrafts(false); return; }
+      if (event.key !== "Tab") return;
+      const items = focusable();
+      if (!items.length) return;
+      const first = items[0], last = items[items.length - 1];
+      const active = document.activeElement;
+      if (event.shiftKey && (active === first || !drawer.contains(active))) { event.preventDefault(); last.focus(); }
+      else if (!event.shiftKey && (active === last || !drawer.contains(active))) { event.preventDefault(); first.focus(); }
+    };
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      // Restore after the drawer has actually gone, or removing it blurs us again.
+      requestAnimationFrame(() => { if (opener?.isConnected) opener.focus(); });
+    };
+  }, [showDrafts]);
+
   function preserveDraft() {
     if (!title.trim() && !manuscript.trim() && !Object.values(reflectionAnswers).some((answer) => answer?.trim())) return true;
     try {
@@ -376,8 +420,6 @@ export default function Ghostwriter() {
     stopWritingScroll();
     // The text model is authoritative: commit first, then let the surface react.
     setParagraphs((current) => current.map((paragraph, paragraphIndex) => paragraphIndex === index ? value : paragraph));
-    // Reflect and Write keep separate ref maps; the surface reacts in either.
-    paperImpulse(paragraphRefs.current.get(index) ?? reflectParagraphRefs.current.get(index) ?? null);
   }
   function addParagraph(index: number, before: string, after: string) {
     savedSelection.current = { index: index + 1, start: 0, end: 0 };
@@ -444,7 +486,7 @@ export default function Ghostwriter() {
       <button className={tone === "reflective" ? "selected" : ""} onClick={() => setTone("reflective")}>Reflective</button>
       <button className={tone === "editorial" ? "selected" : ""} onClick={() => setTone("editorial")}>Editorial</button>
     </div>
-    <span className={`save-state ${saveStatus}`} role="status" title={saveTimeLabel}>{saveLabel}</span>
+    <span className={`save-state ${saveStatus}`} title={saveTimeLabel}>{saveLabel}</span>
   </div>;
 
   return <div className={`app view-${view}`}>
@@ -453,21 +495,21 @@ export default function Ghostwriter() {
       <nav>
         {view !== "today" ? <button onClick={() => setView("today")}>Today</button> : null}
         {view !== "write" && (title.trim() || manuscript.trim()) ? <button onClick={() => setView("write")}>Write</button> : null}
-        <button onClick={() => setShowDrafts((shown) => !shown)}>Drafts <span>{drafts.length}</span></button>
+        <button aria-haspopup="dialog" aria-expanded={showDrafts} onClick={(event) => { draftsOpener.current = event.currentTarget; setShowDrafts((shown) => !shown); }}>Drafts <span>{drafts.length}</span></button>
       </nav>
     </header>
 
     {saveStatus === "error" ? <div className="storage-error" role="alert">Your changes could not be saved on this device. Export a copy before leaving.<button onClick={() => download("txt")}>Export text</button></div> : null}
 
-    {showDrafts ? <aside className="draft-drawer">
-      <div className="drawer-heading"><span>Recent drafts</span><button onClick={() => setShowDrafts(false)}>Close</button></div>
+    {showDrafts ? <div className="draft-drawer" ref={draftsRef} role="dialog" aria-modal="true" aria-labelledby="drafts-heading">
+      <div className="drawer-heading"><span id="drafts-heading">Recent drafts</span><button onClick={() => setShowDrafts(false)}>Close</button></div>
       {drafts.length ? drafts.map((draft) => <button className="draft-row" key={draft.id} onClick={() => {
         if (!preserveDraft()) return;
         savedSelection.current = null; reviewRequest.current?.abort();
         setDraftId(draft.id); setSelectedTopic(draft.topic || null); setPathways(null); setReflectionAnswers(draft.notes || {}); setPathwayIndex(0); setReview("");
         setTitle(draft.title); setParagraphs(draft.content.split(/\n\s*\n/)); setActiveParagraph(0); setShowDrafts(false); setView("write");
-      }}><strong>{draft.title}</strong><span>{new Date(draft.updatedAt).toLocaleDateString()}</span></button>) : <p>No saved drafts yet.</p>}
-    </aside> : null}
+      }}><strong>{draft.title}</strong><span>{new Date(draft.updatedAt).toLocaleDateString()}</span><span className="visually-hidden">Open this draft</span></button>) : <p>No saved drafts yet.</p>}
+    </div> : null}
 
     {view === "today" ? <main className="today-shell">
       <p className="eyebrow">Today · {TODAY}</p>
@@ -510,7 +552,7 @@ export default function Ghostwriter() {
 
     {view === "reflect" ? <main className="reflect-shell">
       <div className="guide-toolbar">
-        <span><span role="status" title={saveTimeLabel}>{saveLabel}</span> · {wordCount} {wordCount === 1 ? "word" : "words"}</span>
+        <span><span title={saveTimeLabel}>{saveLabel}</span> · {wordCount} {wordCount === 1 ? "word" : "words"}</span>
         <button className="text-action" onClick={enterWriting}>Focus on manuscript →</button>
       </div>
       <div className="reflection-stage" ref={reflectionRef}>
@@ -528,13 +570,13 @@ export default function Ghostwriter() {
             setReflectionAnswers({});
           }}>Move earlier notes into manuscript</button>
         </details> : null}
-        <div className="paragraphs">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerReflectParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
+        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerReflectParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
       </div>
     </main> : null}
 
     {view === "write" ? <main className="writing-shell" ref={writingRef}>
       <div className="document-toolbar" aria-label="Document actions">
-        <span className="document-status" role="status" title={saveTimeLabel}>{saveLabel}</span>
+        <span className="document-status" title={saveTimeLabel}>{saveLabel}</span>
         <div>
           <span>{wordCount} {wordCount === 1 ? "word" : "words"}</span>
           {selectedTopic ? <button onClick={() => void openReflection()}>Writing guides</button> : null}
@@ -546,8 +588,9 @@ export default function Ghostwriter() {
       <section className="manuscript">
         {selectedTopic ? <details className="writing-context"><summary>Writing from · {editorialLens(selectedTopic)}</summary><p>{topicPrompt(selectedTopic)}</p><TopicProvenance topic={selectedTopic} /></details> : <p className="manuscript-label">Your manuscript</p>}
         {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context"><summary>Your reflection notes</summary>{Object.entries(reflectionAnswers).map(([label, answer]) => answer?.trim() ? <div key={label}><strong>{label}</strong><p>{answer}</p></div> : null)}</details> : null}
+        <h1 className="visually-hidden">{title || "Untitled manuscript"}</h1>
         <input name="title" autoComplete="off" className="manuscript-title" value={title} onChange={(event) => setTitle(event.target.value)} placeholder="Untitled" aria-label="Manuscript title" />
-        <div className="paragraphs">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
+        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
       </section>
     </main> : null}
 

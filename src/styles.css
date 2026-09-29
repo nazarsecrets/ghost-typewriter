@@ -106,8 +106,9 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .primary-action:disabled { cursor: default; opacity: .35; }
 .reflection-loading { margin-top: 120px; color: var(--graphite); font: 28px var(--serif); }
 
-.writing-shell { min-height: 100vh; padding-top: 64px; background: var(--sheet); transform-origin: 50% 42%; }
-.utility-bar { position: sticky; top: 64px; z-index: 20; height: 48px; display: flex; justify-content: center; align-items: center; gap: 18px; border-bottom: 1px solid var(--rule); background: color-mix(in srgb, var(--sheet) 92%, transparent); backdrop-filter: blur(12px); }
+/* The ground is the desk, the manuscript is the sheet laid on it (§10). */
+.writing-shell { min-height: 100vh; padding-top: 64px; background: var(--paper); transform-origin: 50% 42%; }
+.utility-bar { position: sticky; top: 64px; z-index: 20; height: 48px; display: flex; justify-content: center; align-items: center; gap: 18px; border-bottom: 1px solid var(--rule); background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(12px); }
 .segmented { display: flex; }
 .segmented button { padding: 5px 8px; border: 0; background: none; color: var(--graphite); font-size: 10px; cursor: pointer; }
 .segmented button.selected { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
@@ -119,7 +120,21 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .writing-line span { display: block; margin-top: 5px; color: var(--signal); text-transform: uppercase; letter-spacing: .1em; font-size: 7px; }
 /* Trailing space must exceed 100vh - WRITING_ANCHOR so the last line can still
    reach the writing position. */
-.manuscript { width: min(100% - 48px, 700px); min-height: 130vh; margin: 0 auto; padding: clamp(40px, 7vh, 96px) 0 72vh; }
+/* typewriting-feel.md §10: the page is its own interaction layer, so it has to
+   read as an object. A hair lighter than the shell, with a shadow that deepens
+   on the carriage return (--sheet-lift, driven by Anime.js) and is otherwise
+   still. The page is never animated continuously: stillness is the default. */
+.manuscript {
+  --sheet-lift: 0;
+  width: min(100% - 48px, 760px); min-height: 130vh; margin: 0 auto;
+  padding: clamp(40px, 7vh, 96px) clamp(18px, 4vw, 44px) 72vh;
+  background: var(--sheet);
+  box-shadow:
+    0 1px 2px rgba(32, 35, 31, calc(.03 + .03 * var(--sheet-lift))),
+    0 10px 30px rgba(32, 35, 31, calc(.025 + .035 * var(--sheet-lift)));
+  will-change: transform;
+}
+@property --sheet-lift { syntax: "<number>"; inherits: false; initial-value: 0; }
 .manuscript-meta { display: flex; justify-content: space-between; margin-bottom: 42px; color: var(--graphite); text-transform: uppercase; letter-spacing: .11em; font-size: 8px; }
 .manuscript-title { width: 100%; padding: 0; border: 0; background: transparent; color: var(--ink); font: 500 clamp(30px, 4vw, 44px)/1.2 var(--serif); letter-spacing: -.02em; }
 .manuscript-title::placeholder { color: #b7bbb4; }
@@ -177,7 +192,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
   .reflection-actions { align-items: flex-start; flex-direction: column; }
   .utility-bar { justify-content: flex-start; padding-inline: 16px; overflow-x: auto; }
   .writing-line { display: none; }
-  .manuscript { width: min(100% - 36px, 700px); padding-top: 22vh; }
+  .manuscript { width: min(100% - 20px, 700px); padding-top: 22vh; padding-inline: 16px; }
   .manuscript-paragraph { font-size: 19px; }
   .review-toolbar { justify-content: flex-start; }
   .review-toolbar > .primary-action { right: 14px; }
@@ -265,3 +280,6 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
   .plume-cursor, .plume-thought, .plume-trail, .plume-inkwell { display: none; }
   .manuscript-paragraph.has-plume { caret-color: auto; }
 }
+
+/* Available to screen readers and to axe, absent from the page. */
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }

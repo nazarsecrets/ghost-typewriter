@@ -635,6 +635,18 @@ Future consideration: explicit New, Save snapshot, Rename, and Delete actions. T
 - Medium opens in a new protected tab for manual paste.
 - Export remains available whenever manuscript content exists, even if review fails.
 
+#### FR-8.1 Paper and surface
+
+The manuscript is a sheet laid on a desk, not a full-bleed background: the
+writing shell uses `--paper`, the manuscript uses `--sheet`, and the sheet
+carries a soft resting shadow. This makes the page an object that can respond
+(`typewriting-feel.md` §10).
+
+- The surface reacts to a keystroke only on the active line, never the application.
+- The sheet's shadow deepens only on the carriage return, driven by `--sheet-lift`.
+- The page is never animated continuously. Stillness is the default, and movement reads because the page is otherwise calm.
+- Not adopted: the paper grain §10 offers. It conflicts with the standing instruction that the interface carries no paper texture, and remains an author decision.
+
 ### FR-8: Motion system
 
 Anime.js is the primary motion library. Motion is organized into six reusable behaviors:
@@ -647,6 +659,8 @@ Anime.js is the primary motion library. Motion is organized into six reusable be
 | `focusParagraph` | Maintain writing position | Move manuscript so the caret line returns near 30% |
 | `quietParagraph` | Reduce visual competition | Progressively soften older paragraphs |
 | `enterWritingMode` | Transition into manuscript | Reflection retreats and manuscript quietly expands |
+| `paperImpulse` | Answer a keystroke | Active line dips a fraction of a pixel; letter, punctuation, space and erase each differ |
+| `carriageReturn` | Answer a Return | The sheet travels back and its shadow deepens, then settles |
 
 Motion requirements:
 

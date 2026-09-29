@@ -76,6 +76,23 @@ const DELIBERATE_GAP = 320;
 let impulse: JSAnimation | null = null;
 let lastStrike = 0;
 
+/** Different keys do different mechanical work (typewriting-feel.md §5). */
+export type Strike = "letter" | "punctuation" | "space" | "erase";
+const STRIKE: Record<Strike, { travel: number; duration: number }> = {
+  letter: { travel: 0.35, duration: 40 },
+  punctuation: { travel: 0.45, duration: 36 },   // a slightly sharper strike
+  space: { travel: 0.18, duration: 48 },         // a soft mechanical tick
+  erase: { travel: -0.3, duration: 52 },         // a small reverse, back up the line
+};
+
+/** Classify a key the way the mechanism would, not the way the editor does. */
+export function strikeOf(key: string): Strike {
+  if (key === "Backspace" || key === "Delete") return "erase";
+  if (key === " " || key === "Spacebar") return "space";
+  if (key.length === 1 && !/[\p{L}\p{N}]/u.test(key)) return "punctuation";
+  return "letter";
+}
+
 /**
  * Stage 3 of a keystroke: the writing surface answers the impact
  * (typewriting-feel.md §3). Deliberately smaller than the 0.5-1px the document
@@ -85,16 +102,34 @@ let lastStrike = 0;
  * Text is committed before this is called: the impulse observes typing, it
  * never gates it.
  */
-export function paperImpulse(element: HTMLElement | null) {
+export function paperImpulse(element: HTMLElement | null, strike: Strike = "letter") {
   if (!element || reduceMotion()) return;
   const now = performance.now();
   const weight = Math.min(1, (now - lastStrike) / DELIBERATE_GAP);
   lastStrike = now;
+  const { travel, duration } = STRIKE[strike];
   // Replace rather than queue, so fast typing cannot build a backlog.
   impulse?.cancel();
   impulse = animate(element, {
-    translateY: [0, 0.25 + 0.35 * weight, 0],
-    duration: 80 + 40 * weight,
+    translateY: [0, 0.2 * Math.sign(travel) + travel * weight, 0],
+    duration: 70 + duration * weight,
     ease: "out(2)",
   });
+}
+
+let carriage: JSAnimation | null = null;
+let surface: JSAnimation | null = null;
+
+/**
+ * Return is the one keystroke that moves the machine rather than the line
+ * (typewriting-feel.md §6): the carriage travels back, the page answers with a
+ * deeper shadow, and everything settles. The line advance itself is the
+ * existing writing-position scroll — this is the movement around it.
+ */
+export function carriageReturn(paper: HTMLElement | null) {
+  if (!paper || reduceMotion()) return;
+  carriage?.cancel(); surface?.cancel();
+  carriage = animate(paper, { translateX: [-2.4, 0], duration: 260, ease: "out(3)" });
+  // §10: the page reacts more strongly here than to any single strike.
+  surface = animate(paper, { "--sheet-lift": [1, 0], duration: 300, ease: "out(2)" });
 }
