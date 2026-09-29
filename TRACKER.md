@@ -49,11 +49,12 @@ _(nothing currently)_
 ### Ghost reattachment — after the paper is proven
 
 - ⬜ **[UX]** Define the dormant Ghost invocation and contextual lens chooser without permanent writing-time AI chrome (PRD FR-5.0; log.md idea 11)
-- ⬜ **[UX]** Evaluate the authored prompt-specific guides during real writing and refine weak angles; add guide copy whenever new provocations or Evergreen prompts are introduced.
 - ⬜ **[UX+Dev]** Design passage-anchored Ghost margin notes for Idea, Clarity, Voice, Evidence, and Structure while preserving the raw draft (PRD FR-5.1; log.md idea 12)
 - ⬜ **[UX+Dev]** Replace the single Review text block with a structured critique schema and distinguish revisions from new drafts (PRD FR-5.2, FR-6.2)
 - ⬜ **[UX+Dev]** Add accept-insight and margin-comment motion only when their corresponding interactions exist (log.md idea 6)
 - ⬜ **[Dev]** Choose and implement the production AI path for invoked Reflect/Review: free serverless proxy or BYO-key mode (PRD FR-10)
+
+- ⬜ **[UX+Dev]** Add per-draft edit (pencil) and delete actions to the draft list. The project has **no icon library** — dependencies are React, React DOM and Anime.js only, and existing affordances are text or typographic marks (`→`, `↗`). Draw both as inline SVG in the plume's line-art register (same stroke weight and charcoal tone) rather than adding a dependency; deletion needs a confirm or undo, since drafts are the only copy of the work.
 
 ### Release and optional polish
 
@@ -63,6 +64,35 @@ _(nothing currently)_
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-09-29 [UX]** — Editorial pass over the 60 authored guide sets, driven by
+  a phrasing audit rather than spot-checks. Found and fixed four faults: **11
+  System guides were ungrammatical** ("How did how teams recognize coordination
+  and record decisions shape what happened?" — the subject is the *way* a thing is
+  done, now "How did the way …"); **59 of 60 People guides ended in the same
+  clause** ("… experience that decision?"), several straining grammar and
+  presupposing a decision the other four guides had not established — rewritten
+  across five constructions sized to each subject, with 8 two-party subjects
+  rewritten by hand to keep both parties in fewer words; **People guides ran long**
+  (median 91 chars, max 113) — now median 81, max 88; and **Memory and Outcome
+  openings were 52% and 62% identical** across the desk — now 25% and 31%, so a
+  returning author stops meeting the same sentence shape every session. Thirteen
+  lines over 88 chars were shortened, since longer lines wrap to a third row in the
+  phone guide list. Verified: guides render for source-backed and Evergreen
+  prompts on desktop and phone with no horizontal overflow, and the phone guide
+  list measured **248px both before and after** the rewrite on the same prompt —
+  the copy changes did not affect height (the 224.8px in the earlier entry was
+  measured on a different prompt, so it was never a like-for-like comparison).
+
+- ✅ **2026-09-29 [Dev]** — Made the guide-coverage promise real. There was **no
+  coverage check in the repo** — an earlier claim that the build enforced it was
+  wrong. Added `tools/check-guide-coverage.mjs` and wired it into `npm run build`
+  (`npm run guides:check`): it fails the build when a manifest provocation or
+  Evergreen prompt has no authored copy, when a set is not exactly five guides,
+  when any line exceeds 88 characters, or when the "how did how" stacking
+  reappears. Verified it exits 1 on a seeded fault and passes on the real data:
+  60 sets covering 33 provocations and 24 Evergreen prompts.
+
 
 - ✅ **2026-09-29 [UX+Dev]** — Guided-editor validation produced a concrete comfort failure: the author found the quill distracting/tiring and selected native caret during writing, quill only for transitions. Removed typing, line-wrap, and idle reactions; preserved entering/leaving and reflection handoffs, with input interrupting them. A 159-second automated walkthrough preserved 305 words, four paragraphs, an earlier edit, and reload state. Tightened the evaluated AI-judgment guides, removing the assumption that the recommendation was wrong; mobile guide height reduced 247.5 → 224.8px. Revised behavior verified: zero visible quill frames while typing/idle, transitions work, reduced motion hides the quill, native caret and persistence retained. Build/diff checks pass. Full evidence and limits: `docs/guided-editor-validation.md`. Revised long-session comfort remains an author follow-up, not a claimed pass.
 

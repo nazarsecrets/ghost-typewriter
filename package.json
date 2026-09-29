@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run guides:check && tsc -b && vite build",
     "preview": "vite preview",
-    "topics:build": "tsx pipeline/build.ts"
+    "topics:build": "tsx pipeline/build.ts",
+    "guides:check": "node tools/check-guide-coverage.mjs"
   },
   "dependencies": {
     "animejs": "^4.1.3",
