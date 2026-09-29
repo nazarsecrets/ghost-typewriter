@@ -452,7 +452,14 @@ The reflection payload may also contain a one-sentence underlying angle. When sh
 - No paragraph becomes inaccessible or permanently hidden.
 - Mobile layouts may remove the visible writing-line marker while retaining readable focus behavior.
 
-#### FR-4.6 The Plume transitions
+#### FR-4.6 The Plume transitions — muted
+
+> **Muted 2026-09-29 by author decision.** The instrument of this product is a
+> typewriter, not a quill, so the plume does not fit the theme. The component and
+> its inkwell are retained in the tree but no longer rendered; the native caret is
+> the only cursor, in every view. The interaction model that replaces it is
+> `typewriting-feel.md`. What follows records what was built, not what ships.
+
 
 The native text caret is used while writing and thinking. On September 29 the
 author reported that the quill was distracting or tiring and selected quill-only
@@ -1014,7 +1021,7 @@ The target V1 is accepted when:
 10. Should the curated desk remain a fallback only, or appear as a user-selectable Evergreen mode beside current topics?
 11. Should Guided Reflect remain a visible optional route, or appear only when the author asks for help getting started?
 12. What invokes Ghost after writing: a dormant mark, keyboard command, command palette, or combination?
-13. ~~Which typing response—visual character landing, caret behavior, optional sound, or paper movement—adds tactility without delaying input?~~ Revised after author comfort feedback: use the native caret during writing; the Plume serves transitions only (FR-4.6). No extra typing effect is planned.
+13. ~~Which typing response—visual character landing, caret behavior, optional sound, or paper movement—adds tactility without delaying input?~~ Answered: **paper movement**. The quill is muted; a keystroke is answered by a sub-pixel impulse on the active line (`paperImpulse`), sized down as typing speeds up. Character landing and sound remain open — see `typewriting-feel.md` phases 2-4.
 14. Do the visible Design, Technology, Industry, Ways of Working, and Self lenses improve scanning enough to keep?
 
 ## 20. Decisions already made

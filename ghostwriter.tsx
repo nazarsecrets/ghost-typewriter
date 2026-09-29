@@ -1,8 +1,7 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState, type KeyboardEvent } from "react";
-import { enterWritingMode, focusParagraph, pathwayEnter, pathwayExit, quietParagraph } from "./src/motion";
+import { enterWritingMode, focusParagraph, paperImpulse, pathwayEnter, pathwayExit, quietParagraph } from "./src/motion";
 import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type EditorialLens, type TopicResult } from "./src/topicSource";
 
-import { PlumeCursor, type PlumeOrigin } from "./src/PlumeCursor";
 import { measureCaret } from "./src/caret";
 import { stopWritingScroll } from "./src/motion";
 import { writingGuides } from "./src/writingGuides";
@@ -232,7 +231,6 @@ export default function Ghostwriter() {
   const [reviewLoading, setReviewLoading] = useState(false);
   const [saveStatus, setSaveStatus] = useState<"saved" | "unsaved" | "saving" | "error">("saved");
   const [savedAt, setSavedAt] = useState<string | undefined>(initialSession.savedAt);
-  const [plumeOrigin, setPlumeOrigin] = useState<PlumeOrigin | null>(null);
   const savedSelection = useRef<{ index: number; start: number; end: number } | null>(null);
   const previousView = useRef(view);
   const reviewRequest = useRef<AbortController | null>(null);
@@ -355,7 +353,7 @@ export default function Ghostwriter() {
 
   function chooseTopic(topic: Topic) {
     if (!preserveDraft()) return;
-    savedSelection.current = null; setPlumeOrigin(null); reviewRequest.current?.abort();
+    savedSelection.current = null; reviewRequest.current?.abort();
     setDraftId(crypto.randomUUID()); setSelectedTopic(topic); setTitle(topic.title);
     setParagraphs([""]); setActiveParagraph(0); setPathwayIndex(0);
     setReflectionAnswers({}); setReview(""); setPathways(fallbackReflection(topic)); setView("reflect");
@@ -367,12 +365,6 @@ export default function Ghostwriter() {
   }
 
   function enterWriting() {
-    const question = reflectionRef.current?.querySelector("h1");
-    if (question && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      const rect = question.getBoundingClientRect();
-      const style = getComputedStyle(question);
-      setPlumeOrigin({ x: rect.left, y: rect.top, width: rect.width, height: rect.height, text: question.textContent || "", font: style.font, letterSpacing: style.letterSpacing, id: performance.now() });
-    } else setPlumeOrigin(null);
     setView("write");
   }
 
@@ -382,7 +374,10 @@ export default function Ghostwriter() {
 
   function updateParagraph(index: number, value: string) {
     stopWritingScroll();
+    // The text model is authoritative: commit first, then let the surface react.
     setParagraphs((current) => current.map((paragraph, paragraphIndex) => paragraphIndex === index ? value : paragraph));
+    // Reflect and Write keep separate ref maps; the surface reacts in either.
+    paperImpulse(paragraphRefs.current.get(index) ?? reflectParagraphRefs.current.get(index) ?? null);
   }
   function addParagraph(index: number, before: string, after: string) {
     savedSelection.current = { index: index + 1, start: 0, end: 0 };
@@ -431,7 +426,7 @@ export default function Ghostwriter() {
 
   function startBlank() {
     if (!preserveDraft()) return;
-    savedSelection.current = null; setPlumeOrigin(null); reviewRequest.current?.abort();
+    savedSelection.current = null; reviewRequest.current?.abort();
     setDraftId(crypto.randomUUID()); setPathways(null); setReflectionAnswers({}); setPathwayIndex(0); setReview("");
     setSelectedTopic(null); setTitle(""); setParagraphs([""]); setActiveParagraph(0); setView("write");
     requestAnimationFrame(() => enterWritingMode(writingRef.current));
@@ -453,9 +448,6 @@ export default function Ghostwriter() {
   </div>;
 
   return <div className={`app view-${view}`}>
-    {/* A writing session spans reflect, write and review: only Today is outside it,
-        so the inkwell is used for entering and leaving, never for Review. */}
-    <PlumeCursor active={view !== "today"} busy={reviewLoading} origin={plumeOrigin} />
     <header className="app-header">
       <button className="wordmark" onClick={() => setView("today")}><span>SVR</span><i>/</i><span>Ghostwriter</span></button>
       <nav>
@@ -471,7 +463,7 @@ export default function Ghostwriter() {
       <div className="drawer-heading"><span>Recent drafts</span><button onClick={() => setShowDrafts(false)}>Close</button></div>
       {drafts.length ? drafts.map((draft) => <button className="draft-row" key={draft.id} onClick={() => {
         if (!preserveDraft()) return;
-        savedSelection.current = null; setPlumeOrigin(null); reviewRequest.current?.abort();
+        savedSelection.current = null; reviewRequest.current?.abort();
         setDraftId(draft.id); setSelectedTopic(draft.topic || null); setPathways(null); setReflectionAnswers(draft.notes || {}); setPathwayIndex(0); setReview("");
         setTitle(draft.title); setParagraphs(draft.content.split(/\n\s*\n/)); setActiveParagraph(0); setShowDrafts(false); setView("write");
       }}><strong>{draft.title}</strong><span>{new Date(draft.updatedAt).toLocaleDateString()}</span></button>) : <p>No saved drafts yet.</p>}

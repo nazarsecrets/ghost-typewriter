@@ -68,3 +68,33 @@ export function enterWritingMode(element: HTMLElement | null) {
   if (!element || reduceMotion()) return;
   animate(element, { opacity: [0, 1], scale: [0.985, 1], duration: 560, ease: "out(4)" });
 }
+
+/** How long a gap between keystrokes counts as deliberate rather than sustained
+ * typing. The impulse shrinks as typing speeds up so a burst reads as rhythm
+ * rather than a queue of identical nudges (typewriting-feel.md §7). */
+const DELIBERATE_GAP = 320;
+let impulse: JSAnimation | null = null;
+let lastStrike = 0;
+
+/**
+ * Stage 3 of a keystroke: the writing surface answers the impact
+ * (typewriting-feel.md §3). Deliberately smaller than the 0.5-1px the document
+ * suggests — the author has already rejected writing-time motion once — and
+ * local to the active line, never the application.
+ *
+ * Text is committed before this is called: the impulse observes typing, it
+ * never gates it.
+ */
+export function paperImpulse(element: HTMLElement | null) {
+  if (!element || reduceMotion()) return;
+  const now = performance.now();
+  const weight = Math.min(1, (now - lastStrike) / DELIBERATE_GAP);
+  lastStrike = now;
+  // Replace rather than queue, so fast typing cannot build a backlog.
+  impulse?.cancel();
+  impulse = animate(element, {
+    translateY: [0, 0.25 + 0.35 * weight, 0],
+    duration: 80 + 40 * weight,
+    ease: "out(2)",
+  });
+}

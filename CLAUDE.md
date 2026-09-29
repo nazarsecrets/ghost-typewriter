@@ -41,9 +41,12 @@ tracker stale. If a task made no tracked progress, say so — don't silently ski
   pipeline) with the Evergreen curated fallback — never a hosted LLM.
 - **Honesty:** never present curated Evergreen prompts as current, and never emit
   synthetic recency ("surfaced N days ago") for non-source-backed content (PRD §8).
-- **Motion:** Anime.js only, the six named behaviors plus the Plume cursor states,
-  under ~600ms, always gated behind `prefers-reduced-motion`. Motion serves
-  stillness; no state may loop.
+- **Motion:** Anime.js only, the named behaviors, under ~600ms, always gated
+  behind `prefers-reduced-motion`. Motion serves stillness; no state may loop.
+- **Theme:** the instrument is a **typewriter**, not a quill. The Plume is muted
+  (unwired, files retained) by author decision — see `typewriting-feel.md` for the
+  interaction model. Writing-time motion answers a keystroke; it never precedes or
+  delays one, and the text model is always authoritative.
 - **Secrets:** no API key ever in the client bundle.
 
 ## Commands
@@ -58,9 +61,10 @@ tracker stale. If a task made no tracked progress, say so — don't silently ski
 - `ghostwriter.tsx` — the app (single component, four views).
 - `src/motion.ts` — the six Anime.js behaviors, and the writing-rule constants
   (`WRITING_ANCHOR`, the opacity ladder).
-- `src/PlumeCursor.tsx` / `src/caret.ts` — the quill cursor, its inkwell, and the
-  textarea mirror that measures the true insertion point. The vane and barb path
-  data is generated geometry; regenerate it rather than editing path strings.
+- `src/PlumeCursor.tsx` — the quill cursor and its inkwell. **Muted:** retained but
+  not rendered. Its generated vane geometry comes from `tools/quill-geometry.py`.
+- `src/caret.ts` — textarea mirror measuring the true insertion point. Still the
+  right tool for the typewriter's writing zone.
 - `src/topics.ts` — Evergreen curated fallback desk.
 - `src/topicSource.ts` — client topic loader (manifest + fallback + selection).
 - `pipeline/` — provider-independent topic generation (Node/tsx).

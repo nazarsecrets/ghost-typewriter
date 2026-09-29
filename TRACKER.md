@@ -19,10 +19,17 @@ _Last updated: 2026-09-29_
 
 ## 🎯 Next action (do this next)
 
-**[UX+Dev] Complete the manuscript keyboard and accessibility pass** across
-Today → guided writing → focused writing. Separately collect the author's
-long-session comfort feedback on the revised native-caret experience; do not
-add typing effects without a concrete need.
+**[UX+Dev] Decide how far the typewriter goes into the text itself.** Phase 1
+(paper response) is in. The next two phases are cheap and safe — Return as the
+carriage ritual (`typewriting-feel.md` §6, called the hero interaction) and
+opt-in key sound via Web Audio (§8; PRD FR-8 already says muted by default, and
+Web Audio needs no dependency). Character-level impact and ink imperfection
+(§3 stage 2, §9) are **not possible in the current editor**: the manuscript is a
+`<textarea>`, and you cannot animate a character inside one. That needs either a
+synced overlay that paints the text while the textarea stays the input (keeps
+undo, IME, paste, selection, screen readers — everything §12 protects) or a
+contenteditable rewrite (risks all of it). Do the carriage and sound first, then
+decide the overlay on evidence.
 
 ---
 
@@ -64,6 +71,27 @@ _(nothing currently)_
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-09-29 [UX+Dev]** — Muted the quill and started the typewriter. The
+  author's instrument is a typewriter, so the plume no longer fits the theme;
+  note this overrides `typewriting-feel.md` §11, which would have kept the plume
+  as a second layer for the writer's *state*. `PlumeCursor` is unwired from the
+  app with the component, its inkwell and its CSS retained, so the decision is
+  reversible; bundle 291.9 -> 277.7 kB. Added `paperImpulse` as a named motion
+  behaviour: Phase 1 of the document, stage 3 only — the active line answers a
+  keystroke with a sub-pixel impulse, deliberately below the 0.5-1px the document
+  suggests because writing-time motion has already been rejected once for comfort.
+  It is local to the line, never the application, replaces rather than queues, and
+  scales down with typing speed. Measured: deliberate keystrokes move the surface
+  0 -> 0.60px and back over 54 frames; sustained typing peaks at 0.46px; the
+  surface returns to identity with no backlog after typing stops; reduced motion
+  produces zero movement. **Input is untouched** — keydown to commit is a median
+  of 0.3ms, p95 0.6ms, max 1.3ms, with all 117 characters of a two-paragraph test
+  present. Fixed a wiring bug found in verification: the impulse looked up only
+  the Write ref map, so it never fired in Reflect. PRD FR-4.6 marked muted with
+  the reason; CLAUDE.md records the typewriter theme and that the text model is
+  always authoritative.
+
 
 - ✅ **2026-09-29 [UX]** — Editorial pass over the 60 authored guide sets, driven by
   a phrasing audit rather than spot-checks. Found and fixed four faults: **11
