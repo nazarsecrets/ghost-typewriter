@@ -452,11 +452,13 @@ The reflection payload may also contain a one-sentence underlying angle. When sh
 - No paragraph becomes inaccessible or permanently hidden.
 - Mobile layouts may remove the visible writing-line marker while retaining readable focus behavior.
 
-#### FR-4.6 The Plume cursor
+#### FR-4.6 The Plume transitions
 
-The insertion point is drawn as a quill rather than the system caret. It is a
-visual layer only: native editing, selection, IME composition, and accessibility
-behavior stay with the textarea.
+The native text caret is used while writing and thinking. On September 29 the
+author reported that the quill was distracting or tiring and selected quill-only
+transitions. The quill appears briefly for session, reflection-to-manuscript, and
+Ghostwriter handoffs, then disappears. Native editing, selection, IME composition,
+and accessibility behavior stay with the textarea.
 
 **Drawing.** A custom quill of 60px on desktop and 46px on a phone, between real
 feather anatomy and a refined editorial line illustration — never an emoji,
@@ -477,21 +479,15 @@ stock icon, filled silhouette, or Victorian engraving.
 - Every transform pivots on the nib (`transform-origin` at the nib in both the wrapper and the SVG groups), so the quill turns on its point of contact rather than floating beside the text.
 - The whole quill, not just its point of contact, is kept clear of the fixed header.
 
-**Writing.** Each keystroke dips the nib toward the baseline, rotates the feather
-a degree or two about the nib, and settles at once.
+**Writing and idle.** No quill, keystroke dip, feather flex, contact ink,
+line-wrap animation, or idle adjustment. Input immediately interrupts a running
+transition. The native caret remains visible throughout.
 
-- The reaction is velocity-aware: deliberate keys give a fuller dip (to 2.0px), more rotation (to 2.0°) and a longer settle; continuous typing gives smaller, faster movement and flows horizontally instead of restarting the animation on every character.
-- Animations are cancelled and replaced, never queued.
-- The feather flexes: the nib leads, the shaft follows ~10ms behind, the feather body ~30ms behind that. Measured peaks: nib 160ms, shaft ~200ms, feather ~210–230ms. Flex, never bounce.
-- A line wrap is a larger move than a keystroke and reads as one: the plume travels down and back to the new caret over ~300ms, then lands.
-- A microscopic ink response darkens under the nib on contact and is gone almost at once — pressure on paper, not a fountain-pen animation. No splashes, no particles left on the manuscript.
+**Transition states.** arriving, lifting, stowing, departing, responding,
+returning, then hidden. No state loops.
 
-**States.** arriving, writing, thinking, resting, departing, responding. No state
-loops.
-
-- Idle: after ~3.8s of stillness, one adjustment of about 1px and under a degree, slowly eased, then complete stillness. An object being held, not a mascot.
 - Ghostwriter thinking: the nib lifts off the baseline, the feather rotates upright, the plume withdraws and fades.
-- Ghostwriter finished: the plume returns from the direction it left, the nib approaches the writer's previous caret position, makes contact, and settles — the pen handed back.
+- Ghostwriter finished: the plume returns from the direction it left, the nib approaches the writer's previous caret position and disappears, leaving the native caret.
 - Reflection → manuscript: the plume travels from the chosen question down to the first writing baseline, the nib drawing one thin curved stroke that connects the two; the stroke fades shortly after, the quill rotates into its writing angle, and focus follows. Thought, then ink, then writing.
 - Entering a writing session: the inkwell appears in the left margin, the plume lifts out of it, rotates upright and travels to the caret. Leaving: the nib lifts, the plume travels back and settles into the well, which then fades.
 - The well is anchored to the bottom-left margin (`bottom: 14vh`, `left: max(12px, calc(50% - 476px))`), which holds a 34px gap from the text column at every width and keeps it below the writing line on short viewports. It is hidden under 980px, where the lift is skipped.
@@ -502,7 +498,7 @@ composition, and accessibility behavior stay with the textarea.
 
 - A textarea mirror (`src/caret.ts`) measures the true insertion point, including mid-line edits and wrapped lines.
 - Positioning runs on `requestAnimationFrame` and never causes a React render.
-- The native caret is hidden (`caret-color: transparent`) only while the Plume is actually shown, and restored the moment it is not.
+- The native caret remains visible during writing, idle time, and transitions.
 - The Plume hides on selection ranges, blur, IME composition, a hidden tab, and whenever the caret leaves the visible sheet.
 - Under `prefers-reduced-motion` or forced colors the Plume does not render at all and the native caret returns.
 - On coarse pointers the manuscript is not auto-focused on view change, so opening a document never summons the keyboard; the writer taps to begin.
@@ -1018,7 +1014,7 @@ The target V1 is accepted when:
 10. Should the curated desk remain a fallback only, or appear as a user-selectable Evergreen mode beside current topics?
 11. Should Guided Reflect remain a visible optional route, or appear only when the author asks for help getting started?
 12. What invokes Ghost after writing: a dormant mark, keyboard command, command palette, or combination?
-13. ~~Which typing response—visual character landing, caret behavior, optional sound, or paper movement—adds tactility without delaying input?~~ Answered: caret behavior, via the Plume (FR-4.6). Sound and paper movement remain open.
+13. ~~Which typing response—visual character landing, caret behavior, optional sound, or paper movement—adds tactility without delaying input?~~ Revised after author comfort feedback: use the native caret during writing; the Plume serves transitions only (FR-4.6). No extra typing effect is planned.
 14. Do the visible Design, Technology, Industry, Ways of Working, and Self lenses improve scanning enough to keep?
 
 ## 20. Decisions already made

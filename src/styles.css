@@ -252,7 +252,8 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .plume-shaft { color: #2b2f2a; }
 .plume-nib { color: #14160e; }
 .plume-contact { color: var(--ink); }
-.manuscript-paragraph.has-plume { caret-color: transparent; }
+/* The native caret stays visible, including throughout quill transitions. */
+.manuscript-paragraph { caret-color: var(--ink); }
 /* The inkwell rests in the left margin of the writing column. */
 /* The well sits in the left margin, clear of the text column, and below the
    writing line on any viewport shape — so the plume always lifts up out of it. */
@@ -263,5 +264,4 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 @media (prefers-reduced-motion: reduce), (forced-colors: active) {
   .plume-cursor, .plume-thought, .plume-trail, .plume-inkwell { display: none; }
   .manuscript-paragraph.has-plume { caret-color: auto; }
-}
 }

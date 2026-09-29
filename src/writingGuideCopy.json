@@ -49,11 +49,11 @@
     "How did someone who needed a dependable answer to act experience that decision?"
   ],
   "Where should human judgment remain visible in an AI-assisted workflow?": [
-    "Recall a time a person accepted or overrode an AI recommendation.",
-    "Where did human judgment conflict with the model’s apparent confidence?",
-    "What changed after someone checked, challenged, or corrected the recommendation?",
-    "How did review checkpoints, override controls, and accountability shape what happened?",
-    "How did the person responsible for acting on a wrong recommendation experience that decision?"
+    "Recall an accepted or challenged AI suggestion.",
+    "Where did human and model judgments differ?",
+    "What followed the decision to trust or override?",
+    "Could someone inspect and override the answer?",
+    "Who had a say? Who bore the consequences?"
   ],
   "How does product responsibility change when an interface can act on a person's behalf?": [
     "Recall a time an interface took an action on someone’s behalf.",

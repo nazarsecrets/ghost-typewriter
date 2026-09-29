@@ -13,17 +13,16 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 **Classification:** every new progress item is labeled **[UX]**, **[Dev]**, or
 **[UX+Dev]**. Read-only inspection does not require a separate tracker entry.
 
-_Last updated: 2026-09-28_ (later same day)
+_Last updated: 2026-09-29_
 
 ---
 
 ## 🎯 Next action (do this next)
 
-**[UX+Dev] Prototype restrained typing-as-reward feedback** that becomes quieter
-during sustained flow (POC.md §4; log.md idea 10) — the last unstarted item in
-the focused POC. The plume now carries the physical feedback, so this is about
-whether anything further is wanted at all, or whether the quill already
-satisfies it.
+**[UX+Dev] Complete the manuscript keyboard and accessibility pass** across
+Today → guided writing → focused writing. Separately collect the author's
+long-session comfort feedback on the revised native-caret experience; do not
+add typing effects without a concrete need.
 
 ---
 
@@ -37,10 +36,9 @@ _(nothing currently)_
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX+Dev]** Validate the guided editor in real use: prompt usefulness and reference-bullet proportions. The author clarified that guidance means passive bullets beneath the main prompt, supporting one continuous manuscript.
+- ⬜ **[UX]** Author follow-up: assess long-session comfort of the native-caret revision. The prior animated writing quill was reported as distracting or tiring; this is not yet comfort validation of the revised version.
 - ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
 - ⬜ **[UX+Dev]** Complete the manuscript type, measure, spacing, keyboard, and reduced-motion pass across Today → Write
-- ⬜ **[UX+Dev]** Prototype restrained typing-as-reward feedback that becomes quieter during sustained flow (POC.md §4; log.md idea 10) — **this is the Next action above**.
 
 ### Discovery robustness — after the core POC handoff
 
@@ -65,6 +63,10 @@ _(nothing currently)_
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-09-29 [UX+Dev]** — Guided-editor validation produced a concrete comfort failure: the author found the quill distracting/tiring and selected native caret during writing, quill only for transitions. Removed typing, line-wrap, and idle reactions; preserved entering/leaving and reflection handoffs, with input interrupting them. A 159-second automated walkthrough preserved 305 words, four paragraphs, an earlier edit, and reload state. Tightened the evaluated AI-judgment guides, removing the assumption that the recommendation was wrong; mobile guide height reduced 247.5 → 224.8px. Revised behavior verified: zero visible quill frames while typing/idle, transitions work, reduced motion hides the quill, native caret and persistence retained. Build/diff checks pass. Full evidence and limits: `docs/guided-editor-validation.md`. Revised long-session comfort remains an author follow-up, not a claimed pass.
+
+- ✅ **2026-09-29 [UX+Dev]** — Verified the existing quill satisfies the typing-as-reward prototype; no additional visual or audio effect added. Browser samples measured deliberate-key feedback at 1.97px / 1.97° versus sustained 60ms typing at 0.8px / 0.7°, zero idle frames during continuous typing, one idle adjustment after stopping, all 81 characters preserved, and native-caret fallback under reduced motion. Updated POC §4 and log idea 10; long-session comfort remains a real-use question. Removed one stray closing CSS brace found by verification; production build now passes without warnings. Evidence: `output/playwright/typing-feedback-verification.json`.
 
 - ✅ **2026-09-28 [UX+Dev]** — Replaced identical generic bullets with 60 distinct authored five-guide sets matched to the exact main provocation or Evergreen ID (36 pipeline prompts + 24 Evergreen topics). Guides derive from the selected topic on render, including restored drafts, without AI calls. Coverage validation includes every current manifest topic; build and diff checks pass. Browser QA verified different guides for two prompts within the same theme, reload persistence, and no mobile overflow. Updated guide requirements in PRD, POC, and implementation plan; existing writing-motion work and next action preserved.
 

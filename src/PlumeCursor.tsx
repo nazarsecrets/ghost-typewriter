@@ -13,19 +13,10 @@ const NIB = { x: 3, y: 55 };
 const DESKTOP_HEIGHT = 60;
 const COMPACT_HEIGHT = 46;
 
-/** Keystroke gaps, in ms, that count as continuous writing versus deliberate
- * single keys. Between them the reaction scales smoothly. */
-const FAST_GAP = 110;
-const SLOW_GAP = 340;
-const IDLE_ADJUST = 3800;
-
 export function PlumeCursor({ active, busy, origin }: Props) {
   const rootRef = useRef<HTMLSpanElement>(null);
   const flightRef = useRef<HTMLSpanElement>(null);
   const bodyRef = useRef<HTMLSpanElement>(null);
-  const featherRef = useRef<SVGGElement>(null);
-  const shaftRef = useRef<SVGGElement>(null);
-  const contactRef = useRef<SVGEllipseElement>(null);
   const echoRef = useRef<HTMLDivElement>(null);
   const trailRef = useRef<SVGPathElement>(null);
   const trailSvgRef = useRef<SVGSVGElement>(null);
@@ -38,19 +29,17 @@ export function PlumeCursor({ active, busy, origin }: Props) {
 
   useEffect(() => {
     const root = rootRef.current!, flight = flightRef.current!, body = bodyRef.current!;
-    const feather = featherRef.current!, shaft = shaftRef.current!;
-    const contact = contactRef.current!, echo = echoRef.current!;
+    const echo = echoRef.current!;
     const trail = trailRef.current!, trailSvg = trailSvgRef.current!;
     const inkwell = inkwellRef.current!, inkwellMouth = inkwellMouthRef.current!;
     const reduced = matchMedia("(prefers-reduced-motion: reduce)");
     const forced = matchMedia("(forced-colors: active)");
     let editor: HTMLTextAreaElement | null = null;
-    let composing = false, frame = 0, idleTimer = 0;
-    let lastKey = 0, fromInput = false;
-    let reaction: JSAnimation | null = null, lag: JSAnimation[] = [];
+    let composing = false, frame = 0;
+    let reaction: JSAnimation | null = null;
     let journey: JSAnimation | null = null;
     let echoAnimation: JSAnimation | null = null, trailAnimation: JSAnimation | null = null;
-    let contactAnimation: JSAnimation | null = null, inkwellAnimation: JSAnimation | null = null;
+    let inkwellAnimation: JSAnimation | null = null;
     let returning = previousBusy.current && !busy;
     previousBusy.current = busy;
     const enteringSession = active && !wasActive.current;
@@ -83,10 +72,7 @@ export function PlumeCursor({ active, busy, origin }: Props) {
 
     const cancelReaction = () => {
       reaction?.cancel(); reaction = null;
-      lag.forEach((animation) => animation.cancel()); lag = [];
-      window.clearTimeout(idleTimer);
       body.style.transform = "";
-      shaft.style.transform = ""; feather.style.transform = "";
     };
     const endJourney = () => {
       journey?.cancel(); journey = null;
@@ -99,64 +85,13 @@ export function PlumeCursor({ active, busy, origin }: Props) {
       root.style.visibility = "hidden";
       root.dataset.state = "hidden";
       cancelReaction(); endJourney();
-    };
-
-    /** One barely perceptible adjustment of a held object, then stillness. Never loops. */
-    const scheduleIdle = () => {
-      window.clearTimeout(idleTimer);
-      idleTimer = window.setTimeout(() => {
-        if (root.style.visibility !== "visible" || !allowed() || busy) return;
-        reaction?.cancel();
-        root.dataset.state = "thinking";
-        reaction = animate(body, {
-          translateY: [0, -1, 0], rotate: [0, -0.6, 0], duration: 1600, ease: "inOutSine",
-          onComplete: () => { root.dataset.state = "resting"; },
-        });
-      }, IDLE_ADJUST);
-    };
-
-    /** The nib meets the page: a dip, a turn about the nib, and the feather body
-     * trailing behind by enough to read as flex rather than bounce. */
-    const land = (dip: number, turn: number, duration: number) => {
-      cancelReaction();
-      reaction = animate(body, {
-        translateY: [0, dip, 0], rotate: [0, -turn, 0], duration, ease: "out(2)",
-        onComplete: () => { root.dataset.state = "resting"; },
-      });
-      lag = [
-        animate(shaft, { rotate: [0, -turn * 0.55, 0], duration: duration + 40, delay: 10, ease: "out(2)" }),
-        animate(feather, { rotate: [0, -turn * 0.95, 0], duration: duration + 110, delay: 30, ease: "out(2)" }),
-      ];
-      scheduleIdle();
-    };
-
-    const inkResponse = (weight: number) => {
-      contactAnimation?.cancel();
-      contact.style.visibility = "visible";
-      contactAnimation = animate(contact, {
-        opacity: [0, 0.22 + 0.1 * weight, 0], scale: [0.6, 1],
-        duration: 150 + 90 * weight, ease: "out(2)",
-        onComplete: () => { contact.style.visibility = "hidden"; },
-      });
-    };
-
-    const react = () => {
-      const now = performance.now();
-      const gap = now - lastKey;
-      lastKey = now;
-      // Continuous writing flows horizontally instead of restarting the dip.
-      if (gap < FAST_GAP && reaction && !reaction.completed) return;
-      const weight = Math.max(0, Math.min(1, (gap - FAST_GAP) / (SLOW_GAP - FAST_GAP)));
-      root.dataset.state = "writing";
-      land(0.8 + 1.2 * weight, 0.7 + 1.3 * weight, 90 + 120 * weight);
-      inkResponse(weight);
+      inkwellAnimation?.cancel(); inkwell.style.visibility = "hidden";
     };
 
     const sync = () => {
       frame = 0;
-      const wasFromInput = fromInput;
-      fromInput = false;
       if (busy && allowed()) { editor?.classList.remove("has-plume"); return; }
+      if (leavingSession && allowed() && journey && !journey.completed) return;
       if (!active || !allowed() || composing) { hide(); return; }
       const focused = document.activeElement;
       const next = focused instanceof HTMLTextAreaElement && focused.classList.contains("manuscript-paragraph") ? focused : null;
@@ -169,16 +104,19 @@ export function PlumeCursor({ active, busy, origin }: Props) {
       const { height, width, nib } = metrics();
       // The feather rises above the nib: keep the whole quill clear of the header.
       if (point.y < 64 + height || point.y > innerHeight || point.x < rect.left - 1 || point.x > rect.right + 1) { hide(); return; }
-      const previous = lastPoint.current;
       lastPoint.current = point;
       root.style.width = `${width}px`; root.style.height = `${height}px`;
       const nibOrigin = `${nib.x}px ${nib.y}px`;
       flight.style.transformOrigin = nibOrigin; body.style.transformOrigin = nibOrigin;
       root.style.transform = `translate3d(${point.x - nib.x}px, ${point.y - nib.y}px, 0)`;
       root.dataset.x = String(point.x); root.dataset.y = String(point.y);
-      const wasHidden = root.style.visibility !== "visible";
+      // The native caret remains the only writing cursor. Show the quill only
+      // for an explicit transition; scrolling, selection, and edits never summon it.
+      const pendingOrigin = origin && usedOrigin.current !== origin.id;
+      if (!pendingOrigin && !lifting && !returning && (!journey || journey.completed)) {
+        hide(); return;
+      }
       root.style.visibility = "visible";
-      editor.classList.add("has-plume");
 
       if (origin && usedOrigin.current !== origin.id) {
         // Reflection to manuscript: thought, then ink, then writing.
@@ -201,9 +139,7 @@ export function PlumeCursor({ active, busy, origin }: Props) {
           translateX: [from.x - point.x, 0], translateY: [from.y - point.y, 0],
           rotate: [-9, 0], opacity: [0.55, 1], duration: 520, ease: "out(3)",
           onComplete: () => {
-            flight.style.transform = ""; flight.style.opacity = "1";
-            land(2.2, 1.6, 300);
-            inkResponse(1);
+            hide();
           },
         });
       } else if (lifting) {
@@ -211,7 +147,7 @@ export function PlumeCursor({ active, busy, origin }: Props) {
         lifting = false;
         const well = inkwellPoint();
         endJourney(); cancelReaction();
-        if (!well) { root.dataset.state = "resting"; scheduleIdle(); return; }
+        if (!well) { hide(); return; }
         root.dataset.state = "lifting";
         showInkwell(true);
         journey = animate(flight, {
@@ -220,13 +156,10 @@ export function PlumeCursor({ active, busy, origin }: Props) {
           rotate: [-26, -18, 0], opacity: [0, 1, 1],
           duration: 760, ease: "out(3)",
           onComplete: () => {
-            flight.style.transform = ""; flight.style.opacity = "1";
-            land(2.2, 1.5, 300);
-            inkResponse(1);
-            showInkwell(false);
+            hide(); showInkwell(false);
           },
         });
-      } else if (returning || wasHidden) {
+      } else if (returning) {
         // The pen handed back: it returns from the direction it left.
         returning = false;
         root.dataset.state = "returning";
@@ -234,42 +167,27 @@ export function PlumeCursor({ active, busy, origin }: Props) {
           translateX: [16, 0], translateY: [-13, 0], rotate: [-7, 0], opacity: [0, 1],
           duration: 380, ease: "out(3)",
           onComplete: () => {
-            flight.style.transform = ""; flight.style.opacity = "1";
-            land(1.8, 1.2, 260);
-          },
-        });
-        scheduleIdle();
-      } else if (wasFromInput && previous && Math.abs(point.y - previous.y) > caret.lineHeight * 0.6) {
-        // A line wrap is a bigger move than a keystroke, and should read as one.
-        endJourney(); cancelReaction();
-        root.dataset.state = "wrapping";
-        journey = animate(flight, {
-          translateX: [previous.x - point.x, 0], translateY: [previous.y - point.y, 0],
-          rotate: [-4, 0], duration: 300, ease: "out(3)",
-          onComplete: () => {
-            flight.style.transform = "";
-            land(2, 1.4, 260);
-            inkResponse(0.8);
+            hide();
           },
         });
       }
+
     };
 
     const schedule = () => { if (!frame) frame = requestAnimationFrame(sync); };
     const input = (event: Event) => {
       if (!(event.target instanceof HTMLTextAreaElement) || !event.target.classList.contains("manuscript-paragraph")) return;
-      fromInput = true;
-      schedule();
-      if (!allowed() || composing || busy) return;
-      endJourney();
+      // Input wins immediately over any transition; never delay or decorate it.
+      lifting = false; returning = false;
       if (origin) usedOrigin.current = origin.id;
-      react();
+      hide();
+      schedule();
     };
     const keydown = (event: KeyboardEvent) => {
       if (event.target instanceof HTMLTextAreaElement && event.target.classList.contains("manuscript-paragraph")) {
-        endJourney();
+        lifting = false; returning = false;
         if (origin) usedOrigin.current = origin.id;
-        schedule();
+        hide(); schedule();
       }
     };
     const compositionStart = () => { composing = true; hide(); };
@@ -299,7 +217,7 @@ export function PlumeCursor({ active, busy, origin }: Props) {
       // hovering near the manuscript rather than leaving it.
       root.style.visibility = "visible"; root.dataset.state = "departing";
       cancelReaction();
-      animate(body, { translateY: [0, -4], rotate: [0, 7], duration: 300, ease: "out(2)" });
+      reaction = animate(body, { translateY: [0, -4], rotate: [0, 7], duration: 300, ease: "out(2)" });
       journey = animate(flight, {
         translateX: [0, 16], translateY: [0, -13], opacity: [1, 0.12], duration: 360, ease: "in(2)",
         onComplete: () => { root.style.visibility = "hidden"; root.dataset.state = "responding"; },
@@ -326,8 +244,9 @@ export function PlumeCursor({ active, busy, origin }: Props) {
 
     return () => {
       cancelAnimationFrame(frame); observer.disconnect();
-      contactAnimation?.cancel();
-      if (!leavingSession) hide();
+      hide();
+      inkwellAnimation?.cancel();
+      inkwell.style.visibility = "hidden";
       document.removeEventListener("focusin", schedule); document.removeEventListener("focusout", schedule);
       document.removeEventListener("selectionchange", schedule); document.removeEventListener("input", input);
       document.removeEventListener("keydown", keydown); document.removeEventListener("compositionstart", compositionStart);
@@ -345,10 +264,10 @@ export function PlumeCursor({ active, busy, origin }: Props) {
         <span className="plume-body" ref={bodyRef}>
           <svg width="100%" height="100%" viewBox={`0 0 ${VIEW.width} ${VIEW.height}`} preserveAspectRatio="xMidYMid meet" focusable="false">
             {/* Pressure on paper, under the nib tip. */}
-            <ellipse className="plume-contact" ref={contactRef} cx={NIB.x + 0.3} cy={NIB.y - 0.4} rx="1.7" ry="1.1" fill="currentColor" opacity="0" />
+            <ellipse className="plume-contact" cx={NIB.x + 0.3} cy={NIB.y - 0.4} rx="1.7" ry="1.1" fill="currentColor" opacity="0" />
             {/* Feather body: both vanes and their barbs move as one. Fullness sits
                 high on the feather and the tip is soft, not pointed. */}
-            <g className="plume-feather" ref={featherRef}>
+            <g className="plume-feather">
               <g className="plume-vane plume-vane-wide">
                 <path d="M27.19 3.20C26.91 3.33 26.03 3.68 25.52 3.95C25.00 4.22 24.56 4.52 24.11 4.82C23.66 5.13 23.18 5.41 22.83 5.77C22.48 6.12 22.37 6.58 22.01 6.93C21.64 7.27 21.05 7.50 20.63 7.82C20.21 8.13 19.80 8.45 19.49 8.82C19.18 9.20 19.03 9.64 18.78 10.04C18.52 10.44 18.23 10.82 17.98 11.22C17.73 11.62 17.54 12.05 17.25 12.43C16.96 12.81 16.54 13.13 16.24 13.50C15.93 13.87 15.65 14.25 15.42 14.67C15.20 15.08 15.10 15.55 14.91 15.98C14.72 16.41 14.48 16.82 14.29 17.25C14.11 17.68 14.00 18.15 13.80 18.58C13.60 19.00 13.32 19.38 13.10 19.80C12.88 20.21 12.67 20.63 12.50 21.07C12.34 21.52 12.28 22.01 12.12 22.45C11.97 22.90 11.73 23.31 11.58 23.76C11.43 24.20 11.35 24.69 11.21 25.14C11.06 25.59 10.88 26.02 10.74 26.48C10.59 26.93 10.44 27.38 10.35 27.85C10.26 28.33 10.31 28.88 10.20 29.35C10.09 29.82 9.82 30.21 9.68 30.66C9.54 31.12 9.44 31.59 9.35 32.07C9.26 32.55 9.20 33.04 9.15 33.54C9.10 34.04 9.05 34.53 9.05 35.05C9.05 35.58 9.20 36.18 9.16 36.68C9.11 37.18 8.79 37.54 8.78 38.06C8.77 38.57 8.99 39.21 9.10 39.78C9.20 40.36 9.35 41.21 9.40 41.50L28.00 3.60C27.24 4.79 24.90 8.35 23.42 10.76C21.93 13.16 20.46 15.58 19.11 18.05C17.76 20.52 16.48 23.03 15.31 25.59C14.14 28.15 13.08 30.76 12.09 33.41C11.11 36.07 9.85 40.15 9.40 41.50Z"
                   fill="currentColor" fillOpacity="0.055" stroke="currentColor" strokeWidth="0.3" strokeLinejoin="round" strokeLinecap="round" />
@@ -390,7 +309,7 @@ export function PlumeCursor({ active, busy, origin }: Props) {
               </g>
             </g>
             {/* Shaft: bare along the calamus, curving with the feather above it. */}
-            <g className="plume-shaft" ref={shaftRef}>
+            <g className="plume-shaft">
               <path d="M5.90 48.90C7.30 46.30 8.60 43.90 9.40 41.50C9.85 40.15 11.11 36.07 12.09 33.41C13.08 30.76 14.14 28.15 15.31 25.59C16.48 23.03 17.83 20.40 19.11 18.05C20.39 15.70 21.79 13.41 22.97 11.48C24.14 9.54 25.62 7.29 26.15 6.45"
                 fill="none" stroke="currentColor" strokeWidth="0.42" strokeLinecap="round" />
             </g>

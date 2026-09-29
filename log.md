@@ -129,12 +129,10 @@ keypress → character lands → cursor advances → page fills → environment 
 
 **Why it matters.** The writing becomes intrinsically rewarding without streaks, XP, or productivity pressure.
 
-**Current state.** The manuscript has a fixed paragraph position and quiets old paragraphs, but it does not yet distinguish initial typing from sustained flow or settle only on pause.
+**Current state (revised September 29, 2026).** The adaptive quill passed mechanical checks but the author reported fatigue and chose a native text caret while writing, with quill-only transitions. Typing, line-wrap, and idle reactions are removed. No further typing effect is planned.
 
-**Open questions.**
-- What can respond without adding input latency: character, caret, paper, or optional sound?
-- When does flow begin, and how gradually should feedback recede?
-- Does any per-character animation remain comfortable in long sessions?
+**Follow-up.** Check whether the revised native-caret experience remains comfortable in the author's longer sessions. Do not infer comfort from automated input tests.
+
 
 ---
 

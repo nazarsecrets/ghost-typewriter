@@ -89,19 +89,19 @@ Rules for the surface:
 
 ## 4. Typing as the reward
 
-The typewriter idea is behavioral rather than decorative. A keystroke may produce a minute character landing, caret response, or paper reaction, but input must remain immediate.
+**Revised after author feedback, September 29, 2026:** The pace-responsive quill
+passed technical checks but the author found it distracting or tiring. The
+chosen experience now uses a native text caret during writing and pauses, with
+the quill reserved for transitions. No further typing effect is wanted.
 
-The intended rhythm is:
+The reward is immediate text entry, a steady writing position, and a readable
+manuscript. Typing interrupts transitions immediately; it never waits for them.
+The 30% anchor still settles on pause, and reduced motion removes nonessential
+transition movement. There are no streaks, scores, or celebrations.
 
-```text
-keypress → character lands → cursor advances → page fills → environment quiets
-```
-
-- The first sentence may feel slightly more mechanical.
-- Feedback reduces after sustained writing rather than escalating.
-- The fixed position settles on a short pause or paragraph change, not every keystroke.
-- Reduced motion removes nonessential response.
-- There are no streaks, XP, celebrations, or productivity pressure. The reward is that writing feels good.
+A 305-word, four-paragraph automated walkthrough preserved input, editing, and
+reload state. This is usability evidence, not proof of long-session comfort.
+The revised native-caret experience needs the author's follow-up use.
 
 ## 5. Scope
 

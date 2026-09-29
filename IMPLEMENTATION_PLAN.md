@@ -21,7 +21,7 @@ The distinctive feeling I'm after is a **modern, immersive typewriter** — the 
 Ways to deepen the immersion, all free and lightweight:
 
 - **Anime.js (in use)** — word-by-word reveals, paragraph focus/quiet transitions, carriage-style scroll anchoring. Keep motion under ~600ms and always gate it behind `prefers-reduced-motion`.
-- **The Plume** — the insertion point is a quill drawn over the sheet (`src/PlumeCursor.tsx`, measured by `src/caret.ts`), a visual layer only: native editing, selection and IME stay with the textarea, and reduced motion or forced colors return the system caret.
+- **The Plume** — a transition-only quill (`src/PlumeCursor.tsx`, measured by `src/caret.ts`). Following author-reported fatigue, writing and idle time now use the native caret. Typing interrupts transitions; reduced motion and forced colors remove the quill entirely.
 - **CSS-only touches** — subtle paper grain via the existing palette, a monospaced *option* for the manuscript for a truer typewriter register, and `@keyframes` for ambient details that don't need JS.
 - **Web Audio API (optional, opt-in)** — a faint keystroke/return-bell sound generated in-browser. No assets, no dependency, muted by default. This is the single highest-impact addition for "typewriter feel" if I want it.
 - **View Transitions API** — native, zero-KB crossfades between the today → reflect → write → review modes, complementing Anime.js for the larger scene changes.
