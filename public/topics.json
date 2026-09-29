@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T14:45:38.056Z",
-  "windowStart": "2026-08-30T14:45:38.056Z",
-  "windowEnd": "2026-09-29T14:45:38.056Z",
+  "generatedAt": "2026-09-29T20:37:38.766Z",
+  "windowStart": "2026-08-30T20:37:38.766Z",
+  "windowEnd": "2026-09-29T20:37:38.766Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -32,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-29T03:41:54.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -185,26 +185,6 @@
       ]
     },
     {
-      "id": "9c869b466922",
-      "title": "If you want to design for underserved users, look at farmers’ markets",
-      "teaser": "The bottom third model, and why your help patterns miss the users who need them most Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-29T12:10:56.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "If you want to design for underserved users, look at farmers’ markets",
-          "url": "https://uxdesign.cc/if-you-want-to-design-for-underserved-users-look-at-farmers-markets-eefaedb35607?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-29T12:10:56.000Z"
-        }
-      ]
-    },
-    {
       "id": "2ccda4070524",
       "title": "Why the best resume may be the wrong resume for a design team",
       "teaser": "What design leadership gets wrong about experience, expertise, and innovation on a team. Continue reading on UX Collective »",
@@ -212,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T04:06:17.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -314,7 +294,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
       "sources": [
         {
           "name": "nngroup",
@@ -354,7 +334,7 @@
       "publishedAt": "2026-09-09T07:34:11.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -461,6 +441,26 @@
           "title": "Test Complex Interactions Earlier with AI Prototyping",
           "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-11T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9c869b466922",
+      "title": "If you want to design for underserved users, look at farmers’ markets",
+      "teaser": "The bottom third model, and why your help patterns miss the users who need them most Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-29T12:10:56.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "If you want to design for underserved users, look at farmers’ markets",
+          "url": "https://uxdesign.cc/if-you-want-to-design-for-underserved-users-look-at-farmers-markets-eefaedb35607?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-29T12:10:56.000Z"
         }
       ]
     },
@@ -572,9 +572,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-24T07:54:55.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -601,26 +601,6 @@
           "title": "AI Tools Adoption across the Double Diamond Workflow: Phase, Mode, and Barriers in Designer Practice",
           "url": "https://arxiv.org/abs/2609.34655v1",
           "publishedAt": "2026-09-28T08:59:13.000Z"
-        }
-      ]
-    },
-    {
-      "id": "54350fec1e22",
-      "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-10T14:57:41.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
-          "url": "https://www.valet.dev/blog/work-that-looks-like-yours",
-          "publishedAt": "2026-09-10T14:57:41.000Z"
         }
       ]
     },
@@ -705,6 +685,26 @@
       ]
     },
     {
+      "id": "d6da69fcc0c2",
+      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+      "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-03T19:19:42.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+          "url": "https://devbar.sh",
+          "publishedAt": "2026-09-03T19:19:42.000Z"
+        }
+      ]
+    },
+    {
       "id": "169857c0668c",
       "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
       "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
@@ -734,13 +734,33 @@
       "publishedAt": "2026-09-21T07:40:28.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Boxy – Design System and Agent Skill for interfaces with square corners",
           "url": "http://github.avestura.dev/boxy-design-skill/",
           "publishedAt": "2026-09-21T07:40:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "21d7dc1f3a54",
+      "title": "Building A UX ROI Case That Survives The Boardroom",
+      "teaser": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-11T13:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Building A UX ROI Case That Survives The Boardroom",
+          "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
+          "publishedAt": "2026-09-11T13:00:00.000Z"
         }
       ]
     },
@@ -752,15 +772,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-23T04:04:28.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "The origins, side B — birth of the un-cool",
           "url": "https://uxdesign.cc/the-origins-side-b-birth-of-the-un-cool-d1baf83948c8?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-23T04:04:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "21537bff3dff",
+      "title": "Using AI for UX Work: Study Guide",
+      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-04T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 25 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Using AI for UX Work: Study Guide",
+          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-04T17:00:00.000Z"
         }
       ]
     },
@@ -814,33 +854,13 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Conference November Announced (Nov 16 - Nov 19)",
           "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-03T04:50:49.000Z"
-        }
-      ]
-    },
-    {
-      "id": "05d51c76f4e3",
-      "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
-      "teaser": "Hey HN, I&#x27;ve been working on this for about a year and figured it was time to share it. Visor started with my own kids. I actually think YouTube has a lot of good content for kids, but ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T18:56:11.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
-          "url": "https://gotvisor.com",
-          "publishedAt": "2026-09-04T18:56:11.000Z"
         }
       ]
     },
@@ -874,33 +894,13 @@
       "publishedAt": "2026-09-15T08:01:39.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "UX should just be called Experience Design",
           "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
           "publishedAt": "2026-09-15T08:01:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a5c3ec805549",
-      "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
-      "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-01T08:50:46.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
-          "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
-          "publishedAt": "2026-09-01T08:50:46.000Z"
         }
       ]
     },
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-29T14:45:38.057Z"
+      "fetchedAt": "2026-09-29T20:37:38.767Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-29T14:45:38.111Z"
+      "fetchedAt": "2026-09-29T20:37:38.820Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-29T14:45:38.113Z"
+      "fetchedAt": "2026-09-29T20:37:38.821Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-29T14:45:38.114Z"
+      "fetchedAt": "2026-09-29T20:37:38.822Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-29T14:45:38.115Z"
+      "fetchedAt": "2026-09-29T20:37:38.823Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-29T14:45:38.116Z"
+      "fetchedAt": "2026-09-29T20:37:38.824Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-29T14:45:38.117Z"
+      "fetchedAt": "2026-09-29T20:37:38.825Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 12,
-      "fetchedAt": "2026-09-29T14:45:38.118Z"
+      "fetchedAt": "2026-09-29T20:37:38.826Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-09-29T14:45:38.119Z"
+      "fetchedAt": "2026-09-29T20:37:38.827Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-29T14:45:38.120Z"
+      "fetchedAt": "2026-09-29T20:37:38.828Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-29T14:45:38.121Z"
+      "fetchedAt": "2026-09-29T20:37:38.829Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
-      "items": 1,
-      "fetchedAt": "2026-09-29T14:45:38.122Z"
+      "items": 2,
+      "fetchedAt": "2026-09-29T20:37:38.830Z"
     }
   ]
 }
