@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T05:18:46.507Z",
-  "windowStart": "2026-08-30T05:18:46.507Z",
-  "windowEnd": "2026-09-29T05:18:46.507Z",
+  "generatedAt": "2026-09-29T14:45:38.056Z",
+  "windowStart": "2026-08-30T14:45:38.056Z",
+  "windowEnd": "2026-09-29T14:45:38.056Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-09-24T17:21:36.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "563 engagement signals within 4 days",
+      "categoryReason": "563 engagement signals within 5 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -92,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-27T19:38:02.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-22T22:53:01.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -132,75 +132,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-24T00:21:16.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Holistic design systems for the AI coding era",
           "url": "https://numeric.substack.com/p/design-systems-at-numeric",
           "publishedAt": "2026-09-24T00:21:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "21a8f3f0535b",
-      "title": "In the age of AI, the UX field survives on leaders who cultivate juniors",
-      "teaser": "A design lead walks a nervous new hire through their first critique. AI Assisted. Every senior designer was once a bet someone made. The generation of judgment the field needs in ten years d",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-22T21:27:21.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "In the age of AI, the UX field survives on leaders who cultivate juniors",
-          "url": "https://uxdesign.cc/in-the-age-of-ai-the-ux-field-survives-on-leaders-who-cultivate-juniors-595c548f1d70?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-22T21:27:21.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b6c1bfa429da",
-      "title": "Making the Invisible Visible: A Framework for Reflective AI Use in Software Engineering Education",
-      "teaser": "Generative AI (GenAI) is increasingly embedded in software engineering education, supporting activities such as requirements development, design exploration, documentation, and prototyping. ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T12:04:55.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Making the Invisible Visible: A Framework for Reflective AI Use in Software Engineering Education",
-          "url": "https://arxiv.org/abs/2609.34997v1",
-          "publishedAt": "2026-09-28T12:04:55.000Z"
-        }
-      ]
-    },
-    {
-      "id": "07c583537194",
-      "title": "Scanvas: Discovering and Developing Synergistic Opportunities in Generative Design Spaces",
-      "teaser": "Good design is often synergistic, creating super-additive value by linking goals so that existing resources produce greater outcomes. However, finding these synergistic opportunities in spar",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T00:42:13.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Scanvas: Discovering and Developing Synergistic Opportunities in Generative Design Spaces",
-          "url": "https://arxiv.org/abs/2609.34062v1",
-          "publishedAt": "2026-09-28T00:42:13.000Z"
         }
       ]
     },
@@ -232,15 +172,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-28T00:29:04.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Help us fire our UI/UX designers",
           "url": "https://vosu.ai",
           "publishedAt": "2026-09-28T00:29:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9c869b466922",
+      "title": "If you want to design for underserved users, look at farmers’ markets",
+      "teaser": "The bottom third model, and why your help patterns miss the users who need them most Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-29T12:10:56.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "If you want to design for underserved users, look at farmers’ markets",
+          "url": "https://uxdesign.cc/if-you-want-to-design-for-underserved-users-look-at-farmers-markets-eefaedb35607?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-29T12:10:56.000Z"
         }
       ]
     },
@@ -261,126 +221,6 @@
           "title": "Why the best resume may be the wrong resume for a design team",
           "url": "https://uxdesign.cc/why-the-best-resume-may-be-the-wrong-resume-for-a-design-team-c019b8568662?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-23T04:06:17.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d813199b7167",
-      "title": "The next larger context",
-      "teaser": "Designing beyond the interface, the product, and the prompt Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T22:29:04.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The next larger context",
-          "url": "https://uxdesign.cc/the-next-larger-context-4dd0c91a7c5b?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-28T22:29:04.000Z"
-        }
-      ]
-    },
-    {
-      "id": "58227654d564",
-      "title": "What makes a brand last?",
-      "teaser": "Two energy suppliers shared the same colour and cheerful voice, yet one of them went bust. A bank and a language app help explain why. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T22:28:43.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What makes a brand last?",
-          "url": "https://uxdesign.cc/what-makes-a-brand-last-baf152419576?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-28T22:28:43.000Z"
-        }
-      ]
-    },
-    {
-      "id": "73c4bca51e3b",
-      "title": "Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose",
-      "teaser": "Sparse inertial pose estimation promises camera-free motion capture from consumer devices, but consumer sensors are unreliable: firmware-fused orientations are biased, mounting varies betwee",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T17:59:22.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose",
-          "url": "https://arxiv.org/abs/2609.35764v1",
-          "publishedAt": "2026-09-28T17:59:22.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d435b29b8385",
-      "title": "Reclaiming the social in social media",
-      "teaser": "Concerns about polarization, antisocial behavior, and mental health have broadly led to two responses to social media: adapting platforms through moderation and prosocial design, and restric",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T15:29:15.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Reclaiming the social in social media",
-          "url": "https://arxiv.org/abs/2609.35413v1",
-          "publishedAt": "2026-09-28T15:29:15.000Z"
-        }
-      ]
-    },
-    {
-      "id": "cbecec58059c",
-      "title": "AI Tools Adoption across the Double Diamond Workflow: Phase, Mode, and Barriers in Designer Practice",
-      "teaser": "Designers are adopting AI faster than the tools built for them can keep up. This survey of 443 designers across 43 countries, among the first phase-disaggregated accounts of its kind, examin",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T08:59:13.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AI Tools Adoption across the Double Diamond Workflow: Phase, Mode, and Barriers in Designer Practice",
-          "url": "https://arxiv.org/abs/2609.34655v1",
-          "publishedAt": "2026-09-28T08:59:13.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a0d716622a5f",
-      "title": "E-CONAN (Entailment, CONtradition And Neutral) Diagnostics Dataset Investigating Linguistic Phenomena in Arabic Natural Language Understanding",
-      "teaser": "Natural Language Understanding (NLU) plays a crucial role in various applications, yet its performance suffers from weaknesses in handling the complexities of human languages, ranging from l",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-27T12:56:05.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "E-CONAN (Entailment, CONtradition And Neutral) Diagnostics Dataset Investigating Linguistic Phenomena in Arabic Natural Language Understanding",
-          "url": "https://arxiv.org/abs/2609.33530v1",
-          "publishedAt": "2026-09-27T12:56:05.000Z"
         }
       ]
     },
@@ -414,7 +254,7 @@
       "publishedAt": "2026-09-10T00:13:16.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 19 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -434,13 +274,33 @@
       "publishedAt": "2026-09-15T01:32:15.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "The UX Research Methodology subway map trap",
           "url": "https://www.reddit.com/r/UXDesign/comments/1wercj5/the_ux_research_methodology_subway_map_trap/",
           "publishedAt": "2026-09-15T01:32:15.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b6c1bfa429da",
+      "title": "Making the Invisible Visible: A Framework for Reflective AI Use in Software Engineering Education",
+      "teaser": "Generative AI (GenAI) is increasingly embedded in software engineering education, supporting activities such as requirements development, design exploration, documentation, and prototyping. ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-28T12:04:55.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Making the Invisible Visible: A Framework for Reflective AI Use in Software Engineering Education",
+          "url": "https://arxiv.org/abs/2609.34997v1",
+          "publishedAt": "2026-09-28T12:04:55.000Z"
         }
       ]
     },
@@ -461,6 +321,26 @@
           "title": "UX Conference December Announced (Dec 2 - Dec 15)",
           "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-16T06:59:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "07c583537194",
+      "title": "Scanvas: Discovering and Developing Synergistic Opportunities in Generative Design Spaces",
+      "teaser": "Good design is often synergistic, creating super-additive value by linking goals so that existing resources produce greater outcomes. However, finding these synergistic opportunities in spar",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-28T00:42:13.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Scanvas: Discovering and Developing Synergistic Opportunities in Generative Design Spaces",
+          "url": "https://arxiv.org/abs/2609.34062v1",
+          "publishedAt": "2026-09-28T00:42:13.000Z"
         }
       ]
     },
@@ -512,9 +392,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-27T22:06:14.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -605,6 +485,86 @@
       ]
     },
     {
+      "id": "d813199b7167",
+      "title": "The next larger context",
+      "teaser": "Designing beyond the interface, the product, and the prompt Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-28T22:29:04.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The next larger context",
+          "url": "https://uxdesign.cc/the-next-larger-context-4dd0c91a7c5b?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-28T22:29:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "58227654d564",
+      "title": "What makes a brand last?",
+      "teaser": "Two energy suppliers shared the same colour and cheerful voice, yet one of them went bust. A bank and a language app help explain why. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-28T22:28:43.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What makes a brand last?",
+          "url": "https://uxdesign.cc/what-makes-a-brand-last-baf152419576?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-28T22:28:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "73c4bca51e3b",
+      "title": "Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose",
+      "teaser": "Sparse inertial pose estimation promises camera-free motion capture from consumer devices, but consumer sensors are unreliable: firmware-fused orientations are biased, mounting varies betwee",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-28T17:59:22.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose",
+          "url": "https://arxiv.org/abs/2609.35764v1",
+          "publishedAt": "2026-09-28T17:59:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d435b29b8385",
+      "title": "Reclaiming the social in social media",
+      "teaser": "Concerns about polarization, antisocial behavior, and mental health have broadly led to two responses to social media: adapting platforms through moderation and prosocial design, and restric",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-28T15:29:15.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Reclaiming the social in social media",
+          "url": "https://arxiv.org/abs/2609.35413v1",
+          "publishedAt": "2026-09-28T15:29:15.000Z"
+        }
+      ]
+    },
+    {
       "id": "eea5252eb77d",
       "title": "Phyll, a UX review for apps built with AI that keeps the design",
       "teaser": "",
@@ -625,6 +585,66 @@
       ]
     },
     {
+      "id": "cbecec58059c",
+      "title": "AI Tools Adoption across the Double Diamond Workflow: Phase, Mode, and Barriers in Designer Practice",
+      "teaser": "Designers are adopting AI faster than the tools built for them can keep up. This survey of 443 designers across 43 countries, among the first phase-disaggregated accounts of its kind, examin",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-28T08:59:13.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "AI Tools Adoption across the Double Diamond Workflow: Phase, Mode, and Barriers in Designer Practice",
+          "url": "https://arxiv.org/abs/2609.34655v1",
+          "publishedAt": "2026-09-28T08:59:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "54350fec1e22",
+      "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-10T14:57:41.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
+          "url": "https://www.valet.dev/blog/work-that-looks-like-yours",
+          "publishedAt": "2026-09-10T14:57:41.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a0d716622a5f",
+      "title": "E-CONAN (Entailment, CONtradition And Neutral) Diagnostics Dataset Investigating Linguistic Phenomena in Arabic Natural Language Understanding",
+      "teaser": "Natural Language Understanding (NLU) plays a crucial role in various applications, yet its performance suffers from weaknesses in handling the complexities of human languages, ranging from l",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-27T12:56:05.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "E-CONAN (Entailment, CONtradition And Neutral) Diagnostics Dataset Investigating Linguistic Phenomena in Arabic Natural Language Understanding",
+          "url": "https://arxiv.org/abs/2609.33530v1",
+          "publishedAt": "2026-09-27T12:56:05.000Z"
+        }
+      ]
+    },
+    {
       "id": "748d9e25e79a",
       "title": "Is this the line for burgers?",
       "teaser": "On something already in the scene solving a problem outside its brief Continue reading on UX Collective »",
@@ -632,9 +652,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-25T21:51:14.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -672,35 +692,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-24T22:03:16.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "What the Bible got right about AI",
           "url": "https://uxdesign.cc/what-the-bible-got-right-about-ai-340d32b82b5c?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-24T22:03:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d6da69fcc0c2",
-      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
-      "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-03T19:19:42.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
-          "url": "https://devbar.sh",
-          "publishedAt": "2026-09-03T19:19:42.000Z"
         }
       ]
     },
@@ -745,26 +745,6 @@
       ]
     },
     {
-      "id": "21d7dc1f3a54",
-      "title": "Building A UX ROI Case That Survives The Boardroom",
-      "teaser": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-11T13:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Building A UX ROI Case That Survives The Boardroom",
-          "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
-          "publishedAt": "2026-09-11T13:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "9e0a39c8708f",
       "title": "The origins, side B — birth of the un-cool",
       "teaser": "Software adoption followed crises of complexity&#x2026; and then it kept growing Continue reading on UX Collective »",
@@ -781,26 +761,6 @@
           "title": "The origins, side B — birth of the un-cool",
           "url": "https://uxdesign.cc/the-origins-side-b-birth-of-the-un-cool-d1baf83948c8?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-23T04:04:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "21537bff3dff",
-      "title": "Using AI for UX Work: Study Guide",
-      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 25 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Using AI for UX Work: Study Guide",
-          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-04T17:00:00.000Z"
         }
       ]
     },
@@ -865,6 +825,26 @@
       ]
     },
     {
+      "id": "05d51c76f4e3",
+      "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
+      "teaser": "Hey HN, I&#x27;ve been working on this for about a year and figured it was time to share it. Visor started with my own kids. I actually think YouTube has a lot of good content for kids, but ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-04T18:56:11.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
+          "url": "https://gotvisor.com",
+          "publishedAt": "2026-09-04T18:56:11.000Z"
+        }
+      ]
+    },
+    {
       "id": "51819eaaf5d7",
       "title": "From UX to AX: How AI Agents Change Application Design",
       "teaser": "",
@@ -905,6 +885,26 @@
       ]
     },
     {
+      "id": "a5c3ec805549",
+      "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
+      "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-01T08:50:46.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
+          "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
+          "publishedAt": "2026-09-01T08:50:46.000Z"
+        }
+      ]
+    },
+    {
       "id": "96cf85b2d3c3",
       "title": "UX Conference September Announced (Sep 14 - Sep 25)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
@@ -914,7 +914,7 @@
       "publishedAt": "2026-09-01T20:37:45.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
       "sources": [
         {
           "name": "nngroup",
@@ -934,7 +934,7 @@
       "publishedAt": "2026-09-16T21:47:20.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -1010,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-29T05:18:46.508Z"
+      "fetchedAt": "2026-09-29T14:45:38.057Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-29T05:18:46.544Z"
+      "fetchedAt": "2026-09-29T14:45:38.111Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-29T05:18:46.545Z"
+      "fetchedAt": "2026-09-29T14:45:38.113Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-29T05:18:46.545Z"
+      "fetchedAt": "2026-09-29T14:45:38.114Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-29T05:18:46.546Z"
+      "fetchedAt": "2026-09-29T14:45:38.115Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-29T05:18:46.547Z"
+      "fetchedAt": "2026-09-29T14:45:38.116Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-29T05:18:46.548Z"
+      "fetchedAt": "2026-09-29T14:45:38.117Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 12,
-      "fetchedAt": "2026-09-29T05:18:46.548Z"
+      "fetchedAt": "2026-09-29T14:45:38.118Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-09-29T05:18:46.549Z"
+      "fetchedAt": "2026-09-29T14:45:38.119Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-29T05:18:46.550Z"
+      "fetchedAt": "2026-09-29T14:45:38.120Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-29T05:18:46.550Z"
+      "fetchedAt": "2026-09-29T14:45:38.121Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 1,
-      "fetchedAt": "2026-09-29T05:18:46.551Z"
+      "fetchedAt": "2026-09-29T14:45:38.122Z"
     }
   ]
 }
