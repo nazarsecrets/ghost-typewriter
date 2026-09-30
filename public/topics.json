@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-29T20:37:38.766Z",
-  "windowStart": "2026-08-30T20:37:38.766Z",
-  "windowEnd": "2026-09-29T20:37:38.766Z",
+  "generatedAt": "2026-09-30T05:06:43.164Z",
+  "windowStart": "2026-08-31T05:06:43.164Z",
+  "windowEnd": "2026-09-30T05:06:43.164Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -21,6 +21,46 @@
           "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
           "url": "https://github.com/devdotfast/whiteboard",
           "publishedAt": "2026-09-24T17:21:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "51375b94f898",
+      "title": "How to de-slopify your designs",
+      "teaser": "Tips for anyone who vibecodes. All images in this post are my original work. As AI slop continues to inundate our everyday lives, I have come to the following conclusions — People can identi",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-29T21:39:48.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "How to de-slopify your designs",
+          "url": "https://uxdesign.cc/how-to-de-slopify-your-designs-4c40c57c1dc9?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-29T21:39:48.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a802dff291c9",
+      "title": "From Neurons to Conversation: Speech Brain-Computer Interfaces",
+      "teaser": "Speech brain-computer interfaces (BCIs) aim to restore communication by transforming neural activity related to speech, language, or communicative intent into external outputs such as text, ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-29T05:10:57.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "From Neurons to Conversation: Speech Brain-Computer Interfaces",
+          "url": "https://arxiv.org/abs/2609.36736v1",
+          "publishedAt": "2026-09-29T05:10:57.000Z"
         }
       ]
     },
@@ -52,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-28T11:14:59.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-26T14:15:39.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -152,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-25T09:22:55.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -214,7 +254,7 @@
       "publishedAt": "2026-09-11T14:11:09.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 18 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -265,26 +305,6 @@
       ]
     },
     {
-      "id": "b6c1bfa429da",
-      "title": "Making the Invisible Visible: A Framework for Reflective AI Use in Software Engineering Education",
-      "teaser": "Generative AI (GenAI) is increasingly embedded in software engineering education, supporting activities such as requirements development, design exploration, documentation, and prototyping. ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T12:04:55.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Making the Invisible Visible: A Framework for Reflective AI Use in Software Engineering Education",
-          "url": "https://arxiv.org/abs/2609.34997v1",
-          "publishedAt": "2026-09-28T12:04:55.000Z"
-        }
-      ]
-    },
-    {
       "id": "8ff7897bd70b",
       "title": "UX Conference December Announced (Dec 2 - Dec 15)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15,",
@@ -301,26 +321,6 @@
           "title": "UX Conference December Announced (Dec 2 - Dec 15)",
           "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-16T06:59:19.000Z"
-        }
-      ]
-    },
-    {
-      "id": "07c583537194",
-      "title": "Scanvas: Discovering and Developing Synergistic Opportunities in Generative Design Spaces",
-      "teaser": "Good design is often synergistic, creating super-additive value by linking goals so that existing resources produce greater outcomes. However, finding these synergistic opportunities in spar",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T00:42:13.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Scanvas: Discovering and Developing Synergistic Opportunities in Generative Design Spaces",
-          "url": "https://arxiv.org/abs/2609.34062v1",
-          "publishedAt": "2026-09-28T00:42:13.000Z"
         }
       ]
     },
@@ -354,7 +354,7 @@
       "publishedAt": "2026-09-04T14:35:45.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 25 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -392,9 +392,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-28T10:16:02.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -414,7 +414,7 @@
       "publishedAt": "2026-09-07T14:35:32.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
       "sources": [
         {
           "name": "devto-design",
@@ -434,7 +434,7 @@
       "publishedAt": "2026-09-11T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
       "sources": [
         {
           "name": "nngroup",
@@ -452,9 +452,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-29T12:10:56.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -474,7 +474,7 @@
       "publishedAt": "2026-09-21T14:00:16.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -552,9 +552,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-28T15:29:15.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -585,42 +585,22 @@
       ]
     },
     {
-      "id": "cbecec58059c",
-      "title": "AI Tools Adoption across the Double Diamond Workflow: Phase, Mode, and Barriers in Designer Practice",
-      "teaser": "Designers are adopting AI faster than the tools built for them can keep up. This survey of 443 designers across 43 countries, among the first phase-disaggregated accounts of its kind, examin",
-      "tag": "Process",
+      "id": "54350fec1e22",
+      "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
+      "teaser": "",
+      "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T08:59:13.000Z",
-      "since": "yesterday",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-10T14:57:41.000Z",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "AI Tools Adoption across the Double Diamond Workflow: Phase, Mode, and Barriers in Designer Practice",
-          "url": "https://arxiv.org/abs/2609.34655v1",
-          "publishedAt": "2026-09-28T08:59:13.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a0d716622a5f",
-      "title": "E-CONAN (Entailment, CONtradition And Neutral) Diagnostics Dataset Investigating Linguistic Phenomena in Arabic Natural Language Understanding",
-      "teaser": "Natural Language Understanding (NLU) plays a crucial role in various applications, yet its performance suffers from weaknesses in handling the complexities of human languages, ranging from l",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-27T12:56:05.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "E-CONAN (Entailment, CONtradition And Neutral) Diagnostics Dataset Investigating Linguistic Phenomena in Arabic Natural Language Understanding",
-          "url": "https://arxiv.org/abs/2609.33530v1",
-          "publishedAt": "2026-09-27T12:56:05.000Z"
+          "name": "hn-designsystem",
+          "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
+          "url": "https://www.valet.dev/blog/work-that-looks-like-yours",
+          "publishedAt": "2026-09-10T14:57:41.000Z"
         }
       ]
     },
@@ -652,9 +632,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-19T16:29:03.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -685,26 +665,6 @@
       ]
     },
     {
-      "id": "d6da69fcc0c2",
-      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
-      "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-03T19:19:42.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
-          "url": "https://devbar.sh",
-          "publishedAt": "2026-09-03T19:19:42.000Z"
-        }
-      ]
-    },
-    {
       "id": "169857c0668c",
       "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
       "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
@@ -714,7 +674,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -745,66 +705,6 @@
       ]
     },
     {
-      "id": "21d7dc1f3a54",
-      "title": "Building A UX ROI Case That Survives The Boardroom",
-      "teaser": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-11T13:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Building A UX ROI Case That Survives The Boardroom",
-          "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
-          "publishedAt": "2026-09-11T13:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9e0a39c8708f",
-      "title": "The origins, side B — birth of the un-cool",
-      "teaser": "Software adoption followed crises of complexity&#x2026; and then it kept growing Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-23T04:04:28.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The origins, side B — birth of the un-cool",
-          "url": "https://uxdesign.cc/the-origins-side-b-birth-of-the-un-cool-d1baf83948c8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-23T04:04:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "21537bff3dff",
-      "title": "Using AI for UX Work: Study Guide",
-      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 25 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Using AI for UX Work: Study Guide",
-          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-04T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "314df32469b9",
       "title": "Show HN: Invader – an indie iOS podcast player that never phones home",
       "teaser": "I got tired of podcast apps with bad UX, so I built and shipped the app I always wanted for myself. Designed entirely with myself as the user in mind, from someone who&#x27;s spent ten years",
@@ -814,7 +714,7 @@
       "publishedAt": "2026-09-01T13:38:57.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -834,7 +734,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 21 days",
       "sources": [
         {
           "name": "smashing",
@@ -865,6 +765,26 @@
       ]
     },
     {
+      "id": "05d51c76f4e3",
+      "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
+      "teaser": "Hey HN, I&#x27;ve been working on this for about a year and figured it was time to share it. Visor started with my own kids. I actually think YouTube has a lot of good content for kids, but ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-04T18:56:11.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
+          "url": "https://gotvisor.com",
+          "publishedAt": "2026-09-04T18:56:11.000Z"
+        }
+      ]
+    },
+    {
       "id": "51819eaaf5d7",
       "title": "From UX to AX: How AI Agents Change Application Design",
       "teaser": "",
@@ -874,7 +794,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -901,6 +821,26 @@
           "title": "UX should just be called Experience Design",
           "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
           "publishedAt": "2026-09-15T08:01:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a5c3ec805549",
+      "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
+      "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-01T08:50:46.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
+          "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
+          "publishedAt": "2026-09-01T08:50:46.000Z"
         }
       ]
     },
@@ -954,7 +894,7 @@
       "publishedAt": "2026-09-03T14:31:41.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -974,7 +914,7 @@
       "publishedAt": "2026-09-10T14:22:41.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -985,22 +925,62 @@
       ]
     },
     {
-      "id": "777eb5ca9e1e",
-      "title": "Strata – A design system that records decisions, not components",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "d6da69fcc0c2",
+      "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+      "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-07T14:25:59.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
+      "publishedAt": "2026-09-03T19:19:42.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Strata – A design system that records decisions, not components",
-          "url": "https://github.com/Prometheus-000/strata",
-          "publishedAt": "2026-09-07T14:25:59.000Z"
+          "name": "hn-ux",
+          "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
+          "url": "https://devbar.sh",
+          "publishedAt": "2026-09-03T19:19:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "21d7dc1f3a54",
+      "title": "Building A UX ROI Case That Survives The Boardroom",
+      "teaser": "Strong UX ideas do not secure investment on their own. Through a worked example, Alex Williams breaks down how to define business value, calculate costs, test causality, and build a credible",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-11T13:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Building A UX ROI Case That Survives The Boardroom",
+          "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
+          "publishedAt": "2026-09-11T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "21537bff3dff",
+      "title": "Using AI for UX Work: Study Guide",
+      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-04T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 26 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Using AI for UX Work: Study Guide",
+          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-09-04T17:00:00.000Z"
         }
       ]
     }
@@ -1010,73 +990,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-29T20:37:38.767Z"
+      "fetchedAt": "2026-09-30T05:06:43.164Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-29T20:37:38.820Z"
+      "fetchedAt": "2026-09-30T05:06:43.217Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-29T20:37:38.821Z"
+      "fetchedAt": "2026-09-30T05:06:43.218Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-29T20:37:38.822Z"
+      "fetchedAt": "2026-09-30T05:06:43.219Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-29T20:37:38.823Z"
+      "fetchedAt": "2026-09-30T05:06:43.220Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-29T20:37:38.824Z"
+      "fetchedAt": "2026-09-30T05:06:43.221Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-29T20:37:38.825Z"
+      "fetchedAt": "2026-09-30T05:06:43.222Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 12,
-      "fetchedAt": "2026-09-29T20:37:38.826Z"
+      "fetchedAt": "2026-09-30T05:06:43.223Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 31,
-      "fetchedAt": "2026-09-29T20:37:38.827Z"
+      "items": 30,
+      "fetchedAt": "2026-09-30T05:06:43.224Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-29T20:37:38.828Z"
+      "fetchedAt": "2026-09-30T05:06:43.225Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-29T20:37:38.829Z"
+      "fetchedAt": "2026-09-30T05:06:43.226Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-29T20:37:38.830Z"
+      "fetchedAt": "2026-09-30T05:06:43.227Z"
     }
   ]
 }
