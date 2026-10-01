@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T15:18:22.265Z",
-  "windowStart": "2026-09-01T15:18:22.265Z",
-  "windowEnd": "2026-10-01T15:18:22.265Z",
+  "generatedAt": "2026-10-01T20:55:39.847Z",
+  "windowStart": "2026-09-01T20:55:39.847Z",
+  "windowEnd": "2026-10-01T20:55:39.847Z",
   "topics": [
-    {
-      "id": "545584389745",
-      "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
-      "teaser": "Silta is a self-hosted assistant serving multiple users from a single Matrix account, used by me, family, and close friends for the last three weeks. It runs on Claude Code with each person ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-01T12:11:34.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
-          "url": "https://github.com/dmitry-markin/silta",
-          "publishedAt": "2026-10-01T12:11:34.000Z"
-        }
-      ]
-    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -45,22 +25,22 @@
       ]
     },
     {
-      "id": "f1bc9fd813d2",
-      "title": "First-class design systems on a Ryanair budget",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "545584389745",
+      "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
+      "teaser": "Silta is a self-hosted assistant serving multiple users from a single Matrix account, used by me, family, and close friends for the last three weeks. It runs on Claude Code with each person ",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-01T10:33:21.000Z",
+      "publishedAt": "2026-10-01T12:11:34.000Z",
       "since": "today",
       "relevanceScore": 0.857,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "First-class design systems on a Ryanair budget",
-          "url": "https://statecraftapp.com/field-notes/first-class-on-a-ryanair-budget",
-          "publishedAt": "2026-10-01T10:33:21.000Z"
+          "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
+          "url": "https://github.com/dmitry-markin/silta",
+          "publishedAt": "2026-10-01T12:11:34.000Z"
         }
       ]
     },
@@ -172,15 +152,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-29T03:41:54.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "The strategic designer: navigating the Jevons paradox in the AI age",
           "url": "https://uxdesign.cc/the-strategic-designer-navigating-the-jevons-paradox-in-the-ai-age-e06aa836f9d8?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-29T03:41:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f1bc9fd813d2",
+      "title": "First-class design systems on a Ryanair budget",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-01T10:33:21.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "First-class design systems on a Ryanair budget",
+          "url": "https://statecraftapp.com/field-notes/first-class-on-a-ryanair-budget",
+          "publishedAt": "2026-10-01T10:33:21.000Z"
         }
       ]
     },
@@ -374,7 +374,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "nngroup",
@@ -630,11 +630,11 @@
       "teaser": "",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -692,9 +692,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-21T07:40:28.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -734,7 +734,7 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
       "sources": [
         {
           "name": "nngroup",
@@ -774,33 +774,13 @@
       "publishedAt": "2026-09-15T08:01:39.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "UX should just be called Experience Design",
           "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
           "publishedAt": "2026-09-15T08:01:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "96cf85b2d3c3",
-      "title": "UX Conference September Announced (Sep 14 - Sep 25)",
-      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. September 14 - September ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-01T20:37:45.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference September Announced (Sep 14 - Sep 25)",
-          "url": "https://www.nngroup.com/training/september/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-01T20:37:45.000Z"
         }
       ]
     },
@@ -970,73 +950,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-01T15:18:22.265Z"
+      "fetchedAt": "2026-10-01T20:55:39.848Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-01T15:18:22.297Z"
+      "fetchedAt": "2026-10-01T20:55:39.906Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-01T15:18:22.297Z"
+      "fetchedAt": "2026-10-01T20:55:39.907Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-01T15:18:22.298Z"
+      "fetchedAt": "2026-10-01T20:55:39.909Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-01T15:18:22.299Z"
+      "fetchedAt": "2026-10-01T20:55:39.909Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-01T15:18:22.299Z"
+      "fetchedAt": "2026-10-01T20:55:39.910Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-01T15:18:22.300Z"
+      "fetchedAt": "2026-10-01T20:55:39.911Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-01T15:18:22.301Z"
+      "fetchedAt": "2026-10-01T20:55:39.912Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-10-01T15:18:22.301Z"
+      "fetchedAt": "2026-10-01T20:55:39.913Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-01T15:18:22.302Z"
+      "fetchedAt": "2026-10-01T20:55:39.914Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-01T15:18:22.302Z"
+      "fetchedAt": "2026-10-01T20:55:39.915Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-01T15:18:22.303Z"
+      "fetchedAt": "2026-10-01T20:55:39.916Z"
     }
   ]
 }
