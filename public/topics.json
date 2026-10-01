@@ -1,20 +1,80 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T05:21:25.628Z",
-  "windowStart": "2026-09-01T05:21:25.628Z",
-  "windowEnd": "2026-10-01T05:21:25.628Z",
+  "generatedAt": "2026-10-01T15:18:22.265Z",
+  "windowStart": "2026-09-01T15:18:22.265Z",
+  "windowEnd": "2026-10-01T15:18:22.265Z",
   "topics": [
+    {
+      "id": "545584389745",
+      "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
+      "teaser": "Silta is a self-hosted assistant serving multiple users from a single Matrix account, used by me, family, and close friends for the last three weeks. It runs on Claude Code with each person ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-01T12:11:34.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
+          "url": "https://github.com/dmitry-markin/silta",
+          "publishedAt": "2026-10-01T12:11:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4c671c9b8eae",
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "teaser": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https:&#x2F;&#x2F;whiteboard.dev.fast&#x2F; ), an open-source desktop app where humans and agents can architect software",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Trending",
+      "publishedAt": "2026-09-24T17:21:36.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "565 engagement signals within 7 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+          "url": "https://github.com/devdotfast/whiteboard",
+          "publishedAt": "2026-09-24T17:21:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f1bc9fd813d2",
+      "title": "First-class design systems on a Ryanair budget",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-01T10:33:21.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "First-class design systems on a Ryanair budget",
+          "url": "https://statecraftapp.com/field-notes/first-class-on-a-ryanair-budget",
+          "publishedAt": "2026-10-01T10:33:21.000Z"
+        }
+      ]
+    },
     {
       "id": "5d904aff30f6",
       "title": "Federal pressure may force design education to rethink its identity",
       "teaser": "Why an earnings test raises uncomfortable questions about art, professional practice, and the value of a degree. Image source: Adobe Stock The Price of a Degree The federal government has de",
-      "tag": "Leadership",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T23:10:32.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -32,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T23:10:18.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -52,55 +112,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T23:08:19.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Intelligent Accessibility: What If Accessibility Could Adapt to You?",
           "url": "https://uxdesign.cc/intelligent-accessibility-what-if-accessibility-could-adapt-to-you-db601958ea47?source=rss----138adf9c44c---4",
           "publishedAt": "2026-09-30T23:08:19.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4c671c9b8eae",
-      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-      "teaser": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https:&#x2F;&#x2F;whiteboard.dev.fast&#x2F; ), an open-source desktop app where humans and agents can architect software",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-09-24T17:21:36.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "565 engagement signals within 6 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-          "url": "https://github.com/devdotfast/whiteboard",
-          "publishedAt": "2026-09-24T17:21:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1c769ac26451",
-      "title": "What the Bible got wrong about AI",
-      "teaser": "Michelangelo painted a Last Judgment where every soul is finally answered for. We built the first creation that arrives with no maker, no soul, no ending, and no one on the throne. The oldes",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-30T23:08:39.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What the Bible got wrong about AI",
-          "url": "https://uxdesign.cc/what-the-bible-got-wrong-about-ai-83634e21ecff?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-30T23:08:39.000Z"
         }
       ]
     },
@@ -132,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-29T21:39:48.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -194,7 +214,7 @@
       "publishedAt": "2026-09-22T22:53:01.000Z",
       "since": "1 week ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 8 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -205,16 +225,36 @@
       ]
     },
     {
+      "id": "1c769ac26451",
+      "title": "What the Bible got wrong about AI",
+      "teaser": "Michelangelo painted a Last Judgment where every soul is finally answered for. We built the first creation that arrives with no maker, no soul, no ending, and no one on the throne. The oldes",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T23:08:39.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What the Bible got wrong about AI",
+          "url": "https://uxdesign.cc/what-the-bible-got-wrong-about-ai-83634e21ecff?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-30T23:08:39.000Z"
+        }
+      ]
+    },
+    {
       "id": "e7abc36915cd",
       "title": "Holistic design systems for the AI coding era",
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-24T00:21:16.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -252,75 +292,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-28T00:29:04.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Help us fire our UI/UX designers",
           "url": "https://vosu.ai",
           "publishedAt": "2026-09-28T00:29:04.000Z"
-        }
-      ]
-    },
-    {
-      "id": "bb8344e85b0d",
-      "title": "Five-step color balancing with GenAI",
-      "teaser": "Gemini & Qualitative Data Color Scheme Design Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-30T23:11:26.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Five-step color balancing with GenAI",
-          "url": "https://uxdesign.cc/five-step-color-balancing-with-genai-60ab1ca5635e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-30T23:11:26.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a953cae2a860",
-      "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
-      "teaser": "Reference listening is a common strategy in music production, but current comparison tools often obscure a key human judgment: deciding what should be compared. We present Diptych, an AI-ass",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-30T15:30:14.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
-          "url": "https://arxiv.org/abs/2609.39963v1",
-          "publishedAt": "2026-09-30T15:30:14.000Z"
-        }
-      ]
-    },
-    {
-      "id": "250d90371b8f",
-      "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
-      "teaser": "The success of cross-subject multimodal emotion recognition hinges on maintaining the consistency of the joint data distribution across individuals. However, real-world deployment frequently",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-30T09:53:16.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
-          "url": "https://arxiv.org/abs/2609.39413v1",
-          "publishedAt": "2026-09-30T09:53:16.000Z"
         }
       ]
     },
@@ -345,26 +325,6 @@
       ]
     },
     {
-      "id": "aaeec53ff421",
-      "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-10T00:13:16.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Coinbase Design Systems Are Powering the AI Prototyping Era",
-          "url": "https://www.coinbase.com/blog/how-coinbase-design-systems-are-powering-the-ai-prototyping-era",
-          "publishedAt": "2026-09-10T00:13:16.000Z"
-        }
-      ]
-    },
-    {
       "id": "9c23ab338464",
       "title": "The UX Research Methodology subway map trap",
       "teaser": "",
@@ -374,7 +334,7 @@
       "publishedAt": "2026-09-15T01:32:15.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -392,9 +352,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-29T18:41:44.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -472,9 +432,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-27T22:06:14.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -501,6 +461,66 @@
           "title": "Common UX Design Methods, Ranked by Value",
           "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
           "publishedAt": "2026-09-28T10:16:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bb8344e85b0d",
+      "title": "Five-step color balancing with GenAI",
+      "teaser": "Gemini & Qualitative Data Color Scheme Design Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T23:11:26.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Five-step color balancing with GenAI",
+          "url": "https://uxdesign.cc/five-step-color-balancing-with-genai-60ab1ca5635e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-30T23:11:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a953cae2a860",
+      "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
+      "teaser": "Reference listening is a common strategy in music production, but current comparison tools often obscure a key human judgment: deciding what should be compared. We present Diptych, an AI-ass",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T15:30:14.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
+          "url": "https://arxiv.org/abs/2609.39963v1",
+          "publishedAt": "2026-09-30T15:30:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "250d90371b8f",
+      "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
+      "teaser": "The success of cross-subject multimodal emotion recognition hinges on maintaining the consistency of the joint data distribution across individuals. However, real-world deployment frequently",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T09:53:16.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
+          "url": "https://arxiv.org/abs/2609.39413v1",
+          "publishedAt": "2026-09-30T09:53:16.000Z"
         }
       ]
     },
@@ -592,9 +612,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-28T22:29:04.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -681,26 +701,6 @@
           "title": "Show HN: Boxy – Design System and Agent Skill for interfaces with square corners",
           "url": "http://github.avestura.dev/boxy-design-skill/",
           "publishedAt": "2026-09-21T07:40:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "314df32469b9",
-      "title": "Show HN: Invader – an indie iOS podcast player that never phones home",
-      "teaser": "I got tired of podcast apps with bad UX, so I built and shipped the app I always wanted for myself. Designed entirely with myself as the user in mind, from someone who&#x27;s spent ten years",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-01T13:38:57.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Invader – an indie iOS podcast player that never phones home",
-          "url": "https://invader.gg/",
-          "publishedAt": "2026-09-01T13:38:57.000Z"
         }
       ]
     },
@@ -794,7 +794,7 @@
       "publishedAt": "2026-09-01T20:37:45.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
       "sources": [
         {
           "name": "nngroup",
@@ -814,7 +814,7 @@
       "publishedAt": "2026-09-16T21:47:20.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -894,7 +894,7 @@
       "publishedAt": "2026-09-03T19:19:42.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -954,33 +954,13 @@
       "publishedAt": "2026-09-04T18:56:11.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
           "url": "https://gotvisor.com",
           "publishedAt": "2026-09-04T18:56:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a5c3ec805549",
-      "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
-      "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-01T08:50:46.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
-          "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
-          "publishedAt": "2026-09-01T08:50:46.000Z"
         }
       ]
     }
@@ -990,73 +970,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-01T05:21:25.628Z"
+      "fetchedAt": "2026-10-01T15:18:22.265Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-01T05:21:25.695Z"
+      "fetchedAt": "2026-10-01T15:18:22.297Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-01T05:21:25.697Z"
+      "fetchedAt": "2026-10-01T15:18:22.297Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-01T05:21:25.698Z"
+      "fetchedAt": "2026-10-01T15:18:22.298Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-01T05:21:25.699Z"
+      "fetchedAt": "2026-10-01T15:18:22.299Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-01T05:21:25.700Z"
+      "fetchedAt": "2026-10-01T15:18:22.299Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-01T05:21:25.701Z"
+      "fetchedAt": "2026-10-01T15:18:22.300Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 12,
-      "fetchedAt": "2026-10-01T05:21:25.702Z"
+      "items": 11,
+      "fetchedAt": "2026-10-01T15:18:22.301Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-10-01T05:21:25.703Z"
+      "items": 31,
+      "fetchedAt": "2026-10-01T15:18:22.301Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-01T05:21:25.704Z"
+      "fetchedAt": "2026-10-01T15:18:22.302Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-01T05:21:25.705Z"
+      "fetchedAt": "2026-10-01T15:18:22.302Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-01T05:21:25.706Z"
+      "fetchedAt": "2026-10-01T15:18:22.303Z"
     }
   ]
 }
