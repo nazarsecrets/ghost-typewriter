@@ -1,9 +1,69 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-30T20:41:27.116Z",
-  "windowStart": "2026-08-31T20:41:27.116Z",
-  "windowEnd": "2026-09-30T20:41:27.116Z",
+  "generatedAt": "2026-10-01T05:21:25.628Z",
+  "windowStart": "2026-09-01T05:21:25.628Z",
+  "windowEnd": "2026-10-01T05:21:25.628Z",
   "topics": [
+    {
+      "id": "5d904aff30f6",
+      "title": "Federal pressure may force design education to rethink its identity",
+      "teaser": "Why an earnings test raises uncomfortable questions about art, professional practice, and the value of a degree. Image source: Adobe Stock The Price of a Degree The federal government has de",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T23:10:32.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Federal pressure may force design education to rethink its identity",
+          "url": "https://uxdesign.cc/federal-pressure-may-force-design-education-to-rethink-its-identity-22d4ec56b1c2?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-30T23:10:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a2afb1b8e09d",
+      "title": "Headless AI will make every product a platform. Here’s what to consider when designing for this.",
+      "teaser": "The mockups get the design review. The agents are in the logs, never seeing a screen. AI Assisted. Chat will always be just an interface. Agents are not, and the design work has moved to the",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T23:10:18.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Headless AI will make every product a platform. Here’s what to consider when designing for this.",
+          "url": "https://uxdesign.cc/headless-ai-will-make-every-product-a-platform-heres-what-to-consider-when-designing-for-this-f219c33245c7?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-30T23:10:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3289d63889ac",
+      "title": "Intelligent Accessibility: What If Accessibility Could Adapt to You?",
+      "teaser": "Intelligent accessibility — what if accessibility could adapt to you? Exploring how AI can transform accessibility from static accommodations into adaptive, human-centered experiences Four m",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T23:08:19.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Intelligent Accessibility: What If Accessibility Could Adapt to You?",
+          "url": "https://uxdesign.cc/intelligent-accessibility-what-if-accessibility-could-adapt-to-you-db601958ea47?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-30T23:08:19.000Z"
+        }
+      ]
+    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -14,13 +74,33 @@
       "publishedAt": "2026-09-24T17:21:36.000Z",
       "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "564 engagement signals within 6 days",
+      "categoryReason": "565 engagement signals within 6 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
           "url": "https://github.com/devdotfast/whiteboard",
           "publishedAt": "2026-09-24T17:21:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1c769ac26451",
+      "title": "What the Bible got wrong about AI",
+      "teaser": "Michelangelo painted a Last Judgment where every soul is finally answered for. We built the first creation that arrives with no maker, no soul, no ending, and no one on the throne. The oldes",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T23:08:39.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What the Bible got wrong about AI",
+          "url": "https://uxdesign.cc/what-the-bible-got-wrong-about-ai-83634e21ecff?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-30T23:08:39.000Z"
         }
       ]
     },
@@ -32,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T11:14:25.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -85,26 +165,6 @@
       ]
     },
     {
-      "id": "70df49e47903",
-      "title": "Regulating AI, Quantifying stress, The variance problem",
-      "teaser": "Weekly curated resources for designers — thinkers and makers. “Congress is still writing in waterfall, stuck in a world that is quickly passing them by. It wants one comprehensive (dare I sa",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T11:14:59.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Regulating AI, Quantifying stress, The variance problem",
-          "url": "https://uxdesign.cc/regulating-ai-quantifying-stress-the-variance-problem-1ce71d56a34a?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-28T11:14:59.000Z"
-        }
-      ]
-    },
-    {
       "id": "846c8a2f2961",
       "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
       "teaser": "",
@@ -112,35 +172,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-26T14:15:39.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
           "url": "https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/",
           "publishedAt": "2026-09-26T14:15:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e6d5525702bf",
-      "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
-      "teaser": "The craft was learned at this table, one marked-up screen at a time. AI assisted, Automation is taking tasks juniors learned on. Here are seven tasks that put the practice back so we keep hu",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-27T19:38:02.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
-          "url": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-27T19:38:02.000Z"
         }
       ]
     },
@@ -185,26 +225,6 @@
       ]
     },
     {
-      "id": "a802dff291c9",
-      "title": "From Neurons to Conversation: Speech Brain-Computer Interfaces",
-      "teaser": "Speech brain-computer interfaces (BCIs) aim to restore communication by transforming neural activity related to speech, language, or communicative intent into external outputs such as text, ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-29T05:10:57.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "From Neurons to Conversation: Speech Brain-Computer Interfaces",
-          "url": "https://arxiv.org/abs/2609.36736v1",
-          "publishedAt": "2026-09-29T05:10:57.000Z"
-        }
-      ]
-    },
-    {
       "id": "7a89ba194644",
       "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
       "teaser": "Hey HN! I built Proxima Forma because sharing screenshots with my agents was not really doing the job. I am a UX Designer with a developer background so I needed a better tool. Wanted the ag",
@@ -212,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-25T09:22:55.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -245,6 +265,66 @@
       ]
     },
     {
+      "id": "bb8344e85b0d",
+      "title": "Five-step color balancing with GenAI",
+      "teaser": "Gemini & Qualitative Data Color Scheme Design Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T23:11:26.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Five-step color balancing with GenAI",
+          "url": "https://uxdesign.cc/five-step-color-balancing-with-genai-60ab1ca5635e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-09-30T23:11:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a953cae2a860",
+      "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
+      "teaser": "Reference listening is a common strategy in music production, but current comparison tools often obscure a key human judgment: deciding what should be compared. We present Diptych, an AI-ass",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T15:30:14.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
+          "url": "https://arxiv.org/abs/2609.39963v1",
+          "publishedAt": "2026-09-30T15:30:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "250d90371b8f",
+      "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
+      "teaser": "The success of cross-subject multimodal emotion recognition hinges on maintaining the consistency of the joint data distribution across individuals. However, real-world deployment frequently",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-09-30T09:53:16.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
+          "url": "https://arxiv.org/abs/2609.39413v1",
+          "publishedAt": "2026-09-30T09:53:16.000Z"
+        }
+      ]
+    },
+    {
       "id": "90b133d0735e",
       "title": "Show HN: Toolcraft – open-source AI harness and starter for building design apps",
       "teaser": "MIT-licensed, 100% free starter kit, UI library, and AI harness for building your own design apps. Works with Codex, Claude, Cursor, or any other agents. I’ve always been passionate about pu",
@@ -254,7 +334,7 @@
       "publishedAt": "2026-09-11T14:11:09.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 19 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -352,9 +432,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T10:03:43.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -374,7 +454,7 @@
       "publishedAt": "2026-09-04T14:35:45.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 26 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -412,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-28T10:16:02.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -434,7 +514,7 @@
       "publishedAt": "2026-09-07T14:35:32.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
       "sources": [
         {
           "name": "devto-design",
@@ -454,7 +534,7 @@
       "publishedAt": "2026-09-11T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "nngroup",
@@ -472,9 +552,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-29T12:10:56.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -494,7 +574,7 @@
       "publishedAt": "2026-09-21T14:00:16.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -525,66 +605,6 @@
       ]
     },
     {
-      "id": "58227654d564",
-      "title": "What makes a brand last?",
-      "teaser": "Two energy suppliers shared the same colour and cheerful voice, yet one of them went bust. A bank and a language app help explain why. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T22:28:43.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What makes a brand last?",
-          "url": "https://uxdesign.cc/what-makes-a-brand-last-baf152419576?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-28T22:28:43.000Z"
-        }
-      ]
-    },
-    {
-      "id": "73c4bca51e3b",
-      "title": "Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose",
-      "teaser": "Sparse inertial pose estimation promises camera-free motion capture from consumer devices, but consumer sensors are unreliable: firmware-fused orientations are biased, mounting varies betwee",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T17:59:22.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose",
-          "url": "https://arxiv.org/abs/2609.35764v1",
-          "publishedAt": "2026-09-28T17:59:22.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d435b29b8385",
-      "title": "Reclaiming the social in social media",
-      "teaser": "Concerns about polarization, antisocial behavior, and mental health have broadly led to two responses to social media: adapting platforms through moderation and prosocial design, and restric",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T15:29:15.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Reclaiming the social in social media",
-          "url": "https://arxiv.org/abs/2609.35413v1",
-          "publishedAt": "2026-09-28T15:29:15.000Z"
-        }
-      ]
-    },
-    {
       "id": "eea5252eb77d",
       "title": "Phyll, a UX review for apps built with AI that keeps the design",
       "teaser": "",
@@ -605,26 +625,6 @@
       ]
     },
     {
-      "id": "748d9e25e79a",
-      "title": "Is this the line for burgers?",
-      "teaser": "On something already in the scene solving a problem outside its brief Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-25T21:51:14.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Is this the line for burgers?",
-          "url": "https://uxdesign.cc/is-this-the-line-for-burgers-9730dd45999d?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-25T21:51:14.000Z"
-        }
-      ]
-    },
-    {
       "id": "1a21822c8e83",
       "title": "Props Are Not a Design System",
       "teaser": "",
@@ -634,33 +634,13 @@
       "publishedAt": "2026-09-19T16:29:03.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Props Are Not a Design System",
           "url": "https://vitonsky.net/blog/2026/09/18/design-system/",
           "publishedAt": "2026-09-19T16:29:03.000Z"
-        }
-      ]
-    },
-    {
-      "id": "585de3421b68",
-      "title": "What the Bible got right about AI",
-      "teaser": "Michelangelo painted God giving life to man. We are the ones reaching now, and the spark has become a string of code. On making minds, worshipping our own creations, and the ancient warnings",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-24T22:03:16.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What the Bible got right about AI",
-          "url": "https://uxdesign.cc/what-the-bible-got-right-about-ai-340d32b82b5c?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-24T22:03:16.000Z"
         }
       ]
     },
@@ -674,7 +654,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -714,7 +694,7 @@
       "publishedAt": "2026-09-01T13:38:57.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -734,7 +714,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
       "sources": [
         {
           "name": "smashing",
@@ -774,7 +754,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -801,26 +781,6 @@
           "title": "UX should just be called Experience Design",
           "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
           "publishedAt": "2026-09-15T08:01:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a5c3ec805549",
-      "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
-      "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-01T08:50:46.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
-          "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
-          "publishedAt": "2026-09-01T08:50:46.000Z"
         }
       ]
     },
@@ -874,7 +834,7 @@
       "publishedAt": "2026-09-03T14:31:41.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -894,7 +854,7 @@
       "publishedAt": "2026-09-10T14:22:41.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -914,7 +874,7 @@
       "publishedAt": "2026-09-10T14:57:41.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -954,7 +914,7 @@
       "publishedAt": "2026-09-11T13:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "smashing",
@@ -974,7 +934,7 @@
       "publishedAt": "2026-09-04T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 27 days",
       "sources": [
         {
           "name": "nngroup",
@@ -1003,6 +963,26 @@
           "publishedAt": "2026-09-04T18:56:11.000Z"
         }
       ]
+    },
+    {
+      "id": "a5c3ec805549",
+      "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
+      "teaser": "The question that started this was not an analytics question. It was: someone opened the page,...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-01T08:50:46.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1",
+          "url": "https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491",
+          "publishedAt": "2026-09-01T08:50:46.000Z"
+        }
+      ]
     }
   ],
   "sourceHealth": [
@@ -1010,73 +990,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-09-30T20:41:27.116Z"
+      "fetchedAt": "2026-10-01T05:21:25.628Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-30T20:41:27.174Z"
+      "fetchedAt": "2026-10-01T05:21:25.695Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-30T20:41:27.176Z"
+      "fetchedAt": "2026-10-01T05:21:25.697Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-09-30T20:41:27.177Z"
+      "fetchedAt": "2026-10-01T05:21:25.698Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-09-30T20:41:27.178Z"
+      "fetchedAt": "2026-10-01T05:21:25.699Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-30T20:41:27.179Z"
+      "fetchedAt": "2026-10-01T05:21:25.700Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-30T20:41:27.180Z"
+      "fetchedAt": "2026-10-01T05:21:25.701Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 12,
-      "fetchedAt": "2026-09-30T20:41:27.181Z"
+      "fetchedAt": "2026-10-01T05:21:25.702Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-30T20:41:27.182Z"
+      "fetchedAt": "2026-10-01T05:21:25.703Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-09-30T20:41:27.183Z"
+      "fetchedAt": "2026-10-01T05:21:25.704Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-09-30T20:41:27.183Z"
+      "fetchedAt": "2026-10-01T05:21:25.705Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-09-30T20:41:27.185Z"
+      "fetchedAt": "2026-10-01T05:21:25.706Z"
     }
   ]
 }
