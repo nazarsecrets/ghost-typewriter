@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-01T20:55:39.847Z",
-  "windowStart": "2026-09-01T20:55:39.847Z",
-  "windowEnd": "2026-10-01T20:55:39.847Z",
+  "generatedAt": "2026-10-02T05:09:26.944Z",
+  "windowStart": "2026-09-02T05:09:26.944Z",
+  "windowEnd": "2026-10-02T05:09:26.944Z",
   "topics": [
+    {
+      "id": "6c52cfde065a",
+      "title": "Stop blaming the model for slow AI. Using Doherty’s threshold as a guideline.",
+      "teaser": "Two eras of computing, held to the same 400 millisecond standard. Doherty’s threshold set the rules and has now moved from the answer to the acknowledgment. The fix is a week of front-end wo",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-01T22:52:26.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Stop blaming the model for slow AI. Using Doherty’s threshold as a guideline.",
+          "url": "https://uxdesign.cc/stop-blaming-the-model-for-slow-ai-heres-how-to-design-for-it-doherty-s-threshold-as-a-guideline-5fa6d52e23fc?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-01T22:52:26.000Z"
+        }
+      ]
+    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -25,6 +45,26 @@
       ]
     },
     {
+      "id": "d6c8b53d931b",
+      "title": "Design’s consensus was AI’s first casualty",
+      "teaser": "The same evidence about AI is being read two opposite ways, and designers are left choosing between them without a clear consensus to lean&#x2026; Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-01T22:51:02.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Design’s consensus was AI’s first casualty",
+          "url": "https://uxdesign.cc/designs-consensus-was-ai-s-first-casualty-8143c1bada80?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-01T22:51:02.000Z"
+        }
+      ]
+    },
+    {
       "id": "545584389745",
       "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
       "teaser": "Silta is a self-hosted assistant serving multiple users from a single Matrix account, used by me, family, and close friends for the last three weeks. It runs on Claude Code with each person ",
@@ -32,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T12:11:34.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -112,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T11:14:25.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -145,26 +185,6 @@
       ]
     },
     {
-      "id": "e6a5c957711c",
-      "title": "The strategic designer: navigating the Jevons paradox in the AI age",
-      "teaser": "From specialist makers to strategic orchestrators: why compressing execution time increases the demand for design vision, systems thinking&#x2026; Continue reading on UX Collective »",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-29T03:41:54.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The strategic designer: navigating the Jevons paradox in the AI age",
-          "url": "https://uxdesign.cc/the-strategic-designer-navigating-the-jevons-paradox-in-the-ai-age-e06aa836f9d8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-29T03:41:54.000Z"
-        }
-      ]
-    },
-    {
       "id": "f1bc9fd813d2",
       "title": "First-class design systems on a Ryanair budget",
       "teaser": "",
@@ -172,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T10:33:21.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -192,9 +212,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-26T14:15:39.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -272,9 +292,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-25T09:22:55.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -305,6 +325,26 @@
       ]
     },
     {
+      "id": "1e79c813e5b4",
+      "title": "AI beyond average: from chatting to collaborating",
+      "teaser": "How context, skills, and feedback turn the same model into a different kind of collaborator Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-01T22:49:51.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI beyond average: from chatting to collaborating",
+          "url": "https://uxdesign.cc/ai-beyond-average-from-chatting-to-collaborating-7b308dd9317a?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-01T22:49:51.000Z"
+        }
+      ]
+    },
+    {
       "id": "90b133d0735e",
       "title": "Show HN: Toolcraft – open-source AI harness and starter for building design apps",
       "teaser": "MIT-licensed, 100% free starter kit, UI library, and AI harness for building your own design apps. Works with Codex, Claude, Cursor, or any other agents. I’ve always been passionate about pu",
@@ -314,7 +354,7 @@
       "publishedAt": "2026-09-11T14:11:09.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -392,9 +432,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T10:03:43.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -414,7 +454,7 @@
       "publishedAt": "2026-09-04T14:35:45.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 27 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -452,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-28T10:16:02.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -492,35 +532,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T15:30:14.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
           "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
           "url": "https://arxiv.org/abs/2609.39963v1",
           "publishedAt": "2026-09-30T15:30:14.000Z"
-        }
-      ]
-    },
-    {
-      "id": "250d90371b8f",
-      "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
-      "teaser": "The success of cross-subject multimodal emotion recognition hinges on maintaining the consistency of the joint data distribution across individuals. However, real-world deployment frequently",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-30T09:53:16.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Aligning the Incomplete: Joint Distribution Calibration for Multimodal EEG-Eye Emotion Recognition",
-          "url": "https://arxiv.org/abs/2609.39413v1",
-          "publishedAt": "2026-09-30T09:53:16.000Z"
         }
       ]
     },
@@ -532,9 +552,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-07T14:35:32.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-design",
@@ -554,33 +574,13 @@
       "publishedAt": "2026-09-11T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "Test Complex Interactions Earlier with AI Prototyping",
           "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-09-11T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9c869b466922",
-      "title": "If you want to design for underserved users, look at farmers’ markets",
-      "teaser": "The bottom third model, and why your help patterns miss the users who need them most Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-29T12:10:56.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "If you want to design for underserved users, look at farmers’ markets",
-          "url": "https://uxdesign.cc/if-you-want-to-design-for-underserved-users-look-at-farmers-markets-eefaedb35607?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-29T12:10:56.000Z"
         }
       ]
     },
@@ -592,35 +592,15 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-21T14:00:16.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
           "url": "https://deepanwadhwa.github.io/OpenDecision/",
           "publishedAt": "2026-09-21T14:00:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d813199b7167",
-      "title": "The next larger context",
-      "teaser": "Designing beyond the interface, the product, and the prompt Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-28T22:29:04.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The next larger context",
-          "url": "https://uxdesign.cc/the-next-larger-context-4dd0c91a7c5b?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-28T22:29:04.000Z"
         }
       ]
     },
@@ -654,7 +634,7 @@
       "publishedAt": "2026-09-19T16:29:03.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -672,9 +652,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-14T15:57:09.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -714,7 +694,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
       "sources": [
         {
           "name": "smashing",
@@ -754,7 +734,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -814,33 +794,13 @@
       "publishedAt": "2026-09-03T14:31:41.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 29 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Mu – an agent with actual command line experience",
           "url": "https://github.com/ylxdzsw/mu",
           "publishedAt": "2026-09-03T14:31:41.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b4f882fa4584",
-      "title": "Quantum Black Design System: an open source release by McKinsey",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-10T14:22:41.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Quantum Black Design System: an open source release by McKinsey",
-          "url": "https://medium.com/quantumblack/announcing-quantumblack-design-system-opensourcing-7dfaf3f8e207",
-          "publishedAt": "2026-09-10T14:22:41.000Z"
         }
       ]
     },
@@ -854,7 +814,7 @@
       "publishedAt": "2026-09-10T14:57:41.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -894,7 +854,7 @@
       "publishedAt": "2026-09-11T13:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "smashing",
@@ -914,7 +874,7 @@
       "publishedAt": "2026-09-04T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 28 days",
       "sources": [
         {
           "name": "nngroup",
@@ -950,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-01T20:55:39.848Z"
+      "fetchedAt": "2026-10-02T05:09:26.944Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-01T20:55:39.906Z"
+      "fetchedAt": "2026-10-02T05:09:26.980Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-01T20:55:39.907Z"
+      "fetchedAt": "2026-10-02T05:09:26.981Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-01T20:55:39.909Z"
+      "fetchedAt": "2026-10-02T05:09:26.982Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-01T20:55:39.909Z"
+      "fetchedAt": "2026-10-02T05:09:26.982Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-01T20:55:39.910Z"
+      "fetchedAt": "2026-10-02T05:09:26.983Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-01T20:55:39.911Z"
+      "fetchedAt": "2026-10-02T05:09:26.984Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-01T20:55:39.912Z"
+      "fetchedAt": "2026-10-02T05:09:26.984Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-10-01T20:55:39.913Z"
+      "fetchedAt": "2026-10-02T05:09:26.985Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-01T20:55:39.914Z"
+      "fetchedAt": "2026-10-02T05:09:26.986Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-01T20:55:39.915Z"
+      "fetchedAt": "2026-10-02T05:09:26.986Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-01T20:55:39.916Z"
+      "fetchedAt": "2026-10-02T05:09:26.987Z"
     }
   ]
 }
