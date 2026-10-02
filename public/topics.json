@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-02T14:38:00.348Z",
-  "windowStart": "2026-09-02T14:38:00.348Z",
-  "windowEnd": "2026-10-02T14:38:00.348Z",
+  "generatedAt": "2026-10-02T20:34:48.534Z",
+  "windowStart": "2026-09-02T20:34:48.534Z",
+  "windowEnd": "2026-10-02T20:34:48.534Z",
   "topics": [
-    {
-      "id": "94b1e4c68ab4",
-      "title": "In/tension modeling: what gives us the right?",
-      "teaser": "How to navigate opposing voices and lived tensions. By Julia Beard , Naman Mandhan, & Stacie Sheldon Asking the Hardest Question First “What gives us the right to make the interventions and ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-02T11:09:56.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "In/tension modeling: what gives us the right?",
-          "url": "https://uxdesign.cc/in-tension-modeling-what-gives-us-the-right-01740248eb45?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-02T11:09:56.000Z"
-        }
-      ]
-    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -41,6 +21,26 @@
           "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
           "url": "https://github.com/devdotfast/whiteboard",
           "publishedAt": "2026-09-24T17:21:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "94b1e4c68ab4",
+      "title": "In/tension modeling: what gives us the right?",
+      "teaser": "How to navigate opposing voices and lived tensions. By Julia Beard , Naman Mandhan, & Stacie Sheldon Asking the Hardest Question First “What gives us the right to make the interventions and ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-02T11:09:56.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "In/tension modeling: what gives us the right?",
+          "url": "https://uxdesign.cc/in-tension-modeling-what-gives-us-the-right-01740248eb45?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-02T11:09:56.000Z"
         }
       ]
     },
@@ -305,6 +305,26 @@
       ]
     },
     {
+      "id": "41b123757eeb",
+      "title": "Empathy Mapping: The First Step in Design Thinking",
+      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-02T17:00:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Empathy Mapping: The First Step in Design Thinking",
+          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-02T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "d6c8b53d931b",
       "title": "Design’s consensus was AI’s first casualty",
       "teaser": "The same evidence about AI is being read two opposite ways, leaving designers to choose without a clear consensus to lean on. Continue reading on UX Collective »",
@@ -394,7 +414,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "nngroup",
@@ -614,7 +634,7 @@
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -674,7 +694,7 @@
       "publishedAt": "2026-09-21T07:40:28.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -714,7 +734,7 @@
       "publishedAt": "2026-09-03T04:50:49.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
       "sources": [
         {
           "name": "nngroup",
@@ -752,9 +772,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -801,26 +821,6 @@
           "title": "Show HN: Mu – an agent with actual command line experience",
           "url": "https://github.com/ylxdzsw/mu",
           "publishedAt": "2026-09-03T14:31:41.000Z"
-        }
-      ]
-    },
-    {
-      "id": "54350fec1e22",
-      "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-10T14:57:41.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Give Agents your design system to build artifacts you're proud of",
-          "url": "https://www.valet.dev/blog/work-that-looks-like-yours",
-          "publishedAt": "2026-09-10T14:57:41.000Z"
         }
       ]
     },
@@ -910,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-02T14:38:00.349Z"
+      "fetchedAt": "2026-10-02T20:34:48.534Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-02T14:38:00.401Z"
+      "fetchedAt": "2026-10-02T20:34:48.593Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-02T14:38:00.403Z"
+      "fetchedAt": "2026-10-02T20:34:48.594Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-02T14:38:00.404Z"
+      "fetchedAt": "2026-10-02T20:34:48.595Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-02T14:38:00.405Z"
+      "fetchedAt": "2026-10-02T20:34:48.596Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-02T14:38:00.406Z"
+      "fetchedAt": "2026-10-02T20:34:48.597Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-02T14:38:00.406Z"
+      "fetchedAt": "2026-10-02T20:34:48.598Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-02T14:38:00.407Z"
+      "fetchedAt": "2026-10-02T20:34:48.599Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-10-02T14:38:00.408Z"
+      "fetchedAt": "2026-10-02T20:34:48.600Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-02T14:38:00.409Z"
+      "fetchedAt": "2026-10-02T20:34:48.601Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-02T14:38:00.410Z"
+      "fetchedAt": "2026-10-02T20:34:48.602Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-02T14:38:00.411Z"
+      "fetchedAt": "2026-10-02T20:34:48.603Z"
     }
   ]
 }
