@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-03T13:13:43.368Z",
-  "windowStart": "2026-09-03T13:13:43.368Z",
-  "windowEnd": "2026-10-03T13:13:43.368Z",
+  "generatedAt": "2026-10-03T19:07:40.923Z",
+  "windowStart": "2026-09-03T19:07:40.923Z",
+  "windowEnd": "2026-10-03T19:07:40.923Z",
   "topics": [
-    {
-      "id": "03ad655b6c34",
-      "title": "The feed I produce myself",
-      "teaser": "On working with agents, producing more than ever, and losing the ability to see anything whole. Maestro, we have six more deliveries ready — Created by the author with AI I'm writing this on",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-03T11:12:42.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The feed I produce myself",
-          "url": "https://uxdesign.cc/the-feed-i-produce-myself-11e4192f394c?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-03T11:12:42.000Z"
-        }
-      ]
-    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -41,6 +21,26 @@
           "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
           "url": "https://github.com/devdotfast/whiteboard",
           "publishedAt": "2026-09-24T17:21:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "03ad655b6c34",
+      "title": "The feed I produce myself",
+      "teaser": "On working with agents, producing more than ever, and losing the ability to see anything whole. Maestro, we have six more deliveries ready — Created by the author with AI I'm writing this on",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-03T11:12:42.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The feed I produce myself",
+          "url": "https://uxdesign.cc/the-feed-i-produce-myself-11e4192f394c?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-03T11:12:42.000Z"
         }
       ]
     },
@@ -67,7 +67,7 @@
     {
       "id": "6c52cfde065a",
       "title": "Stop blaming the model for slow AI. Using Doherty’s threshold as a guideline.",
-      "teaser": "Two eras of computing, held to the same 400 millisecond standard. Doherty’s threshold set the rules and has now moved from the answer to the acknowledgment. The fix is a week of front-end wo",
+      "teaser": "Two eras of computing, held to the same 400 millisecond standard. Stop blaming the model for slow AI. Use Doherty’s threshold as a guideline. Doherty’s threshold set the rules and has now mo",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
@@ -374,7 +374,7 @@
       "publishedAt": "2026-09-15T01:32:15.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -401,26 +401,6 @@
           "title": "Password Reset UX: Make Recovery Clear and Safe",
           "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
           "publishedAt": "2026-09-29T18:41:44.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8ff7897bd70b",
-      "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15,",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-16T06:59:19.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-          "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-16T06:59:19.000Z"
         }
       ]
     },
@@ -461,26 +441,6 @@
           "title": "Show HN: Learn/Practice Sudoku strategies web app",
           "url": "https://sw-fun.github.io/sudoku/",
           "publishedAt": "2026-09-04T14:35:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "41b123757eeb",
-      "title": "Empathy Mapping: The First Step in Design Thinking",
-      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Empathy Mapping: The First Step in Design Thinking",
-          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-02T17:00:00.000Z"
         }
       ]
     },
@@ -581,46 +541,6 @@
           "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
           "url": "https://arxiv.org/abs/2609.39963v1",
           "publishedAt": "2026-09-30T15:30:14.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1ab71cb3a234",
-      "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
-      "teaser": "Technical considerations in the design of the Obra shadcn/ui kit Thursday last week, Figma released...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-07T14:35:32.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Opacity within variables, and how it affects a shadcn design system token implementation",
-          "url": "https://dev.to/wolfr/opacity-within-variables-and-how-it-affects-a-shadcn-design-system-token-implementation-3ehg",
-          "publishedAt": "2026-09-07T14:35:32.000Z"
-        }
-      ]
-    },
-    {
-      "id": "172170421eb1",
-      "title": "Test Complex Interactions Earlier with AI Prototyping",
-      "teaser": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-11T17:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Test Complex Interactions Earlier with AI Prototyping",
-          "url": "https://www.nngroup.com/articles/test-earlier-with-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-11T17:00:00.000Z"
         }
       ]
     },
@@ -805,26 +725,6 @@
       ]
     },
     {
-      "id": "2a6d5002970c",
-      "title": "Show HN: Mu – an agent with actual command line experience",
-      "teaser": "I&#x27;m an old school user that finds the AI agent TUIs too magical, so I experimented with a new agent UX. I implement mu as a shell plugin (zsh and fish for now). Pressing Tab enters agen",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-03T14:31:41.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Mu – an agent with actual command line experience",
-          "url": "https://github.com/ylxdzsw/mu",
-          "publishedAt": "2026-09-03T14:31:41.000Z"
-        }
-      ]
-    },
-    {
       "id": "d6da69fcc0c2",
       "title": "Show HN: Devbar – Point at what to change. Leave a comment. Your agent ships it",
       "teaser": "I built this toolbar to power my agentic ui&#x2F;ux design flows. Too many times I found myself copy&#x2F;pasting screenshots into Claude. Use devbar to select elements on a page, leave your",
@@ -865,26 +765,6 @@
       ]
     },
     {
-      "id": "21537bff3dff",
-      "title": "Using AI for UX Work: Study Guide",
-      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Using AI for UX Work: Study Guide",
-          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-04T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "05d51c76f4e3",
       "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
       "teaser": "Hey HN, I&#x27;ve been working on this for about a year and figured it was time to share it. Visor started with my own kids. I actually think YouTube has a lot of good content for kids, but ",
@@ -910,73 +790,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-03T13:13:43.369Z"
+      "fetchedAt": "2026-10-03T19:07:40.924Z"
     },
     {
       "source": "nngroup",
-      "ok": true,
-      "items": 20,
-      "fetchedAt": "2026-10-03T13:13:43.421Z"
+      "ok": false,
+      "items": 0,
+      "fetchedAt": "2026-10-03T19:07:40.977Z",
+      "error": "fetch failed"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-03T13:13:43.422Z"
+      "fetchedAt": "2026-10-03T19:07:40.979Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-03T13:13:43.423Z"
+      "fetchedAt": "2026-10-03T19:07:40.980Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-03T13:13:43.424Z"
+      "fetchedAt": "2026-10-03T19:07:40.981Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-03T13:13:43.425Z"
+      "fetchedAt": "2026-10-03T19:07:40.982Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-03T13:13:43.426Z"
+      "fetchedAt": "2026-10-03T19:07:40.983Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 12,
-      "fetchedAt": "2026-10-03T13:13:43.427Z"
+      "items": 11,
+      "fetchedAt": "2026-10-03T19:07:40.984Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-10-03T13:13:43.428Z"
+      "fetchedAt": "2026-10-03T19:07:40.985Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-03T13:13:43.429Z"
+      "fetchedAt": "2026-10-03T19:07:40.986Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-03T13:13:43.430Z"
+      "fetchedAt": "2026-10-03T19:07:40.987Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-03T13:13:43.431Z"
+      "fetchedAt": "2026-10-03T19:07:40.988Z"
     }
   ]
 }
