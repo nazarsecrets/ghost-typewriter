@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-02T20:34:48.534Z",
-  "windowStart": "2026-09-02T20:34:48.534Z",
-  "windowEnd": "2026-10-02T20:34:48.534Z",
+  "generatedAt": "2026-10-03T04:51:55.746Z",
+  "windowStart": "2026-09-03T04:51:55.746Z",
+  "windowEnd": "2026-10-03T04:51:55.746Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -25,6 +25,26 @@
       ]
     },
     {
+      "id": "efc6d06ff054",
+      "title": "LF UX Designer – Bay Area Hybrid",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-02T20:43:52.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "LF UX Designer – Bay Area Hybrid",
+          "url": "https://vuetech.sh/careers",
+          "publishedAt": "2026-10-02T20:43:52.000Z"
+        }
+      ]
+    },
+    {
       "id": "94b1e4c68ab4",
       "title": "In/tension modeling: what gives us the right?",
       "teaser": "How to navigate opposing voices and lived tensions. By Julia Beard , Naman Mandhan, & Stacie Sheldon Asking the Hardest Question First “What gives us the right to make the interventions and ",
@@ -32,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-02T11:09:56.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T12:11:34.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -152,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T11:14:25.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -172,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T10:33:21.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -192,9 +212,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-26T14:15:39.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -270,11 +290,11 @@
       "teaser": "Hey HN! I built Proxima Forma because sharing screenshots with my agents was not really doing the job. I am a UX Designer with a developer background so I needed a better tool. Wanted the ag",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -301,26 +321,6 @@
           "title": "Show HN: Help us fire our UI/UX designers",
           "url": "https://vosu.ai",
           "publishedAt": "2026-09-28T00:29:04.000Z"
-        }
-      ]
-    },
-    {
-      "id": "41b123757eeb",
-      "title": "Empathy Mapping: The First Step in Design Thinking",
-      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Empathy Mapping: The First Step in Design Thinking",
-          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-02T17:00:00.000Z"
         }
       ]
     },
@@ -354,7 +354,7 @@
       "publishedAt": "2026-09-11T14:11:09.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 21 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -432,9 +432,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T10:03:43.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -454,13 +454,33 @@
       "publishedAt": "2026-09-04T14:35:45.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 28 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 29 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Learn/Practice Sudoku strategies web app",
           "url": "https://sw-fun.github.io/sudoku/",
           "publishedAt": "2026-09-04T14:35:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "41b123757eeb",
+      "title": "Empathy Mapping: The First Step in Design Thinking",
+      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-02T17:00:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Empathy Mapping: The First Step in Design Thinking",
+          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-02T17:00:00.000Z"
         }
       ]
     },
@@ -512,9 +532,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-28T10:16:02.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -552,9 +572,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T15:30:14.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -574,7 +594,7 @@
       "publishedAt": "2026-09-07T14:35:32.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-design",
@@ -614,7 +634,7 @@
       "publishedAt": "2026-09-21T14:00:16.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -654,7 +674,7 @@
       "publishedAt": "2026-09-19T16:29:03.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -674,7 +694,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -714,33 +734,13 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
       "sources": [
         {
           "name": "smashing",
           "title": "The Death Of The Button: Why The Best Interface Is No Interface",
           "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
           "publishedAt": "2026-09-09T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "6fb9ef47bcea",
-      "title": "UX Conference November Announced (Nov 16 - Nov 19)",
-      "teaser": "Take up to 2 in-depth training courses, teaching user experience best practices for successful design. Live online training focused on long-lasting skills for UX professionals. Nov 16 - Nov ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-03T04:50:49.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference November Announced (Nov 16 - Nov 19)",
-          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-03T04:50:49.000Z"
         }
       ]
     },
@@ -754,7 +754,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -814,7 +814,7 @@
       "publishedAt": "2026-09-03T14:31:41.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -854,7 +854,7 @@
       "publishedAt": "2026-09-11T13:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "smashing",
@@ -910,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-02T20:34:48.534Z"
+      "fetchedAt": "2026-10-03T04:51:55.747Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-02T20:34:48.593Z"
+      "fetchedAt": "2026-10-03T04:51:55.806Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-02T20:34:48.594Z"
+      "fetchedAt": "2026-10-03T04:51:55.807Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-02T20:34:48.595Z"
+      "fetchedAt": "2026-10-03T04:51:55.808Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-02T20:34:48.596Z"
+      "fetchedAt": "2026-10-03T04:51:55.809Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-02T20:34:48.597Z"
+      "fetchedAt": "2026-10-03T04:51:55.810Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-02T20:34:48.598Z"
+      "fetchedAt": "2026-10-03T04:51:55.811Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 11,
-      "fetchedAt": "2026-10-02T20:34:48.599Z"
+      "items": 12,
+      "fetchedAt": "2026-10-03T04:51:55.812Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 31,
-      "fetchedAt": "2026-10-02T20:34:48.600Z"
+      "fetchedAt": "2026-10-03T04:51:55.813Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-02T20:34:48.601Z"
+      "fetchedAt": "2026-10-03T04:51:55.814Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-02T20:34:48.602Z"
+      "fetchedAt": "2026-10-03T04:51:55.815Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-02T20:34:48.603Z"
+      "fetchedAt": "2026-10-03T04:51:55.816Z"
     }
   ]
 }
