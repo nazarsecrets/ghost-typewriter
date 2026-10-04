@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T13:51:50.315Z",
-  "windowStart": "2026-09-04T13:51:50.315Z",
-  "windowEnd": "2026-10-04T13:51:50.315Z",
+  "generatedAt": "2026-10-04T19:24:10.425Z",
+  "windowStart": "2026-09-04T19:24:10.425Z",
+  "windowEnd": "2026-10-04T19:24:10.425Z",
   "topics": [
+    {
+      "id": "9a2c9028d328",
+      "title": "Design Systems for AI Agents",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-04T15:55:03.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design Systems for AI Agents",
+          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+          "publishedAt": "2026-10-04T15:55:03.000Z"
+        }
+      ]
+    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -145,26 +165,6 @@
       ]
     },
     {
-      "id": "3289d63889ac",
-      "title": "Intelligent Accessibility: What If Accessibility Could Adapt to You?",
-      "teaser": "Intelligent accessibility — what if accessibility could adapt to you? Exploring how AI can transform accessibility from static accommodations into adaptive, human-centered experiences Four m",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-30T23:08:19.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Intelligent Accessibility: What If Accessibility Could Adapt to You?",
-          "url": "https://uxdesign.cc/intelligent-accessibility-what-if-accessibility-could-adapt-to-you-db601958ea47?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-30T23:08:19.000Z"
-        }
-      ]
-    },
-    {
       "id": "f1bc9fd813d2",
       "title": "First-class design systems on a Ryanair budget",
       "teaser": "",
@@ -201,26 +201,6 @@
           "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
           "url": "https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/",
           "publishedAt": "2026-09-26T14:15:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3bb0a370b514",
-      "title": "Show HN: Colorful Design System for Agents",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Colorful Design System for Agents",
-          "url": "https://orbeez-kit.vercel.app/chat",
-          "publishedAt": "2026-10-04T12:41:33.000Z"
         }
       ]
     },
@@ -305,6 +285,26 @@
       ]
     },
     {
+      "id": "660013c92cd9",
+      "title": "The building was there first",
+      "teaser": "A style&#x2019;s real output isn&#x2019;t what it makes. It&#x2019;s the category it installs in whoever looks. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-04T14:34:28.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The building was there first",
+          "url": "https://uxdesign.cc/the-building-was-there-first-26c6c4e49ba8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-04T14:34:28.000Z"
+        }
+      ]
+    },
+    {
       "id": "7a89ba194644",
       "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
       "teaser": "Hey HN! I built Proxima Forma because sharing screenshots with my agents was not really doing the job. I am a UX Designer with a developer background so I needed a better tool. Wanted the ag",
@@ -365,6 +365,26 @@
       ]
     },
     {
+      "id": "3bb0a370b514",
+      "title": "Show HN: Colorful Design System for Agents",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-04T12:41:33.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Colorful Design System for Agents",
+          "url": "https://orbeez-kit.vercel.app/chat",
+          "publishedAt": "2026-10-04T12:41:33.000Z"
+        }
+      ]
+    },
+    {
       "id": "9c23ab338464",
       "title": "The UX Research Methodology subway map trap",
       "teaser": "",
@@ -414,7 +434,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
       "sources": [
         {
           "name": "nngroup",
@@ -441,26 +461,6 @@
           "title": "How to Sync a Design System with Claude Design",
           "url": "https://nitayneeman.com/blog/how-to-sync-a-design-system-with-claude-design/",
           "publishedAt": "2026-09-30T10:03:43.000Z"
-        }
-      ]
-    },
-    {
-      "id": "ff077aa966ed",
-      "title": "Show HN: Learn/Practice Sudoku strategies web app",
-      "teaser": "So, I wanted to get better at Sudoku puzzles, and I watched a lot of strategy videos, but I just could not grok them. Also I installed a bunch of free Sudoku games on my phone and got very (",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T14:35:45.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Learn/Practice Sudoku strategies web app",
-          "url": "https://sw-fun.github.io/sudoku/",
-          "publishedAt": "2026-09-04T14:35:45.000Z"
         }
       ]
     },
@@ -803,46 +803,6 @@
           "publishedAt": "2026-09-11T13:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "21537bff3dff",
-      "title": "Using AI for UX Work: Study Guide",
-      "teaser": "Unsure where to start? Use this collection of links to our articles and videos to learn about the best ways to use artificial intelligence for UX work.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Using AI for UX Work: Study Guide",
-          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-09-04T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "05d51c76f4e3",
-      "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
-      "teaser": "Hey HN, I&#x27;ve been working on this for about a year and figured it was time to share it. Visor started with my own kids. I actually think YouTube has a lot of good content for kids, but ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-04T18:56:11.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Visor – YouTube for kids, with channels approved by parents",
-          "url": "https://gotvisor.com",
-          "publishedAt": "2026-09-04T18:56:11.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -850,73 +810,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-04T13:51:50.315Z"
+      "fetchedAt": "2026-10-04T19:24:10.425Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-04T13:51:50.353Z"
+      "fetchedAt": "2026-10-04T19:24:10.480Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-04T13:51:50.354Z"
+      "fetchedAt": "2026-10-04T19:24:10.482Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-04T13:51:50.354Z"
+      "fetchedAt": "2026-10-04T19:24:10.483Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-04T13:51:50.355Z"
+      "fetchedAt": "2026-10-04T19:24:10.484Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-04T13:51:50.356Z"
+      "fetchedAt": "2026-10-04T19:24:10.485Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-04T13:51:50.356Z"
+      "fetchedAt": "2026-10-04T19:24:10.486Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 10,
-      "fetchedAt": "2026-10-04T13:51:50.357Z"
+      "items": 8,
+      "fetchedAt": "2026-10-04T19:24:10.486Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 32,
-      "fetchedAt": "2026-10-04T13:51:50.357Z"
+      "items": 33,
+      "fetchedAt": "2026-10-04T19:24:10.487Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-04T13:51:50.358Z"
+      "fetchedAt": "2026-10-04T19:24:10.488Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-04T13:51:50.358Z"
+      "fetchedAt": "2026-10-04T19:24:10.489Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-04T13:51:50.359Z"
+      "fetchedAt": "2026-10-04T19:24:10.490Z"
     }
   ]
 }
