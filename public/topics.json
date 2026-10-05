@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-04T19:24:10.425Z",
-  "windowStart": "2026-09-04T19:24:10.425Z",
-  "windowEnd": "2026-10-04T19:24:10.425Z",
+  "generatedAt": "2026-10-05T05:07:50.862Z",
+  "windowStart": "2026-09-05T05:07:50.862Z",
+  "windowEnd": "2026-10-05T05:07:50.862Z",
   "topics": [
-    {
-      "id": "9a2c9028d328",
-      "title": "Design Systems for AI Agents",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-04T15:55:03.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Design Systems for AI Agents",
-          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
-          "publishedAt": "2026-10-04T15:55:03.000Z"
-        }
-      ]
-    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -45,6 +25,46 @@
       ]
     },
     {
+      "id": "9a2c9028d328",
+      "title": "Design Systems for AI Agents",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-04T15:55:03.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design Systems for AI Agents",
+          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+          "publishedAt": "2026-10-04T15:55:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ce5b3c7bf9e5",
+      "title": "Show HN: Build with Python – a beginner course where your code draws",
+      "teaser": "Hi HN, I built this because I watched my daughter struggle at learning Python. I made something that runs only in the browser with visuals rather than relying on CLI&#x2F;terminal output. No",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Trending",
+      "publishedAt": "2026-10-04T18:59:25.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "42 engagement signals within 0 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Build with Python – a beginner course where your code draws",
+          "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
+          "publishedAt": "2026-10-04T18:59:25.000Z"
+        }
+      ]
+    },
+    {
       "id": "03ad655b6c34",
       "title": "The feed I produce myself",
       "teaser": "On working with agents, producing more than ever, and losing the ability to see anything whole. Maestro, we have six more deliveries ready — Created by the author with AI I'm writing this on",
@@ -52,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-03T11:12:42.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-02T11:09:56.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -105,6 +125,26 @@
       ]
     },
     {
+      "id": "1effd00f10b9",
+      "title": "\"I'm trying not to get hacked:\" How Adults with Intellectual and Developmental Disabilities Navigate Security and Privacy Notifications",
+      "teaser": "Security and privacy notifications, such as login alerts, spam email warnings, and cookie consent requests, play a critical role in shaping users' responses to digital risks. Yet most notifi",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-01T18:53:49.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "\"I'm trying not to get hacked:\" How Adults with Intellectual and Developmental Disabilities Navigate Security and Privacy Notifications",
+          "url": "https://arxiv.org/abs/2610.02374v1",
+          "publishedAt": "2026-10-01T18:53:49.000Z"
+        }
+      ]
+    },
+    {
       "id": "545584389745",
       "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
       "teaser": "Silta is a self-hosted assistant serving multiple users from a single Matrix account, used by me, family, and close friends for the last three weeks. It runs on Claude Code with each person ",
@@ -112,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T12:11:34.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -172,9 +212,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T10:33:21.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -194,13 +234,73 @@
       "publishedAt": "2026-09-26T14:15:39.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
           "url": "https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/",
           "publishedAt": "2026-09-26T14:15:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "40a2a2370c5b",
+      "title": "Seeing through the Eyes of AI: Situated Explainability in Augmented Reality",
+      "teaser": "Explainable Artificial Intelligence (AI) enables humans to understand and interpret decisions of AI models. Instead of having a black box, explainability supports humans in understanding AI ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-02T12:43:46.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Seeing through the Eyes of AI: Situated Explainability in Augmented Reality",
+          "url": "https://arxiv.org/abs/2610.03232v1",
+          "publishedAt": "2026-10-02T12:43:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9d8e453b9c76",
+      "title": "LearnAdapt Praxis: Controlled AI Assistance and Evidence Traces for Adult Workplace Learning",
+      "teaser": "AI can help adults produce plausible workplace artefacts while leaving their independent reasoning difficult to inspect. LearnAdapt Praxis addresses this design problem through a five-stage ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-02T02:31:50.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "LearnAdapt Praxis: Controlled AI Assistance and Evidence Traces for Adult Workplace Learning",
+          "url": "https://arxiv.org/abs/2610.02699v1",
+          "publishedAt": "2026-10-02T02:31:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "07de44d70b17",
+      "title": "Automating the Application of HCI Principles: Skills for On-Demand UI Construction, the Human-AI Space to Think, and the Future of HCI",
+      "teaser": "Human-computer interaction (HCI) is in the middle of a transition: large language models can now generate functional user interfaces (UIs) on demand from natural-language task descriptions. ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-01T18:45:43.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Automating the Application of HCI Principles: Skills for On-Demand UI Construction, the Human-AI Space to Think, and the Future of HCI",
+          "url": "https://arxiv.org/abs/2610.02369v1",
+          "publishedAt": "2026-10-01T18:45:43.000Z"
         }
       ]
     },
@@ -285,26 +385,6 @@
       ]
     },
     {
-      "id": "660013c92cd9",
-      "title": "The building was there first",
-      "teaser": "A style&#x2019;s real output isn&#x2019;t what it makes. It&#x2019;s the category it installs in whoever looks. Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-04T14:34:28.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The building was there first",
-          "url": "https://uxdesign.cc/the-building-was-there-first-26c6c4e49ba8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-04T14:34:28.000Z"
-        }
-      ]
-    },
-    {
       "id": "7a89ba194644",
       "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
       "teaser": "Hey HN! I built Proxima Forma because sharing screenshots with my agents was not really doing the job. I am a UX Designer with a developer background so I needed a better tool. Wanted the ag",
@@ -314,7 +394,7 @@
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -341,6 +421,46 @@
           "title": "Show HN: Help us fire our UI/UX designers",
           "url": "https://vosu.ai",
           "publishedAt": "2026-09-28T00:29:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1bb9b021b2a1",
+      "title": "Lessons from Trauma-Informed Training on Technology-Facilitated Abuse for Gender-Based Violence Advocates",
+      "teaser": "Technology-facilitated abuse (TFA) is an emerging gendered public health crisis affecting millions of people across the globe. TFA coincides with other forms of gender-based violence (GBV), ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-02T02:07:57.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Lessons from Trauma-Informed Training on Technology-Facilitated Abuse for Gender-Based Violence Advocates",
+          "url": "https://arxiv.org/abs/2610.02688v1",
+          "publishedAt": "2026-10-02T02:07:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8e12c6255323",
+      "title": "Santiago's A.T. Field: Visualizing Urban Accessibility through an Evangelion-Inspired Interface",
+      "teaser": "Science-fiction interfaces are often reproduced for their appearance, and their diagnostic logic is rarely rebuilt around real data. Here we describe Santiago's A.T. Field, an interactive vi",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-01T22:53:53.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Santiago's A.T. Field: Visualizing Urban Accessibility through an Evangelion-Inspired Interface",
+          "url": "https://arxiv.org/abs/2610.02562v1",
+          "publishedAt": "2026-10-01T22:53:53.000Z"
         }
       ]
     },
@@ -372,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -425,6 +545,26 @@
       ]
     },
     {
+      "id": "660013c92cd9",
+      "title": "The building was there first",
+      "teaser": "A style&#x2019;s real output isn&#x2019;t what it makes. It&#x2019;s the category it installs in whoever looks. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-04T14:34:28.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The building was there first",
+          "url": "https://uxdesign.cc/the-building-was-there-first-26c6c4e49ba8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-04T14:34:28.000Z"
+        }
+      ]
+    },
+    {
       "id": "8ff7897bd70b",
       "title": "UX Conference December Announced (Dec 2 - Dec 15)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. December 2 - December 15,",
@@ -452,9 +592,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T10:03:43.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -472,9 +612,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -532,9 +672,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-28T10:16:02.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -565,26 +705,6 @@
       ]
     },
     {
-      "id": "a953cae2a860",
-      "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
-      "teaser": "Reference listening is a common strategy in music production, but current comparison tools often obscure a key human judgment: deciding what should be compared. We present Diptych, an AI-ass",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-30T15:30:14.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Diptych: Scoped, AI-Interpreted Comparison for Reference Listening in Music Production",
-          "url": "https://arxiv.org/abs/2609.39963v1",
-          "publishedAt": "2026-09-30T15:30:14.000Z"
-        }
-      ]
-    },
-    {
       "id": "172170421eb1",
       "title": "Test Complex Interactions Earlier with AI Prototyping",
       "teaser": "AI tools make it feasible to build fully interactive prototypes of complex interfaces so you can test them with users earlier in the design process.",
@@ -594,7 +714,7 @@
       "publishedAt": "2026-09-11T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
       "sources": [
         {
           "name": "nngroup",
@@ -614,7 +734,7 @@
       "publishedAt": "2026-09-21T14:00:16.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -632,9 +752,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-24T07:54:55.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -654,7 +774,7 @@
       "publishedAt": "2026-09-19T16:29:03.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -674,7 +794,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -694,7 +814,7 @@
       "publishedAt": "2026-09-21T07:40:28.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -714,7 +834,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 26 days",
       "sources": [
         {
           "name": "smashing",
@@ -734,7 +854,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -754,7 +874,7 @@
       "publishedAt": "2026-09-15T08:01:39.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -794,7 +914,7 @@
       "publishedAt": "2026-09-11T13:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "smashing",
@@ -810,73 +930,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-04T19:24:10.425Z"
+      "fetchedAt": "2026-10-05T05:07:50.863Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-04T19:24:10.480Z"
+      "fetchedAt": "2026-10-05T05:07:50.922Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-04T19:24:10.482Z"
+      "fetchedAt": "2026-10-05T05:07:50.923Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-04T19:24:10.483Z"
+      "fetchedAt": "2026-10-05T05:07:50.925Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-04T19:24:10.484Z"
+      "fetchedAt": "2026-10-05T05:07:50.926Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-04T19:24:10.485Z"
+      "fetchedAt": "2026-10-05T05:07:50.927Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-04T19:24:10.486Z"
+      "fetchedAt": "2026-10-05T05:07:50.929Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 8,
-      "fetchedAt": "2026-10-04T19:24:10.486Z"
+      "items": 9,
+      "fetchedAt": "2026-10-05T05:07:50.929Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 33,
-      "fetchedAt": "2026-10-04T19:24:10.487Z"
+      "fetchedAt": "2026-10-05T05:07:50.931Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-04T19:24:10.488Z"
+      "fetchedAt": "2026-10-05T05:07:50.932Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-04T19:24:10.489Z"
+      "fetchedAt": "2026-10-05T05:07:50.932Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-04T19:24:10.490Z"
+      "fetchedAt": "2026-10-05T05:07:50.934Z"
     }
   ]
 }
