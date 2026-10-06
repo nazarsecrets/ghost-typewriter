@@ -665,8 +665,8 @@ Anime.js is the primary motion library. Motion is organized into six foundationa
 | `focusParagraph` | Maintain writing position | Move manuscript so the caret line returns near 30% |
 | `quietParagraph` | Reduce visual competition | Progressively soften older paragraphs |
 | `enterWritingMode` | Transition into manuscript | Reflection retreats and manuscript quietly expands |
-| `paperImpulse` | Answer a keystroke | Active line dips a fraction of a pixel; letter, punctuation, space and erase each differ |
-| `carriageReturn` | Answer a Return | The sheet travels back and its shadow deepens, then settles |
+| `paperImpulse` | Answer a keystroke | Active line takes a short horizontal step and impact; letter, punctuation, space and erase each differ |
+| `carriageReturn` | Answer a Return | The sheet travels right 8px and its shadow deepens, then settles |
 
 Motion requirements:
 
@@ -683,7 +683,7 @@ Sound in the current prototype:
 - Opt-in Web Audio keystroke and Return sounds are implemented. A visible header
   toggle is muted by default and remembers the writer's choice; no sound plays
   for shortcuts, arrows, or modifiers. The author still needs to judge whether
-  the generated mechanical sounds create the intended feel in a real session.
+  the recorded mechanical sounds create the intended feel in a real session.
 
 Optional future immersion:
 
@@ -1048,7 +1048,7 @@ The target V1 is accepted when:
 10. Should the curated desk remain a fallback only, or appear as a user-selectable Evergreen mode beside current topics?
 11. Should Guided Reflect remain a visible optional route, or appear only when the author asks for help getting started?
 12. What invokes Ghost after writing: a dormant mark, keyboard command, command palette, or combination?
-13. Which typing response adds tactility without delaying input? The first silent trial found the existing sub-pixel paper movement imperceptible and the surface dull. Opt-in sound is implemented for the next author trial; keep or remove the four strike motions and Return response based on that session. Character landing remains unimplemented.
+13. Which typing response adds tactility without delaying input? The first silent trial found the existing sub-pixel paper movement imperceptible and the surface dull. The active-line motion and Return response have been made more visible beside the recorded sounds; keep or remove them based on the next author session. Character landing remains unimplemented.
 14. Do the visible Design, Technology, Industry, Ways of Working, and Self lenses improve scanning enough to keep?
 
 ## 20. Decisions already made

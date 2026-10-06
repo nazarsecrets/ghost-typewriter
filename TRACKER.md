@@ -21,7 +21,9 @@ _Last updated: 2026-10-06_
 
 **[UX] Write with sound enabled, then judge the feel.** The first silent trial
 felt dull and its sub-pixel responses did not read as a typewriter. Sound is now
-available through the fixed header, muted by default. Judge its authenticity and
+available through the fixed header, muted by default, with recorded strikes and
+a separate scrolling cue on Enter. Anime.js now gives the active line a short
+step on a key strike and moves the sheet on Return. Judge the paired feel and
 long-session comfort, then decide whether the four strike motions and Return
 still earn their place. Paper grain remains a separate author decision; the
 standing no-texture instruction still applies until then.
@@ -66,6 +68,10 @@ standing no-texture instruction still applies until then.
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-10-06 [UX+Dev]** — Kept the existing Anime.js library and tuned its key response to a short active-line step with a small impact; erase reverses and rapid typing softens the pulse. Return now moves the sheet 8px with a brief shadow change beside the recorded carriage cue. Browser checks showed both motions settling to rest, paragraph creation and typing intact under reduced motion, and `npm run build` passing. The author's long-session verdict remains open.
+
+- ✅ **2026-10-06 [UX+Dev]** — Replaced the synthetic buffers with eight short strikes adapted from the author-linked Pixabay old-typewriter recording and a separate scrolling cue on Enter. The opt-in toggle and saved preference remain. The full recordings are excluded from the app; source and adaptation details are recorded in `public/sounds/README.md`. Build passes; browser checks confirmed strike and carriage playback, mute, preference after reload, and no alerts or console errors. Authenticity and long-session comfort await the author's session.
 
 - ✅ **2026-10-06 [UX+Dev]** — Built the author-requested opt-in typewriter sound: four subtly varied, locally generated buffers each for letter, punctuation, space, erase, and Return with a brief bell; a fixed-header Sound on/off button starts muted and stores the preference separately from drafts. Browser checks confirmed silence by default and after muting, all five sound classes when enabled, persistence across reload, sound in Write and Guided Reflect, no sound for arrows or shortcuts, and a visible control without phone overflow at 320px. Build and console checks pass. Authenticity and long-session comfort remain author judgments.
 

@@ -92,9 +92,10 @@ Rules for the surface:
 **Revised September 29, 2026:** The pace-responsive quill passed technical
 checks but the author found it distracting or tiring. The Plume is now unwired,
 and the native text caret is the only cursor. A restrained typewriter response
-has since been adopted: eligible keys produce distinct sub-pixel movement on
+has since been adopted: eligible keys produce distinct, short movement on
 the active line, scaled down during sustained typing; Return moves the sheet
-briefly as the line advances. Arrows, modifiers, shortcuts, and reduced-motion
+briefly as the line advances. The movement is now visible beside the recorded
+key and carriage sounds. Arrows, modifiers, shortcuts, and reduced-motion
 sessions produce no movement. Text is never delayed.
 
 The reward is immediate text entry, a steady writing position, and a readable
@@ -107,7 +108,9 @@ reload state before these latest motion changes. This is usability evidence, not
 proof of long-session comfort. In the first author trial, the silent surface felt
 dull and its mechanical responses were not perceptible; paragraph spacing was
 then tightened. Opt-in Web Audio sounds and a persistent, visible Sound on/off
-control are now available for another real session. Paper grain remains unadopted.
+control are now available for another real session. The author-linked Pixabay
+recordings now supply the key strikes and Enter carriage cue. Paper grain remains
+unadopted.
 
 ## 5. Scope
 

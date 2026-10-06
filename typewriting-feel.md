@@ -996,7 +996,7 @@ Sound is opt-in, muted by default, and remembered locally.
 ### Phase 3 --- Carriage (implemented: Return movement)
 
 Return advances the line while the sheet moves once and its shadow deepens, then
-settles. An opt-in generated carriage sound includes a brief bell.
+settles. An opt-in recorded carriage cue plays on Enter.
 
 ### Phase 4 --- Materiality (partial: sheet and shadow)
 

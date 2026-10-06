@@ -21,10 +21,10 @@ The distinctive feeling I'm after is a **modern, immersive typewriter** — the 
 Ways to deepen the immersion, all free and lightweight:
 
 - **Anime.js (in use)** — word-by-word reveals, paragraph focus/quiet transitions, carriage-style scroll anchoring. Keep motion under ~600ms and always gate it behind `prefers-reduced-motion`.
-- **Typewriter response (in use)** — eligible keys create distinct, sub-pixel active-line responses; sustained typing scales the response down. Return moves the sheet and deepens its shadow for one brief carriage action. Input is immediate, and reduced motion disables all of this movement. The author still needs to assess long-session comfort.
+- **Typewriter response (in use)** — Anime.js moves the active line 0.8–1.8px across with a small impact; erase reverses direction and sustained typing reduces the pulse. Return moves the sheet 8px and deepens its shadow before settling, alongside the recorded carriage cue. Input is immediate, and reduced motion disables all of this movement. The author still needs to assess long-session comfort.
 - **The Plume (muted)** — `src/PlumeCursor.tsx` and its caret measurement remain in the tree, but the component is not rendered. The native caret is used in every view.
 - **CSS-only touches** — subtle paper grain via the existing palette, a monospaced *option* for the manuscript for a truer typewriter register, and `@keyframes` for ambient details that don't need JS.
-- **Web Audio API (in use, opt-in)** — locally generated keystroke and Return/bell sounds, with no assets or dependency. The fixed-header toggle starts muted and remembers the preference. The author asked for sound after finding the silent response dull; the sound's authenticity still needs a real-session verdict.
+- **Web Audio API (in use, opt-in)** — short recorded strike samples and a separate carriage cue on Enter, adapted from the author-linked Pixabay recordings. The fixed-header toggle starts muted and remembers the preference. The sound's authenticity still needs a real-session verdict.
 - **View Transitions API** — native, zero-KB crossfades between the today → reflect → write → review modes, complementing Anime.js for the larger scene changes.
 
 The rule: motion serves stillness. The AI and the interface can move; the writing should feel calm and anchored.
