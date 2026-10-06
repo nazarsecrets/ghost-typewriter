@@ -138,8 +138,8 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .manuscript-meta { display: flex; justify-content: space-between; margin-bottom: 42px; color: var(--graphite); text-transform: uppercase; letter-spacing: .11em; font-size: 8px; }
 .manuscript-title { width: 100%; padding: 0; border: 0; background: transparent; color: var(--ink); font: 500 clamp(30px, 4vw, 44px)/1.2 var(--serif); letter-spacing: -.02em; }
 .manuscript-title::placeholder { color: #b7bbb4; }
-.paragraphs { display: grid; gap: 28px; margin-top: 44px; }
-.manuscript-paragraph { display: block; width: 100%; min-height: 52px; overflow: hidden; padding: 0; border: 0; background: transparent; color: var(--ink); resize: none; font: 22px/2.15 var(--serif); transition: opacity .32s ease; }
+.paragraphs { display: grid; gap: 14px; margin-top: 44px; }
+.manuscript-paragraph { display: block; width: 100%; min-height: 40px; overflow: hidden; padding: 0; border: 0; background: transparent; color: var(--ink); resize: none; font: 22px/1.65 var(--serif); transition: opacity .32s ease; }
 .manuscript-paragraph::placeholder { color: #b3b7b0; }
 /* The caret is the focus indicator here; an outline would rebuild the box. */
 .manuscript-paragraph:focus-visible { outline: 0; }
@@ -207,6 +207,12 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .document-toolbar { display: flex; justify-content: space-between; gap: 20px; padding: 18px 4vw; border-bottom: 1px solid var(--rule); color: var(--graphite); font-size: 11px; }
 .document-toolbar > div { display: flex; align-items: center; gap: 24px; }
 .document-toolbar button { color: var(--ink); }
+.app-header nav .sound-toggle { display: inline-flex; align-items: center; gap: 7px; margin-inline: 4px; padding: 5px 9px; border: 1px solid var(--rule); border-radius: 999px; background: transparent; color: var(--graphite); font-size: 10px; white-space: nowrap; cursor: pointer; }
+.sound-toggle::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: #aeb3ab; }
+.app-header nav .sound-toggle[aria-pressed="true"] { border-color: var(--signal); color: var(--signal); }
+.sound-toggle[aria-pressed="true"]::before { background: var(--signal); }
+.sound-toggle:disabled { opacity: .55; cursor: wait; }
+.sound-error { margin: 8px 4vw; color: #693d12; font-size: 11px; }
 .document-status { align-self: center; font-size: 10px; }
 .writing-context, .manuscript-label { margin: 0 0 28px; color: var(--graphite); font-size: 12px; }
 .writing-context summary { cursor: pointer; }
@@ -250,6 +256,13 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 @media (max-width: 760px) {
   .guide-toolbar { flex-wrap: wrap; gap: 12px; }
   .writing-guides { font-size: 13px; }
+}
+
+@media (max-width: 480px) {
+  .app-header { padding-inline: 10px; }
+  .wordmark { font-size: 10px; letter-spacing: .08em; }
+  .app-header nav button { padding: 6px 5px; font-size: 11px; }
+  .app-header nav .sound-toggle { gap: 4px; margin-inline: 1px; padding: 4px 6px; font-size: 10px; }
 }
 
 /* The plume is a visual caret only: never intercept text editing or selection.

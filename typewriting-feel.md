@@ -435,7 +435,9 @@ paper and sheet surfaces with a resting shadow. Eligible key classes produce
 different sub-pixel responses on the active line, scaled down during sustained
 typing. Return advances the line while the sheet moves once and its shadow
 deepens, then both settle. Reduced motion disables all movement. Paper grain,
-character landing, and sound are not implemented.
+character landing, and paper grain are not implemented. Opt-in sound was added
+after the author's first silent trial felt dull; its authenticity awaits a real
+writing-session verdict.
 
 ------------------------------------------------------------------------
 
@@ -989,12 +991,12 @@ text itself is not animated or delayed.
 
 Letters, punctuation, spaces, and erase keys have distinct responses. Arrows,
 modifiers, and shortcuts produce none; sustained typing reduces the response.
-Sound remains unimplemented.
+Sound is opt-in, muted by default, and remembered locally.
 
 ### Phase 3 --- Carriage (implemented: Return movement)
 
 Return advances the line while the sheet moves once and its shadow deepens, then
-settles. No bell or sound is played.
+settles. An opt-in generated carriage sound includes a brief bell.
 
 ### Phase 4 --- Materiality (partial: sheet and shadow)
 

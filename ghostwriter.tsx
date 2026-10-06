@@ -5,6 +5,7 @@ import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type
 import { measureCaret } from "./src/caret";
 import { stopWritingScroll } from "./src/motion";
 import { writingGuides } from "./src/writingGuides";
+import { enableTypewriterSound, muteTypewriterSound, playTypewriterSound, prepareTypewriterSound } from "./src/typewriterAudio";
 
 declare const __ANTHROPIC_CONFIGURED__: boolean;
 
@@ -34,6 +35,7 @@ type Session = {
 
 const SESSION_KEY = "svr-ghostwriter-session";
 const DRAFTS_KEY = "svr-ghostwriter-drafts";
+const SOUND_KEY = "svr-ghostwriter-sound";
 const STORAGE_VERSION = 1;
 const TODAY = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
 const SIGNAL_SKELETONS = [0, 1, 2, 3, 4];
@@ -164,7 +166,7 @@ function caretOffset(element: HTMLTextAreaElement) {
 }
 
 type ParagraphEditorProps = {
-  value: string; index: number; activeIndex: number;
+  value: string; index: number; activeIndex: number; soundOn: boolean;
   register: (index: number, element: HTMLTextAreaElement | null) => void;
   onActivate: (index: number) => void;
   onChange: (index: number, value: string) => void;
@@ -173,13 +175,13 @@ type ParagraphEditorProps = {
   onSelection: (index: number, start: number, end: number) => void;
 };
 
-function ParagraphEditor({ value, index, activeIndex, register, onActivate, onChange, onEnter, onEmptyBackspace, onSelection }: ParagraphEditorProps) {
+function ParagraphEditor({ value, index, activeIndex, soundOn, register, onActivate, onChange, onEnter, onEmptyBackspace, onSelection }: ParagraphEditorProps) {
   const localRef = useRef<HTMLTextAreaElement | null>(null);
   const resize = useCallback(() => {
     const element = localRef.current;
     if (!element) return;
     element.style.height = "0px";
-    element.style.height = `${Math.max(52, element.scrollHeight)}px`;
+    element.style.height = `${Math.max(40, element.scrollHeight)}px`;
   }, []);
   useLayoutEffect(resize, [resize, value]);
 
@@ -196,10 +198,13 @@ function ParagraphEditor({ value, index, activeIndex, register, onActivate, onCh
     if (key === "Enter" && !event.shiftKey) {
       // Return moves the machine, not the line: the paper is the target here.
       carriageReturn(localRef.current?.closest(".manuscript") as HTMLElement | null);
+      if (soundOn) playTypewriterSound("return");
       return;
     }
     if (key.length !== 1 && key !== "Backspace" && key !== "Delete") return;
-    paperImpulse(localRef.current, strikeOf(key));
+    const strike = strikeOf(key);
+    paperImpulse(localRef.current, strike);
+    if (soundOn) playTypewriterSound(strike);
   }
 
   function handleKeyDown(event: KeyboardEvent<HTMLTextAreaElement>) {
@@ -251,6 +256,9 @@ export default function Ghostwriter() {
   const reviewRequest = useRef<AbortController | null>(null);
   const [drafts, setDrafts] = useState(() => readStorage<Draft[]>(DRAFTS_KEY, []));
   const [showDrafts, setShowDrafts] = useState(false);
+  const [soundOn, setSoundOn] = useState(() => readStorage<boolean>(SOUND_KEY, false) === true);
+  const [soundPending, setSoundPending] = useState(false);
+  const [soundError, setSoundError] = useState<"unavailable" | "storage" | null>(null);
   const draftsRef = useRef<HTMLDivElement | null>(null);
   const draftsOpener = useRef<HTMLElement | null>(null);
   const reflectionRef = useRef<HTMLDivElement | null>(null);
@@ -259,6 +267,25 @@ export default function Ghostwriter() {
   const reflectParagraphRefs = useRef(new Map<number, HTMLTextAreaElement>());
   const lastSavedSession = useRef(JSON.stringify(restored.current));
   const topicsRequested = useRef(false);
+
+  useEffect(() => { if (soundOn) prepareTypewriterSound(); }, []);
+
+  async function toggleSound() {
+    if (soundOn) {
+      muteTypewriterSound();
+      setSoundOn(false);
+      setSoundError(null);
+      try { writeStorage(SOUND_KEY, false); } catch { setSoundError("storage"); }
+      return;
+    }
+    setSoundPending(true);
+    const enabled = await enableTypewriterSound();
+    setSoundPending(false);
+    if (!enabled) { setSoundError("unavailable"); return; }
+    setSoundError(null);
+    setSoundOn(true);
+    try { writeStorage(SOUND_KEY, true); } catch { setSoundError("storage"); }
+  }
 
   const manuscript = paragraphs.join("\n\n");
   const wordCount = manuscript.trim().split(/\s+/).filter(Boolean).length;
@@ -476,6 +503,7 @@ export default function Ghostwriter() {
 
   const saveLabel = saveStatus === "saved" ? "All changes saved" : saveStatus === "error" ? "Could not save" : saveStatus === "saving" ? "Saving…" : "Unsaved changes";
   const saveTimeLabel = savedAt ? `Saved on this device at ${new Date(savedAt).toLocaleTimeString()}` : "Saved on this device";
+  const soundControl = <button className="sound-toggle" type="button" aria-pressed={soundOn} disabled={soundPending} onClick={() => void toggleSound()}>{soundOn ? "Sound on" : "Sound off"}</button>;
 
   const utility = <div className="utility-bar" aria-label="Writing settings">
     <div className="segmented">
@@ -494,7 +522,8 @@ export default function Ghostwriter() {
       <button className="wordmark" onClick={() => setView("today")}><span>SVR</span><i>/</i><span>Ghostwriter</span></button>
       <nav>
         {view !== "today" ? <button onClick={() => setView("today")}>Today</button> : null}
-        {view !== "write" && (title.trim() || manuscript.trim()) ? <button onClick={() => setView("write")}>Write</button> : null}
+        {view !== "write" && view !== "reflect" && (title.trim() || manuscript.trim()) ? <button onClick={() => setView("write")}>Write</button> : null}
+        {view === "write" || view === "reflect" ? soundControl : null}
         <button aria-haspopup="dialog" aria-expanded={showDrafts} onClick={(event) => { draftsOpener.current = event.currentTarget; setShowDrafts((shown) => !shown); }}>Drafts <span>{drafts.length}</span></button>
       </nav>
     </header>
@@ -555,6 +584,7 @@ export default function Ghostwriter() {
         <span><span title={saveTimeLabel}>{saveLabel}</span> · {wordCount} {wordCount === 1 ? "word" : "words"}</span>
         <button className="text-action" onClick={enterWriting}>Focus on manuscript →</button>
       </div>
+      {soundError ? <p className="sound-error" role="alert">{soundError === "storage" ? "Sound preference could not be saved on this device." : "Sound could not start in this browser."}</p> : null}
       <div className="reflection-stage" ref={reflectionRef}>
         <p className="pathway-label">{selectedTopic ? editorialLens(selectedTopic) : "Your writing"}</p>
         <h1>{selectedTopic ? topicPrompt(selectedTopic) : "What would you like to explore?"}</h1>
@@ -570,7 +600,7 @@ export default function Ghostwriter() {
             setReflectionAnswers({});
           }}>Move earlier notes into manuscript</button>
         </details> : null}
-        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerReflectParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
+        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} soundOn={soundOn} register={registerReflectParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
       </div>
     </main> : null}
 
@@ -585,12 +615,13 @@ export default function Ghostwriter() {
           <button onClick={startBlank}>New draft</button>
         </div>
       </div>
+      {soundError ? <p className="sound-error" role="alert">{soundError === "storage" ? "Sound preference could not be saved on this device." : "Sound could not start in this browser."}</p> : null}
       <section className="manuscript">
         {selectedTopic ? <details className="writing-context"><summary>Writing from · {editorialLens(selectedTopic)}</summary><p>{topicPrompt(selectedTopic)}</p><TopicProvenance topic={selectedTopic} /></details> : <p className="manuscript-label">Your manuscript</p>}
         {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context"><summary>Your reflection notes</summary>{Object.entries(reflectionAnswers).map(([label, answer]) => answer?.trim() ? <div key={label}><strong>{label}</strong><p>{answer}</p></div> : null)}</details> : null}
         <h1 className="visually-hidden">{title || "Untitled manuscript"}</h1>
         <input name="title" autoComplete="off" className="manuscript-title" value={title} onChange={(event) => setTitle(event.target.value)} placeholder="Untitled" aria-label="Manuscript title" />
-        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
+        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} soundOn={soundOn} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
       </section>
     </main> : null}
 

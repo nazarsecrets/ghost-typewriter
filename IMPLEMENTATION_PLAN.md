@@ -24,7 +24,7 @@ Ways to deepen the immersion, all free and lightweight:
 - **Typewriter response (in use)** — eligible keys create distinct, sub-pixel active-line responses; sustained typing scales the response down. Return moves the sheet and deepens its shadow for one brief carriage action. Input is immediate, and reduced motion disables all of this movement. The author still needs to assess long-session comfort.
 - **The Plume (muted)** — `src/PlumeCursor.tsx` and its caret measurement remain in the tree, but the component is not rendered. The native caret is used in every view.
 - **CSS-only touches** — subtle paper grain via the existing palette, a monospaced *option* for the manuscript for a truer typewriter register, and `@keyframes` for ambient details that don't need JS.
-- **Web Audio API (optional, opt-in)** — a faint keystroke/return-bell sound generated in-browser. No assets, no dependency, muted by default. This is the single highest-impact addition for "typewriter feel" if I want it.
+- **Web Audio API (in use, opt-in)** — locally generated keystroke and Return/bell sounds, with no assets or dependency. The fixed-header toggle starts muted and remembers the preference. The author asked for sound after finding the silent response dull; the sound's authenticity still needs a real-session verdict.
 - **View Transitions API** — native, zero-KB crossfades between the today → reflect → write → review modes, complementing Anime.js for the larger scene changes.
 
 The rule: motion serves stillness. The AI and the interface can move; the writing should feel calm and anchored.

@@ -13,29 +13,24 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 **Classification:** every new progress item is labeled **[UX]**, **[Dev]**, or
 **[UX+Dev]**. Read-only inspection does not require a separate tracker entry.
 
-_Last updated: 2026-09-29_
+_Last updated: 2026-10-06_
 
 ---
 
 ## 🎯 Next action (do this next)
 
-**[UX] Write a real session on the new surface and judge two things.** First,
-long-session comfort — the half of the keyboard/accessibility item only the
-author can close. Second, whether the mechanical response earns itself: the
-standing instruction is not to add typing effects without a concrete need, and
-there are now four (letter, punctuation, space, erase) plus the carriage return.
-Each is one line in `STRIKE` in `src/motion.ts`; any of them can go.
-
-Two decisions are waiting on that session: **paper grain** (`typewriting-feel.md`
-§10 offers it, the standing instruction forbids paper texture — author's call),
-and **sound** (§8 / PRD FR-8, opt-in and muted by default, needs a Web Audio
-build and a remembered preference).
+**[UX] Write with sound enabled, then judge the feel.** The first silent trial
+felt dull and its sub-pixel responses did not read as a typewriter. Sound is now
+available through the fixed header, muted by default. Judge its authenticity and
+long-session comfort, then decide whether the four strike motions and Return
+still earn their place. Paper grain remains a separate author decision; the
+standing no-texture instruction still applies until then.
 
 ---
 
 ## 🔄 In progress
 
-_(nothing currently)_
+- 🔄 **2026-10-06 [UX]** — Author writing-session check: the silent surface felt dull and its existing key responses were imperceptible; spacing was corrected and opt-in sound added. Awaiting the author's verdict on sound authenticity, comfort, which motions to retain, and paper grain.
 
 ---
 
@@ -43,7 +38,7 @@ _(nothing currently)_
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX]** Author follow-up: assess long-session comfort of the native-caret revision. The prior animated writing quill was reported as distracting or tiring; this is not yet comfort validation of the revised version.
+- ⬜ **[UX]** Author follow-up: assess long-session comfort with the native caret and optional sound. The prior animated writing quill was distracting or tiring; the first silent trial was dull, but neither is comfort validation of this revised version.
 - ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
 - ⬜ **[UX+Dev]** Complete the manuscript type, measure, spacing, keyboard, and reduced-motion pass across Today → Write
 
@@ -66,11 +61,15 @@ _(nothing currently)_
 ### Release and optional polish
 
 - ⬜ **[Dev]** Configure the GitHub Pages build and deploy workflow after the focused POC passes browser QA
-- ⬜ **[UX+Dev]** Evaluate optional immersion only after the core writing behavior is settled: soft caret, paper texture, opt-in Web Audio, and View Transitions (PRD FR-8)
+- ⬜ **[UX+Dev]** Evaluate remaining optional immersion only after the core writing behavior is settled: soft caret, paper texture, and View Transitions (PRD FR-8)
 
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-10-06 [UX+Dev]** — Built the author-requested opt-in typewriter sound: four subtly varied, locally generated buffers each for letter, punctuation, space, erase, and Return with a brief bell; a fixed-header Sound on/off button starts muted and stores the preference separately from drafts. Browser checks confirmed silence by default and after muting, all five sound classes when enabled, persistence across reload, sound in Write and Guided Reflect, no sound for arrows or shortcuts, and a visible control without phone overflow at 320px. Build and console checks pass. Authenticity and long-session comfort remain author judgments.
+
+- ✅ **2026-10-06 [UX+Dev]** — Reduced the oversized space between manuscript paragraphs: line height 2.15 → 1.65, grid gap 28 → 14px, and textarea minimum height 52 → 40px. Browser check with three short paragraphs measured 54px between paragraph tops, with Return behavior intact and no console errors; production build passes. The author comfort check remains the next action.
 
 - ✅ **2026-09-29 [UX+Dev]** — Typewriter quick wins by phase, then §10. **Phase 2
   (§5 input-specific response):** a keystroke's mechanical work now depends on what

@@ -490,7 +490,9 @@ keys produce distinct, sub-pixel responses on the active line; arrows, modifiers
 and shortcuts produce none. Return advances the line while the sheet makes one
 brief carriage movement. Text commits immediately and is never delayed by motion.
 Both responses settle without looping and produce no movement under reduced
-motion. No character landing, sound, or paper grain is implemented.
+motion. The author's first trial found the silent response too subtle to feel
+like a typewriter. Opt-in sound is now available for another trial; character
+landing and paper grain remain unimplemented.
 
 **Historical transition states.** arriving, lifting, stowing, departing,
 responding, returning, then hidden. No state loops. These states are not currently
@@ -532,7 +534,8 @@ Typing feedback may use restrained character landing, caret movement, or minute 
 - The first sentence may carry slightly more mechanical character.
 - After sustained writing, nonessential feedback reduces as the environment enters a quieter flow state.
 - Fixed-position settling should occur on paragraph change or a short pause rather than recentering on every keystroke.
-- Feedback is disabled with reduced motion and remains optional if sound is introduced.
+- Visual feedback is disabled with reduced motion. Sound is separately opt-in,
+  muted by default, and never carries information needed to write.
 - The product does not use streaks, XP, celebratory counters, or productivity pressure.
 
 ### FR-5: Review and refine
@@ -675,12 +678,18 @@ Motion requirements:
 - Motion remains editorial and mechanical: cursor movement, paper shifts, character impressions, prompt collapse, Ghost appearance, margin annotation, and focus transition.
 - Playfulness comes from behavior rather than decorative effects.
 
+Sound in the current prototype:
+
+- Opt-in Web Audio keystroke and Return sounds are implemented. A visible header
+  toggle is muted by default and remembers the writer's choice; no sound plays
+  for shortcuts, arrows, or modifiers. The author still needs to judge whether
+  the generated mechanical sounds create the intended feel in a real session.
+
 Optional future immersion:
 
 - ~~A softer custom caret.~~ Built as the Plume (FR-4.6).
 - Subtle CSS paper texture.
 - Optional monospaced manuscript type.
-- Opt-in Web Audio keystroke and return sounds, muted by default.
 - Native View Transitions for large mode changes.
 
 ### FR-9: Navigation and state continuity
@@ -969,7 +978,8 @@ Remaining:
 - Test topic quality against manual author judgment.
 - Tune category thresholds and ranking weights.
 - Test paragraph focus behavior across long manuscripts and mobile layouts.
-- Decide whether to add optional sound, custom caret, or View Transitions.
+- Decide whether to keep the new optional sound after the author trial, and
+  whether a custom caret or View Transitions serve the writing experience.
 
 ## 17. V1 acceptance criteria
 
@@ -1034,11 +1044,11 @@ The target V1 is accepted when:
 6. Should production review use a serverless proxy or bring-your-own-key mode?
 7. Is Claude retained for critique, or should the provider adapter support multiple hosted and local models at launch?
 8. When should a manuscript become a durable draft snapshot: review, explicit save, navigation away, or a time interval?
-9. Should optional typewriter sound and monospaced typography be included after the silent experience is validated?
+9. Does the newly added opt-in typewriter sound earn its place after a real writing session, and would optional monospaced typography help?
 10. Should the curated desk remain a fallback only, or appear as a user-selectable Evergreen mode beside current topics?
 11. Should Guided Reflect remain a visible optional route, or appear only when the author asks for help getting started?
 12. What invokes Ghost after writing: a dormant mark, keyboard command, command palette, or combination?
-13. ~~Which typing response—visual character landing, caret behavior, optional sound, or paper movement—adds tactility without delaying input?~~ Answered: **paper movement**. The quill is muted; a keystroke is answered by a sub-pixel impulse on the active line (`paperImpulse`), sized down as typing speeds up. Character landing and sound remain open — see `typewriting-feel.md` phases 2-4.
+13. Which typing response adds tactility without delaying input? The first silent trial found the existing sub-pixel paper movement imperceptible and the surface dull. Opt-in sound is implemented for the next author trial; keep or remove the four strike motions and Return response based on that session. Character landing remains unimplemented.
 14. Do the visible Design, Technology, Industry, Ways of Working, and Self lenses improve scanning enough to keep?
 
 ## 20. Decisions already made

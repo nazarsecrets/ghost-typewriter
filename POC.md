@@ -104,8 +104,10 @@ transition movement. There are no streaks, scores, or celebrations.
 
 A 305-word, four-paragraph automated walkthrough preserved input, editing, and
 reload state before these latest motion changes. This is usability evidence, not
-proof of long-session comfort; the author still needs to judge the current
-native-caret experience in a real session. Paper grain and sound remain unadopted.
+proof of long-session comfort. In the first author trial, the silent surface felt
+dull and its mechanical responses were not perceptible; paragraph spacing was
+then tightened. Opt-in Web Audio sounds and a persistent, visible Sound on/off
+control are now available for another real session. Paper grain remains unadopted.
 
 ## 5. Scope
 
