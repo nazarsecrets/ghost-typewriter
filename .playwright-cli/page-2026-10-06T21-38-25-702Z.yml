@@ -1,0 +1,99 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - button "SVR / Ghostwriter" [ref=e5] [cursor=pointer]:
+      - generic [ref=e6]: SVR
+      - generic [ref=e7]: /
+      - generic [ref=e8]: Ghostwriter
+    - navigation [ref=e9]:
+      - button "Drafts 0" [ref=e10] [cursor=pointer]:
+        - text: Drafts
+        - generic [ref=e11]: "0"
+  - main [ref=e12]:
+    - paragraph [ref=e13]: Today · October 6, 2026
+    - heading "What is worth noticing?" [level=1] [ref=e14]: What is worthnoticing?
+    - generic [ref=e15]:
+      - paragraph [ref=e16]: Choose an idea, then find the experience only you can write about.
+      - generic [ref=e17]:
+        - button "Refresh ideas" [ref=e18] [cursor=pointer]
+        - button "Start with a blank page →" [ref=e19] [cursor=pointer]
+    - generic [ref=e20]:
+      - paragraph [ref=e21]: Earlier source desk
+      - time [ref=e22]: Updated 9/9/2026
+    - region "Ideas worth considering" [ref=e23]:
+      - article [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: Lead idea
+          - generic [ref=e27]: Ways of Working
+        - 'button "Which part of collaboration matters most but leaves the least visible artifact? Why now: A recent source is raising questions about the work around the artifact across product and design work. Follow this thought →" [ref=e28] [cursor=pointer]':
+          - heading "Which part of collaboration matters most but leaves the least visible artifact?" [level=2] [ref=e29]
+          - paragraph [ref=e30]: "Why now: A recent source is raising questions about the work around the artifact across product and design work."
+          - generic [ref=e31]:
+            - text: Follow this thought
+            - generic [ref=e32]: →
+        - generic [ref=e33]:
+          - generic [ref=e34]: Latest
+          - generic [ref=e35]: Published today
+          - 'link "Read source: Most AI problems are really human problems" [ref=e36] [cursor=pointer]':
+            - /url: https://uxdesign.cc/most-ai-problems-are-really-human-problems-this-is-how-you-can-fix-it-ab64843f845e?source=rss----138adf9c44c---4
+            - text: UX Collective ↗
+      - generic "More ideas" [ref=e37]:
+        - article [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: "02"
+            - generic [ref=e41]: Technology
+          - 'button "Where should human judgment remain visible in an AI-assisted workflow? Why now: A recent source is raising questions about designing with uncertain systems across product and design work." [ref=e42] [cursor=pointer]':
+            - strong [ref=e43]: Where should human judgment remain visible in an AI-assisted workflow?
+            - generic [ref=e44]: "Why now: A recent source is raising questions about designing with uncertain systems across product and design work."
+          - generic [ref=e45]:
+            - generic [ref=e46]: Latest
+            - 'link "Read source: Persistent lessons in human-centered automation" [ref=e47] [cursor=pointer]':
+              - /url: https://uxdesign.cc/persistent-lessons-in-human-centered-automation-45b53412e6a5?source=rss----138adf9c44c---4
+              - text: UX Collective ↗
+        - article [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: "03"
+            - generic [ref=e51]: Design
+          - 'button "Who gets to decide when the system should be broken? Why now: A recent source is raising questions about design systems and judgment across product and design work." [ref=e52] [cursor=pointer]':
+            - strong [ref=e53]: Who gets to decide when the system should be broken?
+            - generic [ref=e54]: "Why now: A recent source is raising questions about design systems and judgment across product and design work."
+          - generic [ref=e55]:
+            - generic [ref=e56]: Trending
+            - 'link "Read source: Opacity within variables, and how it affects a shadcn design system token implementation" [ref=e57] [cursor=pointer]':
+              - /url: https://dev.to/wolfr/opacity-within-variables-and-how-it-affects-a-shadcn-design-system-token-implementation-3ehg
+              - text: DEV Community ↗
+        - article [ref=e58]:
+          - generic [ref=e59]:
+            - generic [ref=e60]: "04"
+            - generic [ref=e61]: Design
+          - 'button "When does making an interaction easier also make its consequences harder to see? Why now: A recent source is raising questions about interfaces and attention across product and design work." [ref=e62] [cursor=pointer]':
+            - strong [ref=e63]: When does making an interaction easier also make its consequences harder to see?
+            - generic [ref=e64]: "Why now: A recent source is raising questions about interfaces and attention across product and design work."
+          - generic [ref=e65]:
+            - generic [ref=e66]: Trending
+            - 'link "Read source: Rage Taps, Dead Taps, and the 12-Pixel Rule: Cookieless Mobile UX Measurement on Cloudflare D1" [ref=e67] [cursor=pointer]':
+              - /url: https://dev.to/cbarank/rage-taps-dead-taps-and-the-12-pixel-rule-cookieless-mobile-ux-measurement-on-cloudflare-d1-3491
+              - text: DEV Community ↗
+        - article [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: "05"
+            - generic [ref=e71]: Industry
+          - 'button "Whose experience reveals the assumptions hidden in a supposedly simple flow? Why now: A recent source is raising questions about access as a product choice across product and design work." [ref=e72] [cursor=pointer]':
+            - strong [ref=e73]: Whose experience reveals the assumptions hidden in a supposedly simple flow?
+            - generic [ref=e74]: "Why now: A recent source is raising questions about access as a product choice across product and design work."
+          - generic [ref=e75]:
+            - generic [ref=e76]: Under the Radar
+            - 'link "Read source: Free Accessibility Certifications and Courses" [ref=e77] [cursor=pointer]':
+              - /url: https://dev.to/laura-wissiak/free-accessibility-certifications-and-courses-nb7
+              - text: DEV Community ↗
+        - article [ref=e78]:
+          - generic [ref=e79]:
+            - generic [ref=e80]: "06"
+            - generic [ref=e81]: Ways of Working
+          - 'button "Which assumption about how this work gets done deserves to be questioned? Why now: A recent source is raising questions about how the work gets made across product and design work." [ref=e82] [cursor=pointer]':
+            - strong [ref=e83]: Which assumption about how this work gets done deserves to be questioned?
+            - generic [ref=e84]: "Why now: A recent source is raising questions about how the work gets made across product and design work."
+          - generic [ref=e85]:
+            - generic [ref=e86]: Under the Radar
+            - 'link "Read source: Don''t Make Me Think: What Actually Separates Good UX from Digital Torture" [ref=e87] [cursor=pointer]':
+              - /url: https://dev.to/towernter/dont-make-me-think-what-actually-separates-good-ux-from-digital-torture-354a
+              - text: DEV Community ↗

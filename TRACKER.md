@@ -42,7 +42,6 @@ standing no-texture instruction still applies until then.
 
 - ⬜ **[UX]** Author follow-up: assess long-session comfort with the native caret and optional sound. The prior animated writing quill was distracting or tiring; the first silent trial was dull, but neither is comfort validation of this revised version.
 - ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
-- ⬜ **[UX+Dev]** Complete the manuscript type, measure, spacing, keyboard, and reduced-motion pass across Today → Write
 
 ### Discovery robustness — after the core POC handoff
 
@@ -68,6 +67,10 @@ standing no-texture instruction still applies until then.
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-10-06 [UX+Dev]** — Completed the Today → Write manuscript pass. **Keyboard:** Backspace at a paragraph's start merges it into the previous one and Delete at its end merges the next one in, with the caret placed at the join either way; arrow keys at a paragraph edge cross into the neighbour; modified keys, selections and IME composition stay native; Enter in the title moves to the first paragraph. **Focus:** skip link to main, the heading takes focus at the top of the page on Today/Reflect/Review, the native caret remains the paragraph focus indicator (a trial 2px signal gutter rule was removed after the author saw it read as an outsized second cursor beside the caret; forced colors keep a Highlight outline). **Readability:** past paragraphs rest at 0.82 and distant ones at 0.68 instead of 0.72/0.42. Fixed a WCAG 2.5.3 failure on Today: source links' accessible name now starts with their visible source name. **Browser evidence (Playwright, 1280px and 390px, motion and reduced motion, 98/98 checks):** 68 characters per line at 22px/1.65 in a 672px column on desktop, 39 at 19px in 338px on a phone, 14px paragraph gap, no horizontal overflow on Write or Reflect; all boundary keys verified in both Write and Reflect; zero sheet, shell or line movement while typing, returning and erasing under reduced motion; axe clean on Today, Reflect and Write; no console errors. Production build passes.
+
+- ✅ **2026-10-06 [UX+Dev]** — Added a Copy Markdown action under the writing view's Export menu and in Review, sharing the Markdown download serializer. The clipboard text preserves the H1 title, paragraph breaks, and H2/H3 reflection-note hierarchy, with success/failure feedback. Browser checks matched copied and downloaded content, verified Escape/focus behavior and no console errors; production build passes. The author sound-and-motion session remains next.
 
 - ✅ **2026-10-06 [UX+Dev]** — Added a right-edge delete icon to each Recent drafts row, visible on hover/focus and always visible on touch. The separate Open button preserves row editing; deletion requires confirmation. Deleting the active draft rotates to a blank session and stays deleted after reload. Browser checks covered hover, focus, cancel, active/inactive deletion, persistence, icon placement, and no console errors; production build passes. The author sound-and-motion session remains next.
 

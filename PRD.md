@@ -448,7 +448,7 @@ The reflection payload may also contain a one-sentence underlying angle. When sh
 - The anchor holds the *caret line*, not the paragraph top, so a growing paragraph does not push the caret down the screen.
 - The manuscript's trailing space must exceed `100% - WRITING_ANCHOR` of the viewport, or the last lines of a short draft cannot reach the position.
 - Older paragraphs remain visible.
-- Older paragraphs soften to 0.72 opacity one paragraph back and 0.42 beyond that; the active paragraph is always restored to full ink.
+- Older paragraphs soften to 0.82 opacity one paragraph back and 0.68 beyond that, keeping the manuscript legible while the active paragraph stays at full ink.
 - No paragraph becomes inaccessible or permanently hidden.
 - Mobile layouts may remove the visible writing-line marker while retaining readable focus behavior.
 
@@ -637,6 +637,7 @@ Future consideration: explicit Save snapshot and Rename actions. These are not r
 ### FR-7: Export
 
 - Markdown export includes the manuscript title as an H1.
+- Copy Markdown places that same export content on the clipboard without creating a file, preserving paragraph breaks and reflection notes under H2/H3 headings. The UI reports clipboard success or failure.
 - Text export contains title followed by manuscript content.
 - Filenames are generated safely from the manuscript title.
 - Medium opens in a new protected tab for manual paste.

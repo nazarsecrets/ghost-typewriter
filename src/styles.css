@@ -20,6 +20,8 @@ button { color: inherit; }
 button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
 
 .app { min-height: 100vh; }
+.skip-link { position: fixed; z-index: 100; top: 8px; left: 8px; padding: 10px 14px; background: var(--ink); color: var(--sheet); transform: translateY(calc(-100% - 12px)); }
+.skip-link:focus-visible { transform: none; outline: 2px solid var(--signal); outline-offset: 2px; }
 .app-header {
   position: fixed; inset: 0 0 auto; z-index: 30; height: 64px; padding: 0 4vw;
   display: flex; align-items: center; justify-content: space-between;
@@ -141,11 +143,13 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .paragraphs { display: grid; gap: 14px; margin-top: 44px; }
 .manuscript-paragraph { display: block; width: 100%; min-height: 40px; overflow: hidden; padding: 0; border: 0; background: transparent; color: var(--ink); resize: none; font: 22px/1.65 var(--serif); transition: opacity .32s ease; }
 .manuscript-paragraph::placeholder { color: #b3b7b0; }
-/* The caret is the focus indicator here; an outline would rebuild the box. */
+/* The caret is the focus indicator here; an outline or gutter rule would read
+   as a second, heavier cursor beside it. Forced colors still get an outline. */
 .manuscript-paragraph:focus-visible { outline: 0; }
+@media (forced-colors: active) { .manuscript-paragraph:focus-visible { outline: 2px solid Highlight; outline-offset: 2px; box-shadow: none; } }
 /* Resting states; quietParagraph animates to these same values. */
-.manuscript-paragraph.is-past { opacity: .72; }
-.manuscript-paragraph.is-distant { opacity: .42; }
+.manuscript-paragraph.is-past { opacity: .82; }
+.manuscript-paragraph.is-distant { opacity: .68; }
 .manuscript-paragraph.is-active { opacity: 1; }
 .manuscript-end { display: flex; justify-content: flex-end; margin-top: 80px; padding-top: 24px; border-top: 1px solid var(--rule); }
 
@@ -252,6 +256,11 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .pathway-trail { flex-wrap: wrap; row-gap: 14px; }
 .pathway-trail button { color: var(--graphite); }
 .document-toolbar button { border: 0; background: transparent; cursor: pointer; padding: 4px 0; }
+.export-control { position: relative; }
+.export-popover { position: absolute; z-index: 30; top: calc(100% + 8px); right: 0; display: grid; min-width: 172px; padding: 6px; border: 1px solid var(--rule); background: var(--sheet); box-shadow: 0 12px 28px rgba(31, 36, 29, .1); }
+.document-toolbar .export-popover button { padding: 10px 12px; text-align: left; white-space: nowrap; }
+.export-popover button:hover, .export-popover button:focus-visible { background: var(--paper); }
+.export-feedback { position: absolute; top: calc(100% + 7px); right: 0; width: max-content; max-width: 220px; color: var(--graphite); font-size: 10px; }
 
 /* Reference guides support one continuous manuscript, without steps or prompt cards. */
 .guide-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-bottom: 32px; }

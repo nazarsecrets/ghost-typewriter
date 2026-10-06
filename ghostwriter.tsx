@@ -120,7 +120,7 @@ function TopicProvenance({ topic }: { topic: Topic }) {
   return <div className="story-provenance">
     <span>{topic.category}</span>
     <small>{displayCopy(topic.categoryReason)}</small>
-    <a href={source.url} target="_blank" rel="noreferrer" title={source.title} aria-label={`Read source: ${source.title}`}>{sourceLabel(source.name)} ↗</a>
+    <a href={source.url} target="_blank" rel="noreferrer" title={source.title} aria-label={`${sourceLabel(source.name)}: ${source.title} (opens in a new tab)`}>{sourceLabel(source.name)} ↗</a>
   </div>;
 }
 
@@ -166,16 +166,18 @@ function caretOffset(element: HTMLTextAreaElement) {
 }
 
 type ParagraphEditorProps = {
-  value: string; index: number; activeIndex: number; soundOn: boolean;
+  value: string; index: number; activeIndex: number; paragraphCount: number; soundOn: boolean;
   register: (index: number, element: HTMLTextAreaElement | null) => void;
   onActivate: (index: number) => void;
   onChange: (index: number, value: string) => void;
   onEnter: (index: number, before: string, after: string) => void;
-  onEmptyBackspace: (index: number) => void;
+  onMergeBackward: (index: number) => void;
+  onMergeForward: (index: number) => void;
+  onMoveCaret: (index: number, position: "start" | "end") => void;
   onSelection: (index: number, start: number, end: number) => void;
 };
 
-function ParagraphEditor({ value, index, activeIndex, soundOn, register, onActivate, onChange, onEnter, onEmptyBackspace, onSelection }: ParagraphEditorProps) {
+function ParagraphEditor({ value, index, activeIndex, paragraphCount, soundOn, register, onActivate, onChange, onEnter, onMergeBackward, onMergeForward, onMoveCaret, onSelection }: ParagraphEditorProps) {
   const localRef = useRef<HTMLTextAreaElement | null>(null);
   const resize = useCallback(() => {
     const element = localRef.current;
@@ -210,13 +212,22 @@ function ParagraphEditor({ value, index, activeIndex, soundOn, register, onActiv
   function handleKeyDown(event: KeyboardEvent<HTMLTextAreaElement>) {
     stopWritingScroll();
     mechanicalResponse(event);
+    const start = event.currentTarget.selectionStart;
+    const end = event.currentTarget.selectionEnd;
     if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) {
       event.preventDefault();
-      const start = event.currentTarget.selectionStart;
-      onEnter(index, value.slice(0, start), value.slice(event.currentTarget.selectionEnd));
-    } else if (event.key === "Backspace" && !value && index > 0) {
-      event.preventDefault();
-      onEmptyBackspace(index);
+      onEnter(index, value.slice(0, start), value.slice(end));
+      return;
+    }
+    if (event.ctrlKey || event.metaKey || event.altKey || event.shiftKey || start !== end || event.nativeEvent.isComposing) return;
+    if (event.key === "Backspace" && start === 0 && index > 0) {
+      event.preventDefault(); onMergeBackward(index);
+    } else if (event.key === "Delete" && start === value.length && index < paragraphCount - 1) {
+      event.preventDefault(); onMergeForward(index);
+    } else if ((event.key === "ArrowLeft" || event.key === "ArrowUp") && start === 0 && index > 0) {
+      event.preventDefault(); onMoveCaret(index - 1, "end");
+    } else if ((event.key === "ArrowRight" || event.key === "ArrowDown") && start === value.length && index < paragraphCount - 1) {
+      event.preventDefault(); onMoveCaret(index + 1, "start");
     }
   }
 
@@ -252,14 +263,22 @@ export default function Ghostwriter() {
   const [saveStatus, setSaveStatus] = useState<"saved" | "unsaved" | "saving" | "error">("saved");
   const [savedAt, setSavedAt] = useState<string | undefined>(initialSession.savedAt);
   const savedSelection = useRef<{ index: number; start: number; end: number } | null>(null);
-  const previousView = useRef(view);
+  const pendingCaret = useRef<{ index: number; offset: number } | null>(null);
+  const previousView = useRef<View | null>(null);
+  const lastPageView = useRef<View | null>(null);
   const reviewRequest = useRef<AbortController | null>(null);
   const [drafts, setDrafts] = useState(() => readStorage<Draft[]>(DRAFTS_KEY, []));
   const [showDrafts, setShowDrafts] = useState(false);
+  const [exportOpen, setExportOpen] = useState(false);
+  const [copyMessage, setCopyMessage] = useState<string | null>(null);
   const [soundOn, setSoundOn] = useState(() => readStorage<boolean>(SOUND_KEY, false) === true);
   const [soundPending, setSoundPending] = useState(false);
   const [soundError, setSoundError] = useState<"unavailable" | "storage" | null>(null);
   const draftsRef = useRef<HTMLDivElement | null>(null);
+  const todayHeadingRef = useRef<HTMLHeadingElement | null>(null);
+  const reflectHeadingRef = useRef<HTMLHeadingElement | null>(null);
+  const reviewHeadingRef = useRef<HTMLHeadingElement | null>(null);
+  const exportRef = useRef<HTMLDivElement | null>(null);
   const draftsOpener = useRef<HTMLElement | null>(null);
   const reflectionRef = useRef<HTMLDivElement | null>(null);
   const writingRef = useRef<HTMLDivElement | null>(null);
@@ -270,6 +289,30 @@ export default function Ghostwriter() {
   const topicsRequested = useRef(false);
 
   useEffect(() => { if (soundOn) prepareTypewriterSound(); }, []);
+
+  useEffect(() => {
+    if (!exportOpen) return;
+    const closeOnOutsideClick = (event: PointerEvent) => {
+      if (!exportRef.current?.contains(event.target as Node)) setExportOpen(false);
+    };
+    const closeOnEscape = (event: globalThis.KeyboardEvent) => {
+      if (event.key !== "Escape") return;
+      setExportOpen(false);
+      exportRef.current?.querySelector<HTMLButtonElement>(".export-trigger")?.focus();
+    };
+    document.addEventListener("pointerdown", closeOnOutsideClick);
+    document.addEventListener("keydown", closeOnEscape);
+    return () => {
+      document.removeEventListener("pointerdown", closeOnOutsideClick);
+      document.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [exportOpen]);
+
+  useEffect(() => {
+    if (!copyMessage) return;
+    const timer = window.setTimeout(() => setCopyMessage(null), 3500);
+    return () => window.clearTimeout(timer);
+  }, [copyMessage]);
 
   async function toggleSound() {
     if (soundOn) {
@@ -355,6 +398,19 @@ export default function Ghostwriter() {
     };
   }, [draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review, manuscript]);
 
+  useLayoutEffect(() => {
+    const previous = lastPageView.current;
+    if (previous === view) return;
+    lastPageView.current = view;
+    if (view !== "write" && previous !== null) {
+      stopWritingScroll();
+      document.scrollingElement?.scrollTo(0, 0);
+    }
+    if (view === "today" && previous !== null) todayHeadingRef.current?.focus({ preventScroll: true });
+    if (view === "reflect") reflectHeadingRef.current?.focus({ preventScroll: true });
+    if (view === "review") reviewHeadingRef.current?.focus({ preventScroll: true });
+  }, [view]);
+
   // The caret follows the active paragraph in either view; the writing position
   // and the falloff are the write view's rule alone.
   useLayoutEffect(() => {
@@ -366,7 +422,7 @@ export default function Ghostwriter() {
     const changedView = previousView.current !== view;
     previousView.current = view;
     // Avoid summoning the mobile keyboard just by opening a document.
-    if (element && (!matchMedia("(pointer: coarse)").matches || !changedView)) {
+    if (element && (!changedView || (writing && !matchMedia("(pointer: coarse)").matches))) {
       element.focus({ preventScroll: true });
       const selection = savedSelection.current;
       if (selection?.index === activeParagraph) element.setSelectionRange(selection.start, selection.end);
@@ -375,6 +431,18 @@ export default function Ghostwriter() {
     focusParagraph(element, caretOffset(element));
     quietParagraph([...refs.entries()].map(([index, paragraph]) => ({ element: paragraph, distance: activeParagraph - index })));
   }, [activeParagraph, view]);
+
+  // A forward merge updates the focused textarea without changing its index.
+  // Restore the join position before paint, rather than one frame later.
+  useLayoutEffect(() => {
+    const pending = pendingCaret.current;
+    if (!pending || (view !== "write" && view !== "reflect")) return;
+    const refs = view === "write" ? paragraphRefs.current : reflectParagraphRefs.current;
+    const element = refs.get(pending.index);
+    if (!element) return;
+    element.setSelectionRange(pending.offset, pending.offset);
+    pendingCaret.current = null;
+  }, [paragraphs, view]);
 
   // The anchor settles on a pause, never on every keystroke (POC.md §2).
   useEffect(() => {
@@ -456,11 +524,22 @@ export default function Ghostwriter() {
     setParagraphs((current) => [...current.slice(0, index), before, after, ...current.slice(index + 1)]);
     setActiveParagraph(index + 1);
   }
-  function removeEmptyParagraph(index: number) {
+  function mergeBackward(index: number) {
     const end = paragraphs[index - 1]?.length || 0;
     savedSelection.current = { index: index - 1, start: end, end };
-    setParagraphs((current) => current.filter((_, paragraphIndex) => paragraphIndex !== index));
+    setParagraphs((current) => [...current.slice(0, index - 1), `${current[index - 1]}${current[index]}`, ...current.slice(index + 1)]);
     setActiveParagraph(index - 1);
+  }
+  function mergeForward(index: number) {
+    const end = paragraphs[index]?.length || 0;
+    savedSelection.current = { index, start: end, end };
+    pendingCaret.current = { index, offset: end };
+    setParagraphs((current) => [...current.slice(0, index), `${current[index]}${current[index + 1]}`, ...current.slice(index + 2)]);
+  }
+  function moveCaret(index: number, position: "start" | "end") {
+    const offset = position === "end" ? paragraphs[index]?.length || 0 : 0;
+    savedSelection.current = { index, start: offset, end: offset };
+    setActiveParagraph(index);
   }
   function registerParagraph(index: number, element: HTMLTextAreaElement | null) {
     if (element) paragraphRefs.current.set(index, element); else paragraphRefs.current.delete(index);
@@ -484,16 +563,34 @@ export default function Ghostwriter() {
     finally { setReviewLoading(false); }
   }
 
+  function exportContent(extension: "txt" | "md") {
+    const heading = title || "Untitled manuscript";
+    const notes = Object.entries(reflectionAnswers).filter(([, answer]) => answer?.trim());
+    const parts = [extension === "md" ? `# ${heading}` : heading, manuscript];
+    if (notes.length) {
+      parts.push(extension === "md"
+        ? `## Reflection notes\n\n${notes.map(([label, answer]) => `### ${label}\n\n${answer}`).join("\n\n")}`
+        : `Reflection notes\n\n${notes.map(([label, answer]) => `${label}\n${answer}`).join("\n\n")}`);
+    }
+    return parts.filter(Boolean).join("\n\n");
+  }
+
   function download(extension: "txt" | "md") {
     const heading = title || "Untitled manuscript";
-    const notes = Object.entries(reflectionAnswers).filter(([, answer]) => answer?.trim()).map(([label, answer]) => `${label}\n${answer}`).join("\n\n");
-    const body = [manuscript, notes ? `Reflection notes\n\n${notes}` : ""].filter(Boolean).join("\n\n");
-    const content = extension === "md" ? `# ${heading}\n\n${body}` : `${heading}\n\n${body}`;
+    const content = exportContent(extension);
     const blob = new Blob([content], { type: "text/plain;charset=utf-8" });
     const anchor = document.createElement("a");
     anchor.href = URL.createObjectURL(blob);
     anchor.download = `${heading.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "").toLowerCase() || "manuscript"}.${extension}`;
     anchor.click(); URL.revokeObjectURL(anchor.href);
+  }
+
+  async function copyMarkdown() {
+    try {
+      await navigator.clipboard.writeText(exportContent("md"));
+      setCopyMessage("Markdown copied");
+      setExportOpen(false);
+    } catch { setCopyMessage("Could not copy Markdown. Check clipboard access."); }
   }
 
   function startBlank() {
@@ -549,6 +646,7 @@ export default function Ghostwriter() {
   </div>;
 
   return <div className={`app view-${view}`}>
+    <a className="skip-link" href="#main-content">Skip to main content</a>
     <header className="app-header">
       <button className="wordmark" onClick={() => setView("today")}><span>SVR</span><i>/</i><span>Ghostwriter</span></button>
       <nav>
@@ -576,9 +674,9 @@ export default function Ghostwriter() {
       </div>) : <p>No saved drafts yet.</p>}
     </div> : null}
 
-    {view === "today" ? <main className="today-shell">
+    {view === "today" ? <main className="today-shell" id="main-content" tabIndex={-1}>
       <p className="eyebrow">Today · {TODAY}</p>
-      <h1>What is worth<br />noticing?</h1>
+      <h1 ref={todayHeadingRef} tabIndex={-1}>What is worth<br />noticing?</h1>
       <div className="today-actions"><p>Choose an idea, then find the experience only you can write about.</p><div className="today-action-links"><button className="text-action" disabled={topicsLoading} onClick={refreshTopics}>Refresh ideas</button><button className="text-action" onClick={startBlank}>Start with a blank page →</button></div></div>
       {topicsLoading && !topicResult ? <TopicDeskSkeleton /> : null}
       {topicsError ? <div className="error-line"><span>{topicsError}</span><button onClick={() => void loadTopics()}>Try again</button></div> : null}
@@ -615,7 +713,7 @@ export default function Ghostwriter() {
       {!topicsLoading && !topicsError && topicResult && !leadTopic ? <div className="topic-empty"><p>No ideas are available yet.</p><button className="text-action" onClick={refreshTopics}>Try another desk</button></div> : null}
     </main> : null}
 
-    {view === "reflect" ? <main className="reflect-shell">
+    {view === "reflect" ? <main className="reflect-shell" id="main-content" tabIndex={-1}>
       <div className="guide-toolbar">
         <span><span title={saveTimeLabel}>{saveLabel}</span> · {wordCount} {wordCount === 1 ? "word" : "words"}</span>
         <button className="text-action" onClick={enterWriting}>Focus on manuscript →</button>
@@ -623,7 +721,7 @@ export default function Ghostwriter() {
       {soundError ? <p className="sound-error" role="alert">{soundError === "storage" ? "Sound preference could not be saved on this device." : "Sound could not start in this browser."}</p> : null}
       <div className="reflection-stage" ref={reflectionRef}>
         <p className="pathway-label">{selectedTopic ? editorialLens(selectedTopic) : "Your writing"}</p>
-        <h1>{selectedTopic ? topicPrompt(selectedTopic) : "What would you like to explore?"}</h1>
+        <h1 ref={reflectHeadingRef} tabIndex={-1}>{selectedTopic ? topicPrompt(selectedTopic) : "What would you like to explore?"}</h1>
         <ul className="writing-guides" aria-label="Guides to keep in mind">
           {writingGuides(selectedTopic).map((guide) => <li key={guide.label}><strong>{guide.label}:</strong> {guide.text}</li>)}
         </ul>
@@ -636,18 +734,25 @@ export default function Ghostwriter() {
             setReflectionAnswers({});
           }}>Move earlier notes into manuscript</button>
         </details> : null}
-        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} soundOn={soundOn} register={registerReflectParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
+        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} paragraphCount={paragraphs.length} soundOn={soundOn} register={registerReflectParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onMergeBackward={mergeBackward} onMergeForward={mergeForward} onMoveCaret={moveCaret} onSelection={rememberSelection} />)}</div>
       </div>
     </main> : null}
 
-    {view === "write" ? <main className="writing-shell" ref={writingRef}>
+    {view === "write" ? <main className="writing-shell" id="main-content" tabIndex={-1} ref={writingRef}>
       <div className="document-toolbar" aria-label="Document actions">
         <span className="document-status" title={saveTimeLabel}>{saveLabel}</span>
         <div>
           <span>{wordCount} {wordCount === 1 ? "word" : "words"}</span>
           {selectedTopic ? <button onClick={() => void openReflection()}>Writing guides</button> : null}
           {__ANTHROPIC_CONFIGURED__ ? <button disabled={!manuscript.trim()} onClick={() => void requestReview()}>Review</button> : null}
-          <button onClick={() => download("md")}>Export</button>
+          <div className="export-control" ref={exportRef}>
+            <button className="export-trigger" type="button" aria-haspopup="true" aria-expanded={exportOpen} aria-controls={exportOpen ? "export-options" : undefined} onClick={() => { setCopyMessage(null); setExportOpen((open) => !open); }}>Export ▾</button>
+            {exportOpen ? <div className="export-popover" id="export-options" aria-label="Export options">
+              <button type="button" onClick={() => { download("md"); setExportOpen(false); }}>Download Markdown</button>
+              <button type="button" onClick={() => void copyMarkdown()}>Copy Markdown</button>
+            </div> : null}
+            {copyMessage ? <span className="export-feedback" role="status">{copyMessage}</span> : null}
+          </div>
           <button onClick={startBlank}>New draft</button>
         </div>
       </div>
@@ -656,19 +761,19 @@ export default function Ghostwriter() {
         {selectedTopic ? <details className="writing-context"><summary>Writing from · {editorialLens(selectedTopic)}</summary><p>{topicPrompt(selectedTopic)}</p><TopicProvenance topic={selectedTopic} /></details> : <p className="manuscript-label">Your manuscript</p>}
         {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context"><summary>Your reflection notes</summary>{Object.entries(reflectionAnswers).map(([label, answer]) => answer?.trim() ? <div key={label}><strong>{label}</strong><p>{answer}</p></div> : null)}</details> : null}
         <h1 className="visually-hidden">{title || "Untitled manuscript"}</h1>
-        <input name="title" autoComplete="off" className="manuscript-title" value={title} onChange={(event) => setTitle(event.target.value)} placeholder="Untitled" aria-label="Manuscript title" />
-        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} soundOn={soundOn} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onEmptyBackspace={removeEmptyParagraph} onSelection={rememberSelection} />)}</div>
+        <input name="title" autoComplete="off" className="manuscript-title" value={title} onChange={(event) => setTitle(event.target.value)} onKeyDown={(event) => { if (event.key === "Enter") { event.preventDefault(); paragraphRefs.current.get(0)?.focus(); } }} placeholder="Untitled" aria-label="Manuscript title" />
+        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} paragraphCount={paragraphs.length} soundOn={soundOn} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onMergeBackward={mergeBackward} onMergeForward={mergeForward} onMoveCaret={moveCaret} onSelection={rememberSelection} />)}</div>
       </section>
     </main> : null}
 
-    {view === "review" ? <main className="review-shell">
+    {view === "review" ? <main className="review-shell" id="main-content" tabIndex={-1}>
       <div className="review-toolbar">{utility}<button className="primary-action" onClick={() => setView("write")}>Return to manuscript</button></div>
       <div className="review-columns">
-        <article className="review-manuscript"><p className="eyebrow">Manuscript · {wordCount} words</p><h1>{title || "Untitled manuscript"}</h1>{paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</article>
+        <article className="review-manuscript"><p className="eyebrow">Manuscript · {wordCount} words</p><h1 ref={reviewHeadingRef} tabIndex={-1}>{title || "Untitled manuscript"}</h1>{paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</article>
         <aside className="editorial-notes">
           <div className="notes-heading"><span>Ghostwriter review</span><button disabled={reviewLoading} onClick={() => void requestReview()}>Review again</button></div>
           {reviewLoading ? <p className="loading-line" role="status">Reading closely…</p> : <div className="review-copy">{review}</div>}
-          {!reviewLoading && review ? <div className="export-actions"><button onClick={() => download("md")}>Download Markdown</button><button onClick={() => download("txt")}>Download text</button><button onClick={() => window.open("https://medium.com/new-story", "_blank", "noopener,noreferrer")}>Open Medium</button></div> : null}
+          {!reviewLoading && review ? <div className="export-actions"><button onClick={() => download("md")}>Download Markdown</button><button onClick={() => download("txt")}>Download text</button><button onClick={() => void copyMarkdown()}>Copy Markdown</button><button onClick={() => window.open("https://medium.com/new-story", "_blank", "noopener,noreferrer")}>Open Medium</button>{copyMessage ? <span role="status">{copyMessage}</span> : null}</div> : null}
         </aside>
       </div>
     </main> : null}

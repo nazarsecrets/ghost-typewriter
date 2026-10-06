@@ -23,8 +23,8 @@ export function pathwayEnter(element: HTMLElement | null) {
 /** Tuning constants for the physical writing rule (POC.md §2). */
 export const WRITING_ANCHOR = 0.3;
 export const OPACITY_ACTIVE = 1;
-export const OPACITY_PREVIOUS = 0.72;
-export const OPACITY_DISTANT = 0.42;
+export const OPACITY_PREVIOUS = 0.82;
+export const OPACITY_DISTANT = 0.68;
 
 /** Resting opacity for a paragraph `distance` paragraphs behind the caret. */
 export function paragraphOpacity(distance: number) {

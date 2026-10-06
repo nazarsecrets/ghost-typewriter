@@ -44,12 +44,12 @@ While actively writing:
 
 - The **current paragraph** stays anchored at ~40% down the viewport.
 - **Completed paragraphs** drift upward as you continue.
-- Older writing gets **quieter** — opacity `1` active, `0.72` one paragraph back, `0.42` beyond; never blurred, never hidden.
+- Older writing gets **quieter** — opacity `1` active, `0.82` one paragraph back, `0.68` beyond; never blurred, never hidden.
 - The anchor **settles on pause**, not on every keystroke (no jitter during fast typing).
 
 This is the contemporary reinterpretation of a typewriter carriage. It is the whole identity of the product.
 
-Settled: `focusParagraph` (30% anchor, holding the caret line) and `quietParagraph` (0.42 floor) in `src/motion.ts`, with both exposed as constants.
+Settled: `focusParagraph` (30% anchor, holding the caret line) and `quietParagraph` (0.68 readable floor) in `src/motion.ts`, with both exposed as constants.
 
 ---
 
@@ -153,7 +153,7 @@ The resulting notes live beside the untouched draft and identify Idea, Clarity, 
 1. **Reshape the topic desk — complete.** The highest-ranked provocation leads, five quieter signals follow, editorial lenses aid scanning, and source-backed or Evergreen provenance remains explicit. For current material, Why now carries the signal and the linked article remains evidence rather than the writing prompt. The desk stays still on load; interaction feedback carries the motion.
 2. **Wire select → write** — choosing an idea seeds the manuscript title/subject and goes straight to the write view, bypassing reflection for the POC.
 3. **Strip the chrome** — remove the utility bar (mode/tone toggles) and the end-of-manuscript button from the write view; keep title + paragraphs + word count.
-4. ~~**Tune the rule**~~ — done: constants exposed, 30% anchor with settle-on-pause (600ms), 1 / 0.72 / 0.42 falloff.
+4. ~~**Tune the rule**~~ — done: constants exposed, 30% anchor with settle-on-pause (600ms), 1 / 0.82 / 0.68 falloff.
 5. **Silence autosave** — keep the durable write, drop or soften the visible "Saved" state.
 6. **Type + spacing pass** — confirm serif manuscript, generous measure, whitespace on the paper.
 
@@ -166,7 +166,7 @@ All six are edits to existing code, not new systems. Estimated as an afternoon, 
 These are tuning questions the POC exists to answer — judged by feel, in the browser, not on paper:
 
 - ~~**Anchor point:** 40% vs 42%~~ — settled at **30%**; 40% and 42% both read as too low on screen. Measured at 290px of a 900px viewport, identical on the first keystroke and deep into a draft.
-- ~~**Quiet floor:** 0.82 vs 0.72~~ — settled deeper than either: **0.72** one paragraph back, **0.42** beyond. Revisiting a paragraph restores it to full ink.
+- ~~**Quiet floor:** 0.82 vs 0.72~~ — the earlier 0.72 / 0.42 falloff was revised in the type and accessibility pass to **0.82** one paragraph back and **0.68** beyond. Revisiting a paragraph restores it to full ink.
 - ~~**Settle timing:**~~ — settled on pause at 600ms; scroll is unchanged between keystrokes and moves only once typing stops.
 - **Whitespace / measure:** how wide is "generous" before the eye loses the line?
 - **Silence:** is a removed save-state trusting-and-calm, or unsettling?
