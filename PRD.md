@@ -628,10 +628,11 @@ The active session contains view, mode, tone, selected topic, pathways, pathway 
 - Up to 20 drafts are retained.
 - Draft records include a stable ID, title, timestamp, and manuscript content.
 - Selecting a draft restores its title and paragraphs into Write.
+- Each Recent drafts row has a right-edge Delete control that appears on hover or keyboard focus and stays visible on touch screens. Deletion requires confirmation; deleting the active draft resets the active session so autosave cannot recreate it.
 - Requesting a successful review creates a draft snapshot in the current implementation.
 - Requesting Review again must update or intentionally version the existing snapshot rather than silently creating indistinguishable duplicates.
 
-Future consideration: explicit New, Save snapshot, Rename, and Delete actions. These are not required for initial V1 acceptance.
+Future consideration: explicit Save snapshot and Rename actions. These are not required for initial V1 acceptance.
 
 ### FR-7: Export
 

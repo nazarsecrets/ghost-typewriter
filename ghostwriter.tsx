@@ -266,6 +266,7 @@ export default function Ghostwriter() {
   const paragraphRefs = useRef(new Map<number, HTMLTextAreaElement>());
   const reflectParagraphRefs = useRef(new Map<number, HTMLTextAreaElement>());
   const lastSavedSession = useRef(JSON.stringify(restored.current));
+  const deletedDraftIds = useRef(new Set<string>());
   const topicsRequested = useRef(false);
 
   useEffect(() => { if (soundOn) prepareTypewriterSound(); }, []);
@@ -319,6 +320,7 @@ export default function Ghostwriter() {
     if (serialized === lastSavedSession.current) return;
     setSaveStatus("unsaved");
     const persist = () => {
+      if (deletedDraftIds.current.has(draftId)) return;
       setSaveStatus("saving");
       try {
         const timestamp = new Date().toISOString();
@@ -413,6 +415,7 @@ export default function Ghostwriter() {
   }, [showDrafts]);
 
   function preserveDraft() {
+    if (deletedDraftIds.current.has(draftId)) return true;
     if (!title.trim() && !manuscript.trim() && !Object.values(reflectionAnswers).some((answer) => answer?.trim())) return true;
     try {
       const draft: Draft = { id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
@@ -501,6 +504,34 @@ export default function Ghostwriter() {
     requestAnimationFrame(() => enterWritingMode(writingRef.current));
   }
 
+  function deleteDraft(draft: Draft) {
+    if (!window.confirm(`Delete “${draft.title}”? This draft cannot be recovered.`)) return;
+    const remaining = drafts.filter((item) => item.id !== draft.id);
+    const deletingActive = draft.id === draftId;
+    const nextSession: Session | null = deletingActive
+      ? { ...INITIAL_SESSION, draftId: crypto.randomUUID() }
+      : null;
+    try {
+      writeStorage(DRAFTS_KEY, remaining);
+      if (nextSession) {
+        try { writeStorage(SESSION_KEY, nextSession); }
+        catch (error) { writeStorage(DRAFTS_KEY, drafts); throw error; }
+      }
+    } catch { setSaveStatus("error"); return; }
+
+    deletedDraftIds.current.add(draft.id);
+    setDrafts(remaining);
+    if (!nextSession) return;
+    savedSelection.current = null;
+    reviewRequest.current?.abort();
+    lastSavedSession.current = JSON.stringify(nextSession);
+    setDraftId(nextSession.draftId!);
+    setView("today"); setMode("article"); setTone("reflective");
+    setSelectedTopic(null); setPathways(null); setPathwayIndex(0);
+    setReflectionAnswers({}); setTitle(""); setParagraphs([""]);
+    setActiveParagraph(0); setReview(""); setSavedAt(undefined); setSaveStatus("saved");
+  }
+
   const saveLabel = saveStatus === "saved" ? "All changes saved" : saveStatus === "error" ? "Could not save" : saveStatus === "saving" ? "Saving…" : "Unsaved changes";
   const saveTimeLabel = savedAt ? `Saved on this device at ${new Date(savedAt).toLocaleTimeString()}` : "Saved on this device";
   const soundControl = <button className="sound-toggle" type="button" aria-pressed={soundOn} disabled={soundPending} onClick={() => void toggleSound()}>{soundOn ? "Sound on" : "Sound off"}</button>;
@@ -532,12 +563,17 @@ export default function Ghostwriter() {
 
     {showDrafts ? <div className="draft-drawer" ref={draftsRef} role="dialog" aria-modal="true" aria-labelledby="drafts-heading">
       <div className="drawer-heading"><span id="drafts-heading">Recent drafts</span><button onClick={() => setShowDrafts(false)}>Close</button></div>
-      {drafts.length ? drafts.map((draft) => <button className="draft-row" key={draft.id} onClick={() => {
-        if (!preserveDraft()) return;
-        savedSelection.current = null; reviewRequest.current?.abort();
-        setDraftId(draft.id); setSelectedTopic(draft.topic || null); setPathways(null); setReflectionAnswers(draft.notes || {}); setPathwayIndex(0); setReview("");
-        setTitle(draft.title); setParagraphs(draft.content.split(/\n\s*\n/)); setActiveParagraph(0); setShowDrafts(false); setView("write");
-      }}><strong>{draft.title}</strong><span>{new Date(draft.updatedAt).toLocaleDateString()}</span><span className="visually-hidden">Open this draft</span></button>) : <p>No saved drafts yet.</p>}
+      {drafts.length ? drafts.map((draft) => <div className="draft-row" key={draft.id}>
+        <button className="draft-open" type="button" onClick={() => {
+          if (!preserveDraft()) return;
+          savedSelection.current = null; reviewRequest.current?.abort();
+          setDraftId(draft.id); setSelectedTopic(draft.topic || null); setPathways(null); setReflectionAnswers(draft.notes || {}); setPathwayIndex(0); setReview("");
+          setTitle(draft.title); setParagraphs(draft.content.split(/\n\s*\n/)); setActiveParagraph(0); setShowDrafts(false); setView("write");
+        }} aria-label={`Open draft: ${draft.title}`}><strong>{draft.title}</strong><time dateTime={draft.updatedAt}>{new Date(draft.updatedAt).toLocaleDateString()}</time></button>
+        <button className="draft-delete" type="button" aria-label={`Delete draft: ${draft.title}`} title={`Delete ${draft.title}`} onClick={() => deleteDraft(draft)}>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3m3 0-1 13H7L6 7m4 4v5m4-5v5" /></svg>
+        </button>
+      </div>) : <p>No saved drafts yet.</p>}
     </div> : null}
 
     {view === "today" ? <main className="today-shell">

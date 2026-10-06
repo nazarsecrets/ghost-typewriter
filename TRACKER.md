@@ -58,7 +58,7 @@ standing no-texture instruction still applies until then.
 - ⬜ **[UX+Dev]** Add accept-insight and margin-comment motion only when their corresponding interactions exist (log.md idea 6)
 - ⬜ **[Dev]** Choose and implement the production AI path for invoked Reflect/Review: free serverless proxy or BYO-key mode (PRD FR-10)
 
-- ⬜ **[UX+Dev]** Add per-draft edit (pencil) and delete actions to the draft list. The project has **no icon library** — dependencies are React, React DOM and Anime.js only, and existing affordances are text or typographic marks (`→`, `↗`). Draw both as inline SVG in the plume's line-art register (same stroke weight and charcoal tone) rather than adding a dependency; deletion needs a confirm or undo, since drafts are the only copy of the work.
+- ⬜ **[UX+Dev]** Decide whether an explicit pencil icon is useful beside the existing row-click editing action. If adopted, match the new inline SVG delete icon's line weight and keep both buttons accessible.
 
 ### Release and optional polish
 
@@ -68,6 +68,10 @@ standing no-texture instruction still applies until then.
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-10-06 [UX+Dev]** — Added a right-edge delete icon to each Recent drafts row, visible on hover/focus and always visible on touch. The separate Open button preserves row editing; deletion requires confirmation. Deleting the active draft rotates to a blank session and stays deleted after reload. Browser checks covered hover, focus, cancel, active/inactive deletion, persistence, icon placement, and no console errors; production build passes. The author sound-and-motion session remains next.
+
+- ✅ **2026-10-06 [UX+Dev]** — Removed the Today subtitle's desktop-only left indent so it aligns with the heading; browser measurements showed matching left edges at 1280px and 390px, and the production build passes. The author sound-and-motion session remains next.
 
 - ✅ **2026-10-06 [UX+Dev]** — Kept the existing Anime.js library and tuned its key response to a short active-line step with a small impact; erase reverses and rapid typing softens the pulse. Return now moves the sheet 8px with a brief shadow change beside the recorded carriage cue. Browser checks showed both motions settling to rest, paragraph creation and typing intact under reduced motion, and `npm run build` passing. The author's long-session verdict remains open.
 
