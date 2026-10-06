@@ -1,26 +1,52 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-05T17:01:27.241Z",
-  "windowStart": "2026-09-05T17:01:27.241Z",
-  "windowEnd": "2026-10-05T17:01:27.241Z",
+  "generatedAt": "2026-10-06T05:54:12.193Z",
+  "windowStart": "2026-09-06T05:54:12.193Z",
+  "windowEnd": "2026-10-06T05:54:12.193Z",
   "topics": [
     {
-      "id": "0ae8ecbf4427",
-      "title": "Prompt as self-portrait, De-slopifying your designs, The strategic designer",
-      "teaser": "Weekly curated resources for designers — thinkers and makers. “Every prompt is a confession. Before the model returns a word, the box has read me back: the clarity of my thinking, the range ",
+      "id": "a1d23b1af71f",
+      "title": "Design Systems for AI Agents (Luke Wroblewski)",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-04T15:55:03.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design Systems for AI Agents (Luke Wroblewski)",
+          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+          "publishedAt": "2026-10-05T23:39:08.000Z"
+        },
+        {
+          "name": "hn-designsystem",
+          "title": "Design Systems for AI Agents",
+          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+          "publishedAt": "2026-10-04T15:55:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "16d2598e04a2",
+      "title": "The taste paradox: why the skill everyone says matters is the one we’ve stopped building",
+      "teaser": "We keep saying taste is the last human advantage, but we’ve built a world (and now tools) that make it almost impossible to develop, and we’re responding by de-risking even further Still fro",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-05T11:01:01.000Z",
+      "publishedAt": "2026-10-05T21:59:40.000Z",
       "since": "today",
       "relevanceScore": 1,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "Prompt as self-portrait, De-slopifying your designs, The strategic designer",
-          "url": "https://uxdesign.cc/prompt-as-self-portrait-de-slopifying-your-designs-the-strategic-designer-cf8162f43284?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-05T11:01:01.000Z"
+          "title": "The taste paradox: why the skill everyone says matters is the one we’ve stopped building",
+          "url": "https://uxdesign.cc/the-taste-paradox-why-the-skill-everyone-says-matters-is-the-one-weve-stopped-building-32d1523f1f95?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-05T21:59:40.000Z"
         }
       ]
     },
@@ -34,7 +60,7 @@
       "publishedAt": "2026-09-24T17:21:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "567 engagement signals within 11 days",
+      "categoryReason": "567 engagement signals within 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -45,22 +71,62 @@
       ]
     },
     {
-      "id": "9a2c9028d328",
-      "title": "Design Systems for AI Agents",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "ac3d8e25b915",
+      "title": "If My Toy Could Talk: How Young Children Imagine, Design, and Test AI-Enabled Toys",
+      "teaser": "To investigate the design space where children might design AI chatbots for their own toys, we developed ToyTalk, a technology probe that positions children as designers of LLM-enabled toys.",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-04T15:55:03.000Z",
+      "publishedAt": "2026-10-05T16:18:47.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "If My Toy Could Talk: How Young Children Imagine, Design, and Test AI-Enabled Toys",
+          "url": "https://arxiv.org/abs/2610.06619v1",
+          "publishedAt": "2026-10-05T16:18:47.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0ae8ecbf4427",
+      "title": "Prompt as self-portrait, De-slopifying your designs, The strategic designer",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “Every prompt is a confession. Before the model returns a word, the box has read me back: the clarity of my thinking, the range ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-05T11:01:01.000Z",
       "since": "yesterday",
       "relevanceScore": 1,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Design Systems for AI Agents",
-          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
-          "publishedAt": "2026-10-04T15:55:03.000Z"
+          "name": "uxcollective",
+          "title": "Prompt as self-portrait, De-slopifying your designs, The strategic designer",
+          "url": "https://uxdesign.cc/prompt-as-self-portrait-de-slopifying-your-designs-the-strategic-designer-cf8162f43284?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-05T11:01:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "971dc6aa4811",
+      "title": "Optimizing AI-Driven Messaging for Type 2 Diabetes Management: Insights from Patient Preference Elicitation",
+      "teaser": "Generative AI (GenAI) allows for improved user experience within conversational agents for diabetes management by supporting dynamic, context-aware conversations. In this study, we elicited ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-04T16:25:58.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Optimizing AI-Driven Messaging for Type 2 Diabetes Management: Insights from Patient Preference Elicitation",
+          "url": "https://arxiv.org/abs/2610.05357v1",
+          "publishedAt": "2026-10-04T16:25:58.000Z"
         }
       ]
     },
@@ -72,9 +138,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-03T11:12:42.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +158,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-02T11:09:56.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +198,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T12:11:34.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -145,42 +211,42 @@
       ]
     },
     {
-      "id": "5d904aff30f6",
-      "title": "Federal pressure may force design education to rethink its identity",
-      "teaser": "Why an earnings test raises uncomfortable questions about art, professional practice, and the value of a degree. Image source: Adobe Stock The Price of a Degree The federal government has de",
-      "tag": "Research",
+      "id": "76ac7c3a6421",
+      "title": "Is Meta’s new AI agent easier to trust because it’s cute?",
+      "teaser": "Muse comes with an avatar you design and a keyring gadget. Few people would hand Meta their passwords, yet it topped the US App Store. Continue reading on UX Collective »",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-30T23:10:32.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "publishedAt": "2026-10-05T22:00:31.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "Federal pressure may force design education to rethink its identity",
-          "url": "https://uxdesign.cc/federal-pressure-may-force-design-education-to-rethink-its-identity-22d4ec56b1c2?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-30T23:10:32.000Z"
+          "title": "Is Meta’s new AI agent easier to trust because it’s cute?",
+          "url": "https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-05T22:00:31.000Z"
         }
       ]
     },
     {
-      "id": "a2afb1b8e09d",
-      "title": "Headless AI will make every product a platform. Here’s what to consider when designing for this.",
-      "teaser": "The mockups get the design review. The agents are in the logs, never seeing a screen. AI Assisted. Chat will always be just an interface. Agents are not, and the design work has moved to the",
-      "tag": "Leadership",
+      "id": "f6afccd218d2",
+      "title": "AICoFe Demo: AI-based Collaborative Feedback System",
+      "teaser": "Peer feedback promotes active learning, critical reflection, and skill development, but its effectiveness is often limited by the quality of feedback students provide. Recent advances in LLM",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-09-30T23:10:18.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "publishedAt": "2026-10-05T15:35:09.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Headless AI will make every product a platform. Here’s what to consider when designing for this.",
-          "url": "https://uxdesign.cc/headless-ai-will-make-every-product-a-platform-heres-what-to-consider-when-designing-for-this-f219c33245c7?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-30T23:10:18.000Z"
+          "name": "arxiv-hci",
+          "title": "AICoFe Demo: AI-based Collaborative Feedback System",
+          "url": "https://arxiv.org/abs/2610.06532v1",
+          "publishedAt": "2026-10-05T15:35:09.000Z"
         }
       ]
     },
@@ -192,9 +258,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T10:33:21.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -214,53 +280,13 @@
       "publishedAt": "2026-09-26T14:15:39.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
           "url": "https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/",
           "publishedAt": "2026-09-26T14:15:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b19ba53c904d",
-      "title": "First Agentic AI Design System to Bootstrap Products",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-05T11:33:13.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "First Agentic AI Design System to Bootstrap Products",
-          "url": "https://vitadesignsystem.com/",
-          "publishedAt": "2026-10-05T11:33:13.000Z"
-        }
-      ]
-    },
-    {
-      "id": "77ffdd825f44",
-      "title": "A Design System in and for the Agentic Era",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-05T08:12:06.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "A Design System in and for the Agentic Era",
-          "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
-          "publishedAt": "2026-10-05T08:12:06.000Z"
         }
       ]
     },
@@ -274,7 +300,7 @@
       "publishedAt": "2026-10-04T18:59:25.000Z",
       "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "54 engagement signals within 1 days",
+      "categoryReason": "61 engagement signals within 1 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -325,22 +351,42 @@
       ]
     },
     {
-      "id": "84679c851736",
-      "title": "Building with Agents: QA and UX in the Loop",
-      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
+      "id": "6d507058c148",
+      "title": "AI skill atrophy: Are we forgetting how to think?",
+      "teaser": "The hidden cost of outsourcing our thinking to AI. Continue reading on UX Collective »",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-05T15:09:22.000Z",
+      "publishedAt": "2026-10-05T22:00:12.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI skill atrophy: Are we forgetting how to think?",
+          "url": "https://uxdesign.cc/ai-skill-atrophy-cognitive-offloading-1afbf92eb496?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-05T22:00:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "881910a121ac",
+      "title": "SaaS Search UX: Keep Filters When Results Are Empty",
+      "teaser": "When a SaaS search returns no results, keep the query and selected filters visible. Explain that...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-05T18:03:04.000Z",
       "since": "today",
       "relevanceScore": 0.429,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "devto-ux",
-          "title": "Building with Agents: QA and UX in the Loop",
-          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
-          "publishedAt": "2026-10-05T15:09:22.000Z"
+          "title": "SaaS Search UX: Keep Filters When Results Are Empty",
+          "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
+          "publishedAt": "2026-10-05T18:03:04.000Z"
         }
       ]
     },
@@ -365,6 +411,26 @@
       ]
     },
     {
+      "id": "784cbcdba1b6",
+      "title": "Imagining a Muslim Internet: Trust, Autonomy, and Segregation in a Faith-Aligned Browser",
+      "teaser": "Religiously branded platforms raise important questions about trust, usability, and autonomy when technology is built around a specific faith. Prior HCI work on Islam and Muslim technology h",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-04T18:27:37.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Imagining a Muslim Internet: Trust, Autonomy, and Segregation in a Faith-Aligned Browser",
+          "url": "https://arxiv.org/abs/2610.05444v1",
+          "publishedAt": "2026-10-04T18:27:37.000Z"
+        }
+      ]
+    },
+    {
       "id": "7a89ba194644",
       "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
       "teaser": "Hey HN! I built Proxima Forma because sharing screenshots with my agents was not really doing the job. I am a UX Designer with a developer background so I needed a better tool. Wanted the ag",
@@ -372,15 +438,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-25T09:22:55.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
           "url": "https://proximaforma.com/",
           "publishedAt": "2026-09-25T09:22:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "96c5470e0abb",
+      "title": "VoCa: Designing Speech-Canvas Interaction for Voice-Based Conversational Agents",
+      "teaser": "People write and sketch while speaking to explain, organize, and develop content together. Inspired by these practices, we investigate how voice agents can use a canvas alongside speech in m",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-03T18:39:31.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "VoCa: Designing Speech-Canvas Interaction for Voice-Based Conversational Agents",
+          "url": "https://arxiv.org/abs/2610.04706v1",
+          "publishedAt": "2026-10-03T18:39:31.000Z"
         }
       ]
     },
@@ -425,26 +511,6 @@
       ]
     },
     {
-      "id": "1effd00f10b9",
-      "title": "\"I'm trying not to get hacked:\" How Adults with Intellectual and Developmental Disabilities Navigate Security and Privacy Notifications",
-      "teaser": "Security and privacy notifications, such as login alerts, spam email warnings, and cookie consent requests, play a critical role in shaping users' responses to digital risks. Yet most notifi",
-      "tag": "Ethics",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-01T18:53:49.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "\"I'm trying not to get hacked:\" How Adults with Intellectual and Developmental Disabilities Navigate Security and Privacy Notifications",
-          "url": "https://arxiv.org/abs/2610.02374v1",
-          "publishedAt": "2026-10-01T18:53:49.000Z"
-        }
-      ]
-    },
-    {
       "id": "3bb0a370b514",
       "title": "Show HN: Colorful Design System for Agents",
       "teaser": "",
@@ -452,9 +518,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -465,62 +531,42 @@
       ]
     },
     {
-      "id": "40a2a2370c5b",
-      "title": "Seeing through the Eyes of AI: Situated Explainability in Augmented Reality",
-      "teaser": "Explainable Artificial Intelligence (AI) enables humans to understand and interpret decisions of AI models. Instead of having a black box, explainability supports humans in understanding AI ",
+      "id": "b19ba53c904d",
+      "title": "First Agentic AI Design System to Bootstrap Products",
+      "teaser": "",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-02T12:43:46.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "publishedAt": "2026-10-05T11:33:13.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Seeing through the Eyes of AI: Situated Explainability in Augmented Reality",
-          "url": "https://arxiv.org/abs/2610.03232v1",
-          "publishedAt": "2026-10-02T12:43:46.000Z"
+          "name": "hn-designsystem",
+          "title": "First Agentic AI Design System to Bootstrap Products",
+          "url": "https://vitadesignsystem.com/",
+          "publishedAt": "2026-10-05T11:33:13.000Z"
         }
       ]
     },
     {
-      "id": "9d8e453b9c76",
-      "title": "LearnAdapt Praxis: Controlled AI Assistance and Evidence Traces for Adult Workplace Learning",
-      "teaser": "AI can help adults produce plausible workplace artefacts while leaving their independent reasoning difficult to inspect. LearnAdapt Praxis addresses this design problem through a five-stage ",
-      "tag": "AI",
+      "id": "77ffdd825f44",
+      "title": "A Design System in and for the Agentic Era",
+      "teaser": "",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-02T02:31:50.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
+      "publishedAt": "2026-10-05T08:12:06.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "LearnAdapt Praxis: Controlled AI Assistance and Evidence Traces for Adult Workplace Learning",
-          "url": "https://arxiv.org/abs/2610.02699v1",
-          "publishedAt": "2026-10-02T02:31:50.000Z"
-        }
-      ]
-    },
-    {
-      "id": "07de44d70b17",
-      "title": "Automating the Application of HCI Principles: Skills for On-Demand UI Construction, the Human-AI Space to Think, and the Future of HCI",
-      "teaser": "Human-computer interaction (HCI) is in the middle of a transition: large language models can now generate functional user interfaces (UIs) on demand from natural-language task descriptions. ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-01T18:45:43.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Automating the Application of HCI Principles: Skills for On-Demand UI Construction, the Human-AI Space to Think, and the Future of HCI",
-          "url": "https://arxiv.org/abs/2610.02369v1",
-          "publishedAt": "2026-10-01T18:45:43.000Z"
+          "name": "hn-designsystem",
+          "title": "A Design System in and for the Agentic Era",
+          "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
+          "publishedAt": "2026-10-05T08:12:06.000Z"
         }
       ]
     },
@@ -572,9 +618,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-04T14:34:28.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -594,7 +640,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "nngroup",
@@ -612,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T10:03:43.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -632,35 +678,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "nngroup",
           "title": "Empathy Mapping: The First Step in Design Thinking",
           "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-02T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1bb9b021b2a1",
-      "title": "Lessons from Trauma-Informed Training on Technology-Facilitated Abuse for Gender-Based Violence Advocates",
-      "teaser": "Technology-facilitated abuse (TFA) is an emerging gendered public health crisis affecting millions of people across the globe. TFA coincides with other forms of gender-based violence (GBV), ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-02T02:07:57.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Lessons from Trauma-Informed Training on Technology-Facilitated Abuse for Gender-Based Violence Advocates",
-          "url": "https://arxiv.org/abs/2610.02688v1",
-          "publishedAt": "2026-10-02T02:07:57.000Z"
         }
       ]
     },
@@ -681,26 +707,6 @@
           "title": "A Quick Guide on Creating a Design System",
           "url": "https://www.andrewcoyle.com/blog/a-quick-guide-on-creating-a-design-system",
           "publishedAt": "2026-09-27T22:06:14.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8e12c6255323",
-      "title": "Santiago's A.T. Field: Visualizing Urban Accessibility through an Evangelion-Inspired Interface",
-      "teaser": "Science-fiction interfaces are often reproduced for their appearance, and their diagnostic logic is rarely rebuilt around real data. Here we describe Santiago's A.T. Field, an interactive vi",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-01T22:53:53.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Santiago's A.T. Field: Visualizing Urban Accessibility through an Evangelion-Inspired Interface",
-          "url": "https://arxiv.org/abs/2610.02562v1",
-          "publishedAt": "2026-10-01T22:53:53.000Z"
         }
       ]
     },
@@ -730,37 +736,17 @@
       "teaser": "",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-28T10:16:02.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Common UX Design Methods, Ranked by Value",
           "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
           "publishedAt": "2026-09-28T10:16:02.000Z"
-        }
-      ]
-    },
-    {
-      "id": "bb8344e85b0d",
-      "title": "Five-step color balancing with GenAI",
-      "teaser": "Gemini & Qualitative Data Color Scheme Design Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-09-30T23:11:26.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Five-step color balancing with GenAI",
-          "url": "https://uxdesign.cc/five-step-color-balancing-with-genai-60ab1ca5635e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-09-30T23:11:26.000Z"
         }
       ]
     },
@@ -772,9 +758,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-11T17:00:00.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
       "sources": [
         {
           "name": "nngroup",
@@ -794,7 +780,7 @@
       "publishedAt": "2026-09-21T14:00:16.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -814,7 +800,7 @@
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -834,7 +820,7 @@
       "publishedAt": "2026-09-19T16:29:03.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -854,7 +840,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -874,7 +860,7 @@
       "publishedAt": "2026-09-21T07:40:28.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -894,7 +880,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
       "sources": [
         {
           "name": "smashing",
@@ -914,7 +900,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -934,7 +920,7 @@
       "publishedAt": "2026-09-15T08:01:39.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -972,9 +958,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-11T13:00:00.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "smashing",
@@ -990,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-05T17:01:27.241Z"
+      "fetchedAt": "2026-10-06T05:54:12.194Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-05T17:01:27.281Z"
+      "fetchedAt": "2026-10-06T05:54:12.247Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-05T17:01:27.282Z"
+      "fetchedAt": "2026-10-06T05:54:12.248Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-05T17:01:27.283Z"
+      "fetchedAt": "2026-10-06T05:54:12.249Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-05T17:01:27.284Z"
+      "fetchedAt": "2026-10-06T05:54:12.251Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-05T17:01:27.285Z"
+      "fetchedAt": "2026-10-06T05:54:12.252Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-05T17:01:27.286Z"
+      "fetchedAt": "2026-10-06T05:54:12.253Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-10-05T17:01:27.286Z"
+      "fetchedAt": "2026-10-06T05:54:12.254Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 33,
-      "fetchedAt": "2026-10-05T17:01:27.287Z"
+      "items": 35,
+      "fetchedAt": "2026-10-06T05:54:12.254Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-05T17:01:27.288Z"
+      "fetchedAt": "2026-10-06T05:54:12.255Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-05T17:01:27.289Z"
+      "fetchedAt": "2026-10-06T05:54:12.256Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-05T17:01:27.289Z"
+      "fetchedAt": "2026-10-06T05:54:12.257Z"
     }
   ]
 }
