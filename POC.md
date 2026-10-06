@@ -89,10 +89,13 @@ Rules for the surface:
 
 ## 4. Typing as the reward
 
-**Revised after author feedback, September 29, 2026:** The pace-responsive quill
-passed technical checks but the author found it distracting or tiring. The
-chosen experience now uses a native text caret during writing and pauses, with
-the quill reserved for transitions. No further typing effect is wanted.
+**Revised September 29, 2026:** The pace-responsive quill passed technical
+checks but the author found it distracting or tiring. The Plume is now unwired,
+and the native text caret is the only cursor. A restrained typewriter response
+has since been adopted: eligible keys produce distinct sub-pixel movement on
+the active line, scaled down during sustained typing; Return moves the sheet
+briefly as the line advances. Arrows, modifiers, shortcuts, and reduced-motion
+sessions produce no movement. Text is never delayed.
 
 The reward is immediate text entry, a steady writing position, and a readable
 manuscript. Typing interrupts transitions immediately; it never waits for them.
@@ -100,8 +103,9 @@ The 30% anchor still settles on pause, and reduced motion removes nonessential
 transition movement. There are no streaks, scores, or celebrations.
 
 A 305-word, four-paragraph automated walkthrough preserved input, editing, and
-reload state. This is usability evidence, not proof of long-session comfort.
-The revised native-caret experience needs the author's follow-up use.
+reload state before these latest motion changes. This is usability evidence, not
+proof of long-session comfort; the author still needs to judge the current
+native-caret experience in a real session. Paper grain and sound remain unadopted.
 
 ## 5. Scope
 

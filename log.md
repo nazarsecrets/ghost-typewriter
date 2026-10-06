@@ -129,7 +129,7 @@ keypress → character lands → cursor advances → page fills → environment 
 
 **Why it matters.** The writing becomes intrinsically rewarding without streaks, XP, or productivity pressure.
 
-**Current state (revised September 29, 2026).** The adaptive quill passed mechanical checks but the author reported fatigue and chose a native text caret while writing, with quill-only transitions. Typing, line-wrap, and idle reactions are removed. No further typing effect is planned.
+**Current state (revised September 29, 2026).** The adaptive quill passed mechanical checks but the author reported fatigue. The Plume is now unwired, with the native caret as the only cursor. In its place, eligible keys produce distinct, sub-pixel active-line responses that scale down during sustained typing; Return moves the sheet briefly as the line advances. Arrows, modifiers, and shortcuts produce no response. Reduced motion disables movement. Character landing, sound, and paper grain remain unadopted.
 
 **Follow-up.** Check whether the revised native-caret experience remains comfortable in the author's longer sessions. Do not infer comfort from automated input tests.
 

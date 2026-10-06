@@ -4,7 +4,7 @@
 
 **Status:** Draft for product alignment  
 **Version:** 1.0  
-**Last updated:** September 28, 2026
+**Last updated:** September 29, 2026
 **Primary user:** The author  
 **Target platform:** Responsive web application  
 **Target hosting:** GitHub Pages with optional free serverless AI proxy
@@ -180,7 +180,7 @@ Guided Memory, Tension, Outcome, System, and People pathways remain an optional 
 | Review | Intentionally invoked Ghost annotations beside untouched manuscript | Separate review surface implemented; visible button, unstructured response, Claude-dependent |
 | Persistence | Debounced local session and recent drafts | Implemented with versioned `localStorage` |
 | Export | Markdown, text, Medium handoff | Implemented |
-| Motion | Six reusable Anime.js behaviors | Implemented |
+| Motion | Six foundational Anime.js behaviors plus two typewriter responses | Implemented |
 | Production hosting | Static GitHub Pages deployment | Not yet configured |
 | Production AI calls | Secure proxy or explicit BYO-key path | Decision required |
 
@@ -195,7 +195,7 @@ The working interface validates its individual Today, Reflect, Write, and Review
 - A paragraph-based manuscript makes fixed-position writing, progressive paragraph quieting, and exact paragraph focus possible.
 - A separate Review surface preserves the manuscript as the authoritative object instead of turning it into chat history.
 - A 700ms debounced browser write is sufficient for the current single-author, small-document scope.
-- Centralizing motion in six named Anime.js behaviors makes the “motion serves stillness” rule enforceable.
+- Centralizing motion in named Anime.js behaviors makes the “motion serves stillness” rule enforceable.
 - Article/LinkedIn and Reflective/Editorial settings are sufficient configuration, but the paper POC shows they should not remain visible while writing.
 
 #### Validated by the local topic-desk experiment
@@ -455,17 +455,16 @@ The reflection payload may also contain a one-sentence underlying angle. When sh
 #### FR-4.6 The Plume transitions — muted
 
 > **Muted 2026-09-29 by author decision.** The instrument of this product is a
-> typewriter, not a quill, so the plume does not fit the theme. The component and
-> its inkwell are retained in the tree but no longer rendered; the native caret is
-> the only cursor, in every view. The interaction model that replaces it is
-> `typewriting-feel.md`. What follows records what was built, not what ships.
+> typewriter, not a quill, so the Plume does not fit the theme. The component and
+> its inkwell are retained in the tree but are not rendered; the native caret is
+> the only cursor in every view. The transition-only Plume model described below
+> was also unwired. The current writing response is described in FR-8.1 and
+> `typewriting-feel.md`.
 
 
-The native text caret is used while writing and thinking. On September 29 the
-author reported that the quill was distracting or tiring and selected quill-only
-transitions. The quill appears briefly for session, reflection-to-manuscript, and
-Ghostwriter handoffs, then disappears. Native editing, selection, IME composition,
-and accessibility behavior stay with the textarea.
+The native text caret remains authoritative for editing, selection, IME
+composition, and accessibility. The Plume details below document the built
+component, not current application behavior.
 
 **Drawing.** A custom quill of 60px on desktop and 46px on a phone, between real
 feather anatomy and a refined editorial line illustration — never an emoji,
@@ -486,12 +485,16 @@ stock icon, filled silhouette, or Victorian engraving.
 - Every transform pivots on the nib (`transform-origin` at the nib in both the wrapper and the SVG groups), so the quill turns on its point of contact rather than floating beside the text.
 - The whole quill, not just its point of contact, is kept clear of the fixed header.
 
-**Writing and idle.** No quill, keystroke dip, feather flex, contact ink,
-line-wrap animation, or idle adjustment. Input immediately interrupts a running
-transition. The native caret remains visible throughout.
+**Current writing response.** Eligible letters, punctuation, spaces, and erase
+keys produce distinct, sub-pixel responses on the active line; arrows, modifiers,
+and shortcuts produce none. Return advances the line while the sheet makes one
+brief carriage movement. Text commits immediately and is never delayed by motion.
+Both responses settle without looping and produce no movement under reduced
+motion. No character landing, sound, or paper grain is implemented.
 
-**Transition states.** arriving, lifting, stowing, departing, responding,
-returning, then hidden. No state loops.
+**Historical transition states.** arriving, lifting, stowing, departing,
+responding, returning, then hidden. No state loops. These states are not currently
+wired into the application.
 
 - Ghostwriter thinking: the nib lifts off the baseline, the feather rotates upright, the plume withdraws and fades.
 - Ghostwriter finished: the plume returns from the direction it left, the nib approaches the writer's previous caret position and disappears, leaving the native caret.
@@ -649,7 +652,7 @@ carries a soft resting shadow. This makes the page an object that can respond
 
 ### FR-8: Motion system
 
-Anime.js is the primary motion library. Motion is organized into six reusable behaviors:
+Anime.js is the primary motion library. Motion is organized into six foundational transition and paragraph behaviors plus two writing responses:
 
 | Behavior | Purpose | Target behavior |
 | --- | --- | --- |
@@ -991,7 +994,7 @@ The target V1 is accepted when:
 17. Typing feedback reduces during sustained flow and respects reduced motion.
 18. Ghost remains dormant until intentionally invoked.
 19. Ghost annotations are classified by Idea, Clarity, Voice, Evidence, or Structure and never overwrite raw prose automatically.
-20. All six Anime.js behaviors are wired and reduced motion is respected.
+20. All eight named Anime.js behaviors are wired and reduced motion is respected.
 21. The active session persists across a browser reload.
 22. Recent draft snapshots persist and reopen correctly.
 23. Review appears separately from the manuscript and does not convert writing into chat.
@@ -1019,7 +1022,7 @@ The target V1 is accepted when:
 | AI critique rewrites the author's identity | Product loses purpose | Strong voice prompt, structured critique, manuscript remains authoritative |
 | Ghost becomes an always-on AI assistant | Writing is interrupted and authorship blurs | Dormant-by-default invocation; no inline completion or permanent panel |
 | Mechanical typing feedback becomes distracting | Flow degrades and input feels delayed | Subtle response, pause-based settling, adaptive reduction, reduced-motion fallback |
-| Motion becomes theatrical | Reduced focus | Six-behavior constraint, short durations, reduced-motion support |
+| Motion becomes theatrical | Reduced focus | Named-behavior constraint, short durations, reduced-motion support |
 
 ## 19. Open decisions
 
@@ -1044,7 +1047,7 @@ The target V1 is accepted when:
 - Writing is the central interface.
 - Reflection shows one pathway at a time.
 - The fixed writing position targets approximately 30% of viewport height.
-- Anime.js powers a restrained motion system: the six manuscript behaviors plus the Plume cursor states.
+- Anime.js powers six foundational manuscript behaviors plus `paperImpulse` and `carriageReturn`; the Plume is unwired.
 - Active work and recent drafts use versioned local browser storage.
 - Review is separate from the manuscript rather than chat-based.
 - Topic discovery must stop depending on Claude.

@@ -90,11 +90,13 @@ _(nothing currently)_
   reduced motion**. Sheet is 760px wide with a 672px measure on desktop and 370px
   with a 338px measure on a phone, no horizontal overflow. Regression clean: axe
   reports no violations across all four surfaces in both motion modes, the 30%
-  anchor and opacity ladder are unchanged, no console errors. Moved the strike
+  anchor and opacity ladder are unchanged, and no console errors. Moved the strike
   from the parent to `ParagraphEditor`, which knows both its own element and the
   key, removing a ref-map lookup. **Deliberately not done:** the paper grain §10
   offers, which contradicts the standing no-paper-texture instruction, and sound
-  (§8), which needs a Web Audio build and a remembered mute preference.
+  (§8), which needs a Web Audio build and a remembered mute preference. Synchronized
+  the PRD, POC, implementation plan, CLAUDE.md, interaction report, and Idea 10 with the
+  shipped response; the Plume is documented as fully unwired.
 
 
 - ✅ **2026-09-29 [UX+Dev]** — Manuscript keyboard and accessibility pass across

@@ -59,7 +59,7 @@ tracker stale. If a task made no tracked progress, say so — don't silently ski
 ## Layout
 
 - `ghostwriter.tsx` — the app (single component, four views).
-- `src/motion.ts` — the six Anime.js behaviors, and the writing-rule constants
+- `src/motion.ts` — six foundational Anime.js behaviors, two typewriter response behaviors, and writing-rule constants
   (`WRITING_ANCHOR`, the opacity ladder).
 - `src/PlumeCursor.tsx` — the quill cursor and its inkwell. **Muted:** retained but
   not rendered. Its generated vane geometry comes from `tools/quill-geometry.py`.

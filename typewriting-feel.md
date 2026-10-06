@@ -430,9 +430,19 @@ Avoid continuously animating the paper.
 
 Movement becomes meaningful because the page is otherwise calm.
 
+**Implemented September 29, 2026:** the writing shell and manuscript are distinct
+paper and sheet surfaces with a resting shadow. Eligible key classes produce
+different sub-pixel responses on the active line, scaled down during sustained
+typing. Return advances the line while the sheet moves once and its shadow
+deepens, then both settle. Reduced motion disables all movement. Paper grain,
+character landing, and sound are not implemented.
+
 ------------------------------------------------------------------------
 
 ## 11. The Plume as a Second Interaction Layer
+
+**Original proposal, not adopted:** the Plume is unwired and is not part of the
+current writing experience. The native caret is the only cursor in every view.
 
 For the Ghostwriter concept, the plume should not simply mirror every
 keystroke.
@@ -970,78 +980,38 @@ metaphor.
 
 ## 20. Prototype Phases
 
-### Phase 1 --- Character feel
+### Phase 1 --- Character feel (implemented: active-line impulse)
 
-Build only:
+The active line responds to eligible keystrokes and settles back to rest. The
+text itself is not animated or delayed.
 
--   character strike
--   settle
--   subtle paper impulse
+### Phase 2 --- Rhythm (implemented: key-specific response)
 
-Goal: determine whether a single keystroke feels satisfying.
+Letters, punctuation, spaces, and erase keys have distinct responses. Arrows,
+modifiers, and shortcuts produce none; sustained typing reduces the response.
+Sound remains unimplemented.
 
-### Phase 2 --- Rhythm
+### Phase 3 --- Carriage (implemented: Return movement)
 
-Add:
+Return advances the line while the sheet moves once and its shadow deepens, then
+settles. No bell or sound is played.
 
--   fast typing
--   animation interruption
--   multiple sound samples
--   space and backspace behaviour
+### Phase 4 --- Materiality (partial: sheet and shadow)
 
-Goal: make continuous typing enjoyable.
+The paper and sheet are distinct surfaces, and the sheet has a resting shadow
+that deepens on Return. Paper texture, ink variation, and character
+imperfections are not adopted.
 
-### Phase 3 --- Carriage
+### Phase 5 --- Plume intelligence (not adopted; Plume unwired)
 
-Add:
+The Plume is retained in source but is not rendered. The native caret is the only
+cursor in every view.
 
--   active writing zone
--   Return animation
--   carriage bell
--   line advance
+### Phase 6 --- Production hardening (partial; author comfort check pending)
 
-Goal: establish the recognizable typewriter metaphor.
-
-### Phase 4 --- Materiality
-
-Add:
-
--   paper texture
--   ink variation
--   character imperfections
--   surface shadow response
-
-Goal: make the writing surface feel physical without harming legibility.
-
-### Phase 5 --- Plume intelligence
-
-Add:
-
--   idle
--   writing
--   flow
--   thinking
--   revision
--   paragraph completion states
-
-Goal: make the plume reflect the writer's behaviour rather than simply
-decorate the page.
-
-### Phase 6 --- Production hardening
-
-Test:
-
--   accessibility
--   reduced motion
--   muted audio
--   mobile input
--   paste
--   undo / redo
--   selection
--   long documents
--   rapid input
--   autosave
--   browser performance
+Accessibility, reduced motion, keyboard editing, mobile behavior, autosave, and
+browser regressions have been checked. The author still needs to assess comfort
+in a real long writing session.
 
 ------------------------------------------------------------------------
 

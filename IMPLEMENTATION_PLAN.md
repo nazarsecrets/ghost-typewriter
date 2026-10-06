@@ -16,12 +16,13 @@ The intent is deliberately small: a tool for one author, hosted for free, lightw
 
 The distinctive feeling I'm after is a **modern, immersive typewriter** — the steadiness and rhythm of a typewriter without its rigidity. This is the emotional core, and motion is how we achieve it.
 
-**Anime.js** is the primary tool for this. It's tiny (~tens of KB), has no runtime dependencies, and drives the six behaviors already defined (`ghostReveal`, `pathwayExit/Enter`, `focusParagraph`, `quietParagraph`, `enterWritingMode`), joined by the Plume cursor states. The signature move is the **fixed writing line**: the line being written stays anchored near 30% of the viewport while the page scrolls underneath, so the thought I'm writing stays physically still — the closest digital analog to paper feeding through a carriage.
+**Anime.js** is the primary tool for this. It's tiny (~tens of KB) and has no runtime dependencies. It drives the six named transition and paragraph behaviors, plus `paperImpulse` and `carriageReturn`. The Plume component remains in the repository but is unwired; the native caret is the only cursor. The signature move is the **fixed writing line**: the line being written stays anchored near 30% of the viewport while the page scrolls underneath, so the thought I'm writing stays physically still — the closest digital analog to paper feeding through a carriage.
 
 Ways to deepen the immersion, all free and lightweight:
 
 - **Anime.js (in use)** — word-by-word reveals, paragraph focus/quiet transitions, carriage-style scroll anchoring. Keep motion under ~600ms and always gate it behind `prefers-reduced-motion`.
-- **The Plume** — a transition-only quill (`src/PlumeCursor.tsx`, measured by `src/caret.ts`). Following author-reported fatigue, writing and idle time now use the native caret. Typing interrupts transitions; reduced motion and forced colors remove the quill entirely.
+- **Typewriter response (in use)** — eligible keys create distinct, sub-pixel active-line responses; sustained typing scales the response down. Return moves the sheet and deepens its shadow for one brief carriage action. Input is immediate, and reduced motion disables all of this movement. The author still needs to assess long-session comfort.
+- **The Plume (muted)** — `src/PlumeCursor.tsx` and its caret measurement remain in the tree, but the component is not rendered. The native caret is used in every view.
 - **CSS-only touches** — subtle paper grain via the existing palette, a monospaced *option* for the manuscript for a truer typewriter register, and `@keyframes` for ambient details that don't need JS.
 - **Web Audio API (optional, opt-in)** — a faint keystroke/return-bell sound generated in-browser. No assets, no dependency, muted by default. This is the single highest-impact addition for "typewriter feel" if I want it.
 - **View Transitions API** — native, zero-KB crossfades between the today → reflect → write → review modes, complementing Anime.js for the larger scene changes.
@@ -70,7 +71,7 @@ The author chose a guided flow with compact questions and a larger response surf
 - [x] Replace window-only session variables with versioned localStorage records and real debounced writes.
 - [x] Convert reflection cards into sequential prompts with response capture and trail navigation.
 - [x] Build a paragraph-based manuscript editor with title, word count, focus anchoring, and quiet paragraph states.
-- [x] Define the six Anime.js motion behaviors: `ghostReveal`, `pathwayExit`, `pathwayEnter`, `focusParagraph`, `quietParagraph`, and `enterWritingMode`.
+- [x] Define six foundational Anime.js behaviors plus `paperImpulse` and `carriageReturn` for typewriter response.
 - [x] Separate manuscript and editorial review modes.
 - [x] Build the free source-backed topic pipeline, scheduled manifest, client loader, and honest Evergreen fallback.
 - [x] Connect the topic loader to Today, add honest provenance and desk rotation, and remove the Claude topic request.
