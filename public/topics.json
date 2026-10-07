@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T15:24:57.773Z",
-  "windowStart": "2026-09-07T15:24:57.773Z",
-  "windowEnd": "2026-10-07T15:24:57.773Z",
+  "generatedAt": "2026-10-07T21:09:00.498Z",
+  "windowStart": "2026-09-07T21:09:00.498Z",
+  "windowEnd": "2026-10-07T21:09:00.498Z",
   "topics": [
+    {
+      "id": "d46ce359653c",
+      "title": "Bounded delegation: How much authority should AI have?",
+      "teaser": "A practical model for deciding what AI can do, what humans must still own, and where product teams should draw the boundary. Image created by the author with OpenAI image generation. An AI t",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-07T19:54:06.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Bounded delegation: How much authority should AI have?",
+          "url": "https://uxdesign.cc/bounded-delegation-how-much-authority-should-ai-have-823a58fb4192?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-07T19:54:06.000Z"
+        }
+      ]
+    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -131,46 +151,6 @@
       ]
     },
     {
-      "id": "03ad655b6c34",
-      "title": "The feed I produce myself",
-      "teaser": "On working with agents, producing more than ever, and losing the ability to see anything whole. Maestro, we have six more deliveries ready — Created by the author with AI I'm writing this on",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-03T11:12:42.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The feed I produce myself",
-          "url": "https://uxdesign.cc/the-feed-i-produce-myself-11e4192f394c?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-03T11:12:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "94b1e4c68ab4",
-      "title": "In/tension modeling: what gives us the right?",
-      "teaser": "In/Tension modeling: What gives us the right? How to navigate opposing voices and lived tensions. By Julia Beard , Naman Mandhan, & Stacie Sheldon Asking the Hardest Question First “What giv",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-02T11:09:56.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "In/tension modeling: what gives us the right?",
-          "url": "https://uxdesign.cc/in-tension-modeling-what-gives-us-the-right-01740248eb45?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-02T11:09:56.000Z"
-        }
-      ]
-    },
-    {
       "id": "545584389745",
       "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
       "teaser": "Silta is a self-hosted assistant serving multiple users from a single Matrix account, used by me, family, and close friends for the last three weeks. It runs on Claude Code with each person ",
@@ -267,6 +247,26 @@
           "title": "Show HN: Build with Python – a beginner course where your code draws",
           "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
           "publishedAt": "2026-10-04T18:59:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d2e759403c3a",
+      "title": "Beyond streaks and nudges: ethical gamification & AI design",
+      "teaser": "Part 1 of 3 on designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-07T19:48:49.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Beyond streaks and nudges: ethical gamification & AI design",
+          "url": "https://uxdesign.cc/beyond-streaks-and-nudges-ethical-gamification-ai-design-1c4f6e8ef2cc?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-07T19:48:49.000Z"
         }
       ]
     },
@@ -458,9 +458,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-06T09:03:06.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "devto-design",
@@ -598,9 +598,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T08:12:06.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -700,7 +700,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
       "sources": [
         {
           "name": "nngroup",
@@ -840,7 +840,7 @@
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -900,7 +900,7 @@
       "publishedAt": "2026-09-21T07:40:28.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -960,7 +960,7 @@
       "publishedAt": "2026-09-15T08:01:39.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -996,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-07T15:24:57.774Z"
+      "fetchedAt": "2026-10-07T21:09:00.499Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-07T15:24:57.829Z"
+      "fetchedAt": "2026-10-07T21:09:00.551Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-07T15:24:57.830Z"
+      "fetchedAt": "2026-10-07T21:09:00.552Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-07T15:24:57.832Z"
+      "fetchedAt": "2026-10-07T21:09:00.553Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-07T15:24:57.833Z"
+      "fetchedAt": "2026-10-07T21:09:00.554Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-07T15:24:57.834Z"
+      "fetchedAt": "2026-10-07T21:09:00.555Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-07T15:24:57.835Z"
+      "fetchedAt": "2026-10-07T21:09:00.556Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-10-07T15:24:57.836Z"
+      "fetchedAt": "2026-10-07T21:09:00.557Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-07T15:24:57.837Z"
+      "fetchedAt": "2026-10-07T21:09:00.558Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-07T15:24:57.838Z"
+      "fetchedAt": "2026-10-07T21:09:00.559Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-07T15:24:57.839Z"
+      "fetchedAt": "2026-10-07T21:09:00.559Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-07T15:24:57.840Z"
+      "fetchedAt": "2026-10-07T21:09:00.561Z"
     }
   ]
 }
