@@ -1,49 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T05:27:17.235Z",
-  "windowStart": "2026-09-07T05:27:17.235Z",
-  "windowEnd": "2026-10-07T05:27:17.235Z",
+  "generatedAt": "2026-10-07T15:24:57.773Z",
+  "windowStart": "2026-09-07T15:24:57.773Z",
+  "windowEnd": "2026-10-07T15:24:57.773Z",
   "topics": [
-    {
-      "id": "817bf762f07e",
-      "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
-      "teaser": "A judgment call, wired in like any other function. Typed answers at keystroke speed let the interface act, suggest, or ask. How UX designers can put a decision model to work today in their a",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-06T23:35:43.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
-          "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-06T23:35:43.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d03ea0e8c7a0",
-      "title": "Hugging Suit: Pneumatically-Actuated System Design for Remote Haptic Experiences",
-      "teaser": "The COVID-19 pandemic emphasised the importance of remote emotional communication and highlighted a gap in existing technologies that lack haptic channels. While video calls maintain visual ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-06T13:11:37.000Z",
-      "since": "yesterday",
-      "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Hugging Suit: Pneumatically-Actuated System Design for Remote Haptic Experiences",
-          "url": "https://arxiv.org/abs/2610.08305v1",
-          "publishedAt": "2026-10-06T13:11:37.000Z"
-        }
-      ]
-    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -61,26 +21,6 @@
           "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
           "url": "https://github.com/devdotfast/whiteboard",
           "publishedAt": "2026-09-24T17:21:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a92ec28c302b",
-      "title": "Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester",
-      "teaser": "E-textile design involves complex decisions across materials, sensor and actuator structures, fabrication, garment integration, and data processing. It typically requires iterative prototypi",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-05T19:35:56.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester",
-          "url": "https://arxiv.org/abs/2610.07296v1",
-          "publishedAt": "2026-10-05T19:35:56.000Z"
         }
       ]
     },
@@ -111,62 +51,42 @@
       ]
     },
     {
-      "id": "09083dc86f69",
-      "title": "Why designers need to stop reporting and start recommending at work",
-      "teaser": "Sticky notes don&#x2019;t help your team. They need your direction Continue reading on UX Collective »",
-      "tag": "Leadership",
+      "id": "817bf762f07e",
+      "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
+      "teaser": "A judgment call, wired in like any other function. Typed answers at keystroke speed let the interface act, suggest, or ask. How UX designers can put a decision model to work today in their a",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-06T23:35:06.000Z",
-      "since": "today",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 0 days ago",
+      "publishedAt": "2026-10-06T23:35:43.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "Why designers need to stop reporting and start recommending at work",
-          "url": "https://uxdesign.cc/why-designers-need-to-stop-reporting-and-start-recommending-at-work-6fa861f58097?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-06T23:35:06.000Z"
+          "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
+          "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-06T23:35:43.000Z"
         }
       ]
     },
     {
-      "id": "e734f8a9660c",
-      "title": "Living Dashboards: Automatically Self-Updating Visualization Dashboards",
-      "teaser": "Visualization dashboards are widely used interactive tools, but a disconnect exists between the dynamic data they display and their static structure. End-users cannot modify the dashboard to",
+      "id": "d03ea0e8c7a0",
+      "title": "Hugging Suit: Pneumatically-Actuated System Design for Remote Haptic Experiences",
+      "teaser": "The COVID-19 pandemic emphasised the importance of remote emotional communication and highlighted a gap in existing technologies that lack haptic channels. While video calls maintain visual ",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-06T14:11:05.000Z",
+      "publishedAt": "2026-10-06T13:11:37.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.714,
+      "relevanceScore": 1,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "Living Dashboards: Automatically Self-Updating Visualization Dashboards",
-          "url": "https://arxiv.org/abs/2610.08393v1",
-          "publishedAt": "2026-10-06T14:11:05.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a9905b41d947",
-      "title": "Building A Civic Tool for Community-Police Engagement to Adapt Neighborhood Policing",
-      "teaser": "Data-driven policing often prioritizes incident records over residents' lived experiences. In the Baltic city of Riga, with a history of distrust and limited community-police engagement, thi",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-06T12:05:38.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Building A Civic Tool for Community-Police Engagement to Adapt Neighborhood Policing",
-          "url": "https://arxiv.org/abs/2610.08212v1",
-          "publishedAt": "2026-10-06T12:05:38.000Z"
+          "title": "Hugging Suit: Pneumatically-Actuated System Design for Remote Haptic Experiences",
+          "url": "https://arxiv.org/abs/2610.08305v1",
+          "publishedAt": "2026-10-06T13:11:37.000Z"
         }
       ]
     },
@@ -178,9 +98,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T21:59:40.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -233,7 +153,7 @@
     {
       "id": "94b1e4c68ab4",
       "title": "In/tension modeling: what gives us the right?",
-      "teaser": "How to navigate opposing voices and lived tensions. By Julia Beard , Naman Mandhan, & Stacie Sheldon Asking the Hardest Question First “What gives us the right to make the interventions and ",
+      "teaser": "In/Tension modeling: What gives us the right? How to navigate opposing voices and lived tensions. By Julia Beard , Naman Mandhan, & Stacie Sheldon Asking the Hardest Question First “What giv",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
@@ -271,22 +191,22 @@
       ]
     },
     {
-      "id": "004e0a8f7b62",
-      "title": "How apps know us better than we do and influence our decisions",
-      "teaser": "Explaining the Homo Metricus: someone who understands themselves based on scores in apps Photo by Will Truettner on Unsplash When I go cycling, my family asks how many kilometres I’ve covere",
+      "id": "a92ec28c302b",
+      "title": "Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester",
+      "teaser": "E-textile design involves complex decisions across materials, sensor and actuator structures, fabrication, garment integration, and data processing. It typically requires iterative prototypi",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-06T23:34:41.000Z",
-      "since": "today",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 0 days ago",
+      "publishedAt": "2026-10-05T19:35:56.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "How apps know us better than we do and influence our decisions",
-          "url": "https://uxdesign.cc/how-apps-know-us-better-than-we-do-and-influence-our-decisions-f7a5182be6f1?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-06T23:34:41.000Z"
+          "name": "arxiv-hci",
+          "title": "Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester",
+          "url": "https://arxiv.org/abs/2610.07296v1",
+          "publishedAt": "2026-10-05T19:35:56.000Z"
         }
       ]
     },
@@ -338,9 +258,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-10-04T18:59:25.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "68 engagement signals within 2 days",
+      "categoryReason": "68 engagement signals within 3 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -360,7 +280,7 @@
       "publishedAt": "2026-09-22T22:53:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 14 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -378,15 +298,75 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-02T20:43:52.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "LF UX Designer – Bay Area Hybrid",
           "url": "https://vuetech.sh/careers",
           "publishedAt": "2026-10-02T20:43:52.000Z"
+        }
+      ]
+    },
+    {
+      "id": "09083dc86f69",
+      "title": "Why designers need to stop reporting and start recommending at work",
+      "teaser": "Sticky notes don&#x2019;t help your team. They need your direction Continue reading on UX Collective »",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-06T23:35:06.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Why designers need to stop reporting and start recommending at work",
+          "url": "https://uxdesign.cc/why-designers-need-to-stop-reporting-and-start-recommending-at-work-6fa861f58097?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-06T23:35:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e734f8a9660c",
+      "title": "Living Dashboards: Automatically Self-Updating Visualization Dashboards",
+      "teaser": "Visualization dashboards are widely used interactive tools, but a disconnect exists between the dynamic data they display and their static structure. End-users cannot modify the dashboard to",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-06T14:11:05.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Living Dashboards: Automatically Self-Updating Visualization Dashboards",
+          "url": "https://arxiv.org/abs/2610.08393v1",
+          "publishedAt": "2026-10-06T14:11:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a9905b41d947",
+      "title": "Building A Civic Tool for Community-Police Engagement to Adapt Neighborhood Policing",
+      "teaser": "Data-driven policing often prioritizes incident records over residents' lived experiences. In the Baltic city of Riga, with a history of distrust and limited community-police engagement, thi",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-06T12:05:38.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Building A Civic Tool for Community-Police Engagement to Adapt Neighborhood Policing",
+          "url": "https://arxiv.org/abs/2610.08212v1",
+          "publishedAt": "2026-10-06T12:05:38.000Z"
         }
       ]
     },
@@ -400,7 +380,7 @@
       "publishedAt": "2026-09-24T00:21:16.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -440,13 +420,33 @@
       "publishedAt": "2026-09-28T00:29:04.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Help us fire our UI/UX designers",
           "url": "https://vosu.ai",
           "publishedAt": "2026-09-28T00:29:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "004e0a8f7b62",
+      "title": "How apps know us better than we do and influence our decisions",
+      "teaser": "Explaining the Homo Metricus: someone who understands themselves based on scores in apps Photo by Will Truettner on Unsplash When I go cycling, my family asks how many kilometres I’ve covere",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-06T23:34:41.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "How apps know us better than we do and influence our decisions",
+          "url": "https://uxdesign.cc/how-apps-know-us-better-than-we-do-and-influence-our-decisions-f7a5182be6f1?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-06T23:34:41.000Z"
         }
       ]
     },
@@ -478,9 +478,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T22:00:31.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -518,9 +518,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T18:03:04.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -620,7 +620,7 @@
       "publishedAt": "2026-09-15T01:32:15.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -638,9 +638,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T22:00:12.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -656,11 +656,11 @@
       "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-29T18:41:44.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -760,7 +760,7 @@
       "publishedAt": "2026-09-27T22:06:14.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -996,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-07T05:27:17.236Z"
+      "fetchedAt": "2026-10-07T15:24:57.774Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-07T05:27:17.283Z"
+      "fetchedAt": "2026-10-07T15:24:57.829Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-07T05:27:17.285Z"
+      "fetchedAt": "2026-10-07T15:24:57.830Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-07T05:27:17.286Z"
+      "fetchedAt": "2026-10-07T15:24:57.832Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-07T05:27:17.287Z"
+      "fetchedAt": "2026-10-07T15:24:57.833Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-07T05:27:17.288Z"
+      "fetchedAt": "2026-10-07T15:24:57.834Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-07T05:27:17.289Z"
+      "fetchedAt": "2026-10-07T15:24:57.835Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-10-07T05:27:17.289Z"
+      "fetchedAt": "2026-10-07T15:24:57.836Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-07T05:27:17.290Z"
+      "fetchedAt": "2026-10-07T15:24:57.837Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-07T05:27:17.291Z"
+      "fetchedAt": "2026-10-07T15:24:57.838Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-07T05:27:17.292Z"
+      "fetchedAt": "2026-10-07T15:24:57.839Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-07T05:27:17.293Z"
+      "fetchedAt": "2026-10-07T15:24:57.840Z"
     }
   ]
 }
