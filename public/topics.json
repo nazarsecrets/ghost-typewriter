@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T20:52:29.379Z",
-  "windowStart": "2026-09-06T20:52:29.379Z",
-  "windowEnd": "2026-10-06T20:52:29.379Z",
+  "generatedAt": "2026-10-07T05:27:17.235Z",
+  "windowStart": "2026-09-07T05:27:17.235Z",
+  "windowEnd": "2026-10-07T05:27:17.235Z",
   "topics": [
+    {
+      "id": "817bf762f07e",
+      "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
+      "teaser": "A judgment call, wired in like any other function. Typed answers at keystroke speed let the interface act, suggest, or ask. How UX designers can put a decision model to work today in their a",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-06T23:35:43.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
+          "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-06T23:35:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d03ea0e8c7a0",
+      "title": "Hugging Suit: Pneumatically-Actuated System Design for Remote Haptic Experiences",
+      "teaser": "The COVID-19 pandemic emphasised the importance of remote emotional communication and highlighted a gap in existing technologies that lack haptic channels. While video calls maintain visual ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-06T13:11:37.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Hugging Suit: Pneumatically-Actuated System Design for Remote Haptic Experiences",
+          "url": "https://arxiv.org/abs/2610.08305v1",
+          "publishedAt": "2026-10-06T13:11:37.000Z"
+        }
+      ]
+    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -14,13 +54,33 @@
       "publishedAt": "2026-09-24T17:21:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "567 engagement signals within 12 days",
+      "categoryReason": "567 engagement signals within 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
           "url": "https://github.com/devdotfast/whiteboard",
           "publishedAt": "2026-09-24T17:21:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a92ec28c302b",
+      "title": "Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester",
+      "teaser": "E-textile design involves complex decisions across materials, sensor and actuator structures, fabrication, garment integration, and data processing. It typically requires iterative prototypi",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-05T19:35:56.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester",
+          "url": "https://arxiv.org/abs/2610.07296v1",
+          "publishedAt": "2026-10-05T19:35:56.000Z"
         }
       ]
     },
@@ -32,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-04T15:55:03.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -47,6 +107,66 @@
           "title": "Design Systems for AI Agents",
           "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
           "publishedAt": "2026-10-04T15:55:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "09083dc86f69",
+      "title": "Why designers need to stop reporting and start recommending at work",
+      "teaser": "Sticky notes don&#x2019;t help your team. They need your direction Continue reading on UX Collective »",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-06T23:35:06.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Why designers need to stop reporting and start recommending at work",
+          "url": "https://uxdesign.cc/why-designers-need-to-stop-reporting-and-start-recommending-at-work-6fa861f58097?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-06T23:35:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e734f8a9660c",
+      "title": "Living Dashboards: Automatically Self-Updating Visualization Dashboards",
+      "teaser": "Visualization dashboards are widely used interactive tools, but a disconnect exists between the dynamic data they display and their static structure. End-users cannot modify the dashboard to",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-06T14:11:05.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Living Dashboards: Automatically Self-Updating Visualization Dashboards",
+          "url": "https://arxiv.org/abs/2610.08393v1",
+          "publishedAt": "2026-10-06T14:11:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a9905b41d947",
+      "title": "Building A Civic Tool for Community-Police Engagement to Adapt Neighborhood Policing",
+      "teaser": "Data-driven policing often prioritizes incident records over residents' lived experiences. In the Baltic city of Riga, with a history of distrust and limited community-police engagement, thi",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-06T12:05:38.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Building A Civic Tool for Community-Police Engagement to Adapt Neighborhood Policing",
+          "url": "https://arxiv.org/abs/2610.08212v1",
+          "publishedAt": "2026-10-06T12:05:38.000Z"
         }
       ]
     },
@@ -78,9 +198,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T11:01:01.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -98,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-03T11:12:42.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -118,35 +238,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-02T11:09:56.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "In/tension modeling: what gives us the right?",
-          "url": "https://uxdesign.cc/in-tension-modeling-what-gives-us-the-right-01740248eb45?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-02T11:09:56.000Z"
-        }
-      ]
-    },
-    {
-      "id": "6c52cfde065a",
-      "title": "Stop blaming the model for slow AI. Using Doherty’s threshold as a guideline.",
-      "teaser": "Two eras of computing, held to the same 400 millisecond standard. Stop blaming the model for slow AI. Use Doherty’s threshold as a guideline. Doherty’s threshold set the rules and has now mo",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-01T22:52:26.000Z",
       "since": "5 days ago",
       "relevanceScore": 1,
       "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "Stop blaming the model for slow AI. Using Doherty’s threshold as a guideline.",
-          "url": "https://uxdesign.cc/stop-blaming-the-model-for-slow-ai-heres-how-to-design-for-it-doherty-s-threshold-as-a-guideline-5fa6d52e23fc?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-01T22:52:26.000Z"
+          "title": "In/tension modeling: what gives us the right?",
+          "url": "https://uxdesign.cc/in-tension-modeling-what-gives-us-the-right-01740248eb45?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-02T11:09:56.000Z"
         }
       ]
     },
@@ -158,15 +258,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T12:11:34.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
           "url": "https://github.com/dmitry-markin/silta",
           "publishedAt": "2026-10-01T12:11:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "004e0a8f7b62",
+      "title": "How apps know us better than we do and influence our decisions",
+      "teaser": "Explaining the Homo Metricus: someone who understands themselves based on scores in apps Photo by Will Truettner on Unsplash When I go cycling, my family asks how many kilometres I’ve covere",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-06T23:34:41.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "How apps know us better than we do and influence our decisions",
+          "url": "https://uxdesign.cc/how-apps-know-us-better-than-we-do-and-influence-our-decisions-f7a5182be6f1?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-06T23:34:41.000Z"
         }
       ]
     },
@@ -178,9 +298,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T10:33:21.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -198,9 +318,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-26T14:15:39.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -220,33 +340,13 @@
       "publishedAt": "2026-10-04T18:59:25.000Z",
       "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "67 engagement signals within 2 days",
+      "categoryReason": "68 engagement signals within 2 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Build with Python – a beginner course where your code draws",
           "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
           "publishedAt": "2026-10-04T18:59:25.000Z"
-        }
-      ]
-    },
-    {
-      "id": "84679c851736",
-      "title": "Building with Agents: QA and UX in the Loop",
-      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-05T15:09:22.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Building with Agents: QA and UX in the Loop",
-          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
-          "publishedAt": "2026-10-05T15:09:22.000Z"
         }
       ]
     },
@@ -291,26 +391,6 @@
       ]
     },
     {
-      "id": "ac3d8e25b915",
-      "title": "If My Toy Could Talk: How Young Children Imagine, Design, and Test AI-Enabled Toys",
-      "teaser": "To investigate the design space where children might design AI chatbots for their own toys, we developed ToyTalk, a technology probe that positions children as designers of LLM-enabled toys.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-05T16:18:47.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "If My Toy Could Talk: How Young Children Imagine, Design, and Test AI-Enabled Toys",
-          "url": "https://arxiv.org/abs/2610.06619v1",
-          "publishedAt": "2026-10-05T16:18:47.000Z"
-        }
-      ]
-    },
-    {
       "id": "e7abc36915cd",
       "title": "Holistic design systems for the AI coding era",
       "teaser": "",
@@ -331,26 +411,6 @@
       ]
     },
     {
-      "id": "971dc6aa4811",
-      "title": "Optimizing AI-Driven Messaging for Type 2 Diabetes Management: Insights from Patient Preference Elicitation",
-      "teaser": "Generative AI (GenAI) allows for improved user experience within conversational agents for diabetes management by supporting dynamic, context-aware conversations. In this study, we elicited ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-04T16:25:58.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Optimizing AI-Driven Messaging for Type 2 Diabetes Management: Insights from Patient Preference Elicitation",
-          "url": "https://arxiv.org/abs/2610.05357v1",
-          "publishedAt": "2026-10-04T16:25:58.000Z"
-        }
-      ]
-    },
-    {
       "id": "7a89ba194644",
       "title": "Show HN: Proxima Forma – Designs that my AI agents understand",
       "teaser": "Hey HN! I built Proxima Forma because sharing screenshots with my agents was not really doing the job. I am a UX Designer with a developer background so I needed a better tool. Wanted the ag",
@@ -360,7 +420,7 @@
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -391,26 +451,6 @@
       ]
     },
     {
-      "id": "d6c8b53d931b",
-      "title": "Design’s consensus was AI’s first casualty",
-      "teaser": "The same evidence about AI is being read two opposite ways, leaving designers to choose without a clear consensus to lean on. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-01T22:51:02.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Design’s consensus was AI’s first casualty",
-          "url": "https://uxdesign.cc/designs-consensus-was-ai-s-first-casualty-8143c1bada80?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-01T22:51:02.000Z"
-        }
-      ]
-    },
-    {
       "id": "27872e4a3829",
       "title": "Your design tokens stop at the web boundary",
       "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
@@ -418,9 +458,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-06T09:03:06.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "devto-design",
@@ -451,26 +491,6 @@
       ]
     },
     {
-      "id": "f6afccd218d2",
-      "title": "AICoFe Demo: AI-based Collaborative Feedback System",
-      "teaser": "Peer feedback promotes active learning, critical reflection, and skill development, but its effectiveness is often limited by the quality of feedback students provide. Recent advances in LLM",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-05T15:35:09.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AICoFe Demo: AI-based Collaborative Feedback System",
-          "url": "https://arxiv.org/abs/2610.06532v1",
-          "publishedAt": "2026-10-05T15:35:09.000Z"
-        }
-      ]
-    },
-    {
       "id": "3bb0a370b514",
       "title": "Show HN: Colorful Design System for Agents",
       "teaser": "",
@@ -478,9 +498,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -518,15 +538,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-06T14:21:12.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "devto-ux",
           "title": "SaaS Pagination UX: Return to the Same Table View",
           "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
           "publishedAt": "2026-10-06T14:21:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "84679c851736",
+      "title": "Building with Agents: QA and UX in the Loop",
+      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-05T15:09:22.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Building with Agents: QA and UX in the Loop",
+          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
+          "publishedAt": "2026-10-05T15:09:22.000Z"
         }
       ]
     },
@@ -538,9 +578,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T11:33:13.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -631,26 +671,6 @@
       ]
     },
     {
-      "id": "784cbcdba1b6",
-      "title": "Imagining a Muslim Internet: Trust, Autonomy, and Segregation in a Faith-Aligned Browser",
-      "teaser": "Religiously branded platforms raise important questions about trust, usability, and autonomy when technology is built around a specific faith. Prior HCI work on Islam and Muslim technology h",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-04T18:27:37.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Imagining a Muslim Internet: Trust, Autonomy, and Segregation in a Faith-Aligned Browser",
-          "url": "https://arxiv.org/abs/2610.05444v1",
-          "publishedAt": "2026-10-04T18:27:37.000Z"
-        }
-      ]
-    },
-    {
       "id": "660013c92cd9",
       "title": "The building was there first",
       "teaser": "A style&#x2019;s real output isn&#x2019;t what it makes. It&#x2019;s the category it installs in whoever looks. Continue reading on UX Collective »",
@@ -658,9 +678,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-04T14:34:28.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -691,26 +711,6 @@
       ]
     },
     {
-      "id": "96c5470e0abb",
-      "title": "VoCa: Designing Speech-Canvas Interaction for Voice-Based Conversational Agents",
-      "teaser": "People write and sketch while speaking to explain, organize, and develop content together. Inspired by these practices, we investigate how voice agents can use a canvas alongside speech in m",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-03T18:39:31.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "VoCa: Designing Speech-Canvas Interaction for Voice-Based Conversational Agents",
-          "url": "https://arxiv.org/abs/2610.04706v1",
-          "publishedAt": "2026-10-03T18:39:31.000Z"
-        }
-      ]
-    },
-    {
       "id": "566766490bd4",
       "title": "How to Sync a Design System with Claude Design",
       "teaser": "",
@@ -718,9 +718,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-09-30T10:03:43.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -738,9 +738,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -771,26 +771,6 @@
       ]
     },
     {
-      "id": "1e79c813e5b4",
-      "title": "AI beyond average: from chatting to collaborating",
-      "teaser": "How context, skills, and feedback turn the same model into a different kind of collaborator Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-01T22:49:51.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI beyond average: from chatting to collaborating",
-          "url": "https://uxdesign.cc/ai-beyond-average-from-chatting-to-collaborating-7b308dd9317a?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-01T22:49:51.000Z"
-        }
-      ]
-    },
-    {
       "id": "355c8a83486d",
       "title": "Common UX Design Methods, Ranked by Value",
       "teaser": "",
@@ -800,7 +780,7 @@
       "publishedAt": "2026-09-28T10:16:02.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -820,7 +800,7 @@
       "publishedAt": "2026-09-11T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
       "sources": [
         {
           "name": "nngroup",
@@ -840,7 +820,7 @@
       "publishedAt": "2026-09-21T14:00:16.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -878,9 +858,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-19T16:29:03.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -900,7 +880,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -940,7 +920,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
       "sources": [
         {
           "name": "smashing",
@@ -960,7 +940,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -1000,7 +980,7 @@
       "publishedAt": "2026-09-11T13:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "smashing",
@@ -1016,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-06T20:52:29.379Z"
+      "fetchedAt": "2026-10-07T05:27:17.236Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-06T20:52:29.413Z"
+      "fetchedAt": "2026-10-07T05:27:17.283Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-06T20:52:29.415Z"
+      "fetchedAt": "2026-10-07T05:27:17.285Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-06T20:52:29.415Z"
+      "fetchedAt": "2026-10-07T05:27:17.286Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-06T20:52:29.416Z"
+      "fetchedAt": "2026-10-07T05:27:17.287Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-06T20:52:29.417Z"
+      "fetchedAt": "2026-10-07T05:27:17.288Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-06T20:52:29.418Z"
+      "fetchedAt": "2026-10-07T05:27:17.289Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-10-06T20:52:29.418Z"
+      "fetchedAt": "2026-10-07T05:27:17.289Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 35,
-      "fetchedAt": "2026-10-06T20:52:29.419Z"
+      "items": 34,
+      "fetchedAt": "2026-10-07T05:27:17.290Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-06T20:52:29.419Z"
+      "fetchedAt": "2026-10-07T05:27:17.291Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-06T20:52:29.420Z"
+      "fetchedAt": "2026-10-07T05:27:17.292Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-06T20:52:29.421Z"
+      "fetchedAt": "2026-10-07T05:27:17.293Z"
     }
   ]
 }
