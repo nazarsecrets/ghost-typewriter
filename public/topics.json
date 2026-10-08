@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-08T15:27:12.941Z",
-  "windowStart": "2026-09-08T15:27:12.941Z",
-  "windowEnd": "2026-10-08T15:27:12.941Z",
+  "generatedAt": "2026-10-08T21:12:58.700Z",
+  "windowStart": "2026-09-08T21:12:58.700Z",
+  "windowEnd": "2026-10-08T21:12:58.700Z",
   "topics": [
-    {
-      "id": "9abe05852df3",
-      "title": "AI: incidents by design",
-      "teaser": "When safety is optional, and capability is urgent, incidents are not accidents. They are what we (consciously or not) designed and built for. AI makes headlines almost every day. And most da",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T09:20:37.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI: incidents by design",
-          "url": "https://uxdesign.cc/ai-incidents-by-design-d4708a3dda9e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T09:20:37.000Z"
-        }
-      ]
-    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -71,6 +51,26 @@
       ]
     },
     {
+      "id": "9abe05852df3",
+      "title": "AI: incidents by design",
+      "teaser": "When safety is optional, and capability is urgent, incidents are not accidents. They are what we (consciously or not) designed and built for. AI makes headlines almost every day. And most da",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T09:20:37.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI: incidents by design",
+          "url": "https://uxdesign.cc/ai-incidents-by-design-d4708a3dda9e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-08T09:20:37.000Z"
+        }
+      ]
+    },
+    {
       "id": "d46ce359653c",
       "title": "Bounded delegation: How much authority should AI have?",
       "teaser": "A practical model for deciding what AI can do, what humans must still own, and where product teams should draw the boundary. Image created by the author with OpenAI image generation. An AI t",
@@ -107,6 +107,26 @@
           "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
           "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-06T23:35:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "96140aabf777",
+      "title": "Show HN: Launching NS UI easy to use components,AI slop should be a term of past",
+      "teaser": "A registry of hand picked&#x2F;built registry of ui&#x2F;ux components so now i can produce slop without ai. i always loved using and searching for ui components on every registry site that ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T19:48:12.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Launching NS UI easy to use components,AI slop should be a term of past",
+          "url": "https://design.helpmarq.com",
+          "publishedAt": "2026-10-08T19:48:12.000Z"
         }
       ]
     },
@@ -278,9 +298,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T07:39:52.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -458,9 +478,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-06T09:03:06.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-design",
@@ -598,9 +618,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T08:12:06.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -700,7 +720,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
       "sources": [
         {
           "name": "nngroup",
@@ -840,7 +860,7 @@
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -878,9 +898,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-21T07:40:28.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -940,7 +960,7 @@
       "publishedAt": "2026-09-15T08:01:39.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -976,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-08T15:27:12.942Z"
+      "fetchedAt": "2026-10-08T21:12:58.701Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-08T15:27:12.994Z"
+      "fetchedAt": "2026-10-08T21:12:58.754Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-08T15:27:12.995Z"
+      "fetchedAt": "2026-10-08T21:12:58.755Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-08T15:27:12.996Z"
+      "fetchedAt": "2026-10-08T21:12:58.756Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-08T15:27:12.997Z"
+      "fetchedAt": "2026-10-08T21:12:58.757Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-08T15:27:12.998Z"
+      "fetchedAt": "2026-10-08T21:12:58.758Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-08T15:27:12.999Z"
+      "fetchedAt": "2026-10-08T21:12:58.759Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 9,
-      "fetchedAt": "2026-10-08T15:27:13.000Z"
+      "items": 10,
+      "fetchedAt": "2026-10-08T21:12:58.760Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-08T15:27:13.001Z"
+      "fetchedAt": "2026-10-08T21:12:58.761Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-08T15:27:13.002Z"
+      "fetchedAt": "2026-10-08T21:12:58.762Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-08T15:27:13.002Z"
+      "fetchedAt": "2026-10-08T21:12:58.763Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-08T15:27:13.004Z"
+      "fetchedAt": "2026-10-08T21:12:58.764Z"
     }
   ]
 }
