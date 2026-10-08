@@ -1,9 +1,75 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T21:09:00.498Z",
-  "windowStart": "2026-09-07T21:09:00.498Z",
-  "windowEnd": "2026-10-07T21:09:00.498Z",
+  "generatedAt": "2026-10-08T05:35:45.775Z",
+  "windowStart": "2026-09-08T05:35:45.775Z",
+  "windowEnd": "2026-10-08T05:35:45.775Z",
   "topics": [
+    {
+      "id": "8e1aabed0fc1",
+      "title": "Show HN: Railcode – Secure cloud for internal software",
+      "teaser": "Hey HN, Yakko here from Railcode. Railcode is like an internal Vercel for your company. We built it after speaking to dozens of engineering leaders at various companies where employees were ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-07T21:55:52.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Railcode – Secure cloud for internal software",
+          "url": "https://railcode.dev/",
+          "publishedAt": "2026-10-07T21:55:52.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4c671c9b8eae",
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "teaser": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https:&#x2F;&#x2F;whiteboard.dev.fast&#x2F; ), an open-source desktop app where humans and agents can architect software",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Trending",
+      "publishedAt": "2026-09-24T17:21:36.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "567 engagement signals within 14 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+          "url": "https://github.com/devdotfast/whiteboard",
+          "publishedAt": "2026-09-24T17:21:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a1d23b1af71f",
+      "title": "Design Systems for AI Agents (Luke Wroblewski)",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-04T15:55:03.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design Systems for AI Agents (Luke Wroblewski)",
+          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+          "publishedAt": "2026-10-05T23:39:08.000Z"
+        },
+        {
+          "name": "hn-designsystem",
+          "title": "Design Systems for AI Agents",
+          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+          "publishedAt": "2026-10-04T15:55:03.000Z"
+        }
+      ]
+    },
     {
       "id": "d46ce359653c",
       "title": "Bounded delegation: How much authority should AI have?",
@@ -25,48 +91,22 @@
       ]
     },
     {
-      "id": "4c671c9b8eae",
-      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-      "teaser": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https:&#x2F;&#x2F;whiteboard.dev.fast&#x2F; ), an open-source desktop app where humans and agents can architect software",
+      "id": "ec825cc64435",
+      "title": "Structured pre-generation elicitation versus single-shot prompting in AI-assisted enterprise decision-making: a randomised online experiment",
+      "teaser": "Generative AI speeds, and mostly improves, professional work, but there is concern that users who delegate both the production and the evaluation of an answer may accept weak output and enga",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-09-24T17:21:36.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "567 engagement signals within 13 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
-          "url": "https://github.com/devdotfast/whiteboard",
-          "publishedAt": "2026-09-24T17:21:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a1d23b1af71f",
-      "title": "Design Systems for AI Agents (Luke Wroblewski)",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-04T15:55:03.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "publishedAt": "2026-10-07T07:39:52.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Design Systems for AI Agents (Luke Wroblewski)",
-          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
-          "publishedAt": "2026-10-05T23:39:08.000Z"
-        },
-        {
-          "name": "hn-designsystem",
-          "title": "Design Systems for AI Agents",
-          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
-          "publishedAt": "2026-10-04T15:55:03.000Z"
+          "name": "arxiv-hci",
+          "title": "Structured pre-generation elicitation versus single-shot prompting in AI-assisted enterprise decision-making: a randomised online experiment",
+          "url": "https://arxiv.org/abs/2610.09593v1",
+          "publishedAt": "2026-10-07T07:39:52.000Z"
         }
       ]
     },
@@ -91,22 +131,22 @@
       ]
     },
     {
-      "id": "d03ea0e8c7a0",
-      "title": "Hugging Suit: Pneumatically-Actuated System Design for Remote Haptic Experiences",
-      "teaser": "The COVID-19 pandemic emphasised the importance of remote emotional communication and highlighted a gap in existing technologies that lack haptic channels. While video calls maintain visual ",
+      "id": "5182259d530a",
+      "title": "Supporting Allyship in Virtual Collaboration with Artificial Intelligence: A Scenario-Based Study",
+      "teaser": "Recent research has revealed that accessibility in virtual collaboration is not only a technical problem but also depends on allyship: the informal, interpersonal practices through which peo",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-06T13:11:37.000Z",
+      "publishedAt": "2026-10-06T20:10:30.000Z",
       "since": "yesterday",
-      "relevanceScore": 1,
+      "relevanceScore": 0.714,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "Hugging Suit: Pneumatically-Actuated System Design for Remote Haptic Experiences",
-          "url": "https://arxiv.org/abs/2610.08305v1",
-          "publishedAt": "2026-10-06T13:11:37.000Z"
+          "title": "Supporting Allyship in Virtual Collaboration with Artificial Intelligence: A Scenario-Based Study",
+          "url": "https://arxiv.org/abs/2610.09061v1",
+          "publishedAt": "2026-10-06T20:10:30.000Z"
         }
       ]
     },
@@ -138,15 +178,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T11:01:01.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Prompt as self-portrait, De-slopifying your designs, The strategic designer",
           "url": "https://uxdesign.cc/prompt-as-self-portrait-de-slopifying-your-designs-the-strategic-designer-cf8162f43284?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-05T11:01:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d754677dccca",
+      "title": "DuoSketch: How Pairs Navigate Challenges in AI-Supported Collaborative Design Ideation",
+      "teaser": "Generative AI offers new resources for collaborative design ideation, yet how designers work with it as a shared concept develops remains underexplored. We developed DuoSketch, integrating a",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-07T15:30:58.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "DuoSketch: How Pairs Navigate Challenges in AI-Supported Collaborative Design Ideation",
+          "url": "https://arxiv.org/abs/2610.10249v1",
+          "publishedAt": "2026-10-07T15:30:58.000Z"
         }
       ]
     },
@@ -158,35 +218,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T12:11:34.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
           "url": "https://github.com/dmitry-markin/silta",
           "publishedAt": "2026-10-01T12:11:34.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a92ec28c302b",
-      "title": "Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester",
-      "teaser": "E-textile design involves complex decisions across materials, sensor and actuator structures, fabrication, garment integration, and data processing. It typically requires iterative prototypi",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-05T19:35:56.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Mapping E-textiles Design Pain Points and Generative AI Opportunities: Insights from Workshops in Shanghai and Winchester",
-          "url": "https://arxiv.org/abs/2610.07296v1",
-          "publishedAt": "2026-10-05T19:35:56.000Z"
         }
       ]
     },
@@ -198,9 +238,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-01T10:33:21.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -220,7 +260,7 @@
       "publishedAt": "2026-09-26T14:15:39.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -247,26 +287,6 @@
           "title": "Show HN: Build with Python – a beginner course where your code draws",
           "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
           "publishedAt": "2026-10-04T18:59:25.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d2e759403c3a",
-      "title": "Beyond streaks and nudges: ethical gamification & AI design",
-      "teaser": "Part 1 of 3 on designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-07T19:48:49.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Beyond streaks and nudges: ethical gamification & AI design",
-          "url": "https://uxdesign.cc/beyond-streaks-and-nudges-ethical-gamification-ai-design-1c4f6e8ef2cc?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-07T19:48:49.000Z"
         }
       ]
     },
@@ -331,46 +351,6 @@
       ]
     },
     {
-      "id": "e734f8a9660c",
-      "title": "Living Dashboards: Automatically Self-Updating Visualization Dashboards",
-      "teaser": "Visualization dashboards are widely used interactive tools, but a disconnect exists between the dynamic data they display and their static structure. End-users cannot modify the dashboard to",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-06T14:11:05.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Living Dashboards: Automatically Self-Updating Visualization Dashboards",
-          "url": "https://arxiv.org/abs/2610.08393v1",
-          "publishedAt": "2026-10-06T14:11:05.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a9905b41d947",
-      "title": "Building A Civic Tool for Community-Police Engagement to Adapt Neighborhood Policing",
-      "teaser": "Data-driven policing often prioritizes incident records over residents' lived experiences. In the Baltic city of Riga, with a history of distrust and limited community-police engagement, thi",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-06T12:05:38.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Building A Civic Tool for Community-Police Engagement to Adapt Neighborhood Policing",
-          "url": "https://arxiv.org/abs/2610.08212v1",
-          "publishedAt": "2026-10-06T12:05:38.000Z"
-        }
-      ]
-    },
-    {
       "id": "e7abc36915cd",
       "title": "Holistic design systems for the AI coding era",
       "teaser": "",
@@ -400,7 +380,7 @@
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -498,9 +478,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -538,9 +518,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-06T14:21:12.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -558,9 +538,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T15:09:22.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -578,9 +558,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T11:33:13.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -607,6 +587,26 @@
           "title": "A Design System in and for the Agentic Era",
           "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
           "publishedAt": "2026-10-05T08:12:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d2e759403c3a",
+      "title": "Beyond streaks and nudges: ethical gamification & AI design",
+      "teaser": "Part 1 of 3 on designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-07T19:48:49.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Beyond streaks and nudges: ethical gamification & AI design",
+          "url": "https://uxdesign.cc/beyond-streaks-and-nudges-ethical-gamification-ai-design-1c4f6e8ef2cc?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-07T19:48:49.000Z"
         }
       ]
     },
@@ -678,9 +678,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-04T14:34:28.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -716,11 +716,11 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-09-30T10:03:43.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -738,9 +738,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -780,7 +780,7 @@
       "publishedAt": "2026-09-28T10:16:02.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -800,7 +800,7 @@
       "publishedAt": "2026-09-11T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
       "sources": [
         {
           "name": "nngroup",
@@ -820,7 +820,7 @@
       "publishedAt": "2026-09-21T14:00:16.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -851,26 +851,6 @@
       ]
     },
     {
-      "id": "1a21822c8e83",
-      "title": "Props Are Not a Design System",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-19T16:29:03.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Props Are Not a Design System",
-          "url": "https://vitonsky.net/blog/2026/09/18/design-system/",
-          "publishedAt": "2026-09-19T16:29:03.000Z"
-        }
-      ]
-    },
-    {
       "id": "169857c0668c",
       "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
       "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
@@ -880,7 +860,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -920,7 +900,7 @@
       "publishedAt": "2026-09-09T10:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 29 days",
       "sources": [
         {
           "name": "smashing",
@@ -940,7 +920,7 @@
       "publishedAt": "2026-09-09T14:49:13.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 29 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -980,7 +960,7 @@
       "publishedAt": "2026-09-11T13:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "smashing",
@@ -996,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-07T21:09:00.499Z"
+      "fetchedAt": "2026-10-08T05:35:45.776Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-07T21:09:00.551Z"
+      "fetchedAt": "2026-10-08T05:35:45.828Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-07T21:09:00.552Z"
+      "fetchedAt": "2026-10-08T05:35:45.830Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-07T21:09:00.553Z"
+      "fetchedAt": "2026-10-08T05:35:45.831Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-07T21:09:00.554Z"
+      "fetchedAt": "2026-10-08T05:35:45.832Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-07T21:09:00.555Z"
+      "fetchedAt": "2026-10-08T05:35:45.832Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-07T21:09:00.556Z"
+      "fetchedAt": "2026-10-08T05:35:45.833Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-10-07T21:09:00.557Z"
+      "fetchedAt": "2026-10-08T05:35:45.834Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 34,
-      "fetchedAt": "2026-10-07T21:09:00.558Z"
+      "items": 35,
+      "fetchedAt": "2026-10-08T05:35:45.835Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-07T21:09:00.559Z"
+      "fetchedAt": "2026-10-08T05:35:45.836Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-07T21:09:00.559Z"
+      "fetchedAt": "2026-10-08T05:35:45.837Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-07T21:09:00.561Z"
+      "fetchedAt": "2026-10-08T05:35:45.838Z"
     }
   ]
 }
