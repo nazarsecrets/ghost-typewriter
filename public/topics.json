@@ -1,129 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-09T05:39:57.581Z",
-  "windowStart": "2026-09-09T05:39:57.581Z",
-  "windowEnd": "2026-10-09T05:39:57.581Z",
+  "generatedAt": "2026-10-09T15:10:09.076Z",
+  "windowStart": "2026-09-09T15:10:09.076Z",
+  "windowEnd": "2026-10-09T15:10:09.076Z",
   "topics": [
-    {
-      "id": "2524e0cd1b4d",
-      "title": "Tesler’s Law: complexity moved to a different part of the journey",
-      "teaser": "The complexity never left the building. It changed hands, and nothing printed a receipt. AI assisted. AI did not remove the complexity of software. It removed the interface that told you whe",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:17:58.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Tesler’s Law: complexity moved to a different part of the journey",
-          "url": "https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:17:58.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a8a067f7ca62",
-      "title": "Are synthetic users (really) the future of UX research?",
-      "teaser": "Human-centered design demands a limited use of AI-generated personas, if at all A big debate among UX researchers is whether to use synthetic users in their studies. There’s one group of res",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:16:42.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Are synthetic users (really) the future of UX research?",
-          "url": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:16:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5eec00d6e199",
-      "title": "Synthetic users are making me rethink “imperfect research”",
-      "teaser": "Why I’m reconsidering a principle I’ve believed for years. I’ve always believed that imperfect research is better than no research at all. Synthetic users have made me reconsider that. When ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:16:30.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Synthetic users are making me rethink “imperfect research”",
-          "url": "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:16:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "64de644f2db7",
-      "title": "AI-generated UI is fast design, not UX",
-      "teaser": "The call for problem discovery, the freedom and wander, and craft in the age of AI I grew up surrounded by 17th- and 18th-century architecture my stepfather salvaged from around the world. M",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:16:10.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI-generated UI is fast design, not UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:16:10.000Z"
-        }
-      ]
-    },
-    {
-      "id": "29d48de75ec3",
-      "title": "What the AI era owes you",
-      "teaser": "A handloom weaver in 1820 could not have named a single job his trade would turn into. Neither can anyone today. No one is going to save your career from AI. That’s the most useful thing any",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:15:43.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What the AI era owes you",
-          "url": "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:15:43.000Z"
-        }
-      ]
-    },
-    {
-      "id": "81adf8cd1d59",
-      "title": "NeuroDivSim: An Interactive Tool for Model-Based Reflection on Cognitive Diversity in Interface Design",
-      "teaser": "Recent approaches to simulated and synthetic users offer new ways to support design, but raise questions about how computational representations of users should contribute to design practice",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T09:40:56.000Z",
-      "since": "yesterday",
-      "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "NeuroDivSim: An Interactive Tool for Model-Based Reflection on Cognitive Diversity in Interface Design",
-          "url": "https://arxiv.org/abs/2610.11590v1",
-          "publishedAt": "2026-10-08T09:40:56.000Z"
-        }
-      ]
-    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -171,6 +51,126 @@
       ]
     },
     {
+      "id": "2524e0cd1b4d",
+      "title": "Tesler’s Law: complexity moved to a different part of the journey",
+      "teaser": "The complexity never left the building. It changed hands, and nothing printed a receipt. AI assisted. AI did not remove the complexity of software. It removed the interface that told you whe",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T23:17:58.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Tesler’s Law: complexity moved to a different part of the journey",
+          "url": "https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-08T23:17:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a8a067f7ca62",
+      "title": "Are synthetic users (really) the future of UX research?",
+      "teaser": "Human-centered design demands a limited use of AI-generated personas, if at all A big debate among UX researchers is whether to use synthetic users in their studies. There’s one group of res",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T23:16:42.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Are synthetic users (really) the future of UX research?",
+          "url": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-08T23:16:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5eec00d6e199",
+      "title": "Synthetic users are making me rethink “imperfect research”",
+      "teaser": "Why I’m reconsidering a principle I’ve believed for years. I’ve always believed that imperfect research is better than no research at all. Synthetic users have made me reconsider that. When ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T23:16:30.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Synthetic users are making me rethink “imperfect research”",
+          "url": "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-08T23:16:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "64de644f2db7",
+      "title": "AI-generated UI is fast design, not UX",
+      "teaser": "The call for problem discovery, the freedom to wander, and craft in the age of AI I grew up surrounded by 17th- and 18th-century architecture my stepfather salvaged from around the world. My",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T23:16:10.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI-generated UI is fast design, not UX",
+          "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-08T23:16:10.000Z"
+        }
+      ]
+    },
+    {
+      "id": "29d48de75ec3",
+      "title": "What the AI era owes you",
+      "teaser": "A handloom weaver in 1820 could not have named a single job his trade would turn into. Neither can anyone today. No one is going to save your career from AI. That’s the most useful thing any",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T23:15:43.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What the AI era owes you",
+          "url": "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-08T23:15:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "81adf8cd1d59",
+      "title": "NeuroDivSim: An Interactive Tool for Model-Based Reflection on Cognitive Diversity in Interface Design",
+      "teaser": "Recent approaches to simulated and synthetic users offer new ways to support design, but raise questions about how computational representations of users should contribute to design practice",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T09:40:56.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "NeuroDivSim: An Interactive Tool for Model-Based Reflection on Cognitive Diversity in Interface Design",
+          "url": "https://arxiv.org/abs/2610.11590v1",
+          "publishedAt": "2026-10-08T09:40:56.000Z"
+        }
+      ]
+    },
+    {
       "id": "9abe05852df3",
       "title": "AI: incidents by design",
       "teaser": "When safety is optional, and capability is urgent, incidents are not accidents. They are what we (consciously or not) designed and built for. AI makes headlines almost every day. And most da",
@@ -198,9 +198,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T19:54:06.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -218,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-06T23:35:43.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -238,9 +238,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T21:55:52.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -318,55 +318,15 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-10-04T18:59:25.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "68 engagement signals within 4 days",
+      "categoryReason": "68 engagement signals within 5 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Build with Python – a beginner course where your code draws",
           "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
           "publishedAt": "2026-10-04T18:59:25.000Z"
-        }
-      ]
-    },
-    {
-      "id": "422db61525d8",
-      "title": "STcubeOperator: A Framework for Analyzing Spatiotemporal Event Data",
-      "teaser": "The analysis of spatiotemporal event data is essential for informed decision-making in domains such as disaster response, conflict analysis, or intelligence investigations. However, the comp",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T13:03:49.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "STcubeOperator: A Framework for Analyzing Spatiotemporal Event Data",
-          "url": "https://arxiv.org/abs/2610.11894v1",
-          "publishedAt": "2026-10-08T13:03:49.000Z"
-        }
-      ]
-    },
-    {
-      "id": "68dd4d5a6774",
-      "title": "Feeling Wistful: Reflecting on Scholarly Sensibilities with Creative Reading Traces",
-      "teaser": "Researchers often read before they can articulate what they are looking for. As AI increasingly mediates scholarly search and synthesis, understanding and preserving the idiosyncratic judgme",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-07T20:47:47.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Feeling Wistful: Reflecting on Scholarly Sensibilities with Creative Reading Traces",
-          "url": "https://arxiv.org/abs/2610.10890v1",
-          "publishedAt": "2026-10-07T20:47:47.000Z"
         }
       ]
     },
@@ -380,7 +340,7 @@
       "publishedAt": "2026-09-22T22:53:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 16 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -398,9 +358,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-02T20:43:52.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -418,9 +378,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-06T23:35:06.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -438,9 +398,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T19:48:12.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -460,7 +420,7 @@
       "publishedAt": "2026-09-24T00:21:16.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -500,7 +460,7 @@
       "publishedAt": "2026-09-28T00:29:04.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -558,9 +518,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T18:03:04.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -607,6 +567,26 @@
           "title": "SaaS Pagination UX: Return to the Same Table View",
           "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
           "publishedAt": "2026-10-06T14:21:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "422db61525d8",
+      "title": "STcubeOperator: A Framework for Analyzing Spatiotemporal Event Data",
+      "teaser": "The analysis of spatiotemporal event data is essential for informed decision-making in domains such as disaster response, conflict analysis, or intelligence investigations. However, the comp",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T13:03:49.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "STcubeOperator: A Framework for Analyzing Spatiotemporal Event Data",
+          "url": "https://arxiv.org/abs/2610.11894v1",
+          "publishedAt": "2026-10-08T13:03:49.000Z"
         }
       ]
     },
@@ -671,16 +651,36 @@
       ]
     },
     {
+      "id": "68dd4d5a6774",
+      "title": "Feeling Wistful: Reflecting on Scholarly Sensibilities with Creative Reading Traces",
+      "teaser": "Researchers often read before they can articulate what they are looking for. As AI increasingly mediates scholarly search and synthesis, understanding and preserving the idiosyncratic judgme",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-07T20:47:47.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Feeling Wistful: Reflecting on Scholarly Sensibilities with Creative Reading Traces",
+          "url": "https://arxiv.org/abs/2610.10890v1",
+          "publishedAt": "2026-10-07T20:47:47.000Z"
+        }
+      ]
+    },
+    {
       "id": "d2e759403c3a",
       "title": "Beyond streaks and nudges: ethical gamification & AI design",
-      "teaser": "Part 1 of 3 on designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
+      "teaser": "On designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T19:48:49.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -698,9 +698,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -720,7 +720,7 @@
       "publishedAt": "2026-09-29T18:41:44.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -800,7 +800,7 @@
       "publishedAt": "2026-09-27T22:06:14.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -931,46 +931,6 @@
       ]
     },
     {
-      "id": "94dd951b774d",
-      "title": "The Death Of The Button: Why The Best Interface Is No Interface",
-      "teaser": "TThe web is evolving beyond menus, forms, and endless clicks toward experiences shaped around human intent. For UX designers, understanding this shift means re-evaluating their role, moving ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-09T10:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "The Death Of The Button: Why The Best Interface Is No Interface",
-          "url": "https://smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
-          "publishedAt": "2026-09-09T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "51819eaaf5d7",
-      "title": "From UX to AX: How AI Agents Change Application Design",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-09T14:49:13.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "From UX to AX: How AI Agents Change Application Design",
-          "url": "https://geekyants.com/en-us/blog/from-ux-to-ax-designing-applications-for-a-world-of-ai-agents",
-          "publishedAt": "2026-09-09T14:49:13.000Z"
-        }
-      ]
-    },
-    {
       "id": "edd263780606",
       "title": "UX should just be called Experience Design",
       "teaser": "",
@@ -1016,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-09T05:39:57.581Z"
+      "fetchedAt": "2026-10-09T15:10:09.077Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-09T05:39:57.617Z"
+      "fetchedAt": "2026-10-09T15:10:09.131Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-09T05:39:57.618Z"
+      "fetchedAt": "2026-10-09T15:10:09.132Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-09T05:39:57.619Z"
+      "fetchedAt": "2026-10-09T15:10:09.133Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-09T05:39:57.620Z"
+      "fetchedAt": "2026-10-09T15:10:09.134Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-09T05:39:57.620Z"
+      "fetchedAt": "2026-10-09T15:10:09.135Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-09T05:39:57.621Z"
+      "fetchedAt": "2026-10-09T15:10:09.136Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 10,
-      "fetchedAt": "2026-10-09T05:39:57.622Z"
+      "items": 9,
+      "fetchedAt": "2026-10-09T15:10:09.137Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-09T05:39:57.622Z"
+      "fetchedAt": "2026-10-09T15:10:09.138Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-09T05:39:57.623Z"
+      "fetchedAt": "2026-10-09T15:10:09.139Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-09T05:39:57.623Z"
+      "fetchedAt": "2026-10-09T15:10:09.139Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-09T05:39:57.624Z"
+      "fetchedAt": "2026-10-09T15:10:09.140Z"
     }
   ]
 }
