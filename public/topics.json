@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-09T15:10:09.076Z",
-  "windowStart": "2026-09-09T15:10:09.076Z",
-  "windowEnd": "2026-10-09T15:10:09.076Z",
+  "generatedAt": "2026-10-09T20:43:16.500Z",
+  "windowStart": "2026-09-09T20:43:16.500Z",
+  "windowEnd": "2026-10-09T20:43:16.500Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -227,6 +227,26 @@
           "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
           "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-06T23:35:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b95e00e771d4",
+      "title": "The top 10 dark patterns of the web",
+      "teaser": "It feels like we’ve been living in a dystopia for the last decade or so, with apps (and the companies...",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-09T17:45:21.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "The top 10 dark patterns of the web",
+          "url": "https://dev.to/ale3oula/the-top-10-dark-patterns-of-the-web-3em5",
+          "publishedAt": "2026-10-09T17:45:21.000Z"
         }
       ]
     },
@@ -638,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T08:12:06.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -740,7 +760,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
       "sources": [
         {
           "name": "nngroup",
@@ -880,7 +900,7 @@
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -920,7 +940,7 @@
       "publishedAt": "2026-09-21T07:40:28.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -938,9 +958,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -976,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-09T15:10:09.077Z"
+      "fetchedAt": "2026-10-09T20:43:16.501Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-09T15:10:09.131Z"
+      "fetchedAt": "2026-10-09T20:43:16.532Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-09T15:10:09.132Z"
+      "fetchedAt": "2026-10-09T20:43:16.532Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-09T15:10:09.133Z"
+      "fetchedAt": "2026-10-09T20:43:16.533Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-09T15:10:09.134Z"
+      "fetchedAt": "2026-10-09T20:43:16.534Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-09T15:10:09.135Z"
+      "fetchedAt": "2026-10-09T20:43:16.534Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-09T15:10:09.136Z"
+      "fetchedAt": "2026-10-09T20:43:16.535Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-10-09T15:10:09.137Z"
+      "fetchedAt": "2026-10-09T20:43:16.536Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-09T15:10:09.138Z"
+      "fetchedAt": "2026-10-09T20:43:16.536Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-09T15:10:09.139Z"
+      "fetchedAt": "2026-10-09T20:43:16.537Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-09T15:10:09.139Z"
+      "fetchedAt": "2026-10-09T20:43:16.538Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-09T15:10:09.140Z"
+      "fetchedAt": "2026-10-09T20:43:16.538Z"
     }
   ]
 }
