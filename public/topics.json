@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-10T05:24:03.028Z",
-  "windowStart": "2026-09-10T05:24:03.028Z",
-  "windowEnd": "2026-10-10T05:24:03.028Z",
+  "generatedAt": "2026-10-10T14:23:13.685Z",
+  "windowStart": "2026-09-10T14:23:13.685Z",
+  "windowEnd": "2026-10-10T14:23:13.685Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -58,9 +58,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:17:58.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -78,9 +78,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:16:42.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -98,9 +98,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:16:30.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -118,9 +118,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:16:10.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -138,9 +138,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:15:43.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -198,9 +198,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T19:54:06.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -218,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-06T23:35:43.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -238,9 +238,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T21:55:52.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -311,26 +311,6 @@
       ]
     },
     {
-      "id": "7ccf3218495b",
-      "title": "Designing for an idea before it exists",
-      "teaser": "On empty seats, metaphors, and the useful parts that don&#x2019;t quite fit Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-09T20:32:02.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Designing for an idea before it exists",
-          "url": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-09T20:32:02.000Z"
-        }
-      ]
-    },
-    {
       "id": "ce5b3c7bf9e5",
       "title": "Show HN: Build with Python – a beginner course where your code draws",
       "teaser": "Hi HN, I built this because I watched my daughter struggle at learning Python. I made something that runs only in the browser with visuals rather than relying on CLI&#x2F;terminal output. No",
@@ -338,9 +318,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-10-04T18:59:25.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "68 engagement signals within 5 days",
+      "categoryReason": "68 engagement signals within 6 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -358,9 +338,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-22T22:53:01.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 17 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -376,11 +356,11 @@
       "teaser": "",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-02T20:43:52.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.71) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -398,9 +378,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T19:48:12.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -420,7 +400,7 @@
       "publishedAt": "2026-09-24T00:21:16.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -460,7 +440,7 @@
       "publishedAt": "2026-09-28T00:29:04.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -491,6 +471,26 @@
       ]
     },
     {
+      "id": "881910a121ac",
+      "title": "SaaS Search UX: Keep Filters When Results Are Empty",
+      "teaser": "When a SaaS search returns no results, keep the query and selected filters visible. Explain that...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-05T18:03:04.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "SaaS Search UX: Keep Filters When Results Are Empty",
+          "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
+          "publishedAt": "2026-10-05T18:03:04.000Z"
+        }
+      ]
+    },
+    {
       "id": "27872e4a3829",
       "title": "Your design tokens stop at the web boundary",
       "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
@@ -511,22 +511,22 @@
       ]
     },
     {
-      "id": "881910a121ac",
-      "title": "SaaS Search UX: Keep Filters When Results Are Empty",
-      "teaser": "When a SaaS search returns no results, keep the query and selected filters visible. Explain that...",
-      "tag": "AI",
+      "id": "be3d36a21013",
+      "title": "SaaS Pagination UX: Return to the Same Table View",
+      "teaser": "When someone opens a record from a paginated SaaS table and goes back, restore the page, filters,...",
+      "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-05T18:03:04.000Z",
+      "publishedAt": "2026-10-06T14:21:12.000Z",
       "since": "4 days ago",
       "relevanceScore": 0.429,
       "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "devto-ux",
-          "title": "SaaS Search UX: Keep Filters When Results Are Empty",
-          "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
-          "publishedAt": "2026-10-05T18:03:04.000Z"
+          "title": "SaaS Pagination UX: Return to the Same Table View",
+          "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
+          "publishedAt": "2026-10-06T14:21:12.000Z"
         }
       ]
     },
@@ -551,22 +551,22 @@
       ]
     },
     {
-      "id": "be3d36a21013",
-      "title": "SaaS Pagination UX: Return to the Same Table View",
-      "teaser": "When someone opens a record from a paginated SaaS table and goes back, restore the page, filters,...",
+      "id": "7ccf3218495b",
+      "title": "Designing for an idea before it exists",
+      "teaser": "On empty seats, metaphors, and the useful parts that don&#x2019;t quite fit Continue reading on UX Collective »",
       "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-06T14:21:12.000Z",
-      "since": "4 days ago",
+      "publishedAt": "2026-10-09T20:32:02.000Z",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "SaaS Pagination UX: Return to the Same Table View",
-          "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
-          "publishedAt": "2026-10-06T14:21:12.000Z"
+          "name": "uxcollective",
+          "title": "Designing for an idea before it exists",
+          "url": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-09T20:32:02.000Z"
         }
       ]
     },
@@ -658,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T20:47:47.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -678,9 +678,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T19:48:49.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -700,7 +700,7 @@
       "publishedAt": "2026-09-15T01:32:15.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -718,9 +718,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-29T18:41:44.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -800,7 +800,7 @@
       "publishedAt": "2026-09-27T22:06:14.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -976,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-10T05:24:03.029Z"
+      "fetchedAt": "2026-10-10T14:23:13.685Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-10T05:24:03.081Z"
+      "fetchedAt": "2026-10-10T14:23:13.726Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-10T05:24:03.082Z"
+      "fetchedAt": "2026-10-10T14:23:13.727Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-10T05:24:03.083Z"
+      "fetchedAt": "2026-10-10T14:23:13.728Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-10T05:24:03.084Z"
+      "fetchedAt": "2026-10-10T14:23:13.728Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-10T05:24:03.085Z"
+      "fetchedAt": "2026-10-10T14:23:13.729Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-10T05:24:03.087Z"
+      "fetchedAt": "2026-10-10T14:23:13.730Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-10-10T05:24:03.087Z"
+      "fetchedAt": "2026-10-10T14:23:13.730Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-10T05:24:03.088Z"
+      "fetchedAt": "2026-10-10T14:23:13.731Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-10T05:24:03.089Z"
+      "fetchedAt": "2026-10-10T14:23:13.732Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-10T05:24:03.090Z"
+      "fetchedAt": "2026-10-10T14:23:13.732Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-10T05:24:03.091Z"
+      "fetchedAt": "2026-10-10T14:23:13.733Z"
     }
   ]
 }
