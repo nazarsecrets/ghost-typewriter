@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-10T14:23:13.685Z",
-  "windowStart": "2026-09-10T14:23:13.685Z",
-  "windowEnd": "2026-10-10T14:23:13.685Z",
+  "generatedAt": "2026-10-10T19:56:32.362Z",
+  "windowStart": "2026-09-10T19:56:32.362Z",
+  "windowEnd": "2026-10-10T19:56:32.362Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -571,26 +571,6 @@
       ]
     },
     {
-      "id": "422db61525d8",
-      "title": "STcubeOperator: A Framework for Analyzing Spatiotemporal Event Data",
-      "teaser": "The analysis of spatiotemporal event data is essential for informed decision-making in domains such as disaster response, conflict analysis, or intelligence investigations. However, the comp",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T13:03:49.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "STcubeOperator: A Framework for Analyzing Spatiotemporal Event Data",
-          "url": "https://arxiv.org/abs/2610.11894v1",
-          "publishedAt": "2026-10-08T13:03:49.000Z"
-        }
-      ]
-    },
-    {
       "id": "84679c851736",
       "title": "Building with Agents: QA and UX in the Loop",
       "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
@@ -607,6 +587,26 @@
           "title": "Building with Agents: QA and UX in the Loop",
           "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
           "publishedAt": "2026-10-05T15:09:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "422db61525d8",
+      "title": "STcubeOperator: A Framework for Analyzing Spatiotemporal Event Data",
+      "teaser": "The analysis of spatiotemporal event data is essential for informed decision-making in domains such as disaster response, conflict analysis, or intelligence investigations. However, the comp",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T13:03:49.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "STcubeOperator: A Framework for Analyzing Spatiotemporal Event Data",
+          "url": "https://arxiv.org/abs/2610.11894v1",
+          "publishedAt": "2026-10-08T13:03:49.000Z"
         }
       ]
     },
@@ -738,9 +738,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-16T06:59:19.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
       "sources": [
         {
           "name": "nngroup",
@@ -880,7 +880,7 @@
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -920,7 +920,7 @@
       "publishedAt": "2026-09-21T07:40:28.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -976,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-10T14:23:13.685Z"
+      "fetchedAt": "2026-10-10T19:56:32.363Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-10T14:23:13.726Z"
+      "fetchedAt": "2026-10-10T19:56:32.394Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-10T14:23:13.727Z"
+      "fetchedAt": "2026-10-10T19:56:32.395Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-10T14:23:13.728Z"
+      "fetchedAt": "2026-10-10T19:56:32.396Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-10T14:23:13.728Z"
+      "fetchedAt": "2026-10-10T19:56:32.396Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-10T14:23:13.729Z"
+      "fetchedAt": "2026-10-10T19:56:32.397Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-10T14:23:13.730Z"
+      "fetchedAt": "2026-10-10T19:56:32.398Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-10-10T14:23:13.730Z"
+      "fetchedAt": "2026-10-10T19:56:32.398Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-10T14:23:13.731Z"
+      "fetchedAt": "2026-10-10T19:56:32.399Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-10T14:23:13.732Z"
+      "fetchedAt": "2026-10-10T19:56:32.399Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-10T14:23:13.732Z"
+      "fetchedAt": "2026-10-10T19:56:32.400Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-10T14:23:13.733Z"
+      "fetchedAt": "2026-10-10T19:56:32.400Z"
     }
   ]
 }
