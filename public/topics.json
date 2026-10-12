@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T05:29:07.521Z",
-  "windowStart": "2026-09-12T05:29:07.521Z",
-  "windowEnd": "2026-10-12T05:29:07.521Z",
+  "generatedAt": "2026-10-12T17:39:46.888Z",
+  "windowStart": "2026-09-12T17:39:46.888Z",
+  "windowEnd": "2026-10-12T17:39:46.888Z",
   "topics": [
+    {
+      "id": "789f972efb46",
+      "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “Today, my house and life are painfully void of craft. I live in a new build with pumped out, builder-grade (aka cheap) material",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T09:07:53.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-12T09:07:53.000Z"
+        }
+      ]
+    },
     {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
@@ -51,6 +71,26 @@
       ]
     },
     {
+      "id": "fa36b5133b5f",
+      "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
+      "teaser": "The diagram vs. the Tuesday afternoon On the architecture diagram, human-in-the-loop looks...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T08:53:11.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
+          "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
+          "publishedAt": "2026-10-12T08:53:11.000Z"
+        }
+      ]
+    },
+    {
       "id": "2524e0cd1b4d",
       "title": "Tesler’s Law: complexity moved to a different part of the journey",
       "teaser": "The complexity never left the building. It changed hands, and nothing printed a receipt. AI assisted. AI did not remove the complexity of software. It removed the interface that told you whe",
@@ -58,9 +98,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:17:58.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -78,9 +118,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:16:42.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -98,9 +138,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:16:30.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -118,9 +158,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:16:10.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -138,9 +178,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:15:43.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -191,46 +231,6 @@
       ]
     },
     {
-      "id": "d46ce359653c",
-      "title": "Bounded delegation: How much authority should AI have?",
-      "teaser": "A practical model for deciding what AI can do, what humans must still own, and where product teams should draw the boundary. Image created by the author with OpenAI image generation. An AI t",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-07T19:54:06.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Bounded delegation: How much authority should AI have?",
-          "url": "https://uxdesign.cc/bounded-delegation-how-much-authority-should-ai-have-823a58fb4192?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-07T19:54:06.000Z"
-        }
-      ]
-    },
-    {
-      "id": "817bf762f07e",
-      "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
-      "teaser": "A judgment call, wired in like any other function. Typed answers at keystroke speed let the interface act, suggest, or ask. How UX designers can put a decision model to work today in their a",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-06T23:35:43.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
-          "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-06T23:35:43.000Z"
-        }
-      ]
-    },
-    {
       "id": "4b74e269aed3",
       "title": "Why I Built DSLint: A Design System Linter for Figma",
       "teaser": "How repeated design-review feedback inspired me to build a plugin that detects design-system drift,...",
@@ -251,62 +251,22 @@
       ]
     },
     {
-      "id": "cd34d5e5fcf0",
-      "title": "HoldLight: Making Indoor Climbing More Accessible for Blind and Low-Vision Climbers through Layered Route Preview and Real-Time Next-Hold Guidance",
-      "teaser": "Indoor climbing creates access barriers for blind and low-vision (BLV) climbers because route understanding and in-climb next-hold localization are typically visually mediated and socially d",
+      "id": "a32c268edfeb",
+      "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
+      "teaser": "In my last article, I wrote about UX bugs that pass every test — like a wallet with no visible...",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-09T11:45:31.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "publishedAt": "2026-10-12T11:46:39.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "HoldLight: Making Indoor Climbing More Accessible for Blind and Low-Vision Climbers through Layered Route Preview and Real-Time Next-Hold Guidance",
-          "url": "https://arxiv.org/abs/2610.13445v1",
-          "publishedAt": "2026-10-09T11:45:31.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8b8a34883fc2",
-      "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
-      "teaser": "Computer-use agents can perform increasingly complex GUI tasks, yet unfamiliar software and workflows requiring human domain knowledge remain challenging. Human demonstrations convey procedu",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-09T04:32:02.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
-          "url": "https://arxiv.org/abs/2610.12984v1",
-          "publishedAt": "2026-10-09T04:32:02.000Z"
-        }
-      ]
-    },
-    {
-      "id": "feea3a80930f",
-      "title": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
-      "teaser": "We introduce iRAG, a human-in-the-loop decision-support system combining Retrieval-Augmented Generation (RAG) with Hybrid Decision-Making. Unlike conventional RAG systems, relying on static ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T19:43:03.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
-          "url": "https://arxiv.org/abs/2610.12666v1",
-          "publishedAt": "2026-10-08T19:43:03.000Z"
+          "name": "devto-ux",
+          "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
+          "url": "https://dev.to/saifyusuph/your-error-messages-are-a-feature-what-a-random-logout-bug-taught-me-about-designing-for-failure-354",
+          "publishedAt": "2026-10-12T11:46:39.000Z"
         }
       ]
     },
@@ -318,9 +278,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T21:55:52.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -347,6 +307,46 @@
           "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
           "url": "https://github.com/dmitry-markin/silta",
           "publishedAt": "2026-10-01T12:11:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "34ddb5816666",
+      "title": "On M.F. Husain and multiple meanings of the colour orange",
+      "teaser": "The painting that introduced me to the power and purpose of art Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T11:35:46.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "On M.F. Husain and multiple meanings of the colour orange",
+          "url": "https://uxdesign.cc/on-m-f-husain-and-multiple-meanings-of-the-colour-orange-bf4b1a6f5504?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-12T11:35:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "474f451eece7",
+      "title": "Borrowed slopes",
+      "teaser": "When a traffic line bends, newsrooms reach for the oldest kit in digital design. The readers it costs are the ones they most need. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T11:35:36.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Borrowed slopes",
+          "url": "https://uxdesign.cc/borrowed-slopes-cb5c5b464a61?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-12T11:35:36.000Z"
         }
       ]
     },
@@ -400,7 +400,7 @@
       "publishedAt": "2026-10-04T18:59:25.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "69 engagement signals within 7 days",
+      "categoryReason": "69 engagement signals within 8 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -420,7 +420,7 @@
       "publishedAt": "2026-09-22T22:53:01.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 19 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -440,7 +440,7 @@
       "publishedAt": "2026-10-02T20:43:52.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -458,9 +458,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T19:48:12.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -480,7 +480,7 @@
       "publishedAt": "2026-09-24T00:21:16.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -531,6 +531,26 @@
       ]
     },
     {
+      "id": "cd34d5e5fcf0",
+      "title": "HoldLight: Making Indoor Climbing More Accessible for Blind and Low-Vision Climbers through Layered Route Preview and Real-Time Next-Hold Guidance",
+      "teaser": "Indoor climbing creates access barriers for blind and low-vision (BLV) climbers because route understanding and in-climb next-hold localization are typically visually mediated and socially d",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-09T11:45:31.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "HoldLight: Making Indoor Climbing More Accessible for Blind and Low-Vision Climbers through Layered Route Preview and Real-Time Next-Hold Guidance",
+          "url": "https://arxiv.org/abs/2610.13445v1",
+          "publishedAt": "2026-10-09T11:45:31.000Z"
+        }
+      ]
+    },
+    {
       "id": "de155264fb66",
       "title": "Show HN: Help us fire our UI/UX designers",
       "teaser": "Get $10,000 & 3 months of Claude Max on me Redesign http:&#x2F;&#x2F;vosu.ai with any AI tool Better visuals. Better structure If we love it and choose your redesign, I’ll pay for your Claud",
@@ -540,13 +560,53 @@
       "publishedAt": "2026-09-28T00:29:04.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Help us fire our UI/UX designers",
           "url": "https://vosu.ai",
           "publishedAt": "2026-09-28T00:29:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8b8a34883fc2",
+      "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
+      "teaser": "Computer-use agents can perform increasingly complex GUI tasks, yet unfamiliar software and workflows requiring human domain knowledge remain challenging. Human demonstrations convey procedu",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-09T04:32:02.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
+          "url": "https://arxiv.org/abs/2610.12984v1",
+          "publishedAt": "2026-10-09T04:32:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "feea3a80930f",
+      "title": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
+      "teaser": "We introduce iRAG, a human-in-the-loop decision-support system combining Retrieval-Augmented Generation (RAG) with Hybrid Decision-Making. Unlike conventional RAG systems, relying on static ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T19:43:03.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
+          "url": "https://arxiv.org/abs/2610.12666v1",
+          "publishedAt": "2026-10-08T19:43:03.000Z"
         }
       ]
     },
@@ -558,9 +618,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T18:03:04.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -638,9 +698,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-09T20:32:02.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -738,35 +798,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T20:47:47.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
           "title": "Feeling Wistful: Reflecting on Scholarly Sensibilities with Creative Reading Traces",
           "url": "https://arxiv.org/abs/2610.10890v1",
           "publishedAt": "2026-10-07T20:47:47.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d2e759403c3a",
-      "title": "Beyond streaks and nudges: ethical gamification & AI design",
-      "teaser": "On designing systems that inspire rather than manipulate. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-07T19:48:49.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Beyond streaks and nudges: ethical gamification & AI design",
-          "url": "https://uxdesign.cc/beyond-streaks-and-nudges-ethical-gamification-ai-design-1c4f6e8ef2cc?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-07T19:48:49.000Z"
         }
       ]
     },
@@ -780,7 +820,7 @@
       "publishedAt": "2026-09-15T01:32:15.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -800,7 +840,7 @@
       "publishedAt": "2026-09-29T18:41:44.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -880,7 +920,7 @@
       "publishedAt": "2026-09-27T22:06:14.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -969,26 +1009,6 @@
           "publishedAt": "2026-09-14T15:57:09.000Z"
         }
       ]
-    },
-    {
-      "id": "edd263780606",
-      "title": "UX should just be called Experience Design",
-      "teaser": "",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "UX should just be called Experience Design",
-          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
-          "publishedAt": "2026-09-15T08:01:39.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -996,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-12T05:29:07.521Z"
+      "fetchedAt": "2026-10-12T17:39:46.889Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-12T05:29:07.575Z"
+      "fetchedAt": "2026-10-12T17:39:46.941Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-12T05:29:07.576Z"
+      "fetchedAt": "2026-10-12T17:39:46.943Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-12T05:29:07.577Z"
+      "fetchedAt": "2026-10-12T17:39:46.944Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-12T05:29:07.578Z"
+      "fetchedAt": "2026-10-12T17:39:46.945Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-12T05:29:07.579Z"
+      "fetchedAt": "2026-10-12T17:39:46.946Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-12T05:29:07.580Z"
+      "fetchedAt": "2026-10-12T17:39:46.947Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-12T05:29:07.581Z"
+      "fetchedAt": "2026-10-12T17:39:46.947Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-12T05:29:07.582Z"
+      "fetchedAt": "2026-10-12T17:39:46.948Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-12T05:29:07.583Z"
+      "fetchedAt": "2026-10-12T17:39:46.949Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-12T05:29:07.584Z"
+      "fetchedAt": "2026-10-12T17:39:46.950Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-12T05:29:07.585Z"
+      "fetchedAt": "2026-10-12T17:39:46.951Z"
     }
   ]
 }
