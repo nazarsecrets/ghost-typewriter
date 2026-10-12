@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T20:07:09.046Z",
-  "windowStart": "2026-09-11T20:07:09.046Z",
-  "windowEnd": "2026-10-11T20:07:09.046Z",
+  "generatedAt": "2026-10-12T05:29:07.521Z",
+  "windowStart": "2026-09-12T05:29:07.521Z",
+  "windowEnd": "2026-10-12T05:29:07.521Z",
   "topics": [
     {
       "id": "4c671c9b8eae",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-09-24T17:21:36.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "567 engagement signals within 17 days",
+      "categoryReason": "567 engagement signals within 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -30,11 +30,11 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-04T15:55:03.000Z",
       "since": "1 week ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (1.00) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -158,9 +158,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T09:40:56.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -178,9 +178,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T09:20:37.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -251,6 +251,66 @@
       ]
     },
     {
+      "id": "cd34d5e5fcf0",
+      "title": "HoldLight: Making Indoor Climbing More Accessible for Blind and Low-Vision Climbers through Layered Route Preview and Real-Time Next-Hold Guidance",
+      "teaser": "Indoor climbing creates access barriers for blind and low-vision (BLV) climbers because route understanding and in-climb next-hold localization are typically visually mediated and socially d",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-09T11:45:31.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "HoldLight: Making Indoor Climbing More Accessible for Blind and Low-Vision Climbers through Layered Route Preview and Real-Time Next-Hold Guidance",
+          "url": "https://arxiv.org/abs/2610.13445v1",
+          "publishedAt": "2026-10-09T11:45:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8b8a34883fc2",
+      "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
+      "teaser": "Computer-use agents can perform increasingly complex GUI tasks, yet unfamiliar software and workflows requiring human domain knowledge remain challenging. Human demonstrations convey procedu",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-09T04:32:02.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
+          "url": "https://arxiv.org/abs/2610.12984v1",
+          "publishedAt": "2026-10-09T04:32:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "feea3a80930f",
+      "title": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
+      "teaser": "We introduce iRAG, a human-in-the-loop decision-support system combining Retrieval-Augmented Generation (RAG) with Hybrid Decision-Making. Unlike conventional RAG systems, relying on static ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-08T19:43:03.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
+          "url": "https://arxiv.org/abs/2610.12666v1",
+          "publishedAt": "2026-10-08T19:43:03.000Z"
+        }
+      ]
+    },
+    {
       "id": "8e1aabed0fc1",
       "title": "Show HN: Railcode – Secure cloud for internal software",
       "teaser": "Hey HN, Yakko here from Railcode. Railcode is like an internal Vercel for your company. We built it after speaking to dozens of engineering leaders at various companies where employees were ",
@@ -278,9 +338,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-01T12:11:34.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -298,9 +358,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-01T10:33:21.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -320,7 +380,7 @@
       "publishedAt": "2026-09-26T14:15:39.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -440,7 +500,7 @@
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -458,9 +518,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-11T13:39:37.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -487,26 +547,6 @@
           "title": "Show HN: Help us fire our UI/UX designers",
           "url": "https://vosu.ai",
           "publishedAt": "2026-09-28T00:29:04.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d754677dccca",
-      "title": "DuoSketch: How Pairs Navigate Challenges in AI-Supported Collaborative Design Ideation",
-      "teaser": "Generative AI offers new resources for collaborative design ideation, yet how designers work with it as a shared concept develops remains underexplored. We developed DuoSketch, integrating a",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-07T15:30:58.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "DuoSketch: How Pairs Navigate Challenges in AI-Supported Collaborative Design Ideation",
-          "url": "https://arxiv.org/abs/2610.10249v1",
-          "publishedAt": "2026-10-07T15:30:58.000Z"
         }
       ]
     },
@@ -538,9 +578,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-06T09:03:06.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-design",
@@ -558,9 +598,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-06T14:21:12.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -576,11 +616,11 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-04T12:41:33.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -618,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T15:09:22.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -638,9 +678,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T13:03:49.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -658,9 +698,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T11:33:13.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -678,9 +718,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-05T08:12:06.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -800,7 +840,7 @@
       "publishedAt": "2026-09-30T10:03:43.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -820,7 +860,7 @@
       "publishedAt": "2026-10-02T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "nngroup",
@@ -860,7 +900,7 @@
       "publishedAt": "2026-09-28T10:16:02.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -880,7 +920,7 @@
       "publishedAt": "2026-09-21T14:00:16.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -920,7 +960,7 @@
       "publishedAt": "2026-09-14T15:57:09.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -956,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-11T20:07:09.047Z"
+      "fetchedAt": "2026-10-12T05:29:07.521Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-11T20:07:09.108Z"
+      "fetchedAt": "2026-10-12T05:29:07.575Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-11T20:07:09.110Z"
+      "fetchedAt": "2026-10-12T05:29:07.576Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-11T20:07:09.111Z"
+      "fetchedAt": "2026-10-12T05:29:07.577Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-11T20:07:09.112Z"
+      "fetchedAt": "2026-10-12T05:29:07.578Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-11T20:07:09.113Z"
+      "fetchedAt": "2026-10-12T05:29:07.579Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-11T20:07:09.114Z"
+      "fetchedAt": "2026-10-12T05:29:07.580Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-11T20:07:09.115Z"
+      "fetchedAt": "2026-10-12T05:29:07.581Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-11T20:07:09.116Z"
+      "fetchedAt": "2026-10-12T05:29:07.582Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-11T20:07:09.117Z"
+      "fetchedAt": "2026-10-12T05:29:07.583Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-11T20:07:09.118Z"
+      "fetchedAt": "2026-10-12T05:29:07.584Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 2,
-      "fetchedAt": "2026-10-11T20:07:09.119Z"
+      "fetchedAt": "2026-10-12T05:29:07.585Z"
     }
   ]
 }
