@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T15:48:24.050Z",
-  "windowStart": "2026-09-13T15:48:24.050Z",
-  "windowEnd": "2026-10-13T15:48:24.050Z",
+  "generatedAt": "2026-10-13T21:07:31.293Z",
+  "windowStart": "2026-09-13T21:07:31.293Z",
+  "windowEnd": "2026-10-13T21:07:31.293Z",
   "topics": [
     {
       "id": "40b5e54f4596",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-13T09:03:24.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -171,26 +171,6 @@
       ]
     },
     {
-      "id": "a74b823773f9",
-      "title": "What are we willing to sacrifice for AI?",
-      "teaser": "Three paths forward, each challenging what we value most. Photo by Josh Johnson on Unsplash I suspect artificial intelligence may eventually accomplish what generations of socialists have st",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-13T07:30:43.000Z",
-      "since": "today",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What are we willing to sacrifice for AI?",
-          "url": "https://uxdesign.cc/what-are-we-willing-to-sacrifice-for-ai-a57736f368a1?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-13T07:30:43.000Z"
-        }
-      ]
-    },
-    {
       "id": "4b74e269aed3",
       "title": "Why I Built DSLint: A Design System Linter for Figma",
       "teaser": "How repeated design-review feedback inspired me to build a plugin that detects design-system drift,...",
@@ -198,9 +178,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-11T07:19:22.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-design",
@@ -278,9 +258,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-12T08:53:11.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -407,6 +387,26 @@
           "title": "Show HN: Palette, a Figma plugin that turns one color into a whole UI system",
           "url": "https://www.figma.com/community/plugin/1682163756621093164",
           "publishedAt": "2026-09-22T22:53:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a74b823773f9",
+      "title": "What are we willing to sacrifice for AI?",
+      "teaser": "Three paths forward, each challenging what we value most. Photo by Josh Johnson on Unsplash I suspect artificial intelligence may eventually accomplish what generations of socialists have st",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-13T07:30:43.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What are we willing to sacrifice for AI?",
+          "url": "https://uxdesign.cc/what-are-we-willing-to-sacrifice-for-ai-a57736f368a1?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-13T07:30:43.000Z"
         }
       ]
     },
@@ -558,9 +558,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-09T04:32:02.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -607,6 +607,46 @@
           "title": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
           "url": "https://arxiv.org/abs/2610.12666v1",
           "publishedAt": "2026-10-08T19:43:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a228d8077d43",
+      "title": "A Quick Guide on Creating a Design System",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-27T22:06:14.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "A Quick Guide on Creating a Design System",
+          "url": "https://www.andrewcoyle.com/blog/a-quick-guide-on-creating-a-design-system",
+          "publishedAt": "2026-09-27T22:06:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "355c8a83486d",
+      "title": "Common UX Design Methods, Ranked by Value",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-28T10:16:02.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Common UX Design Methods, Ranked by Value",
+          "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
+          "publishedAt": "2026-09-28T10:16:02.000Z"
         }
       ]
     },
@@ -676,37 +716,17 @@
       "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-06T09:03:06.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.57) with limited coverage over 8 days",
       "sources": [
         {
           "name": "devto-design",
           "title": "Your design tokens stop at the web boundary",
           "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
           "publishedAt": "2026-10-06T09:03:06.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d3e98d9554ef",
-      "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
-      "teaser": "Jev&#x27;s launch inspired me to work on this project. I had used fine tuned bert models, zero-shot models to achieve jev like functionality in healthcare insurance fraud audits in the last ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-21T14:00:16.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
-          "url": "https://deepanwadhwa.github.io/OpenDecision/",
-          "publishedAt": "2026-09-21T14:00:16.000Z"
         }
       ]
     },
@@ -747,26 +767,6 @@
           "title": "Show HN: Colorful Design System for Agents",
           "url": "https://orbeez-kit.vercel.app/chat",
           "publishedAt": "2026-10-04T12:41:33.000Z"
-        }
-      ]
-    },
-    {
-      "id": "eea5252eb77d",
-      "title": "Phyll, a UX review for apps built with AI that keeps the design",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-24T07:54:55.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Phyll, a UX review for apps built with AI that keeps the design",
-          "url": "https://github.com/carlosphyll/phyll",
-          "publishedAt": "2026-09-24T07:54:55.000Z"
         }
       ]
     },
@@ -860,7 +860,7 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -911,26 +911,6 @@
       ]
     },
     {
-      "id": "169857c0668c",
-      "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
-      "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-14T15:57:09.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
-          "url": "https://dev.to/mikachu/designing-a-desktop-pet-native-to-linux-315m",
-          "publishedAt": "2026-09-14T15:57:09.000Z"
-        }
-      ]
-    },
-    {
       "id": "76f3b424329b",
       "title": "Password Reset UX: Make Recovery Clear and Safe",
       "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
@@ -960,7 +940,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
       "sources": [
         {
           "name": "nngroup",
@@ -1009,6 +989,26 @@
           "publishedAt": "2026-10-02T17:00:00.000Z"
         }
       ]
+    },
+    {
+      "id": "edd263780606",
+      "title": "UX should just be called Experience Design",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-15T08:01:39.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "UX should just be called Experience Design",
+          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
+          "publishedAt": "2026-09-15T08:01:39.000Z"
+        }
+      ]
     }
   ],
   "sourceHealth": [
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-13T15:48:24.051Z"
+      "fetchedAt": "2026-10-13T21:07:31.294Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-13T15:48:24.111Z"
+      "fetchedAt": "2026-10-13T21:07:31.349Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-13T15:48:24.112Z"
+      "fetchedAt": "2026-10-13T21:07:31.350Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-13T15:48:24.113Z"
+      "fetchedAt": "2026-10-13T21:07:31.351Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-13T15:48:24.114Z"
+      "fetchedAt": "2026-10-13T21:07:31.352Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-13T15:48:24.116Z"
+      "fetchedAt": "2026-10-13T21:07:31.353Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-13T15:48:24.117Z"
+      "fetchedAt": "2026-10-13T21:07:31.354Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-13T15:48:24.118Z"
+      "fetchedAt": "2026-10-13T21:07:31.355Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-13T15:48:24.119Z"
+      "fetchedAt": "2026-10-13T21:07:31.356Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-13T15:48:24.120Z"
+      "fetchedAt": "2026-10-13T21:07:31.357Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-13T15:48:24.121Z"
+      "fetchedAt": "2026-10-13T21:07:31.358Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-13T15:48:24.122Z"
+      "fetchedAt": "2026-10-13T21:07:31.359Z"
     }
   ]
 }
