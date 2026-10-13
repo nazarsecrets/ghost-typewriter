@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T06:26:42.254Z",
-  "windowStart": "2026-09-13T06:26:42.254Z",
-  "windowEnd": "2026-10-13T06:26:42.254Z",
+  "generatedAt": "2026-10-13T15:48:24.050Z",
+  "windowStart": "2026-09-13T15:48:24.050Z",
+  "windowEnd": "2026-10-13T15:48:24.050Z",
   "topics": [
+    {
+      "id": "40b5e54f4596",
+      "title": "The synth everyone owned and few could program: a lesson for AI design",
+      "teaser": "AI made quality available to everyone, and made it average. What sets work apart now is a decision you can see. An AI assistant helped me write this. The ideas, the data and the final edit a",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-13T09:03:24.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The synth everyone owned and few could program: a lesson for AI design",
+          "url": "https://uxdesign.cc/the-synth-everyone-owned-and-few-could-program-a-lesson-for-ai-design-6f618ec2aea0?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-13T09:03:24.000Z"
+        }
+      ]
+    },
     {
       "id": "4c1f4c9d5404",
       "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
@@ -12,35 +32,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-12T20:19:31.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
           "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-12T20:19:31.000Z"
-        }
-      ]
-    },
-    {
-      "id": "79291275761a",
-      "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
-      "teaser": "For fifteen years, the design process kept growing while the time left for making the product kept shrinking. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T20:17:45.000Z",
-      "since": "today",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
-          "url": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-12T20:17:45.000Z"
         }
       ]
     },
@@ -85,26 +85,6 @@
       ]
     },
     {
-      "id": "68573e2109b1",
-      "title": "Agent-first design: Bringing UX to the user",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T17:55:42.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Agent-first design: Bringing UX to the user",
-          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
-          "publishedAt": "2026-10-12T17:55:42.000Z"
-        }
-      ]
-    },
-    {
       "id": "a1d23b1af71f",
       "title": "Design Systems for AI Agents (Luke Wroblewski)",
       "teaser": "",
@@ -131,26 +111,6 @@
       ]
     },
     {
-      "id": "f50228309f32",
-      "title": "Show HN: Turn spoken thoughts into system design diagrams",
-      "teaser": "I recently had an issue with my right hand, and couldn&#x27;t use it very effectively. So I was trying to figure out how I could still get work done without typing everything with my right h",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T21:39:07.000Z",
-      "since": "today",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Turn spoken thoughts into system design diagrams",
-          "url": "https://github.com/triggeredcode/lucid",
-          "publishedAt": "2026-10-12T21:39:07.000Z"
-        }
-      ]
-    },
-    {
       "id": "2524e0cd1b4d",
       "title": "Tesler’s Law: complexity moved to a different part of the journey",
       "teaser": "The complexity never left the building. It changed hands, and nothing printed a receipt. AI assisted. AI did not remove the complexity of software. It removed the interface that told you whe",
@@ -158,9 +118,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:17:58.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -178,55 +138,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T23:16:42.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Are synthetic users (really) the future of UX research?",
           "url": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-08T23:16:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5eec00d6e199",
-      "title": "Synthetic users are making me rethink “imperfect research”",
-      "teaser": "Why I’m reconsidering a principle I’ve believed for years. I’ve always believed that imperfect research is better than no research at all. Synthetic users have made me reconsider that. When ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:16:30.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Synthetic users are making me rethink “imperfect research”",
-          "url": "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:16:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "64de644f2db7",
-      "title": "AI-generated UI is fast design, not UX",
-      "teaser": "The call for problem discovery, the freedom to wander, and craft in the age of AI I grew up surrounded by 17th- and 18th-century architecture my stepfather salvaged from around the world. My",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:16:10.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI-generated UI is fast design, not UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:16:10.000Z"
         }
       ]
     },
@@ -247,6 +167,26 @@
           "title": "NeuroDivSim: An Interactive Tool for Model-Based Reflection on Cognitive Diversity in Interface Design",
           "url": "https://arxiv.org/abs/2610.11590v1",
           "publishedAt": "2026-10-08T09:40:56.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a74b823773f9",
+      "title": "What are we willing to sacrifice for AI?",
+      "teaser": "Three paths forward, each challenging what we value most. Photo by Josh Johnson on Unsplash I suspect artificial intelligence may eventually accomplish what generations of socialists have st",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-13T07:30:43.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What are we willing to sacrifice for AI?",
+          "url": "https://uxdesign.cc/what-are-we-willing-to-sacrifice-for-ai-a57736f368a1?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-13T07:30:43.000Z"
         }
       ]
     },
@@ -278,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T21:55:52.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -311,6 +251,26 @@
       ]
     },
     {
+      "id": "79291275761a",
+      "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
+      "teaser": "For fifteen years, the design process kept growing while the time left for making the product kept shrinking. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T20:17:45.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
+          "url": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-12T20:17:45.000Z"
+        }
+      ]
+    },
+    {
       "id": "fa36b5133b5f",
       "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
       "teaser": "The diagram vs. the Tuesday afternoon On the architecture diagram, human-in-the-loop looks...",
@@ -327,6 +287,26 @@
           "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
           "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
           "publishedAt": "2026-10-12T08:53:11.000Z"
+        }
+      ]
+    },
+    {
+      "id": "68573e2109b1",
+      "title": "Agent-first design: Bringing UX to the user",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T17:55:42.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Agent-first design: Bringing UX to the user",
+          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
+          "publishedAt": "2026-10-12T17:55:42.000Z"
         }
       ]
     },
@@ -371,6 +351,26 @@
       ]
     },
     {
+      "id": "f50228309f32",
+      "title": "Show HN: Turn spoken thoughts into system design diagrams",
+      "teaser": "I recently had an issue with my right hand, and couldn&#x27;t use it very effectively. So I was trying to figure out how I could still get work done without typing everything with my right h",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T21:39:07.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Turn spoken thoughts into system design diagrams",
+          "url": "https://github.com/triggeredcode/lucid",
+          "publishedAt": "2026-10-12T21:39:07.000Z"
+        }
+      ]
+    },
+    {
       "id": "ce5b3c7bf9e5",
       "title": "Show HN: Build with Python – a beginner course where your code draws",
       "teaser": "Hi HN, I built this because I watched my daughter struggle at learning Python. I made something that runs only in the browser with visuals rather than relying on CLI&#x2F;terminal output. No",
@@ -380,7 +380,7 @@
       "publishedAt": "2026-10-04T18:59:25.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "69 engagement signals within 8 days",
+      "categoryReason": "69 engagement signals within 9 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -400,7 +400,7 @@
       "publishedAt": "2026-09-22T22:53:01.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -418,9 +418,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-02T20:43:52.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -438,9 +438,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T19:48:12.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -460,7 +460,7 @@
       "publishedAt": "2026-09-24T00:21:16.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -540,7 +540,7 @@
       "publishedAt": "2026-09-28T00:29:04.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -598,9 +598,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T19:43:03.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -691,6 +691,26 @@
       ]
     },
     {
+      "id": "d3e98d9554ef",
+      "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
+      "teaser": "Jev&#x27;s launch inspired me to work on this project. I had used fine tuned bert models, zero-shot models to achieve jev like functionality in healthcare insurance fraud audits in the last ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-21T14:00:16.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
+          "url": "https://deepanwadhwa.github.io/OpenDecision/",
+          "publishedAt": "2026-09-21T14:00:16.000Z"
+        }
+      ]
+    },
+    {
       "id": "be3d36a21013",
       "title": "SaaS Pagination UX: Return to the Same Table View",
       "teaser": "When someone opens a record from a paginated SaaS table and goes back, restore the page, filters,...",
@@ -731,6 +751,26 @@
       ]
     },
     {
+      "id": "eea5252eb77d",
+      "title": "Phyll, a UX review for apps built with AI that keeps the design",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-24T07:54:55.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Phyll, a UX review for apps built with AI that keeps the design",
+          "url": "https://github.com/carlosphyll/phyll",
+          "publishedAt": "2026-09-24T07:54:55.000Z"
+        }
+      ]
+    },
+    {
       "id": "7ccf3218495b",
       "title": "Designing for an idea before it exists",
       "teaser": "On empty seats, metaphors, and the useful parts that don&#x2019;t quite fit Continue reading on UX Collective »",
@@ -738,9 +778,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-09T20:32:02.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -838,9 +878,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T20:47:47.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -860,13 +900,33 @@
       "publishedAt": "2026-09-15T01:32:15.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "The UX Research Methodology subway map trap",
           "url": "https://www.reddit.com/r/UXDesign/comments/1wercj5/the_ux_research_methodology_subway_map_trap/",
           "publishedAt": "2026-09-15T01:32:15.000Z"
+        }
+      ]
+    },
+    {
+      "id": "169857c0668c",
+      "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
+      "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-14T15:57:09.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
+          "url": "https://dev.to/mikachu/designing-a-desktop-pet-native-to-linux-315m",
+          "publishedAt": "2026-09-14T15:57:09.000Z"
         }
       ]
     },
@@ -880,7 +940,7 @@
       "publishedAt": "2026-09-29T18:41:44.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -949,66 +1009,6 @@
           "publishedAt": "2026-10-02T17:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "edd263780606",
-      "title": "UX should just be called Experience Design",
-      "teaser": "",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "UX should just be called Experience Design",
-          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
-          "publishedAt": "2026-09-15T08:01:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a228d8077d43",
-      "title": "A Quick Guide on Creating a Design System",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-27T22:06:14.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "A Quick Guide on Creating a Design System",
-          "url": "https://www.andrewcoyle.com/blog/a-quick-guide-on-creating-a-design-system",
-          "publishedAt": "2026-09-27T22:06:14.000Z"
-        }
-      ]
-    },
-    {
-      "id": "355c8a83486d",
-      "title": "Common UX Design Methods, Ranked by Value",
-      "teaser": "",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-28T10:16:02.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Common UX Design Methods, Ranked by Value",
-          "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
-          "publishedAt": "2026-09-28T10:16:02.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-13T06:26:42.254Z"
+      "fetchedAt": "2026-10-13T15:48:24.051Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-13T06:26:42.308Z"
+      "fetchedAt": "2026-10-13T15:48:24.111Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-13T06:26:42.309Z"
+      "fetchedAt": "2026-10-13T15:48:24.112Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-13T06:26:42.310Z"
+      "fetchedAt": "2026-10-13T15:48:24.113Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-13T06:26:42.311Z"
+      "fetchedAt": "2026-10-13T15:48:24.114Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-13T06:26:42.312Z"
+      "fetchedAt": "2026-10-13T15:48:24.116Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-13T06:26:42.313Z"
+      "fetchedAt": "2026-10-13T15:48:24.117Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-13T06:26:42.314Z"
+      "fetchedAt": "2026-10-13T15:48:24.118Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-13T06:26:42.315Z"
+      "fetchedAt": "2026-10-13T15:48:24.119Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-13T06:26:42.316Z"
+      "fetchedAt": "2026-10-13T15:48:24.120Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-13T06:26:42.317Z"
+      "fetchedAt": "2026-10-13T15:48:24.121Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-13T06:26:42.318Z"
+      "fetchedAt": "2026-10-13T15:48:24.122Z"
     }
   ]
 }
