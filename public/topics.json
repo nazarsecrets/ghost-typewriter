@@ -1,9 +1,69 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T04:27:43.197Z",
-  "windowStart": "2026-09-14T04:27:43.197Z",
-  "windowEnd": "2026-10-14T04:27:43.197Z",
+  "generatedAt": "2026-10-14T13:31:46.008Z",
+  "windowStart": "2026-09-14T13:31:46.008Z",
+  "windowEnd": "2026-10-14T13:31:46.008Z",
   "topics": [
+    {
+      "id": "c4035613783f",
+      "title": "Communicating Uncertainty in AI-Supported Nurse Scheduling: Expert Co-Design and Evaluation of an Explainable AI Prototype",
+      "teaser": "Nurse scheduling is a complex optimization problem in which nurses are assigned to shifts to meet staffing demands while complying with working-time limits, qualification requirements, and o",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-13T16:37:17.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Communicating Uncertainty in AI-Supported Nurse Scheduling: Expert Co-Design and Evaluation of an Explainable AI Prototype",
+          "url": "https://arxiv.org/abs/2610.18679v1",
+          "publishedAt": "2026-10-13T16:37:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bd14da02e98f",
+      "title": "{Access|Use|Sustain|_}-ability: Exploration and Quantification of a Linguistic Structure and Its Use in HCI",
+      "teaser": "Language plays a crucial role in research and technology design, throughout problem formulation, method descriptions, analysis of findings, and interpretation. In this paper, we focus on a p",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T05:36:00.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "{Access|Use|Sustain|_}-ability: Exploration and Quantification of a Linguistic Structure and Its Use in HCI",
+          "url": "https://arxiv.org/abs/2610.16206v1",
+          "publishedAt": "2026-10-12T05:36:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "835088159f48",
+      "title": "I built a Claude skill that makes AI design like a senior UX designer",
+      "teaser": "Ask any AI to \"design a dashboard\" and you get the same thing every time. A KPI row, a line chart, a...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-13T21:11:14.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "I built a Claude skill that makes AI design like a senior UX designer",
+          "url": "https://dev.to/zeeshani42/i-built-a-claude-skill-that-makes-ai-design-like-a-senior-ux-designer-2gdm",
+          "publishedAt": "2026-10-13T21:11:14.000Z"
+        }
+      ]
+    },
     {
       "id": "e155896df8d9",
       "title": "Taste is not a design methodology",
@@ -12,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-13T22:27:46.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -52,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-12T20:19:31.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -74,7 +134,7 @@
       "publishedAt": "2026-09-24T17:21:36.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "567 engagement signals within 19 days",
+      "categoryReason": "567 engagement signals within 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -131,6 +191,26 @@
       ]
     },
     {
+      "id": "a8f02e203566",
+      "title": "Particle Selection in Virtual Reality",
+      "teaser": "Point-cloud representations of 3D data are used in many fields, from astronomical surveys of galaxies to medical imaging and laser scans of buildings. A task common to all of these is intera",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T16:53:16.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Particle Selection in Virtual Reality",
+          "url": "https://arxiv.org/abs/2610.17094v1",
+          "publishedAt": "2026-10-12T16:53:16.000Z"
+        }
+      ]
+    },
+    {
       "id": "4b74e269aed3",
       "title": "Why I Built DSLint: A Design System Linter for Figma",
       "teaser": "How repeated design-review feedback inspired me to build a plugin that detects design-system drift,...",
@@ -158,9 +238,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-07T21:55:52.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -171,22 +251,22 @@
       ]
     },
     {
-      "id": "8dbe840df8db",
-      "title": "How to talk about a design that looks worse on paper",
-      "teaser": "Why it took Microsoft 5 years to roll out an &#x2018;obvious fix&#x2019; Continue reading on UX Collective »",
+      "id": "573558e734df",
+      "title": "How getting good at your job can stop you getting better",
+      "teaser": "Many experienced people plateau out of sight. Whether they keep growing depends partly on the problems they&#x2019;re given to tackle. Continue reading on UX Collective »",
       "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-13T22:26:58.000Z",
+      "publishedAt": "2026-10-14T08:53:49.000Z",
       "since": "today",
       "relevanceScore": 0.429,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "How to talk about a design that looks worse on paper",
-          "url": "https://uxdesign.cc/how-to-talk-about-a-design-that-looks-worse-on-paper-da73da6d7b57?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-13T22:26:58.000Z"
+          "title": "How getting good at your job can stop you getting better",
+          "url": "https://uxdesign.cc/how-getting-good-at-your-job-can-stop-you-getting-better-023b6e7637ec?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-14T08:53:49.000Z"
         }
       ]
     },
@@ -211,26 +291,6 @@
       ]
     },
     {
-      "id": "79291275761a",
-      "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
-      "teaser": "For fifteen years, the design process kept growing while the time left for making the product kept shrinking. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T20:17:45.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
-          "url": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-12T20:17:45.000Z"
-        }
-      ]
-    },
-    {
       "id": "fa36b5133b5f",
       "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
       "teaser": "The diagram vs. the Tuesday afternoon On the architecture diagram, human-in-the-loop looks...",
@@ -251,6 +311,66 @@
       ]
     },
     {
+      "id": "79291275761a",
+      "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
+      "teaser": "For fifteen years, the design process kept growing while the time left for making the product kept shrinking. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T20:17:45.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
+          "url": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-12T20:17:45.000Z"
+        }
+      ]
+    },
+    {
+      "id": "47860a92b7c1",
+      "title": "Integrating Feature Understandability into Feature Selection for Human-Centred Tabular Explanations",
+      "teaser": "Existing human-centred XAI research predominantly evaluates explanations after they have been generated. However, this fails to provide actionable insights into improving accessibility. This",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T11:44:57.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Integrating Feature Understandability into Feature Selection for Human-Centred Tabular Explanations",
+          "url": "https://arxiv.org/abs/2610.16627v1",
+          "publishedAt": "2026-10-12T11:44:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f032cd636754",
+      "title": "Exploring Mixed Reality for Engagement in Robotics: A Comparison of Robot Control Methods",
+      "teaser": "This paper presents a Mixed Reality (MR) robotics experience that provides an accessible introduction to interacting with a physical robot. The application combines a TurtleBot with a virtua",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T05:08:30.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Exploring Mixed Reality for Engagement in Robotics: A Comparison of Robot Control Methods",
+          "url": "https://arxiv.org/abs/2610.16186v1",
+          "publishedAt": "2026-10-12T05:08:30.000Z"
+        }
+      ]
+    },
+    {
       "id": "68573e2109b1",
       "title": "Agent-first design: Bringing UX to the user",
       "teaser": "",
@@ -258,9 +378,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-12T17:55:42.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -318,9 +438,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-12T21:39:07.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -340,7 +460,7 @@
       "publishedAt": "2026-10-04T18:59:25.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "69 engagement signals within 9 days",
+      "categoryReason": "69 engagement signals within 10 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -360,7 +480,7 @@
       "publishedAt": "2026-09-22T22:53:01.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 21 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -400,7 +520,7 @@
       "publishedAt": "2026-10-02T20:43:52.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -418,9 +538,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-08T19:48:12.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -440,7 +560,7 @@
       "publishedAt": "2026-09-24T00:21:16.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -500,7 +620,7 @@
       "publishedAt": "2026-09-28T00:29:04.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -511,22 +631,22 @@
       ]
     },
     {
-      "id": "a32c268edfeb",
-      "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
-      "teaser": "In my last article, I wrote about UX bugs that pass every test — like a wallet with no visible...",
-      "tag": "AI",
+      "id": "8dbe840df8db",
+      "title": "How to talk about a design that looks worse on paper",
+      "teaser": "Why it took Microsoft 5 years to roll out an &#x2018;obvious fix&#x2019; Continue reading on UX Collective »",
+      "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-12T11:46:39.000Z",
-      "since": "2 days ago",
+      "publishedAt": "2026-10-13T22:26:58.000Z",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
-          "url": "https://dev.to/saifyusuph/your-error-messages-are-a-feature-what-a-random-logout-bug-taught-me-about-designing-for-failure-354",
-          "publishedAt": "2026-10-12T11:46:39.000Z"
+          "name": "uxcollective",
+          "title": "How to talk about a design that looks worse on paper",
+          "url": "https://uxdesign.cc/how-to-talk-about-a-design-that-looks-worse-on-paper-da73da6d7b57?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-13T22:26:58.000Z"
         }
       ]
     },
@@ -540,7 +660,7 @@
       "publishedAt": "2026-10-05T18:03:04.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -611,26 +731,6 @@
       ]
     },
     {
-      "id": "d3e98d9554ef",
-      "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
-      "teaser": "Jev&#x27;s launch inspired me to work on this project. I had used fine tuned bert models, zero-shot models to achieve jev like functionality in healthcare insurance fraud audits in the last ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-21T14:00:16.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
-          "url": "https://deepanwadhwa.github.io/OpenDecision/",
-          "publishedAt": "2026-09-21T14:00:16.000Z"
-        }
-      ]
-    },
-    {
       "id": "be3d36a21013",
       "title": "SaaS Pagination UX: Return to the Same Table View",
       "teaser": "When someone opens a record from a paginated SaaS table and goes back, restore the page, filters,...",
@@ -667,46 +767,6 @@
           "title": "Show HN: Colorful Design System for Agents",
           "url": "https://orbeez-kit.vercel.app/chat",
           "publishedAt": "2026-10-04T12:41:33.000Z"
-        }
-      ]
-    },
-    {
-      "id": "eea5252eb77d",
-      "title": "Phyll, a UX review for apps built with AI that keeps the design",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-24T07:54:55.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Phyll, a UX review for apps built with AI that keeps the design",
-          "url": "https://github.com/carlosphyll/phyll",
-          "publishedAt": "2026-09-24T07:54:55.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7ccf3218495b",
-      "title": "Designing for an idea before it exists",
-      "teaser": "On empty seats, metaphors, and the useful parts that don&#x2019;t quite fit Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-09T20:32:02.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Designing for an idea before it exists",
-          "url": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-09T20:32:02.000Z"
         }
       ]
     },
@@ -791,26 +851,6 @@
       ]
     },
     {
-      "id": "169857c0668c",
-      "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
-      "teaser": "The Tamagotchi Problem: Designing a Desktop Pet You Actually Want to Take Care Of How I'm...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-14T15:57:09.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
-          "url": "https://dev.to/mikachu/designing-a-desktop-pet-native-to-linux-315m",
-          "publishedAt": "2026-09-14T15:57:09.000Z"
-        }
-      ]
-    },
-    {
       "id": "76f3b424329b",
       "title": "Password Reset UX: Make Recovery Clear and Safe",
       "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
@@ -820,7 +860,7 @@
       "publishedAt": "2026-09-29T18:41:44.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -880,7 +920,7 @@
       "publishedAt": "2026-10-02T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "nngroup",
@@ -900,7 +940,7 @@
       "publishedAt": "2026-09-27T22:06:14.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -931,22 +971,42 @@
       ]
     },
     {
-      "id": "edd263780606",
-      "title": "UX should just be called Experience Design",
-      "teaser": "",
-      "tag": "Process",
+      "id": "d3e98d9554ef",
+      "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
+      "teaser": "Jev&#x27;s launch inspired me to work on this project. I had used fine tuned bert models, zero-shot models to achieve jev like functionality in healthcare insurance fraud audits in the last ",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "4 weeks ago",
+      "publishedAt": "2026-09-21T14:00:16.000Z",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: OpenDecision – a 400M zero-shot model makes local decisions, plays Doom",
+          "url": "https://deepanwadhwa.github.io/OpenDecision/",
+          "publishedAt": "2026-09-21T14:00:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "eea5252eb77d",
+      "title": "Phyll, a UX review for apps built with AI that keeps the design",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-24T07:54:55.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
-          "title": "UX should just be called Experience Design",
-          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
-          "publishedAt": "2026-09-15T08:01:39.000Z"
+          "title": "Phyll, a UX review for apps built with AI that keeps the design",
+          "url": "https://github.com/carlosphyll/phyll",
+          "publishedAt": "2026-09-24T07:54:55.000Z"
         }
       ]
     }
@@ -956,74 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-14T04:27:43.197Z"
+      "fetchedAt": "2026-10-14T13:31:46.008Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-14T04:27:43.254Z"
+      "fetchedAt": "2026-10-14T13:31:46.039Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-14T04:27:43.255Z"
+      "fetchedAt": "2026-10-14T13:31:46.040Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-14T04:27:43.257Z"
+      "fetchedAt": "2026-10-14T13:31:46.041Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-14T04:27:43.258Z"
+      "fetchedAt": "2026-10-14T13:31:46.041Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-14T04:27:43.259Z"
+      "fetchedAt": "2026-10-14T13:31:46.042Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-14T04:27:43.260Z"
+      "fetchedAt": "2026-10-14T13:31:46.043Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-14T04:27:43.261Z"
+      "fetchedAt": "2026-10-14T13:31:46.043Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-14T04:27:43.262Z"
+      "fetchedAt": "2026-10-14T13:31:46.044Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": false,
-      "items": 0,
-      "fetchedAt": "2026-10-14T04:27:43.263Z",
-      "error": "This operation was aborted"
+      "ok": true,
+      "items": 30,
+      "fetchedAt": "2026-10-14T13:31:46.044Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-14T04:27:43.264Z"
+      "fetchedAt": "2026-10-14T13:31:46.045Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-14T04:27:43.265Z"
+      "fetchedAt": "2026-10-14T13:31:46.045Z"
     }
   ]
 }
