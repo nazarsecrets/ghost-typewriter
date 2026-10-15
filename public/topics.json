@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T13:15:38.475Z",
-  "windowStart": "2026-09-15T13:15:38.475Z",
-  "windowEnd": "2026-10-15T13:15:38.475Z",
+  "generatedAt": "2026-10-15T19:48:16.311Z",
+  "windowStart": "2026-09-15T19:48:16.311Z",
+  "windowEnd": "2026-10-15T19:48:16.311Z",
   "topics": [
     {
       "id": "3adc0d7ca594",
@@ -171,26 +171,6 @@
       ]
     },
     {
-      "id": "c4035613783f",
-      "title": "Communicating Uncertainty in AI-Supported Nurse Scheduling: Expert Co-Design and Evaluation of an Explainable AI Prototype",
-      "teaser": "Nurse scheduling is a complex optimization problem in which nurses are assigned to shifts to meet staffing demands while complying with working-time limits, qualification requirements, and o",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-13T16:37:17.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Communicating Uncertainty in AI-Supported Nurse Scheduling: Expert Co-Design and Evaluation of an Explainable AI Prototype",
-          "url": "https://arxiv.org/abs/2610.18679v1",
-          "publishedAt": "2026-10-13T16:37:17.000Z"
-        }
-      ]
-    },
-    {
       "id": "4b74e269aed3",
       "title": "Why I Built DSLint: A Design System Linter for Figma",
       "teaser": "How repeated design-review feedback inspired me to build a plugin that detects design-system drift,...",
@@ -198,9 +178,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-11T07:19:22.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "devto-design",
@@ -238,9 +218,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-15T02:02:26.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -267,26 +247,6 @@
           "title": "Show HN: Railcode – Secure cloud for internal software",
           "url": "https://railcode.dev/",
           "publishedAt": "2026-10-07T21:55:52.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fb4a07e26c8e",
-      "title": "\"The Rose Garden Is a Cemetery\": Spatial Dissonance and Divergent Public Experiences of an Indigenous Augmented Reality Tour",
-      "teaser": "Community-authored augmented reality (AR) can contest dominant heritage narratives by juxtaposing stories with physical surroundings. We examine the Thámien Ohlone AR Tour, developed with me",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-14T06:10:39.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "\"The Rose Garden Is a Cemetery\": Spatial Dissonance and Divergent Public Experiences of an Indigenous Augmented Reality Tour",
-          "url": "https://arxiv.org/abs/2610.19641v1",
-          "publishedAt": "2026-10-14T06:10:39.000Z"
         }
       ]
     },
@@ -451,26 +411,6 @@
       ]
     },
     {
-      "id": "e9897800735b",
-      "title": "Measuring and Reducing Unusable Replies of LLM Agents",
-      "teaser": "People delegate multi-step work to LLM agents and read only the reply that the agent hands back. Current evaluation scores task completion and the faithfulness of reports, and it leaves open",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-14T06:35:49.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Measuring and Reducing Unusable Replies of LLM Agents",
-          "url": "https://arxiv.org/abs/2610.19659v1",
-          "publishedAt": "2026-10-14T06:35:49.000Z"
-        }
-      ]
-    },
-    {
       "id": "b18ab924e25d",
       "title": "Show HN: Palette, a Figma plugin that turns one color into a whole UI system",
       "teaser": "I was inspired to build this because of AI slop design. That led me down the path of why computers didn&#x27;t &#x27;see&#x27; color the way that humans did - and the lack of a common langua",
@@ -498,9 +438,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-13T07:30:43.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -627,26 +567,6 @@
           "title": "Show HN: Help us fire our UI/UX designers",
           "url": "https://vosu.ai",
           "publishedAt": "2026-09-28T00:29:04.000Z"
-        }
-      ]
-    },
-    {
-      "id": "17de05a54c08",
-      "title": "AdaptaFace: Adversarial Assistance for Inclusive Facial Gesture Interaction",
-      "teaser": "Facial gestures can enable access for people with motor impairments (PwM), yet recognizers may not reliably interpret individual facial movement patterns. Existing approaches either constrai",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-14T10:58:12.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AdaptaFace: Adversarial Assistance for Inclusive Facial Gesture Interaction",
-          "url": "https://arxiv.org/abs/2610.19977v1",
-          "publishedAt": "2026-10-14T10:58:12.000Z"
         }
       ]
     },
@@ -880,7 +800,7 @@
       "publishedAt": "2026-09-16T06:59:19.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
       "sources": [
         {
           "name": "nngroup",
@@ -996,73 +916,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-15T13:15:38.475Z"
+      "fetchedAt": "2026-10-15T19:48:16.312Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-15T13:15:38.529Z"
+      "fetchedAt": "2026-10-15T19:48:16.354Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-15T13:15:38.530Z"
+      "fetchedAt": "2026-10-15T19:48:16.355Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-15T13:15:38.532Z"
+      "fetchedAt": "2026-10-15T19:48:16.356Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-15T13:15:38.533Z"
+      "fetchedAt": "2026-10-15T19:48:16.356Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-15T13:15:38.533Z"
+      "fetchedAt": "2026-10-15T19:48:16.357Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-15T13:15:38.534Z"
+      "fetchedAt": "2026-10-15T19:48:16.358Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-15T13:15:38.535Z"
+      "fetchedAt": "2026-10-15T19:48:16.358Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-15T13:15:38.536Z"
+      "fetchedAt": "2026-10-15T19:48:16.359Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-10-15T13:15:38.537Z"
+      "ok": false,
+      "items": 0,
+      "fetchedAt": "2026-10-15T19:48:16.360Z",
+      "error": "This operation was aborted"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-15T13:15:38.538Z"
+      "fetchedAt": "2026-10-15T19:48:16.361Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-15T13:15:38.539Z"
+      "fetchedAt": "2026-10-15T19:48:16.362Z"
     }
   ]
 }
