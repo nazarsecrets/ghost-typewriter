@@ -1,26 +1,86 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-14T20:05:45.642Z",
-  "windowStart": "2026-09-14T20:05:45.642Z",
-  "windowEnd": "2026-10-14T20:05:45.642Z",
+  "generatedAt": "2026-10-15T04:10:12.300Z",
+  "windowStart": "2026-09-15T04:10:12.300Z",
+  "windowEnd": "2026-10-15T04:10:12.300Z",
   "topics": [
     {
-      "id": "d2e060a9b0d3",
-      "title": "Design Systems",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "3adc0d7ca594",
+      "title": "Nobody wants your AI app",
+      "teaser": "The switchboard operator’s job was automated out of existence. The work it became, the invisible systems that now connect every call, is worth more than the job ever was. AI is about to do t",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-14T14:51:36.000Z",
+      "publishedAt": "2026-10-14T22:09:56.000Z",
       "since": "today",
-      "relevanceScore": 0.857,
+      "relevanceScore": 1,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Design Systems",
-          "url": "https://webflow.com/webflow-way/design-systems",
-          "publishedAt": "2026-10-14T14:51:36.000Z"
+          "name": "uxcollective",
+          "title": "Nobody wants your AI app",
+          "url": "https://uxdesign.cc/nobody-wants-your-ai-app-cff8629064a4?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-14T22:09:56.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0257c9d58750",
+      "title": "What I told the CFO when he asked why design matters",
+      "teaser": "How to sell design and show the impact of design outcomes to business and finance leaders. Many years ago a business unit CFO told me: “I don’t need another presentation explaining why desig",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-14T22:09:29.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What I told the CFO when he asked why design matters",
+          "url": "https://uxdesign.cc/what-i-told-the-cfo-when-he-asked-why-design-matters-ceadb07c929e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-14T22:09:29.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0f3d4d5f7d5d",
+      "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
+      "teaser": "I want to show you the game I created recently and tell you whole the story&#x2F;experience - including backend&#x2F;latency&#x2F;scalability. You can try it quickly without an account - I c",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-15T02:02:26.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
+          "url": "https://towerpanic.com/",
+          "publishedAt": "2026-10-15T02:02:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fb4a07e26c8e",
+      "title": "\"The Rose Garden Is a Cemetery\": Spatial Dissonance and Divergent Public Experiences of an Indigenous Augmented Reality Tour",
+      "teaser": "Community-authored augmented reality (AR) can contest dominant heritage narratives by juxtaposing stories with physical surroundings. We examine the Thámien Ohlone AR Tour, developed with me",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-14T06:10:39.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "\"The Rose Garden Is a Cemetery\": Spatial Dissonance and Divergent Public Experiences of an Indigenous Augmented Reality Tour",
+          "url": "https://arxiv.org/abs/2610.19641v1",
+          "publishedAt": "2026-10-14T06:10:39.000Z"
         }
       ]
     },
@@ -52,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-13T09:03:24.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -85,6 +145,26 @@
       ]
     },
     {
+      "id": "d2e060a9b0d3",
+      "title": "Design Systems",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-14T14:51:36.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design Systems",
+          "url": "https://webflow.com/webflow-way/design-systems",
+          "publishedAt": "2026-10-14T14:51:36.000Z"
+        }
+      ]
+    },
+    {
       "id": "4c671c9b8eae",
       "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
       "teaser": "Hello! We’re Sid, Alex, Ketan, and Milan. We’re building Whiteboard ( https:&#x2F;&#x2F;whiteboard.dev.fast&#x2F; ), an open-source desktop app where humans and agents can architect software",
@@ -105,26 +185,6 @@
       ]
     },
     {
-      "id": "789f972efb46",
-      "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
-      "teaser": "Weekly curated resources for designers — thinkers and makers. “Today, my house and life are painfully void of craft. I live in a new build with pumped out, builder-grade (aka cheap) material",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T09:07:53.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-12T09:07:53.000Z"
-        }
-      ]
-    },
-    {
       "id": "a1d23b1af71f",
       "title": "Design Systems for AI Agents (Luke Wroblewski)",
       "teaser": "",
@@ -132,9 +192,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-04T15:55:03.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 10 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -147,6 +207,26 @@
           "title": "Design Systems for AI Agents",
           "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
           "publishedAt": "2026-10-04T15:55:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e9897800735b",
+      "title": "Measuring and Reducing Unusable Replies of LLM Agents",
+      "teaser": "People delegate multi-step work to LLM agents and read only the reply that the agent hands back. Current evaluation scores task completion and the faithfulness of reports, and it leaves open",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-14T06:35:49.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Measuring and Reducing Unusable Replies of LLM Agents",
+          "url": "https://arxiv.org/abs/2610.19659v1",
+          "publishedAt": "2026-10-14T06:35:49.000Z"
         }
       ]
     },
@@ -167,26 +247,6 @@
           "title": "Communicating Uncertainty in AI-Supported Nurse Scheduling: Expert Co-Design and Evaluation of an Explainable AI Prototype",
           "url": "https://arxiv.org/abs/2610.18679v1",
           "publishedAt": "2026-10-13T16:37:17.000Z"
-        }
-      ]
-    },
-    {
-      "id": "bd14da02e98f",
-      "title": "{Access|Use|Sustain|_}-ability: Exploration and Quantification of a Linguistic Structure and Its Use in HCI",
-      "teaser": "Language plays a crucial role in research and technology design, throughout problem formulation, method descriptions, analysis of findings, and interpretation. In this paper, we focus on a p",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T05:36:00.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "{Access|Use|Sustain|_}-ability: Exploration and Quantification of a Linguistic Structure and Its Use in HCI",
-          "url": "https://arxiv.org/abs/2610.16206v1",
-          "publishedAt": "2026-10-12T05:36:00.000Z"
         }
       ]
     },
@@ -251,6 +311,26 @@
       ]
     },
     {
+      "id": "17de05a54c08",
+      "title": "AdaptaFace: Adversarial Assistance for Inclusive Facial Gesture Interaction",
+      "teaser": "Facial gestures can enable access for people with motor impairments (PwM), yet recognizers may not reliably interpret individual facial movement patterns. Existing approaches either constrai",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-14T10:58:12.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "AdaptaFace: Adversarial Assistance for Inclusive Facial Gesture Interaction",
+          "url": "https://arxiv.org/abs/2610.19977v1",
+          "publishedAt": "2026-10-14T10:58:12.000Z"
+        }
+      ]
+    },
+    {
       "id": "545584389745",
       "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
       "teaser": "Silta is a self-hosted assistant serving multiple users from a single Matrix account, used by me, family, and close friends for the last three weeks. It runs on Claude Code with each person ",
@@ -260,7 +340,7 @@
       "publishedAt": "2026-10-01T12:11:34.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -278,9 +358,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-12T08:53:11.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -340,7 +420,7 @@
       "publishedAt": "2026-10-01T10:33:21.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -360,7 +440,7 @@
       "publishedAt": "2026-09-26T14:15:39.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -491,26 +571,6 @@
       ]
     },
     {
-      "id": "a8f02e203566",
-      "title": "Particle Selection in Virtual Reality",
-      "teaser": "Point-cloud representations of 3D data are used in many fields, from astronomical surveys of galaxies to medical imaging and laser scans of buildings. A task common to all of these is intera",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T16:53:16.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Particle Selection in Virtual Reality",
-          "url": "https://arxiv.org/abs/2610.17094v1",
-          "publishedAt": "2026-10-12T16:53:16.000Z"
-        }
-      ]
-    },
-    {
       "id": "e7abc36915cd",
       "title": "Holistic design systems for the AI coding era",
       "teaser": "",
@@ -538,9 +598,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-11T13:39:37.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -560,7 +620,7 @@
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -598,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-14T08:53:49.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -651,26 +711,6 @@
       ]
     },
     {
-      "id": "47860a92b7c1",
-      "title": "Integrating Feature Understandability into Feature Selection for Human-Centred Tabular Explanations",
-      "teaser": "Existing human-centred XAI research predominantly evaluates explanations after they have been generated. However, this fails to provide actionable insights into improving accessibility. This",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T11:44:57.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Integrating Feature Understandability into Feature Selection for Human-Centred Tabular Explanations",
-          "url": "https://arxiv.org/abs/2610.16627v1",
-          "publishedAt": "2026-10-12T11:44:57.000Z"
-        }
-      ]
-    },
-    {
       "id": "34ddb5816666",
       "title": "On M.F. Husain and multiple meanings of the colour orange",
       "teaser": "The painting that introduced me to the power and purpose of art Continue reading on UX Collective »",
@@ -678,35 +718,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-12T11:35:46.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "On M.F. Husain and multiple meanings of the colour orange",
           "url": "https://uxdesign.cc/on-m-f-husain-and-multiple-meanings-of-the-colour-orange-bf4b1a6f5504?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-12T11:35:46.000Z"
-        }
-      ]
-    },
-    {
-      "id": "474f451eece7",
-      "title": "Borrowed slopes",
-      "teaser": "When a traffic line bends, newsrooms reach for the oldest kit in digital design. The readers it costs are the ones they most need. Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T11:35:36.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Borrowed slopes",
-          "url": "https://uxdesign.cc/borrowed-slopes-cb5c5b464a61?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-12T11:35:36.000Z"
         }
       ]
     },
@@ -720,33 +740,13 @@
       "publishedAt": "2026-10-06T09:03:06.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-design",
           "title": "Your design tokens stop at the web boundary",
           "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
           "publishedAt": "2026-10-06T09:03:06.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f032cd636754",
-      "title": "Exploring Mixed Reality for Engagement in Robotics: A Comparison of Robot Control Methods",
-      "teaser": "This paper presents a Mixed Reality (MR) robotics experience that provides an accessible introduction to interacting with a physical robot. The application combines a TurtleBot with a virtua",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T05:08:30.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Exploring Mixed Reality for Engagement in Robotics: A Comparison of Robot Control Methods",
-          "url": "https://arxiv.org/abs/2610.16186v1",
-          "publishedAt": "2026-10-12T05:08:30.000Z"
         }
       ]
     },
@@ -760,7 +760,7 @@
       "publishedAt": "2026-10-06T14:21:12.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -778,15 +778,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Colorful Design System for Agents",
           "url": "https://orbeez-kit.vercel.app/chat",
           "publishedAt": "2026-10-04T12:41:33.000Z"
+        }
+      ]
+    },
+    {
+      "id": "eea5252eb77d",
+      "title": "Phyll, a UX review for apps built with AI that keeps the design",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-24T07:54:55.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Phyll, a UX review for apps built with AI that keeps the design",
+          "url": "https://github.com/carlosphyll/phyll",
+          "publishedAt": "2026-09-24T07:54:55.000Z"
         }
       ]
     },
@@ -800,7 +820,7 @@
       "publishedAt": "2026-10-05T15:09:22.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -820,7 +840,7 @@
       "publishedAt": "2026-10-05T11:33:13.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -840,33 +860,13 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "A Design System in and for the Agentic Era",
           "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
           "publishedAt": "2026-10-05T08:12:06.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9c23ab338464",
-      "title": "The UX Research Methodology subway map trap",
-      "teaser": "",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "The UX Research Methodology subway map trap",
-          "url": "https://www.reddit.com/r/UXDesign/comments/1wercj5/the_ux_research_methodology_subway_map_trap/",
-          "publishedAt": "2026-09-15T01:32:15.000Z"
         }
       ]
     },
@@ -920,7 +920,7 @@
       "publishedAt": "2026-09-30T10:03:43.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -947,26 +947,6 @@
           "title": "Empathy Mapping: The First Step in Design Thinking",
           "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-02T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "edd263780606",
-      "title": "UX should just be called Experience Design",
-      "teaser": "",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "UX should just be called Experience Design",
-          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
-          "publishedAt": "2026-09-15T08:01:39.000Z"
         }
       ]
     },
@@ -1000,13 +980,33 @@
       "publishedAt": "2026-09-28T10:16:02.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Common UX Design Methods, Ranked by Value",
           "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
           "publishedAt": "2026-09-28T10:16:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "edd263780606",
+      "title": "UX should just be called Experience Design",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-15T08:01:39.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "UX should just be called Experience Design",
+          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
+          "publishedAt": "2026-09-15T08:01:39.000Z"
         }
       ]
     }
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-14T20:05:45.643Z"
+      "fetchedAt": "2026-10-15T04:10:12.300Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-14T20:05:45.681Z"
+      "fetchedAt": "2026-10-15T04:10:12.333Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-14T20:05:45.681Z"
+      "fetchedAt": "2026-10-15T04:10:12.334Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-14T20:05:45.682Z"
+      "fetchedAt": "2026-10-15T04:10:12.335Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-14T20:05:45.683Z"
+      "fetchedAt": "2026-10-15T04:10:12.335Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-14T20:05:45.684Z"
+      "fetchedAt": "2026-10-15T04:10:12.336Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-14T20:05:45.684Z"
+      "fetchedAt": "2026-10-15T04:10:12.337Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-14T20:05:45.685Z"
+      "fetchedAt": "2026-10-15T04:10:12.337Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-14T20:05:45.686Z"
+      "fetchedAt": "2026-10-15T04:10:12.338Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-14T20:05:45.686Z"
+      "fetchedAt": "2026-10-15T04:10:12.338Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-14T20:05:45.687Z"
+      "fetchedAt": "2026-10-15T04:10:12.339Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-14T20:05:45.688Z"
+      "fetchedAt": "2026-10-15T04:10:12.339Z"
     }
   ]
 }
