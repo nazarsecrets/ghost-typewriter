@@ -1,49 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T12:04:34.195Z",
-  "windowStart": "2026-09-17T12:04:34.195Z",
-  "windowEnd": "2026-10-17T12:04:34.195Z",
+  "generatedAt": "2026-10-17T18:19:43.821Z",
+  "windowStart": "2026-09-17T18:19:43.821Z",
+  "windowEnd": "2026-10-17T18:19:43.821Z",
   "topics": [
-    {
-      "id": "6850967bf90d",
-      "title": "AdapTest: Supporting Designers in Authoring and Evaluating Environmentally Responsive User Interfaces for Extended Reality",
-      "teaser": "Extended Reality (XR) headsets increasingly host familiar 2D user interfaces as windows floating in physical environments. However, their usability depends on environmental conditions that d",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-15T07:03:46.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AdapTest: Supporting Designers in Authoring and Evaluating Environmentally Responsive User Interfaces for Extended Reality",
-          "url": "https://arxiv.org/abs/2610.21386v1",
-          "publishedAt": "2026-10-15T07:03:46.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fc49d47efab1",
-      "title": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation",
-      "teaser": "Controlled experiments are essential for advancing transportation research, yet designing eXtended Reality (XR) environments for behavioural studies remains technically demanding and inacces",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-15T01:14:33.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation",
-          "url": "https://arxiv.org/abs/2610.21067v1",
-          "publishedAt": "2026-10-15T01:14:33.000Z"
-        }
-      ]
-    },
     {
       "id": "f4d77334cca6",
       "title": "Human in the loop means making sure the human is not out of the loop",
@@ -231,22 +191,42 @@
       ]
     },
     {
-      "id": "49a47e430134",
-      "title": "Inflak: A Unified Orchestration Architecture for Human-Agent Interaction",
-      "teaser": "LLM-powered agents increasingly support open-ended activities, yet orchestrating when and how agents interact with humans remains challenging. Existing approaches often provide interaction m",
-      "tag": "AI",
+      "id": "6850967bf90d",
+      "title": "AdapTest: Supporting Designers in Authoring and Evaluating Environmentally Responsive User Interfaces for Extended Reality",
+      "teaser": "Extended Reality (XR) headsets increasingly host familiar 2D user interfaces as windows floating in physical environments. However, their usability depends on environmental conditions that d",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-15T14:28:08.000Z",
+      "publishedAt": "2026-10-15T07:03:46.000Z",
       "since": "2 days ago",
-      "relevanceScore": 0.571,
+      "relevanceScore": 0.857,
       "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "Inflak: A Unified Orchestration Architecture for Human-Agent Interaction",
-          "url": "https://arxiv.org/abs/2610.21972v1",
-          "publishedAt": "2026-10-15T14:28:08.000Z"
+          "title": "AdapTest: Supporting Designers in Authoring and Evaluating Environmentally Responsive User Interfaces for Extended Reality",
+          "url": "https://arxiv.org/abs/2610.21386v1",
+          "publishedAt": "2026-10-15T07:03:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fc49d47efab1",
+      "title": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation",
+      "teaser": "Controlled experiments are essential for advancing transportation research, yet designing eXtended Reality (XR) environments for behavioural studies remains technically demanding and inacces",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-15T01:14:33.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation",
+          "url": "https://arxiv.org/abs/2610.21067v1",
+          "publishedAt": "2026-10-15T01:14:33.000Z"
         }
       ]
     },
@@ -298,9 +278,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-15T02:02:26.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -347,26 +327,6 @@
           "title": "Show HN: Railcode – Secure cloud for internal software",
           "url": "https://railcode.dev/",
           "publishedAt": "2026-10-07T21:55:52.000Z"
-        }
-      ]
-    },
-    {
-      "id": "17de05a54c08",
-      "title": "AdaptaFace: Adversarial Assistance for Inclusive Facial Gesture Interaction",
-      "teaser": "Facial gestures can enable access for people with motor impairments (PwM), yet recognizers may not reliably interpret individual facial movement patterns. Existing approaches either constrai",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-14T10:58:12.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AdaptaFace: Adversarial Assistance for Inclusive Facial Gesture Interaction",
-          "url": "https://arxiv.org/abs/2610.19977v1",
-          "publishedAt": "2026-10-14T10:58:12.000Z"
         }
       ]
     },
@@ -471,6 +431,26 @@
       ]
     },
     {
+      "id": "49a47e430134",
+      "title": "Inflak: A Unified Orchestration Architecture for Human-Agent Interaction",
+      "teaser": "LLM-powered agents increasingly support open-ended activities, yet orchestrating when and how agents interact with humans remains challenging. Existing approaches often provide interaction m",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-15T14:28:08.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Inflak: A Unified Orchestration Architecture for Human-Agent Interaction",
+          "url": "https://arxiv.org/abs/2610.21972v1",
+          "publishedAt": "2026-10-15T14:28:08.000Z"
+        }
+      ]
+    },
+    {
       "id": "f50228309f32",
       "title": "Show HN: Turn spoken thoughts into system design diagrams",
       "teaser": "I recently had an issue with my right hand, and couldn&#x27;t use it very effectively. So I was trying to figure out how I could still get work done without typing everything with my right h",
@@ -560,7 +540,7 @@
       "publishedAt": "2026-09-24T00:21:16.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -680,13 +660,33 @@
       "publishedAt": "2026-09-28T00:29:04.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Help us fire our UI/UX designers",
           "url": "https://vosu.ai",
           "publishedAt": "2026-09-28T00:29:04.000Z"
+        }
+      ]
+    },
+    {
+      "id": "17de05a54c08",
+      "title": "AdaptaFace: Adversarial Assistance for Inclusive Facial Gesture Interaction",
+      "teaser": "Facial gestures can enable access for people with motor impairments (PwM), yet recognizers may not reliably interpret individual facial movement patterns. Existing approaches either constrai",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-14T10:58:12.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "AdaptaFace: Adversarial Assistance for Inclusive Facial Gesture Interaction",
+          "url": "https://arxiv.org/abs/2610.19977v1",
+          "publishedAt": "2026-10-14T10:58:12.000Z"
         }
       ]
     },
@@ -996,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-17T12:04:34.196Z"
+      "fetchedAt": "2026-10-17T18:19:43.822Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-17T12:04:34.252Z"
+      "fetchedAt": "2026-10-17T18:19:43.864Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-17T12:04:34.253Z"
+      "fetchedAt": "2026-10-17T18:19:43.864Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-17T12:04:34.254Z"
+      "fetchedAt": "2026-10-17T18:19:43.865Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-17T12:04:34.256Z"
+      "fetchedAt": "2026-10-17T18:19:43.866Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-17T12:04:34.257Z"
+      "fetchedAt": "2026-10-17T18:19:43.867Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-17T12:04:34.258Z"
+      "fetchedAt": "2026-10-17T18:19:43.867Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-17T12:04:34.259Z"
+      "fetchedAt": "2026-10-17T18:19:43.868Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-17T12:04:34.260Z"
+      "fetchedAt": "2026-10-17T18:19:43.869Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-17T12:04:34.261Z"
+      "fetchedAt": "2026-10-17T18:19:43.869Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-17T12:04:34.262Z"
+      "fetchedAt": "2026-10-17T18:19:43.870Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-17T12:04:34.263Z"
+      "fetchedAt": "2026-10-17T18:19:43.871Z"
     }
   ]
 }
