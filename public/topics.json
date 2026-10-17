@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T19:28:43.460Z",
-  "windowStart": "2026-09-16T19:28:43.460Z",
-  "windowEnd": "2026-10-16T19:28:43.460Z",
+  "generatedAt": "2026-10-17T03:56:36.512Z",
+  "windowStart": "2026-09-17T03:56:36.512Z",
+  "windowEnd": "2026-10-17T03:56:36.512Z",
   "topics": [
     {
       "id": "f4d77334cca6",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-13T09:03:24.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-14T14:51:36.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -174,7 +174,7 @@
       "publishedAt": "2026-10-04T15:55:03.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 12 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -251,22 +251,22 @@
       ]
     },
     {
-      "id": "a32c268edfeb",
-      "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
-      "teaser": "In my last article, I wrote about UX bugs that pass every test — like a wallet with no visible...",
-      "tag": "AI",
+      "id": "8f59f494c085",
+      "title": "UX Maps: Glossary",
+      "teaser": "Use this glossary to quickly clarify key terms and concepts related to UX maps.",
+      "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-12T11:46:39.000Z",
-      "since": "4 days ago",
+      "publishedAt": "2026-10-16T17:00:00.000Z",
+      "since": "today",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
-          "url": "https://dev.to/saifyusuph/your-error-messages-are-a-feature-what-a-random-logout-bug-taught-me-about-designing-for-failure-354",
-          "publishedAt": "2026-10-12T11:46:39.000Z"
+          "name": "nngroup",
+          "title": "UX Maps: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-16T17:00:00.000Z"
         }
       ]
     },
@@ -320,7 +320,7 @@
       "publishedAt": "2026-10-01T12:11:34.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -338,9 +338,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-12T08:53:11.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -380,7 +380,7 @@
       "publishedAt": "2026-10-01T10:33:21.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -400,7 +400,7 @@
       "publishedAt": "2026-09-26T14:15:39.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -518,15 +518,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-11T13:39:37.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: GrogLog, a Free Drink Tracker",
           "url": "https://groglog.io",
           "publishedAt": "2026-10-11T13:39:37.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a32c268edfeb",
+      "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
+      "teaser": "In my last article, I wrote about UX bugs that pass every test — like a wallet with no visible...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-12T11:46:39.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
+          "url": "https://dev.to/saifyusuph/your-error-messages-are-a-feature-what-a-random-logout-bug-taught-me-about-designing-for-failure-354",
+          "publishedAt": "2026-10-12T11:46:39.000Z"
         }
       ]
     },
@@ -540,7 +560,7 @@
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -598,9 +618,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-14T08:53:49.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -658,9 +678,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-06T09:03:06.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 11 days",
       "sources": [
         {
           "name": "devto-design",
@@ -678,9 +698,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-06T14:21:12.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -700,7 +720,7 @@
       "publishedAt": "2026-10-04T12:41:33.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -720,7 +740,7 @@
       "publishedAt": "2026-10-05T15:09:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -740,7 +760,7 @@
       "publishedAt": "2026-10-05T11:33:13.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -760,7 +780,7 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -800,7 +820,7 @@
       "publishedAt": "2026-09-30T10:03:43.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -860,7 +880,7 @@
       "publishedAt": "2026-09-28T10:16:02.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -880,7 +900,7 @@
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -896,74 +916,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-16T19:28:43.460Z"
+      "fetchedAt": "2026-10-17T03:56:36.512Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-16T19:28:43.501Z"
+      "fetchedAt": "2026-10-17T03:56:36.547Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-16T19:28:43.501Z"
+      "fetchedAt": "2026-10-17T03:56:36.548Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-16T19:28:43.502Z"
+      "fetchedAt": "2026-10-17T03:56:36.549Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-16T19:28:43.503Z"
+      "fetchedAt": "2026-10-17T03:56:36.550Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-16T19:28:43.504Z"
+      "fetchedAt": "2026-10-17T03:56:36.550Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-16T19:28:43.505Z"
+      "fetchedAt": "2026-10-17T03:56:36.551Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-16T19:28:43.505Z"
+      "fetchedAt": "2026-10-17T03:56:36.551Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-16T19:28:43.506Z"
+      "fetchedAt": "2026-10-17T03:56:36.552Z"
     },
     {
       "source": "arxiv-hci",
       "ok": false,
       "items": 0,
-      "fetchedAt": "2026-10-16T19:28:43.507Z",
-      "error": "This operation was aborted"
+      "fetchedAt": "2026-10-17T03:56:36.553Z",
+      "error": "HTTP 429"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-16T19:28:43.507Z"
+      "fetchedAt": "2026-10-17T03:56:36.553Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-16T19:28:43.508Z"
+      "fetchedAt": "2026-10-17T03:56:36.554Z"
     }
   ]
 }
