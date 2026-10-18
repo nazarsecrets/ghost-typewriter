@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T04:03:01.731Z",
-  "windowStart": "2026-09-18T04:03:01.731Z",
-  "windowEnd": "2026-10-18T04:03:01.731Z",
+  "generatedAt": "2026-10-18T12:32:39.194Z",
+  "windowStart": "2026-09-18T12:32:39.194Z",
+  "windowEnd": "2026-10-18T12:32:39.194Z",
   "topics": [
+    {
+      "id": "8735e94a66af",
+      "title": "Design in the material you ship",
+      "teaser": "Designers should understand code the way an architect understands stone: what it can do, not how to cut it. AI now does the cutting. The same card in the design file and in the browser with ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-18T12:11:43.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Design in the material you ship",
+          "url": "https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-18T12:11:43.000Z"
+        }
+      ]
+    },
     {
       "id": "f4d77334cca6",
       "title": "Human in the loop means making sure the human is not out of the loop",
@@ -12,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-15T22:09:29.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -32,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-15T22:00:47.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -52,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-14T22:09:56.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-14T22:09:29.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,35 +112,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-13T22:27:46.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Taste is not a design methodology",
-          "url": "https://uxdesign.cc/taste-is-not-a-design-methodology-e02b37aea148?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-13T22:27:46.000Z"
-        }
-      ]
-    },
-    {
-      "id": "40b5e54f4596",
-      "title": "The synth everyone owned and few could program: a lesson for AI design",
-      "teaser": "AI made quality available to everyone, and made it average. What sets work apart now is a decision you can see. An AI assistant helped me write this. The ideas, the data and the final edit a",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-13T09:03:24.000Z",
       "since": "5 days ago",
       "relevanceScore": 1,
       "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "The synth everyone owned and few could program: a lesson for AI design",
-          "url": "https://uxdesign.cc/the-synth-everyone-owned-and-few-could-program-a-lesson-for-ai-design-6f618ec2aea0?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-13T09:03:24.000Z"
+          "title": "Taste is not a design methodology",
+          "url": "https://uxdesign.cc/taste-is-not-a-design-methodology-e02b37aea148?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-13T22:27:46.000Z"
         }
       ]
     },
@@ -154,7 +154,7 @@
       "publishedAt": "2026-09-24T17:21:36.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -231,6 +231,26 @@
       ]
     },
     {
+      "id": "e0dc84a391d2",
+      "title": "A thousand days of stale popcorn",
+      "teaser": "A gym, a morning radio broadcast, and a streak counter are all answers to one question: how do you get someone to keep going when you&#x2026; Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-18T12:11:30.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "A thousand days of stale popcorn",
+          "url": "https://uxdesign.cc/a-thousand-days-of-stale-popcorn-54f62d06c42b?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-18T12:11:30.000Z"
+        }
+      ]
+    },
+    {
       "id": "4b74e269aed3",
       "title": "Why I Built DSLint: A Design System Linter for Figma",
       "teaser": "How repeated design-review feedback inspired me to build a plugin that detects design-system drift,...",
@@ -258,9 +278,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-13T21:11:14.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -298,9 +318,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-15T22:08:34.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -318,9 +338,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-07T21:55:52.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -378,9 +398,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-12T17:55:42.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -458,9 +478,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-12T21:39:07.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -480,7 +500,7 @@
       "publishedAt": "2026-10-04T18:59:25.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "69 engagement signals within 13 days",
+      "categoryReason": "69 engagement signals within 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -500,7 +520,7 @@
       "publishedAt": "2026-10-02T20:43:52.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -520,7 +540,7 @@
       "publishedAt": "2026-10-08T19:48:12.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -538,9 +558,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-24T00:21:16.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -578,9 +598,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-16T17:00:00.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -638,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-15T22:02:52.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -660,7 +680,7 @@
       "publishedAt": "2026-09-28T00:29:04.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -711,26 +731,6 @@
       ]
     },
     {
-      "id": "8dbe840df8db",
-      "title": "How to talk about a design that looks worse on paper",
-      "teaser": "Why it took Microsoft 5 years to roll out an &#x2018;obvious fix&#x2019; Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-13T22:26:58.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "How to talk about a design that looks worse on paper",
-          "url": "https://uxdesign.cc/how-to-talk-about-a-design-that-looks-worse-on-paper-da73da6d7b57?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-13T22:26:58.000Z"
-        }
-      ]
-    },
-    {
       "id": "881910a121ac",
       "title": "SaaS Search UX: Keep Filters When Results Are Empty",
       "teaser": "When a SaaS search returns no results, keep the query and selected filters visible. Explain that...",
@@ -740,7 +740,7 @@
       "publishedAt": "2026-10-05T18:03:04.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -880,7 +880,7 @@
       "publishedAt": "2026-09-29T18:41:44.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -920,7 +920,7 @@
       "publishedAt": "2026-10-02T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "nngroup",
@@ -940,7 +940,7 @@
       "publishedAt": "2026-09-27T22:06:14.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -996,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-18T04:03:01.732Z"
+      "fetchedAt": "2026-10-18T12:32:39.194Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-18T04:03:01.790Z"
+      "fetchedAt": "2026-10-18T12:32:39.249Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-18T04:03:01.792Z"
+      "fetchedAt": "2026-10-18T12:32:39.251Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-18T04:03:01.793Z"
+      "fetchedAt": "2026-10-18T12:32:39.252Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-18T04:03:01.794Z"
+      "fetchedAt": "2026-10-18T12:32:39.253Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-18T04:03:01.795Z"
+      "fetchedAt": "2026-10-18T12:32:39.254Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-18T04:03:01.796Z"
+      "fetchedAt": "2026-10-18T12:32:39.255Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-18T04:03:01.797Z"
+      "fetchedAt": "2026-10-18T12:32:39.256Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-18T04:03:01.798Z"
+      "fetchedAt": "2026-10-18T12:32:39.257Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-18T04:03:01.799Z"
+      "fetchedAt": "2026-10-18T12:32:39.258Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-18T04:03:01.800Z"
+      "fetchedAt": "2026-10-18T12:32:39.258Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-18T04:03:01.801Z"
+      "fetchedAt": "2026-10-18T12:32:39.259Z"
     }
   ]
 }
