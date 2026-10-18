@@ -20,6 +20,14 @@ button { color: inherit; }
 button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
 
 .app { min-height: 100vh; }
+/* Static material belongs to Typewriter; it never overlays selectable text. */
+.app[data-theme="typewriter"] { --paper-grain: url("/textures/paper-grain.svg"); }
+.app[data-theme="typewriter"] .manuscript,
+.app[data-theme="typewriter"] .reflect-shell { background-image: var(--paper-grain); }
+@media (forced-colors: active), print {
+  .app[data-theme="typewriter"] .manuscript,
+  .app[data-theme="typewriter"] .reflect-shell { background-image: none; }
+}
 .skip-link { position: fixed; z-index: 100; top: 8px; left: 8px; padding: 10px 14px; background: var(--ink); color: var(--sheet); transform: translateY(calc(-100% - 12px)); }
 .skip-link:focus-visible { transform: none; outline: 2px solid var(--signal); outline-offset: 2px; }
 .app-header {

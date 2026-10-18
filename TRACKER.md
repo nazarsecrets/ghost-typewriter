@@ -32,7 +32,7 @@ standing no-texture instruction still applies until then.
 
 ## 🔄 In progress
 
-- 🔄 **2026-10-06 [UX]** — Author writing-session check: the silent surface felt dull and its existing key responses were imperceptible; spacing was corrected and opt-in sound added. Awaiting the author's verdict on sound authenticity, comfort, which motions to retain, and paper grain.
+- 🔄 **2026-10-18 [UX+Dev]** — Author approved sound authenticity/comfort and the on/off control, retained current motions for now, and requested paper grain. Applying grain and tying the existing new-paragraph sound directly to paragraph creation; Typewriter sound controls will not carry into Enchanted Diary.
 
 ---
 

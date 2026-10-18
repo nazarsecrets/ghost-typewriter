@@ -197,12 +197,6 @@ function ParagraphEditor({ value, index, activeIndex, paragraphCount, soundOn, r
   function mechanicalResponse(event: KeyboardEvent<HTMLTextAreaElement>) {
     if (event.ctrlKey || event.metaKey || event.altKey || event.nativeEvent.isComposing) return;
     const { key } = event;
-    if (key === "Enter" && !event.shiftKey) {
-      // Return moves the machine, not the line: the paper is the target here.
-      carriageReturn(localRef.current?.closest(".manuscript") as HTMLElement | null);
-      if (soundOn) playTypewriterSound("return");
-      return;
-    }
     if (key.length !== 1 && key !== "Backspace" && key !== "Delete") return;
     const strike = strikeOf(key);
     paperImpulse(localRef.current, strike);
@@ -217,6 +211,12 @@ function ParagraphEditor({ value, index, activeIndex, paragraphCount, soundOn, r
     if (event.key === "Enter" && !event.shiftKey && !event.nativeEvent.isComposing) {
       event.preventDefault();
       onEnter(index, value.slice(0, start), value.slice(end));
+      // Only a real paragraph split earns the carriage cue, after committing
+      // the edit. Soft line breaks, IME and title navigation stay silent.
+      if (!event.ctrlKey && !event.metaKey && !event.altKey) {
+        carriageReturn(localRef.current?.closest(".manuscript") as HTMLElement | null);
+        if (soundOn) playTypewriterSound("return");
+      }
       return;
     }
     if (event.ctrlKey || event.metaKey || event.altKey || event.shiftKey || start !== end || event.nativeEvent.isComposing) return;
@@ -645,7 +645,7 @@ export default function Ghostwriter() {
     <span className={`save-state ${saveStatus}`} title={saveTimeLabel}>{saveLabel}</span>
   </div>;
 
-  return <div className={`app view-${view}`}>
+  return <div className={`app view-${view}`} data-theme="typewriter">
     <a className="skip-link" href="#main-content">Skip to main content</a>
     <header className="app-header">
       <button className="wordmark" onClick={() => setView("today")}><span>SVR</span><i>/</i><span>Ghostwriter</span></button>

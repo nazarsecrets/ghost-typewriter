@@ -109,8 +109,10 @@ proof of long-session comfort. In the first author trial, the silent surface fel
 dull and its mechanical responses were not perceptible; paragraph spacing was
 then tightened. Opt-in Web Audio sounds and a persistent, visible Sound on/off
 control are now available for another real session. The author-linked Pixabay
-recordings now supply the key strikes and Enter carriage cue. Paper grain remains
-unadopted.
+recordings now supply the key strikes and Enter carriage cue. On 2026-10-18 the author approved sound authenticity and comfort, valued the
+on/off control for Typewriter only, retained the current motions for now, and
+requested static paper grain. The carriage cue follows actual paragraph creation;
+Shift+Enter, IME confirmation, and title navigation stay silent.
 
 ## 5. Scope
 

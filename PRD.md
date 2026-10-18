@@ -491,8 +491,9 @@ and shortcuts produce none. Return advances the line while the sheet makes one
 brief carriage movement. Text commits immediately and is never delayed by motion.
 Both responses settle without looping and produce no movement under reduced
 motion. The author's first trial found the silent response too subtle to feel
-like a typewriter. Opt-in sound is now available for another trial; character
-landing and paper grain remain unimplemented.
+like a typewriter. The author approved sound authenticity and comfort on 2026-10-18, retained the
+current motions for now, and requested paper grain. Character landing remains
+unimplemented.
 
 **Historical transition states.** arriving, lifting, stowing, departing,
 responding, returning, then hidden. No state loops. These states are not currently
@@ -653,7 +654,7 @@ carries a soft resting shadow. This makes the page an object that can respond
 - The surface reacts to a keystroke only on the active line, never the application.
 - The sheet's shadow deepens only on the carriage return, driven by `--sheet-lift`.
 - The page is never animated continuously. Stillness is the default, and movement reads because the page is otherwise calm.
-- Not adopted: the paper grain §10 offers. It conflicts with the standing instruction that the interface carries no paper texture, and remains an author decision.
+- Adopted 2026-10-18 by author request: subtle static paper grain on Typewriter writing surfaces, behind native text controls; removed in forced colors and print. This supersedes the earlier no-texture instruction for this theme.
 
 ### FR-8: Motion system
 
@@ -684,13 +685,16 @@ Sound in the current prototype:
 
 - Opt-in Web Audio keystroke and Return sounds are implemented. A visible header
   toggle is muted by default and remembers the writer's choice; no sound plays
-  for shortcuts, arrows, or modifiers. The author still needs to judge whether
-  the recorded mechanical sounds create the intended feel in a real session.
+  for shortcuts, arrows, or modifiers. The author approved authenticity and
+  comfort on 2026-10-18 and retained the current motions for now. The carriage
+  cue plays only when Enter/Return creates a manuscript paragraph, not on
+  Shift+Enter, IME confirmation, or title navigation. Sound and its toggle belong
+  to Typewriter; Enchanted Diary will not use them.
 
 Optional future immersion:
 
 - ~~A softer custom caret.~~ Built as the Plume (FR-4.6).
-- Subtle CSS paper texture.
+- Subtle static paper grain is now adopted for Typewriter writing surfaces.
 - Optional monospaced manuscript type.
 - Native View Transitions for large mode changes.
 
@@ -980,8 +984,9 @@ Remaining:
 - Test topic quality against manual author judgment.
 - Tune category thresholds and ranking weights.
 - Test paragraph focus behavior across long manuscripts and mobile layouts.
-- Decide whether to keep the new optional sound after the author trial, and
-  whether a custom caret or View Transitions serve the writing experience.
+- Sound authenticity and comfort approved by the author on 2026-10-18; retain
+  current strike/Return motions for now and add paper grain. Custom caret and
+  View Transitions remain optional future considerations.
 
 ## 17. V1 acceptance criteria
 
@@ -1046,11 +1051,11 @@ The target V1 is accepted when:
 6. Should production review use a serverless proxy or bring-your-own-key mode?
 7. Is Claude retained for critique, or should the provider adapter support multiple hosted and local models at launch?
 8. When should a manuscript become a durable draft snapshot: review, explicit save, navigation away, or a time interval?
-9. Does the newly added opt-in typewriter sound earn its place after a real writing session, and would optional monospaced typography help?
+9. Sound was approved on 2026-10-18, with the on/off control retained for Typewriter only. Would optional monospaced typography help?
 10. Should the curated desk remain a fallback only, or appear as a user-selectable Evergreen mode beside current topics?
 11. Should Guided Reflect remain a visible optional route, or appear only when the author asks for help getting started?
 12. What invokes Ghost after writing: a dormant mark, keyboard command, command palette, or combination?
-13. Which typing response adds tactility without delaying input? The first silent trial found the existing sub-pixel paper movement imperceptible and the surface dull. The active-line motion and Return response have been made more visible beside the recorded sounds; keep or remove them based on the next author session. Character landing remains unimplemented.
+13. Which typing response adds tactility without delaying input? The first silent trial found the existing sub-pixel paper movement imperceptible and the surface dull. The active-line motion and Return response have been made more visible beside the recorded sounds; the author approved keeping them for now on 2026-10-18. Character landing remains unimplemented.
 14. Do the visible Design, Technology, Industry, Ways of Working, and Self lenses improve scanning enough to keep?
 
 ## 20. Decisions already made

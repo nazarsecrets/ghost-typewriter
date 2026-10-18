@@ -46,7 +46,12 @@ tracker stale. If a task made no tracked progress, say so — don't silently ski
 - **Theme:** the instrument is a **typewriter**, not a quill. The Plume is muted
   (unwired, files retained) by author decision — see `typewriting-feel.md` for the
   interaction model. Writing-time motion answers a keystroke; it never precedes or
-  delays one, and the text model is always authoritative.
+  delays one, and the text model is always authoritative. On 2026-10-18 the
+  author approved sound authenticity/comfort and retained the motions for now.
+  Static paper grain is adopted for Typewriter, superseding its earlier no-texture
+  restriction. Sound and its toggle are Typewriter-only; Enchanted Diary will
+  not load or play these sounds or show this toggle, while retaining the saved
+  Typewriter sound preference.
 - **Secrets:** no API key ever in the client bundle.
 
 ## Commands
