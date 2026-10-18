@@ -13,7 +13,7 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 **Classification:** every new progress item is labeled **[UX]**, **[Dev]**, or
 **[UX+Dev]**. Read-only inspection does not require a separate tracker entry.
 
-_Last updated: 2026-10-12_
+_Last updated: 2026-10-17_
 
 ---
 
@@ -37,6 +37,11 @@ standing no-texture instruction still applies until then.
 ---
 
 ## ⬜ Pending
+
+### Optional Enchanted Diary theme
+
+- ⬜ **[UX+Dev]** Phase 1 of [ENCHANTED_DIARY_PLAN.md](./ENCHANTED_DIARY_PLAN.md): add an opt-in appearance selector and static diary styling around the mounted existing editor; preserve all session/draft records, writing behavior, navigation, and exports. Implementation has not started. The current author sound-and-motion session remains the next action.
+- ⬜ **[UX+Dev]** Phase 2, after Phase 1 preservation checks pass: refine diary materials and add cancellable, accessible prompt/review ink presentation using existing Anime.js; no manuscript absorption, new AI service, storage migration, or replacement editor. Retain effects only after an author comfort check.
 
 ### Focused POC — prove World → Me
 
@@ -68,6 +73,8 @@ standing no-texture instruction still applies until then.
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-10-17 [UX+Dev]** — Read `enchanted_diary_spec.md`, canonical guidance, and current editor/storage integration; recorded a two-phase optional-theme plan in `ENCHANTED_DIARY_PLAN.md` with preservation gates and explicit resolution of the spec's Enter-to-submit/new-AI scope conflicts. Planning only; no runtime changes or theme validation performed. The author sound-and-motion session remains next.
 
 - ✅ **2026-10-12 [UX+Dev]** — Built the editorial quality-review loop for live provocations. **Record:** every `topics:build` now writes `data/editorial-review.json` (never shipped to the client) with the keywords that put each source under its frame, and flags three weak cases: no theme matched, theme supported only by the description, and two themes tied. `npm run topics:review` prints the flagged topics, the keywords behind them, and questions carried by more than two topics. **Verdicts:** `data/editorial-verdicts.json` lets the author drop a topic or file it under a named theme; verdicts cannot change dates, sources, or category reasons, and stale or unknown-theme verdicts are reported instead of applied. **Rules tuned from a live snapshot of 43 topics:** keywords now match whole words (substring matching had read "ai" inside other words and filed pieces such as "Password Reset UX" and "SaaS Search UX" under the AI frame), a headline hit outweighs a description hit, job-posting headlines are dropped, and the Interfaces theme gained six keywords; 8 of 43 topics changed frame. **Evidence:** drop, retheme, unknown-theme, and stale verdicts each verified against a real build, then the verdict file reset to empty; pipeline typecheck and `npm run build` pass. The run refreshed `public/topics.json` (42 topics, 18 flagged). New frames were not written; that is the author item now under Pending. The author sound-and-motion session remains next.
 
