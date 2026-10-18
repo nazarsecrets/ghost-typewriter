@@ -1,7 +1,8 @@
 name: Refresh topics
 
 # Provider-independent topic generation (PRD FR-2.2).
-# Runs on a schedule and on demand; commits public/topics.json when it changes.
+# Runs on a schedule and on demand; commits public/topics.json and the
+# editorial review record when they change.
 
 on:
   schedule:
@@ -36,12 +37,12 @@ jobs:
 
       - name: Commit manifest if changed
         run: |
-          if git diff --quiet -- public/topics.json; then
+          if git diff --quiet -- public/topics.json data/editorial-review.json; then
             echo "No manifest changes."
           else
             git config user.name "topics-bot"
             git config user.email "topics-bot@users.noreply.github.com"
-            git add public/topics.json
+            git add public/topics.json data/editorial-review.json
             git commit -m "chore(topics): refresh manifest"
             git push
           fi

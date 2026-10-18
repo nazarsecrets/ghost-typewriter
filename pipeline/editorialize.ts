@@ -3,7 +3,7 @@
 // signal into an original question. No hosted model or copied source prose.
 
 import type { Cluster, EditorialLens, Tag } from "./types.ts";
-import { jaccard, normalizeTitle } from "./util.ts";
+import { hasTerm, jaccard, normalizeTitle } from "./util.ts";
 
 type Theme = {
   title: string;
@@ -105,7 +105,7 @@ const THEMES: Theme[] = [
   {
     title: "Interfaces and attention",
     lens: "Design",
-    keywords: ["interface", "interaction", "navigation", "mobile", "app", "website", "visual design"],
+    keywords: ["interface", "interaction", "navigation", "mobile", "app", "website", "visual design", "ui", "search", "pagination", "error message", "password", "onboarding"],
     provocations: [
       "What is the interface asking people to notice, and what does it teach them to ignore?",
       "When does making an interaction easier also make its consequences harder to see?",
@@ -138,14 +138,54 @@ function pickIndex(id: string, length: number): number {
   return (Number.isFinite(parsed) ? parsed : id.length) % length;
 }
 
-function detectTheme(cluster: Cluster): Theme | null {
-  const text = cluster.items.map((item) => `${item.title} ${item.description}`).join(" ").toLowerCase();
-  let winner: { theme: Theme; score: number } | null = null;
-  for (const theme of THEMES) {
-    const score = theme.keywords.reduce((total, keyword) => total + (text.includes(keyword) ? 1 : 0), 0);
-    if (score > 0 && (!winner || score > winner.score)) winner = { theme, score };
+// How a cluster reached its frame. Kept out of the manifest; the editorial
+// review (review.ts) reads it to record weak source/theme matches.
+export type ThemeMatch = {
+  theme: string | null; // null: no theme matched, the tag fallback frame was used
+  score: number;
+  hits: Array<{ keyword: string; where: "headline" | "description" }>;
+  runnerUp: { theme: string; score: number } | null;
+  forced: boolean; // set by an author verdict rather than by keywords
+};
+
+export const THEME_TITLES: string[] = THEMES.map((theme) => theme.title);
+
+// A keyword in a headline says what the piece is about; one that only appears
+// in the description may be incidental, so it counts half.
+function detectTheme(cluster: Cluster, forcedTitle?: string): { theme: Theme | null; match: ThemeMatch } {
+  const headline = cluster.items.map((item) => item.title).join(" ").toLowerCase();
+  const description = cluster.items.map((item) => item.description).join(" ").toLowerCase();
+  const scored = THEMES.map((theme) => {
+    const hits: ThemeMatch["hits"] = [];
+    for (const keyword of theme.keywords) {
+      if (hasTerm(headline, keyword)) hits.push({ keyword, where: "headline" });
+      else if (hasTerm(description, keyword)) hits.push({ keyword, where: "description" });
+    }
+    const score = hits.reduce((total, hit) => total + (hit.where === "headline" ? 2 : 1), 0);
+    return { theme, hits, score, headlineHits: hits.filter((hit) => hit.where === "headline").length };
+  }).filter((entry) => entry.score > 0).sort((a, b) => b.score - a.score || b.headlineHits - a.headlineHits);
+
+  const forced = forcedTitle ? THEMES.find((theme) => theme.title === forcedTitle) : undefined;
+  if (forced) {
+    const own = scored.find((entry) => entry.theme === forced);
+    return {
+      theme: forced,
+      match: { theme: forced.title, score: own?.score ?? 0, hits: own?.hits ?? [], runnerUp: null, forced: true },
+    };
   }
-  return winner?.theme ?? null;
+
+  const [winner, next] = scored;
+  if (!winner) return { theme: null, match: { theme: null, score: 0, hits: [], runnerUp: null, forced: false } };
+  return {
+    theme: winner.theme,
+    match: {
+      theme: winner.theme.title,
+      score: winner.score,
+      hits: winner.hits,
+      runnerUp: next ? { theme: next.theme.title, score: next.score } : null,
+      forced: false,
+    },
+  };
 }
 
 function overlapsSource(prompt: string, cluster: Cluster): boolean {
@@ -153,13 +193,14 @@ function overlapsSource(prompt: string, cluster: Cluster): boolean {
   return cluster.items.some((item) => jaccard(normalizedPrompt, normalizeTitle(item.title)) >= 0.55);
 }
 
-export function editorialize(cluster: Cluster): {
+export function editorialize(cluster: Cluster, forcedTheme?: string): {
   title: string;
   provocation: string;
   whyNow: string;
   lens: EditorialLens;
+  match: ThemeMatch;
 } {
-  const theme = detectTheme(cluster);
+  const { theme, match } = detectTheme(cluster, forcedTheme);
   const fallback = FALLBACKS[cluster.tag];
   const candidates = theme?.provocations ?? fallback.provocations;
   const selected = candidates[pickIndex(cluster.id, candidates.length)];
@@ -172,5 +213,6 @@ export function editorialize(cluster: Cluster): {
     provocation,
     whyNow: `${sourceSignal} raising questions about ${title.toLowerCase()} across product and design work.`,
     lens: theme?.lens ?? LENS_BY_TAG[cluster.tag],
+    match,
   };
 }

@@ -1,6 +1,6 @@
 // Orchestrator: fetch → normalize → cluster → rank → categorize → validate →
-// write public/topics.json. Retains the previous valid manifest on failure
-// (FR-2.2). Run: `npm run topics:build`.
+// write public/topics.json and data/editorial-review.json. Retains the previous
+// valid manifest on failure (FR-2.2). Run: `npm run topics:build`.
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -9,8 +9,9 @@ import { MANIFEST_MAX_TOPICS, SOURCES, WINDOW_DAYS } from "./config.ts";
 import type { Cluster, RawItem, SourceHealth, SourceBackedTopic, TopicManifest } from "./types.ts";
 import { normalize } from "./enrich.ts";
 import { cluster } from "./cluster.ts";
-import { editorialize } from "./editorialize.ts";
+import { editorialize, THEME_TITLES, type ThemeMatch } from "./editorialize.ts";
 import { applyCategories, rank } from "./rank.ts";
+import { buildReview, loadVerdicts, REVIEW_PATH } from "./review.ts";
 import { fetchSource } from "./sources.ts";
 import { jaccard, normalizeTitle } from "./util.ts";
 
@@ -27,9 +28,9 @@ function sinceLabel(iso: string, now: number): string {
   return weeks === 1 ? "1 week ago" : `${weeks} weeks ago`;
 }
 
-function toTopic(c: Cluster, now: number): SourceBackedTopic {
-  const editorial = editorialize(c);
-  return {
+function toTopic(c: Cluster, now: number, forcedTheme?: string): { topic: SourceBackedTopic; match: ThemeMatch } {
+  const { match, ...editorial } = editorialize(c, forcedTheme);
+  const topic: SourceBackedTopic = {
     id: c.id,
     ...editorial,
     tag: c.tag,
@@ -41,6 +42,7 @@ function toTopic(c: Cluster, now: number): SourceBackedTopic {
     categoryReason: c.categoryReason,
     sources: c.items.slice(0, 4).map((i) => ({ name: i.source, title: i.title, url: i.url, publishedAt: i.publishedAt })),
   };
+  return { topic, match };
 }
 
 // A manifest is valid only if it carries real, source-backed topics.
@@ -102,14 +104,26 @@ async function main() {
   // 2..5 Enrich → cluster → rank → categorize.
   const seenIds = new Set((await loadPreviousManifest())?.topics.map((t) => t.id) ?? []);
   const normalized = normalize(raw, now);
-  const clusters = applyCategories(rank(cluster(normalized), now, seenIds), now).slice(0, MANIFEST_MAX_TOPICS);
+  const ranked = applyCategories(rank(cluster(normalized), now, seenIds), now);
+
+  // Author verdicts from the editorial review: drop a topic or file it under a
+  // named theme. Verdicts never touch dates, sources, or category reasons.
+  const verdicts = await loadVerdicts();
+  const live = new Set(ranked.map((c) => c.id));
+  const invalid = verdicts.filter((v) => v.verdict === "retheme" && !THEME_TITLES.includes(v.theme ?? "")).map((v) => v.id);
+  const usable = verdicts.filter((v) => live.has(v.id) && !invalid.includes(v.id));
+  const dropped = new Set(usable.filter((v) => v.verdict === "drop").map((v) => v.id));
+  const rethemed = new Map(usable.filter((v) => v.verdict === "retheme").map((v) => [v.id, v.theme!]));
+
+  const clusters = ranked.filter((c) => !dropped.has(c.id)).slice(0, MANIFEST_MAX_TOPICS);
+  const edited = clusters.map((c) => toTopic(c, now, rethemed.get(c.id)));
 
   const manifest: TopicManifest = {
     version: 2,
     generatedAt: new Date(now).toISOString(),
     windowStart: new Date(now - WINDOW_DAYS * 86_400_000).toISOString(),
     windowEnd: new Date(now).toISOString(),
-    topics: clusters.map((c) => toTopic(c, now)),
+    topics: edited.map((e) => e.topic),
     sourceHealth: health,
   };
 
@@ -127,7 +141,16 @@ async function main() {
 
   await mkdir(dirname(MANIFEST_PATH), { recursive: true });
   await writeFile(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + "\n");
-  console.log(`\n✓ Wrote ${MANIFEST_PATH} (${manifest.topics.length} topics)\n`);
+  console.log(`\n✓ Wrote ${MANIFEST_PATH} (${manifest.topics.length} topics)`);
+
+  // 7. Record how each topic reached its frame, weak matches first.
+  const review = buildReview(
+    edited,
+    { applied: usable.map((v) => v.id), stale: verdicts.filter((v) => !live.has(v.id)).map((v) => v.id), invalid },
+    manifest.generatedAt,
+  );
+  await writeFile(REVIEW_PATH, JSON.stringify(review, null, 2) + "\n");
+  console.log(`✓ Wrote ${REVIEW_PATH} (${review.summary.flagged} flagged — \`npm run topics:review\`)\n`);
 }
 
 main().catch((error) => {

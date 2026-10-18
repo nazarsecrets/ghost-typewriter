@@ -1,0 +1,1231 @@
+{
+  "generatedAt": "2026-10-12T20:19:46.700Z",
+  "summary": {
+    "topics": 42,
+    "flagged": 18,
+    "byFlag": {
+      "fallback-frame": 7,
+      "thin-match": 5,
+      "ambiguous": 9
+    },
+    "weakKeywords": [
+      {
+        "keyword": "design system",
+        "theme": "Design systems and judgment",
+        "flagged": 4
+      },
+      {
+        "keyword": "ai",
+        "theme": "Designing with uncertain systems",
+        "flagged": 2
+      },
+      {
+        "keyword": "agent",
+        "theme": "Designing with uncertain systems",
+        "flagged": 1
+      },
+      {
+        "keyword": "model",
+        "theme": "Designing with uncertain systems",
+        "flagged": 1
+      },
+      {
+        "keyword": "llm",
+        "theme": "Designing with uncertain systems",
+        "flagged": 1
+      },
+      {
+        "keyword": "generative",
+        "theme": "Designing with uncertain systems",
+        "flagged": 1
+      },
+      {
+        "keyword": "figma",
+        "theme": "Design systems and judgment",
+        "flagged": 1
+      },
+      {
+        "keyword": "usability",
+        "theme": "Research that changes work",
+        "flagged": 1
+      },
+      {
+        "keyword": "insight",
+        "theme": "Research that changes work",
+        "flagged": 1
+      },
+      {
+        "keyword": "research",
+        "theme": "Research that changes work",
+        "flagged": 1
+      },
+      {
+        "keyword": "team",
+        "theme": "Leadership through uncertainty",
+        "flagged": 1
+      }
+    ],
+    "overusedFrames": [
+      {
+        "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+        "theme": "How the work gets made",
+        "topics": 7
+      },
+      {
+        "provocation": "When does consistency stop helping a team think clearly?",
+        "theme": "Design systems and judgment",
+        "topics": 5
+      },
+      {
+        "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+        "theme": "Designing with uncertain systems",
+        "topics": 5
+      },
+      {
+        "provocation": "Who gets to decide when the system should be broken?",
+        "theme": "Design systems and judgment",
+        "topics": 4
+      },
+      {
+        "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+        "theme": "Designing with uncertain systems",
+        "topics": 3
+      },
+      {
+        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+        "theme": "Designing with uncertain systems",
+        "topics": 3
+      },
+      {
+        "provocation": "Which interface choice quietly determines how a person understands the whole product?",
+        "theme": "Interfaces and attention",
+        "topics": 3
+      },
+      {
+        "provocation": "Which part of research work most often disappears between learning and deciding?",
+        "theme": "Research that changes work",
+        "topics": 3
+      }
+    ],
+    "verdicts": {
+      "applied": [],
+      "stale": [],
+      "invalid": []
+    }
+  },
+  "entries": [
+    {
+      "id": "fa36b5133b5f",
+      "theme": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "tag": "Process",
+      "source": "devto-ux",
+      "sourceTitle": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
+      "sourceUrl": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
+      ]
+    },
+    {
+      "id": "2524e0cd1b4d",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "Tesler’s Law: complexity moved to a different part of the journey",
+      "sourceUrl": "https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 5,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "description"
+          },
+          {
+            "keyword": "agent",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          },
+          {
+            "keyword": "llm",
+            "where": "description"
+          },
+          {
+            "keyword": "generative",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Interfaces and attention",
+          "score": 4
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match"
+      ]
+    },
+    {
+      "id": "846c8a2f2961",
+      "theme": "Design systems and judgment",
+      "provocation": "Who gets to decide when the system should be broken?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "A Trump team wants to automate U.S. Web Design System accessibility testing",
+      "sourceUrl": "https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Access as a product choice",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "e7abc36915cd",
+      "theme": "Design systems and judgment",
+      "provocation": "When does consistency stop helping a team think clearly?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "Holistic design systems for the AI coding era",
+      "sourceUrl": "https://numeric.substack.com/p/design-systems-at-numeric",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "b18ab924e25d",
+      "theme": "Design systems and judgment",
+      "provocation": "Who gets to decide when the system should be broken?",
+      "tag": "AI",
+      "source": "hn-designsystem",
+      "sourceTitle": "Show HN: Palette, a Figma plugin that turns one color into a whole UI system",
+      "sourceUrl": "https://www.figma.com/community/plugin/1682163756621093164",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "figma",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Interfaces and attention",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "169857c0668c",
+      "theme": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "tag": "Process",
+      "source": "devto-ux",
+      "sourceTitle": "I Built a Desktop Pet That Actually Feels at Home on Linux",
+      "sourceUrl": "https://dev.to/mikachu/designing-a-desktop-pet-native-to-linux-315m",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
+      ]
+    },
+    {
+      "id": "3bb0a370b514",
+      "theme": "Design systems and judgment",
+      "provocation": "When does consistency stop helping a team think clearly?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "Show HN: Colorful Design System for Agents",
+      "sourceUrl": "https://orbeez-kit.vercel.app/chat",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "feea3a80930f",
+      "theme": "Research that changes work",
+      "provocation": "Which part of research work most often disappears between learning and deciding?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
+      "sourceUrl": "https://arxiv.org/abs/2610.12666v1",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 1,
+        "hits": [
+          {
+            "keyword": "usability",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "The work around the artifact",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match",
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "34ddb5816666",
+      "theme": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "tag": "Process",
+      "source": "uxcollective",
+      "sourceTitle": "On M.F. Husain and multiple meanings of the colour orange",
+      "sourceUrl": "https://uxdesign.cc/on-m-f-husain-and-multiple-meanings-of-the-colour-orange-bf4b1a6f5504?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
+      ]
+    },
+    {
+      "id": "474f451eece7",
+      "theme": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "tag": "Process",
+      "source": "uxcollective",
+      "sourceTitle": "Borrowed slopes",
+      "sourceUrl": "https://uxdesign.cc/borrowed-slopes-cb5c5b464a61?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
+      ]
+    },
+    {
+      "id": "77ffdd825f44",
+      "theme": "Design systems and judgment",
+      "provocation": "Who gets to decide when the system should be broken?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "A Design System in and for the Agentic Era",
+      "sourceUrl": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "7ccf3218495b",
+      "theme": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "tag": "Process",
+      "source": "uxcollective",
+      "sourceTitle": "Designing for an idea before it exists",
+      "sourceUrl": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
+      ]
+    },
+    {
+      "id": "422db61525d8",
+      "theme": "Research that changes work",
+      "provocation": "Which part of research work most often disappears between learning and deciding?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "STcubeOperator: A Framework for Analyzing Spatiotemporal Event Data",
+      "sourceUrl": "https://arxiv.org/abs/2610.11894v1",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 1,
+        "hits": [
+          {
+            "keyword": "insight",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match",
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "68dd4d5a6774",
+      "theme": "Research that changes work",
+      "provocation": "What makes an insight powerful enough to change a team's direction?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "Feeling Wistful: Reflecting on Scholarly Sensibilities with Creative Reading Traces",
+      "sourceUrl": "https://arxiv.org/abs/2610.10890v1",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 1,
+        "hits": [
+          {
+            "keyword": "research",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match",
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "355c8a83486d",
+      "theme": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "tag": "Process",
+      "source": "hn-ux",
+      "sourceTitle": "Common UX Design Methods, Ranked by Value",
+      "sourceUrl": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
+      ]
+    },
+    {
+      "id": "eea5252eb77d",
+      "theme": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "tag": "AI",
+      "source": "hn-ux",
+      "sourceTitle": "Phyll, a UX review for apps built with AI that keeps the design",
+      "sourceUrl": "https://github.com/carlosphyll/phyll",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Interfaces and attention",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "41b123757eeb",
+      "theme": "Leadership through uncertainty",
+      "provocation": "Which part of senior design work is important precisely because it is hard to point to?",
+      "tag": "Leadership",
+      "source": "nngroup",
+      "sourceTitle": "Empathy Mapping: The First Step in Design Thinking",
+      "sourceUrl": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "match": {
+        "theme": "Leadership through uncertainty",
+        "score": 1,
+        "hits": [
+          {
+            "keyword": "team",
+            "where": "description"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "thin-match"
+      ]
+    },
+    {
+      "id": "edd263780606",
+      "theme": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "tag": "Process",
+      "source": "hn-ux",
+      "sourceTitle": "UX should just be called Experience Design",
+      "sourceUrl": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
+      ]
+    },
+    {
+      "id": "a1d23b1af71f",
+      "theme": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "Design Systems for AI Agents (Luke Wroblewski)",
+      "sourceUrl": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 4,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "agent",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Design systems and judgment",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "4b74e269aed3",
+      "theme": "Design systems and judgment",
+      "provocation": "When does consistency stop helping a team think clearly?",
+      "tag": "Systems",
+      "source": "devto-design",
+      "sourceTitle": "Why I Built DSLint: A Design System Linter for Figma",
+      "sourceUrl": "https://dev.to/krishnakakade/why-i-built-dslint-a-design-system-linter-for-figma-51ge",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 4,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          },
+          {
+            "keyword": "figma",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "68573e2109b1",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "hn-ux",
+      "sourceTitle": "Agent-first design: Bringing UX to the user",
+      "sourceUrl": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "agent",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "789f972efb46",
+      "theme": "Designing with uncertain systems",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+      "sourceUrl": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 4,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "agent",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Interfaces and attention",
+          "score": 3
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "a8a067f7ca62",
+      "theme": "Research that changes work",
+      "provocation": "What makes an insight powerful enough to change a team's direction?",
+      "tag": "Research",
+      "source": "uxcollective",
+      "sourceTitle": "Are synthetic users (really) the future of UX research?",
+      "sourceUrl": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 6,
+        "hits": [
+          {
+            "keyword": "research",
+            "where": "headline"
+          },
+          {
+            "keyword": "interview",
+            "where": "description"
+          },
+          {
+            "keyword": "insight",
+            "where": "description"
+          },
+          {
+            "keyword": "participant",
+            "where": "description"
+          },
+          {
+            "keyword": "usability",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 4
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "5eec00d6e199",
+      "theme": "Research that changes work",
+      "provocation": "When does research create understanding, and when does it merely create evidence?",
+      "tag": "Research",
+      "source": "uxcollective",
+      "sourceTitle": "Synthetic users are making me rethink “imperfect research”",
+      "sourceUrl": "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 6,
+        "hits": [
+          {
+            "keyword": "research",
+            "where": "headline"
+          },
+          {
+            "keyword": "interview",
+            "where": "description"
+          },
+          {
+            "keyword": "insight",
+            "where": "description"
+          },
+          {
+            "keyword": "participant",
+            "where": "description"
+          },
+          {
+            "keyword": "usability",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 3
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "64de644f2db7",
+      "theme": "Interfaces and attention",
+      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
+      "tag": "Research",
+      "source": "uxcollective",
+      "sourceTitle": "AI-generated UI is fast design, not UX",
+      "sourceUrl": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "mobile",
+            "where": "description"
+          },
+          {
+            "keyword": "ui",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "29d48de75ec3",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "What the AI era owes you",
+      "sourceUrl": "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 5,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "agent",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          },
+          {
+            "keyword": "generative",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Leadership through uncertainty",
+          "score": 4
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "81adf8cd1d59",
+      "theme": "Designing with uncertain systems",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "tag": "AI",
+      "source": "arxiv-hci",
+      "sourceTitle": "NeuroDivSim: An Interactive Tool for Model-Based Reflection on Cognitive Diversity in Interface Design",
+      "sourceUrl": "https://arxiv.org/abs/2610.11590v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 5,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "headline"
+          },
+          {
+            "keyword": "llm",
+            "where": "description"
+          },
+          {
+            "keyword": "generative",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Interfaces and attention",
+          "score": 3
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "9abe05852df3",
+      "theme": "Designing with uncertain systems",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "tag": "Leadership",
+      "source": "uxcollective",
+      "sourceTitle": "AI: incidents by design",
+      "sourceUrl": "https://uxdesign.cc/ai-incidents-by-design-d4708a3dda9e?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 4,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "agent",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Leadership through uncertainty",
+          "score": 3
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "f1bc9fd813d2",
+      "theme": "Design systems and judgment",
+      "provocation": "When does consistency stop helping a team think clearly?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "First-class design systems on a Ryanair budget",
+      "sourceUrl": "https://statecraftapp.com/field-notes/first-class-on-a-ryanair-budget",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "de155264fb66",
+      "theme": "Interfaces and attention",
+      "provocation": "Which interface choice quietly determines how a person understands the whole product?",
+      "tag": "AI",
+      "source": "hn-ux",
+      "sourceTitle": "Show HN: Help us fire our UI/UX designers",
+      "sourceUrl": "https://vosu.ai",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "ui",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "881910a121ac",
+      "theme": "Interfaces and attention",
+      "provocation": "Which interface choice quietly determines how a person understands the whole product?",
+      "tag": "Process",
+      "source": "devto-ux",
+      "sourceTitle": "SaaS Search UX: Keep Filters When Results Are Empty",
+      "sourceUrl": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "search",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "a32c268edfeb",
+      "theme": "Interfaces and attention",
+      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
+      "tag": "Process",
+      "source": "devto-ux",
+      "sourceTitle": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
+      "sourceUrl": "https://dev.to/saifyusuph/your-error-messages-are-a-feature-what-a-random-logout-bug-taught-me-about-designing-for-failure-354",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "error message",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "be3d36a21013",
+      "theme": "Interfaces and attention",
+      "provocation": "Which interface choice quietly determines how a person understands the whole product?",
+      "tag": "Process",
+      "source": "devto-ux",
+      "sourceTitle": "SaaS Pagination UX: Return to the Same Table View",
+      "sourceUrl": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "pagination",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "cd34d5e5fcf0",
+      "theme": "Access as a product choice",
+      "provocation": "What changes when accessibility is treated as a design premise rather than a final check?",
+      "tag": "Process",
+      "source": "arxiv-hci",
+      "sourceTitle": "HoldLight: Making Indoor Climbing More Accessible for Blind and Low-Vision Climbers through Layered Route Preview and Real-Time Next-Hold Guidance",
+      "sourceUrl": "https://arxiv.org/abs/2610.13445v1",
+      "match": {
+        "theme": "Access as a product choice",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "accessibility",
+            "where": "description"
+          },
+          {
+            "keyword": "accessible",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "The work around the artifact",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "8b8a34883fc2",
+      "theme": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "tag": "AI",
+      "source": "arxiv-hci",
+      "sourceTitle": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
+      "sourceUrl": "https://arxiv.org/abs/2610.12984v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "agent",
+            "where": "headline"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Access as a product choice",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "84679c851736",
+      "theme": "Designing with uncertain systems",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "tag": "AI",
+      "source": "devto-ux",
+      "sourceTitle": "Building with Agents: QA and UX in the Loop",
+      "sourceUrl": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "agent",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Interfaces and attention",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "76f3b424329b",
+      "theme": "Interfaces and attention",
+      "provocation": "When does making an interaction easier also make its consequences harder to see?",
+      "tag": "Process",
+      "source": "devto-ux",
+      "sourceTitle": "Password Reset UX: Make Recovery Clear and Safe",
+      "sourceUrl": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "password",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "9c23ab338464",
+      "theme": "Research that changes work",
+      "provocation": "Which part of research work most often disappears between learning and deciding?",
+      "tag": "Research",
+      "source": "hn-ux",
+      "sourceTitle": "The UX Research Methodology subway map trap",
+      "sourceUrl": "https://www.reddit.com/r/UXDesign/comments/1wercj5/the_ux_research_methodology_subway_map_trap/",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "research",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "27872e4a3829",
+      "theme": "Design systems and judgment",
+      "provocation": "When does consistency stop helping a team think clearly?",
+      "tag": "Systems",
+      "source": "devto-design",
+      "sourceTitle": "Your design tokens stop at the web boundary",
+      "sourceUrl": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "description"
+          },
+          {
+            "keyword": "token",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "b19ba53c904d",
+      "theme": "Designing with uncertain systems",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "tag": "AI",
+      "source": "hn-designsystem",
+      "sourceTitle": "First Agentic AI Design System to Bootstrap Products",
+      "sourceUrl": "https://vitadesignsystem.com/",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 4,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "agent",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Design systems and judgment",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "a228d8077d43",
+      "theme": "Design systems and judgment",
+      "provocation": "Who gets to decide when the system should be broken?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "A Quick Guide on Creating a Design System",
+      "sourceUrl": "https://www.andrewcoyle.com/blog/a-quick-guide-on-creating-a-design-system",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "566766490bd4",
+      "theme": "Design systems and judgment",
+      "provocation": "What judgment should a design system preserve rather than automate?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "How to Sync a Design System with Claude Design",
+      "sourceUrl": "https://nitayneeman.com/blog/how-to-sync-a-design-system-with-claude-design/",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    }
+  ]
+}

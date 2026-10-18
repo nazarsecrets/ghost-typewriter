@@ -53,7 +53,10 @@ tracker stale. If a task made no tracked progress, say so — don't silently ski
 
 - `npm run dev` — local dev server.
 - `npm run build` — typecheck + production build.
-- `npm run topics:build` — run the topic pipeline, writes `public/topics.json`.
+- `npm run topics:build` — run the topic pipeline, writes `public/topics.json` and
+  the review record `data/editorial-review.json`.
+- `npm run topics:review` — print weak source/theme matches and overused frames.
+  Author verdicts (`drop` / `retheme`) go in `data/editorial-verdicts.json`.
 - `npx tsc --noEmit -p pipeline/tsconfig.json` — typecheck the pipeline.
 
 ## Layout

@@ -50,6 +50,21 @@ export function jaccard(a: string, b: string): number {
   return inter / (sa.size + sb.size - inter);
 }
 
+// Whole-word keyword test. Plain substring matching read "ai" inside "maintain"
+// and "app" inside "approach", which misfiled sources. Terms of three letters or
+// fewer must match exactly (plural allowed); longer terms may be a word prefix,
+// so "agent" still finds "agentic" and "prototyp" finds "prototyping".
+const termPatterns = new Map<string, RegExp>();
+export function hasTerm(text: string, term: string): boolean {
+  let pattern = termPatterns.get(term);
+  if (!pattern) {
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    pattern = new RegExp(`\\b${escaped}${term.length <= 3 ? "s?\\b" : ""}`);
+    termPatterns.set(term, pattern);
+  }
+  return pattern.test(text);
+}
+
 // Fetch with a timeout and a descriptive User-Agent (some feeds require one).
 export async function fetchText(url: string, headers: Record<string, string> = {}, timeoutMs = 15000): Promise<string> {
   const controller = new AbortController();

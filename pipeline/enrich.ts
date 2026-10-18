@@ -5,10 +5,11 @@
 
 import { AUTHOR_PROFILE, CORE_TERMS, MIN_RELEVANCE, TAG_KEYWORDS, WINDOW_DAYS } from "./config.ts";
 import type { NormalizedItem, RawItem, Tag } from "./types.ts";
-import { clamp01, daysAgo, hash } from "./util.ts";
+import { clamp01, daysAgo, hasTerm, hash } from "./util.ts";
 
 const TAGS = Object.keys(TAG_KEYWORDS) as Tag[];
-const LOW_SIGNAL_TITLE = /\b(conference .* announced|best .* tools|top \d+|roundup)\b/i;
+// Listicles, announcements, and job postings: current, but nothing to think with.
+const LOW_SIGNAL_TITLE = /\b(conference .* announced|best .* tools|top \d+|roundup|is hiring)\b|^(lf|hiring|looking for)\b/i;
 
 function haystack(item: RawItem): string {
   return `${item.title} ${item.description}`.toLowerCase();
@@ -17,7 +18,7 @@ function haystack(item: RawItem): string {
 // Assign tags by keyword count. Always returns at least one (best guess).
 function classify(text: string): Tag[] {
   const scored = TAGS.map((tag) => {
-    const count = TAG_KEYWORDS[tag].reduce((n, kw) => (text.includes(kw) ? n + 1 : n), 0);
+    const count = TAG_KEYWORDS[tag].reduce((n, kw) => (hasTerm(text, kw) ? n + 1 : n), 0);
     return { tag, count };
   }).filter((s) => s.count > 0).sort((a, b) => b.count - a.count);
 

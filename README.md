@@ -19,6 +19,17 @@ Topic discovery and writing do not require an API key. Optional local AI request
 
 Current sources are converted into original, lens-based questions by a deterministic local pipeline. Article headlines are kept only as provenance behind each prompt; no hosted model is needed to generate the Today desk.
 
+Each build also records how every source reached its question in `data/editorial-review.json`. `npm run topics:review` lists the weak matches (no theme found, a theme supported only by the description, or two themes tied), the keywords behind them, and the questions carried by more than two topics. To overrule a match, add an entry to `data/editorial-verdicts.json` and rebuild:
+
+```json
+[
+  { "id": "41b123757eeb", "verdict": "retheme", "theme": "Research that changes work", "note": "about method, not leadership" },
+  { "id": "169857c0668c", "verdict": "drop", "note": "not a design question" }
+]
+```
+
+`id` is the topic id shown by the review; `theme` must be an existing theme title in `pipeline/editorialize.ts`. A verdict changes only the frame or whether the topic appears; dates, sources, and category reasons always come from the source.
+
 ## Validate
 
 ```sh

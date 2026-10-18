@@ -13,7 +13,7 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 **Classification:** every new progress item is labeled **[UX]**, **[Dev]**, or
 **[UX+Dev]**. Read-only inspection does not require a separate tracker entry.
 
-_Last updated: 2026-10-06_
+_Last updated: 2026-10-12_
 
 ---
 
@@ -46,7 +46,8 @@ standing no-texture instruction still applies until then.
 ### Discovery robustness — after the core POC handoff
 
 - ⬜ **[UX+Dev]** Show partial source-backed desks honestly when a category has fewer than two qualified topics; disclose the shortfall instead of replacing the entire desk with Evergreen prompts
-- ⬜ **[UX+Dev]** Add an editorial quality-review loop for live provocations: record weak source/theme matches, tune rules, and expand human-authored frames without fabricating freshness
+- ⬜ **[UX]** Author: write more frames where the editorial review shows one question carrying several topics. On the 2026-10-12 build the single Process fallback question carried 7 of 42 topics, and Design systems, Designing with uncertain systems, Interfaces, and Research each had a question on 3–5. Every new provocation in `pipeline/editorialize.ts` needs five guide lines in `src/writingGuideCopy.json` or the build fails. No frames were added by an agent, so the existing set stays author-owned.
+- ⬜ **[UX]** Author: read `npm run topics:review` and record the first real verdicts in `data/editorial-verdicts.json`; the file is empty.
 - ⬜ **[Dev]** Optionally evaluate local Hugging Face embeddings for semantic relevance/clustering; keep the deterministic pipeline as the required fallback
 
 ### Ghost reattachment — after the paper is proven
@@ -67,6 +68,8 @@ standing no-texture instruction still applies until then.
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-10-12 [UX+Dev]** — Built the editorial quality-review loop for live provocations. **Record:** every `topics:build` now writes `data/editorial-review.json` (never shipped to the client) with the keywords that put each source under its frame, and flags three weak cases: no theme matched, theme supported only by the description, and two themes tied. `npm run topics:review` prints the flagged topics, the keywords behind them, and questions carried by more than two topics. **Verdicts:** `data/editorial-verdicts.json` lets the author drop a topic or file it under a named theme; verdicts cannot change dates, sources, or category reasons, and stale or unknown-theme verdicts are reported instead of applied. **Rules tuned from a live snapshot of 43 topics:** keywords now match whole words (substring matching had read "ai" inside other words and filed pieces such as "Password Reset UX" and "SaaS Search UX" under the AI frame), a headline hit outweighs a description hit, job-posting headlines are dropped, and the Interfaces theme gained six keywords; 8 of 43 topics changed frame. **Evidence:** drop, retheme, unknown-theme, and stale verdicts each verified against a real build, then the verdict file reset to empty; pipeline typecheck and `npm run build` pass. The run refreshed `public/topics.json` (42 topics, 18 flagged). New frames were not written; that is the author item now under Pending. The author sound-and-motion session remains next.
 
 - ✅ **2026-10-06 [UX+Dev]** — Completed the Today → Write manuscript pass. **Keyboard:** Backspace at a paragraph's start merges it into the previous one and Delete at its end merges the next one in, with the caret placed at the join either way; arrow keys at a paragraph edge cross into the neighbour; modified keys, selections and IME composition stay native; Enter in the title moves to the first paragraph. **Focus:** skip link to main, the heading takes focus at the top of the page on Today/Reflect/Review, the native caret remains the paragraph focus indicator (a trial 2px signal gutter rule was removed after the author saw it read as an outsized second cursor beside the caret; forced colors keep a Highlight outline). **Readability:** past paragraphs rest at 0.82 and distant ones at 0.68 instead of 0.72/0.42. Fixed a WCAG 2.5.3 failure on Today: source links' accessible name now starts with their visible source name. **Browser evidence (Playwright, 1280px and 390px, motion and reduced motion, 98/98 checks):** 68 characters per line at 22px/1.65 in a 672px column on desktop, 39 at 19px in 338px on a phone, 14px paragraph gap, no horizontal overflow on Write or Reflect; all boundary keys verified in both Write and Reflect; zero sheet, shell or line movement while typing, returning and erasing under reduced motion; axe clean on Today, Reflect and Write; no console errors. Production build passes.
 
