@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T12:32:39.194Z",
-  "windowStart": "2026-09-18T12:32:39.194Z",
-  "windowEnd": "2026-10-18T12:32:39.194Z",
+  "generatedAt": "2026-10-18T18:32:22.283Z",
+  "windowStart": "2026-09-18T18:32:22.283Z",
+  "windowEnd": "2026-10-18T18:32:22.283Z",
   "topics": [
     {
       "id": "8735e94a66af",
@@ -218,35 +218,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-15T01:14:33.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
           "title": "XARA: A Multimodal Agentic System for eXtended Reality Experiment Generation",
           "url": "https://arxiv.org/abs/2610.21067v1",
           "publishedAt": "2026-10-15T01:14:33.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e0dc84a391d2",
-      "title": "A thousand days of stale popcorn",
-      "teaser": "A gym, a morning radio broadcast, and a streak counter are all answers to one question: how do you get someone to keep going when you&#x2026; Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-18T12:11:30.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "A thousand days of stale popcorn",
-          "url": "https://uxdesign.cc/a-thousand-days-of-stale-popcorn-54f62d06c42b?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-18T12:11:30.000Z"
         }
       ]
     },
@@ -298,9 +278,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-15T02:02:26.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -551,22 +531,22 @@
       ]
     },
     {
-      "id": "e7abc36915cd",
-      "title": "Holistic design systems for the AI coding era",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "e0dc84a391d2",
+      "title": "A thousand days of stale popcorn",
+      "teaser": "A gym, a morning radio broadcast, and a streak counter are all answers to one question: how do you get someone to keep going when you&#x2026; Continue reading on UX Collective »",
+      "tag": "Process",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-24T00:21:16.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
+      "category": "Latest",
+      "publishedAt": "2026-10-18T12:11:30.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Holistic design systems for the AI coding era",
-          "url": "https://numeric.substack.com/p/design-systems-at-numeric",
-          "publishedAt": "2026-09-24T00:21:16.000Z"
+          "name": "uxcollective",
+          "title": "A thousand days of stale popcorn",
+          "url": "https://uxdesign.cc/a-thousand-days-of-stale-popcorn-54f62d06c42b?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-18T12:11:30.000Z"
         }
       ]
     },
@@ -996,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-18T12:32:39.194Z"
+      "fetchedAt": "2026-10-18T18:32:22.284Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-18T12:32:39.249Z"
+      "fetchedAt": "2026-10-18T18:32:22.338Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-18T12:32:39.251Z"
+      "fetchedAt": "2026-10-18T18:32:22.339Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-18T12:32:39.252Z"
+      "fetchedAt": "2026-10-18T18:32:22.340Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-18T12:32:39.253Z"
+      "fetchedAt": "2026-10-18T18:32:22.341Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-18T12:32:39.254Z"
+      "fetchedAt": "2026-10-18T18:32:22.342Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-18T12:32:39.255Z"
+      "fetchedAt": "2026-10-18T18:32:22.343Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-18T12:32:39.256Z"
+      "fetchedAt": "2026-10-18T18:32:22.344Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-18T12:32:39.257Z"
+      "fetchedAt": "2026-10-18T18:32:22.345Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-18T12:32:39.258Z"
+      "fetchedAt": "2026-10-18T18:32:22.346Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-18T12:32:39.258Z"
+      "fetchedAt": "2026-10-18T18:32:22.347Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-18T12:32:39.259Z"
+      "fetchedAt": "2026-10-18T18:32:22.348Z"
     }
   ]
 }
