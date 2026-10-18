@@ -214,7 +214,7 @@ This validates:
 
 #### POC limitations that must not become product claims
 
-- When a source-backed category contains fewer than two items, the loader currently replaces the entire desk with Evergreen prompts rather than showing fewer current topics honestly.
+- Source-backed categories with fewer than two items retain their available topics; Today discloses each category shortfall. Evergreen is used when no usable source-backed selection is available.
 - Today now uses a rank-first editorial hierarchy with one lead story and five quieter signals. The usefulness of its Design, Technology, Industry, Ways of Working, and Self lens mapping still needs observation with real use.
 - Evergreen content remains manually authored and does not become current merely because it rotates daily.
 - Curated prompts and source-backed provocations use different schemas; source headlines are retained only as evidence and provenance.
@@ -962,10 +962,10 @@ Implemented:
 - Manual source-backed and Evergreen desk rotation through `advanceDeskOffset()`.
 - Source provenance, category reasons, manifest age, Latest labeling, and honest Evergreen labeling.
 - Rank-first editorial composition with one dominant story, five quieter signals, and visible editorial lenses.
+- Partial source-backed desks retain available topics and disclose categories with fewer than two qualified items instead of replacing the desk with Evergreen.
 
 Remaining:
 
-- Show fewer current topics honestly when a category has fewer than two instead of replacing the full desk.
 - Add optional local Hugging Face embeddings for improved semantic clustering and relevance.
 
 ### Phase 3: Production deployment

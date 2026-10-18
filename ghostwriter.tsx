@@ -685,6 +685,9 @@ export default function Ghostwriter() {
           <p>{topicResult.origin === "curated" ? "Evergreen prompts" : `${topicResult.stale ? "Earlier" : "Current"} source desk`}</p>
           {topicResult.generatedAt ? <time dateTime={topicResult.generatedAt}>Updated {new Date(topicResult.generatedAt).toLocaleDateString()}</time> : <span>Six prompts for reflection</span>}
         </div>
+        {topicResult.shortfalls?.length ? <p className="loading-line" role="status">
+          Showing {topics.length} of 6 source-backed ideas. {topicResult.shortfalls.map(({ category, available }) => `${category}: ${available} of 2 available`).join("; ")}. There are not enough qualified topics in these categories in this source desk.
+        </p> : null}
         <section className="editorial-desk" aria-label="Ideas worth considering">
           <article className="lead-story">
             <div className="story-kicker"><span>Lead idea</span><span>{editorialLens(leadTopic)}</span></div>

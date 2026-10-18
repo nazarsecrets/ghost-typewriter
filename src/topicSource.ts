@@ -41,6 +41,7 @@ export type TopicResult = {
   topics: DisplayTopic[];
   generatedAt?: string; // manifest age, when source-backed
   stale?: boolean; // manifest older than STALE_HOURS
+  shortfalls?: Array<{ category: Category; available: number }>;
 };
 
 const MANIFEST_URL = `${import.meta.env.BASE_URL}topics.json`;
@@ -126,12 +127,17 @@ export async function loadTopics(): Promise<TopicResult> {
 
     const seen = readSeen();
     const selected = selectBalanced(data.topics, seen);
-    // If the manifest can't fill the balanced set, fall back to Evergreen.
-    if (selected.length < 6) return curatedResult();
+    // Keep every available category; never replace a partial source desk with
+    // curated material or borrow extra topics from another category to fill it.
+    if (selected.length === 0) return curatedResult();
+    const categories: Category[] = ["Latest", "Trending", "Under the Radar"];
+    const shortfalls = categories
+      .map((category) => ({ category, available: selected.filter((topic) => topic.category === category).length }))
+      .filter(({ available }) => available < 2);
 
     rememberSeen(selected.map((t) => t.id));
     const ageHours = (Date.now() - Date.parse(data.generatedAt)) / 3_600_000;
-    return { origin: "source-backed", topics: selected, generatedAt: data.generatedAt, stale: ageHours > STALE_HOURS };
+    return { origin: "source-backed", topics: selected, generatedAt: data.generatedAt, stale: ageHours > STALE_HOURS, shortfalls };
   } catch {
     return curatedResult();
   }

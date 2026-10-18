@@ -13,7 +13,7 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 **Classification:** every new progress item is labeled **[UX]**, **[Dev]**, or
 **[UX+Dev]**. Read-only inspection does not require a separate tracker entry.
 
-_Last updated: 2026-10-17_
+_Last updated: 2026-10-18_
 
 ---
 
@@ -50,7 +50,6 @@ standing no-texture instruction still applies until then.
 
 ### Discovery robustness — after the core POC handoff
 
-- ⬜ **[UX+Dev]** Show partial source-backed desks honestly when a category has fewer than two qualified topics; disclose the shortfall instead of replacing the entire desk with Evergreen prompts
 - ⬜ **[UX]** Author: write more frames where the editorial review shows one question carrying several topics. On the 2026-10-12 build the single Process fallback question carried 7 of 42 topics, and Design systems, Designing with uncertain systems, Interfaces, and Research each had a question on 3–5. Every new provocation in `pipeline/editorialize.ts` needs five guide lines in `src/writingGuideCopy.json` or the build fails. No frames were added by an agent, so the existing set stays author-owned.
 - ⬜ **[UX]** Author: read `npm run topics:review` and record the first real verdicts in `data/editorial-verdicts.json`; the file is empty.
 - ⬜ **[Dev]** Optionally evaluate local Hugging Face embeddings for semantic relevance/clustering; keep the deterministic pipeline as the required fallback
@@ -73,6 +72,8 @@ standing no-texture instruction still applies until then.
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-10-18 [UX+Dev]** — Preserved partial source-backed desks in `src/topicSource.ts`; Today now discloses total and per-category shortfalls without mixing in Evergreen or filling missing slots from other categories. Updated PRD status. Validation: production build/guide coverage, pipeline typecheck, and diff checks pass; Playwright verified 2/1/0, 0/0/1, and 2/2/2 desks, stale labeling, Refresh preferring unseen source IDs while retaining a partial desk, empty/invalid/network-failure Evergreen fallback, 390px overflow, topic → guided writing → reload recovery, and Enter creating a second paragraph. No page exceptions; the deliberately aborted manifest produced the expected network error. Session/draft persistence code is unchanged. The author sound-and-motion session remains next; diary implementation remains pending.
 
 - ✅ **2026-10-17 [UX+Dev]** — Read `enchanted_diary_spec.md`, canonical guidance, and current editor/storage integration; recorded a two-phase optional-theme plan in `ENCHANTED_DIARY_PLAN.md` with preservation gates and explicit resolution of the spec's Enter-to-submit/new-AI scope conflicts. Planning only; no runtime changes or theme validation performed. The author sound-and-motion session remains next.
 
