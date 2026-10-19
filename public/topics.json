@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T15:26:49.008Z",
-  "windowStart": "2026-09-19T15:26:49.008Z",
-  "windowEnd": "2026-10-19T15:26:49.008Z",
+  "generatedAt": "2026-10-19T20:57:12.049Z",
+  "windowStart": "2026-09-19T20:57:12.049Z",
+  "windowEnd": "2026-10-19T20:57:12.049Z",
   "topics": [
     {
       "id": "d24cf9041640",
@@ -185,6 +185,26 @@
       ]
     },
     {
+      "id": "05d966511e89",
+      "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
+      "teaser": "Semi-related, I&#x27;m available for UI&#x2F;UX Engineering&#x2F;Design roles.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-19T19:00:23.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
+          "url": "https://swirltogether.com/",
+          "publishedAt": "2026-10-19T19:00:23.000Z"
+        }
+      ]
+    },
+    {
       "id": "a1d23b1af71f",
       "title": "Design Systems for AI Agents (Luke Wroblewski)",
       "teaser": "",
@@ -260,7 +280,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-design",
@@ -376,11 +396,11 @@
       "teaser": "The diagram vs. the Tuesday afternoon On the architecture diagram, human-in-the-loop looks...",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -638,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-16T05:15:03.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -820,7 +840,7 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -940,7 +960,7 @@
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -956,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-19T15:26:49.009Z"
+      "fetchedAt": "2026-10-19T20:57:12.050Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-19T15:26:49.041Z"
+      "fetchedAt": "2026-10-19T20:57:12.103Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-19T15:26:49.041Z"
+      "fetchedAt": "2026-10-19T20:57:12.104Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-19T15:26:49.042Z"
+      "fetchedAt": "2026-10-19T20:57:12.105Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-19T15:26:49.043Z"
+      "fetchedAt": "2026-10-19T20:57:12.106Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-19T15:26:49.043Z"
+      "fetchedAt": "2026-10-19T20:57:12.107Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-19T15:26:49.044Z"
+      "fetchedAt": "2026-10-19T20:57:12.109Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 10,
-      "fetchedAt": "2026-10-19T15:26:49.044Z"
+      "items": 11,
+      "fetchedAt": "2026-10-19T20:57:12.109Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 35,
-      "fetchedAt": "2026-10-19T15:26:49.045Z"
+      "fetchedAt": "2026-10-19T20:57:12.110Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-19T15:26:49.045Z"
+      "fetchedAt": "2026-10-19T20:57:12.111Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-19T15:26:49.046Z"
+      "fetchedAt": "2026-10-19T20:57:12.112Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-19T15:26:49.047Z"
+      "fetchedAt": "2026-10-19T20:57:12.113Z"
     }
   ]
 }
