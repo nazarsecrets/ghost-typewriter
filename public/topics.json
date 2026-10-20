@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T13:28:32.435Z",
-  "windowStart": "2026-09-20T13:28:32.435Z",
-  "windowEnd": "2026-10-20T13:28:32.435Z",
+  "generatedAt": "2026-10-20T19:56:29.022Z",
+  "windowStart": "2026-09-20T19:56:29.022Z",
+  "windowEnd": "2026-10-20T19:56:29.022Z",
   "topics": [
     {
-      "id": "70e4549b006f",
-      "title": "Embracing Playful Imperfection With The CSS `random()` Function",
-      "teaser": "Design systems thrive on consistency, so where does randomness fit in? Through playful demos of organic typography, bouncing letters, and splayed cards, Brecht De Ruyte shows how the new CSS",
-      "tag": "Systems",
+      "id": "835088159f48",
+      "title": "I built a Claude skill that makes AI design like a senior UX designer",
+      "teaser": "Ask any AI to \"design a dashboard\" and you get the same thing every time. A KPI row, a line chart, a...",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
+      "publishedAt": "2026-10-13T21:11:14.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
-          "name": "smashing",
-          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
-          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
-          "publishedAt": "2026-10-20T10:00:00.000Z"
+          "name": "devto-ux",
+          "title": "I built a Claude skill that makes AI design like a senior UX designer",
+          "url": "https://dev.to/zeeshani42/i-built-a-claude-skill-that-makes-ai-design-like-a-senior-ux-designer-2gdm",
+          "publishedAt": "2026-10-13T21:11:14.000Z"
         }
       ]
     },
@@ -125,6 +125,26 @@
       ]
     },
     {
+      "id": "fa36b5133b5f",
+      "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
+      "teaser": "The diagram vs. the Tuesday afternoon On the architecture diagram, human-in-the-loop looks...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-12T08:53:11.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
+          "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
+          "publishedAt": "2026-10-12T08:53:11.000Z"
+        }
+      ]
+    },
+    {
       "id": "8735e94a66af",
       "title": "Design in the material you ship",
       "teaser": "Designers should understand code the way an architect understands stone: what it can do, not how to cut it. AI now does the cutting. The same card in the design file and in the browser with ",
@@ -141,6 +161,26 @@
           "title": "Design in the material you ship",
           "url": "https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-18T12:11:43.000Z"
+        }
+      ]
+    },
+    {
+      "id": "85c030973a18",
+      "title": "Show HN: Chai-UI – A design system to generative AI apps",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-20T00:06:14.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Chai-UI – A design system to generative AI apps",
+          "url": "https://chai-ui.com/",
+          "publishedAt": "2026-10-20T00:06:14.000Z"
         }
       ]
     },
@@ -185,22 +225,22 @@
       ]
     },
     {
-      "id": "85c030973a18",
-      "title": "Show HN: Chai-UI – A design system to generative AI apps",
-      "teaser": "",
-      "tag": "AI",
+      "id": "70e4549b006f",
+      "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+      "teaser": "Design systems thrive on consistency, so where does randomness fit in? Through playful demos of organic typography, bouncing letters, and splayed cards, Brecht De Ruyte shows how the new CSS",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-20T00:06:14.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Show HN: Chai-UI – A design system to generative AI apps",
-          "url": "https://chai-ui.com/",
-          "publishedAt": "2026-10-20T00:06:14.000Z"
+          "name": "smashing",
+          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+          "publishedAt": "2026-10-20T10:00:00.000Z"
         }
       ]
     },
@@ -258,9 +298,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-15T02:02:26.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -280,13 +320,33 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-design",
           "title": "Why I Built DSLint: A Design System Linter for Figma",
           "url": "https://dev.to/krishnakakade/why-i-built-dslint-a-design-system-linter-for-figma-51ge",
           "publishedAt": "2026-10-11T07:19:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a32c268edfeb",
+      "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
+      "teaser": "In my last article, I wrote about UX bugs that pass every test — like a wallet with no visible...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-12T11:46:39.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
+          "url": "https://dev.to/saifyusuph/your-error-messages-are-a-feature-what-a-random-logout-bug-taught-me-about-designing-for-failure-354",
+          "publishedAt": "2026-10-12T11:46:39.000Z"
         }
       ]
     },
@@ -411,26 +471,6 @@
       ]
     },
     {
-      "id": "846c8a2f2961",
-      "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-26T14:15:39.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
-          "url": "https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/",
-          "publishedAt": "2026-09-26T14:15:39.000Z"
-        }
-      ]
-    },
-    {
       "id": "f1bc9fd813d2",
       "title": "First-class design systems on a Ryanair budget",
       "teaser": "",
@@ -507,6 +547,26 @@
           "title": "Show HN: Launching NS UI easy to use components,AI slop should be a term of past",
           "url": "https://design.helpmarq.com",
           "publishedAt": "2026-10-08T19:48:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "76f3b424329b",
+      "title": "Password Reset UX: Make Recovery Clear and Safe",
+      "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-29T18:41:44.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Password Reset UX: Make Recovery Clear and Safe",
+          "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
+          "publishedAt": "2026-09-29T18:41:44.000Z"
         }
       ]
     },
@@ -703,7 +763,7 @@
       "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
-          "name": "devto-design",
+          "name": "devto-ux",
           "title": "SaaS Search UX: Keep Filters When Results Are Empty",
           "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
           "publishedAt": "2026-10-05T18:03:04.000Z"
@@ -743,7 +803,7 @@
       "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
-          "name": "devto-design",
+          "name": "devto-ux",
           "title": "SaaS Pagination UX: Return to the Same Table View",
           "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
           "publishedAt": "2026-10-06T14:21:12.000Z"
@@ -831,26 +891,6 @@
       ]
     },
     {
-      "id": "a228d8077d43",
-      "title": "A Quick Guide on Creating a Design System",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-27T22:06:14.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "A Quick Guide on Creating a Design System",
-          "url": "https://www.andrewcoyle.com/blog/a-quick-guide-on-creating-a-design-system",
-          "publishedAt": "2026-09-27T22:06:14.000Z"
-        }
-      ]
-    },
-    {
       "id": "41b123757eeb",
       "title": "Empathy Mapping: The First Step in Design Thinking",
       "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
@@ -900,7 +940,7 @@
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -916,74 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-20T13:28:32.436Z"
+      "fetchedAt": "2026-10-20T19:56:29.022Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-20T13:28:32.491Z"
+      "fetchedAt": "2026-10-20T19:56:29.064Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-20T13:28:32.493Z"
+      "fetchedAt": "2026-10-20T19:56:29.065Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-20T13:28:32.494Z"
+      "fetchedAt": "2026-10-20T19:56:29.066Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-20T13:28:32.495Z"
+      "fetchedAt": "2026-10-20T19:56:29.067Z"
     },
     {
       "source": "devto-ux",
-      "ok": false,
-      "items": 0,
-      "fetchedAt": "2026-10-20T13:28:32.496Z",
-      "error": "This operation was aborted"
+      "ok": true,
+      "items": 30,
+      "fetchedAt": "2026-10-20T19:56:29.068Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-20T13:28:32.497Z"
+      "fetchedAt": "2026-10-20T19:56:29.068Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-20T13:28:32.498Z"
+      "fetchedAt": "2026-10-20T19:56:29.069Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-20T13:28:32.499Z"
+      "fetchedAt": "2026-10-20T19:56:29.070Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-20T13:28:32.500Z"
+      "fetchedAt": "2026-10-20T19:56:29.071Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-20T13:28:32.500Z"
+      "fetchedAt": "2026-10-20T19:56:29.071Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-20T13:28:32.501Z"
+      "fetchedAt": "2026-10-20T19:56:29.072Z"
     }
   ]
 }
