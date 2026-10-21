@@ -1,26 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T19:56:29.022Z",
-  "windowStart": "2026-09-20T19:56:29.022Z",
-  "windowEnd": "2026-10-20T19:56:29.022Z",
+  "generatedAt": "2026-10-21T04:15:03.706Z",
+  "windowStart": "2026-09-21T04:15:03.706Z",
+  "windowEnd": "2026-10-21T04:15:03.706Z",
   "topics": [
     {
-      "id": "835088159f48",
-      "title": "I built a Claude skill that makes AI design like a senior UX designer",
-      "teaser": "Ask any AI to \"design a dashboard\" and you get the same thing every time. A KPI row, a line chart, a...",
-      "tag": "AI",
+      "id": "8486fba2f0f1",
+      "title": "AI doesn’t care about your job title",
+      "teaser": "One person works across a design file, a product roadmap, and a code editor at a single desk, with their badge face down beside the keyboard. AI assisted, steampunk style. Exposure to artifi",
+      "tag": "Leadership",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-13T21:11:14.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 7 days ago",
+      "publishedAt": "2026-10-20T21:29:28.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "I built a Claude skill that makes AI design like a senior UX designer",
-          "url": "https://dev.to/zeeshani42/i-built-a-claude-skill-that-makes-ai-design-like-a-senior-ux-designer-2gdm",
-          "publishedAt": "2026-10-13T21:11:14.000Z"
+          "name": "uxcollective",
+          "title": "AI doesn’t care about your job title",
+          "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-20T21:29:28.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f271abf58df2",
+      "title": "Let AI have the average user: Why User Research should focus on bad days",
+      "teaser": "Nn/g found that synthetic research captures common responses. The bad days are still up to you. Continue reading on UX Collective »",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-20T21:30:52.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Let AI have the average user: Why User Research should focus on bad days",
+          "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-20T21:30:52.000Z"
         }
       ]
     },
@@ -52,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T11:50:05.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T11:12:29.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T11:12:12.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,35 +132,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T09:29:20.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Beyond the Canvas",
           "url": "https://uxdesign.cc/beyond-the-canvas-03fce0bcbf7b?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-19T09:29:20.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fa36b5133b5f",
-      "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
-      "teaser": "The diagram vs. the Tuesday afternoon On the architecture diagram, human-in-the-loop looks...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-12T08:53:11.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
-          "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
-          "publishedAt": "2026-10-12T08:53:11.000Z"
         }
       ]
     },
@@ -152,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-18T12:11:43.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -185,26 +185,6 @@
       ]
     },
     {
-      "id": "f4d77334cca6",
-      "title": "Human in the loop means making sure the human is not out of the loop",
-      "teaser": "A reviewer’s hand hovers over an approve button while the work it approves has already moved on without them. AI assisted. Agents now act before we ask and reach past what we authorized. A p",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-15T22:09:29.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Human in the loop means making sure the human is not out of the loop",
-          "url": "https://uxdesign.cc/designing-for-ai-human-in-the-loop-means-making-sure-the-human-is-not-out-of-the-loop-e38826309c91?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-15T22:09:29.000Z"
-        }
-      ]
-    },
-    {
       "id": "d2e060a9b0d3",
       "title": "Design Systems",
       "teaser": "",
@@ -212,15 +192,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-14T14:51:36.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Design Systems",
           "url": "https://webflow.com/webflow-way/design-systems",
           "publishedAt": "2026-10-14T14:51:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8c253e73ef57",
+      "title": "TracePrism: Extending Semantic Trace Topics to Iterative, Encoding-Aware Trace Partitioning",
+      "teaser": "Process mining typically explains an event log with a single model, clustering, or classifier fitted to all cases, although real logs often mix cases that follow different sub-processes. Tra",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-20T17:04:41.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "TracePrism: Extending Semantic Trace Topics to Iterative, Encoding-Aware Trace Partitioning",
+          "url": "https://arxiv.org/abs/2610.28532v1",
+          "publishedAt": "2026-10-20T17:04:41.000Z"
         }
       ]
     },
@@ -232,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -254,7 +254,7 @@
       "publishedAt": "2026-10-04T15:55:03.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 16 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -331,22 +331,42 @@
       ]
     },
     {
-      "id": "a32c268edfeb",
-      "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
-      "teaser": "In my last article, I wrote about UX bugs that pass every test — like a wallet with no visible...",
+      "id": "835088159f48",
+      "title": "I built a Claude skill that makes AI design like a senior UX designer",
+      "teaser": "Ask any AI to \"design a dashboard\" and you get the same thing every time. A KPI row, a line chart, a...",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-12T11:46:39.000Z",
+      "category": "Latest",
+      "publishedAt": "2026-10-13T21:11:14.000Z",
       "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "devto-ux",
-          "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
-          "url": "https://dev.to/saifyusuph/your-error-messages-are-a-feature-what-a-random-logout-bug-taught-me-about-designing-for-failure-354",
-          "publishedAt": "2026-10-12T11:46:39.000Z"
+          "title": "I built a Claude skill that makes AI design like a senior UX designer",
+          "url": "https://dev.to/zeeshani42/i-built-a-claude-skill-that-makes-ai-design-like-a-senior-ux-designer-2gdm",
+          "publishedAt": "2026-10-13T21:11:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fa36b5133b5f",
+      "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
+      "teaser": "The diagram vs. the Tuesday afternoon On the architecture diagram, human-in-the-loop looks...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-12T08:53:11.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
+          "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
+          "publishedAt": "2026-10-12T08:53:11.000Z"
         }
       ]
     },
@@ -420,7 +440,7 @@
       "publishedAt": "2026-10-01T12:11:34.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -480,7 +500,7 @@
       "publishedAt": "2026-10-01T10:33:21.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -551,26 +571,6 @@
       ]
     },
     {
-      "id": "76f3b424329b",
-      "title": "Password Reset UX: Make Recovery Clear and Safe",
-      "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-29T18:41:44.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Password Reset UX: Make Recovery Clear and Safe",
-          "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
-          "publishedAt": "2026-09-29T18:41:44.000Z"
-        }
-      ]
-    },
-    {
       "id": "79939802f3f9",
       "title": "Playing the sanshin without a sound",
       "teaser": "The slot machine and the checklist: a dilemma in feedback design. Continue reading on UX Collective »",
@@ -611,46 +611,6 @@
       ]
     },
     {
-      "id": "dfd62b86c707",
-      "title": "Remote Expert Evaluation of Tabletop Avatar Gaze Control in Asymmetric Multi-Scale MR--VR Collaboration",
-      "teaser": "This paper proposes an integrated setup for a multi-scale asymmetric collaboration scenario in the context of a remote-expert use case, focusing on the expert side. In this system, the remot",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-19T13:20:59.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Remote Expert Evaluation of Tabletop Avatar Gaze Control in Asymmetric Multi-Scale MR--VR Collaboration",
-          "url": "https://arxiv.org/abs/2610.26360v1",
-          "publishedAt": "2026-10-19T13:20:59.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d7fcc3481209",
-      "title": "SplatXR: A Toolkit for Multi-Layered Extended Reality via On-Headset 3D Gaussian Splatting",
-      "teaser": "Recent advances in Gaussian splatting, 3D foundation models, and video-passthrough mixed reality offer unprecedented fidelity for capturing and blending physical and virtual worlds. However,",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-19T13:08:34.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "SplatXR: A Toolkit for Multi-Layered Extended Reality via On-Headset 3D Gaussian Splatting",
-          "url": "https://arxiv.org/abs/2610.26338v1",
-          "publishedAt": "2026-10-19T13:08:34.000Z"
-        }
-      ]
-    },
-    {
       "id": "1d3746c9b0f3",
       "title": "Show HN: GrogLog, a Free Drink Tracker",
       "teaser": "It’s designed for people who are alcohol dependent and want to get visibility and control over their drinking in order to cut down or stop. Fully offline, better features than many paid apps",
@@ -660,7 +620,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -671,22 +631,22 @@
       ]
     },
     {
-      "id": "e0dc84a391d2",
-      "title": "A thousand days of stale popcorn",
-      "teaser": "A gym, a morning radio broadcast, and a streak counter are all answers to one question: how do you get someone to keep going when you&#x2026; Continue reading on UX Collective »",
-      "tag": "Process",
+      "id": "a32c268edfeb",
+      "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
+      "teaser": "In my last article, I wrote about UX bugs that pass every test — like a wallet with no visible...",
+      "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-18T12:11:30.000Z",
-      "since": "2 days ago",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-12T11:46:39.000Z",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "A thousand days of stale popcorn",
-          "url": "https://uxdesign.cc/a-thousand-days-of-stale-popcorn-54f62d06c42b?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-18T12:11:30.000Z"
+          "name": "devto-ux",
+          "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
+          "url": "https://dev.to/saifyusuph/your-error-messages-are-a-feature-what-a-random-logout-bug-taught-me-about-designing-for-failure-354",
+          "publishedAt": "2026-10-12T11:46:39.000Z"
         }
       ]
     },
@@ -720,7 +680,7 @@
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -780,7 +740,7 @@
       "publishedAt": "2026-10-04T12:41:33.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -800,7 +760,7 @@
       "publishedAt": "2026-10-06T14:21:12.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -820,7 +780,7 @@
       "publishedAt": "2026-10-06T09:03:06.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-design",
@@ -840,7 +800,7 @@
       "publishedAt": "2026-10-05T11:33:13.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -860,13 +820,33 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "A Design System in and for the Agentic Era",
           "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
           "publishedAt": "2026-10-05T08:12:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "76f3b424329b",
+      "title": "Password Reset UX: Make Recovery Clear and Safe",
+      "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-29T18:41:44.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Password Reset UX: Make Recovery Clear and Safe",
+          "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
+          "publishedAt": "2026-09-29T18:41:44.000Z"
         }
       ]
     },
@@ -880,7 +860,7 @@
       "publishedAt": "2026-09-30T10:03:43.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -920,7 +900,7 @@
       "publishedAt": "2026-09-28T10:16:02.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -956,73 +936,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-20T19:56:29.022Z"
+      "fetchedAt": "2026-10-21T04:15:03.706Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-20T19:56:29.064Z"
+      "fetchedAt": "2026-10-21T04:15:03.741Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-20T19:56:29.065Z"
+      "fetchedAt": "2026-10-21T04:15:03.743Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-20T19:56:29.066Z"
+      "fetchedAt": "2026-10-21T04:15:03.743Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-20T19:56:29.067Z"
+      "fetchedAt": "2026-10-21T04:15:03.744Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-20T19:56:29.068Z"
+      "fetchedAt": "2026-10-21T04:15:03.745Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-20T19:56:29.068Z"
+      "fetchedAt": "2026-10-21T04:15:03.746Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-20T19:56:29.069Z"
+      "fetchedAt": "2026-10-21T04:15:03.746Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-20T19:56:29.070Z"
+      "fetchedAt": "2026-10-21T04:15:03.747Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-20T19:56:29.071Z"
+      "fetchedAt": "2026-10-21T04:15:03.748Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-20T19:56:29.071Z"
+      "fetchedAt": "2026-10-21T04:15:03.748Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-20T19:56:29.072Z"
+      "fetchedAt": "2026-10-21T04:15:03.749Z"
     }
   ]
 }
