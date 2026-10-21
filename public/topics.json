@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T04:15:03.706Z",
-  "windowStart": "2026-09-21T04:15:03.706Z",
-  "windowEnd": "2026-10-21T04:15:03.706Z",
+  "generatedAt": "2026-10-21T13:38:11.740Z",
+  "windowStart": "2026-09-21T13:38:11.740Z",
+  "windowEnd": "2026-10-21T13:38:11.740Z",
   "topics": [
+    {
+      "id": "327df414b8e4",
+      "title": "Design v ADHD",
+      "teaser": "ADHD is a complex and common mental disorder which changes how the person processes information, behaves, and functions in society. Common recommendations for “ADHD-friendly design” include ",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T08:18:25.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Design v ADHD",
+          "url": "https://uxdesign.cc/design-vs-adhd-4411c3b81d1b?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-21T08:18:25.000Z"
+        }
+      ]
+    },
     {
       "id": "8486fba2f0f1",
       "title": "AI doesn’t care about your job title",
@@ -12,35 +32,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T21:29:28.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "AI doesn’t care about your job title",
           "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-20T21:29:28.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f271abf58df2",
-      "title": "Let AI have the average user: Why User Research should focus on bad days",
-      "teaser": "Nn/g found that synthetic research captures common responses. The bad days are still up to you. Continue reading on UX Collective »",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-20T21:30:52.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Let AI have the average user: Why User Research should focus on bad days",
-          "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-20T21:30:52.000Z"
         }
       ]
     },
@@ -52,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T21:39:27.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -145,26 +145,6 @@
       ]
     },
     {
-      "id": "8735e94a66af",
-      "title": "Design in the material you ship",
-      "teaser": "Designers should understand code the way an architect understands stone: what it can do, not how to cut it. AI now does the cutting. The same card in the design file and in the browser with ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-18T12:11:43.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Design in the material you ship",
-          "url": "https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-18T12:11:43.000Z"
-        }
-      ]
-    },
-    {
       "id": "85c030973a18",
       "title": "Show HN: Chai-UI – A design system to generative AI apps",
       "teaser": "",
@@ -172,15 +152,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T00:06:14.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Chai-UI – A design system to generative AI apps",
           "url": "https://chai-ui.com/",
           "publishedAt": "2026-10-20T00:06:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f271abf58df2",
+      "title": "Let AI have the average user: Why User Research should focus on bad days",
+      "teaser": "Nn/g found that synthetic research captures common responses. The bad days are still up to you. Continue reading on UX Collective »",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-20T21:30:52.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Let AI have the average user: Why User Research should focus on bad days",
+          "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-20T21:30:52.000Z"
         }
       ]
     },
@@ -201,26 +201,6 @@
           "title": "Design Systems",
           "url": "https://webflow.com/webflow-way/design-systems",
           "publishedAt": "2026-10-14T14:51:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8c253e73ef57",
-      "title": "TracePrism: Extending Semantic Trace Topics to Iterative, Encoding-Aware Trace Partitioning",
-      "teaser": "Process mining typically explains an event log with a single model, clustering, or classifier fitted to all cases, although real logs often mix cases that follow different sub-processes. Tra",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-20T17:04:41.000Z",
-      "since": "today",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "TracePrism: Extending Semantic Trace Topics to Iterative, Encoding-Aware Trace Partitioning",
-          "url": "https://arxiv.org/abs/2610.28532v1",
-          "publishedAt": "2026-10-20T17:04:41.000Z"
         }
       ]
     },
@@ -278,9 +258,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-18T19:06:49.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -336,11 +316,11 @@
       "teaser": "Ask any AI to \"design a dashboard\" and you get the same thing every time. A KPI row, a line chart, a...",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-13T21:11:14.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.71) with limited coverage over 8 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -380,7 +360,7 @@
       "publishedAt": "2026-10-07T21:55:52.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -400,7 +380,7 @@
       "publishedAt": "2026-10-12T17:55:42.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -420,7 +400,7 @@
       "publishedAt": "2026-10-04T18:59:25.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "69 engagement signals within 16 days",
+      "categoryReason": "69 engagement signals within 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -451,6 +431,26 @@
       ]
     },
     {
+      "id": "8c253e73ef57",
+      "title": "TracePrism: Extending Semantic Trace Topics to Iterative, Encoding-Aware Trace Partitioning",
+      "teaser": "Process mining typically explains an event log with a single model, clustering, or classifier fitted to all cases, although real logs often mix cases that follow different sub-processes. Tra",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-20T17:04:41.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "TracePrism: Extending Semantic Trace Topics to Iterative, Encoding-Aware Trace Partitioning",
+          "url": "https://arxiv.org/abs/2610.28532v1",
+          "publishedAt": "2026-10-20T17:04:41.000Z"
+        }
+      ]
+    },
+    {
       "id": "3738455d7fa9",
       "title": "Snapflow: An agentic design system for React, Vue and Angular",
       "teaser": "",
@@ -458,9 +458,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T23:42:31.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -478,15 +478,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T19:00:23.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
           "url": "https://swirltogether.com/",
           "publishedAt": "2026-10-19T19:00:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "84679c851736",
+      "title": "Building with Agents: QA and UX in the Loop",
+      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-05T15:09:22.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Building with Agents: QA and UX in the Loop",
+          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
+          "publishedAt": "2026-10-05T15:09:22.000Z"
         }
       ]
     },
@@ -520,7 +540,7 @@
       "publishedAt": "2026-10-12T21:39:07.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -540,7 +560,7 @@
       "publishedAt": "2026-10-02T20:43:52.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -560,7 +580,7 @@
       "publishedAt": "2026-10-08T19:48:12.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -578,9 +598,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T21:38:20.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -598,9 +618,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T16:39:11.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -660,7 +680,7 @@
       "publishedAt": "2026-09-28T00:29:04.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -698,9 +718,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-16T17:00:00.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -720,7 +740,7 @@
       "publishedAt": "2026-10-05T18:03:04.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -840,7 +860,7 @@
       "publishedAt": "2026-09-29T18:41:44.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -880,7 +900,7 @@
       "publishedAt": "2026-10-02T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "nngroup",
@@ -936,73 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-21T04:15:03.706Z"
+      "fetchedAt": "2026-10-21T13:38:11.740Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-21T04:15:03.741Z"
+      "fetchedAt": "2026-10-21T13:38:11.794Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-21T04:15:03.743Z"
+      "fetchedAt": "2026-10-21T13:38:11.796Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-21T04:15:03.743Z"
+      "fetchedAt": "2026-10-21T13:38:11.797Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-21T04:15:03.744Z"
+      "fetchedAt": "2026-10-21T13:38:11.798Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-21T04:15:03.745Z"
+      "fetchedAt": "2026-10-21T13:38:11.799Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-21T04:15:03.746Z"
+      "fetchedAt": "2026-10-21T13:38:11.800Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-21T04:15:03.746Z"
+      "fetchedAt": "2026-10-21T13:38:11.801Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-21T04:15:03.747Z"
+      "fetchedAt": "2026-10-21T13:38:11.802Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-21T04:15:03.748Z"
+      "fetchedAt": "2026-10-21T13:38:11.803Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-21T04:15:03.748Z"
+      "fetchedAt": "2026-10-21T13:38:11.804Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-21T04:15:03.749Z"
+      "fetchedAt": "2026-10-21T13:38:11.805Z"
     }
   ]
 }
