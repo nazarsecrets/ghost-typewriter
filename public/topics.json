@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T13:38:11.740Z",
-  "windowStart": "2026-09-21T13:38:11.740Z",
-  "windowEnd": "2026-10-21T13:38:11.740Z",
+  "generatedAt": "2026-10-21T20:00:07.249Z",
+  "windowStart": "2026-09-21T20:00:07.249Z",
+  "windowEnd": "2026-10-21T20:00:07.249Z",
   "topics": [
     {
       "id": "327df414b8e4",
@@ -165,6 +165,26 @@
       ]
     },
     {
+      "id": "8841b2023b95",
+      "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
+      "teaser": "I have built a note taking, to-do application, what makes this different then others? This app targets to make note taking fun, and efficient. - Most important feature it&#x27;s fast. Perfor",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T16:28:05.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
+          "url": "https://mtarin.com/projects/nift/",
+          "publishedAt": "2026-10-21T16:28:05.000Z"
+        }
+      ]
+    },
+    {
       "id": "f271abf58df2",
       "title": "Let AI have the average user: Why User Research should focus on bad days",
       "teaser": "Nn/g found that synthetic research captures common responses. The bad days are still up to you. Continue reading on UX Collective »",
@@ -278,9 +298,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-15T02:02:26.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -298,9 +318,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-11T07:19:22.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
       "sources": [
         {
           "name": "devto-design",
@@ -487,26 +507,6 @@
           "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
           "url": "https://swirltogether.com/",
           "publishedAt": "2026-10-19T19:00:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "84679c851736",
-      "title": "Building with Agents: QA and UX in the Loop",
-      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-05T15:09:22.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Building with Agents: QA and UX in the Loop",
-          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
-          "publishedAt": "2026-10-05T15:09:22.000Z"
         }
       ]
     },
@@ -811,6 +811,26 @@
       ]
     },
     {
+      "id": "84679c851736",
+      "title": "Building with Agents: QA and UX in the Loop",
+      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-05T15:09:22.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Building with Agents: QA and UX in the Loop",
+          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
+          "publishedAt": "2026-10-05T15:09:22.000Z"
+        }
+      ]
+    },
+    {
       "id": "b19ba53c904d",
       "title": "First Agentic AI Design System to Bootstrap Products",
       "teaser": "",
@@ -940,7 +960,7 @@
       "publishedAt": "2026-09-24T07:54:55.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -956,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-21T13:38:11.740Z"
+      "fetchedAt": "2026-10-21T20:00:07.249Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-21T13:38:11.794Z"
+      "fetchedAt": "2026-10-21T20:00:07.303Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-21T13:38:11.796Z"
+      "fetchedAt": "2026-10-21T20:00:07.304Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-21T13:38:11.797Z"
+      "fetchedAt": "2026-10-21T20:00:07.305Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-21T13:38:11.798Z"
+      "fetchedAt": "2026-10-21T20:00:07.306Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-21T13:38:11.799Z"
+      "fetchedAt": "2026-10-21T20:00:07.307Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-21T13:38:11.800Z"
+      "fetchedAt": "2026-10-21T20:00:07.308Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-21T13:38:11.801Z"
+      "fetchedAt": "2026-10-21T20:00:07.309Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 34,
-      "fetchedAt": "2026-10-21T13:38:11.802Z"
+      "items": 35,
+      "fetchedAt": "2026-10-21T20:00:07.310Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-21T13:38:11.803Z"
+      "fetchedAt": "2026-10-21T20:00:07.311Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-21T13:38:11.804Z"
+      "fetchedAt": "2026-10-21T20:00:07.312Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-21T13:38:11.805Z"
+      "fetchedAt": "2026-10-21T20:00:07.313Z"
     }
   ]
 }
