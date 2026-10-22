@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T13:40:10.091Z",
-  "windowStart": "2026-09-22T13:40:10.091Z",
-  "windowEnd": "2026-10-22T13:40:10.091Z",
+  "generatedAt": "2026-10-22T19:53:48.941Z",
+  "windowStart": "2026-09-22T19:53:48.941Z",
+  "windowEnd": "2026-10-22T19:53:48.941Z",
   "topics": [
     {
       "id": "3ae48086a72d",
@@ -316,11 +316,11 @@
       "teaser": "I want to show you the game I created recently and tell you whole the story&#x2F;experience - including backend&#x2F;latency&#x2F;scalability. You can try it quickly without an account - I c",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.57) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -340,7 +340,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 12 days",
       "sources": [
         {
           "name": "devto-design",
@@ -518,9 +518,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-21T03:20:51.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -811,6 +811,26 @@
       ]
     },
     {
+      "id": "355c8a83486d",
+      "title": "Common UX Design Methods, Ranked by Value",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-28T10:16:02.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Common UX Design Methods, Ranked by Value",
+          "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
+          "publishedAt": "2026-09-28T10:16:02.000Z"
+        }
+      ]
+    },
+    {
       "id": "3bb0a370b514",
       "title": "Show HN: Colorful Design System for Agents",
       "teaser": "",
@@ -847,26 +867,6 @@
           "title": "SaaS Pagination UX: Return to the Same Table View",
           "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
           "publishedAt": "2026-10-06T14:21:12.000Z"
-        }
-      ]
-    },
-    {
-      "id": "eea5252eb77d",
-      "title": "Phyll, a UX review for apps built with AI that keeps the design",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-24T07:54:55.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Phyll, a UX review for apps built with AI that keeps the design",
-          "url": "https://github.com/carlosphyll/phyll",
-          "publishedAt": "2026-09-24T07:54:55.000Z"
         }
       ]
     },
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-22T13:40:10.092Z"
+      "fetchedAt": "2026-10-22T19:53:48.941Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-22T13:40:10.161Z"
+      "fetchedAt": "2026-10-22T19:53:48.979Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-22T13:40:10.162Z"
+      "fetchedAt": "2026-10-22T19:53:48.980Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-22T13:40:10.163Z"
+      "fetchedAt": "2026-10-22T19:53:48.981Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-22T13:40:10.164Z"
+      "fetchedAt": "2026-10-22T19:53:48.981Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-22T13:40:10.165Z"
+      "fetchedAt": "2026-10-22T19:53:48.982Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-22T13:40:10.167Z"
+      "fetchedAt": "2026-10-22T19:53:48.983Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-22T13:40:10.167Z"
+      "fetchedAt": "2026-10-22T19:53:48.984Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 35,
-      "fetchedAt": "2026-10-22T13:40:10.168Z"
+      "fetchedAt": "2026-10-22T19:53:48.985Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-22T13:40:10.169Z"
+      "fetchedAt": "2026-10-22T19:53:48.985Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-22T13:40:10.170Z"
+      "fetchedAt": "2026-10-22T19:53:48.986Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-22T13:40:10.171Z"
+      "fetchedAt": "2026-10-22T19:53:48.987Z"
     }
   ]
 }
