@@ -1,9 +1,89 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T20:00:07.249Z",
-  "windowStart": "2026-09-21T20:00:07.249Z",
-  "windowEnd": "2026-10-21T20:00:07.249Z",
+  "generatedAt": "2026-10-22T04:14:55.716Z",
+  "windowStart": "2026-09-22T04:14:55.716Z",
+  "windowEnd": "2026-10-22T04:14:55.716Z",
   "topics": [
+    {
+      "id": "3ae48086a72d",
+      "title": "A founder with a tool is not a founder with a clue",
+      "teaser": "Somewhere in this room is the one person who can tell if any of it is actually good. AI made everyone else look exactly like them. AI lets a solo founder produce a product, but it can’t help",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T21:50:55.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "A founder with a tool is not a founder with a clue",
+          "url": "https://uxdesign.cc/a-founder-with-a-tool-is-not-a-founder-with-a-clue-65bccb0dc2f8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-21T21:50:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "af1a92fdfbbe",
+      "title": "Can you take AI at its word?",
+      "teaser": "AI agents explain their own work fluently, and sometimes wrongly. Designers stopped trusting that kind of account from people long ago. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T21:50:06.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Can you take AI at its word?",
+          "url": "https://uxdesign.cc/can-you-take-ai-at-its-word-06126b976245?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-21T21:50:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0f4482a4bda1",
+      "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
+      "teaser": "This technical report documents the design and implementation of Scriptorium, a digital library search interface designed to support multi-human, multi-AI collaboration: full cross-user tran",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-20T21:06:13.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
+          "url": "https://arxiv.org/abs/2610.28929v1",
+          "publishedAt": "2026-10-20T21:06:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d062ad21ca0d",
+      "title": "Show HN: Overdesigned Simple Solitaire",
+      "teaser": "I got irritated by the maximalism and lack of aesthetics present in modern software when trying to find a nice solitaire. A solitaire does not need a score, levels - and most of all it does ",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T20:45:22.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Overdesigned Simple Solitaire",
+          "url": "https://defaultsolitaire.app/",
+          "publishedAt": "2026-10-21T20:45:22.000Z"
+        }
+      ]
+    },
     {
       "id": "327df414b8e4",
       "title": "Design v ADHD",
@@ -12,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-21T08:18:25.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T11:50:05.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T11:12:29.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,35 +192,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T11:12:12.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "UX designers are not designing interfaces, they design personalities",
           "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-19T11:12:12.000Z"
-        }
-      ]
-    },
-    {
-      "id": "6328264e4b51",
-      "title": "Beyond the Canvas",
-      "teaser": "What Config India 2026 revealed about the expanding possibilities of design. Something is changing in the world of design, and Bengaluru offered a fascinating glimpse of where it’s heading. ",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-19T09:29:20.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Beyond the Canvas",
-          "url": "https://uxdesign.cc/beyond-the-canvas-03fce0bcbf7b?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-19T09:29:20.000Z"
         }
       ]
     },
@@ -165,22 +225,42 @@
       ]
     },
     {
-      "id": "8841b2023b95",
-      "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
-      "teaser": "I have built a note taking, to-do application, what makes this different then others? This app targets to make note taking fun, and efficient. - Most important feature it&#x27;s fast. Perfor",
-      "tag": "Leadership",
+      "id": "c9b41a6be4c3",
+      "title": "Privacy Preference Controls for Agentic Systems",
+      "teaser": "In response to vast and widespread online tracking, regulators and technologists alike have worked to develop laws and tools that allow people to express their privacy preferences. These mea",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-21T16:28:05.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "publishedAt": "2026-10-21T16:03:02.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
-          "url": "https://mtarin.com/projects/nift/",
-          "publishedAt": "2026-10-21T16:28:05.000Z"
+          "name": "arxiv-hci",
+          "title": "Privacy Preference Controls for Agentic Systems",
+          "url": "https://arxiv.org/abs/2610.29929v1",
+          "publishedAt": "2026-10-21T16:03:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6e9fd6c33291",
+      "title": "From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines",
+      "teaser": "Engineering graduates in India enter a technology sector that is being reshaped by generative AI, yet the route into that sector runs through examinations and campus placement screens that l",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T03:20:51.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines",
+          "url": "https://arxiv.org/abs/2610.29140v1",
+          "publishedAt": "2026-10-21T03:20:51.000Z"
         }
       ]
     },
@@ -210,11 +290,11 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-14T14:51:36.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -232,9 +312,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -252,9 +332,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-04T15:55:03.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 17 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -267,26 +347,6 @@
           "title": "Design Systems for AI Agents",
           "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
           "publishedAt": "2026-10-04T15:55:03.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f9b1121e8d96",
-      "title": "How to build a brand foundation with AI without losing your craft",
-      "teaser": "Here is how to use Claude and a handful of guardrails to build a design system that developers respect and clients can actually ship. Continue reading on UX Collective »",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-18T19:06:49.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "How to build a brand foundation with AI without losing your craft",
-          "url": "https://uxdesign.cc/how-to-build-a-brand-foundation-with-ai-without-losing-your-craft-d616b05cb838?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-18T19:06:49.000Z"
         }
       ]
     },
@@ -360,7 +420,7 @@
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -440,13 +500,33 @@
       "publishedAt": "2026-10-01T12:11:34.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
           "url": "https://github.com/dmitry-markin/silta",
           "publishedAt": "2026-10-01T12:11:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8841b2023b95",
+      "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
+      "teaser": "I have built a note taking, to-do application, what makes this different then others? This app targets to make note taking fun, and efficient. - Most important feature it&#x27;s fast. Perfor",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T16:28:05.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
+          "url": "https://mtarin.com/projects/nift/",
+          "publishedAt": "2026-10-21T16:28:05.000Z"
         }
       ]
     },
@@ -520,7 +600,7 @@
       "publishedAt": "2026-10-01T10:33:21.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -611,26 +691,6 @@
       ]
     },
     {
-      "id": "fdee0eb36a90",
-      "title": "Comparing Computer Use Behavior Across Multiple Levels of Abstraction",
-      "teaser": "Interaction traces record how people and agents use computers, and comparing them can reveal usability barriers, differences in expertise, and human--agent similarity. Yet traces are recorde",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-19T16:39:11.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Comparing Computer Use Behavior Across Multiple Levels of Abstraction",
-          "url": "https://arxiv.org/abs/2610.26703v1",
-          "publishedAt": "2026-10-19T16:39:11.000Z"
-        }
-      ]
-    },
-    {
       "id": "1d3746c9b0f3",
       "title": "Show HN: GrogLog, a Free Drink Tracker",
       "teaser": "It’s designed for people who are alcohol dependent and want to get visibility and control over their drinking in order to cut down or stop. Fully offline, better features than many paid apps",
@@ -638,9 +698,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-11T13:39:37.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -660,7 +720,7 @@
       "publishedAt": "2026-10-12T11:46:39.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -700,7 +760,7 @@
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -758,9 +818,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -780,7 +840,7 @@
       "publishedAt": "2026-10-06T14:21:12.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -800,7 +860,7 @@
       "publishedAt": "2026-10-06T09:03:06.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 16 days",
       "sources": [
         {
           "name": "devto-design",
@@ -820,7 +880,7 @@
       "publishedAt": "2026-10-05T15:09:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -840,7 +900,7 @@
       "publishedAt": "2026-10-05T11:33:13.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -860,7 +920,7 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -900,7 +960,7 @@
       "publishedAt": "2026-09-30T10:03:43.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -940,33 +1000,13 @@
       "publishedAt": "2026-09-28T10:16:02.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Common UX Design Methods, Ranked by Value",
           "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
           "publishedAt": "2026-09-28T10:16:02.000Z"
-        }
-      ]
-    },
-    {
-      "id": "eea5252eb77d",
-      "title": "Phyll, a UX review for apps built with AI that keeps the design",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-24T07:54:55.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Phyll, a UX review for apps built with AI that keeps the design",
-          "url": "https://github.com/carlosphyll/phyll",
-          "publishedAt": "2026-09-24T07:54:55.000Z"
         }
       ]
     }
@@ -976,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-21T20:00:07.249Z"
+      "fetchedAt": "2026-10-22T04:14:55.717Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-21T20:00:07.303Z"
+      "fetchedAt": "2026-10-22T04:14:55.770Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-21T20:00:07.304Z"
+      "fetchedAt": "2026-10-22T04:14:55.771Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-21T20:00:07.305Z"
+      "fetchedAt": "2026-10-22T04:14:55.772Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-21T20:00:07.306Z"
+      "fetchedAt": "2026-10-22T04:14:55.773Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-21T20:00:07.307Z"
+      "fetchedAt": "2026-10-22T04:14:55.774Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-21T20:00:07.308Z"
+      "fetchedAt": "2026-10-22T04:14:55.775Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-21T20:00:07.309Z"
+      "fetchedAt": "2026-10-22T04:14:55.776Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 35,
-      "fetchedAt": "2026-10-21T20:00:07.310Z"
+      "fetchedAt": "2026-10-22T04:14:55.777Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-21T20:00:07.311Z"
+      "fetchedAt": "2026-10-22T04:14:55.778Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-21T20:00:07.312Z"
+      "fetchedAt": "2026-10-22T04:14:55.779Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-21T20:00:07.313Z"
+      "fetchedAt": "2026-10-22T04:14:55.780Z"
     }
   ]
 }
