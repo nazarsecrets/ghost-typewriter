@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T04:14:55.716Z",
-  "windowStart": "2026-09-22T04:14:55.716Z",
-  "windowEnd": "2026-10-22T04:14:55.716Z",
+  "generatedAt": "2026-10-22T13:40:10.091Z",
+  "windowStart": "2026-09-22T13:40:10.091Z",
+  "windowEnd": "2026-10-22T13:40:10.091Z",
   "topics": [
     {
       "id": "3ae48086a72d",
@@ -12,75 +12,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-21T21:50:55.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "A founder with a tool is not a founder with a clue",
           "url": "https://uxdesign.cc/a-founder-with-a-tool-is-not-a-founder-with-a-clue-65bccb0dc2f8?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-21T21:50:55.000Z"
-        }
-      ]
-    },
-    {
-      "id": "af1a92fdfbbe",
-      "title": "Can you take AI at its word?",
-      "teaser": "AI agents explain their own work fluently, and sometimes wrongly. Designers stopped trusting that kind of account from people long ago. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-21T21:50:06.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Can you take AI at its word?",
-          "url": "https://uxdesign.cc/can-you-take-ai-at-its-word-06126b976245?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-21T21:50:06.000Z"
-        }
-      ]
-    },
-    {
-      "id": "0f4482a4bda1",
-      "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
-      "teaser": "This technical report documents the design and implementation of Scriptorium, a digital library search interface designed to support multi-human, multi-AI collaboration: full cross-user tran",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-20T21:06:13.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
-          "url": "https://arxiv.org/abs/2610.28929v1",
-          "publishedAt": "2026-10-20T21:06:13.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d062ad21ca0d",
-      "title": "Show HN: Overdesigned Simple Solitaire",
-      "teaser": "I got irritated by the maximalism and lack of aesthetics present in modern software when trying to find a nice solitaire. A solitaire does not need a score, levels - and most of all it does ",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-21T20:45:22.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Overdesigned Simple Solitaire",
-          "url": "https://defaultsolitaire.app/",
-          "publishedAt": "2026-10-21T20:45:22.000Z"
         }
       ]
     },
@@ -112,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T21:29:28.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T21:39:27.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -212,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T00:06:14.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -225,42 +165,22 @@
       ]
     },
     {
-      "id": "c9b41a6be4c3",
-      "title": "Privacy Preference Controls for Agentic Systems",
-      "teaser": "In response to vast and widespread online tracking, regulators and technologists alike have worked to develop laws and tools that allow people to express their privacy preferences. These mea",
+      "id": "af1a92fdfbbe",
+      "title": "Can you take AI at its word?",
+      "teaser": "AI agents explain their own work fluently, and sometimes wrongly. Designers stopped trusting that kind of account from people long ago. Continue reading on UX Collective »",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-21T16:03:02.000Z",
+      "publishedAt": "2026-10-21T21:50:06.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.571,
+      "relevanceScore": 0.857,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Privacy Preference Controls for Agentic Systems",
-          "url": "https://arxiv.org/abs/2610.29929v1",
-          "publishedAt": "2026-10-21T16:03:02.000Z"
-        }
-      ]
-    },
-    {
-      "id": "6e9fd6c33291",
-      "title": "From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines",
-      "teaser": "Engineering graduates in India enter a technology sector that is being reshaped by generative AI, yet the route into that sector runs through examinations and campus placement screens that l",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-21T03:20:51.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines",
-          "url": "https://arxiv.org/abs/2610.29140v1",
-          "publishedAt": "2026-10-21T03:20:51.000Z"
+          "name": "uxcollective",
+          "title": "Can you take AI at its word?",
+          "url": "https://uxdesign.cc/can-you-take-ai-at-its-word-06126b976245?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-21T21:50:06.000Z"
         }
       ]
     },
@@ -272,15 +192,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T21:30:52.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Let AI have the average user: Why User Research should focus on bad days",
           "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-20T21:30:52.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0f4482a4bda1",
+      "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
+      "teaser": "This technical report documents the design and implementation of Scriptorium, a digital library search interface designed to support multi-human, multi-AI collaboration: full cross-user tran",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-20T21:06:13.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
+          "url": "https://arxiv.org/abs/2610.28929v1",
+          "publishedAt": "2026-10-20T21:06:13.000Z"
         }
       ]
     },
@@ -351,6 +291,26 @@
       ]
     },
     {
+      "id": "d062ad21ca0d",
+      "title": "Show HN: Overdesigned Simple Solitaire",
+      "teaser": "I got irritated by the maximalism and lack of aesthetics present in modern software when trying to find a nice solitaire. A solitaire does not need a score, levels - and most of all it does ",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T20:45:22.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Overdesigned Simple Solitaire",
+          "url": "https://defaultsolitaire.app/",
+          "publishedAt": "2026-10-21T20:45:22.000Z"
+        }
+      ]
+    },
+    {
       "id": "0f3d4d5f7d5d",
       "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
       "teaser": "I want to show you the game I created recently and tell you whole the story&#x2F;experience - including backend&#x2F;latency&#x2F;scalability. You can try it quickly without an account - I c",
@@ -400,7 +360,7 @@
       "publishedAt": "2026-10-13T21:11:14.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -440,7 +400,7 @@
       "publishedAt": "2026-10-07T21:55:52.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -460,7 +420,7 @@
       "publishedAt": "2026-10-12T17:55:42.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -478,9 +438,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-10-04T18:59:25.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "69 engagement signals within 17 days",
+      "categoryReason": "69 engagement signals within 18 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -518,15 +478,55 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-21T16:28:05.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
           "url": "https://mtarin.com/projects/nift/",
           "publishedAt": "2026-10-21T16:28:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c9b41a6be4c3",
+      "title": "Privacy Preference Controls for Agentic Systems",
+      "teaser": "In response to vast and widespread online tracking, regulators and technologists alike have worked to develop laws and tools that allow people to express their privacy preferences. These mea",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T16:03:02.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Privacy Preference Controls for Agentic Systems",
+          "url": "https://arxiv.org/abs/2610.29929v1",
+          "publishedAt": "2026-10-21T16:03:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6e9fd6c33291",
+      "title": "From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines",
+      "teaser": "Engineering graduates in India enter a technology sector that is being reshaped by generative AI, yet the route into that sector runs through examinations and campus placement screens that l",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T03:20:51.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines",
+          "url": "https://arxiv.org/abs/2610.29140v1",
+          "publishedAt": "2026-10-21T03:20:51.000Z"
         }
       ]
     },
@@ -538,9 +538,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T17:04:41.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -558,9 +558,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T23:42:31.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -578,9 +578,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T19:00:23.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -620,7 +620,7 @@
       "publishedAt": "2026-10-12T21:39:07.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -640,7 +640,7 @@
       "publishedAt": "2026-10-02T20:43:52.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -660,7 +660,7 @@
       "publishedAt": "2026-10-08T19:48:12.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -678,9 +678,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T21:38:20.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -738,9 +738,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-09-28T00:29:04.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -778,9 +778,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-16T17:00:00.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -800,7 +800,7 @@
       "publishedAt": "2026-10-05T18:03:04.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -847,6 +847,26 @@
           "title": "SaaS Pagination UX: Return to the Same Table View",
           "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
           "publishedAt": "2026-10-06T14:21:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "eea5252eb77d",
+      "title": "Phyll, a UX review for apps built with AI that keeps the design",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-24T07:54:55.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Phyll, a UX review for apps built with AI that keeps the design",
+          "url": "https://github.com/carlosphyll/phyll",
+          "publishedAt": "2026-09-24T07:54:55.000Z"
         }
       ]
     },
@@ -940,7 +960,7 @@
       "publishedAt": "2026-09-29T18:41:44.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -980,33 +1000,13 @@
       "publishedAt": "2026-10-02T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "Empathy Mapping: The First Step in Design Thinking",
           "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-02T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "355c8a83486d",
-      "title": "Common UX Design Methods, Ranked by Value",
-      "teaser": "",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-28T10:16:02.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Common UX Design Methods, Ranked by Value",
-          "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
-          "publishedAt": "2026-09-28T10:16:02.000Z"
         }
       ]
     }
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-22T04:14:55.717Z"
+      "fetchedAt": "2026-10-22T13:40:10.092Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-22T04:14:55.770Z"
+      "fetchedAt": "2026-10-22T13:40:10.161Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-22T04:14:55.771Z"
+      "fetchedAt": "2026-10-22T13:40:10.162Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-22T04:14:55.772Z"
+      "fetchedAt": "2026-10-22T13:40:10.163Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-22T04:14:55.773Z"
+      "fetchedAt": "2026-10-22T13:40:10.164Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-22T04:14:55.774Z"
+      "fetchedAt": "2026-10-22T13:40:10.165Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-22T04:14:55.775Z"
+      "fetchedAt": "2026-10-22T13:40:10.167Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-22T04:14:55.776Z"
+      "fetchedAt": "2026-10-22T13:40:10.167Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 35,
-      "fetchedAt": "2026-10-22T04:14:55.777Z"
+      "fetchedAt": "2026-10-22T13:40:10.168Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-22T04:14:55.778Z"
+      "fetchedAt": "2026-10-22T13:40:10.169Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-22T04:14:55.779Z"
+      "fetchedAt": "2026-10-22T13:40:10.170Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-22T04:14:55.780Z"
+      "fetchedAt": "2026-10-22T13:40:10.171Z"
     }
   ]
 }
