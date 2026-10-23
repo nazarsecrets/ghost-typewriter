@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T19:53:48.941Z",
-  "windowStart": "2026-09-22T19:53:48.941Z",
-  "windowEnd": "2026-10-22T19:53:48.941Z",
+  "generatedAt": "2026-10-23T04:18:57.084Z",
+  "windowStart": "2026-09-23T04:18:57.084Z",
+  "windowEnd": "2026-10-23T04:18:57.084Z",
   "topics": [
+    {
+      "id": "2272dc16e650",
+      "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+      "teaser": "A product team weighs a purchased tool against an internal build at the same table. Artificial intelligence made building cheap and buying easy. The trade-off now turns on who owns the upkee",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-22T21:55:36.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-22T21:55:36.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7e00d26cf27e",
+      "title": "Navigating human-robot interaction challenges in private and residential aged care homes",
+      "teaser": "This chapter explores how robotic systems and ambient intelligence can enhance care for older adults in residential aged care (RAC) homes and private homes. Although these settings differ, w",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-22T12:07:31.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Navigating human-robot interaction challenges in private and residential aged care homes",
+          "url": "https://arxiv.org/abs/2610.31149v1",
+          "publishedAt": "2026-10-22T12:07:31.000Z"
+        }
+      ]
+    },
     {
       "id": "3ae48086a72d",
       "title": "A founder with a tool is not a founder with a clue",
@@ -32,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-21T08:18:25.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T11:50:05.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,35 +152,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-19T11:12:29.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "What if AI sets us free?",
           "url": "https://uxdesign.cc/what-if-ai-sets-us-free-084f4310709b?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-19T11:12:29.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4c6b948a02f1",
-      "title": "UX designers are not designing interfaces, they design personalities",
-      "teaser": "How tech culture impacts how we understand ourselves through apps Photo by blue sky on Unsplash In the last 20 years, the tech world has transformed parts of humanity into one-dimensional di",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-19T11:12:12.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "UX designers are not designing interfaces, they design personalities",
-          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-19T11:12:12.000Z"
         }
       ]
     },
@@ -185,6 +205,26 @@
       ]
     },
     {
+      "id": "987ff2bf6950",
+      "title": "Privacy Preference Controls for Agentic Systems",
+      "teaser": "In response to vast and widespread online tracking, regulators and technologists alike have worked to develop laws and tools that allow people to express their privacy preferences. These mea",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T16:03:02.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Privacy Preference Controls for Agentic Systems",
+          "url": "https://arxiv.org/abs/2610.29929v2",
+          "publishedAt": "2026-10-21T16:03:02.000Z"
+        }
+      ]
+    },
+    {
       "id": "f271abf58df2",
       "title": "Let AI have the average user: Why User Research should focus on bad days",
       "teaser": "Nn/g found that synthetic research captures common responses. The bad days are still up to you. Continue reading on UX Collective »",
@@ -205,26 +245,6 @@
       ]
     },
     {
-      "id": "0f4482a4bda1",
-      "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
-      "teaser": "This technical report documents the design and implementation of Scriptorium, a digital library search interface designed to support multi-human, multi-AI collaboration: full cross-user tran",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-20T21:06:13.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Scriptorium: System Design and Implementation of a Multi-Human, Multi-AI Collaborative Digital Library Search Platform",
-          "url": "https://arxiv.org/abs/2610.28929v1",
-          "publishedAt": "2026-10-20T21:06:13.000Z"
-        }
-      ]
-    },
-    {
       "id": "d2e060a9b0d3",
       "title": "Design Systems",
       "teaser": "",
@@ -234,7 +254,7 @@
       "publishedAt": "2026-10-14T14:51:36.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -252,9 +272,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -274,7 +294,7 @@
       "publishedAt": "2026-10-04T15:55:03.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 18 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -307,6 +327,66 @@
           "title": "Show HN: Overdesigned Simple Solitaire",
           "url": "https://defaultsolitaire.app/",
           "publishedAt": "2026-10-21T20:45:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2c2df3b56d99",
+      "title": "ABRA: Agent-Bound UI for Human-Agent Communication beyond Chat with Reusable Views",
+      "teaser": "Agents can create rich representations, yet these representations are rarely used as a medium for expressing user intent. We present Agent-Bound UI, an interaction model that separates reusa",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-22T06:01:39.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "ABRA: Agent-Bound UI for Human-Agent Communication beyond Chat with Reusable Views",
+          "url": "https://arxiv.org/abs/2610.30780v1",
+          "publishedAt": "2026-10-22T06:01:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8ae741dfab13",
+      "title": "Big World, Little Me: Comparing a First-Person VR Walkthrough Video and Static Slides for Communicating Height-Related Accessibility Barriers",
+      "teaser": "People with dwarfism and other forms of short stature may encounter barriers created by fixed-height environments and discriminatory social assumptions. This paper evaluates Big World, Littl",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-22T04:57:49.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Big World, Little Me: Comparing a First-Person VR Walkthrough Video and Static Slides for Communicating Height-Related Accessibility Barriers",
+          "url": "https://arxiv.org/abs/2610.30731v1",
+          "publishedAt": "2026-10-22T04:57:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c7b3cfd3c84b",
+      "title": "Exploring spatial configuration and group familiarity when co-watching 360-degree stories in social virtual reality",
+      "teaser": "While traditional cinematic viewing is often characterized as a social experience, engaging with immersive stories is predominantly researched as an individual activity. This mismatch become",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-21T19:11:45.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Exploring spatial configuration and group familiarity when co-watching 360-degree stories in social virtual reality",
+          "url": "https://arxiv.org/abs/2610.30353v1",
+          "publishedAt": "2026-10-21T19:11:45.000Z"
         }
       ]
     },
@@ -378,9 +458,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-12T08:53:11.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -460,7 +540,7 @@
       "publishedAt": "2026-10-01T12:11:34.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -487,66 +567,6 @@
           "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
           "url": "https://mtarin.com/projects/nift/",
           "publishedAt": "2026-10-21T16:28:05.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c9b41a6be4c3",
-      "title": "Privacy Preference Controls for Agentic Systems",
-      "teaser": "In response to vast and widespread online tracking, regulators and technologists alike have worked to develop laws and tools that allow people to express their privacy preferences. These mea",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-21T16:03:02.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Privacy Preference Controls for Agentic Systems",
-          "url": "https://arxiv.org/abs/2610.29929v1",
-          "publishedAt": "2026-10-21T16:03:02.000Z"
-        }
-      ]
-    },
-    {
-      "id": "6e9fd6c33291",
-      "title": "From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines",
-      "teaser": "Engineering graduates in India enter a technology sector that is being reshaped by generative AI, yet the route into that sector runs through examinations and campus placement screens that l",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-21T03:20:51.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "From AI-Free Gates to AI-First Work: How Engineering Students in India Navigate University Education and Campus Placements Without AI Guidelines",
-          "url": "https://arxiv.org/abs/2610.29140v1",
-          "publishedAt": "2026-10-21T03:20:51.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8c253e73ef57",
-      "title": "TracePrism: Extending Semantic Trace Topics to Iterative, Encoding-Aware Trace Partitioning",
-      "teaser": "Process mining typically explains an event log with a single model, clustering, or classifier fitted to all cases, although real logs often mix cases that follow different sub-processes. Tra",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-20T17:04:41.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "TracePrism: Extending Semantic Trace Topics to Iterative, Encoding-Aware Trace Partitioning",
-          "url": "https://arxiv.org/abs/2610.28532v1",
-          "publishedAt": "2026-10-20T17:04:41.000Z"
         }
       ]
     },
@@ -600,7 +620,7 @@
       "publishedAt": "2026-10-01T10:33:21.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -700,7 +720,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -718,9 +738,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-12T11:46:39.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -760,7 +780,7 @@
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -811,26 +831,6 @@
       ]
     },
     {
-      "id": "355c8a83486d",
-      "title": "Common UX Design Methods, Ranked by Value",
-      "teaser": "",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-28T10:16:02.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Common UX Design Methods, Ranked by Value",
-          "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
-          "publishedAt": "2026-09-28T10:16:02.000Z"
-        }
-      ]
-    },
-    {
       "id": "3bb0a370b514",
       "title": "Show HN: Colorful Design System for Agents",
       "teaser": "",
@@ -840,7 +840,7 @@
       "publishedAt": "2026-10-04T12:41:33.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -860,13 +860,33 @@
       "publishedAt": "2026-10-06T14:21:12.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "SaaS Pagination UX: Return to the Same Table View",
           "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
           "publishedAt": "2026-10-06T14:21:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "eea5252eb77d",
+      "title": "Phyll, a UX review for apps built with AI that keeps the design",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-24T07:54:55.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Phyll, a UX review for apps built with AI that keeps the design",
+          "url": "https://github.com/carlosphyll/phyll",
+          "publishedAt": "2026-09-24T07:54:55.000Z"
         }
       ]
     },
@@ -880,7 +900,7 @@
       "publishedAt": "2026-10-06T09:03:06.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
       "sources": [
         {
           "name": "devto-design",
@@ -898,9 +918,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-05T15:09:22.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -918,9 +938,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-05T11:33:13.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -938,9 +958,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-05T08:12:06.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -980,33 +1000,13 @@
       "publishedAt": "2026-09-30T10:03:43.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "How to Sync a Design System with Claude Design",
           "url": "https://nitayneeman.com/blog/how-to-sync-a-design-system-with-claude-design/",
           "publishedAt": "2026-09-30T10:03:43.000Z"
-        }
-      ]
-    },
-    {
-      "id": "41b123757eeb",
-      "title": "Empathy Mapping: The First Step in Design Thinking",
-      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Empathy Mapping: The First Step in Design Thinking",
-          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-02T17:00:00.000Z"
         }
       ]
     }
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-22T19:53:48.941Z"
+      "fetchedAt": "2026-10-23T04:18:57.085Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-22T19:53:48.979Z"
+      "fetchedAt": "2026-10-23T04:18:57.153Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-22T19:53:48.980Z"
+      "fetchedAt": "2026-10-23T04:18:57.155Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-22T19:53:48.981Z"
+      "fetchedAt": "2026-10-23T04:18:57.156Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-22T19:53:48.981Z"
+      "fetchedAt": "2026-10-23T04:18:57.157Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-22T19:53:48.982Z"
+      "fetchedAt": "2026-10-23T04:18:57.159Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-22T19:53:48.983Z"
+      "fetchedAt": "2026-10-23T04:18:57.160Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-22T19:53:48.984Z"
+      "fetchedAt": "2026-10-23T04:18:57.161Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 35,
-      "fetchedAt": "2026-10-22T19:53:48.985Z"
+      "fetchedAt": "2026-10-23T04:18:57.162Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-22T19:53:48.985Z"
+      "fetchedAt": "2026-10-23T04:18:57.163Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-22T19:53:48.986Z"
+      "fetchedAt": "2026-10-23T04:18:57.164Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-22T19:53:48.987Z"
+      "fetchedAt": "2026-10-23T04:18:57.165Z"
     }
   ]
 }
