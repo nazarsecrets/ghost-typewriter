@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T18:41:57.212Z",
-  "windowStart": "2026-09-24T18:41:57.212Z",
-  "windowEnd": "2026-10-24T18:41:57.212Z",
+  "generatedAt": "2026-10-25T04:12:21.674Z",
+  "windowStart": "2026-09-25T04:12:21.674Z",
+  "windowEnd": "2026-10-25T04:12:21.674Z",
   "topics": [
     {
       "id": "84c91daf12e9",
@@ -32,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T11:16:30.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-22T12:07:31.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-21T08:18:25.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -252,9 +252,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-14T14:51:36.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -272,9 +272,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -294,7 +294,7 @@
       "publishedAt": "2026-10-04T15:55:03.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -338,9 +338,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T11:15:20.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -358,9 +358,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T09:38:12.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -400,7 +400,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-design",
@@ -440,7 +440,7 @@
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -478,9 +478,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T14:27:01.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -540,7 +540,7 @@
       "publishedAt": "2026-10-01T12:11:34.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -578,9 +578,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-21T16:03:02.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -631,6 +631,66 @@
       ]
     },
     {
+      "id": "be3d36a21013",
+      "title": "SaaS Pagination UX: Return to the Same Table View",
+      "teaser": "When someone opens a record from a paginated SaaS table and goes back, restore the page, filters,...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-06T14:21:12.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "SaaS Pagination UX: Return to the Same Table View",
+          "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
+          "publishedAt": "2026-10-06T14:21:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "27872e4a3829",
+      "title": "Your design tokens stop at the web boundary",
+      "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-06T09:03:06.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Your design tokens stop at the web boundary",
+          "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
+          "publishedAt": "2026-10-06T09:03:06.000Z"
+        }
+      ]
+    },
+    {
+      "id": "84679c851736",
+      "title": "Building with Agents: QA and UX in the Loop",
+      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-05T15:09:22.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Building with Agents: QA and UX in the Loop",
+          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
+          "publishedAt": "2026-10-05T15:09:22.000Z"
+        }
+      ]
+    },
+    {
       "id": "235624794eb9",
       "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
       "teaser": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
@@ -660,7 +720,7 @@
       "publishedAt": "2026-10-01T10:33:21.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -751,22 +811,22 @@
       ]
     },
     {
-      "id": "77ffdd825f44",
-      "title": "A Design System in and for the Agentic Era",
+      "id": "b19ba53c904d",
+      "title": "First Agentic AI Design System to Bootstrap Products",
       "teaser": "",
-      "tag": "Systems",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-05T08:12:06.000Z",
+      "publishedAt": "2026-10-05T11:33:13.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "A Design System in and for the Agentic Era",
-          "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
-          "publishedAt": "2026-10-05T08:12:06.000Z"
+          "title": "First Agentic AI Design System to Bootstrap Products",
+          "url": "https://vitadesignsystem.com/",
+          "publishedAt": "2026-10-05T11:33:13.000Z"
         }
       ]
     },
@@ -811,6 +871,26 @@
       ]
     },
     {
+      "id": "76f3b424329b",
+      "title": "Password Reset UX: Make Recovery Clear and Safe",
+      "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-29T18:41:44.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Password Reset UX: Make Recovery Clear and Safe",
+          "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
+          "publishedAt": "2026-09-29T18:41:44.000Z"
+        }
+      ]
+    },
+    {
       "id": "79939802f3f9",
       "title": "Playing the sanshin without a sound",
       "teaser": "The slot machine and the checklist: a dilemma in feedback design. Continue reading on UX Collective »",
@@ -840,7 +920,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -860,7 +940,7 @@
       "publishedAt": "2026-10-12T11:46:39.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -900,7 +980,7 @@
       "publishedAt": "2026-09-25T09:22:55.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -929,86 +1009,6 @@
           "publishedAt": "2026-10-16T17:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "881910a121ac",
-      "title": "SaaS Search UX: Keep Filters When Results Are Empty",
-      "teaser": "When a SaaS search returns no results, keep the query and selected filters visible. Explain that...",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-05T18:03:04.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "SaaS Search UX: Keep Filters When Results Are Empty",
-          "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
-          "publishedAt": "2026-10-05T18:03:04.000Z"
-        }
-      ]
-    },
-    {
-      "id": "41b123757eeb",
-      "title": "Empathy Mapping: The First Step in Design Thinking",
-      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Empathy Mapping: The First Step in Design Thinking",
-          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-02T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "355c8a83486d",
-      "title": "Common UX Design Methods, Ranked by Value",
-      "teaser": "",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-28T10:16:02.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Common UX Design Methods, Ranked by Value",
-          "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
-          "publishedAt": "2026-09-28T10:16:02.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3bb0a370b514",
-      "title": "Show HN: Colorful Design System for Agents",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Colorful Design System for Agents",
-          "url": "https://orbeez-kit.vercel.app/chat",
-          "publishedAt": "2026-10-04T12:41:33.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-24T18:41:57.212Z"
+      "fetchedAt": "2026-10-25T04:12:21.674Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-24T18:41:57.276Z"
+      "fetchedAt": "2026-10-25T04:12:21.727Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-24T18:41:57.278Z"
+      "fetchedAt": "2026-10-25T04:12:21.728Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-24T18:41:57.280Z"
+      "fetchedAt": "2026-10-25T04:12:21.729Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-24T18:41:57.281Z"
+      "fetchedAt": "2026-10-25T04:12:21.730Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-24T18:41:57.283Z"
+      "fetchedAt": "2026-10-25T04:12:21.731Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-24T18:41:57.284Z"
+      "fetchedAt": "2026-10-25T04:12:21.732Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 12,
-      "fetchedAt": "2026-10-24T18:41:57.285Z"
+      "fetchedAt": "2026-10-25T04:12:21.733Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-10-24T18:41:57.287Z"
+      "fetchedAt": "2026-10-25T04:12:21.734Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-24T18:41:57.289Z"
+      "fetchedAt": "2026-10-25T04:12:21.735Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-24T18:41:57.290Z"
+      "fetchedAt": "2026-10-25T04:12:21.736Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-24T18:41:57.291Z"
+      "fetchedAt": "2026-10-25T04:12:21.737Z"
     }
   ]
 }
