@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T13:06:33.852Z",
-  "windowStart": "2026-09-25T13:06:33.852Z",
-  "windowEnd": "2026-10-25T13:06:33.852Z",
+  "generatedAt": "2026-10-25T18:50:36.182Z",
+  "windowStart": "2026-09-25T18:50:36.182Z",
+  "windowEnd": "2026-10-25T18:50:36.182Z",
   "topics": [
     {
       "id": "e5c6cabcdb0a",
@@ -41,26 +41,6 @@
           "title": "Where to draw the line before AI reaches professional users",
           "url": "https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-25T12:31:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "06ea14a2f213",
-      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-23T03:30:00.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
-          "publishedAt": "2026-10-23T03:30:00.000Z"
         }
       ]
     },
@@ -181,6 +161,26 @@
           "title": "Design v ADHD",
           "url": "https://uxdesign.cc/design-vs-adhd-4411c3b81d1b?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-21T08:18:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "06ea14a2f213",
+      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
+      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-23T03:30:00.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
+          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
+          "publishedAt": "2026-10-23T03:30:00.000Z"
         }
       ]
     },
@@ -311,26 +311,6 @@
       ]
     },
     {
-      "id": "443638309d1a",
-      "title": "The context advantage of human UX",
-      "teaser": "Context is today&#x2019;s human advantage, but it is also the raw material AI is rapidly learning to absorb. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-25T12:34:03.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The context advantage of human UX",
-          "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-25T12:34:03.000Z"
-        }
-      ]
-    },
-    {
       "id": "d062ad21ca0d",
       "title": "Show HN: Overdesigned Simple Solitaire",
       "teaser": "I got irritated by the maximalism and lack of aesthetics present in modern software when trying to find a nice solitaire. A solitaire does not need a score, levels - and most of all it does ",
@@ -398,9 +378,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-15T02:02:26.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -591,26 +571,6 @@
       ]
     },
     {
-      "id": "881910a121ac",
-      "title": "SaaS Search UX: Keep Filters When Results Are Empty",
-      "teaser": "When a SaaS search returns no results, keep the query and selected filters visible. Explain that...",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-05T18:03:04.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "SaaS Search UX: Keep Filters When Results Are Empty",
-          "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
-          "publishedAt": "2026-10-05T18:03:04.000Z"
-        }
-      ]
-    },
-    {
       "id": "987ff2bf6950",
       "title": "Privacy Preference Controls for Agentic Systems",
       "teaser": "In response to vast and widespread online tracking, regulators and technologists alike have worked to develop laws and tools that allow people to express their privacy preferences. These mea",
@@ -671,22 +631,42 @@
       ]
     },
     {
-      "id": "3bb0a370b514",
-      "title": "Show HN: Colorful Design System for Agents",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "443638309d1a",
+      "title": "The context advantage of human UX",
+      "teaser": "Context is today&#x2019;s human advantage, but it is also the raw material AI is rapidly learning to absorb. Continue reading on UX Collective »",
+      "tag": "AI",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "3 weeks ago",
+      "category": "Latest",
+      "publishedAt": "2026-10-25T12:34:03.000Z",
+      "since": "today",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Show HN: Colorful Design System for Agents",
-          "url": "https://orbeez-kit.vercel.app/chat",
-          "publishedAt": "2026-10-04T12:41:33.000Z"
+          "name": "uxcollective",
+          "title": "The context advantage of human UX",
+          "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-25T12:34:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "84679c851736",
+      "title": "Building with Agents: QA and UX in the Loop",
+      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-05T15:09:22.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Building with Agents: QA and UX in the Loop",
+          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
+          "publishedAt": "2026-10-05T15:09:22.000Z"
         }
       ]
     },
@@ -758,9 +738,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-22T06:01:39.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -778,9 +758,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-22T04:57:49.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -811,22 +791,22 @@
       ]
     },
     {
-      "id": "77ffdd825f44",
-      "title": "A Design System in and for the Agentic Era",
+      "id": "b19ba53c904d",
+      "title": "First Agentic AI Design System to Bootstrap Products",
       "teaser": "",
-      "tag": "Systems",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-05T08:12:06.000Z",
+      "publishedAt": "2026-10-05T11:33:13.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
       "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "A Design System in and for the Agentic Era",
-          "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
-          "publishedAt": "2026-10-05T08:12:06.000Z"
+          "title": "First Agentic AI Design System to Bootstrap Products",
+          "url": "https://vitadesignsystem.com/",
+          "publishedAt": "2026-10-05T11:33:13.000Z"
         }
       ]
     },
@@ -867,6 +847,26 @@
           "title": "Show HN: Launching NS UI easy to use components,AI slop should be a term of past",
           "url": "https://design.helpmarq.com",
           "publishedAt": "2026-10-08T19:48:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "76f3b424329b",
+      "title": "Password Reset UX: Make Recovery Clear and Safe",
+      "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-29T18:41:44.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Password Reset UX: Make Recovery Clear and Safe",
+          "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
+          "publishedAt": "2026-09-29T18:41:44.000Z"
         }
       ]
     },
@@ -951,42 +951,42 @@
       ]
     },
     {
-      "id": "41b123757eeb",
-      "title": "Empathy Mapping: The First Step in Design Thinking",
-      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
-      "tag": "Leadership",
+      "id": "881910a121ac",
+      "title": "SaaS Search UX: Keep Filters When Results Are Empty",
+      "teaser": "When a SaaS search returns no results, keep the query and selected filters visible. Explain that...",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-02T17:00:00.000Z",
+      "publishedAt": "2026-10-05T18:03:04.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
-          "name": "nngroup",
-          "title": "Empathy Mapping: The First Step in Design Thinking",
-          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-02T17:00:00.000Z"
+          "name": "devto-ux",
+          "title": "SaaS Search UX: Keep Filters When Results Are Empty",
+          "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
+          "publishedAt": "2026-10-05T18:03:04.000Z"
         }
       ]
     },
     {
-      "id": "355c8a83486d",
-      "title": "Common UX Design Methods, Ranked by Value",
+      "id": "3bb0a370b514",
+      "title": "Show HN: Colorful Design System for Agents",
       "teaser": "",
-      "tag": "Process",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-28T10:16:02.000Z",
-      "since": "4 weeks ago",
+      "publishedAt": "2026-10-04T12:41:33.000Z",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
-          "name": "hn-ux",
-          "title": "Common UX Design Methods, Ranked by Value",
-          "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
-          "publishedAt": "2026-09-28T10:16:02.000Z"
+          "name": "hn-designsystem",
+          "title": "Show HN: Colorful Design System for Agents",
+          "url": "https://orbeez-kit.vercel.app/chat",
+          "publishedAt": "2026-10-04T12:41:33.000Z"
         }
       ]
     },
@@ -1016,73 +1016,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-25T13:06:33.853Z"
+      "fetchedAt": "2026-10-25T18:50:36.182Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-25T13:06:33.886Z"
+      "fetchedAt": "2026-10-25T18:50:36.227Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-25T13:06:33.887Z"
+      "fetchedAt": "2026-10-25T18:50:36.229Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-25T13:06:33.888Z"
+      "fetchedAt": "2026-10-25T18:50:36.230Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-25T13:06:33.888Z"
+      "fetchedAt": "2026-10-25T18:50:36.231Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-25T13:06:33.889Z"
+      "fetchedAt": "2026-10-25T18:50:36.232Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-25T13:06:33.890Z"
+      "fetchedAt": "2026-10-25T18:50:36.233Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-25T13:06:33.890Z"
+      "fetchedAt": "2026-10-25T18:50:36.234Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-10-25T13:06:33.891Z"
+      "fetchedAt": "2026-10-25T18:50:36.234Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-25T13:06:33.892Z"
+      "fetchedAt": "2026-10-25T18:50:36.235Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-25T13:06:33.892Z"
+      "fetchedAt": "2026-10-25T18:50:36.236Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-25T13:06:33.893Z"
+      "fetchedAt": "2026-10-25T18:50:36.237Z"
     }
   ]
 }
