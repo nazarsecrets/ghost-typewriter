@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T15:03:05.201Z",
-  "windowStart": "2026-09-26T15:03:05.201Z",
-  "windowEnd": "2026-10-26T15:03:05.201Z",
+  "generatedAt": "2026-10-26T20:57:35.870Z",
+  "windowStart": "2026-09-26T20:57:35.870Z",
+  "windowEnd": "2026-10-26T20:57:35.870Z",
   "topics": [
     {
       "id": "2c993045c3b2",
@@ -192,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T03:30:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "devto-design",
@@ -241,26 +241,6 @@
           "title": "Design Systems",
           "url": "https://webflow.com/webflow-way/design-systems",
           "publishedAt": "2026-10-14T14:51:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8ee6e57097d8",
-      "title": "The tap that pours hot water, not cold",
-      "teaser": "On where a sushi self-service system quietly puts its risk Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-26T11:26:19.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The tap that pours hot water, not cold",
-          "url": "https://uxdesign.cc/the-tap-that-pours-hot-water-not-cold-8983ac0b614c?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-26T11:26:19.000Z"
         }
       ]
     },
@@ -400,7 +380,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 16 days",
       "sources": [
         {
           "name": "devto-design",
@@ -420,7 +400,7 @@
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -527,6 +507,26 @@
           "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
           "url": "https://mtarin.com/projects/nift/",
           "publishedAt": "2026-10-21T16:28:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8ee6e57097d8",
+      "title": "The tap that pours hot water, not cold",
+      "teaser": "On where a sushi self-service system quietly puts its risk Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-26T11:26:19.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The tap that pours hot water, not cold",
+          "url": "https://uxdesign.cc/the-tap-that-pours-hot-water-not-cold-8983ac0b614c?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-26T11:26:19.000Z"
         }
       ]
     },
@@ -880,7 +880,7 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -956,73 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-26T15:03:05.202Z"
+      "fetchedAt": "2026-10-26T20:57:35.870Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-26T15:03:05.246Z"
+      "fetchedAt": "2026-10-26T20:57:35.923Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-26T15:03:05.247Z"
+      "fetchedAt": "2026-10-26T20:57:35.925Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-26T15:03:05.248Z"
+      "fetchedAt": "2026-10-26T20:57:35.926Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-26T15:03:05.249Z"
+      "fetchedAt": "2026-10-26T20:57:35.927Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-26T15:03:05.249Z"
+      "fetchedAt": "2026-10-26T20:57:35.928Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-26T15:03:05.250Z"
+      "fetchedAt": "2026-10-26T20:57:35.929Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-26T15:03:05.251Z"
+      "fetchedAt": "2026-10-26T20:57:35.930Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-26T15:03:05.252Z"
+      "fetchedAt": "2026-10-26T20:57:35.931Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-26T15:03:05.253Z"
+      "fetchedAt": "2026-10-26T20:57:35.932Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-26T15:03:05.253Z"
+      "fetchedAt": "2026-10-26T20:57:35.933Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-10-26T15:03:05.254Z"
+      "fetchedAt": "2026-10-26T20:57:35.934Z"
     }
   ]
 }
