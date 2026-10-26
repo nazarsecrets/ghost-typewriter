@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T18:50:36.182Z",
-  "windowStart": "2026-09-25T18:50:36.182Z",
-  "windowEnd": "2026-10-25T18:50:36.182Z",
+  "generatedAt": "2026-10-26T04:16:16.437Z",
+  "windowStart": "2026-09-26T04:16:16.437Z",
+  "windowEnd": "2026-10-26T04:16:16.437Z",
   "topics": [
+    {
+      "id": "2dbb22ffd587",
+      "title": "Runtime BiDi Structural Verification Catches Right-to-Left Layout Defects that Accessibility, Actionability, and Logical-Property Linting Miss",
+      "teaser": "Bidirectional (right-to-left, RTL) layout defects arise when interfaces authored with physical directional CSS (margin-left, border-left, text-align:left) are rendered under dir=\"rtl\" withou",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-23T17:31:35.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Runtime BiDi Structural Verification Catches Right-to-Left Layout Defects that Accessibility, Actionability, and Logical-Property Linting Miss",
+          "url": "https://arxiv.org/abs/2610.32934v1",
+          "publishedAt": "2026-10-23T17:31:35.000Z"
+        }
+      ]
+    },
     {
       "id": "e5c6cabcdb0a",
       "title": "Nobody asked for the sparkle button",
@@ -12,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-25T12:33:57.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -32,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-25T12:31:45.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T11:16:30.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -101,26 +121,6 @@
           "title": "Buy vs. build is now also a UX decision, especially in enterprise",
           "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-22T21:55:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7e00d26cf27e",
-      "title": "Navigating human-robot interaction challenges in private and residential aged care homes",
-      "teaser": "This chapter explores how robotic systems and ambient intelligence can enhance care for older adults in residential aged care (RAC) homes and private homes. Although these settings differ, w",
-      "tag": "Ethics",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-22T12:07:31.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Navigating human-robot interaction challenges in private and residential aged care homes",
-          "url": "https://arxiv.org/abs/2610.31149v1",
-          "publishedAt": "2026-10-22T12:07:31.000Z"
         }
       ]
     },
@@ -152,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-21T08:18:25.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -254,7 +254,7 @@
       "publishedAt": "2026-10-14T14:51:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -272,9 +272,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -294,7 +294,7 @@
       "publishedAt": "2026-10-04T15:55:03.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 21 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -338,15 +338,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T11:15:20.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Supersonic dreams: how post-war France invented the future, and then stopped",
           "url": "https://uxdesign.cc/supersonic-dreams-how-post-war-france-invented-the-future-and-then-stopped-fe2cb26dc7cc?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-23T11:15:20.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d2b052d2a36f",
+      "title": "From Perception to Pixels: Human-Derived Visually Distinct Colors for Improved Dominant Color Extraction",
+      "teaser": "Dominant color extraction is a fundamental task in computer vision, with applications in design, image retrieval, and content recommendation. However, conventional algorithms based on device",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-23T10:42:23.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "From Perception to Pixels: Human-Derived Visually Distinct Colors for Improved Dominant Color Extraction",
+          "url": "https://arxiv.org/abs/2610.32473v1",
+          "publishedAt": "2026-10-23T10:42:23.000Z"
         }
       ]
     },
@@ -358,9 +378,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T09:38:12.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -400,33 +420,13 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-design",
           "title": "Why I Built DSLint: A Design System Linter for Figma",
           "url": "https://dev.to/krishnakakade/why-i-built-dslint-a-design-system-linter-for-figma-51ge",
           "publishedAt": "2026-10-11T07:19:22.000Z"
-        }
-      ]
-    },
-    {
-      "id": "835088159f48",
-      "title": "I built a Claude skill that makes AI design like a senior UX designer",
-      "teaser": "Ask any AI to \"design a dashboard\" and you get the same thing every time. A KPI row, a line chart, a...",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-13T21:11:14.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 12 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "I built a Claude skill that makes AI design like a senior UX designer",
-          "url": "https://dev.to/zeeshani42/i-built-a-claude-skill-that-makes-ai-design-like-a-senior-ux-designer-2gdm",
-          "publishedAt": "2026-10-13T21:11:14.000Z"
         }
       ]
     },
@@ -440,7 +440,7 @@
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -478,9 +478,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T14:27:01.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -531,26 +531,6 @@
       ]
     },
     {
-      "id": "545584389745",
-      "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
-      "teaser": "Silta is a self-hosted assistant serving multiple users from a single Matrix account, used by me, family, and close friends for the last three weeks. It runs on Claude Code with each person ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-01T12:11:34.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
-          "url": "https://github.com/dmitry-markin/silta",
-          "publishedAt": "2026-10-01T12:11:34.000Z"
-        }
-      ]
-    },
-    {
       "id": "8841b2023b95",
       "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
       "teaser": "I have built a note taking, to-do application, what makes this different then others? This app targets to make note taking fun, and efficient. - Most important feature it&#x27;s fast. Perfor",
@@ -567,26 +547,6 @@
           "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
           "url": "https://mtarin.com/projects/nift/",
           "publishedAt": "2026-10-21T16:28:05.000Z"
-        }
-      ]
-    },
-    {
-      "id": "987ff2bf6950",
-      "title": "Privacy Preference Controls for Agentic Systems",
-      "teaser": "In response to vast and widespread online tracking, regulators and technologists alike have worked to develop laws and tools that allow people to express their privacy preferences. These mea",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-21T16:03:02.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Privacy Preference Controls for Agentic Systems",
-          "url": "https://arxiv.org/abs/2610.29929v2",
-          "publishedAt": "2026-10-21T16:03:02.000Z"
         }
       ]
     },
@@ -638,35 +598,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-25T12:34:03.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "The context advantage of human UX",
           "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-25T12:34:03.000Z"
-        }
-      ]
-    },
-    {
-      "id": "84679c851736",
-      "title": "Building with Agents: QA and UX in the Loop",
-      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-05T15:09:22.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Building with Agents: QA and UX in the Loop",
-          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
-          "publishedAt": "2026-10-05T15:09:22.000Z"
         }
       ]
     },
@@ -691,26 +631,6 @@
       ]
     },
     {
-      "id": "f1bc9fd813d2",
-      "title": "First-class design systems on a Ryanair budget",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-01T10:33:21.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "First-class design systems on a Ryanair budget",
-          "url": "https://statecraftapp.com/field-notes/first-class-on-a-ryanair-budget",
-          "publishedAt": "2026-10-01T10:33:21.000Z"
-        }
-      ]
-    },
-    {
       "id": "f50228309f32",
       "title": "Show HN: Turn spoken thoughts into system design diagrams",
       "teaser": "I recently had an issue with my right hand, and couldn&#x27;t use it very effectively. So I was trying to figure out how I could still get work done without typing everything with my right h",
@@ -731,82 +651,22 @@
       ]
     },
     {
-      "id": "2c2df3b56d99",
-      "title": "ABRA: Agent-Bound UI for Human-Agent Communication beyond Chat with Reusable Views",
-      "teaser": "Agents can create rich representations, yet these representations are rarely used as a medium for expressing user intent. We present Agent-Bound UI, an interaction model that separates reusa",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-22T06:01:39.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "ABRA: Agent-Bound UI for Human-Agent Communication beyond Chat with Reusable Views",
-          "url": "https://arxiv.org/abs/2610.30780v1",
-          "publishedAt": "2026-10-22T06:01:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8ae741dfab13",
-      "title": "Big World, Little Me: Comparing a First-Person VR Walkthrough Video and Static Slides for Communicating Height-Related Accessibility Barriers",
-      "teaser": "People with dwarfism and other forms of short stature may encounter barriers created by fixed-height environments and discriminatory social assumptions. This paper evaluates Big World, Littl",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-22T04:57:49.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Big World, Little Me: Comparing a First-Person VR Walkthrough Video and Static Slides for Communicating Height-Related Accessibility Barriers",
-          "url": "https://arxiv.org/abs/2610.30731v1",
-          "publishedAt": "2026-10-22T04:57:49.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c7b3cfd3c84b",
-      "title": "Exploring spatial configuration and group familiarity when co-watching 360-degree stories in social virtual reality",
-      "teaser": "While traditional cinematic viewing is often characterized as a social experience, engaging with immersive stories is predominantly researched as an individual activity. This mismatch become",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-21T19:11:45.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Exploring spatial configuration and group familiarity when co-watching 360-degree stories in social virtual reality",
-          "url": "https://arxiv.org/abs/2610.30353v1",
-          "publishedAt": "2026-10-21T19:11:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b19ba53c904d",
-      "title": "First Agentic AI Design System to Bootstrap Products",
+      "id": "77ffdd825f44",
+      "title": "A Design System in and for the Agentic Era",
       "teaser": "",
-      "tag": "AI",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-05T11:33:13.000Z",
+      "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "First Agentic AI Design System to Bootstrap Products",
-          "url": "https://vitadesignsystem.com/",
-          "publishedAt": "2026-10-05T11:33:13.000Z"
+          "title": "A Design System in and for the Agentic Era",
+          "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
+          "publishedAt": "2026-10-05T08:12:06.000Z"
         }
       ]
     },
@@ -851,26 +711,6 @@
       ]
     },
     {
-      "id": "76f3b424329b",
-      "title": "Password Reset UX: Make Recovery Clear and Safe",
-      "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-29T18:41:44.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Password Reset UX: Make Recovery Clear and Safe",
-          "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
-          "publishedAt": "2026-09-29T18:41:44.000Z"
-        }
-      ]
-    },
-    {
       "id": "1d3746c9b0f3",
       "title": "Show HN: GrogLog, a Free Drink Tracker",
       "teaser": "It’s designed for people who are alcohol dependent and want to get visibility and control over their drinking in order to cut down or stop. Fully offline, better features than many paid apps",
@@ -880,7 +720,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -900,7 +740,7 @@
       "publishedAt": "2026-10-12T11:46:39.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -971,6 +811,46 @@
       ]
     },
     {
+      "id": "41b123757eeb",
+      "title": "Empathy Mapping: The First Step in Design Thinking",
+      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-02T17:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Empathy Mapping: The First Step in Design Thinking",
+          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-02T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "355c8a83486d",
+      "title": "Common UX Design Methods, Ranked by Value",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-28T10:16:02.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Common UX Design Methods, Ranked by Value",
+          "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
+          "publishedAt": "2026-09-28T10:16:02.000Z"
+        }
+      ]
+    },
+    {
       "id": "3bb0a370b514",
       "title": "Show HN: Colorful Design System for Agents",
       "teaser": "",
@@ -980,7 +860,7 @@
       "publishedAt": "2026-10-04T12:41:33.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -1000,13 +880,73 @@
       "publishedAt": "2026-10-06T14:21:12.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "SaaS Pagination UX: Return to the Same Table View",
           "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
           "publishedAt": "2026-10-06T14:21:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "84679c851736",
+      "title": "Building with Agents: QA and UX in the Loop",
+      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-05T15:09:22.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Building with Agents: QA and UX in the Loop",
+          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
+          "publishedAt": "2026-10-05T15:09:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b19ba53c904d",
+      "title": "First Agentic AI Design System to Bootstrap Products",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-05T11:33:13.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "First Agentic AI Design System to Bootstrap Products",
+          "url": "https://vitadesignsystem.com/",
+          "publishedAt": "2026-10-05T11:33:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "76f3b424329b",
+      "title": "Password Reset UX: Make Recovery Clear and Safe",
+      "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-09-29T18:41:44.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Password Reset UX: Make Recovery Clear and Safe",
+          "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
+          "publishedAt": "2026-09-29T18:41:44.000Z"
         }
       ]
     }
@@ -1016,73 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-25T18:50:36.182Z"
+      "fetchedAt": "2026-10-26T04:16:16.438Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-25T18:50:36.227Z"
+      "fetchedAt": "2026-10-26T04:16:16.493Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-25T18:50:36.229Z"
+      "fetchedAt": "2026-10-26T04:16:16.494Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-25T18:50:36.230Z"
+      "fetchedAt": "2026-10-26T04:16:16.496Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-25T18:50:36.231Z"
+      "fetchedAt": "2026-10-26T04:16:16.497Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-25T18:50:36.232Z"
+      "fetchedAt": "2026-10-26T04:16:16.498Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-25T18:50:36.233Z"
+      "fetchedAt": "2026-10-26T04:16:16.499Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-25T18:50:36.234Z"
+      "fetchedAt": "2026-10-26T04:16:16.500Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 36,
-      "fetchedAt": "2026-10-25T18:50:36.234Z"
+      "items": 35,
+      "fetchedAt": "2026-10-26T04:16:16.501Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-25T18:50:36.235Z"
+      "fetchedAt": "2026-10-26T04:16:16.502Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-25T18:50:36.236Z"
+      "fetchedAt": "2026-10-26T04:16:16.502Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-25T18:50:36.237Z"
+      "fetchedAt": "2026-10-26T04:16:16.503Z"
     }
   ]
 }
