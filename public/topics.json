@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T20:57:35.870Z",
-  "windowStart": "2026-09-26T20:57:35.870Z",
-  "windowEnd": "2026-10-26T20:57:35.870Z",
+  "generatedAt": "2026-10-27T04:34:57.510Z",
+  "windowStart": "2026-09-27T04:34:57.510Z",
+  "windowEnd": "2026-10-27T04:34:57.510Z",
   "topics": [
+    {
+      "id": "f7ec8b84e9b9",
+      "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+      "teaser": "In-System Design A practical guide for designers: why my design system starts in code, and how I build, check and maintain the Figma library. In-System Design: a three-part series. Part 1: B",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-26T21:33:16.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-26T21:33:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "842478e9de62",
+      "title": "Does Apple’s HomeView reduce effort, or ask for our attention?",
+      "teaser": "Truly useful domestic technology fades into the background. Too many smart home screens demand centre stage. The Apple HomeView, image credit: Apple. Apple’s latest foray into the home autom",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-26T21:32:18.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Does Apple’s HomeView reduce effort, or ask for our attention?",
+          "url": "https://uxdesign.cc/does-apples-homeview-reduce-effort-or-ask-for-our-attention-ad7e892d17e2?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-26T21:32:18.000Z"
+        }
+      ]
+    },
     {
       "id": "2c993045c3b2",
       "title": "Who gets to name the future?",
@@ -12,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-26T11:26:31.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -32,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-26T11:20:17.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -52,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-25T12:33:57.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,35 +112,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-25T12:31:45.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Where to draw the line before AI reaches professional users",
           "url": "https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-25T12:31:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "2dbb22ffd587",
-      "title": "Runtime BiDi Structural Verification Catches Right-to-Left Layout Defects that Accessibility, Actionability, and Logical-Property Linting Miss",
-      "teaser": "Bidirectional (right-to-left, RTL) layout defects arise when interfaces authored with physical directional CSS (margin-left, border-left, text-align:left) are rendered under dir=\"rtl\" withou",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-23T17:31:35.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Runtime BiDi Structural Verification Catches Right-to-Left Layout Defects that Accessibility, Actionability, and Logical-Property Linting Miss",
-          "url": "https://arxiv.org/abs/2610.32934v1",
-          "publishedAt": "2026-10-23T17:31:35.000Z"
         }
       ]
     },
@@ -132,75 +152,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T11:16:30.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Entering Atomic Design from the screen",
           "url": "https://uxdesign.cc/entering-atomic-design-from-the-screen-bae744ecc288?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-23T11:16:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "2272dc16e650",
-      "title": "Buy vs. build is now also a UX decision, especially in enterprise",
-      "teaser": "A product team weighs a purchased tool against an internal build at the same table. Artificial intelligence made building cheap and buying easy. The trade-off now turns on who owns the upkee",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-22T21:55:36.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
-          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-22T21:55:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3ae48086a72d",
-      "title": "A founder with a tool is not a founder with a clue",
-      "teaser": "Somewhere in this room is the one person who can tell if any of it is actually good. AI made everyone else look exactly like them. AI lets a solo founder produce a product, but it can’t help",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-21T21:50:55.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "A founder with a tool is not a founder with a clue",
-          "url": "https://uxdesign.cc/a-founder-with-a-tool-is-not-a-founder-with-a-clue-65bccb0dc2f8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-21T21:50:55.000Z"
-        }
-      ]
-    },
-    {
-      "id": "06ea14a2f213",
-      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-23T03:30:00.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
-          "publishedAt": "2026-10-23T03:30:00.000Z"
         }
       ]
     },
@@ -234,7 +194,7 @@
       "publishedAt": "2026-10-14T14:51:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -252,9 +212,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -274,7 +234,7 @@
       "publishedAt": "2026-10-04T15:55:03.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 22 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -318,9 +278,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T11:15:20.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -338,9 +298,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T09:38:12.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -438,9 +398,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T14:27:01.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -498,9 +458,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-21T16:28:05.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -518,9 +478,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-26T11:26:19.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -578,9 +538,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-25T12:34:03.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -607,26 +567,6 @@
           "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
           "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-23T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d2b052d2a36f",
-      "title": "From Perception to Pixels: Human-Derived Visually Distinct Colors for Improved Dominant Color Extraction",
-      "teaser": "Dominant color extraction is a fundamental task in computer vision, with applications in design, image retrieval, and content recommendation. However, conventional algorithms based on device",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-23T10:42:23.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "From Perception to Pixels: Human-Derived Visually Distinct Colors for Improved Dominant Color Extraction",
-          "url": "https://arxiv.org/abs/2610.32473v1",
-          "publishedAt": "2026-10-23T10:42:23.000Z"
         }
       ]
     },
@@ -700,7 +640,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -720,7 +660,7 @@
       "publishedAt": "2026-10-12T11:46:39.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -800,7 +740,7 @@
       "publishedAt": "2026-10-04T12:41:33.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -820,33 +760,13 @@
       "publishedAt": "2026-10-06T14:21:12.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "SaaS Pagination UX: Return to the Same Table View",
           "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
           "publishedAt": "2026-10-06T14:21:12.000Z"
-        }
-      ]
-    },
-    {
-      "id": "84679c851736",
-      "title": "Building with Agents: QA and UX in the Loop",
-      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-05T15:09:22.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Building with Agents: QA and UX in the Loop",
-          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
-          "publishedAt": "2026-10-05T15:09:22.000Z"
         }
       ]
     },
@@ -860,7 +780,7 @@
       "publishedAt": "2026-10-05T11:33:13.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -940,7 +860,7 @@
       "publishedAt": "2026-09-28T10:16:02.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -956,73 +876,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-26T20:57:35.870Z"
+      "fetchedAt": "2026-10-27T04:34:57.511Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-26T20:57:35.923Z"
+      "fetchedAt": "2026-10-27T04:34:57.562Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-26T20:57:35.925Z"
+      "fetchedAt": "2026-10-27T04:34:57.563Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-26T20:57:35.926Z"
+      "fetchedAt": "2026-10-27T04:34:57.564Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-26T20:57:35.927Z"
+      "fetchedAt": "2026-10-27T04:34:57.565Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-26T20:57:35.928Z"
+      "fetchedAt": "2026-10-27T04:34:57.566Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-26T20:57:35.929Z"
+      "fetchedAt": "2026-10-27T04:34:57.567Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-26T20:57:35.930Z"
+      "fetchedAt": "2026-10-27T04:34:57.567Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-26T20:57:35.931Z"
+      "fetchedAt": "2026-10-27T04:34:57.568Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-10-26T20:57:35.932Z"
+      "ok": false,
+      "items": 0,
+      "fetchedAt": "2026-10-27T04:34:57.569Z",
+      "error": "This operation was aborted"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-26T20:57:35.933Z"
+      "fetchedAt": "2026-10-27T04:34:57.570Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-10-26T20:57:35.934Z"
+      "fetchedAt": "2026-10-27T04:34:57.571Z"
     }
   ]
 }
