@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T04:34:57.510Z",
-  "windowStart": "2026-09-27T04:34:57.510Z",
-  "windowEnd": "2026-10-27T04:34:57.510Z",
+  "generatedAt": "2026-10-27T14:17:05.356Z",
+  "windowStart": "2026-09-27T14:17:05.356Z",
+  "windowEnd": "2026-10-27T14:17:05.356Z",
   "topics": [
+    {
+      "id": "a2c0c511a1ca",
+      "title": "Going nowhere fast",
+      "teaser": "When speed disguises itself as progress. One driver worked hard to get to a stoplight. (Rounded Bevel Icons) I distinctly remember my father driving the speed limit down a two-way street in ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-27T11:13:03.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Going nowhere fast",
+          "url": "https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-27T11:13:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3fe048709e82",
+      "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
+      "teaser": "What a survey of 521 UX professionals found about AI in UX Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-27T11:13:45.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
+          "url": "https://uxdesign.cc/the-time-ai-saves-designers-usually-disappears-heres-how-to-keep-it-61eb38e1ed69?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-27T11:13:45.000Z"
+        }
+      ]
+    },
     {
       "id": "f7ec8b84e9b9",
       "title": "Building an AI-ready design system library: Code → Figma with MCP.",
@@ -12,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-26T21:33:16.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -32,15 +72,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-26T21:32:18.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Does Apple’s HomeView reduce effort, or ask for our attention?",
           "url": "https://uxdesign.cc/does-apples-homeview-reduce-effort-or-ask-for-our-attention-ad7e892d17e2?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-26T21:32:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5c9c38154852",
+      "title": "Beyond Being Accurate: Implications for Using Natural Language Descriptions for Accessible 3D Modeling with~Blind and Low Vision Makers",
+      "teaser": "People who are blind or have low vision (BLV) are largely excluded from 3D modeling tools that rely on visual representations of geometry. Natural language descriptions offer a potential pat",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-26T15:03:25.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Beyond Being Accurate: Implications for Using Natural Language Descriptions for Accessible 3D Modeling with~Blind and Low Vision Makers",
+          "url": "https://arxiv.org/abs/2610.35562v1",
+          "publishedAt": "2026-10-26T15:03:25.000Z"
         }
       ]
     },
@@ -132,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T17:00:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -145,36 +205,16 @@
       ]
     },
     {
-      "id": "861bf37fb5da",
-      "title": "Entering Atomic Design from the screen",
-      "teaser": "You don’t always have to build from atoms. Sometimes, you need to discover them. Atomic Design is one of the core mental models of modern design systems. It gives us a common language for de",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-23T11:16:30.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Entering Atomic Design from the screen",
-          "url": "https://uxdesign.cc/entering-atomic-design-from-the-screen-bae744ecc288?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-23T11:16:30.000Z"
-        }
-      ]
-    },
-    {
       "id": "85c030973a18",
       "title": "Show HN: Chai-UI – A design system to generative AI apps",
       "teaser": "",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-20T00:06:14.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.71) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -205,6 +245,26 @@
       ]
     },
     {
+      "id": "249bb534731f",
+      "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
+      "teaser": "In autonomous driving, robot teleoperation serves as a critical safety fallback mechanism, requiring operators to assume direct control in the event of system failure. While recent research ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-26T15:41:35.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
+          "url": "https://arxiv.org/abs/2610.35630v1",
+          "publishedAt": "2026-10-26T15:41:35.000Z"
+        }
+      ]
+    },
+    {
       "id": "70e4549b006f",
       "title": "Embracing Playful Imperfection With The CSS `random()` Function",
       "teaser": "Design systems thrive on consistency, so where does randomness fit in? Through playful demos of organic typography, bouncing letters, and splayed cards, Brecht De Ruyte shows how the new CSS",
@@ -221,6 +281,26 @@
           "title": "Embracing Playful Imperfection With The CSS `random()` Function",
           "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
           "publishedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "12e6cd2fec2e",
+      "title": "ECHOES: An Adaptive LLM-Powered AR Glasses Docent for Evidence-Grounded Urban Heritage Interpretation",
+      "teaser": "Urban heritage tours are often delivered through fixed scripts, leaving limited room for visitors' situated questions, language preferences, or requests for evidence. We present ECHOES, an a",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-26T05:27:57.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "ECHOES: An Adaptive LLM-Powered AR Glasses Docent for Evidence-Grounded Urban Heritage Interpretation",
+          "url": "https://arxiv.org/abs/2610.34865v1",
+          "publishedAt": "2026-10-26T05:27:57.000Z"
         }
       ]
     },
@@ -258,35 +338,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-21T20:45:22.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Overdesigned Simple Solitaire",
           "url": "https://defaultsolitaire.app/",
           "publishedAt": "2026-10-21T20:45:22.000Z"
-        }
-      ]
-    },
-    {
-      "id": "462914947a67",
-      "title": "Supersonic dreams: how post-war France invented the future, and then stopped",
-      "teaser": "Concorde, nuclear power and Minitel took three different paths. What can they tell us about Europe’s next technological bets? Concorde, nuclear power and Minitel. AI-generated Illustration I",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-23T11:15:20.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Supersonic dreams: how post-war France invented the future, and then stopped",
-          "url": "https://uxdesign.cc/supersonic-dreams-how-post-war-france-invented-the-future-and-then-stopped-fe2cb26dc7cc?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-23T11:15:20.000Z"
         }
       ]
     },
@@ -320,7 +380,7 @@
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -380,7 +440,7 @@
       "publishedAt": "2026-10-07T21:55:52.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -420,7 +480,7 @@
       "publishedAt": "2026-10-12T17:55:42.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -440,7 +500,7 @@
       "publishedAt": "2026-10-04T18:59:25.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -496,11 +556,11 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-19T23:42:31.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -516,11 +576,11 @@
       "teaser": "Semi-related, I&#x27;m available for UI&#x2F;UX Engineering&#x2F;Design roles.",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -551,6 +611,26 @@
       ]
     },
     {
+      "id": "27872e4a3829",
+      "title": "Your design tokens stop at the web boundary",
+      "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-06T09:03:06.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Your design tokens stop at the web boundary",
+          "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
+          "publishedAt": "2026-10-06T09:03:06.000Z"
+        }
+      ]
+    },
+    {
       "id": "235624794eb9",
       "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
       "teaser": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
@@ -558,9 +638,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T17:00:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -580,7 +660,7 @@
       "publishedAt": "2026-10-12T21:39:07.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -598,9 +678,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-02T20:43:52.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -620,7 +700,7 @@
       "publishedAt": "2026-10-08T19:48:12.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -680,7 +760,7 @@
       "publishedAt": "2026-09-28T00:29:04.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -698,9 +778,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-16T17:00:00.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "nngroup",
@@ -720,7 +800,7 @@
       "publishedAt": "2026-10-05T18:03:04.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -820,7 +900,7 @@
       "publishedAt": "2026-09-29T18:41:44.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -838,9 +918,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "nngroup",
@@ -876,74 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-27T04:34:57.511Z"
+      "fetchedAt": "2026-10-27T14:17:05.357Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-27T04:34:57.562Z"
+      "fetchedAt": "2026-10-27T14:17:05.409Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-27T04:34:57.563Z"
+      "fetchedAt": "2026-10-27T14:17:05.410Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-27T04:34:57.564Z"
+      "fetchedAt": "2026-10-27T14:17:05.411Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-27T04:34:57.565Z"
+      "fetchedAt": "2026-10-27T14:17:05.412Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-27T04:34:57.566Z"
+      "fetchedAt": "2026-10-27T14:17:05.413Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-27T04:34:57.567Z"
+      "fetchedAt": "2026-10-27T14:17:05.414Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-27T04:34:57.567Z"
+      "fetchedAt": "2026-10-27T14:17:05.415Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-27T04:34:57.568Z"
+      "fetchedAt": "2026-10-27T14:17:05.415Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": false,
-      "items": 0,
-      "fetchedAt": "2026-10-27T04:34:57.569Z",
-      "error": "This operation was aborted"
+      "ok": true,
+      "items": 30,
+      "fetchedAt": "2026-10-27T14:17:05.416Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-27T04:34:57.570Z"
+      "fetchedAt": "2026-10-27T14:17:05.417Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-10-27T04:34:57.571Z"
+      "fetchedAt": "2026-10-27T14:17:05.418Z"
     }
   ]
 }
