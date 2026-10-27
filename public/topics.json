@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-27T14:17:05.356Z",
-  "windowStart": "2026-09-27T14:17:05.356Z",
-  "windowEnd": "2026-10-27T14:17:05.356Z",
+  "generatedAt": "2026-10-27T20:32:36.316Z",
+  "windowStart": "2026-09-27T20:32:36.316Z",
+  "windowEnd": "2026-10-27T20:32:36.316Z",
   "topics": [
+    {
+      "id": "06ea14a2f213",
+      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
+      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-23T03:30:00.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
+          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
+          "publishedAt": "2026-10-23T03:30:00.000Z"
+        }
+      ]
+    },
     {
       "id": "a2c0c511a1ca",
       "title": "Going nowhere fast",
@@ -21,26 +41,6 @@
           "title": "Going nowhere fast",
           "url": "https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-27T11:13:03.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3fe048709e82",
-      "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
-      "teaser": "What a survey of 521 UX professionals found about AI in UX Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-27T11:13:45.000Z",
-      "since": "today",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
-          "url": "https://uxdesign.cc/the-time-ai-saves-designers-usually-disappears-heres-how-to-keep-it-61eb38e1ed69?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-27T11:13:45.000Z"
         }
       ]
     },
@@ -81,26 +81,6 @@
           "title": "Does Apple’s HomeView reduce effort, or ask for our attention?",
           "url": "https://uxdesign.cc/does-apples-homeview-reduce-effort-or-ask-for-our-attention-ad7e892d17e2?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-26T21:32:18.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5c9c38154852",
-      "title": "Beyond Being Accurate: Implications for Using Natural Language Descriptions for Accessible 3D Modeling with~Blind and Low Vision Makers",
-      "teaser": "People who are blind or have low vision (BLV) are largely excluded from 3D modeling tools that rely on visual representations of geometry. Natural language descriptions offer a potential pat",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-26T15:03:25.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Beyond Being Accurate: Implications for Using Natural Language Descriptions for Accessible 3D Modeling with~Blind and Low Vision Makers",
-          "url": "https://arxiv.org/abs/2610.35562v1",
-          "publishedAt": "2026-10-26T15:03:25.000Z"
         }
       ]
     },
@@ -225,6 +205,26 @@
       ]
     },
     {
+      "id": "3fe048709e82",
+      "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
+      "teaser": "What a survey of 521 UX professionals found about AI in UX Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-27T11:13:45.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
+          "url": "https://uxdesign.cc/the-time-ai-saves-designers-usually-disappears-heres-how-to-keep-it-61eb38e1ed69?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-27T11:13:45.000Z"
+        }
+      ]
+    },
+    {
       "id": "d2e060a9b0d3",
       "title": "Design Systems",
       "teaser": "",
@@ -245,22 +245,22 @@
       ]
     },
     {
-      "id": "249bb534731f",
-      "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
-      "teaser": "In autonomous driving, robot teleoperation serves as a critical safety fallback mechanism, requiring operators to assume direct control in the event of system failure. While recent research ",
-      "tag": "Research",
+      "id": "5c9c38154852",
+      "title": "Beyond Being Accurate: Implications for Using Natural Language Descriptions for Accessible 3D Modeling with~Blind and Low Vision Makers",
+      "teaser": "People who are blind or have low vision (BLV) are largely excluded from 3D modeling tools that rely on visual representations of geometry. Natural language descriptions offer a potential pat",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-26T15:41:35.000Z",
+      "publishedAt": "2026-10-26T15:03:25.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.429,
+      "relevanceScore": 0.714,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
-          "url": "https://arxiv.org/abs/2610.35630v1",
-          "publishedAt": "2026-10-26T15:41:35.000Z"
+          "title": "Beyond Being Accurate: Implications for Using Natural Language Descriptions for Accessible 3D Modeling with~Blind and Low Vision Makers",
+          "url": "https://arxiv.org/abs/2610.35562v1",
+          "publishedAt": "2026-10-26T15:03:25.000Z"
         }
       ]
     },
@@ -281,26 +281,6 @@
           "title": "Embracing Playful Imperfection With The CSS `random()` Function",
           "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
           "publishedAt": "2026-10-20T10:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "12e6cd2fec2e",
-      "title": "ECHOES: An Adaptive LLM-Powered AR Glasses Docent for Evidence-Grounded Urban Heritage Interpretation",
-      "teaser": "Urban heritage tours are often delivered through fixed scripts, leaving limited room for visitors' situated questions, language preferences, or requests for evidence. We present ECHOES, an a",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-26T05:27:57.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "ECHOES: An Adaptive LLM-Powered AR Glasses Docent for Evidence-Grounded Urban Heritage Interpretation",
-          "url": "https://arxiv.org/abs/2610.34865v1",
-          "publishedAt": "2026-10-26T05:27:57.000Z"
         }
       ]
     },
@@ -400,7 +380,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 17 days",
       "sources": [
         {
           "name": "devto-design",
@@ -531,6 +511,26 @@
       ]
     },
     {
+      "id": "249bb534731f",
+      "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
+      "teaser": "In autonomous driving, robot teleoperation serves as a critical safety fallback mechanism, requiring operators to assume direct control in the event of system failure. While recent research ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-26T15:41:35.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
+          "url": "https://arxiv.org/abs/2610.35630v1",
+          "publishedAt": "2026-10-26T15:41:35.000Z"
+        }
+      ]
+    },
+    {
       "id": "8ee6e57097d8",
       "title": "The tap that pours hot water, not cold",
       "teaser": "On where a sushi self-service system quietly puts its risk Continue reading on UX Collective »",
@@ -547,6 +547,26 @@
           "title": "The tap that pours hot water, not cold",
           "url": "https://uxdesign.cc/the-tap-that-pours-hot-water-not-cold-8983ac0b614c?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-26T11:26:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "12e6cd2fec2e",
+      "title": "ECHOES: An Adaptive LLM-Powered AR Glasses Docent for Evidence-Grounded Urban Heritage Interpretation",
+      "teaser": "Urban heritage tours are often delivered through fixed scripts, leaving limited room for visitors' situated questions, language preferences, or requests for evidence. We present ECHOES, an a",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-26T05:27:57.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "ECHOES: An Adaptive LLM-Powered AR Glasses Docent for Evidence-Grounded Urban Heritage Interpretation",
+          "url": "https://arxiv.org/abs/2610.34865v1",
+          "publishedAt": "2026-10-26T05:27:57.000Z"
         }
       ]
     },
@@ -607,26 +627,6 @@
           "title": "The context advantage of human UX",
           "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-25T12:34:03.000Z"
-        }
-      ]
-    },
-    {
-      "id": "27872e4a3829",
-      "title": "Your design tokens stop at the web boundary",
-      "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-06T09:03:06.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Your design tokens stop at the web boundary",
-          "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
-          "publishedAt": "2026-10-06T09:03:06.000Z"
         }
       ]
     },
@@ -880,7 +880,7 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -956,73 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-27T14:17:05.357Z"
+      "fetchedAt": "2026-10-27T20:32:36.316Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-27T14:17:05.409Z"
+      "fetchedAt": "2026-10-27T20:32:36.369Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-27T14:17:05.410Z"
+      "fetchedAt": "2026-10-27T20:32:36.370Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-27T14:17:05.411Z"
+      "fetchedAt": "2026-10-27T20:32:36.371Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-27T14:17:05.412Z"
+      "fetchedAt": "2026-10-27T20:32:36.372Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-27T14:17:05.413Z"
+      "fetchedAt": "2026-10-27T20:32:36.373Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-27T14:17:05.414Z"
+      "fetchedAt": "2026-10-27T20:32:36.374Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-10-27T14:17:05.415Z"
+      "fetchedAt": "2026-10-27T20:32:36.375Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-27T14:17:05.415Z"
+      "fetchedAt": "2026-10-27T20:32:36.376Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-27T14:17:05.416Z"
+      "fetchedAt": "2026-10-27T20:32:36.377Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-27T14:17:05.417Z"
+      "fetchedAt": "2026-10-27T20:32:36.378Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
-      "items": 5,
-      "fetchedAt": "2026-10-27T14:17:05.418Z"
+      "items": 6,
+      "fetchedAt": "2026-10-27T20:32:36.379Z"
     }
   ]
 }
