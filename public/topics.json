@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T14:59:27.043Z",
-  "windowStart": "2026-09-28T14:59:27.043Z",
-  "windowEnd": "2026-10-28T14:59:27.043Z",
+  "generatedAt": "2026-10-28T20:53:39.654Z",
+  "windowStart": "2026-09-28T20:53:39.654Z",
+  "windowEnd": "2026-10-28T20:53:39.654Z",
   "topics": [
     {
       "id": "7f4fb6c9fc22",
@@ -165,26 +165,6 @@
       ]
     },
     {
-      "id": "b3cad889282a",
-      "title": "The agent woke up before you did",
-      "teaser": "The last assumption of user-centered design just fell &#x2014; and four companies pushed it at once. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-28T09:34:18.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The agent woke up before you did",
-          "url": "https://uxdesign.cc/the-agent-woke-up-before-you-did-a61cfc3948c7?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-28T09:34:18.000Z"
-        }
-      ]
-    },
-    {
       "id": "3fe048709e82",
       "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
       "teaser": "What a survey of 521 UX professionals found about AI in UX Continue reading on UX Collective »",
@@ -338,9 +318,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T05:01:23.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -398,9 +378,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-11T07:19:22.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 18 days",
       "sources": [
         {
           "name": "devto-design",
@@ -420,7 +400,7 @@
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -507,6 +487,26 @@
           "title": "Show HN: Build with Python – a beginner course where your code draws",
           "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
           "publishedAt": "2026-10-04T18:59:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b3cad889282a",
+      "title": "The agent woke up before you did",
+      "teaser": "The last assumption of user-centered design just fell &#x2014; and four companies pushed it at once. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-28T09:34:18.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The agent woke up before you did",
+          "url": "https://uxdesign.cc/the-agent-woke-up-before-you-did-a61cfc3948c7?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-28T09:34:18.000Z"
         }
       ]
     },
@@ -627,26 +627,6 @@
           "title": "The context advantage of human UX",
           "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-25T12:34:03.000Z"
-        }
-      ]
-    },
-    {
-      "id": "27872e4a3829",
-      "title": "Your design tokens stop at the web boundary",
-      "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-06T09:03:06.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Your design tokens stop at the web boundary",
-          "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
-          "publishedAt": "2026-10-06T09:03:06.000Z"
         }
       ]
     },
@@ -880,7 +860,7 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -936,73 +916,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-28T14:59:27.043Z"
+      "fetchedAt": "2026-10-28T20:53:39.655Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-28T14:59:27.078Z"
+      "fetchedAt": "2026-10-28T20:53:39.687Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-28T14:59:27.079Z"
+      "fetchedAt": "2026-10-28T20:53:39.687Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-28T14:59:27.080Z"
+      "fetchedAt": "2026-10-28T20:53:39.688Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-28T14:59:27.080Z"
+      "fetchedAt": "2026-10-28T20:53:39.689Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-28T14:59:27.081Z"
+      "fetchedAt": "2026-10-28T20:53:39.689Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-28T14:59:27.082Z"
+      "fetchedAt": "2026-10-28T20:53:39.690Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-28T14:59:27.083Z"
+      "fetchedAt": "2026-10-28T20:53:39.690Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-28T14:59:27.083Z"
+      "fetchedAt": "2026-10-28T20:53:39.691Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-28T14:59:27.084Z"
+      "fetchedAt": "2026-10-28T20:53:39.692Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-28T14:59:27.084Z"
+      "fetchedAt": "2026-10-28T20:53:39.692Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-10-28T14:59:27.085Z"
+      "fetchedAt": "2026-10-28T20:53:39.693Z"
     }
   ]
 }
