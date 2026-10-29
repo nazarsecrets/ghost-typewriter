@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T05:20:03.409Z",
-  "windowStart": "2026-09-29T05:20:03.409Z",
-  "windowEnd": "2026-10-29T05:20:03.409Z",
+  "generatedAt": "2026-10-29T15:06:14.329Z",
+  "windowStart": "2026-09-29T15:06:14.329Z",
+  "windowEnd": "2026-10-29T15:06:14.329Z",
   "topics": [
     {
       "id": "1c8450dac8f8",
@@ -12,9 +12,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T23:24:01.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -32,35 +32,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T23:22:26.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "The AI reckoning in UX was 20 years in the making",
           "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-28T23:22:26.000Z"
-        }
-      ]
-    },
-    {
-      "id": "06ea14a2f213",
-      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-23T03:30:00.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
-          "publishedAt": "2026-10-23T03:30:00.000Z"
         }
       ]
     },
@@ -112,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-26T21:33:16.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-26T21:32:18.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -145,22 +125,22 @@
       ]
     },
     {
-      "id": "84c91daf12e9",
-      "title": "UX Disciplines: Glossary",
-      "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
-      "tag": "Research",
+      "id": "06ea14a2f213",
+      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
+      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "publishedAt": "2026-10-23T03:30:00.000Z",
       "since": "6 days ago",
-      "relevanceScore": 1,
+      "relevanceScore": 0.857,
       "categoryReason": "Published 6 days ago",
       "sources": [
         {
-          "name": "nngroup",
-          "title": "UX Disciplines: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-23T17:00:00.000Z"
+          "name": "devto-design",
+          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
+          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
+          "publishedAt": "2026-10-23T03:30:00.000Z"
         }
       ]
     },
@@ -174,53 +154,13 @@
       "publishedAt": "2026-10-20T00:06:14.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Chai-UI – A design system to generative AI apps",
           "url": "https://chai-ui.com/",
           "publishedAt": "2026-10-20T00:06:14.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d80127b4110a",
-      "title": "Designing for AI deep research: lessons from Google, Perplexity and Microsoft",
-      "teaser": "6 UX questions for AI research tasks that take time Continue reading on UX Collective »",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-28T23:23:05.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Designing for AI deep research: lessons from Google, Perplexity and Microsoft",
-          "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-28T23:23:05.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7ea15db2aab3",
-      "title": "Autonomy by design: how gamification and AI can respect (or rewrite) our choices",
-      "teaser": "All design influences behavior. The ethical line is whether people can see the influence and still choose otherwise. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-28T23:21:43.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Autonomy by design: how gamification and AI can respect (or rewrite) our choices",
-          "url": "https://uxdesign.cc/autonomy-by-design-how-gamification-and-ai-can-respect-or-rewrite-our-choices-122ad795ec57?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-28T23:21:43.000Z"
         }
       ]
     },
@@ -336,11 +276,11 @@
       "teaser": "I got irritated by the maximalism and lack of aesthetics present in modern software when trying to find a nice solitaire. A solitaire does not need a score, levels - and most of all it does ",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-21T20:45:22.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -420,7 +360,7 @@
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -480,7 +420,7 @@
       "publishedAt": "2026-10-07T21:55:52.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -520,13 +460,53 @@
       "publishedAt": "2026-10-12T17:55:42.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Agent-first design: Bringing UX to the user",
           "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
           "publishedAt": "2026-10-12T17:55:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d80127b4110a",
+      "title": "Designing for AI deep research: lessons from Google, Perplexity and Microsoft",
+      "teaser": "6 UX questions for AI research tasks that take time Continue reading on UX Collective »",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-28T23:23:05.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Designing for AI deep research: lessons from Google, Perplexity and Microsoft",
+          "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-28T23:23:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7ea15db2aab3",
+      "title": "Autonomy by design: how gamification and AI can respect (or rewrite) our choices",
+      "teaser": "All design influences behavior. The ethical line is whether people can see the influence and still choose otherwise. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-28T23:21:43.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Autonomy by design: how gamification and AI can respect (or rewrite) our choices",
+          "url": "https://uxdesign.cc/autonomy-by-design-how-gamification-and-ai-can-respect-or-rewrite-our-choices-122ad795ec57?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-28T23:21:43.000Z"
         }
       ]
     },
@@ -538,9 +518,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-04T18:59:25.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -620,7 +600,7 @@
       "publishedAt": "2026-10-19T23:42:31.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -640,33 +620,13 @@
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
           "url": "https://swirltogether.com/",
           "publishedAt": "2026-10-19T19:00:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "235624794eb9",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "teaser": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-23T17:00:00.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-23T17:00:00.000Z"
         }
       ]
     },
@@ -680,7 +640,7 @@
       "publishedAt": "2026-10-12T21:39:07.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -700,7 +660,7 @@
       "publishedAt": "2026-10-02T20:43:52.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -720,7 +680,7 @@
       "publishedAt": "2026-10-08T19:48:12.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -771,26 +731,6 @@
       ]
     },
     {
-      "id": "8f59f494c085",
-      "title": "UX Maps: Glossary",
-      "teaser": "Use this glossary to quickly clarify key terms and concepts related to UX maps.",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-16T17:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Maps: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-16T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "881910a121ac",
       "title": "SaaS Search UX: Keep Filters When Results Are Empty",
       "teaser": "When a SaaS search returns no results, keep the query and selected filters visible. Explain that...",
@@ -800,7 +740,7 @@
       "publishedAt": "2026-10-05T18:03:04.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -900,33 +840,13 @@
       "publishedAt": "2026-09-29T18:41:44.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Password Reset UX: Make Recovery Clear and Safe",
           "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
           "publishedAt": "2026-09-29T18:41:44.000Z"
-        }
-      ]
-    },
-    {
-      "id": "41b123757eeb",
-      "title": "Empathy Mapping: The First Step in Design Thinking",
-      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Empathy Mapping: The First Step in Design Thinking",
-          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-02T17:00:00.000Z"
         }
       ]
     }
@@ -936,73 +856,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-29T05:20:03.410Z"
+      "fetchedAt": "2026-10-29T15:06:14.330Z"
     },
     {
       "source": "nngroup",
-      "ok": true,
-      "items": 20,
-      "fetchedAt": "2026-10-29T05:20:03.467Z"
+      "ok": false,
+      "items": 0,
+      "fetchedAt": "2026-10-29T15:06:14.383Z",
+      "error": "fetch failed"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-29T05:20:03.469Z"
+      "fetchedAt": "2026-10-29T15:06:14.384Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-29T05:20:03.470Z"
+      "fetchedAt": "2026-10-29T15:06:14.385Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-29T05:20:03.471Z"
+      "fetchedAt": "2026-10-29T15:06:14.386Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-29T05:20:03.472Z"
+      "fetchedAt": "2026-10-29T15:06:14.388Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-29T05:20:03.473Z"
+      "fetchedAt": "2026-10-29T15:06:14.389Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-29T05:20:03.474Z"
+      "fetchedAt": "2026-10-29T15:06:14.390Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-29T05:20:03.475Z"
+      "fetchedAt": "2026-10-29T15:06:14.391Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-29T05:20:03.476Z"
+      "fetchedAt": "2026-10-29T15:06:14.392Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-29T05:20:03.477Z"
+      "fetchedAt": "2026-10-29T15:06:14.393Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-10-29T05:20:03.478Z"
+      "fetchedAt": "2026-10-29T15:06:14.394Z"
     }
   ]
 }
