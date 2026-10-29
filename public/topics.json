@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T15:06:14.329Z",
-  "windowStart": "2026-09-29T15:06:14.329Z",
-  "windowEnd": "2026-10-29T15:06:14.329Z",
+  "generatedAt": "2026-10-29T20:58:19.383Z",
+  "windowStart": "2026-09-29T20:58:19.383Z",
+  "windowEnd": "2026-10-29T20:58:19.383Z",
   "topics": [
+    {
+      "id": "84c91daf12e9",
+      "title": "UX Disciplines: Glossary",
+      "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "since": "6 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 6 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-23T17:00:00.000Z"
+        }
+      ]
+    },
     {
       "id": "1c8450dac8f8",
       "title": "How I stopped dreading AI and started studying it full-time",
@@ -132,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T03:30:00.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "devto-design",
@@ -311,6 +331,26 @@
       ]
     },
     {
+      "id": "235624794eb9",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "teaser": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "since": "6 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 6 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-23T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "2acdf70fc7dc",
       "title": "UX Design Patterns",
       "teaser": "",
@@ -318,9 +358,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T05:01:23.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -380,7 +420,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
       "sources": [
         {
           "name": "devto-design",
@@ -398,9 +438,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-12T08:53:11.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -527,6 +567,26 @@
           "title": "Show HN: Build with Python – a beginner course where your code draws",
           "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
           "publishedAt": "2026-10-04T18:59:25.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8f59f494c085",
+      "title": "UX Maps: Glossary",
+      "teaser": "Use this glossary to quickly clarify key terms and concepts related to UX maps.",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-16T17:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Maps: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-16T17:00:00.000Z"
         }
       ]
     },
@@ -751,6 +811,26 @@
       ]
     },
     {
+      "id": "41b123757eeb",
+      "title": "Empathy Mapping: The First Step in Design Thinking",
+      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-02T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Empathy Mapping: The First Step in Design Thinking",
+          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-02T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "3bb0a370b514",
       "title": "Show HN: Colorful Design System for Agents",
       "teaser": "",
@@ -818,35 +898,15 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-05T08:12:06.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "A Design System in and for the Agentic Era",
           "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
           "publishedAt": "2026-10-05T08:12:06.000Z"
-        }
-      ]
-    },
-    {
-      "id": "76f3b424329b",
-      "title": "Password Reset UX: Make Recovery Clear and Safe",
-      "teaser": "A good password reset flow helps a person regain access without revealing whether an account exists....",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-29T18:41:44.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Password Reset UX: Make Recovery Clear and Safe",
-          "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
-          "publishedAt": "2026-09-29T18:41:44.000Z"
         }
       ]
     }
@@ -856,74 +916,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-29T15:06:14.330Z"
+      "fetchedAt": "2026-10-29T20:58:19.384Z"
     },
     {
       "source": "nngroup",
-      "ok": false,
-      "items": 0,
-      "fetchedAt": "2026-10-29T15:06:14.383Z",
-      "error": "fetch failed"
+      "ok": true,
+      "items": 20,
+      "fetchedAt": "2026-10-29T20:58:19.424Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-29T15:06:14.384Z"
+      "fetchedAt": "2026-10-29T20:58:19.425Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-29T15:06:14.385Z"
+      "fetchedAt": "2026-10-29T20:58:19.426Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-29T15:06:14.386Z"
+      "fetchedAt": "2026-10-29T20:58:19.427Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-29T15:06:14.388Z"
+      "fetchedAt": "2026-10-29T20:58:19.428Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-29T15:06:14.389Z"
+      "fetchedAt": "2026-10-29T20:58:19.429Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-29T15:06:14.390Z"
+      "fetchedAt": "2026-10-29T20:58:19.429Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-29T15:06:14.391Z"
+      "fetchedAt": "2026-10-29T20:58:19.430Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-29T15:06:14.392Z"
+      "fetchedAt": "2026-10-29T20:58:19.431Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-29T15:06:14.393Z"
+      "fetchedAt": "2026-10-29T20:58:19.431Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-10-29T15:06:14.394Z"
+      "fetchedAt": "2026-10-29T20:58:19.432Z"
     }
   ]
 }
