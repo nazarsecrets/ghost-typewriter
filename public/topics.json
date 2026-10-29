@@ -1,9 +1,69 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T20:53:39.654Z",
-  "windowStart": "2026-09-28T20:53:39.654Z",
-  "windowEnd": "2026-10-28T20:53:39.654Z",
+  "generatedAt": "2026-10-29T05:20:03.409Z",
+  "windowStart": "2026-09-29T05:20:03.409Z",
+  "windowEnd": "2026-10-29T05:20:03.409Z",
   "topics": [
+    {
+      "id": "1c8450dac8f8",
+      "title": "How I stopped dreading AI and started studying it full-time",
+      "teaser": "By June 2026, I couldn’t open an app without being told I was falling behind. My Instagram saves were full of designers building agents over a weekend. LinkedIn was a steady stream of people",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-28T23:24:01.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "How I stopped dreading AI and started studying it full-time",
+          "url": "https://uxdesign.cc/how-i-stopped-dreading-ai-and-started-studying-it-full-time-fee7afc2b967?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-28T23:24:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "373c3db32dc4",
+      "title": "The AI reckoning in UX was 20 years in the making",
+      "teaser": "The field has blown up and rebuilt itself three times in twenty years. This is the third. Everyone thinks AI is coming for design. The truth is uglier and older. The field has done this to i",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-28T23:22:26.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The AI reckoning in UX was 20 years in the making",
+          "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-28T23:22:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "06ea14a2f213",
+      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
+      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-23T03:30:00.000Z",
+      "since": "6 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 6 days ago",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
+          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
+          "publishedAt": "2026-10-23T03:30:00.000Z"
+        }
+      ]
+    },
     {
       "id": "7f4fb6c9fc22",
       "title": "Smaller teams want design leaders who make, again. Here’s how.",
@@ -12,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T09:37:57.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -27,14 +87,14 @@
     {
       "id": "a2c0c511a1ca",
       "title": "Going nowhere fast",
-      "teaser": "When speed disguises itself as progress. One driver worked hard to get to a stoplight. (Rounded Bevel Icons) I distinctly remember my father driving the speed limit down a two-way street in ",
+      "teaser": "When speed disguises itself as progress. One driver worked hard to get to a stoplight. (Rounded Bevel Icons by Tristan) I distinctly remember my father driving the speed limit down a two-way",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-27T11:13:03.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -85,46 +145,6 @@
       ]
     },
     {
-      "id": "2c993045c3b2",
-      "title": "Who gets to name the future?",
-      "teaser": "Cracked, maxxed, and forward deployed: a field guide to AI’s boys’ club. My 4-year-old’s Halloween cat and the general vibe of this article In a single meeting recently, I heard that someone",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-26T11:26:31.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Who gets to name the future?",
-          "url": "https://uxdesign.cc/who-gets-to-name-the-future-436d069f16af?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-26T11:26:31.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d2aef18278ee",
-      "title": "Telling the wrong story, Design v ADHD, AI doesn’t care about your job title",
-      "teaser": "Weekly curated resources for designers — thinkers and makers. “Designers are skipping steps of the process in a rush for faster outputs. But the contest that really matters is the race towar",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-26T11:20:17.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Telling the wrong story, Design v ADHD, AI doesn’t care about your job title",
-          "url": "https://uxdesign.cc/telling-the-wrong-story-design-v-adhd-ai-doesnt-care-about-your-job-title-63869c750f07?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-26T11:20:17.000Z"
-        }
-      ]
-    },
-    {
       "id": "84c91daf12e9",
       "title": "UX Disciplines: Glossary",
       "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
@@ -132,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T17:00:00.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -165,6 +185,46 @@
       ]
     },
     {
+      "id": "d80127b4110a",
+      "title": "Designing for AI deep research: lessons from Google, Perplexity and Microsoft",
+      "teaser": "6 UX questions for AI research tasks that take time Continue reading on UX Collective »",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-28T23:23:05.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Designing for AI deep research: lessons from Google, Perplexity and Microsoft",
+          "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-28T23:23:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7ea15db2aab3",
+      "title": "Autonomy by design: how gamification and AI can respect (or rewrite) our choices",
+      "teaser": "All design influences behavior. The ethical line is whether people can see the influence and still choose otherwise. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-28T23:21:43.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Autonomy by design: how gamification and AI can respect (or rewrite) our choices",
+          "url": "https://uxdesign.cc/autonomy-by-design-how-gamification-and-ai-can-respect-or-rewrite-our-choices-122ad795ec57?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-28T23:21:43.000Z"
+        }
+      ]
+    },
+    {
       "id": "3fe048709e82",
       "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
       "teaser": "What a survey of 521 UX professionals found about AI in UX Continue reading on UX Collective »",
@@ -172,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-27T11:13:45.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -194,7 +254,7 @@
       "publishedAt": "2026-10-14T14:51:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -212,9 +272,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-26T15:03:25.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -234,7 +294,7 @@
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
       "sources": [
         {
           "name": "smashing",
@@ -252,9 +312,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-04T15:55:03.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 24 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -298,9 +358,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T09:38:12.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -338,9 +398,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-27T14:02:24.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -438,9 +498,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T14:27:01.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -498,9 +558,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T09:34:18.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -516,11 +576,11 @@
       "teaser": "I have built a note taking, to-do application, what makes this different then others? This app targets to make note taking fun, and efficient. - Most important feature it&#x27;s fast. Perfor",
       "tag": "Leadership",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-21T16:28:05.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -538,35 +598,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-26T15:41:35.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
           "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
           "url": "https://arxiv.org/abs/2610.35630v1",
           "publishedAt": "2026-10-26T15:41:35.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8ee6e57097d8",
-      "title": "The tap that pours hot water, not cold",
-      "teaser": "On where a sushi self-service system quietly puts its risk Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-26T11:26:19.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The tap that pours hot water, not cold",
-          "url": "https://uxdesign.cc/the-tap-that-pours-hot-water-not-cold-8983ac0b614c?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-26T11:26:19.000Z"
         }
       ]
     },
@@ -611,26 +651,6 @@
       ]
     },
     {
-      "id": "443638309d1a",
-      "title": "The context advantage of human UX",
-      "teaser": "Context is today&#x2019;s human advantage, but it is also the raw material AI is rapidly learning to absorb. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-25T12:34:03.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The context advantage of human UX",
-          "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-25T12:34:03.000Z"
-        }
-      ]
-    },
-    {
       "id": "235624794eb9",
       "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
       "teaser": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
@@ -638,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T17:00:00.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -718,9 +738,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-11T13:39:37.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -740,7 +760,7 @@
       "publishedAt": "2026-10-12T11:46:39.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -760,7 +780,7 @@
       "publishedAt": "2026-10-16T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "nngroup",
@@ -798,9 +818,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -820,7 +840,7 @@
       "publishedAt": "2026-10-06T14:21:12.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -840,7 +860,7 @@
       "publishedAt": "2026-10-05T11:33:13.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -900,7 +920,7 @@
       "publishedAt": "2026-10-02T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "nngroup",
@@ -916,73 +936,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-28T20:53:39.655Z"
+      "fetchedAt": "2026-10-29T05:20:03.410Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-28T20:53:39.687Z"
+      "fetchedAt": "2026-10-29T05:20:03.467Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-28T20:53:39.687Z"
+      "fetchedAt": "2026-10-29T05:20:03.469Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-28T20:53:39.688Z"
+      "fetchedAt": "2026-10-29T05:20:03.470Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-28T20:53:39.689Z"
+      "fetchedAt": "2026-10-29T05:20:03.471Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-28T20:53:39.689Z"
+      "fetchedAt": "2026-10-29T05:20:03.472Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-28T20:53:39.690Z"
+      "fetchedAt": "2026-10-29T05:20:03.473Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-28T20:53:39.690Z"
+      "fetchedAt": "2026-10-29T05:20:03.474Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-28T20:53:39.691Z"
+      "fetchedAt": "2026-10-29T05:20:03.475Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-28T20:53:39.692Z"
+      "fetchedAt": "2026-10-29T05:20:03.476Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-28T20:53:39.692Z"
+      "fetchedAt": "2026-10-29T05:20:03.477Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-10-28T20:53:39.693Z"
+      "fetchedAt": "2026-10-29T05:20:03.478Z"
     }
   ]
 }
