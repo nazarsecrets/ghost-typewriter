@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T05:19:44.081Z",
-  "windowStart": "2026-09-30T05:19:44.081Z",
-  "windowEnd": "2026-10-30T05:19:44.081Z",
+  "generatedAt": "2026-10-30T14:57:38.432Z",
+  "windowStart": "2026-09-30T14:57:38.432Z",
+  "windowEnd": "2026-10-30T14:57:38.432Z",
   "topics": [
+    {
+      "id": "00eb90177d17",
+      "title": "The people using AI should set its strategy",
+      "teaser": "A researcher checks a generated synthesis against her own interview notes while a stack of vendor contracts sits unopened at the edge of her desk. Practitioners know what good output looks l",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-30T07:06:26.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The people using AI should set its strategy",
+          "url": "https://uxdesign.cc/the-people-using-ai-should-set-its-strategy-473c7f2ebb94?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-30T07:06:26.000Z"
+        }
+      ]
+    },
     {
       "id": "0f38e5992ac7",
       "title": "InterA11y: Interactive Web Accessibility Error Detection with LLM Agents",
@@ -32,75 +52,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-29T01:39:05.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
           "title": "Unlocking with the Heart: Investigating User Perceptions of ECG-Based Biometric Authentication",
           "url": "https://arxiv.org/abs/2610.39152v1",
           "publishedAt": "2026-10-29T01:39:05.000Z"
-        }
-      ]
-    },
-    {
-      "id": "090584a3a03b",
-      "title": "Inkitiate: Initiating and Steering Agent Assistance through Ink in a Spatial Workspace",
-      "teaser": "Handwriting and sketching help people develop ideas around information. As this work unfolds, users may seek assistance with finding, understanding, and organizing materials. We investigate ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-29T12:16:16.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Inkitiate: Initiating and Steering Agent Assistance through Ink in a Spatial Workspace",
-          "url": "https://arxiv.org/abs/2610.39905v1",
-          "publishedAt": "2026-10-29T12:16:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f3e47d993661",
-      "title": "Apple Vision Pro: The good, the bad, the ugly",
-      "teaser": "Apple Vision Pro (AVP), the headset Apple introduced as its first ``spatial computer,'' built by a single, vertically integrated vendor, entered the market in February 2024 and has since acc",
-      "tag": "Ethics",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-29T14:09:30.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Apple Vision Pro: The good, the bad, the ugly",
-          "url": "https://arxiv.org/abs/2610.40108v1",
-          "publishedAt": "2026-10-29T14:09:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "99f275996f2d",
-      "title": "Wearable Biosensors for Early Detection and Continuous Monitoring of Postpartum Depression: A Human-Centered Approach",
-      "teaser": "Postpartum depression (PPD) is the leading cause of maternal mortality in the United States. However, there are significant gaps in PPD screening, detection, and treatment. A main challenge ",
-      "tag": "Ethics",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-29T02:13:12.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Wearable Biosensors for Early Detection and Continuous Monitoring of Postpartum Depression: A Human-Centered Approach",
-          "url": "https://arxiv.org/abs/2610.39191v1",
-          "publishedAt": "2026-10-29T02:13:12.000Z"
         }
       ]
     },
@@ -112,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T23:24:01.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T23:22:26.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -192,35 +152,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-26T21:33:16.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Building an AI-ready design system library: Code → Figma with MCP.",
           "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-26T21:33:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "842478e9de62",
-      "title": "Does Apple’s HomeView reduce effort, or ask for our attention?",
-      "teaser": "Truly useful domestic technology fades into the background. Too many smart home screens demand centre stage. The Apple HomeView, image credit: Apple. Apple’s latest foray into the home autom",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-26T21:32:18.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Does Apple’s HomeView reduce effort, or ask for our attention?",
-          "url": "https://uxdesign.cc/does-apples-homeview-reduce-effort-or-ask-for-our-attention-ad7e892d17e2?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-26T21:32:18.000Z"
         }
       ]
     },
@@ -245,22 +185,42 @@
       ]
     },
     {
-      "id": "a1a55baf9deb",
-      "title": "\"It Feels Weird to Just Rely on AI\": How Experienced Healthcare Professionals Work With Decision Support Systems in Clinical Practice",
-      "teaser": "Decision support systems (DSS) assist with clinical decision-making. Little is known, however, about the decision-making process with DSS in clinical practice and the extent to which clinici",
+      "id": "090584a3a03b",
+      "title": "Inkitiate: Initiating and Steering Agent Assistance through Ink in a Spatial Workspace",
+      "teaser": "Handwriting and sketching help people develop ideas around information. As this work unfolds, users may seek assistance with finding, understanding, and organizing materials. We investigate ",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-29T15:04:32.000Z",
+      "publishedAt": "2026-10-29T12:16:16.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.429,
+      "relevanceScore": 0.857,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "\"It Feels Weird to Just Rely on AI\": How Experienced Healthcare Professionals Work With Decision Support Systems in Clinical Practice",
-          "url": "https://arxiv.org/abs/2610.40224v1",
-          "publishedAt": "2026-10-29T15:04:32.000Z"
+          "title": "Inkitiate: Initiating and Steering Agent Assistance through Ink in a Spatial Workspace",
+          "url": "https://arxiv.org/abs/2610.39905v1",
+          "publishedAt": "2026-10-29T12:16:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f3e47d993661",
+      "title": "Apple Vision Pro: The good, the bad, the ugly",
+      "teaser": "Apple Vision Pro (AVP), the headset Apple introduced as its first ``spatial computer,'' built by a single, vertically integrated vendor, entered the market in February 2024 and has since acc",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T14:09:30.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Apple Vision Pro: The good, the bad, the ugly",
+          "url": "https://arxiv.org/abs/2610.40108v1",
+          "publishedAt": "2026-10-29T14:09:30.000Z"
         }
       ]
     },
@@ -292,15 +252,55 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-20T00:06:14.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Chai-UI – A design system to generative AI apps",
           "url": "https://chai-ui.com/",
           "publishedAt": "2026-10-20T00:06:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "99f275996f2d",
+      "title": "Wearable Biosensors for Early Detection and Continuous Monitoring of Postpartum Depression: A Human-Centered Approach",
+      "teaser": "Postpartum depression (PPD) is the leading cause of maternal mortality in the United States. However, there are significant gaps in PPD screening, detection, and treatment. A main challenge ",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T02:13:12.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Wearable Biosensors for Early Detection and Continuous Monitoring of Postpartum Depression: A Human-Centered Approach",
+          "url": "https://arxiv.org/abs/2610.39191v1",
+          "publishedAt": "2026-10-29T02:13:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3faadc198782",
+      "title": "Beyond chatbots: UX for deep AI research",
+      "teaser": "What Gemini, Perplexity, Copilot and Consensus do when an answer takes time Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-28T23:23:05.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Beyond chatbots: UX for deep AI research",
+          "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-28T23:23:05.000Z"
         }
       ]
     },
@@ -400,7 +400,7 @@
       "publishedAt": "2026-10-21T20:45:22.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -460,7 +460,7 @@
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -520,7 +520,7 @@
       "publishedAt": "2026-10-07T21:55:52.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -551,6 +551,26 @@
       ]
     },
     {
+      "id": "a1a55baf9deb",
+      "title": "\"It Feels Weird to Just Rely on AI\": How Experienced Healthcare Professionals Work With Decision Support Systems in Clinical Practice",
+      "teaser": "Decision support systems (DSS) assist with clinical decision-making. Little is known, however, about the decision-making process with DSS in clinical practice and the extent to which clinici",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T15:04:32.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "\"It Feels Weird to Just Rely on AI\": How Experienced Healthcare Professionals Work With Decision Support Systems in Clinical Practice",
+          "url": "https://arxiv.org/abs/2610.40224v1",
+          "publishedAt": "2026-10-29T15:04:32.000Z"
+        }
+      ]
+    },
+    {
       "id": "68573e2109b1",
       "title": "Agent-first design: Bringing UX to the user",
       "teaser": "",
@@ -558,35 +578,15 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-12T17:55:42.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Agent-first design: Bringing UX to the user",
           "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
           "publishedAt": "2026-10-12T17:55:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d80127b4110a",
-      "title": "Designing for AI deep research: lessons from Google, Perplexity and Microsoft",
-      "teaser": "6 UX questions for AI research tasks that take time Continue reading on UX Collective »",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-28T23:23:05.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Designing for AI deep research: lessons from Google, Perplexity and Microsoft",
-          "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-28T23:23:05.000Z"
         }
       ]
     },
@@ -598,9 +598,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T23:21:43.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -620,7 +620,7 @@
       "publishedAt": "2026-10-04T18:59:25.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -678,9 +678,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-19T23:42:31.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -698,15 +698,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-19T19:00:23.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
           "url": "https://swirltogether.com/",
           "publishedAt": "2026-10-19T19:00:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "27872e4a3829",
+      "title": "Your design tokens stop at the web boundary",
+      "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-06T09:03:06.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 24 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Your design tokens stop at the web boundary",
+          "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
+          "publishedAt": "2026-10-06T09:03:06.000Z"
         }
       ]
     },
@@ -738,9 +758,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-12T21:39:07.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -760,7 +780,7 @@
       "publishedAt": "2026-10-02T20:43:52.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -780,7 +800,7 @@
       "publishedAt": "2026-10-08T19:48:12.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -858,35 +878,15 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-05T18:03:04.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "SaaS Search UX: Keep Filters When Results Are Empty",
           "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
           "publishedAt": "2026-10-05T18:03:04.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3bb0a370b514",
-      "title": "Show HN: Colorful Design System for Agents",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Colorful Design System for Agents",
-          "url": "https://orbeez-kit.vercel.app/chat",
-          "publishedAt": "2026-10-04T12:41:33.000Z"
         }
       ]
     },
@@ -976,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-30T05:19:44.082Z"
+      "fetchedAt": "2026-10-30T14:57:38.432Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-30T05:19:44.124Z"
+      "fetchedAt": "2026-10-30T14:57:38.486Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-30T05:19:44.125Z"
+      "fetchedAt": "2026-10-30T14:57:38.488Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-30T05:19:44.126Z"
+      "fetchedAt": "2026-10-30T14:57:38.489Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-30T05:19:44.127Z"
+      "fetchedAt": "2026-10-30T14:57:38.490Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-30T05:19:44.128Z"
+      "fetchedAt": "2026-10-30T14:57:38.491Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-30T05:19:44.129Z"
+      "fetchedAt": "2026-10-30T14:57:38.492Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-30T05:19:44.129Z"
+      "fetchedAt": "2026-10-30T14:57:38.493Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-30T05:19:44.130Z"
+      "fetchedAt": "2026-10-30T14:57:38.494Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-30T05:19:44.131Z"
+      "fetchedAt": "2026-10-30T14:57:38.495Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-30T05:19:44.131Z"
+      "fetchedAt": "2026-10-30T14:57:38.496Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-10-30T05:19:44.132Z"
+      "fetchedAt": "2026-10-30T14:57:38.497Z"
     }
   ]
 }
