@@ -1,26 +1,106 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T20:58:19.383Z",
-  "windowStart": "2026-09-29T20:58:19.383Z",
-  "windowEnd": "2026-10-29T20:58:19.383Z",
+  "generatedAt": "2026-10-30T05:19:44.081Z",
+  "windowStart": "2026-09-30T05:19:44.081Z",
+  "windowEnd": "2026-10-30T05:19:44.081Z",
   "topics": [
     {
-      "id": "84c91daf12e9",
-      "title": "UX Disciplines: Glossary",
-      "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
+      "id": "0f38e5992ac7",
+      "title": "InterA11y: Interactive Web Accessibility Error Detection with LLM Agents",
+      "teaser": "Large Language Models (LLMs) have shown potential to expand the coverage of web accessibility evaluation. However, current LLM-based checkers neglect much of the interactive and dynamic web ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T06:51:21.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "InterA11y: Interactive Web Accessibility Error Detection with LLM Agents",
+          "url": "https://arxiv.org/abs/2610.39488v1",
+          "publishedAt": "2026-10-29T06:51:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4f29996bded7",
+      "title": "Unlocking with the Heart: Investigating User Perceptions of ECG-Based Biometric Authentication",
+      "teaser": "Password-based authentication remains challenging for many users, especially for those who face usability and accessibility issues. The burden of maintaining security can cause user fatigue,",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-23T17:00:00.000Z",
-      "since": "6 days ago",
+      "publishedAt": "2026-10-29T01:39:05.000Z",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "nngroup",
-          "title": "UX Disciplines: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-23T17:00:00.000Z"
+          "name": "arxiv-hci",
+          "title": "Unlocking with the Heart: Investigating User Perceptions of ECG-Based Biometric Authentication",
+          "url": "https://arxiv.org/abs/2610.39152v1",
+          "publishedAt": "2026-10-29T01:39:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "090584a3a03b",
+      "title": "Inkitiate: Initiating and Steering Agent Assistance through Ink in a Spatial Workspace",
+      "teaser": "Handwriting and sketching help people develop ideas around information. As this work unfolds, users may seek assistance with finding, understanding, and organizing materials. We investigate ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T12:16:16.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Inkitiate: Initiating and Steering Agent Assistance through Ink in a Spatial Workspace",
+          "url": "https://arxiv.org/abs/2610.39905v1",
+          "publishedAt": "2026-10-29T12:16:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f3e47d993661",
+      "title": "Apple Vision Pro: The good, the bad, the ugly",
+      "teaser": "Apple Vision Pro (AVP), the headset Apple introduced as its first ``spatial computer,'' built by a single, vertically integrated vendor, entered the market in February 2024 and has since acc",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T14:09:30.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Apple Vision Pro: The good, the bad, the ugly",
+          "url": "https://arxiv.org/abs/2610.40108v1",
+          "publishedAt": "2026-10-29T14:09:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "99f275996f2d",
+      "title": "Wearable Biosensors for Early Detection and Continuous Monitoring of Postpartum Depression: A Human-Centered Approach",
+      "teaser": "Postpartum depression (PPD) is the leading cause of maternal mortality in the United States. However, there are significant gaps in PPD screening, detection, and treatment. A main challenge ",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T02:13:12.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Wearable Biosensors for Early Detection and Continuous Monitoring of Postpartum Depression: A Human-Centered Approach",
+          "url": "https://arxiv.org/abs/2610.39191v1",
+          "publishedAt": "2026-10-29T02:13:12.000Z"
         }
       ]
     },
@@ -72,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T09:37:57.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-27T11:13:03.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -141,6 +221,46 @@
           "title": "Does Apple’s HomeView reduce effort, or ask for our attention?",
           "url": "https://uxdesign.cc/does-apples-homeview-reduce-effort-or-ask-for-our-attention-ad7e892d17e2?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-26T21:32:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "84c91daf12e9",
+      "title": "UX Disciplines: Glossary",
+      "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 7 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-23T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a1a55baf9deb",
+      "title": "\"It Feels Weird to Just Rely on AI\": How Experienced Healthcare Professionals Work With Decision Support Systems in Clinical Practice",
+      "teaser": "Decision support systems (DSS) assist with clinical decision-making. Little is known, however, about the decision-making process with DSS in clinical practice and the extent to which clinici",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T15:04:32.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "\"It Feels Weird to Just Rely on AI\": How Experienced Healthcare Professionals Work With Decision Support Systems in Clinical Practice",
+          "url": "https://arxiv.org/abs/2610.40224v1",
+          "publishedAt": "2026-10-29T15:04:32.000Z"
         }
       ]
     },
@@ -192,9 +312,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-27T11:13:45.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -214,33 +334,13 @@
       "publishedAt": "2026-10-14T14:51:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Design Systems",
           "url": "https://webflow.com/webflow-way/design-systems",
           "publishedAt": "2026-10-14T14:51:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5c9c38154852",
-      "title": "Beyond Being Accurate: Implications for Using Natural Language Descriptions for Accessible 3D Modeling with~Blind and Low Vision Makers",
-      "teaser": "People who are blind or have low vision (BLV) are largely excluded from 3D modeling tools that rely on visual representations of geometry. Natural language descriptions offer a potential pat",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-26T15:03:25.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Beyond Being Accurate: Implications for Using Natural Language Descriptions for Accessible 3D Modeling with~Blind and Low Vision Makers",
-          "url": "https://arxiv.org/abs/2610.35562v1",
-          "publishedAt": "2026-10-26T15:03:25.000Z"
         }
       ]
     },
@@ -254,7 +354,7 @@
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
           "name": "smashing",
@@ -274,7 +374,7 @@
       "publishedAt": "2026-10-04T15:55:03.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 25 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -318,35 +418,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T09:38:12.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Cryptex Vault – A password manager designed to outlive its creator",
           "url": "https://www.cryptex-vault.com/",
           "publishedAt": "2026-10-23T09:38:12.000Z"
-        }
-      ]
-    },
-    {
-      "id": "235624794eb9",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "teaser": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-23T17:00:00.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-23T17:00:00.000Z"
         }
       ]
     },
@@ -367,26 +447,6 @@
           "title": "UX Design Patterns",
           "url": "https://sambernheim.com/blog/ux-design-patterns",
           "publishedAt": "2026-10-28T05:01:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "cae84d83b72f",
-      "title": "An Interactive Mobile Augmented Reality System for Efficient Virtual Model-to-Patient Registration in Thoracic Surgery",
-      "teaser": "Video-Assisted Thoracoscopic Surgery (VATS) is a minimally invasive procedure, where precise surgical port placement is vital, yet it relies heavily on surgeon experience and mental mapping ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-27T14:02:24.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "An Interactive Mobile Augmented Reality System for Efficient Virtual Model-to-Patient Registration in Thoracic Surgery",
-          "url": "https://arxiv.org/abs/2610.37271v1",
-          "publishedAt": "2026-10-27T14:02:24.000Z"
         }
       ]
     },
@@ -478,9 +538,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-23T14:27:01.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -571,26 +631,6 @@
       ]
     },
     {
-      "id": "8f59f494c085",
-      "title": "UX Maps: Glossary",
-      "teaser": "Use this glossary to quickly clarify key terms and concepts related to UX maps.",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-16T17:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Maps: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-16T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "b3cad889282a",
       "title": "The agent woke up before you did",
       "teaser": "The last assumption of user-centered design just fell &#x2014; and four companies pushed it at once. Continue reading on UX Collective »",
@@ -598,9 +638,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T09:34:18.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -620,33 +660,13 @@
       "publishedAt": "2026-10-21T16:28:05.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
           "url": "https://mtarin.com/projects/nift/",
           "publishedAt": "2026-10-21T16:28:05.000Z"
-        }
-      ]
-    },
-    {
-      "id": "249bb534731f",
-      "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
-      "teaser": "In autonomous driving, robot teleoperation serves as a critical safety fallback mechanism, requiring operators to assume direct control in the event of system failure. While recent research ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-26T15:41:35.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Revisiting Direct Control: A Field Evaluation of Sensor Fusion Efficacy in Teleoperating Full-Scale Autonomous Vehicles via Bird's Eye View",
-          "url": "https://arxiv.org/abs/2610.35630v1",
-          "publishedAt": "2026-10-26T15:41:35.000Z"
         }
       ]
     },
@@ -687,6 +707,26 @@
           "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
           "url": "https://swirltogether.com/",
           "publishedAt": "2026-10-19T19:00:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "235624794eb9",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "teaser": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 7 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-23T17:00:00.000Z"
         }
       ]
     },
@@ -760,7 +800,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -778,15 +818,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-12T11:46:39.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
           "url": "https://dev.to/saifyusuph/your-error-messages-are-a-feature-what-a-random-logout-bug-taught-me-about-designing-for-failure-354",
           "publishedAt": "2026-10-12T11:46:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8f59f494c085",
+      "title": "UX Maps: Glossary",
+      "teaser": "Use this glossary to quickly clarify key terms and concepts related to UX maps.",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-16T17:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Maps: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-16T17:00:00.000Z"
         }
       ]
     },
@@ -811,26 +871,6 @@
       ]
     },
     {
-      "id": "41b123757eeb",
-      "title": "Empathy Mapping: The First Step in Design Thinking",
-      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-02T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Empathy Mapping: The First Step in Design Thinking",
-          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-02T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "3bb0a370b514",
       "title": "Show HN: Colorful Design System for Agents",
       "teaser": "",
@@ -840,7 +880,7 @@
       "publishedAt": "2026-10-04T12:41:33.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -860,7 +900,7 @@
       "publishedAt": "2026-10-06T14:21:12.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -878,9 +918,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-05T11:33:13.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -909,6 +949,26 @@
           "publishedAt": "2026-10-05T08:12:06.000Z"
         }
       ]
+    },
+    {
+      "id": "41b123757eeb",
+      "title": "Empathy Mapping: The First Step in Design Thinking",
+      "teaser": "Empathy maps help UX teams visualize user attitudes and behaviors, building a shared understanding of end users while highlighting gaps in existing user data.",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-02T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Empathy Mapping: The First Step in Design Thinking",
+          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-02T17:00:00.000Z"
+        }
+      ]
     }
   ],
   "sourceHealth": [
@@ -916,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-29T20:58:19.384Z"
+      "fetchedAt": "2026-10-30T05:19:44.082Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-29T20:58:19.424Z"
+      "fetchedAt": "2026-10-30T05:19:44.124Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-29T20:58:19.425Z"
+      "fetchedAt": "2026-10-30T05:19:44.125Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-29T20:58:19.426Z"
+      "fetchedAt": "2026-10-30T05:19:44.126Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-29T20:58:19.427Z"
+      "fetchedAt": "2026-10-30T05:19:44.127Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-29T20:58:19.428Z"
+      "fetchedAt": "2026-10-30T05:19:44.128Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-29T20:58:19.429Z"
+      "fetchedAt": "2026-10-30T05:19:44.129Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-29T20:58:19.429Z"
+      "fetchedAt": "2026-10-30T05:19:44.129Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-29T20:58:19.430Z"
+      "fetchedAt": "2026-10-30T05:19:44.130Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-29T20:58:19.431Z"
+      "fetchedAt": "2026-10-30T05:19:44.131Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-29T20:58:19.431Z"
+      "fetchedAt": "2026-10-30T05:19:44.131Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-10-29T20:58:19.432Z"
+      "fetchedAt": "2026-10-30T05:19:44.132Z"
     }
   ]
 }
