@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T14:57:38.432Z",
-  "windowStart": "2026-09-30T14:57:38.432Z",
-  "windowEnd": "2026-10-30T14:57:38.432Z",
+  "generatedAt": "2026-10-30T20:37:05.134Z",
+  "windowStart": "2026-09-30T20:37:05.134Z",
+  "windowEnd": "2026-10-30T20:37:05.134Z",
   "topics": [
+    {
+      "id": "6281ea8c10de",
+      "title": "Experience Design: Dropping the “User” from “User Experience”",
+      "teaser": "AI is expanding UX beyond human users to agents acting on their behalf. Experience design names this broader field, which still centers on people’s goals.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Experience Design: Dropping the “User” from “User Experience”",
+          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-30T17:00:00.000Z"
+        }
+      ]
+    },
     {
       "id": "00eb90177d17",
       "title": "The people using AI should set its strategy",
@@ -12,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-30T07:06:26.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -32,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-29T06:51:21.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -205,6 +225,26 @@
       ]
     },
     {
+      "id": "fe0354922a2f",
+      "title": "The Role of UX in Agentic Software Factories",
+      "teaser": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Role of UX in Agentic Software Factories",
+          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-30T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "f3e47d993661",
       "title": "Apple Vision Pro: The good, the bad, the ugly",
       "teaser": "Apple Vision Pro (AVP), the headset Apple introduced as its first ``spatial computer,'' built by a single, vertically integrated vendor, entered the market in February 2024 and has since acc",
@@ -221,26 +261,6 @@
           "title": "Apple Vision Pro: The good, the bad, the ugly",
           "url": "https://arxiv.org/abs/2610.40108v1",
           "publishedAt": "2026-10-29T14:09:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "06ea14a2f213",
-      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-23T03:30:00.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 7 days ago",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
-          "publishedAt": "2026-10-23T03:30:00.000Z"
         }
       ]
     },
@@ -281,26 +301,6 @@
           "title": "Wearable Biosensors for Early Detection and Continuous Monitoring of Postpartum Depression: A Human-Centered Approach",
           "url": "https://arxiv.org/abs/2610.39191v1",
           "publishedAt": "2026-10-29T02:13:12.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3faadc198782",
-      "title": "Beyond chatbots: UX for deep AI research",
-      "teaser": "What Gemini, Perplexity, Copilot and Consensus do when an answer takes time Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-28T23:23:05.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Beyond chatbots: UX for deep AI research",
-          "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-28T23:23:05.000Z"
         }
       ]
     },
@@ -438,9 +438,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T05:01:23.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -480,7 +480,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 20 days",
       "sources": [
         {
           "name": "devto-design",
@@ -587,6 +587,26 @@
           "title": "Agent-first design: Bringing UX to the user",
           "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
           "publishedAt": "2026-10-12T17:55:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3faadc198782",
+      "title": "Beyond chatbots: UX for deep AI research",
+      "teaser": "What Gemini, Perplexity, Copilot and Consensus do when an answer takes time Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-28T23:23:05.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Beyond chatbots: UX for deep AI research",
+          "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-10-28T23:23:05.000Z"
         }
       ]
     },
@@ -707,26 +727,6 @@
           "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
           "url": "https://swirltogether.com/",
           "publishedAt": "2026-10-19T19:00:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "27872e4a3829",
-      "title": "Your design tokens stop at the web boundary",
-      "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-06T09:03:06.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Your design tokens stop at the web boundary",
-          "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
-          "publishedAt": "2026-10-06T09:03:06.000Z"
         }
       ]
     },
@@ -911,6 +911,26 @@
       ]
     },
     {
+      "id": "27872e4a3829",
+      "title": "Your design tokens stop at the web boundary",
+      "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-06T09:03:06.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 24 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Your design tokens stop at the web boundary",
+          "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
+          "publishedAt": "2026-10-06T09:03:06.000Z"
+        }
+      ]
+    },
+    {
       "id": "b19ba53c904d",
       "title": "First Agentic AI Design System to Bootstrap Products",
       "teaser": "",
@@ -940,7 +960,7 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -976,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-30T14:57:38.432Z"
+      "fetchedAt": "2026-10-30T20:37:05.134Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-30T14:57:38.486Z"
+      "fetchedAt": "2026-10-30T20:37:05.168Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-30T14:57:38.488Z"
+      "fetchedAt": "2026-10-30T20:37:05.169Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-30T14:57:38.489Z"
+      "fetchedAt": "2026-10-30T20:37:05.170Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-30T14:57:38.490Z"
+      "fetchedAt": "2026-10-30T20:37:05.171Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-30T14:57:38.491Z"
+      "fetchedAt": "2026-10-30T20:37:05.171Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-30T14:57:38.492Z"
+      "fetchedAt": "2026-10-30T20:37:05.172Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-30T14:57:38.493Z"
+      "fetchedAt": "2026-10-30T20:37:05.173Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-30T14:57:38.494Z"
+      "fetchedAt": "2026-10-30T20:37:05.173Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-30T14:57:38.495Z"
+      "fetchedAt": "2026-10-30T20:37:05.174Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-30T14:57:38.496Z"
+      "fetchedAt": "2026-10-30T20:37:05.174Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-10-30T14:57:38.497Z"
+      "fetchedAt": "2026-10-30T20:37:05.175Z"
     }
   ]
 }
