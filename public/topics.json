@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T20:37:05.134Z",
-  "windowStart": "2026-09-30T20:37:05.134Z",
-  "windowEnd": "2026-10-30T20:37:05.134Z",
+  "generatedAt": "2026-10-31T05:02:10.373Z",
+  "windowStart": "2026-10-01T05:02:10.373Z",
+  "windowEnd": "2026-10-31T05:02:10.373Z",
   "topics": [
-    {
-      "id": "6281ea8c10de",
-      "title": "Experience Design: Dropping the “User” from “User Experience”",
-      "teaser": "AI is expanding UX beyond human users to agents acting on their behalf. Experience design names this broader field, which still centers on people’s goals.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-30T17:00:00.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Experience Design: Dropping the “User” from “User Experience”",
-          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-30T17:00:00.000Z"
-        }
-      ]
-    },
     {
       "id": "00eb90177d17",
       "title": "The people using AI should set its strategy",
@@ -132,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T09:37:57.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -147,14 +127,14 @@
     {
       "id": "a2c0c511a1ca",
       "title": "Going nowhere fast",
-      "teaser": "When speed disguises itself as progress. One driver worked hard to get to a stoplight. (Rounded Bevel Icons by Tristan) I distinctly remember my father driving the speed limit down a two-way",
+      "teaser": "Going Nowhere Fast When speed disguises itself as progress. One driver worked hard to get to a stoplight. (Rounded Bevel Icons by Tristan) I distinctly remember my father driving the speed l",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-27T11:13:03.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -185,16 +165,36 @@
       ]
     },
     {
+      "id": "6281ea8c10de",
+      "title": "Experience Design: Dropping the “User” from “User Experience”",
+      "teaser": "AI is expanding UX beyond human users to agents acting on their behalf. Experience design names this broader field, which still centers on people’s goals.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Experience Design: Dropping the “User” from “User Experience”",
+          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-30T17:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "84c91daf12e9",
       "title": "UX Disciplines: Glossary",
       "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
       "tag": "Research",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (1.00) with limited coverage over 8 days",
       "sources": [
         {
           "name": "nngroup",
@@ -212,35 +212,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-29T12:16:16.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
           "title": "Inkitiate: Initiating and Steering Agent Assistance through Ink in a Spatial Workspace",
           "url": "https://arxiv.org/abs/2610.39905v1",
           "publishedAt": "2026-10-29T12:16:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fe0354922a2f",
-      "title": "The Role of UX in Agentic Software Factories",
-      "teaser": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-30T17:00:00.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Role of UX in Agentic Software Factories",
-          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-30T17:00:00.000Z"
         }
       ]
     },
@@ -252,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-29T14:09:30.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -312,9 +292,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-27T11:13:45.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -334,7 +314,7 @@
       "publishedAt": "2026-10-14T14:51:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -352,9 +332,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
       "sources": [
         {
           "name": "smashing",
@@ -374,7 +354,7 @@
       "publishedAt": "2026-10-04T15:55:03.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 26 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -416,11 +396,11 @@
       "teaser": "Hello everyone! About four years ago, a password manager I&#x27;ve used and depended on has been acquired and soon after, it was shut down. If anyone remembers MYKI, it was a password manage",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-23T09:38:12.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -500,13 +480,33 @@
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
           "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
           "publishedAt": "2026-10-12T08:53:11.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fe0354922a2f",
+      "title": "The Role of UX in Agentic Software Factories",
+      "teaser": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Role of UX in Agentic Software Factories",
+          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-30T17:00:00.000Z"
         }
       ]
     },
@@ -536,11 +536,11 @@
       "teaser": "A few years ago when Stable Diffusion was released, I happened to be reading Homer&#x27;s Iliad and came across a section where Achilles&#x27; shield is described in great detail. I fed the ",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-23T14:27:01.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -558,9 +558,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-29T15:04:32.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -658,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T09:34:18.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -680,7 +680,7 @@
       "publishedAt": "2026-10-21T16:28:05.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -736,11 +736,11 @@
       "teaser": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "nngroup",
@@ -820,7 +820,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -840,7 +840,7 @@
       "publishedAt": "2026-10-12T11:46:39.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -860,7 +860,7 @@
       "publishedAt": "2026-10-16T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "nngroup",
@@ -898,35 +898,15 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-06T14:21:12.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "SaaS Pagination UX: Return to the Same Table View",
           "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
           "publishedAt": "2026-10-06T14:21:12.000Z"
-        }
-      ]
-    },
-    {
-      "id": "27872e4a3829",
-      "title": "Your design tokens stop at the web boundary",
-      "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-06T09:03:06.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 24 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Your design tokens stop at the web boundary",
-          "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
-          "publishedAt": "2026-10-06T09:03:06.000Z"
         }
       ]
     },
@@ -940,7 +920,7 @@
       "publishedAt": "2026-10-05T11:33:13.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -980,7 +960,7 @@
       "publishedAt": "2026-10-02T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
       "sources": [
         {
           "name": "nngroup",
@@ -996,73 +976,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-30T20:37:05.134Z"
+      "fetchedAt": "2026-10-31T05:02:10.374Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-30T20:37:05.168Z"
+      "fetchedAt": "2026-10-31T05:02:10.427Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-30T20:37:05.169Z"
+      "fetchedAt": "2026-10-31T05:02:10.428Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-30T20:37:05.170Z"
+      "fetchedAt": "2026-10-31T05:02:10.429Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-30T20:37:05.171Z"
+      "fetchedAt": "2026-10-31T05:02:10.430Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-30T20:37:05.171Z"
+      "fetchedAt": "2026-10-31T05:02:10.431Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-30T20:37:05.172Z"
+      "fetchedAt": "2026-10-31T05:02:10.432Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-30T20:37:05.173Z"
+      "fetchedAt": "2026-10-31T05:02:10.433Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-30T20:37:05.173Z"
+      "fetchedAt": "2026-10-31T05:02:10.434Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-30T20:37:05.174Z"
+      "fetchedAt": "2026-10-31T05:02:10.435Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-30T20:37:05.174Z"
+      "fetchedAt": "2026-10-31T05:02:10.436Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-10-30T20:37:05.175Z"
+      "fetchedAt": "2026-10-31T05:02:10.437Z"
     }
   ]
 }
