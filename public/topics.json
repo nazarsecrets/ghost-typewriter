@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T14:53:25.193Z",
-  "windowStart": "2026-10-02T14:53:25.193Z",
-  "windowEnd": "2026-11-01T14:53:25.193Z",
+  "generatedAt": "2026-11-01T20:23:49.103Z",
+  "windowStart": "2026-10-02T20:23:49.103Z",
+  "windowEnd": "2026-11-01T20:23:49.103Z",
   "topics": [
+    {
+      "id": "a8e6bff9f54e",
+      "title": "Design systems for agents",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-01T01:27:36.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design systems for agents",
+          "url": "https://design.how",
+          "publishedAt": "2026-11-01T01:27:36.000Z"
+        }
+      ]
+    },
     {
       "id": "ec65af78d19b",
       "title": "When colors pass but palettes fail",
@@ -85,26 +105,6 @@
       ]
     },
     {
-      "id": "a8e6bff9f54e",
-      "title": "Design systems for agents",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-01T01:27:36.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Design systems for agents",
-          "url": "https://design.how",
-          "publishedAt": "2026-11-01T01:27:36.000Z"
-        }
-      ]
-    },
-    {
       "id": "00eb90177d17",
       "title": "The people using AI should set its strategy",
       "teaser": "A researcher checks a generated synthesis against her own interview notes while a stack of vendor contracts sits unopened at the edge of her desk. Practitioners know what good output looks l",
@@ -112,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-30T07:06:26.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-29T06:51:21.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -205,22 +205,22 @@
       ]
     },
     {
-      "id": "17bf8d160104",
-      "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo",
-      "teaser": "A useful session timeout UX demo shows the work before expiry, the sign-in transition, and the exact...",
-      "tag": "Process",
+      "id": "9b0210a6456f",
+      "title": "USWDS: The United States Web Design System",
+      "teaser": "",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-31T23:12:50.000Z",
-      "since": "yesterday",
+      "publishedAt": "2026-11-01T16:35:26.000Z",
+      "since": "today",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo",
-          "url": "https://dev.to/urielbitton/session-timeout-ux-show-what-survives-sign-in-in-your-public-demo-2l81",
-          "publishedAt": "2026-10-31T23:12:50.000Z"
+          "name": "hn-designsystem",
+          "title": "USWDS: The United States Web Design System",
+          "url": "https://designsystem.digital.gov/",
+          "publishedAt": "2026-11-01T16:35:26.000Z"
         }
       ]
     },
@@ -281,26 +281,6 @@
           "title": "Inkitiate: Initiating and Steering Agent Assistance through Ink in a Spatial Workspace",
           "url": "https://arxiv.org/abs/2610.39905v1",
           "publishedAt": "2026-10-29T12:16:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "becd487451c8",
-      "title": "Samia Halaby and the Amiga 1000",
-      "teaser": "The unique features of the Motorola 68000 that facilitated an enchanting Golden Age for pixel art Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-01T14:32:15.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Samia Halaby and the Amiga 1000",
-          "url": "https://uxdesign.cc/samia-halaby-and-the-amiga-1000-8aae181666b9?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-01T14:32:15.000Z"
         }
       ]
     },
@@ -405,6 +385,26 @@
       ]
     },
     {
+      "id": "17bf8d160104",
+      "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo",
+      "teaser": "A useful session timeout UX demo shows the work before expiry, the sign-in transition, and the exact...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-31T23:12:50.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo",
+          "url": "https://dev.to/urielbitton/session-timeout-ux-show-what-survives-sign-in-in-your-public-demo-2l81",
+          "publishedAt": "2026-10-31T23:12:50.000Z"
+        }
+      ]
+    },
+    {
       "id": "a1d23b1af71f",
       "title": "Design Systems for AI Agents (Luke Wroblewski)",
       "teaser": "",
@@ -472,9 +472,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T05:01:23.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -514,7 +514,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
       "sources": [
         {
           "name": "devto-design",
@@ -525,22 +525,22 @@
       ]
     },
     {
-      "id": "cddc1f6901e9",
-      "title": "Designing the best AI Training Jobs Aggregator and standing out from copycats",
-      "teaser": "I'm a UX-researcher-turned-indie-hacker, and for years I've built side projects on my own. Somewhere...",
-      "tag": "Research",
+      "id": "becd487451c8",
+      "title": "Samia Halaby and the Amiga 1000",
+      "teaser": "The unique features of the Motorola 68000 that facilitated an enchanting Golden Age for pixel art Continue reading on UX Collective »",
+      "tag": "Process",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-21T08:24:19.000Z",
-      "since": "2 weeks ago",
+      "category": "Latest",
+      "publishedAt": "2026-11-01T14:32:15.000Z",
+      "since": "today",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Designing the best AI Training Jobs Aggregator and standing out from copycats",
-          "url": "https://dev.to/uproot/designing-the-best-ai-training-jobs-aggregator-and-standing-out-from-copycats-ab7",
-          "publishedAt": "2026-10-21T08:24:19.000Z"
+          "name": "uxcollective",
+          "title": "Samia Halaby and the Amiga 1000",
+          "url": "https://uxdesign.cc/samia-halaby-and-the-amiga-1000-8aae181666b9?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-01T14:32:15.000Z"
         }
       ]
     },
@@ -825,6 +825,26 @@
       ]
     },
     {
+      "id": "cddc1f6901e9",
+      "title": "Designing the best AI Training Jobs Aggregator and standing out from copycats",
+      "teaser": "I'm a UX-researcher-turned-indie-hacker, and for years I've built side projects on my own. Somewhere...",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-21T08:24:19.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Designing the best AI Training Jobs Aggregator and standing out from copycats",
+          "url": "https://dev.to/uproot/designing-the-best-ai-training-jobs-aggregator-and-standing-out-from-copycats-ab7",
+          "publishedAt": "2026-10-21T08:24:19.000Z"
+        }
+      ]
+    },
+    {
       "id": "efc6d06ff054",
       "title": "LF UX Designer – Bay Area Hybrid",
       "teaser": "",
@@ -963,46 +983,6 @@
           "publishedAt": "2026-10-06T14:21:12.000Z"
         }
       ]
-    },
-    {
-      "id": "b19ba53c904d",
-      "title": "First Agentic AI Design System to Bootstrap Products",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-05T11:33:13.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "First Agentic AI Design System to Bootstrap Products",
-          "url": "https://vitadesignsystem.com/",
-          "publishedAt": "2026-10-05T11:33:13.000Z"
-        }
-      ]
-    },
-    {
-      "id": "77ffdd825f44",
-      "title": "A Design System in and for the Agentic Era",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-05T08:12:06.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "A Design System in and for the Agentic Era",
-          "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
-          "publishedAt": "2026-10-05T08:12:06.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -1010,73 +990,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-01T14:53:25.194Z"
+      "fetchedAt": "2026-11-01T20:23:49.104Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-01T14:53:25.238Z"
+      "fetchedAt": "2026-11-01T20:23:49.158Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-01T14:53:25.240Z"
+      "fetchedAt": "2026-11-01T20:23:49.159Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-01T14:53:25.241Z"
+      "fetchedAt": "2026-11-01T20:23:49.161Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-01T14:53:25.242Z"
+      "fetchedAt": "2026-11-01T20:23:49.162Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-01T14:53:25.243Z"
+      "fetchedAt": "2026-11-01T20:23:49.163Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-01T14:53:25.244Z"
+      "fetchedAt": "2026-11-01T20:23:49.164Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-01T14:53:25.245Z"
+      "fetchedAt": "2026-11-01T20:23:49.165Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 34,
-      "fetchedAt": "2026-11-01T14:53:25.246Z"
+      "items": 33,
+      "fetchedAt": "2026-11-01T20:23:49.166Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-01T14:53:25.247Z"
+      "fetchedAt": "2026-11-01T20:23:49.167Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-01T14:53:25.247Z"
+      "fetchedAt": "2026-11-01T20:23:49.167Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-11-01T14:53:25.248Z"
+      "fetchedAt": "2026-11-01T20:23:49.169Z"
     }
   ]
 }
