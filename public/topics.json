@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T19:51:09.932Z",
-  "windowStart": "2026-10-01T19:51:09.932Z",
-  "windowEnd": "2026-10-31T19:51:09.932Z",
+  "generatedAt": "2026-11-01T05:33:39.702Z",
+  "windowStart": "2026-10-02T05:33:39.702Z",
+  "windowEnd": "2026-11-01T05:33:39.702Z",
   "topics": [
+    {
+      "id": "a8e6bff9f54e",
+      "title": "Design systems for agents",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-01T01:27:36.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design systems for agents",
+          "url": "https://design.how",
+          "publishedAt": "2026-11-01T01:27:36.000Z"
+        }
+      ]
+    },
     {
       "id": "00eb90177d17",
       "title": "The people using AI should set its strategy",
@@ -41,26 +61,6 @@
           "title": "InterA11y: Interactive Web Accessibility Error Detection with LLM Agents",
           "url": "https://arxiv.org/abs/2610.39488v1",
           "publishedAt": "2026-10-29T06:51:21.000Z"
-        }
-      ]
-    },
-    {
-      "id": "06ea14a2f213",
-      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-23T03:30:00.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
-          "publishedAt": "2026-10-23T03:30:00.000Z"
         }
       ]
     },
@@ -132,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T09:37:57.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -152,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-27T11:13:03.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -192,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-30T17:00:00.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -214,7 +214,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 8 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 9 days",
       "sources": [
         {
           "name": "nngroup",
@@ -232,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-29T12:16:16.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -252,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-29T14:09:30.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -312,9 +312,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-27T11:13:45.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -332,9 +332,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-14T14:51:36.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -354,7 +354,7 @@
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "smashing",
@@ -371,22 +371,16 @@
       "tag": "Systems",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-04T15:55:03.000Z",
+      "publishedAt": "2026-10-05T23:39:08.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 27 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Design Systems for AI Agents (Luke Wroblewski)",
           "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
           "publishedAt": "2026-10-05T23:39:08.000Z"
-        },
-        {
-          "name": "hn-designsystem",
-          "title": "Design Systems for AI Agents",
-          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
-          "publishedAt": "2026-10-04T15:55:03.000Z"
         }
       ]
     },
@@ -420,7 +414,7 @@
       "publishedAt": "2026-10-23T09:38:12.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -500,7 +494,7 @@
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -518,9 +512,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-30T17:00:00.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -560,7 +554,7 @@
       "publishedAt": "2026-10-23T14:27:01.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -578,9 +572,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-29T15:04:32.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -678,9 +672,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T09:34:18.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -698,9 +692,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-21T16:28:05.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -751,6 +745,26 @@
       ]
     },
     {
+      "id": "27872e4a3829",
+      "title": "Your design tokens stop at the web boundary",
+      "teaser": "There is a moment in every multi-platform design system where the pipeline quietly ends. It goes...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-06T09:03:06.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 26 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Your design tokens stop at the web boundary",
+          "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
+          "publishedAt": "2026-10-06T09:03:06.000Z"
+        }
+      ]
+    },
+    {
       "id": "235624794eb9",
       "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
       "teaser": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
@@ -760,7 +774,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "nngroup",
@@ -840,7 +854,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -860,7 +874,7 @@
       "publishedAt": "2026-10-12T11:46:39.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -880,7 +894,7 @@
       "publishedAt": "2026-10-16T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "nngroup",
@@ -920,7 +934,7 @@
       "publishedAt": "2026-10-06T14:21:12.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -940,7 +954,7 @@
       "publishedAt": "2026-10-05T11:33:13.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -960,7 +974,7 @@
       "publishedAt": "2026-10-05T08:12:06.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -980,7 +994,7 @@
       "publishedAt": "2026-10-02T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
       "sources": [
         {
           "name": "nngroup",
@@ -996,73 +1010,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-31T19:51:09.932Z"
+      "fetchedAt": "2026-11-01T05:33:39.702Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-31T19:51:09.990Z"
+      "fetchedAt": "2026-11-01T05:33:39.756Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-31T19:51:09.991Z"
+      "fetchedAt": "2026-11-01T05:33:39.757Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-31T19:51:09.992Z"
+      "fetchedAt": "2026-11-01T05:33:39.759Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-31T19:51:09.993Z"
+      "fetchedAt": "2026-11-01T05:33:39.760Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-31T19:51:09.995Z"
+      "fetchedAt": "2026-11-01T05:33:39.761Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-31T19:51:09.996Z"
+      "fetchedAt": "2026-11-01T05:33:39.761Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-31T19:51:09.997Z"
+      "fetchedAt": "2026-11-01T05:33:39.762Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-10-31T19:51:09.998Z"
+      "fetchedAt": "2026-11-01T05:33:39.763Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-31T19:51:09.999Z"
+      "fetchedAt": "2026-11-01T05:33:39.764Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-31T19:51:10.000Z"
+      "fetchedAt": "2026-11-01T05:33:39.765Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-10-31T19:51:10.001Z"
+      "fetchedAt": "2026-11-01T05:33:39.766Z"
     }
   ]
 }
