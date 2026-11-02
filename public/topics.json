@@ -1,9 +1,109 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-02T05:30:39.856Z",
-  "windowStart": "2026-10-03T05:30:39.856Z",
-  "windowEnd": "2026-11-02T05:30:39.856Z",
+  "generatedAt": "2026-11-02T18:05:59.477Z",
+  "windowStart": "2026-10-03T18:05:59.477Z",
+  "windowEnd": "2026-11-02T18:05:59.477Z",
   "topics": [
+    {
+      "id": "adb372174e81",
+      "title": "State of a system",
+      "teaser": "Almost eight years ago, I started working on a design system that I got the opportunity to revisit just a few years later. The second round became as big a push with far fewer people. Now, t",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-02T17:56:46.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "State of a system",
+          "url": "https://uxdesign.cc/state-of-a-system-5c8473db1e9?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-02T17:56:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "85e6d31163cb",
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "teaser": "Hi HN, we&#x27;re Aarush and Arnav from The Subvocal Company (YC F26). We’re building smart glasses that let you talk to your computer without talking out loud. You can mouth words silently ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Trending",
+      "publishedAt": "2026-11-02T17:16:17.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "146 engagement signals within 0 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Subvocal – Talk to your computer without making noise",
+          "url": "https://subvocal.company/",
+          "publishedAt": "2026-11-02T17:16:17.000Z"
+        }
+      ]
+    },
+    {
+      "id": "eaf1778a8d86",
+      "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “Open any product you pay for and look at the top right corner. There is a sparkle. Behind it is a panel that slides in from the",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-02T10:22:22.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-02T10:22:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f1808288dd60",
+      "title": "Virtue ethics in everyday interface design",
+      "teaser": "How wording, hierarchy, and moments of friction can support considered action. Aristotle statue by Jerry Anderson at Southern Utah University’s Centurium, Cedar City, Utah. Image source: Sou",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-02T17:55:34.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Virtue ethics in everyday interface design",
+          "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-02T17:55:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "819d92c0df8e",
+      "title": "BoardUI: A React design system with 103 unique components",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-02T16:41:01.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "BoardUI: A React design system with 103 unique components",
+          "url": "https://www.boardui.com",
+          "publishedAt": "2026-11-02T16:41:01.000Z"
+        }
+      ]
+    },
     {
       "id": "a8e6bff9f54e",
       "title": "Design systems for agents",
@@ -12,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-01T01:27:36.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -125,46 +225,6 @@
       ]
     },
     {
-      "id": "0377b1145b9b",
-      "title": "Measuring Personal Information Exposure in Mental Health-Related Conversations with LLMs",
-      "teaser": "Large language models (LLMs) are increasingly used for informal mental health support, yet the privacy implications of conversational interaction remain poorly understood. Prior LLM privacy ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-29T22:34:18.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Measuring Personal Information Exposure in Mental Health-Related Conversations with LLMs",
-          "url": "https://arxiv.org/abs/2610.41045v1",
-          "publishedAt": "2026-10-29T22:34:18.000Z"
-        }
-      ]
-    },
-    {
-      "id": "06ea14a2f213",
-      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-23T03:30:00.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
-          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
-          "publishedAt": "2026-10-23T03:30:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "1c8450dac8f8",
       "title": "How I stopped dreading AI and started studying it full-time",
       "teaser": "By June 2026, I couldn’t open an app without being told I was falling behind. My Instagram saves were full of designers building agents over a weekend. LinkedIn was a steady stream of people",
@@ -172,35 +232,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T23:24:01.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "How I stopped dreading AI and started studying it full-time",
           "url": "https://uxdesign.cc/how-i-stopped-dreading-ai-and-started-studying-it-full-time-fee7afc2b967?source=rss----138adf9c44c---4",
           "publishedAt": "2026-10-28T23:24:01.000Z"
-        }
-      ]
-    },
-    {
-      "id": "373c3db32dc4",
-      "title": "The AI reckoning in UX was 20 years in the making",
-      "teaser": "The field has blown up and rebuilt itself three times in twenty years. This is the third. Everyone thinks AI is coming for design. The truth is uglier and older. The field has done this to i",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-28T23:22:26.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The AI reckoning in UX was 20 years in the making",
-          "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-28T23:22:26.000Z"
         }
       ]
     },
@@ -225,46 +265,6 @@
       ]
     },
     {
-      "id": "6212137a7b64",
-      "title": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
-      "teaser": "Computer-use agents increasingly tackle tasks ranging from everyday desktop activities to long-horizon professional workflows. Yet interfaces centered on screenshots and mouse-and-keyboard a",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-30T08:38:29.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
-          "url": "https://arxiv.org/abs/2610.41432v1",
-          "publishedAt": "2026-10-30T08:38:29.000Z"
-        }
-      ]
-    },
-    {
-      "id": "db56717c7a55",
-      "title": "Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories",
-      "teaser": "Generative audio systems can produce large libraries of personalized bedtime content, but ordinary media objectives (retention, completion, and novelty) are poorly aligned with the goal of s",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-29T20:58:10.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories",
-          "url": "https://arxiv.org/abs/2610.40970v1",
-          "publishedAt": "2026-10-29T20:58:10.000Z"
-        }
-      ]
-    },
-    {
       "id": "84c91daf12e9",
       "title": "UX Disciplines: Glossary",
       "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
@@ -281,6 +281,26 @@
           "title": "UX Disciplines: Glossary",
           "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-23T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0377b1145b9b",
+      "title": "Measuring Personal Information Exposure in Mental Health-Related Conversations with LLMs",
+      "teaser": "Large language models (LLMs) are increasingly used for informal mental health support, yet the privacy implications of conversational interaction remain poorly understood. Prior LLM privacy ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T22:34:18.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Measuring Personal Information Exposure in Mental Health-Related Conversations with LLMs",
+          "url": "https://arxiv.org/abs/2610.41045v1",
+          "publishedAt": "2026-10-29T22:34:18.000Z"
         }
       ]
     },
@@ -305,6 +325,26 @@
       ]
     },
     {
+      "id": "06ea14a2f213",
+      "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
+      "teaser": "Most developer portfolios are a dark gradient with a glowing card. I wanted something people would...",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-23T03:30:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "sources": [
+        {
+          "name": "devto-design",
+          "title": "Why my portfolio looks like a newspaper (and what that taught me about design systems)",
+          "url": "https://dev.to/suraj_nandan/why-my-portfolio-looks-like-a-newspaper-and-what-that-taught-me-about-design-systems-46m9",
+          "publishedAt": "2026-10-23T03:30:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "85c030973a18",
       "title": "Show HN: Chai-UI – A design system to generative AI apps",
       "teaser": "",
@@ -314,13 +354,33 @@
       "publishedAt": "2026-10-20T00:06:14.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Chai-UI – A design system to generative AI apps",
           "url": "https://chai-ui.com/",
           "publishedAt": "2026-10-20T00:06:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "70e4549b006f",
+      "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+      "teaser": "Design systems thrive on consistency, so where does randomness fit in? Through playful demos of organic typography, bouncing letters, and splayed cards, Brecht De Ruyte shows how the new CSS",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+          "publishedAt": "2026-10-20T10:00:00.000Z"
         }
       ]
     },
@@ -365,26 +425,6 @@
       ]
     },
     {
-      "id": "70e4549b006f",
-      "title": "Embracing Playful Imperfection With The CSS `random()` Function",
-      "teaser": "Design systems thrive on consistency, so where does randomness fit in? Through playful demos of organic typography, bouncing letters, and splayed cards, Brecht De Ruyte shows how the new CSS",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
-          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
-          "publishedAt": "2026-10-20T10:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "17bf8d160104",
       "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo",
       "teaser": "A useful session timeout UX demo shows the work before expiry, the sign-in transition, and the exact...",
@@ -392,9 +432,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-31T23:12:50.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -405,22 +445,42 @@
       ]
     },
     {
-      "id": "a1d23b1af71f",
-      "title": "Design Systems for AI Agents (Luke Wroblewski)",
-      "teaser": "",
-      "tag": "Systems",
+      "id": "6212137a7b64",
+      "title": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
+      "teaser": "Computer-use agents increasingly tackle tasks ranging from everyday desktop activities to long-horizon professional workflows. Yet interfaces centered on screenshots and mouse-and-keyboard a",
+      "tag": "AI",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-05T23:39:08.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 27 days",
+      "category": "Latest",
+      "publishedAt": "2026-10-30T08:38:29.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Design Systems for AI Agents (Luke Wroblewski)",
-          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
-          "publishedAt": "2026-10-05T23:39:08.000Z"
+          "name": "arxiv-hci",
+          "title": "Hybrid Computer Use: A Unified Programmatic, Semantic, and Visual Interface for General Agents",
+          "url": "https://arxiv.org/abs/2610.41432v1",
+          "publishedAt": "2026-10-30T08:38:29.000Z"
+        }
+      ]
+    },
+    {
+      "id": "db56717c7a55",
+      "title": "Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories",
+      "teaser": "Generative audio systems can produce large libraries of personalized bedtime content, but ordinary media objectives (retention, completion, and novelty) are poorly aligned with the goal of s",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T20:58:10.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories",
+          "url": "https://arxiv.org/abs/2610.40970v1",
+          "publishedAt": "2026-10-29T20:58:10.000Z"
         }
       ]
     },
@@ -434,7 +494,7 @@
       "publishedAt": "2026-10-21T20:45:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -472,55 +532,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-28T05:01:23.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "UX Design Patterns",
           "url": "https://sambernheim.com/blog/ux-design-patterns",
           "publishedAt": "2026-10-28T05:01:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "0f3d4d5f7d5d",
-      "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
-      "teaser": "I want to show you the game I created recently and tell you whole the story&#x2F;experience - including backend&#x2F;latency&#x2F;scalability. You can try it quickly without an account - I c",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-15T02:02:26.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
-          "url": "https://towerpanic.com/",
-          "publishedAt": "2026-10-15T02:02:26.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4b74e269aed3",
-      "title": "Why I Built DSLint: A Design System Linter for Figma",
-      "teaser": "How repeated design-review feedback inspired me to build a plugin that detects design-system drift,...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-11T07:19:22.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Why I Built DSLint: A Design System Linter for Figma",
-          "url": "https://dev.to/krishnakakade/why-i-built-dslint-a-design-system-linter-for-figma-51ge",
-          "publishedAt": "2026-10-11T07:19:22.000Z"
         }
       ]
     },
@@ -545,22 +565,42 @@
       ]
     },
     {
-      "id": "fa36b5133b5f",
-      "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
-      "teaser": "The diagram vs. the Tuesday afternoon On the architecture diagram, human-in-the-loop looks...",
-      "tag": "Process",
+      "id": "4b74e269aed3",
+      "title": "Why I Built DSLint: A Design System Linter for Figma",
+      "teaser": "How repeated design-review feedback inspired me to build a plugin that detects design-system drift,...",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-12T08:53:11.000Z",
+      "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 22 days",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
-          "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
-          "publishedAt": "2026-10-12T08:53:11.000Z"
+          "name": "devto-design",
+          "title": "Why I Built DSLint: A Design System Linter for Figma",
+          "url": "https://dev.to/krishnakakade/why-i-built-dslint-a-design-system-linter-for-figma-51ge",
+          "publishedAt": "2026-10-11T07:19:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0f3d4d5f7d5d",
+      "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
+      "teaser": "I want to show you the game I created recently and tell you whole the story&#x2F;experience - including backend&#x2F;latency&#x2F;scalability. You can try it quickly without an account - I c",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-15T02:02:26.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
+          "url": "https://towerpanic.com/",
+          "publishedAt": "2026-10-15T02:02:26.000Z"
         }
       ]
     },
@@ -585,22 +625,22 @@
       ]
     },
     {
-      "id": "8e1aabed0fc1",
-      "title": "Show HN: Railcode – Secure cloud for internal software",
-      "teaser": "Hey HN, Yakko here from Railcode. Railcode is like an internal Vercel for your company. We built it after speaking to dozens of engineering leaders at various companies where employees were ",
-      "tag": "AI",
+      "id": "a1a55baf9deb",
+      "title": "\"It Feels Weird to Just Rely on AI\": How Experienced Healthcare Professionals Work With Decision Support Systems in Clinical Practice",
+      "teaser": "Decision support systems (DSS) assist with clinical decision-making. Little is known, however, about the decision-making process with DSS in clinical practice and the extent to which clinici",
+      "tag": "Research",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-07T21:55:52.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 25 days",
+      "category": "Latest",
+      "publishedAt": "2026-10-29T15:04:32.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Show HN: Railcode – Secure cloud for internal software",
-          "url": "https://railcode.dev/",
-          "publishedAt": "2026-10-07T21:55:52.000Z"
+          "name": "arxiv-hci",
+          "title": "\"It Feels Weird to Just Rely on AI\": How Experienced Healthcare Professionals Work With Decision Support Systems in Clinical Practice",
+          "url": "https://arxiv.org/abs/2610.40224v1",
+          "publishedAt": "2026-10-29T15:04:32.000Z"
         }
       ]
     },
@@ -625,102 +665,22 @@
       ]
     },
     {
-      "id": "a1a55baf9deb",
-      "title": "\"It Feels Weird to Just Rely on AI\": How Experienced Healthcare Professionals Work With Decision Support Systems in Clinical Practice",
-      "teaser": "Decision support systems (DSS) assist with clinical decision-making. Little is known, however, about the decision-making process with DSS in clinical practice and the extent to which clinici",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-29T15:04:32.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "\"It Feels Weird to Just Rely on AI\": How Experienced Healthcare Professionals Work With Decision Support Systems in Clinical Practice",
-          "url": "https://arxiv.org/abs/2610.40224v1",
-          "publishedAt": "2026-10-29T15:04:32.000Z"
-        }
-      ]
-    },
-    {
-      "id": "68573e2109b1",
-      "title": "Agent-first design: Bringing UX to the user",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-12T17:55:42.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Agent-first design: Bringing UX to the user",
-          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
-          "publishedAt": "2026-10-12T17:55:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3faadc198782",
-      "title": "Beyond chatbots: UX for deep AI research",
-      "teaser": "What Gemini, Perplexity, Copilot and Consensus do when an answer takes time Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-28T23:23:05.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Beyond chatbots: UX for deep AI research",
-          "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-28T23:23:05.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7ea15db2aab3",
-      "title": "Autonomy by design: how gamification and AI can respect (or rewrite) our choices",
-      "teaser": "All design influences behavior. The ethical line is whether people can see the influence and still choose otherwise. Continue reading on UX Collective »",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-28T23:21:43.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Autonomy by design: how gamification and AI can respect (or rewrite) our choices",
-          "url": "https://uxdesign.cc/autonomy-by-design-how-gamification-and-ai-can-respect-or-rewrite-our-choices-122ad795ec57?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-28T23:21:43.000Z"
-        }
-      ]
-    },
-    {
-      "id": "ce5b3c7bf9e5",
-      "title": "Show HN: Build with Python – a beginner course where your code draws",
-      "teaser": "Hi HN, I built this because I watched my daughter struggle at learning Python. I made something that runs only in the browser with visuals rather than relying on CLI&#x2F;terminal output. No",
+      "id": "fa36b5133b5f",
+      "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
+      "teaser": "The diagram vs. the Tuesday afternoon On the architecture diagram, human-in-the-loop looks...",
       "tag": "Process",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-04T18:59:25.000Z",
-      "since": "4 weeks ago",
+      "publishedAt": "2026-10-12T08:53:11.000Z",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
-          "name": "hn-ux",
-          "title": "Show HN: Build with Python – a beginner course where your code draws",
-          "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
-          "publishedAt": "2026-10-04T18:59:25.000Z"
+          "name": "devto-ux",
+          "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
+          "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
+          "publishedAt": "2026-10-12T08:53:11.000Z"
         }
       ]
     },
@@ -745,6 +705,26 @@
       ]
     },
     {
+      "id": "68573e2109b1",
+      "title": "Agent-first design: Bringing UX to the user",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-12T17:55:42.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Agent-first design: Bringing UX to the user",
+          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
+          "publishedAt": "2026-10-12T17:55:42.000Z"
+        }
+      ]
+    },
+    {
       "id": "3738455d7fa9",
       "title": "Snapflow: An agentic design system for React, Vue and Angular",
       "teaser": "",
@@ -754,13 +734,33 @@
       "publishedAt": "2026-10-19T23:42:31.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Snapflow: An agentic design system for React, Vue and Angular",
           "url": "https://www.snapflow.design/en/",
           "publishedAt": "2026-10-19T23:42:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ce5b3c7bf9e5",
+      "title": "Show HN: Build with Python – a beginner course where your code draws",
+      "teaser": "Hi HN, I built this because I watched my daughter struggle at learning Python. I made something that runs only in the browser with visuals rather than relying on CLI&#x2F;terminal output. No",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-04T18:59:25.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Build with Python – a beginner course where your code draws",
+          "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
+          "publishedAt": "2026-10-04T18:59:25.000Z"
         }
       ]
     },
@@ -774,7 +774,7 @@
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -805,46 +805,6 @@
       ]
     },
     {
-      "id": "f50228309f32",
-      "title": "Show HN: Turn spoken thoughts into system design diagrams",
-      "teaser": "I recently had an issue with my right hand, and couldn&#x27;t use it very effectively. So I was trying to figure out how I could still get work done without typing everything with my right h",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-12T21:39:07.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 20 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Turn spoken thoughts into system design diagrams",
-          "url": "https://github.com/triggeredcode/lucid",
-          "publishedAt": "2026-10-12T21:39:07.000Z"
-        }
-      ]
-    },
-    {
-      "id": "cddc1f6901e9",
-      "title": "Designing the best AI Training Jobs Aggregator and standing out from copycats",
-      "teaser": "I'm a UX-researcher-turned-indie-hacker, and for years I've built side projects on my own. Somewhere...",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-21T08:24:19.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Designing the best AI Training Jobs Aggregator and standing out from copycats",
-          "url": "https://dev.to/uproot/designing-the-best-ai-training-jobs-aggregator-and-standing-out-from-copycats-ab7",
-          "publishedAt": "2026-10-21T08:24:19.000Z"
-        }
-      ]
-    },
-    {
       "id": "96140aabf777",
       "title": "Show HN: Launching NS UI easy to use components,AI slop should be a term of past",
       "teaser": "A registry of hand picked&#x2F;built registry of ui&#x2F;ux components so now i can produce slop without ai. i always loved using and searching for ui components on every registry site that ",
@@ -852,9 +812,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-08T19:48:12.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -934,7 +894,7 @@
       "publishedAt": "2026-10-05T18:03:04.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -970,73 +930,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-02T05:30:39.857Z"
+      "fetchedAt": "2026-11-02T18:05:59.477Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-02T05:30:39.890Z"
+      "fetchedAt": "2026-11-02T18:05:59.530Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-02T05:30:39.891Z"
+      "fetchedAt": "2026-11-02T18:05:59.531Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-02T05:30:39.891Z"
+      "fetchedAt": "2026-11-02T18:05:59.532Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-02T05:30:39.892Z"
+      "fetchedAt": "2026-11-02T18:05:59.534Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-02T05:30:39.893Z"
+      "fetchedAt": "2026-11-02T18:05:59.535Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-02T05:30:39.893Z"
+      "fetchedAt": "2026-11-02T18:05:59.536Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-11-02T05:30:39.894Z"
+      "fetchedAt": "2026-11-02T18:05:59.537Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 33,
-      "fetchedAt": "2026-11-02T05:30:39.894Z"
+      "items": 35,
+      "fetchedAt": "2026-11-02T18:05:59.538Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-02T05:30:39.895Z"
+      "fetchedAt": "2026-11-02T18:05:59.539Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-02T05:30:39.895Z"
+      "fetchedAt": "2026-11-02T18:05:59.539Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-11-02T05:30:39.896Z"
+      "fetchedAt": "2026-11-02T18:05:59.540Z"
     }
   ]
 }
