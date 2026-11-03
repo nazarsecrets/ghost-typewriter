@@ -1,66 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-03T06:11:10.715Z",
-  "windowStart": "2026-10-04T06:11:10.715Z",
-  "windowEnd": "2026-11-03T06:11:10.715Z",
+  "generatedAt": "2026-11-03T16:01:36.618Z",
+  "windowStart": "2026-10-04T16:01:36.618Z",
+  "windowEnd": "2026-11-03T16:01:36.618Z",
   "topics": [
     {
-      "id": "cf0f6cda70e3",
-      "title": "Capable but Not Scalable: Requirements and Interaction Costs of Building Multi-View CAD Datasets for Design Research",
-      "teaser": "Transforming CAD models into consistent multi-view image datasets is increasingly important for AI-driven product design research, yet existing workflows can impose substantial burdens on re",
+      "id": "fbe13f76868a",
+      "title": "What I learned teaching AI prototyping at university",
+      "teaser": "Teaching students how to prototype with AI tools instead of Figma revealed exciting possibilities and uncomfortable trade-offs. It also offered valuable insight into how non-tech people can ",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-01T18:23:23.000Z",
-      "since": "yesterday",
+      "publishedAt": "2026-11-03T10:09:09.000Z",
+      "since": "today",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Capable but Not Scalable: Requirements and Interaction Costs of Building Multi-View CAD Datasets for Design Research",
-          "url": "https://arxiv.org/abs/2611.02108v1",
-          "publishedAt": "2026-11-01T18:23:23.000Z"
+          "name": "uxcollective",
+          "title": "What I learned teaching AI prototyping at university",
+          "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-03T10:09:09.000Z"
         }
       ]
     },
     {
-      "id": "f2e9902e73ac",
-      "title": "Adjustment control usability and dynamic accommodation in office chairs: A comparative study of two contemporary designs",
-      "teaser": "Adjustability is a core determinant of ergonomic fit in office chairs, but its benefits depend on users being able to operate the controls and, on the chair, continuing to support the body a",
-      "tag": "Research",
+      "id": "9af238a0f85c",
+      "title": "The pole and the stake",
+      "teaser": "On going with the current, changing it, and what designers are asked to do Continue reading on UX Collective »",
+      "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-02T03:15:02.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Adjustment control usability and dynamic accommodation in office chairs: A comparative study of two contemporary designs",
-          "url": "https://arxiv.org/abs/2611.02452v1",
-          "publishedAt": "2026-11-02T03:15:02.000Z"
-        }
-      ]
-    },
-    {
-      "id": "04b9f201d26b",
-      "title": "Show HN: An experiment in automated long-horizon builds with AMQP 0.9.1",
-      "teaser": "My cofounders and I are in the process of spinning up an AI integration lab, and over the last year we&#x27;ve consumed billions of tokens across multiple American, European, and Chinese mod",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-02T19:40:03.000Z",
+      "publishedAt": "2026-11-03T10:08:25.000Z",
       "since": "today",
       "relevanceScore": 0.714,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Show HN: An experiment in automated long-horizon builds with AMQP 0.9.1",
-          "url": "https://github.com/siennathesane/switchboard",
-          "publishedAt": "2026-11-02T19:40:03.000Z"
+          "name": "uxcollective",
+          "title": "The pole and the stake",
+          "url": "https://uxdesign.cc/the-pole-and-the-stake-2cfba6c08bca?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-03T10:08:25.000Z"
         }
       ]
     },
@@ -72,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-01T01:27:36.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -205,46 +185,6 @@
       ]
     },
     {
-      "id": "00eb90177d17",
-      "title": "The people using AI should set its strategy",
-      "teaser": "A researcher checks a generated synthesis against her own interview notes while a stack of vendor contracts sits unopened at the edge of her desk. Practitioners know what good output looks l",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-30T07:06:26.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The people using AI should set its strategy",
-          "url": "https://uxdesign.cc/the-people-using-ai-should-set-its-strategy-473c7f2ebb94?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-30T07:06:26.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1c8450dac8f8",
-      "title": "How I stopped dreading AI and started studying it full-time",
-      "teaser": "By June 2026, I couldn’t open an app without being told I was falling behind. My Instagram saves were full of designers building agents over a weekend. LinkedIn was a steady stream of people",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-28T23:24:01.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "How I stopped dreading AI and started studying it full-time",
-          "url": "https://uxdesign.cc/how-i-stopped-dreading-ai-and-started-studying-it-full-time-fee7afc2b967?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-28T23:24:01.000Z"
-        }
-      ]
-    },
-    {
       "id": "f1808288dd60",
       "title": "Virtue ethics in everyday interface design",
       "teaser": "How wording, hierarchy, and moments of friction can support considered action. Aristotle statue by Jerry Anderson at Southern Utah University’s Centurium, Cedar City, Utah. Image source: Sou",
@@ -261,6 +201,46 @@
           "title": "Virtue ethics in everyday interface design",
           "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-02T17:55:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f2e9902e73ac",
+      "title": "Adjustment control usability and dynamic accommodation in office chairs: A comparative study of two contemporary designs",
+      "teaser": "Adjustability is a core determinant of ergonomic fit in office chairs, but its benefits depend on users being able to operate the controls and, on the chair, continuing to support the body a",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-02T03:15:02.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Adjustment control usability and dynamic accommodation in office chairs: A comparative study of two contemporary designs",
+          "url": "https://arxiv.org/abs/2611.02452v1",
+          "publishedAt": "2026-11-02T03:15:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "04b9f201d26b",
+      "title": "Show HN: An experiment in automated long-horizon builds with AMQP 0.9.1",
+      "teaser": "My cofounders and I are in the process of spinning up an AI integration lab, and over the last year we&#x27;ve consumed billions of tokens across multiple American, European, and Chinese mod",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-02T19:40:03.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: An experiment in automated long-horizon builds with AMQP 0.9.1",
+          "url": "https://github.com/siennathesane/switchboard",
+          "publishedAt": "2026-11-02T19:40:03.000Z"
         }
       ]
     },
@@ -325,86 +305,6 @@
       ]
     },
     {
-      "id": "1c7fd1992a6e",
-      "title": "Selfrionette: A Fingertip Force-Input Controller for Continuous Full-Body Avatar Manipulation and Diverse Haptic Interactions",
-      "teaser": "We propose Selfrionette, a controller that uses fingertip force input to drive avatar movements in virtual reality (VR). This system enables users to interact with virtual objects and walk i",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-02T12:47:45.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Selfrionette: A Fingertip Force-Input Controller for Continuous Full-Body Avatar Manipulation and Diverse Haptic Interactions",
-          "url": "https://arxiv.org/abs/2611.03052v1",
-          "publishedAt": "2026-11-02T12:47:45.000Z"
-        }
-      ]
-    },
-    {
-      "id": "98f38583ed50",
-      "title": "Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation",
-      "teaser": "Interactive narratives let users shape a story while an Experience Manager (EM) keeps it coherent, balancing player freedom against authorial control. Large Language Models now enable a new ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-02T09:15:01.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation",
-          "url": "https://arxiv.org/abs/2611.02807v1",
-          "publishedAt": "2026-11-02T09:15:01.000Z"
-        }
-      ]
-    },
-    {
-      "id": "2f13056ebe7a",
-      "title": "Touching Projected Agents through the DAT Screen -System Design and Questions of Interaction Boundaries-",
-      "teaser": "Touching a virtual agent involves more than detecting a finger on a display: the contact surface can deform and resist the user's push, and the agent can respond to that action. We describe ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-02T04:51:34.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Touching Projected Agents through the DAT Screen -System Design and Questions of Interaction Boundaries-",
-          "url": "https://arxiv.org/abs/2611.02525v1",
-          "publishedAt": "2026-11-02T04:51:34.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3f3a527bb085",
-      "title": "Spatial Organization Is Accessibility Structure: Hierarchical Screen Reading of Mobile UIs",
-      "teaser": "Screen readers for blind and low-vision (BLV) users flatten mobile UIs into a linear sequence. Modern mobile UIs, however, contain dozens of elements grouped by spatial layout. Such linear a",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-02T02:31:18.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Spatial Organization Is Accessibility Structure: Hierarchical Screen Reading of Mobile UIs",
-          "url": "https://arxiv.org/abs/2611.02410v1",
-          "publishedAt": "2026-11-02T02:31:18.000Z"
-        }
-      ]
-    },
-    {
       "id": "85c030973a18",
       "title": "Show HN: Chai-UI – A design system to generative AI apps",
       "teaser": "",
@@ -414,7 +314,7 @@
       "publishedAt": "2026-10-20T00:06:14.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -472,9 +372,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-31T23:12:50.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -494,7 +394,7 @@
       "publishedAt": "2026-10-21T20:45:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -545,6 +445,26 @@
       ]
     },
     {
+      "id": "1c7fd1992a6e",
+      "title": "Selfrionette: A Fingertip Force-Input Controller for Continuous Full-Body Avatar Manipulation and Diverse Haptic Interactions",
+      "teaser": "We propose Selfrionette, a controller that uses fingertip force input to drive avatar movements in virtual reality (VR). This system enables users to interact with virtual objects and walk i",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-02T12:47:45.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Selfrionette: A Fingertip Force-Input Controller for Continuous Full-Body Avatar Manipulation and Diverse Haptic Interactions",
+          "url": "https://arxiv.org/abs/2611.03052v1",
+          "publishedAt": "2026-11-02T12:47:45.000Z"
+        }
+      ]
+    },
+    {
       "id": "0f3d4d5f7d5d",
       "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
       "teaser": "I want to show you the game I created recently and tell you whole the story&#x2F;experience - including backend&#x2F;latency&#x2F;scalability. You can try it quickly without an account - I c",
@@ -554,7 +474,7 @@
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -581,6 +501,66 @@
           "title": "Why I Built DSLint: A Design System Linter for Figma",
           "url": "https://dev.to/krishnakakade/why-i-built-dslint-a-design-system-linter-for-figma-51ge",
           "publishedAt": "2026-10-11T07:19:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "98f38583ed50",
+      "title": "Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation",
+      "teaser": "Interactive narratives let users shape a story while an Experience Manager (EM) keeps it coherent, balancing player freedom against authorial control. Large Language Models now enable a new ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-02T09:15:01.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation",
+          "url": "https://arxiv.org/abs/2611.02807v1",
+          "publishedAt": "2026-11-02T09:15:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2f13056ebe7a",
+      "title": "Touching Projected Agents through the DAT Screen -System Design and Questions of Interaction Boundaries-",
+      "teaser": "Touching a virtual agent involves more than detecting a finger on a display: the contact surface can deform and resist the user's push, and the agent can respond to that action. We describe ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-02T04:51:34.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Touching Projected Agents through the DAT Screen -System Design and Questions of Interaction Boundaries-",
+          "url": "https://arxiv.org/abs/2611.02525v1",
+          "publishedAt": "2026-11-02T04:51:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3f3a527bb085",
+      "title": "Spatial Organization Is Accessibility Structure: Hierarchical Screen Reading of Mobile UIs",
+      "teaser": "Screen readers for blind and low-vision (BLV) users flatten mobile UIs into a linear sequence. Modern mobile UIs, however, contain dozens of elements grouped by spatial layout. Such linear a",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-02T02:31:18.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Spatial Organization Is Accessibility Structure: Hierarchical Screen Reading of Mobile UIs",
+          "url": "https://arxiv.org/abs/2611.02410v1",
+          "publishedAt": "2026-11-02T02:31:18.000Z"
         }
       ]
     },
@@ -694,7 +674,7 @@
       "publishedAt": "2026-10-04T18:59:25.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -734,7 +714,7 @@
       "publishedAt": "2026-10-19T23:42:31.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -754,33 +734,13 @@
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
           "url": "https://swirltogether.com/",
           "publishedAt": "2026-10-19T19:00:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "84679c851736",
-      "title": "Building with Agents: QA and UX in the Loop",
-      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-05T15:09:22.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Building with Agents: QA and UX in the Loop",
-          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
-          "publishedAt": "2026-10-05T15:09:22.000Z"
         }
       ]
     },
@@ -814,7 +774,7 @@
       "publishedAt": "2026-10-08T19:48:12.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -923,6 +883,26 @@
           "publishedAt": "2026-10-06T14:21:12.000Z"
         }
       ]
+    },
+    {
+      "id": "84679c851736",
+      "title": "Building with Agents: QA and UX in the Loop",
+      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-05T15:09:22.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Building with Agents: QA and UX in the Loop",
+          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
+          "publishedAt": "2026-10-05T15:09:22.000Z"
+        }
+      ]
     }
   ],
   "sourceHealth": [
@@ -930,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-03T06:11:10.715Z"
+      "fetchedAt": "2026-11-03T16:01:36.618Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-03T06:11:10.770Z"
+      "fetchedAt": "2026-11-03T16:01:36.671Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-03T06:11:10.771Z"
+      "fetchedAt": "2026-11-03T16:01:36.672Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-03T06:11:10.772Z"
+      "fetchedAt": "2026-11-03T16:01:36.673Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-03T06:11:10.773Z"
+      "fetchedAt": "2026-11-03T16:01:36.674Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-03T06:11:10.774Z"
+      "fetchedAt": "2026-11-03T16:01:36.675Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-03T06:11:10.775Z"
+      "fetchedAt": "2026-11-03T16:01:36.676Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-11-03T06:11:10.776Z"
+      "fetchedAt": "2026-11-03T16:01:36.677Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 34,
-      "fetchedAt": "2026-11-03T06:11:10.777Z"
+      "fetchedAt": "2026-11-03T16:01:36.678Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-03T06:11:10.779Z"
+      "fetchedAt": "2026-11-03T16:01:36.679Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-03T06:11:10.779Z"
+      "fetchedAt": "2026-11-03T16:01:36.680Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 6,
-      "fetchedAt": "2026-11-03T06:11:10.780Z"
+      "fetchedAt": "2026-11-03T16:01:36.681Z"
     }
   ]
 }
