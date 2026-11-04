@@ -1,9 +1,69 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-04T05:48:21.383Z",
-  "windowStart": "2026-10-05T05:48:21.383Z",
-  "windowEnd": "2026-11-04T05:48:21.383Z",
+  "generatedAt": "2026-11-04T16:06:32.188Z",
+  "windowStart": "2026-10-05T16:06:32.188Z",
+  "windowEnd": "2026-11-04T16:06:32.188Z",
   "topics": [
+    {
+      "id": "b32e9ab77da2",
+      "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-04T09:18:02.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+          "url": "https://ai.greensighter.com/",
+          "publishedAt": "2026-11-04T09:18:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "eadd73a9ff9b",
+      "title": "Show HN: A platform-neutral language for design systems",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-04T14:38:35.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: A platform-neutral language for design systems",
+          "url": "https://play.milda.dev",
+          "publishedAt": "2026-11-04T14:38:35.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a8e6bff9f54e",
+      "title": "Design systems for agents",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-01T01:27:36.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design systems for agents",
+          "url": "https://design.how",
+          "publishedAt": "2026-11-01T01:27:36.000Z"
+        }
+      ]
+    },
     {
       "id": "c620bcb083d2",
       "title": "Everyone is building AI agents. Who’s designing the stop button?",
@@ -12,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:40:34.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -32,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:37:40.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -52,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:36:33.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -65,62 +125,22 @@
       ]
     },
     {
-      "id": "b659cdf1a81d",
-      "title": "AI for eGovernance: Leveraging Language Technologies For Digital Inclusion",
-      "teaser": "The Kenyan government has invested heavily in the digitisation of public service delivery, in line with the Kenya Digital Master Plan 2022-2032. The national eGovernment platform, eCitizen, ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-03T12:48:16.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AI for eGovernance: Leveraging Language Technologies For Digital Inclusion",
-          "url": "https://arxiv.org/abs/2611.04820v1",
-          "publishedAt": "2026-11-03T12:48:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a8e6bff9f54e",
-      "title": "Design systems for agents",
+      "id": "055d508764ff",
+      "title": "Show HN: Screenshot to Tokens – give a web app a design system from a screenshot",
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-01T01:27:36.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "publishedAt": "2026-11-04T13:09:26.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "Design systems for agents",
-          "url": "https://design.how",
-          "publishedAt": "2026-11-01T01:27:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "49b127d82f15",
-      "title": "Extending the MM-AR Metamodeling Platform with Process Mining Capabilities",
-      "teaser": "Process mining derives process models from event data recorded by information systems, but its results are usually presented as two-dimensional visualizations that are separate from the envi",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-03T16:40:01.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Extending the MM-AR Metamodeling Platform with Process Mining Capabilities",
-          "url": "https://arxiv.org/abs/2611.05176v1",
-          "publishedAt": "2026-11-03T16:40:01.000Z"
+          "title": "Show HN: Screenshot to Tokens – give a web app a design system from a screenshot",
+          "url": "https://github.com/nhunsaker/screenshot-to-tokens",
+          "publishedAt": "2026-11-04T13:09:26.000Z"
         }
       ]
     },
@@ -152,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T17:56:46.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -205,22 +225,22 @@
       ]
     },
     {
-      "id": "e4421e05f203",
-      "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
-      "teaser": "Hey HN! I’ve been building an open RPG game engine called Oathshaper. It’s current incarnation was created with Godot and inspired by the BioWare classics (Jade Empire, Mass Effect, Knights ",
+      "id": "b659cdf1a81d",
+      "title": "AI for eGovernance: Leveraging Language Technologies For Digital Inclusion",
+      "teaser": "The Kenyan government has invested heavily in the digitisation of public service delivery, in line with the Kenya Digital Master Plan 2022-2032. The national eGovernment platform, eCitizen, ",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-03T16:48:13.000Z",
+      "publishedAt": "2026-11-03T12:48:16.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.429,
+      "relevanceScore": 0.857,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
-          "url": "https://github.com/oathshaper/oathshaper",
-          "publishedAt": "2026-11-03T16:48:13.000Z"
+          "name": "arxiv-hci",
+          "title": "AI for eGovernance: Leveraging Language Technologies For Digital Inclusion",
+          "url": "https://arxiv.org/abs/2611.04820v1",
+          "publishedAt": "2026-11-03T12:48:16.000Z"
         }
       ]
     },
@@ -232,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T17:55:34.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -272,9 +292,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T19:40:03.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -325,42 +345,22 @@
       ]
     },
     {
-      "id": "7596edd0d25b",
-      "title": "What do you do when a design solution is already pre-built?",
-      "teaser": "How to deal with the &#x201C;Fastest Idea in the Room&#x201D; Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-03T22:36:49.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What do you do when a design solution is already pre-built?",
-          "url": "https://uxdesign.cc/what-do-you-do-when-a-design-solution-is-already-pre-built-85d20edba31f?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-03T22:36:49.000Z"
-        }
-      ]
-    },
-    {
-      "id": "55064dbbedae",
-      "title": "Just Between Us? Exploring a Wearable-Mediated Channel for Discreet Human-Agent Interaction in a Shared Game Setting",
-      "teaser": "In shared settings, social robots may need to exchange information with an individual while limiting co-present others' access to or interpretation of that information. Publicly observable s",
+      "id": "49b127d82f15",
+      "title": "Extending the MM-AR Metamodeling Platform with Process Mining Capabilities",
+      "teaser": "Process mining derives process models from event data recorded by information systems, but its results are usually presented as two-dimensional visualizations that are separate from the envi",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-03T11:17:45.000Z",
+      "publishedAt": "2026-11-03T16:40:01.000Z",
       "since": "yesterday",
-      "relevanceScore": 0.429,
+      "relevanceScore": 0.714,
       "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "Just Between Us? Exploring a Wearable-Mediated Channel for Discreet Human-Agent Interaction in a Shared Game Setting",
-          "url": "https://arxiv.org/abs/2611.04692v1",
-          "publishedAt": "2026-11-03T11:17:45.000Z"
+          "title": "Extending the MM-AR Metamodeling Platform with Process Mining Capabilities",
+          "url": "https://arxiv.org/abs/2611.05176v1",
+          "publishedAt": "2026-11-03T16:40:01.000Z"
         }
       ]
     },
@@ -394,13 +394,33 @@
       "publishedAt": "2026-10-20T00:06:14.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Chai-UI – A design system to generative AI apps",
           "url": "https://chai-ui.com/",
           "publishedAt": "2026-10-20T00:06:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e4421e05f203",
+      "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
+      "teaser": "Hey HN! I’ve been building an open RPG game engine called Oathshaper. It’s current incarnation was created with Godot and inspired by the BioWare classics (Jade Empire, Mass Effect, Knights ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-03T16:48:13.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
+          "url": "https://github.com/oathshaper/oathshaper",
+          "publishedAt": "2026-11-03T16:48:13.000Z"
         }
       ]
     },
@@ -414,7 +434,7 @@
       "publishedAt": "2026-10-21T20:45:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -472,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-31T23:12:50.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -514,7 +534,7 @@
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -585,6 +605,46 @@
       ]
     },
     {
+      "id": "7596edd0d25b",
+      "title": "What do you do when a design solution is already pre-built?",
+      "teaser": "How to deal with the &#x201C;Fastest Idea in the Room&#x201D; Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-03T22:36:49.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What do you do when a design solution is already pre-built?",
+          "url": "https://uxdesign.cc/what-do-you-do-when-a-design-solution-is-already-pre-built-85d20edba31f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-03T22:36:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "55064dbbedae",
+      "title": "Just Between Us? Exploring a Wearable-Mediated Channel for Discreet Human-Agent Interaction in a Shared Game Setting",
+      "teaser": "In shared settings, social robots may need to exchange information with an individual while limiting co-present others' access to or interpretation of that information. Publicly observable s",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-03T11:17:45.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Just Between Us? Exploring a Wearable-Mediated Channel for Discreet Human-Agent Interaction in a Shared Game Setting",
+          "url": "https://arxiv.org/abs/2611.04692v1",
+          "publishedAt": "2026-11-03T11:17:45.000Z"
+        }
+      ]
+    },
+    {
       "id": "1c7fd1992a6e",
       "title": "Selfrionette: A Fingertip Force-Input Controller for Continuous Full-Body Avatar Manipulation and Diverse Haptic Interactions",
       "teaser": "We propose Selfrionette, a controller that uses fingertip force input to drive avatar movements in virtual reality (VR). This system enables users to interact with virtual objects and walk i",
@@ -614,7 +674,7 @@
       "publishedAt": "2026-10-12T17:55:42.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -685,26 +745,6 @@
       ]
     },
     {
-      "id": "3738455d7fa9",
-      "title": "Snapflow: An agentic design system for React, Vue and Angular",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-19T23:42:31.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Snapflow: An agentic design system for React, Vue and Angular",
-          "url": "https://www.snapflow.design/en/",
-          "publishedAt": "2026-10-19T23:42:31.000Z"
-        }
-      ]
-    },
-    {
       "id": "05d966511e89",
       "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
       "teaser": "Semi-related, I&#x27;m available for UI&#x2F;UX Engineering&#x2F;Design roles.",
@@ -714,7 +754,7 @@
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -754,7 +794,7 @@
       "publishedAt": "2026-10-08T19:48:12.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -814,7 +854,7 @@
       "publishedAt": "2026-10-05T18:03:04.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -863,26 +903,6 @@
           "publishedAt": "2026-10-06T14:21:12.000Z"
         }
       ]
-    },
-    {
-      "id": "84679c851736",
-      "title": "Building with Agents: QA and UX in the Loop",
-      "teaser": "What I learned by giving agents a way to use my apps, test changes, and help me improve the experience.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-05T15:09:22.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Building with Agents: QA and UX in the Loop",
-          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
-          "publishedAt": "2026-10-05T15:09:22.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -890,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-04T05:48:21.383Z"
+      "fetchedAt": "2026-11-04T16:06:32.188Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-04T05:48:21.417Z"
+      "fetchedAt": "2026-11-04T16:06:32.241Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-04T05:48:21.418Z"
+      "fetchedAt": "2026-11-04T16:06:32.242Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-04T05:48:21.419Z"
+      "fetchedAt": "2026-11-04T16:06:32.243Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-04T05:48:21.419Z"
+      "fetchedAt": "2026-11-04T16:06:32.244Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-04T05:48:21.420Z"
+      "fetchedAt": "2026-11-04T16:06:32.245Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-04T05:48:21.421Z"
+      "fetchedAt": "2026-11-04T16:06:32.246Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 8,
-      "fetchedAt": "2026-11-04T05:48:21.421Z"
+      "items": 9,
+      "fetchedAt": "2026-11-04T16:06:32.247Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 35,
-      "fetchedAt": "2026-11-04T05:48:21.422Z"
+      "fetchedAt": "2026-11-04T16:06:32.248Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-04T05:48:21.423Z"
+      "fetchedAt": "2026-11-04T16:06:32.249Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-04T05:48:21.423Z"
+      "fetchedAt": "2026-11-04T16:06:32.249Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-04T05:48:21.424Z"
+      "fetchedAt": "2026-11-04T16:06:32.251Z"
     }
   ]
 }
