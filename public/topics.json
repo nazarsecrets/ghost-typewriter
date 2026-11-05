@@ -1,46 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T06:08:05.472Z",
-  "windowStart": "2026-10-06T06:08:05.472Z",
-  "windowEnd": "2026-11-05T06:08:05.472Z",
+  "generatedAt": "2026-11-05T16:21:01.747Z",
+  "windowStart": "2026-10-06T16:21:01.747Z",
+  "windowEnd": "2026-11-05T16:21:01.747Z",
   "topics": [
     {
-      "id": "97a7ce27f0a8",
-      "title": "AI can generate the interface. What makes it worth caring about?",
-      "teaser": "As more product work is generated from shared patterns, designers need to decide where an experience should surprise, celebrate, or simply leave someone alone. Imagine asking an AI tool to d",
-      "tag": "Systems",
+      "id": "82011c4661e9",
+      "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
+      "teaser": "Everyone seems to be asking whether AI will replace UX designers. I think that’s the wrong question. Following the numbers gets you a picture but doesn’t make you an artist | Russell Pinksto",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-04T22:12:46.000Z",
+      "publishedAt": "2026-11-05T10:49:10.000Z",
       "since": "today",
       "relevanceScore": 1,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "AI can generate the interface. What makes it worth caring about?",
-          "url": "https://uxdesign.cc/ai-can-generate-the-interface-what-makes-it-worth-caring-about-a5f3a3e81986?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-04T22:12:46.000Z"
+          "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
+          "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-05T10:49:10.000Z"
         }
       ]
     },
     {
-      "id": "d1a13557907e",
-      "title": "What AI has changed in Design Systems, and what is still up to us",
-      "teaser": "Three design experts told me how AI is changing the way we build and maintain Design Systems. And led me to think that “the future” is already happening now. What is the human role in creati",
-      "tag": "Systems",
+      "id": "85558c14a28d",
+      "title": "Everyone’s got a quick question",
+      "teaser": "And you shouldn’t have to answer them all. Frequently asked questions in my inbox, recreated. I became the team’s search engine Every team has a person everyone reaches out to. They know whe",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-04T22:12:09.000Z",
+      "publishedAt": "2026-11-05T10:47:24.000Z",
       "since": "today",
       "relevanceScore": 1,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "What AI has changed in Design Systems, and what is still up to us",
-          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-04T22:12:09.000Z"
+          "title": "Everyone’s got a quick question",
+          "url": "https://uxdesign.cc/everyones-got-a-quick-question-374a736ff7cb?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-05T10:47:24.000Z"
         }
       ]
     },
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-01T01:27:36.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -85,22 +85,42 @@
       ]
     },
     {
-      "id": "7f0caff98be4",
-      "title": "In a world of panic, calm and certainty win",
-      "teaser": "You can dread the future or help build it. The people who come through this already chose. While panic around what AI means for our industry is the reflex right now, calm is a decision. The ",
-      "tag": "Leadership",
+      "id": "97a7ce27f0a8",
+      "title": "AI can generate the interface. What makes it worth caring about?",
+      "teaser": "As more product work is generated from shared patterns, designers need to decide where an experience should surprise, celebrate, or simply leave someone alone. Imagine asking an AI tool to d",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-04T22:13:21.000Z",
-      "since": "today",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 0 days ago",
+      "publishedAt": "2026-11-04T22:12:46.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "In a world of panic, calm and certainty win",
-          "url": "https://uxdesign.cc/in-a-world-of-panic-calm-and-certainty-win-525c17dd927f?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-04T22:13:21.000Z"
+          "title": "AI can generate the interface. What makes it worth caring about?",
+          "url": "https://uxdesign.cc/ai-can-generate-the-interface-what-makes-it-worth-caring-about-a5f3a3e81986?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-04T22:12:46.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d1a13557907e",
+      "title": "What AI has changed in Design Systems, and what is still up to us",
+      "teaser": "Three design experts told me how AI is changing the way we build and maintain Design Systems. And led me to think that “the future” is already happening now. What is the human role in creati",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-04T22:12:09.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What AI has changed in Design Systems, and what is still up to us",
+          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-04T22:12:09.000Z"
         }
       ]
     },
@@ -112,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:40:34.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:37:40.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -152,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:36:33.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -205,26 +225,6 @@
       ]
     },
     {
-      "id": "adb372174e81",
-      "title": "State of a system",
-      "teaser": "Almost eight years ago, I started working on a design system that I got the opportunity to revisit just a few years later. The second round became as big a push with far fewer people. Now, t",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-02T17:56:46.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "State of a system",
-          "url": "https://uxdesign.cc/state-of-a-system-5c8473db1e9?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-02T17:56:46.000Z"
-        }
-      ]
-    },
-    {
       "id": "819d92c0df8e",
       "title": "BoardUI: A React design system with 103 unique components",
       "teaser": "",
@@ -252,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T19:40:03.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -285,6 +285,26 @@
       ]
     },
     {
+      "id": "7f0caff98be4",
+      "title": "In a world of panic, calm and certainty win",
+      "teaser": "You can dread the future or help build it. The people who come through this already chose. While panic around what AI means for our industry is the reflex right now, calm is a decision. The ",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-04T22:13:21.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "In a world of panic, calm and certainty win",
+          "url": "https://uxdesign.cc/in-a-world-of-panic-calm-and-certainty-win-525c17dd927f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-04T22:13:21.000Z"
+        }
+      ]
+    },
+    {
       "id": "84c91daf12e9",
       "title": "UX Disciplines: Glossary",
       "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
@@ -305,26 +325,6 @@
       ]
     },
     {
-      "id": "c4bfb1043239",
-      "title": "Personalized Visual Support After Automatic Speech Recognition",
-      "teaser": "Many spoken-language interfaces stop at producing a transcript. This project examines how a second layer of optional text and pictorial support can be adapted to individual needs. We specify",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-03T21:15:31.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Personalized Visual Support After Automatic Speech Recognition",
-          "url": "https://arxiv.org/abs/2611.05625v1",
-          "publishedAt": "2026-11-03T21:15:31.000Z"
-        }
-      ]
-    },
-    {
       "id": "055d508764ff",
       "title": "Show HN: Screenshot to Tokens – give a web app a design system from a screenshot",
       "teaser": "",
@@ -341,26 +341,6 @@
           "title": "Show HN: Screenshot to Tokens – give a web app a design system from a screenshot",
           "url": "https://github.com/nhunsaker/screenshot-to-tokens",
           "publishedAt": "2026-11-04T13:09:26.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9af238a0f85c",
-      "title": "The pole and the stake",
-      "teaser": "On going with the current, changing it, and what designers are asked to do Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-03T10:08:25.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The pole and the stake",
-          "url": "https://uxdesign.cc/the-pole-and-the-stake-2cfba6c08bca?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-03T10:08:25.000Z"
         }
       ]
     },
@@ -394,7 +374,7 @@
       "publishedAt": "2026-10-21T20:45:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -452,9 +432,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-31T23:12:50.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -494,7 +474,7 @@
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -572,15 +552,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:36:49.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "What do you do when a design solution is already pre-built?",
           "url": "https://uxdesign.cc/what-do-you-do-when-a-design-solution-is-already-pre-built-85d20edba31f?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-03T22:36:49.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c4bfb1043239",
+      "title": "Personalized Visual Support After Automatic Speech Recognition",
+      "teaser": "Many spoken-language interfaces stop at producing a transcript. This project examines how a second layer of optional text and pictorial support can be adapted to individual needs. We specify",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-03T21:15:31.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Personalized Visual Support After Automatic Speech Recognition",
+          "url": "https://arxiv.org/abs/2611.05625v1",
+          "publishedAt": "2026-11-03T21:15:31.000Z"
         }
       ]
     },
@@ -674,7 +674,7 @@
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -714,7 +714,7 @@
       "publishedAt": "2026-10-08T19:48:12.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -783,26 +783,6 @@
           "publishedAt": "2026-10-16T17:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "be3d36a21013",
-      "title": "SaaS Pagination UX: Return to the Same Table View",
-      "teaser": "When someone opens a record from a paginated SaaS table and goes back, restore the page, filters,...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-06T14:21:12.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "SaaS Pagination UX: Return to the Same Table View",
-          "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
-          "publishedAt": "2026-10-06T14:21:12.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -810,73 +790,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-05T06:08:05.473Z"
+      "fetchedAt": "2026-11-05T16:21:01.747Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-05T06:08:05.514Z"
+      "fetchedAt": "2026-11-05T16:21:01.788Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-05T06:08:05.515Z"
+      "fetchedAt": "2026-11-05T16:21:01.789Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-05T06:08:05.516Z"
+      "fetchedAt": "2026-11-05T16:21:01.790Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-05T06:08:05.517Z"
+      "fetchedAt": "2026-11-05T16:21:01.791Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-05T06:08:05.517Z"
+      "fetchedAt": "2026-11-05T16:21:01.791Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-05T06:08:05.518Z"
+      "fetchedAt": "2026-11-05T16:21:01.792Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-11-05T06:08:05.519Z"
+      "fetchedAt": "2026-11-05T16:21:01.793Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 35,
-      "fetchedAt": "2026-11-05T06:08:05.520Z"
+      "fetchedAt": "2026-11-05T16:21:01.794Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-05T06:08:05.520Z"
+      "fetchedAt": "2026-11-05T16:21:01.794Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-05T06:08:05.521Z"
+      "fetchedAt": "2026-11-05T16:21:01.795Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-05T06:08:05.522Z"
+      "fetchedAt": "2026-11-05T16:21:01.796Z"
     }
   ]
 }
