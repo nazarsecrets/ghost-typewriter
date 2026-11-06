@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T06:01:53.298Z",
-  "windowStart": "2026-10-07T06:01:53.298Z",
-  "windowEnd": "2026-11-06T06:01:53.298Z",
+  "generatedAt": "2026-11-06T15:49:18.796Z",
+  "windowStart": "2026-10-07T15:49:18.796Z",
+  "windowEnd": "2026-11-06T15:49:18.796Z",
   "topics": [
+    {
+      "id": "2f852a2e1a4f",
+      "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T04:34:21.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+          "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-11-06T04:34:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b32e9ab77da2",
+      "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-04T09:18:02.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+          "url": "https://ai.greensighter.com/",
+          "publishedAt": "2026-11-04T09:18:02.000Z"
+        }
+      ]
+    },
     {
       "id": "f4adcf98d859",
       "title": "Berrypicking still beats the single answer for search, even in the world of AI",
@@ -41,26 +81,6 @@
           "title": "Native is a floor, not a ceiling",
           "url": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-06T04:12:29.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b32e9ab77da2",
-      "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-04T09:18:02.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
-          "url": "https://ai.greensighter.com/",
-          "publishedAt": "2026-11-04T09:18:02.000Z"
         }
       ]
     },
@@ -112,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-01T01:27:36.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -132,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T22:12:46.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -152,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T22:12:09.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -172,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:40:34.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -192,35 +212,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:37:40.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "I let AI build. I don’t let AI decide.",
           "url": "https://uxdesign.cc/i-let-ai-build-i-dont-let-ai-decide-b3892a87feb3?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-03T22:37:40.000Z"
-        }
-      ]
-    },
-    {
-      "id": "11984c643c5c",
-      "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-05T17:30:09.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
-          "url": "https://github.com/smokeeaasd/flawless-ui-ux",
-          "publishedAt": "2026-11-05T17:30:09.000Z"
         }
       ]
     },
@@ -272,15 +272,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T19:40:03.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: An experiment in automated long-horizon builds with AMQP 0.9.1",
           "url": "https://github.com/siennathesane/switchboard",
           "publishedAt": "2026-11-02T19:40:03.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b3d176ad0d3b",
+      "title": "A New Community For In-House UX People",
+      "teaser": "We’ve been working on something new! We’ve teamed up for a **new small community** for people doing UX-inside organizations &mdash; with weekly calls and a shared library of the business cas",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "A New Community For In-House UX People",
+          "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+          "publishedAt": "2026-11-06T08:00:00.000Z"
         }
       ]
     },
@@ -305,46 +325,6 @@
       ]
     },
     {
-      "id": "b61cf0402ba2",
-      "title": "Reflective Nature Experiences in Virtual Reality",
-      "teaser": "This paper presents the design and evaluation of an accessible virtual reality (VR) nature experience developed to promote mindfulness, reduce stress, and support emotional well-being. The s",
-      "tag": "Ethics",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-05T15:25:38.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Reflective Nature Experiences in Virtual Reality",
-          "url": "https://arxiv.org/abs/2611.08167v1",
-          "publishedAt": "2026-11-05T15:25:38.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b9ecd16bf373",
-      "title": "Slide to Report: Continuous Reporting Symptom-Specific Cybersickness in VR",
-      "teaser": "Cybersickness is often assessed during VR exposure through discrete overall sickness, which cannot capture specific symptoms or their changes over time. Post-exposure questionnaires such as ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-05T02:34:14.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Slide to Report: Continuous Reporting Symptom-Specific Cybersickness in VR",
-          "url": "https://arxiv.org/abs/2611.07345v1",
-          "publishedAt": "2026-11-05T02:34:14.000Z"
-        }
-      ]
-    },
-    {
       "id": "7f0caff98be4",
       "title": "In a world of panic, calm and certainty win",
       "teaser": "You can dread the future or help build it. The people who come through this already chose. While panic around what AI means for our industry is the reflex right now, calm is a decision. The ",
@@ -352,9 +332,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T22:13:21.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -381,6 +361,26 @@
           "title": "UX Disciplines: Glossary",
           "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-23T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "11984c643c5c",
+      "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-05T17:30:09.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
+          "url": "https://github.com/smokeeaasd/flawless-ui-ux",
+          "publishedAt": "2026-11-05T17:30:09.000Z"
         }
       ]
     },
@@ -434,7 +434,7 @@
       "publishedAt": "2026-10-21T20:45:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -492,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-31T23:12:50.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -534,13 +534,33 @@
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
           "url": "https://towerpanic.com/",
           "publishedAt": "2026-10-15T02:02:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b61cf0402ba2",
+      "title": "Reflective Nature Experiences in Virtual Reality",
+      "teaser": "This paper presents the design and evaluation of an accessible virtual reality (VR) nature experience developed to promote mindfulness, reduce stress, and support emotional well-being. The s",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-05T15:25:38.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Reflective Nature Experiences in Virtual Reality",
+          "url": "https://arxiv.org/abs/2611.08167v1",
+          "publishedAt": "2026-11-05T15:25:38.000Z"
         }
       ]
     },
@@ -561,6 +581,26 @@
           "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
           "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
           "publishedAt": "2026-10-12T08:53:11.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b9ecd16bf373",
+      "title": "Slide to Report: Continuous Reporting Symptom-Specific Cybersickness in VR",
+      "teaser": "Cybersickness is often assessed during VR exposure through discrete overall sickness, which cannot capture specific symptoms or their changes over time. Post-exposure questionnaires such as ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-05T02:34:14.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Slide to Report: Continuous Reporting Symptom-Specific Cybersickness in VR",
+          "url": "https://arxiv.org/abs/2611.07345v1",
+          "publishedAt": "2026-11-05T02:34:14.000Z"
         }
       ]
     },
@@ -612,9 +652,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:36:49.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -712,9 +752,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-19T19:00:23.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -754,7 +794,7 @@
       "publishedAt": "2026-10-08T19:48:12.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 29 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -830,73 +870,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-06T06:01:53.298Z"
+      "fetchedAt": "2026-11-06T15:49:18.797Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-06T06:01:53.334Z"
+      "fetchedAt": "2026-11-06T15:49:18.851Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-06T06:01:53.334Z"
+      "fetchedAt": "2026-11-06T15:49:18.852Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-06T06:01:53.335Z"
+      "fetchedAt": "2026-11-06T15:49:18.853Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-06T06:01:53.336Z"
+      "fetchedAt": "2026-11-06T15:49:18.854Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-06T06:01:53.337Z"
+      "fetchedAt": "2026-11-06T15:49:18.855Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-06T06:01:53.338Z"
+      "fetchedAt": "2026-11-06T15:49:18.856Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-06T06:01:53.338Z"
+      "fetchedAt": "2026-11-06T15:49:18.857Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-06T06:01:53.339Z"
+      "fetchedAt": "2026-11-06T15:49:18.858Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-06T06:01:53.339Z"
+      "fetchedAt": "2026-11-06T15:49:18.859Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-06T06:01:53.340Z"
+      "fetchedAt": "2026-11-06T15:49:18.859Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-06T06:01:53.341Z"
+      "fetchedAt": "2026-11-06T15:49:18.860Z"
     }
   ]
 }
