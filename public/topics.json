@@ -1,9 +1,69 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T16:21:01.747Z",
-  "windowStart": "2026-10-06T16:21:01.747Z",
-  "windowEnd": "2026-11-05T16:21:01.747Z",
+  "generatedAt": "2026-11-06T06:01:53.298Z",
+  "windowStart": "2026-10-07T06:01:53.298Z",
+  "windowEnd": "2026-11-06T06:01:53.298Z",
   "topics": [
+    {
+      "id": "f4adcf98d859",
+      "title": "Berrypicking still beats the single answer for search, even in the world of AI",
+      "teaser": "A searcher moves through scattered sources, collecting one useful piece at each stop. In 1989 Marcia Bates showed that people search by gathering, shifting, and revising as they go. Her idea",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T04:13:24.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Berrypicking still beats the single answer for search, even in the world of AI",
+          "url": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-06T04:13:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "3956912dfa0a",
+      "title": "Native is a floor, not a ceiling",
+      "teaser": "With AI, a polished look costs nothing. Native brings what can’t be drawn, and it moves with the system, one step ahead of what imitates it. An AI assistant helped me write this. The ideas, ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T04:12:29.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Native is a floor, not a ceiling",
+          "url": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-06T04:12:29.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b32e9ab77da2",
+      "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-04T09:18:02.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+          "url": "https://ai.greensighter.com/",
+          "publishedAt": "2026-11-04T09:18:02.000Z"
+        }
+      ]
+    },
     {
       "id": "82011c4661e9",
       "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
@@ -12,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T10:49:10.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -27,40 +87,20 @@
     {
       "id": "85558c14a28d",
       "title": "Everyone’s got a quick question",
-      "teaser": "And you shouldn’t have to answer them all. Frequently asked questions in my inbox, recreated. I became the team’s search engine Every team has a person everyone reaches out to. They know whe",
+      "teaser": "And you shouldn’t have to answer them all. There’s an interactive version of this story. Explore it → Frequently asked questions in my inbox, recreated. I became the team’s search engine Eve",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T10:47:24.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Everyone’s got a quick question",
           "url": "https://uxdesign.cc/everyones-got-a-quick-question-374a736ff7cb?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-05T10:47:24.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b32e9ab77da2",
-      "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-04T09:18:02.000Z",
-      "since": "yesterday",
-      "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
-          "url": "https://ai.greensighter.com/",
-          "publishedAt": "2026-11-04T09:18:02.000Z"
         }
       ]
     },
@@ -165,22 +205,22 @@
       ]
     },
     {
-      "id": "284c8e0bf02d",
-      "title": "Agents struggle with the same bad UX we do",
-      "teaser": "Computer-use agents can’t guess, improvise, or ask a coworker. That makes them the most honest usability testers we’ve ever had. The first time I watched an agent fail on a vendor portal, I ",
+      "id": "11984c643c5c",
+      "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
+      "teaser": "",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-03T22:36:33.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "publishedAt": "2026-11-05T17:30:09.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Agents struggle with the same bad UX we do",
-          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-03T22:36:33.000Z"
+          "name": "hn-ux",
+          "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
+          "url": "https://github.com/smokeeaasd/flawless-ui-ux",
+          "publishedAt": "2026-11-05T17:30:09.000Z"
         }
       ]
     },
@@ -192,35 +232,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T14:38:35.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: A platform-neutral language for design systems",
           "url": "https://play.milda.dev",
           "publishedAt": "2026-11-04T14:38:35.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fbe13f76868a",
-      "title": "What I learned teaching AI prototyping at university",
-      "teaser": "Teaching students how to prototype with AI tools instead of Figma revealed exciting possibilities and uncomfortable trade-offs. It also offered valuable insight into how non-tech people can ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-03T10:09:09.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What I learned teaching AI prototyping at university",
-          "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-03T10:09:09.000Z"
         }
       ]
     },
@@ -232,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T16:41:01.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -272,15 +292,55 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-30T17:00:00.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "nngroup",
           "title": "Experience Design: Dropping the “User” from “User Experience”",
           "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-30T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b61cf0402ba2",
+      "title": "Reflective Nature Experiences in Virtual Reality",
+      "teaser": "This paper presents the design and evaluation of an accessible virtual reality (VR) nature experience developed to promote mindfulness, reduce stress, and support emotional well-being. The s",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-05T15:25:38.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Reflective Nature Experiences in Virtual Reality",
+          "url": "https://arxiv.org/abs/2611.08167v1",
+          "publishedAt": "2026-11-05T15:25:38.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b9ecd16bf373",
+      "title": "Slide to Report: Continuous Reporting Symptom-Specific Cybersickness in VR",
+      "teaser": "Cybersickness is often assessed during VR exposure through discrete overall sickness, which cannot capture specific symptoms or their changes over time. Post-exposure questionnaires such as ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-05T02:34:14.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Slide to Report: Continuous Reporting Symptom-Specific Cybersickness in VR",
+          "url": "https://arxiv.org/abs/2611.07345v1",
+          "publishedAt": "2026-11-05T02:34:14.000Z"
         }
       ]
     },
@@ -314,7 +374,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 13 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 14 days",
       "sources": [
         {
           "name": "nngroup",
@@ -332,9 +392,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T13:09:26.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -352,9 +412,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T16:48:13.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -392,9 +452,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-01T16:35:26.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -414,7 +474,7 @@
       "publishedAt": "2026-10-23T09:38:12.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -454,7 +514,7 @@
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "smashing",
@@ -492,9 +552,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-12T08:53:11.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -514,7 +574,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-design",
@@ -534,7 +594,7 @@
       "publishedAt": "2026-10-28T05:01:23.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -565,26 +625,6 @@
       ]
     },
     {
-      "id": "c4bfb1043239",
-      "title": "Personalized Visual Support After Automatic Speech Recognition",
-      "teaser": "Many spoken-language interfaces stop at producing a transcript. This project examines how a second layer of optional text and pictorial support can be adapted to individual needs. We specify",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-03T21:15:31.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Personalized Visual Support After Automatic Speech Recognition",
-          "url": "https://arxiv.org/abs/2611.05625v1",
-          "publishedAt": "2026-11-03T21:15:31.000Z"
-        }
-      ]
-    },
-    {
       "id": "68573e2109b1",
       "title": "Agent-first design: Bringing UX to the user",
       "teaser": "",
@@ -592,9 +632,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-12T17:55:42.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -614,7 +654,7 @@
       "publishedAt": "2026-10-23T14:27:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -632,9 +672,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-10-30T17:00:00.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -654,7 +694,7 @@
       "publishedAt": "2026-10-21T16:28:05.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -694,7 +734,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "nngroup",
@@ -734,7 +774,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -752,9 +792,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-12T11:46:39.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -774,7 +814,7 @@
       "publishedAt": "2026-10-16T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "nngroup",
@@ -790,73 +830,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-05T16:21:01.747Z"
+      "fetchedAt": "2026-11-06T06:01:53.298Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-05T16:21:01.788Z"
+      "fetchedAt": "2026-11-06T06:01:53.334Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-05T16:21:01.789Z"
+      "fetchedAt": "2026-11-06T06:01:53.334Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-05T16:21:01.790Z"
+      "fetchedAt": "2026-11-06T06:01:53.335Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-05T16:21:01.791Z"
+      "fetchedAt": "2026-11-06T06:01:53.336Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-05T16:21:01.791Z"
+      "fetchedAt": "2026-11-06T06:01:53.337Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-05T16:21:01.792Z"
+      "fetchedAt": "2026-11-06T06:01:53.338Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 9,
-      "fetchedAt": "2026-11-05T16:21:01.793Z"
+      "items": 10,
+      "fetchedAt": "2026-11-06T06:01:53.338Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 35,
-      "fetchedAt": "2026-11-05T16:21:01.794Z"
+      "items": 36,
+      "fetchedAt": "2026-11-06T06:01:53.339Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-05T16:21:01.794Z"
+      "fetchedAt": "2026-11-06T06:01:53.339Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-05T16:21:01.795Z"
+      "fetchedAt": "2026-11-06T06:01:53.340Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-05T16:21:01.796Z"
+      "fetchedAt": "2026-11-06T06:01:53.341Z"
     }
   ]
 }
