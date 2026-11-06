@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T15:49:18.796Z",
-  "windowStart": "2026-10-07T15:49:18.796Z",
-  "windowEnd": "2026-11-06T15:49:18.796Z",
+  "generatedAt": "2026-11-06T21:24:32.291Z",
+  "windowStart": "2026-10-07T21:24:32.291Z",
+  "windowEnd": "2026-11-06T21:24:32.291Z",
   "topics": [
-    {
-      "id": "2f852a2e1a4f",
-      "title": "UX Conference January Announced (Jan 19 - Feb 1)",
-      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-06T04:34:21.000Z",
-      "since": "today",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Conference January Announced (Jan 19 - Feb 1)",
-          "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-11-06T04:34:21.000Z"
-        }
-      ]
-    },
     {
       "id": "b32e9ab77da2",
       "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
@@ -32,9 +12,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T09:18:02.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -52,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:13:24.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:12:29.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -185,6 +165,26 @@
       ]
     },
     {
+      "id": "feb9016c6972",
+      "title": "Designing Games for One Shared Phone: 7 UX Patterns From 30+ Pass-and-Play Games",
+      "teaser": "Most multiplayer advice assumes every player has their own screen. Pass-and-play games break that...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T10:35:22.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Designing Games for One Shared Phone: 7 UX Patterns From 30+ Pass-and-Play Games",
+          "url": "https://dev.to/dhaval109/designing-games-for-one-shared-phone-7-ux-patterns-from-30-pass-and-play-games-34hp",
+          "publishedAt": "2026-11-06T10:35:22.000Z"
+        }
+      ]
+    },
+    {
       "id": "c620bcb083d2",
       "title": "Everyone is building AI agents. Who’s designing the stop button?",
       "teaser": "We used to design predictable user flows. Now AI can interpret, decide, and act on its own. Here’s why the hardest design decisions happen where that autonomy ends. Showing where AI stops in",
@@ -245,6 +245,26 @@
       ]
     },
     {
+      "id": "2f852a2e1a4f",
+      "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T04:34:21.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+          "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-11-06T04:34:21.000Z"
+        }
+      ]
+    },
+    {
       "id": "819d92c0df8e",
       "title": "BoardUI: A React design system with 103 unique components",
       "teaser": "",
@@ -285,22 +305,22 @@
       ]
     },
     {
-      "id": "b3d176ad0d3b",
-      "title": "A New Community For In-House UX People",
-      "teaser": "We’ve been working on something new! We’ve teamed up for a **new small community** for people doing UX-inside organizations &mdash; with weekly calls and a shared library of the business cas",
-      "tag": "Leadership",
+      "id": "85e49dca6453",
+      "title": "The blog wall that hummed at 50 Hz",
+      "teaser": "Much like my past life as a sound engineer, my current work is a delicate mix of UX, design, and...",
+      "tag": "Process",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "publishedAt": "2026-11-06T11:10:02.000Z",
       "since": "today",
       "relevanceScore": 0.429,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "smashing",
-          "title": "A New Community For In-House UX People",
-          "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
-          "publishedAt": "2026-11-06T08:00:00.000Z"
+          "name": "devto-ux",
+          "title": "The blog wall that hummed at 50 Hz",
+          "url": "https://dev.to/tdude/the-blog-wall-that-hummed-at-50-hz-3ofp",
+          "publishedAt": "2026-11-06T11:10:02.000Z"
         }
       ]
     },
@@ -525,6 +545,26 @@
       ]
     },
     {
+      "id": "b3d176ad0d3b",
+      "title": "A New Community For In-House UX People",
+      "teaser": "We’ve been working on something new! We’ve teamed up for a **new small community** for people doing UX-inside organizations &mdash; with weekly calls and a shared library of the business cas",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "A New Community For In-House UX People",
+          "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+          "publishedAt": "2026-11-06T08:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "0f3d4d5f7d5d",
       "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
       "teaser": "I want to show you the game I created recently and tell you whole the story&#x2F;experience - including backend&#x2F;latency&#x2F;scalability. You can try it quickly without an account - I c",
@@ -574,7 +614,7 @@
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -614,7 +654,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
       "sources": [
         {
           "name": "devto-design",
@@ -634,7 +674,7 @@
       "publishedAt": "2026-10-28T05:01:23.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -870,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-06T15:49:18.797Z"
+      "fetchedAt": "2026-11-06T21:24:32.292Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-06T15:49:18.851Z"
+      "fetchedAt": "2026-11-06T21:24:32.346Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-06T15:49:18.852Z"
+      "fetchedAt": "2026-11-06T21:24:32.348Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-06T15:49:18.853Z"
+      "fetchedAt": "2026-11-06T21:24:32.349Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-06T15:49:18.854Z"
+      "fetchedAt": "2026-11-06T21:24:32.350Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-06T15:49:18.855Z"
+      "fetchedAt": "2026-11-06T21:24:32.351Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-06T15:49:18.856Z"
+      "fetchedAt": "2026-11-06T21:24:32.352Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 10,
-      "fetchedAt": "2026-11-06T15:49:18.857Z"
+      "items": 11,
+      "fetchedAt": "2026-11-06T21:24:32.353Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-06T15:49:18.858Z"
+      "fetchedAt": "2026-11-06T21:24:32.354Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-06T15:49:18.859Z"
+      "fetchedAt": "2026-11-06T21:24:32.355Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-06T15:49:18.859Z"
+      "fetchedAt": "2026-11-06T21:24:32.356Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-06T15:49:18.860Z"
+      "fetchedAt": "2026-11-06T21:24:32.357Z"
     }
   ]
 }
