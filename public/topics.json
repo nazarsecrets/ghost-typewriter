@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-07T14:48:44.938Z",
-  "windowStart": "2026-10-08T14:48:44.938Z",
-  "windowEnd": "2026-11-07T14:48:44.938Z",
+  "generatedAt": "2026-11-07T20:04:43.892Z",
+  "windowStart": "2026-10-08T20:04:43.892Z",
+  "windowEnd": "2026-11-07T20:04:43.892Z",
   "topics": [
     {
       "id": "b32e9ab77da2",
@@ -52,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:13:24.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:12:29.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -107,7 +107,7 @@
     {
       "id": "85558c14a28d",
       "title": "Everyone’s got a quick question",
-      "teaser": "And you shouldn’t have to answer them all. There’s an interactive version of this story. Explore it → Frequently asked questions in my inbox, recreated. I became the team’s search engine Eve",
+      "teaser": "And you shouldn’t have to answer them all. Frequently asked questions in my inbox, recreated. I became the team’s search engine Every team has a person everyone reaches out to. They know whe",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
@@ -245,6 +245,26 @@
       ]
     },
     {
+      "id": "f52f62d7a19b",
+      "title": "The Developer's Design Advantage: Why UX and UI Matter with Kathryn Grayson Nanz [video]",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-07T15:00:20.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "The Developer's Design Advantage: Why UX and UI Matter with Kathryn Grayson Nanz [video]",
+          "url": "https://www.youtube.com/watch?v=aoJ-7ozu8h0",
+          "publishedAt": "2026-11-07T15:00:20.000Z"
+        }
+      ]
+    },
+    {
       "id": "2f852a2e1a4f",
       "title": "UX Conference January Announced (Jan 19 - Feb 1)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, ",
@@ -252,9 +272,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:34:21.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -572,9 +592,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T08:00:00.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -674,7 +694,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
       "sources": [
         {
           "name": "devto-design",
@@ -692,9 +712,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-28T05:01:23.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -825,26 +845,6 @@
       ]
     },
     {
-      "id": "96140aabf777",
-      "title": "Show HN: Launching NS UI easy to use components,AI slop should be a term of past",
-      "teaser": "A registry of hand picked&#x2F;built registry of ui&#x2F;ux components so now i can produce slop without ai. i always loved using and searching for ui components on every registry site that ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-08T19:48:12.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Launching NS UI easy to use components,AI slop should be a term of past",
-          "url": "https://design.helpmarq.com",
-          "publishedAt": "2026-10-08T19:48:12.000Z"
-        }
-      ]
-    },
-    {
       "id": "1d3746c9b0f3",
       "title": "Show HN: GrogLog, a Free Drink Tracker",
       "teaser": "It’s designed for people who are alcohol dependent and want to get visibility and control over their drinking in order to cut down or stop. Fully offline, better features than many paid apps",
@@ -910,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-07T14:48:44.938Z"
+      "fetchedAt": "2026-11-07T20:04:43.893Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-07T14:48:44.972Z"
+      "fetchedAt": "2026-11-07T20:04:43.927Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-07T14:48:44.973Z"
+      "fetchedAt": "2026-11-07T20:04:43.928Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-07T14:48:44.974Z"
+      "fetchedAt": "2026-11-07T20:04:43.929Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-07T14:48:44.975Z"
+      "fetchedAt": "2026-11-07T20:04:43.930Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-07T14:48:44.975Z"
+      "fetchedAt": "2026-11-07T20:04:43.931Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-07T14:48:44.976Z"
+      "fetchedAt": "2026-11-07T20:04:43.932Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-11-07T14:48:44.976Z"
+      "fetchedAt": "2026-11-07T20:04:43.932Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-07T14:48:44.977Z"
+      "fetchedAt": "2026-11-07T20:04:43.933Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-07T14:48:44.978Z"
+      "fetchedAt": "2026-11-07T20:04:43.934Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-07T14:48:44.978Z"
+      "fetchedAt": "2026-11-07T20:04:43.934Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-07T14:48:44.979Z"
+      "fetchedAt": "2026-11-07T20:04:43.935Z"
     }
   ]
 }
