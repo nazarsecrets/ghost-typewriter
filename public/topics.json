@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-06T21:24:32.291Z",
-  "windowStart": "2026-10-07T21:24:32.291Z",
-  "windowEnd": "2026-11-06T21:24:32.291Z",
+  "generatedAt": "2026-11-07T05:33:50.094Z",
+  "windowStart": "2026-10-08T05:33:50.094Z",
+  "windowEnd": "2026-11-07T05:33:50.094Z",
   "topics": [
+    {
+      "id": "1af85a8895e5",
+      "title": "After the AI bubble: a manifesto",
+      "teaser": "Computers should be tools for the people but — hidden in a malaise of fatalism — the AI bubble has made computers tools to push people around. Soon, or in some time, this will change. We hav",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T22:42:58.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "After the AI bubble: a manifesto",
+          "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-06T22:42:58.000Z"
+        }
+      ]
+    },
     {
       "id": "b32e9ab77da2",
       "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
@@ -72,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T10:49:10.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T10:47:24.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -165,26 +185,6 @@
       ]
     },
     {
-      "id": "feb9016c6972",
-      "title": "Designing Games for One Shared Phone: 7 UX Patterns From 30+ Pass-and-Play Games",
-      "teaser": "Most multiplayer advice assumes every player has their own screen. Pass-and-play games break that...",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-06T10:35:22.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Designing Games for One Shared Phone: 7 UX Patterns From 30+ Pass-and-Play Games",
-          "url": "https://dev.to/dhaval109/designing-games-for-one-shared-phone-7-ux-patterns-from-30-pass-and-play-games-34hp",
-          "publishedAt": "2026-11-06T10:35:22.000Z"
-        }
-      ]
-    },
-    {
       "id": "c620bcb083d2",
       "title": "Everyone is building AI agents. Who’s designing the stop button?",
       "teaser": "We used to design predictable user flows. Now AI can interpret, decide, and act on its own. Here’s why the hardest design decisions happen where that autonomy ends. Showing where AI stops in",
@@ -232,9 +232,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T14:38:35.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -272,9 +272,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T16:41:01.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -305,22 +305,22 @@
       ]
     },
     {
-      "id": "85e49dca6453",
-      "title": "The blog wall that hummed at 50 Hz",
-      "teaser": "Much like my past life as a sound engineer, my current work is a delicate mix of UX, design, and...",
-      "tag": "Process",
+      "id": "951d6a6dd7ca",
+      "title": "Usability 101: Introduction to Usability",
+      "teaser": "Usability refers to how easily people can complete tasks with a design. Improve it by watching representative users do realistic tasks, early and repeatedly.",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-06T11:10:02.000Z",
+      "publishedAt": "2026-11-06T18:00:00.000Z",
       "since": "today",
       "relevanceScore": 0.429,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "The blog wall that hummed at 50 Hz",
-          "url": "https://dev.to/tdude/the-blog-wall-that-hummed-at-50-hz-3ofp",
-          "publishedAt": "2026-11-06T11:10:02.000Z"
+          "name": "nngroup",
+          "title": "Usability 101: Introduction to Usability",
+          "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-11-06T18:00:00.000Z"
         }
       ]
     },
@@ -330,11 +330,11 @@
       "teaser": "AI is expanding UX beyond human users to agents acting on their behalf. Experience design names this broader field, which still centers on people’s goals.",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
       "sources": [
         {
           "name": "nngroup",
@@ -374,13 +374,33 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 14 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 15 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Disciplines: Glossary",
           "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-23T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "feb9016c6972",
+      "title": "Designing Games for One Shared Phone: 7 UX Patterns From 30+ Pass-and-Play Games",
+      "teaser": "Most multiplayer advice assumes every player has their own screen. Pass-and-play games break that...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T10:35:22.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Designing Games for One Shared Phone: 7 UX Patterns From 30+ Pass-and-Play Games",
+          "url": "https://dev.to/dhaval109/designing-games-for-one-shared-phone-7-ux-patterns-from-30-pass-and-play-games-34hp",
+          "publishedAt": "2026-11-06T10:35:22.000Z"
         }
       ]
     },
@@ -392,9 +412,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T17:30:09.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -412,9 +432,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T13:09:26.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -432,9 +452,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T16:48:13.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -472,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-01T16:35:26.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -494,7 +514,7 @@
       "publishedAt": "2026-10-23T09:38:12.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -532,15 +552,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
       "sources": [
         {
           "name": "smashing",
           "title": "Embracing Playful Imperfection With The CSS `random()` Function",
           "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
           "publishedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "85e49dca6453",
+      "title": "The blog wall that hummed at 50 Hz",
+      "teaser": "Much like my past life as a sound engineer, my current work is a delicate mix of UX, design, and...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T11:10:02.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "The blog wall that hummed at 50 Hz",
+          "url": "https://dev.to/tdude/the-blog-wall-that-hummed-at-50-hz-3ofp",
+          "publishedAt": "2026-11-06T11:10:02.000Z"
         }
       ]
     },
@@ -592,9 +632,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T15:25:38.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -685,26 +725,6 @@
       ]
     },
     {
-      "id": "7596edd0d25b",
-      "title": "What do you do when a design solution is already pre-built?",
-      "teaser": "How to deal with the &#x201C;Fastest Idea in the Room&#x201D; Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-03T22:36:49.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What do you do when a design solution is already pre-built?",
-          "url": "https://uxdesign.cc/what-do-you-do-when-a-design-solution-is-already-pre-built-85d20edba31f?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-03T22:36:49.000Z"
-        }
-      ]
-    },
-    {
       "id": "68573e2109b1",
       "title": "Agent-first design: Bringing UX to the user",
       "teaser": "",
@@ -734,7 +754,7 @@
       "publishedAt": "2026-10-23T14:27:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -750,11 +770,11 @@
       "teaser": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "nngroup",
@@ -774,7 +794,7 @@
       "publishedAt": "2026-10-21T16:28:05.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -814,7 +834,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "nngroup",
@@ -854,7 +874,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -874,7 +894,7 @@
       "publishedAt": "2026-10-12T11:46:39.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -894,7 +914,7 @@
       "publishedAt": "2026-10-16T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "nngroup",
@@ -910,73 +930,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-06T21:24:32.292Z"
+      "fetchedAt": "2026-11-07T05:33:50.094Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-06T21:24:32.346Z"
+      "fetchedAt": "2026-11-07T05:33:50.147Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-06T21:24:32.348Z"
+      "fetchedAt": "2026-11-07T05:33:50.148Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-06T21:24:32.349Z"
+      "fetchedAt": "2026-11-07T05:33:50.149Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-06T21:24:32.350Z"
+      "fetchedAt": "2026-11-07T05:33:50.150Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-06T21:24:32.351Z"
+      "fetchedAt": "2026-11-07T05:33:50.151Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-06T21:24:32.352Z"
+      "fetchedAt": "2026-11-07T05:33:50.152Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-11-06T21:24:32.353Z"
+      "fetchedAt": "2026-11-07T05:33:50.153Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-06T21:24:32.354Z"
+      "fetchedAt": "2026-11-07T05:33:50.154Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-06T21:24:32.355Z"
+      "fetchedAt": "2026-11-07T05:33:50.155Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-06T21:24:32.356Z"
+      "fetchedAt": "2026-11-07T05:33:50.156Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-06T21:24:32.357Z"
+      "fetchedAt": "2026-11-07T05:33:50.157Z"
     }
   ]
 }
