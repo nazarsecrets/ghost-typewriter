@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T14:55:38.811Z",
-  "windowStart": "2026-10-09T14:55:38.811Z",
-  "windowEnd": "2026-11-08T14:55:38.811Z",
+  "generatedAt": "2026-11-08T20:19:55.484Z",
+  "windowStart": "2026-10-09T20:19:55.484Z",
+  "windowEnd": "2026-11-08T20:19:55.484Z",
   "topics": [
     {
       "id": "b32e9ab77da2",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:13:24.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:12:29.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -252,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:34:21.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -592,9 +592,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T08:00:00.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -694,7 +694,7 @@
       "publishedAt": "2026-10-11T07:19:22.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 29 days",
       "sources": [
         {
           "name": "devto-design",
@@ -714,7 +714,7 @@
       "publishedAt": "2026-10-28T05:01:23.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -910,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-08T14:55:38.811Z"
+      "fetchedAt": "2026-11-08T20:19:55.484Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-08T14:55:38.846Z"
+      "fetchedAt": "2026-11-08T20:19:55.541Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-08T14:55:38.848Z"
+      "fetchedAt": "2026-11-08T20:19:55.542Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-08T14:55:38.849Z"
+      "fetchedAt": "2026-11-08T20:19:55.543Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-08T14:55:38.850Z"
+      "fetchedAt": "2026-11-08T20:19:55.544Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-08T14:55:38.850Z"
+      "fetchedAt": "2026-11-08T20:19:55.545Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-08T14:55:38.851Z"
+      "fetchedAt": "2026-11-08T20:19:55.546Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-11-08T14:55:38.852Z"
+      "fetchedAt": "2026-11-08T20:19:55.547Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-08T14:55:38.852Z"
+      "fetchedAt": "2026-11-08T20:19:55.548Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-08T14:55:38.853Z"
+      "fetchedAt": "2026-11-08T20:19:55.549Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-08T14:55:38.854Z"
+      "fetchedAt": "2026-11-08T20:19:55.550Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-08T14:55:38.854Z"
+      "fetchedAt": "2026-11-08T20:19:55.551Z"
     }
   ]
 }
