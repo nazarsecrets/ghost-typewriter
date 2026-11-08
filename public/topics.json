@@ -1,29 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T05:36:15.483Z",
-  "windowStart": "2026-10-09T05:36:15.483Z",
-  "windowEnd": "2026-11-08T05:36:15.483Z",
+  "generatedAt": "2026-11-08T14:55:38.811Z",
+  "windowStart": "2026-10-09T14:55:38.811Z",
+  "windowEnd": "2026-11-08T14:55:38.811Z",
   "topics": [
-    {
-      "id": "26fb53397e02",
-      "title": "Otherwise you’re just a machine",
-      "teaser": "AI is getting better at design. Designers should too. The skills behind the work. I spend a lot of time looking at design work. Reviewing portfolios. Hiring designers. Working with design le",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-07T20:15:42.000Z",
-      "since": "today",
-      "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Otherwise you’re just a machine",
-          "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-07T20:15:42.000Z"
-        }
-      ]
-    },
     {
       "id": "b32e9ab77da2",
       "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
@@ -45,6 +25,26 @@
       ]
     },
     {
+      "id": "26fb53397e02",
+      "title": "Otherwise you’re just a machine",
+      "teaser": "AI is getting better at design. Designers should too. The skills behind the work. I spend a lot of time looking at design work. Reviewing portfolios. Hiring designers. Working with design le",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-07T20:15:42.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Otherwise you’re just a machine",
+          "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-07T20:15:42.000Z"
+        }
+      ]
+    },
+    {
       "id": "1af85a8895e5",
       "title": "After the AI bubble: a manifesto",
       "teaser": "Computers should be tools for the people but — hidden in a malaise of fatalism — the AI bubble has made computers tools to push people around. Soon, or in some time, this will change. We hav",
@@ -52,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T22:42:58.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -150,11 +150,11 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-11-01T01:27:36.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -172,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T22:12:46.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -192,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T22:12:09.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -212,9 +212,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T22:40:34.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -292,9 +292,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T19:40:03.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -332,9 +332,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T22:13:21.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -472,9 +472,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-21T20:45:22.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -530,11 +530,11 @@
       "teaser": "A useful session timeout UX demo shows the work before expiry, the sign-in transition, and the exact...",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -572,9 +572,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T18:00:00.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -612,9 +612,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-15T02:02:26.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -672,9 +672,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T02:34:14.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -734,7 +734,7 @@
       "publishedAt": "2026-10-12T17:55:42.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -814,7 +814,7 @@
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -910,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-08T05:36:15.483Z"
+      "fetchedAt": "2026-11-08T14:55:38.811Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-08T05:36:15.533Z"
+      "fetchedAt": "2026-11-08T14:55:38.846Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-08T05:36:15.535Z"
+      "fetchedAt": "2026-11-08T14:55:38.848Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-08T05:36:15.536Z"
+      "fetchedAt": "2026-11-08T14:55:38.849Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-08T05:36:15.537Z"
+      "fetchedAt": "2026-11-08T14:55:38.850Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-08T05:36:15.538Z"
+      "fetchedAt": "2026-11-08T14:55:38.850Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-08T05:36:15.539Z"
+      "fetchedAt": "2026-11-08T14:55:38.851Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-11-08T05:36:15.540Z"
+      "fetchedAt": "2026-11-08T14:55:38.852Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-08T05:36:15.541Z"
+      "fetchedAt": "2026-11-08T14:55:38.852Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-08T05:36:15.542Z"
+      "fetchedAt": "2026-11-08T14:55:38.853Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-08T05:36:15.543Z"
+      "fetchedAt": "2026-11-08T14:55:38.854Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-08T05:36:15.544Z"
+      "fetchedAt": "2026-11-08T14:55:38.854Z"
     }
   ]
 }
