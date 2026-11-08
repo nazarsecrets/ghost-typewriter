@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-07T20:04:43.892Z",
-  "windowStart": "2026-10-08T20:04:43.892Z",
-  "windowEnd": "2026-11-07T20:04:43.892Z",
+  "generatedAt": "2026-11-08T05:36:15.483Z",
+  "windowStart": "2026-10-09T05:36:15.483Z",
+  "windowEnd": "2026-11-08T05:36:15.483Z",
   "topics": [
+    {
+      "id": "26fb53397e02",
+      "title": "Otherwise you’re just a machine",
+      "teaser": "AI is getting better at design. Designers should too. The skills behind the work. I spend a lot of time looking at design work. Reviewing portfolios. Hiring designers. Working with design le",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-07T20:15:42.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Otherwise you’re just a machine",
+          "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-07T20:15:42.000Z"
+        }
+      ]
+    },
     {
       "id": "b32e9ab77da2",
       "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
@@ -12,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T09:18:02.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -92,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T10:49:10.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T10:47:24.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -205,26 +225,6 @@
       ]
     },
     {
-      "id": "ceb6a06c85f1",
-      "title": "I let AI build. I don’t let AI decide.",
-      "teaser": "A long workbench split down the middle, finished tools stacked on one side and a single open notebook on the other. My list of tasks I give models without a second thought and what I review ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-03T22:37:40.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "I let AI build. I don’t let AI decide.",
-          "url": "https://uxdesign.cc/i-let-ai-build-i-dont-let-ai-decide-b3892a87feb3?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-03T22:37:40.000Z"
-        }
-      ]
-    },
-    {
       "id": "eadd73a9ff9b",
       "title": "Show HN: A platform-neutral language for design systems",
       "teaser": "",
@@ -232,35 +232,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T14:38:35.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: A platform-neutral language for design systems",
           "url": "https://play.milda.dev",
           "publishedAt": "2026-11-04T14:38:35.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f52f62d7a19b",
-      "title": "The Developer's Design Advantage: Why UX and UI Matter with Kathryn Grayson Nanz [video]",
-      "teaser": "",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-07T15:00:20.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "The Developer's Design Advantage: Why UX and UI Matter with Kathryn Grayson Nanz [video]",
-          "url": "https://www.youtube.com/watch?v=aoJ-7ozu8h0",
-          "publishedAt": "2026-11-07T15:00:20.000Z"
         }
       ]
     },
@@ -292,9 +272,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T16:41:01.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -334,7 +314,7 @@
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
       "sources": [
         {
           "name": "nngroup",
@@ -374,7 +354,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 15 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 16 days",
       "sources": [
         {
           "name": "nngroup",
@@ -392,9 +372,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T10:35:22.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -412,9 +392,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T17:30:09.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -432,9 +412,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T13:09:26.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -452,15 +432,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T16:48:13.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
           "url": "https://github.com/oathshaper/oathshaper",
           "publishedAt": "2026-11-03T16:48:13.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f52f62d7a19b",
+      "title": "The Developer's Design Advantage: Why UX and UI Matter with Kathryn Grayson Nanz [video]",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-07T15:00:20.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "The Developer's Design Advantage: Why UX and UI Matter with Kathryn Grayson Nanz [video]",
+          "url": "https://www.youtube.com/watch?v=aoJ-7ozu8h0",
+          "publishedAt": "2026-11-07T15:00:20.000Z"
         }
       ]
     },
@@ -492,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-01T16:35:26.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -514,7 +514,7 @@
       "publishedAt": "2026-10-23T09:38:12.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -554,7 +554,7 @@
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
       "sources": [
         {
           "name": "smashing",
@@ -632,9 +632,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T15:25:38.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -654,7 +654,7 @@
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -754,7 +754,7 @@
       "publishedAt": "2026-10-23T14:27:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -774,7 +774,7 @@
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "nngroup",
@@ -792,9 +792,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-21T16:28:05.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -834,7 +834,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "nngroup",
@@ -854,7 +854,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -874,7 +874,7 @@
       "publishedAt": "2026-10-12T11:46:39.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -894,7 +894,7 @@
       "publishedAt": "2026-10-16T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "nngroup",
@@ -910,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-07T20:04:43.893Z"
+      "fetchedAt": "2026-11-08T05:36:15.483Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-07T20:04:43.927Z"
+      "fetchedAt": "2026-11-08T05:36:15.533Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-07T20:04:43.928Z"
+      "fetchedAt": "2026-11-08T05:36:15.535Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-07T20:04:43.929Z"
+      "fetchedAt": "2026-11-08T05:36:15.536Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-07T20:04:43.930Z"
+      "fetchedAt": "2026-11-08T05:36:15.537Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-07T20:04:43.931Z"
+      "fetchedAt": "2026-11-08T05:36:15.538Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-07T20:04:43.932Z"
+      "fetchedAt": "2026-11-08T05:36:15.539Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-11-07T20:04:43.932Z"
+      "fetchedAt": "2026-11-08T05:36:15.540Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-07T20:04:43.933Z"
+      "fetchedAt": "2026-11-08T05:36:15.541Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-07T20:04:43.934Z"
+      "fetchedAt": "2026-11-08T05:36:15.542Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-07T20:04:43.934Z"
+      "fetchedAt": "2026-11-08T05:36:15.543Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-07T20:04:43.935Z"
+      "fetchedAt": "2026-11-08T05:36:15.544Z"
     }
   ]
 }
