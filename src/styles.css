@@ -22,10 +22,12 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .app { min-height: 100vh; }
 /* Static material belongs to Typewriter; it never overlays selectable text. */
 .app[data-theme="typewriter"] { --paper-grain: url("/textures/paper-grain.svg"); }
-.app[data-theme="typewriter"] .manuscript,
+/* The writing room is one open white canvas with no sheet or edges. Tokens stay
+   scoped so Today, Reflect and Review keep the base palette. */
+.app[data-theme="typewriter"].view-write { --paper: #fff; --sheet: #fff; --rule: #e6e8e3; }
+html:has(.app[data-theme="typewriter"].view-write) { background: #fff; }
 .app[data-theme="typewriter"] .reflect-shell { background-image: var(--paper-grain); }
 @media (forced-colors: active), print {
-  .app[data-theme="typewriter"] .manuscript,
   .app[data-theme="typewriter"] .reflect-shell { background-image: none; }
 }
 .skip-link { position: fixed; z-index: 100; top: 8px; left: 8px; padding: 10px 14px; background: var(--ink); color: var(--sheet); transform: translateY(calc(-100% - 12px)); }
@@ -117,7 +119,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .reflection-loading { margin-top: 120px; color: var(--graphite); font: 28px var(--serif); }
 
 /* The ground is the desk, the manuscript is the sheet laid on it (§10). */
-.writing-shell { min-height: 100vh; padding-top: 64px; background: var(--paper); transform-origin: 50% 42%; }
+.writing-shell { min-height: 100vh; padding-top: 64px; overflow-x: clip; background: var(--paper); transform-origin: 50% 42%; }
 .utility-bar { position: sticky; top: 64px; z-index: 20; height: 48px; display: flex; justify-content: center; align-items: center; gap: 18px; border-bottom: 1px solid var(--rule); background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(12px); }
 .segmented { display: flex; }
 .segmented button { padding: 5px 8px; border: 0; background: none; color: var(--graphite); font-size: 10px; cursor: pointer; }
@@ -130,24 +132,21 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .writing-line span { display: block; margin-top: 5px; color: var(--signal); text-transform: uppercase; letter-spacing: .1em; font-size: 7px; }
 /* Trailing space must exceed 100vh - WRITING_ANCHOR so the last line can still
    reach the writing position. */
-/* typewriting-feel.md §10: the page is its own interaction layer, so it has to
-   read as an object. A hair lighter than the shell, with a shadow that deepens
-   on the carriage return (--sheet-lift, driven by Anime.js) and is otherwise
-   still. The page is never animated continuously: stillness is the default. */
+/* Open canvas: text starts at the upper left, in line with the header, and the right
+   side stays empty. The column is capped at 672px to hold the line length. Return
+   still shifts the text (carriageReturn); the page is otherwise still. */
 .manuscript {
-  --sheet-lift: 0;
-  width: min(100% - 48px, 760px); min-height: 130vh; margin: 0 auto;
-  padding: clamp(40px, 7vh, 96px) clamp(18px, 4vw, 44px) 72vh;
-  background: var(--sheet);
-  box-shadow:
-    0 1px 2px rgba(32, 35, 31, calc(.03 + .03 * var(--sheet-lift))),
-    0 10px 30px rgba(32, 35, 31, calc(.025 + .035 * var(--sheet-lift)));
+  --canvas-inset: max(28px, 4vw);
+  min-height: 130vh;
+  padding: clamp(28px, 5vh, 56px) max(var(--canvas-inset), calc(100% - 672px - var(--canvas-inset))) 72vh var(--canvas-inset);
   will-change: transform;
 }
 @property --sheet-lift { syntax: "<number>"; inherits: false; initial-value: 0; }
 .manuscript-meta { display: flex; justify-content: space-between; margin-bottom: 42px; color: var(--graphite); text-transform: uppercase; letter-spacing: .11em; font-size: 8px; }
 .manuscript-title { width: 100%; padding: 0; border: 0; background: transparent; color: var(--ink); font: 500 clamp(30px, 4vw, 44px)/1.2 var(--serif); letter-spacing: -.02em; }
 .manuscript-title::placeholder { color: #b7bbb4; }
+.manuscript-date { display: block; margin-top: 8px; color: var(--graphite); font-size: 12px; }
+.manuscript .writing-context { margin: 28px 0 0; }
 .paragraphs { display: grid; gap: 14px; margin-top: 44px; }
 .manuscript-paragraph { display: block; width: 100%; min-height: 40px; overflow: hidden; padding: 0; border: 0; background: transparent; color: var(--ink); resize: none; font: 22px/1.65 var(--serif); transition: opacity .32s ease; }
 .manuscript-paragraph::placeholder { color: #b3b7b0; }
@@ -211,7 +210,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
   .reflection-actions { align-items: flex-start; flex-direction: column; }
   .utility-bar { justify-content: flex-start; padding-inline: 16px; overflow-x: auto; }
   .writing-line { display: none; }
-  .manuscript { width: min(100% - 20px, 700px); padding-top: 22vh; padding-inline: 16px; }
+  .manuscript { padding-inline: 20px; }
   .manuscript-paragraph { font-size: 19px; }
   .review-toolbar { justify-content: flex-start; }
   .review-toolbar > .primary-action { right: 14px; }
@@ -233,7 +232,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 .sound-toggle:disabled { opacity: .55; cursor: wait; }
 .sound-error { margin: 8px 4vw; color: #693d12; font-size: 11px; }
 .document-status { align-self: center; font-size: 10px; }
-.writing-context, .manuscript-label { margin: 0 0 28px; color: var(--graphite); font-size: 12px; }
+.writing-context { margin: 0 0 28px; color: var(--graphite); font-size: 12px; }
 .writing-context summary { cursor: pointer; }
 .writing-context p { max-width: 60ch; line-height: 1.7; white-space: pre-wrap; }
 .storage-error { position: sticky; top: 64px; z-index: 10; padding: 16px 4vw; background: #fff2dc; color: #693d12; font-size: 13px; }
@@ -242,7 +241,7 @@ button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px
 @media (max-width: 760px) {
   .document-toolbar { flex-wrap: wrap; padding: 16px 18px; gap: 12px; }
   .document-toolbar > div { flex-wrap: wrap; gap: 18px; }
-  .manuscript { padding-top: 64px; }
+  .manuscript { padding-top: 32px; }
 }
 
 /* Guided writing keeps the question beside the task, with room for a full response. */

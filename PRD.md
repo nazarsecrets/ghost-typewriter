@@ -646,15 +646,16 @@ Future consideration: explicit Save snapshot and Rename actions. These are not r
 
 #### FR-8.1 Paper and surface
 
-The manuscript is a sheet laid on a desk, not a full-bleed background: the
-writing shell uses `--paper`, the manuscript uses `--sheet`, and the sheet
-carries a soft resting shadow. This makes the page an object that can respond
-(`typewriting-feel.md` §10).
+Changed 2026-11-04 by author direction, from a OneNote-style reference: the Write
+view is one open white canvas with no sheet, edges, or shadow. This supersedes the
+earlier sheet-on-a-desk model (`typewriting-feel.md` §10). Text starts at the upper
+left, in line with the header, and the right side stays empty. The title comes first,
+with the last-saved date and time beneath it (today's date before the first save).
 
+- The text column stays capped at 672px to protect line length. Free-position containers, sideways canvas growth, and ruled lines from the reference are not adopted: they would require replacing the paragraph editor.
 - The surface reacts to a keystroke only on the active line, never the application.
-- The sheet's shadow deepens only on the carriage return, driven by `--sheet-lift`.
 - The page is never animated continuously. Stillness is the default, and movement reads because the page is otherwise calm.
-- Adopted 2026-10-18 by author request: subtle static paper grain on Typewriter writing surfaces, behind native text controls; removed in forced colors and print. This supersedes the earlier no-texture instruction for this theme.
+- Adopted 2026-10-18 by author request: subtle static paper grain on Typewriter surfaces, behind native text controls; removed in forced colors and print. Since 2026-11-04 it applies to Reflect only; the Write canvas is smooth white.
 
 ### FR-8: Motion system
 
@@ -669,7 +670,7 @@ Anime.js is the primary motion library. Motion is organized into six foundationa
 | `quietParagraph` | Reduce visual competition | Progressively soften older paragraphs |
 | `enterWritingMode` | Transition into manuscript | Reflection retreats and manuscript quietly expands |
 | `paperImpulse` | Answer a keystroke | Active line takes a short horizontal step and impact; letter, punctuation, space and erase each differ |
-| `carriageReturn` | Answer a Return | The sheet travels right 8px and its shadow deepens, then settles |
+| `carriageReturn` | Answer a Return | The text travels right 8px, then settles |
 
 Motion requirements:
 
@@ -694,7 +695,7 @@ Sound in the current prototype:
 Optional future immersion:
 
 - ~~A softer custom caret.~~ Built as the Plume (FR-4.6).
-- Subtle static paper grain is now adopted for Typewriter writing surfaces.
+- Subtle static paper grain is adopted for Typewriter's Reflect surface.
 - Optional monospaced manuscript type.
 - Native View Transitions for large mode changes.
 
@@ -809,6 +810,7 @@ The client must validate the manifest before replacing the last known valid pool
 
 - Paper: `#F3F5F2`
 - Sheet: `#FAFBF8`
+- Write view (Typewriter) overrides: `--paper` and `--sheet` `#FFFFFF`, `--rule` `#E6E8E3`
 - Ink: `#20231F`
 - Graphite: `#6E746C`
 - Rule: `#D9DDD6`

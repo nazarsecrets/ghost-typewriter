@@ -13,7 +13,7 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 **Classification:** every new progress item is labeled **[UX]**, **[Dev]**, or
 **[UX+Dev]**. Read-only inspection does not require a separate tracker entry.
 
-_Last updated: 2026-10-18_
+_Last updated: 2026-11-04_
 
 ---
 
@@ -25,8 +25,8 @@ available through the fixed header, muted by default, with recorded strikes and
 a separate scrolling cue on Enter. Anime.js now gives the active line a short
 step on a key strike and moves the sheet on Return. Judge the paired feel and
 long-session comfort, then decide whether the four strike motions and Return
-still earn their place. Paper grain remains a separate author decision; the
-standing no-texture instruction still applies until then.
+still earn their place. Judge the new open white canvas in the same session,
+including whether Return's 8px text shift still earns its place without a sheet.
 
 ---
 
@@ -72,6 +72,12 @@ standing no-texture instruction still applies until then.
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-11-04 [UX+Dev]** — Replaced the Write sheet and desk with a OneNote-style open white canvas from the author's reference, superseding the two sheet entries below. No edges, shadow, or grain on Write; text starts at the upper left in line with the header; the column stays capped at 672px with open space to the right. Title now comes first, with date and time beneath it, and the "Your manuscript" label is gone. The date shows the last save because drafts store no creation date. Free positioning, sideways growth, and ruled lines were not built, since they would require replacing the paragraph editor. The machine-illustration pending item is dropped as moot. Validation: `npm run build` passes; browser checks from 1920px to 320px, and with reduced motion at 1280px, covered typing, paragraph creation, reload recovery, no horizontal overflow including during Return, caret at 0.296–0.297 of viewport height, and no console errors. axe not re-run.
+
+- ✅ **2026-11-04 [UX+Dev]** — Author asked for more breathing room at the sides of the sheet. Inner side margins grew from 44px to 96px on desktop and 16px to 28px on phones; the sheet widened from 760px to 864px so the desktop text column stays 672px and line length is preserved. Phone lines are slightly shorter. Validation below in the same session: measured at 1440, 1280, 1024, 800, 390, and 320px with no horizontal overflow.
+
+- ✅ **2026-11-04 [UX+Dev]** — Restyled the Write sheet from the author's typewriter reference: crisp warm white (`#FFFEFA`) with square corners, a hard edge and contact shadow, on a warm desk (`#E8E1D2`) scoped to Typewriter's Write view. Grain alpha dropped from .09 to .03 because it had dimmed the sheet to the desk's brightness; this also lightens Reflect. Graphite and rule are adjusted in scope (graphite 5.35:1 on desk, 6.90:1 on sheet). Column width, Return shadow behavior, and motion code are unchanged. Validation: `npm run build` passes; browser checks at 1280px and 390px, with and without reduced motion (1280px), covered typing, paragraph creation, no horizontal overflow, and no console errors; the caret settled at the same position as the old layout (0.296 of viewport height at 1280px). axe was not re-run. The machine illustration in the reference was not built; that decision is under Pending.
 
 - ✅ **2026-10-18 [UX+Dev]** — Preserved partial source-backed desks in `src/topicSource.ts`; Today now discloses total and per-category shortfalls without mixing in Evergreen or filling missing slots from other categories. Updated PRD status. Validation: production build/guide coverage, pipeline typecheck, and diff checks pass; Playwright verified 2/1/0, 0/0/1, and 2/2/2 desks, stale labeling, Refresh preferring unseen source IDs while retaining a partial desk, empty/invalid/network-failure Evergreen fallback, 390px overflow, topic → guided writing → reload recovery, and Enter creating a second paragraph. No page exceptions; the deliberately aborted manifest produced the expected network error. Session/draft persistence code is unchanged. The author sound-and-motion session remains next; diary implementation remains pending.
 

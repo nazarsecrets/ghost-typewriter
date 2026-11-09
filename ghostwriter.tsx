@@ -630,6 +630,7 @@ export default function Ghostwriter() {
   }
 
   const saveLabel = saveStatus === "saved" ? "All changes saved" : saveStatus === "error" ? "Could not save" : saveStatus === "saving" ? "Saving…" : "Unsaved changes";
+  const manuscriptDateLabel = savedAt ? new Date(savedAt).toLocaleString("en-US", { month: "long", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit" }) : TODAY;
   const saveTimeLabel = savedAt ? `Saved on this device at ${new Date(savedAt).toLocaleTimeString()}` : "Saved on this device";
   const soundControl = <button className="sound-toggle" type="button" aria-pressed={soundOn} disabled={soundPending} onClick={() => void toggleSound()}>{soundOn ? "Sound on" : "Sound off"}</button>;
 
@@ -761,10 +762,11 @@ export default function Ghostwriter() {
       </div>
       {soundError ? <p className="sound-error" role="alert">{soundError === "storage" ? "Sound preference could not be saved on this device." : "Sound could not start in this browser."}</p> : null}
       <section className="manuscript">
-        {selectedTopic ? <details className="writing-context"><summary>Writing from · {editorialLens(selectedTopic)}</summary><p>{topicPrompt(selectedTopic)}</p><TopicProvenance topic={selectedTopic} /></details> : <p className="manuscript-label">Your manuscript</p>}
-        {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context"><summary>Your reflection notes</summary>{Object.entries(reflectionAnswers).map(([label, answer]) => answer?.trim() ? <div key={label}><strong>{label}</strong><p>{answer}</p></div> : null)}</details> : null}
         <h1 className="visually-hidden">{title || "Untitled manuscript"}</h1>
         <input name="title" autoComplete="off" className="manuscript-title" value={title} onChange={(event) => setTitle(event.target.value)} onKeyDown={(event) => { if (event.key === "Enter") { event.preventDefault(); paragraphRefs.current.get(0)?.focus(); } }} placeholder="Untitled" aria-label="Manuscript title" />
+        <time className="manuscript-date" dateTime={savedAt ?? undefined}>{manuscriptDateLabel}</time>
+        {selectedTopic ? <details className="writing-context"><summary>Writing from · {editorialLens(selectedTopic)}</summary><p>{topicPrompt(selectedTopic)}</p><TopicProvenance topic={selectedTopic} /></details> : null}
+        {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context"><summary>Your reflection notes</summary>{Object.entries(reflectionAnswers).map(([label, answer]) => answer?.trim() ? <div key={label}><strong>{label}</strong><p>{answer}</p></div> : null)}</details> : null}
         <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} paragraphCount={paragraphs.length} soundOn={soundOn} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onMergeBackward={mergeBackward} onMergeForward={mergeForward} onMoveCaret={moveCaret} onSelection={rememberSelection} />)}</div>
       </section>
     </main> : null}
