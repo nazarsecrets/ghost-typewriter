@@ -1,26 +1,46 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T05:45:35.080Z",
-  "windowStart": "2026-10-10T05:45:35.080Z",
-  "windowEnd": "2026-11-09T05:45:35.080Z",
+  "generatedAt": "2026-11-09T18:36:27.915Z",
+  "windowStart": "2026-10-10T18:36:27.915Z",
+  "windowEnd": "2026-11-09T18:36:27.915Z",
   "topics": [
     {
-      "id": "8969785f59e0",
-      "title": "Navigating Complexity: A User-Centered Evaluation of Project Management Tools",
-      "teaser": "In the age of digital transformation, companies are increasingly relying on specialized software to manage the complexity of projects. However, when selecting tools, features and costs often",
-      "tag": "Research",
+      "id": "5c4ceb6ed124",
+      "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “As AI becomes more capable of assembling interfaces from established patterns, this distinction deserves more attention. We are",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-06T10:19:54.000Z",
-      "since": "3 days ago",
+      "publishedAt": "2026-11-09T12:20:07.000Z",
+      "since": "today",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Navigating Complexity: A User-Centered Evaluation of Project Management Tools",
-          "url": "https://arxiv.org/abs/2611.09260v1",
-          "publishedAt": "2026-11-06T10:19:54.000Z"
+          "name": "uxcollective",
+          "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
+          "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-09T12:20:07.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a966f3b3ce22",
+      "title": "Five pairs of hands: what the typesetters can teach designers about AI",
+      "teaser": "Five pairs of hands A conversation with Christian Crumlish, on typesetters, AI, the jobs merging around us, and the work you would keep doing anyway. Photo by Karen Maes on Unsplash In the e",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-09T12:13:36.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Five pairs of hands: what the typesetters can teach designers about AI",
+          "url": "https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-09T12:13:36.000Z"
         }
       ]
     },
@@ -45,26 +65,6 @@
       ]
     },
     {
-      "id": "9cca55adbbbe",
-      "title": "Astryx: An open source design system that's customizable and agent ready",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-08T23:27:30.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Astryx: An open source design system that's customizable and agent ready",
-          "url": "https://github.com/meta/astryx",
-          "publishedAt": "2026-11-08T23:27:30.000Z"
-        }
-      ]
-    },
-    {
       "id": "26fb53397e02",
       "title": "Otherwise you’re just a machine",
       "teaser": "AI is getting better at design. Designers should too. The skills behind the work. I spend a lot of time looking at design work. Reviewing portfolios. Hiring designers. Working with design le",
@@ -72,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-07T20:15:42.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,15 +92,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T22:42:58.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "After the AI bubble: a manifesto",
           "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-06T22:42:58.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8969785f59e0",
+      "title": "Navigating Complexity: A User-Centered Evaluation of Project Management Tools",
+      "teaser": "In the age of digital transformation, companies are increasingly relying on specialized software to manage the complexity of projects. However, when selecting tools, features and costs often",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T10:19:54.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Navigating Complexity: A User-Centered Evaluation of Project Management Tools",
+          "url": "https://arxiv.org/abs/2611.09260v1",
+          "publishedAt": "2026-11-06T10:19:54.000Z"
         }
       ]
     },
@@ -112,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:13:24.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:12:29.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -165,26 +185,6 @@
       ]
     },
     {
-      "id": "85558c14a28d",
-      "title": "Everyone’s got a quick question",
-      "teaser": "And you shouldn’t have to answer them all. Frequently asked questions in my inbox, recreated. I became the team’s search engine Every team has a person everyone reaches out to. They know whe",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-05T10:47:24.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Everyone’s got a quick question",
-          "url": "https://uxdesign.cc/everyones-got-a-quick-question-374a736ff7cb?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-05T10:47:24.000Z"
-        }
-      ]
-    },
-    {
       "id": "a8e6bff9f54e",
       "title": "Design systems for agents",
       "teaser": "",
@@ -194,73 +194,13 @@
       "publishedAt": "2026-11-01T01:27:36.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Design systems for agents",
           "url": "https://design.how",
           "publishedAt": "2026-11-01T01:27:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "97a7ce27f0a8",
-      "title": "AI can generate the interface. What makes it worth caring about?",
-      "teaser": "As more product work is generated from shared patterns, designers need to decide where an experience should surprise, celebrate, or simply leave someone alone. Imagine asking an AI tool to d",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-04T22:12:46.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI can generate the interface. What makes it worth caring about?",
-          "url": "https://uxdesign.cc/ai-can-generate-the-interface-what-makes-it-worth-caring-about-a5f3a3e81986?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-04T22:12:46.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d1a13557907e",
-      "title": "What AI has changed in Design Systems, and what is still up to us",
-      "teaser": "Three design experts told me how AI is changing the way we build and maintain Design Systems. And led me to think that “the future” is already happening now. What is the human role in creati",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-04T22:12:09.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What AI has changed in Design Systems, and what is still up to us",
-          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-04T22:12:09.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c620bcb083d2",
-      "title": "Everyone is building AI agents. Who’s designing the stop button?",
-      "teaser": "We used to design predictable user flows. Now AI can interpret, decide, and act on its own. Here’s why the hardest design decisions happen where that autonomy ends. Showing where AI stops in",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-03T22:40:34.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Everyone is building AI agents. Who’s designing the stop button?",
-          "url": "https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-03T22:40:34.000Z"
         }
       ]
     },
@@ -285,22 +225,42 @@
       ]
     },
     {
-      "id": "011f7185aff8",
-      "title": "Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts",
-      "teaser": "Large language models (LLMs) are now widely used in software development, and LLM-based coding agents are given increasing autonomy. With coding agents, many design decisions are made in the",
-      "tag": "AI",
+      "id": "6dbd37c43a24",
+      "title": "Infinite tokens: the new country club flex",
+      "teaser": "Well-chosen constraints organize your thinking. Continue reading on UX Collective »",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-06T12:34:02.000Z",
-      "since": "3 days ago",
+      "publishedAt": "2026-11-09T12:11:27.000Z",
+      "since": "today",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts",
-          "url": "https://arxiv.org/abs/2611.09395v1",
-          "publishedAt": "2026-11-06T12:34:02.000Z"
+          "name": "uxcollective",
+          "title": "Infinite tokens: the new country club flex",
+          "url": "https://uxdesign.cc/infinite-tokens-the-new-country-club-flex-0e5e523756c3?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-09T12:11:27.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ed62f35a97f4",
+      "title": "Offline UX Testing: Disconnect During the Task in Your Public SaaS Demo",
+      "teaser": "Test offline UX by interrupting a real task, inspecting what the interface knows about the attempted...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-08T17:16:09.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Offline UX Testing: Disconnect During the Task in Your Public SaaS Demo",
+          "url": "https://dev.to/urielbitton/offline-ux-testing-disconnect-during-the-task-in-your-public-saas-demo-21pb",
+          "publishedAt": "2026-11-08T17:16:09.000Z"
         }
       ]
     },
@@ -312,15 +272,75 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:34:21.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Conference January Announced (Jan 19 - Feb 1)",
           "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-11-06T04:34:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e19eb3d79e72",
+      "title": "What a ruler leaves out",
+      "teaser": "On designing tools as rules &#x2014; and what they quietly subtract from the world Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-09T12:13:57.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What a ruler leaves out",
+          "url": "https://uxdesign.cc/what-a-ruler-leaves-out-9250724a7f85?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-09T12:13:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c925db1dbf1c",
+      "title": "Before you ship your Wrapped this year",
+      "teaser": "What last December&#x2019;s recaps got right, what changed in 2026, and the step almost nobody takes. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-09T12:11:16.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Before you ship your Wrapped this year",
+          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-this-year-a0a47ee191f8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-09T12:11:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9cca55adbbbe",
+      "title": "Astryx: An open source design system that's customizable and agent ready",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-08T23:27:30.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Astryx: An open source design system that's customizable and agent ready",
+          "url": "https://github.com/meta/astryx",
+          "publishedAt": "2026-11-08T23:27:30.000Z"
         }
       ]
     },
@@ -352,9 +372,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T19:40:03.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -381,26 +401,6 @@
           "title": "Experience Design: Dropping the “User” from “User Experience”",
           "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-30T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "7f0caff98be4",
-      "title": "In a world of panic, calm and certainty win",
-      "teaser": "You can dread the future or help build it. The people who come through this already chose. While panic around what AI means for our industry is the reflex right now, calm is a decision. The ",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-04T22:13:21.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "In a world of panic, calm and certainty win",
-          "url": "https://uxdesign.cc/in-a-world-of-panic-calm-and-certainty-win-525c17dd927f?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-04T22:13:21.000Z"
         }
       ]
     },
@@ -525,6 +525,26 @@
       ]
     },
     {
+      "id": "011f7185aff8",
+      "title": "Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts",
+      "teaser": "Large language models (LLMs) are now widely used in software development, and LLM-based coding agents are given increasing autonomy. With coding agents, many design decisions are made in the",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T12:34:02.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts",
+          "url": "https://arxiv.org/abs/2611.09395v1",
+          "publishedAt": "2026-11-06T12:34:02.000Z"
+        }
+      ]
+    },
+    {
       "id": "d062ad21ca0d",
       "title": "Show HN: Overdesigned Simple Solitaire",
       "teaser": "I got irritated by the maximalism and lack of aesthetics present in modern software when trying to find a nice solitaire. A solitaire does not need a score, levels - and most of all it does ",
@@ -534,7 +554,7 @@
       "publishedAt": "2026-10-21T20:45:22.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -594,7 +614,7 @@
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -632,9 +652,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T18:00:00.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -674,7 +694,7 @@
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -734,7 +754,7 @@
       "publishedAt": "2026-10-28T05:01:23.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -754,7 +774,7 @@
       "publishedAt": "2026-10-12T17:55:42.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -814,7 +834,7 @@
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -910,73 +930,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-09T05:45:35.081Z"
+      "fetchedAt": "2026-11-09T18:36:27.915Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-09T05:45:35.132Z"
+      "fetchedAt": "2026-11-09T18:36:27.965Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-09T05:45:35.133Z"
+      "fetchedAt": "2026-11-09T18:36:27.967Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-09T05:45:35.134Z"
+      "fetchedAt": "2026-11-09T18:36:27.968Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-09T05:45:35.135Z"
+      "fetchedAt": "2026-11-09T18:36:27.969Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-09T05:45:35.136Z"
+      "fetchedAt": "2026-11-09T18:36:27.970Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-09T05:45:35.137Z"
+      "fetchedAt": "2026-11-09T18:36:27.971Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-11-09T05:45:35.138Z"
+      "fetchedAt": "2026-11-09T18:36:27.972Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-09T05:45:35.139Z"
+      "fetchedAt": "2026-11-09T18:36:27.973Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-09T05:45:35.140Z"
+      "fetchedAt": "2026-11-09T18:36:27.974Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-09T05:45:35.140Z"
+      "fetchedAt": "2026-11-09T18:36:27.975Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
-      "items": 5,
-      "fetchedAt": "2026-11-09T05:45:35.142Z"
+      "items": 4,
+      "fetchedAt": "2026-11-09T18:36:27.976Z"
     }
   ]
 }
