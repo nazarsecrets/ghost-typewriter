@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T20:19:55.484Z",
-  "windowStart": "2026-10-09T20:19:55.484Z",
-  "windowEnd": "2026-11-08T20:19:55.484Z",
+  "generatedAt": "2026-11-09T05:45:35.080Z",
+  "windowStart": "2026-10-10T05:45:35.080Z",
+  "windowEnd": "2026-11-09T05:45:35.080Z",
   "topics": [
+    {
+      "id": "8969785f59e0",
+      "title": "Navigating Complexity: A User-Centered Evaluation of Project Management Tools",
+      "teaser": "In the age of digital transformation, companies are increasingly relying on specialized software to manage the complexity of projects. However, when selecting tools, features and costs often",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T10:19:54.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Navigating Complexity: A User-Centered Evaluation of Project Management Tools",
+          "url": "https://arxiv.org/abs/2611.09260v1",
+          "publishedAt": "2026-11-06T10:19:54.000Z"
+        }
+      ]
+    },
     {
       "id": "b32e9ab77da2",
       "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
@@ -12,15 +32,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T09:18:02.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-ux",
           "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
           "url": "https://ai.greensighter.com/",
           "publishedAt": "2026-11-04T09:18:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9cca55adbbbe",
+      "title": "Astryx: An open source design system that's customizable and agent ready",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-08T23:27:30.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Astryx: An open source design system that's customizable and agent ready",
+          "url": "https://github.com/meta/astryx",
+          "publishedAt": "2026-11-08T23:27:30.000Z"
         }
       ]
     },
@@ -112,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T10:49:10.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +172,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T10:47:24.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -232,15 +272,35 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T14:38:35.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Show HN: A platform-neutral language for design systems",
           "url": "https://play.milda.dev",
           "publishedAt": "2026-11-04T14:38:35.000Z"
+        }
+      ]
+    },
+    {
+      "id": "011f7185aff8",
+      "title": "Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts",
+      "teaser": "Large language models (LLMs) are now widely used in software development, and LLM-based coding agents are given increasing autonomy. With coding agents, many design decisions are made in the",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-06T12:34:02.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Tracybot: Preserving Developer Intent by Tracing Agent-Generated Code to Prompts",
+          "url": "https://arxiv.org/abs/2611.09395v1",
+          "publishedAt": "2026-11-06T12:34:02.000Z"
         }
       ]
     },
@@ -272,9 +332,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-02T16:41:01.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -314,7 +374,7 @@
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
           "name": "nngroup",
@@ -354,7 +414,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 16 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 17 days",
       "sources": [
         {
           "name": "nngroup",
@@ -372,9 +432,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T10:35:22.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -392,9 +452,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-05T17:30:09.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -412,9 +472,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-04T13:09:26.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -432,9 +492,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-03T16:48:13.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -452,9 +512,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-07T15:00:20.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-ux",
@@ -490,11 +550,11 @@
       "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-11-01T16:35:26.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -514,7 +574,7 @@
       "publishedAt": "2026-10-23T09:38:12.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -554,7 +614,7 @@
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 20 days",
       "sources": [
         {
           "name": "smashing",
@@ -625,26 +685,6 @@
       ]
     },
     {
-      "id": "b61cf0402ba2",
-      "title": "Reflective Nature Experiences in Virtual Reality",
-      "teaser": "This paper presents the design and evaluation of an accessible virtual reality (VR) nature experience developed to promote mindfulness, reduce stress, and support emotional well-being. The s",
-      "tag": "Ethics",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-05T15:25:38.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Reflective Nature Experiences in Virtual Reality",
-          "url": "https://arxiv.org/abs/2611.08167v1",
-          "publishedAt": "2026-11-05T15:25:38.000Z"
-        }
-      ]
-    },
-    {
       "id": "fa36b5133b5f",
       "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
       "teaser": "The diagram vs. the Tuesday afternoon On the architecture diagram, human-in-the-loop looks...",
@@ -654,33 +694,13 @@
       "publishedAt": "2026-10-12T08:53:11.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
           "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
           "publishedAt": "2026-10-12T08:53:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b9ecd16bf373",
-      "title": "Slide to Report: Continuous Reporting Symptom-Specific Cybersickness in VR",
-      "teaser": "Cybersickness is often assessed during VR exposure through discrete overall sickness, which cannot capture specific symptoms or their changes over time. Post-exposure questionnaires such as ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-05T02:34:14.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Slide to Report: Continuous Reporting Symptom-Specific Cybersickness in VR",
-          "url": "https://arxiv.org/abs/2611.07345v1",
-          "publishedAt": "2026-11-05T02:34:14.000Z"
         }
       ]
     },
@@ -754,7 +774,7 @@
       "publishedAt": "2026-10-23T14:27:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -774,33 +794,13 @@
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "The Role of UX in Agentic Software Factories",
           "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-30T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8841b2023b95",
-      "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
-      "teaser": "I have built a note taking, to-do application, what makes this different then others? This app targets to make note taking fun, and efficient. - Most important feature it&#x27;s fast. Perfor",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-21T16:28:05.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
-          "url": "https://mtarin.com/projects/nift/",
-          "publishedAt": "2026-10-21T16:28:05.000Z"
         }
       ]
     },
@@ -834,7 +834,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "nngroup",
@@ -854,7 +854,7 @@
       "publishedAt": "2026-10-11T13:39:37.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -874,7 +874,7 @@
       "publishedAt": "2026-10-12T11:46:39.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -894,7 +894,7 @@
       "publishedAt": "2026-10-16T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "nngroup",
@@ -910,73 +910,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-08T20:19:55.484Z"
+      "fetchedAt": "2026-11-09T05:45:35.081Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-08T20:19:55.541Z"
+      "fetchedAt": "2026-11-09T05:45:35.132Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-08T20:19:55.542Z"
+      "fetchedAt": "2026-11-09T05:45:35.133Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-08T20:19:55.543Z"
+      "fetchedAt": "2026-11-09T05:45:35.134Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-08T20:19:55.544Z"
+      "fetchedAt": "2026-11-09T05:45:35.135Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-08T20:19:55.545Z"
+      "fetchedAt": "2026-11-09T05:45:35.136Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-08T20:19:55.546Z"
+      "fetchedAt": "2026-11-09T05:45:35.137Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 11,
-      "fetchedAt": "2026-11-08T20:19:55.547Z"
+      "fetchedAt": "2026-11-09T05:45:35.138Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-08T20:19:55.548Z"
+      "fetchedAt": "2026-11-09T05:45:35.139Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-08T20:19:55.549Z"
+      "fetchedAt": "2026-11-09T05:45:35.140Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-08T20:19:55.550Z"
+      "fetchedAt": "2026-11-09T05:45:35.140Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-08T20:19:55.551Z"
+      "fetchedAt": "2026-11-09T05:45:35.142Z"
     }
   ]
 }
