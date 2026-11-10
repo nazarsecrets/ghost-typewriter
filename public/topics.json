@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-10T06:53:03.107Z",
-  "windowStart": "2026-10-11T06:53:03.107Z",
-  "windowEnd": "2026-11-10T06:53:03.107Z",
+  "generatedAt": "2026-11-10T16:19:12.850Z",
+  "windowStart": "2026-10-11T16:19:12.850Z",
+  "windowEnd": "2026-11-10T16:19:12.850Z",
   "topics": [
+    {
+      "id": "57aae1814883",
+      "title": "What being the new kid taught me about persuasion as a designer",
+      "teaser": "People don&#x2019;t say yes to ideas. They say yes to who they get to be. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-10T12:09:18.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What being the new kid taught me about persuasion as a designer",
+          "url": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-10T12:09:18.000Z"
+        }
+      ]
+    },
+    {
+      "id": "96e0cc1bfa27",
+      "title": "Every new medium gets called cheating",
+      "teaser": "How a machine I didn’t trust taught me to be bad at things again. Monet’s Impression Sunrise would not have existed if someone hadn’t invented the right medium ( Source ) I was a skeptic. Le",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-10T12:09:06.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Every new medium gets called cheating",
+          "url": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-10T12:09:06.000Z"
+        }
+      ]
+    },
     {
       "id": "5c4ceb6ed124",
       "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
@@ -65,26 +105,6 @@
       ]
     },
     {
-      "id": "71e32b0432b1",
-      "title": "From Sketch to Design: A Cross-scale Workflow for Procedural Generative Urban Design",
-      "teaser": "Urban designers use sketches and symbols to express spatial intentions, while many generative urban design tools rely on numeric parameters that are difficult to relate to this visual proces",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-08T19:04:44.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "From Sketch to Design: A Cross-scale Workflow for Procedural Generative Urban Design",
-          "url": "https://arxiv.org/abs/2611.11561v1",
-          "publishedAt": "2026-11-08T19:04:44.000Z"
-        }
-      ]
-    },
-    {
       "id": "26fb53397e02",
       "title": "Otherwise you’re just a machine",
       "teaser": "AI is getting better at design. Designers should too. The skills behind the work. I spend a lot of time looking at design work. Reviewing portfolios. Hiring designers. Working with design le",
@@ -92,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-07T20:15:42.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T22:42:58.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,55 +152,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:13:24.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Berrypicking still beats the single answer for search, even in the world of AI",
-          "url": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-06T04:13:24.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3956912dfa0a",
-      "title": "Native is a floor, not a ceiling",
-      "teaser": "With AI, a polished look costs nothing. Native brings what can’t be drawn, and it moves with the system, one step ahead of what imitates it. An AI assistant helped me write this. The ideas, ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-06T04:12:29.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Native is a floor, not a ceiling",
-          "url": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-06T04:12:29.000Z"
-        }
-      ]
-    },
-    {
-      "id": "82011c4661e9",
-      "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
-      "teaser": "Everyone seems to be asking whether AI will replace UX designers. I think that’s the wrong question. Following the numbers gets you a picture but doesn’t make you an artist | Russell Pinksto",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-05T10:49:10.000Z",
       "since": "5 days ago",
       "relevanceScore": 1,
       "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
-          "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-05T10:49:10.000Z"
+          "title": "Berrypicking still beats the single answer for search, even in the world of AI",
+          "url": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-06T04:13:24.000Z"
         }
       ]
     },
@@ -194,7 +174,7 @@
       "publishedAt": "2026-11-01T01:27:36.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -225,46 +205,6 @@
       ]
     },
     {
-      "id": "6e860b535256",
-      "title": "Co-Creating Neurorehabilitation Technology Alongside Lived Experience Experts: A Participatory Design Workshop",
-      "teaser": "Involving patients' lived experience (LE) early in neurorehabilitation technology design can improve the relevance and effectiveness of solutions, yet LE experts are often involved only when",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-09T10:59:54.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Co-Creating Neurorehabilitation Technology Alongside Lived Experience Experts: A Participatory Design Workshop",
-          "url": "https://arxiv.org/abs/2611.12202v1",
-          "publishedAt": "2026-11-09T10:59:54.000Z"
-        }
-      ]
-    },
-    {
-      "id": "17deaef84d69",
-      "title": "Executable Human Study Programs with Silicon Participants",
-      "teaser": "We introduce HumanStudyProgram, a framework that represents a documented human study as an executable program with configurable LLM-based silicon participants. Its computational abstraction ",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-09T06:51:31.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Executable Human Study Programs with Silicon Participants",
-          "url": "https://arxiv.org/abs/2611.11969v1",
-          "publishedAt": "2026-11-09T06:51:31.000Z"
-        }
-      ]
-    },
-    {
       "id": "2f852a2e1a4f",
       "title": "UX Conference January Announced (Jan 19 - Feb 1)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, ",
@@ -285,6 +225,26 @@
       ]
     },
     {
+      "id": "71e32b0432b1",
+      "title": "From Sketch to Design: A Cross-scale Workflow for Procedural Generative Urban Design",
+      "teaser": "Urban designers use sketches and symbols to express spatial intentions, while many generative urban design tools rely on numeric parameters that are difficult to relate to this visual proces",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-08T19:04:44.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "From Sketch to Design: A Cross-scale Workflow for Procedural Generative Urban Design",
+          "url": "https://arxiv.org/abs/2611.11561v1",
+          "publishedAt": "2026-11-08T19:04:44.000Z"
+        }
+      ]
+    },
+    {
       "id": "9cca55adbbbe",
       "title": "Astryx: An open source design system that's customizable and agent ready",
       "teaser": "",
@@ -292,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-08T23:27:30.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -330,11 +290,11 @@
       "teaser": "My cofounders and I are in the process of spinning up an AI integration lab, and over the last year we&#x27;ve consumed billions of tokens across multiple American, European, and Chinese mod",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-11-02T19:40:03.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.71) with limited coverage over 8 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -461,6 +421,46 @@
           "title": "Show HN: Screenshot to Tokens – give a web app a design system from a screenshot",
           "url": "https://github.com/nhunsaker/screenshot-to-tokens",
           "publishedAt": "2026-11-04T13:09:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6e860b535256",
+      "title": "Co-Creating Neurorehabilitation Technology Alongside Lived Experience Experts: A Participatory Design Workshop",
+      "teaser": "Involving patients' lived experience (LE) early in neurorehabilitation technology design can improve the relevance and effectiveness of solutions, yet LE experts are often involved only when",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-09T10:59:54.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Co-Creating Neurorehabilitation Technology Alongside Lived Experience Experts: A Participatory Design Workshop",
+          "url": "https://arxiv.org/abs/2611.12202v1",
+          "publishedAt": "2026-11-09T10:59:54.000Z"
+        }
+      ]
+    },
+    {
+      "id": "17deaef84d69",
+      "title": "Executable Human Study Programs with Silicon Participants",
+      "teaser": "We introduce HumanStudyProgram, a framework that represents a documented human study as an executable program with configurable LLM-based silicon participants. Its computational abstraction ",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-09T06:51:31.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Executable Human Study Programs with Silicon Participants",
+          "url": "https://arxiv.org/abs/2611.11969v1",
+          "publishedAt": "2026-11-09T06:51:31.000Z"
         }
       ]
     },
@@ -614,7 +614,7 @@
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -694,7 +694,7 @@
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 27 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -721,26 +721,6 @@
           "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
           "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
           "publishedAt": "2026-10-12T08:53:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4b74e269aed3",
-      "title": "Why I Built DSLint: A Design System Linter for Figma",
-      "teaser": "How repeated design-review feedback inspired me to build a plugin that detects design-system drift,...",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-11T07:19:22.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Why I Built DSLint: A Design System Linter for Figma",
-          "url": "https://dev.to/krishnakakade/why-i-built-dslint-a-design-system-linter-for-figma-51ge",
-          "publishedAt": "2026-10-11T07:19:22.000Z"
         }
       ]
     },
@@ -834,7 +814,7 @@
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -861,26 +841,6 @@
           "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
           "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-23T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1d3746c9b0f3",
-      "title": "Show HN: GrogLog, a Free Drink Tracker",
-      "teaser": "It’s designed for people who are alcohol dependent and want to get visibility and control over their drinking in order to cut down or stop. Fully offline, better features than many paid apps",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-11T13:39:37.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: GrogLog, a Free Drink Tracker",
-          "url": "https://groglog.io",
-          "publishedAt": "2026-10-11T13:39:37.000Z"
         }
       ]
     },
@@ -930,73 +890,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-10T06:53:03.108Z"
+      "fetchedAt": "2026-11-10T16:19:12.851Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-10T06:53:03.158Z"
+      "fetchedAt": "2026-11-10T16:19:12.890Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-10T06:53:03.160Z"
+      "fetchedAt": "2026-11-10T16:19:12.891Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-10T06:53:03.161Z"
+      "fetchedAt": "2026-11-10T16:19:12.892Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-10T06:53:03.162Z"
+      "fetchedAt": "2026-11-10T16:19:12.893Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-10T06:53:03.163Z"
+      "fetchedAt": "2026-11-10T16:19:12.894Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-10T06:53:03.164Z"
+      "fetchedAt": "2026-11-10T16:19:12.895Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 11,
-      "fetchedAt": "2026-11-10T06:53:03.165Z"
+      "items": 10,
+      "fetchedAt": "2026-11-10T16:19:12.895Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-10T06:53:03.165Z"
+      "fetchedAt": "2026-11-10T16:19:12.896Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-10T06:53:03.166Z"
+      "fetchedAt": "2026-11-10T16:19:12.897Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-10T06:53:03.167Z"
+      "fetchedAt": "2026-11-10T16:19:12.898Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
-      "items": 4,
-      "fetchedAt": "2026-11-10T06:53:03.168Z"
+      "items": 5,
+      "fetchedAt": "2026-11-10T16:19:12.898Z"
     }
   ]
 }
