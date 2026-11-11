@@ -1,9 +1,109 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-11T15:59:15.765Z",
-  "windowStart": "2026-10-12T15:59:15.765Z",
-  "windowEnd": "2026-11-11T15:59:15.765Z",
+  "generatedAt": "2026-11-11T22:37:28.798Z",
+  "windowStart": "2026-10-12T22:37:28.798Z",
+  "windowEnd": "2026-11-11T22:37:28.798Z",
   "topics": [
+    {
+      "id": "3c64d6e05502",
+      "title": "Every click has a price now. Who designs how that “feels”?",
+      "teaser": "As the all-you-can-eat AI era is ending, UX designers must adapt to a new reality Since the democratization of AI, roughly by the end of 2022, companies sold access to their products for les",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T22:15:19.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Every click has a price now. Who designs how that “feels”?",
+          "url": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-11T22:15:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "27eb01ca0dc3",
+      "title": "The bathroom flaws that infuriate every designer",
+      "teaser": "The problems plaguing the daily lives that most of us have stopped noticing. I paused, leaving the bathroom. Something strange was happening, but what was it? There was a woman in a wheelcha",
+      "tag": "Ethics",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T22:10:34.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The bathroom flaws that infuriate every designer",
+          "url": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-11T22:10:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "17e84197a90b",
+      "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+      "teaser": "In-System Design 3/3 A practical guide for designers: why I stopped choosing between canvas and code, and how one prototype travels both ways. For designers who know Figma well and have neve",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T22:08:32.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-11T22:08:32.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7f2f50d78c3a",
+      "title": "Why are we cloning Photoshop?",
+      "teaser": "AI is making it easy to recreate professional tools. I suspect there’s a bigger opportunity being overlooked. Editing in PhotoCraft October saw the release of PhotoCraft , an open-source Pho",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T22:20:42.000Z",
+      "since": "today",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Why are we cloning Photoshop?",
+          "url": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-11T22:20:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b32e9ab77da2",
+      "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-04T09:18:02.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 1,
+      "categoryReason": "High relevance (1.00) with limited coverage over 8 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+          "url": "https://ai.greensighter.com/",
+          "publishedAt": "2026-11-04T09:18:02.000Z"
+        }
+      ]
+    },
     {
       "id": "768ed6220218",
       "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
@@ -32,35 +132,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-10T04:09:30.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
           "title": "Perspicacious: An Educational Intelligence Platform for Instructional Designers",
           "url": "https://arxiv.org/abs/2611.13549v1",
           "publishedAt": "2026-11-10T04:09:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b32e9ab77da2",
-      "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-04T09:18:02.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 7 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
-          "url": "https://ai.greensighter.com/",
-          "publishedAt": "2026-11-04T09:18:02.000Z"
         }
       ]
     },
@@ -105,66 +185,6 @@
       ]
     },
     {
-      "id": "26af324fd6ea",
-      "title": "Your design job is merging with the ones next to it",
-      "teaser": "Five pairs of hands A conversation with Christian Crumlish, on typesetters, AI, the jobs merging around us, and the work you would keep doing anyway. Photo by Karen Maes on Unsplash In the e",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-09T12:13:36.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Your design job is merging with the ones next to it",
-          "url": "https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-09T12:13:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "26fb53397e02",
-      "title": "Otherwise you’re just a machine",
-      "teaser": "AI is getting better at design. Designers should too. The skills behind the work. I spend a lot of time looking at design work. Reviewing portfolios. Hiring designers. Working with design le",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-07T20:15:42.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Otherwise you’re just a machine",
-          "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-07T20:15:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1af85a8895e5",
-      "title": "After the AI bubble: a manifesto",
-      "teaser": "Computers should be tools for the people but — hidden in a malaise of fatalism — the AI bubble has made computers tools to push people around. Soon, or in some time, this will change. We hav",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-06T22:42:58.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "After the AI bubble: a manifesto",
-          "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-06T22:42:58.000Z"
-        }
-      ]
-    },
-    {
       "id": "a8e6bff9f54e",
       "title": "Design systems for agents",
       "teaser": "",
@@ -185,22 +205,22 @@
       ]
     },
     {
-      "id": "5b3d8cb343ec",
-      "title": "Evaluating Tactile Encoding Strategies for Communicating 3-D Shape",
-      "teaser": "Two-dimensional haptic displays, such as programmable pin arrays and vibrotactile or friction-modulating touchscreens, enable tactile communication of complex shapes in a low-profile form fa",
-      "tag": "Research",
+      "id": "26af324fd6ea",
+      "title": "Your design job is merging with the ones next to it",
+      "teaser": "Five pairs of hands A conversation with Christian Crumlish, on typesetters, AI, the jobs merging around us, and the work you would keep doing anyway. Photo by Karen Maes on Unsplash In the e",
+      "tag": "Leadership",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-10T17:40:35.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 1 days ago",
+      "publishedAt": "2026-11-09T12:13:36.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Evaluating Tactile Encoding Strategies for Communicating 3-D Shape",
-          "url": "https://arxiv.org/abs/2611.14389v1",
-          "publishedAt": "2026-11-10T17:40:35.000Z"
+          "name": "uxcollective",
+          "title": "Your design job is merging with the ones next to it",
+          "url": "https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-09T12:13:36.000Z"
         }
       ]
     },
@@ -251,6 +271,46 @@
       ]
     },
     {
+      "id": "5b3d8cb343ec",
+      "title": "Evaluating Tactile Encoding Strategies for Communicating 3-D Shape",
+      "teaser": "Two-dimensional haptic displays, such as programmable pin arrays and vibrotactile or friction-modulating touchscreens, enable tactile communication of complex shapes in a low-profile form fa",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-10T17:40:35.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Evaluating Tactile Encoding Strategies for Communicating 3-D Shape",
+          "url": "https://arxiv.org/abs/2611.14389v1",
+          "publishedAt": "2026-11-10T17:40:35.000Z"
+        }
+      ]
+    },
+    {
+      "id": "819d92c0df8e",
+      "title": "BoardUI: A React design system with 103 unique components",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-02T16:41:01.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 9 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "BoardUI: A React design system with 103 unique components",
+          "url": "https://www.boardui.com",
+          "publishedAt": "2026-11-02T16:41:01.000Z"
+        }
+      ]
+    },
+    {
       "id": "2f852a2e1a4f",
       "title": "UX Conference January Announced (Jan 19 - Feb 1)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, ",
@@ -258,9 +318,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T04:34:21.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -331,26 +391,6 @@
       ]
     },
     {
-      "id": "819d92c0df8e",
-      "title": "BoardUI: A React design system with 103 unique components",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-11-02T16:41:01.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 9 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "BoardUI: A React design system with 103 unique components",
-          "url": "https://www.boardui.com",
-          "publishedAt": "2026-11-02T16:41:01.000Z"
-        }
-      ]
-    },
-    {
       "id": "04b9f201d26b",
       "title": "Show HN: An experiment in automated long-horizon builds with AMQP 0.9.1",
       "teaser": "My cofounders and I are in the process of spinning up an AI integration lab, and over the last year we&#x27;ve consumed billions of tokens across multiple American, European, and Chinese mod",
@@ -378,35 +418,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T10:35:22.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Designing Games for One Shared Phone: 7 UX Patterns From 30+ Pass-and-Play Games",
           "url": "https://dev.to/dhaval109/designing-games-for-one-shared-phone-7-ux-patterns-from-30-pass-and-play-games-34hp",
           "publishedAt": "2026-11-06T10:35:22.000Z"
-        }
-      ]
-    },
-    {
-      "id": "6281ea8c10de",
-      "title": "Experience Design: Dropping the “User” from “User Experience”",
-      "teaser": "AI is expanding UX beyond human users to agents acting on their behalf. Experience design names this broader field, which still centers on people’s goals.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-30T17:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Experience Design: Dropping the “User” from “User Experience”",
-          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-30T17:00:00.000Z"
         }
       ]
     },
@@ -431,22 +451,22 @@
       ]
     },
     {
-      "id": "84c91daf12e9",
-      "title": "UX Disciplines: Glossary",
-      "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
-      "tag": "Research",
+      "id": "e4421e05f203",
+      "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
+      "teaser": "Hey HN! I’ve been building an open RPG game engine called Oathshaper. It’s current incarnation was created with Godot and inspired by the BioWare classics (Jade Empire, Mass Effect, Knights ",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-23T17:00:00.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 19 days",
+      "publishedAt": "2026-11-03T16:48:13.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
-          "name": "nngroup",
-          "title": "UX Disciplines: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-23T17:00:00.000Z"
+          "name": "hn-designsystem",
+          "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
+          "url": "https://github.com/oathshaper/oathshaper",
+          "publishedAt": "2026-11-03T16:48:13.000Z"
         }
       ]
     },
@@ -471,6 +491,66 @@
       ]
     },
     {
+      "id": "6281ea8c10de",
+      "title": "Experience Design: Dropping the “User” from “User Experience”",
+      "teaser": "AI is expanding UX beyond human users to agents acting on their behalf. Experience design names this broader field, which still centers on people’s goals.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Experience Design: Dropping the “User” from “User Experience”",
+          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-30T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "84c91daf12e9",
+      "title": "UX Disciplines: Glossary",
+      "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 1,
+      "categoryReason": "High relevance (1.00) with limited coverage over 19 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-23T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ef4d403b4282",
+      "title": "Show HN: Cryptex Vault – A password manager designed to outlive its creator",
+      "teaser": "Hello everyone! About four years ago, a password manager I&#x27;ve used and depended on has been acquired and soon after, it was shut down. If anyone remembers MYKI, it was a password manage",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-23T09:38:12.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Cryptex Vault – A password manager designed to outlive its creator",
+          "url": "https://www.cryptex-vault.com/",
+          "publishedAt": "2026-10-23T09:38:12.000Z"
+        }
+      ]
+    },
+    {
       "id": "f26f9a0b49e2",
       "title": "Designing Accessible and Rigorous ML Experiments: No-Code Visual Workflows and Structured Guidance for Beginners",
       "teaser": "Designing machine learning (ML) experiments requires beginners to plan a methodologically sound workflow and implement it in a concrete environment. We evaluated two forms of support in two ",
@@ -487,46 +567,6 @@
           "title": "Designing Accessible and Rigorous ML Experiments: No-Code Visual Workflows and Structured Guidance for Beginners",
           "url": "https://arxiv.org/abs/2611.13386v1",
           "publishedAt": "2026-11-10T00:02:31.000Z"
-        }
-      ]
-    },
-    {
-      "id": "6dbd37c43a24",
-      "title": "Infinite tokens: the new country club flex",
-      "teaser": "Well-chosen constraints organize your thinking. Continue reading on UX Collective »",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-09T12:11:27.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Infinite tokens: the new country club flex",
-          "url": "https://uxdesign.cc/infinite-tokens-the-new-country-club-flex-0e5e523756c3?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-09T12:11:27.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e4421e05f203",
-      "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
-      "teaser": "Hey HN! I’ve been building an open RPG game engine called Oathshaper. It’s current incarnation was created with Godot and inspired by the BioWare classics (Jade Empire, Mass Effect, Knights ",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-11-03T16:48:13.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
-          "url": "https://github.com/oathshaper/oathshaper",
-          "publishedAt": "2026-11-03T16:48:13.000Z"
         }
       ]
     },
@@ -571,26 +611,6 @@
       ]
     },
     {
-      "id": "ef4d403b4282",
-      "title": "Show HN: Cryptex Vault – A password manager designed to outlive its creator",
-      "teaser": "Hello everyone! About four years ago, a password manager I&#x27;ve used and depended on has been acquired and soon after, it was shut down. If anyone remembers MYKI, it was a password manage",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-23T09:38:12.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Show HN: Cryptex Vault – A password manager designed to outlive its creator",
-          "url": "https://www.cryptex-vault.com/",
-          "publishedAt": "2026-10-23T09:38:12.000Z"
-        }
-      ]
-    },
-    {
       "id": "9b0210a6456f",
       "title": "USWDS: The United States Web Design System",
       "teaser": "",
@@ -607,6 +627,26 @@
           "title": "USWDS: The United States Web Design System",
           "url": "https://designsystem.digital.gov/",
           "publishedAt": "2026-11-01T16:35:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0f3d4d5f7d5d",
+      "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
+      "teaser": "I want to show you the game I created recently and tell you whole the story&#x2F;experience - including backend&#x2F;latency&#x2F;scalability. You can try it quickly without an account - I c",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-15T02:02:26.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
+          "url": "https://towerpanic.com/",
+          "publishedAt": "2026-10-15T02:02:26.000Z"
         }
       ]
     },
@@ -651,42 +691,22 @@
       ]
     },
     {
-      "id": "c925db1dbf1c",
-      "title": "Before you ship your Wrapped this year",
-      "teaser": "What last December&#x2019;s recaps got right, what changed in 2026, and the step almost nobody takes. Continue reading on UX Collective »",
+      "id": "2acdf70fc7dc",
+      "title": "UX Design Patterns",
+      "teaser": "",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-09T12:11:16.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Before you ship your Wrapped this year",
-          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-this-year-a0a47ee191f8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-09T12:11:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "0f3d4d5f7d5d",
-      "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
-      "teaser": "I want to show you the game I created recently and tell you whole the story&#x2F;experience - including backend&#x2F;latency&#x2F;scalability. You can try it quickly without an account - I c",
-      "tag": "AI",
-      "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-15T02:02:26.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 28 days",
+      "publishedAt": "2026-10-28T05:01:23.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-ux",
-          "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
-          "url": "https://towerpanic.com/",
-          "publishedAt": "2026-10-15T02:02:26.000Z"
+          "title": "UX Design Patterns",
+          "url": "https://sambernheim.com/blog/ux-design-patterns",
+          "publishedAt": "2026-10-28T05:01:23.000Z"
         }
       ]
     },
@@ -700,7 +720,7 @@
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 23 days",
       "sources": [
         {
           "name": "smashing",
@@ -758,55 +778,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-06T08:00:00.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "smashing",
           "title": "A New Community For In-House UX People",
           "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
           "publishedAt": "2026-11-06T08:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "2acdf70fc7dc",
-      "title": "UX Design Patterns",
-      "teaser": "",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-28T05:01:23.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "UX Design Patterns",
-          "url": "https://sambernheim.com/blog/ux-design-patterns",
-          "publishedAt": "2026-10-28T05:01:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "68573e2109b1",
-      "title": "Agent-first design: Bringing UX to the user",
-      "teaser": "",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-12T17:55:42.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Agent-first design: Bringing UX to the user",
-          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
-          "publishedAt": "2026-10-12T17:55:42.000Z"
         }
       ]
     },
@@ -831,26 +811,6 @@
       ]
     },
     {
-      "id": "fe0354922a2f",
-      "title": "The Role of UX in Agentic Software Factories",
-      "teaser": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-30T17:00:00.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "The Role of UX in Agentic Software Factories",
-          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-30T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "05d966511e89",
       "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
       "teaser": "Semi-related, I&#x27;m available for UI&#x2F;UX Engineering&#x2F;Design roles.",
@@ -867,6 +827,26 @@
           "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
           "url": "https://swirltogether.com/",
           "publishedAt": "2026-10-19T19:00:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fe0354922a2f",
+      "title": "The Role of UX in Agentic Software Factories",
+      "teaser": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Role of UX in Agentic Software Factories",
+          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-30T17:00:00.000Z"
         }
       ]
     },
@@ -916,73 +896,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-11T15:59:15.766Z"
+      "fetchedAt": "2026-11-11T22:37:28.798Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-11T15:59:15.817Z"
+      "fetchedAt": "2026-11-11T22:37:28.851Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-11T15:59:15.818Z"
+      "fetchedAt": "2026-11-11T22:37:28.852Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-11T15:59:15.819Z"
+      "fetchedAt": "2026-11-11T22:37:28.853Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-11T15:59:15.820Z"
+      "fetchedAt": "2026-11-11T22:37:28.854Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-11T15:59:15.821Z"
+      "fetchedAt": "2026-11-11T22:37:28.855Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-11T15:59:15.822Z"
+      "fetchedAt": "2026-11-11T22:37:28.856Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 10,
-      "fetchedAt": "2026-11-11T15:59:15.823Z"
+      "items": 9,
+      "fetchedAt": "2026-11-11T22:37:28.857Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 36,
-      "fetchedAt": "2026-11-11T15:59:15.824Z"
+      "items": 37,
+      "fetchedAt": "2026-11-11T22:37:28.858Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-11T15:59:15.825Z"
+      "fetchedAt": "2026-11-11T22:37:28.859Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-11T15:59:15.826Z"
+      "fetchedAt": "2026-11-11T22:37:28.860Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-11T15:59:15.827Z"
+      "fetchedAt": "2026-11-11T22:37:28.861Z"
     }
   ]
 }
