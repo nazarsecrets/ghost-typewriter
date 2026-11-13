@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-13T06:05:46.341Z",
-  "windowStart": "2026-10-14T06:05:46.341Z",
-  "windowEnd": "2026-11-13T06:05:46.341Z",
+  "generatedAt": "2026-11-13T16:01:57.399Z",
+  "windowStart": "2026-10-14T16:01:57.399Z",
+  "windowEnd": "2026-11-13T16:01:57.399Z",
   "topics": [
     {
       "id": "c18f740efaa3",
@@ -12,55 +12,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T02:33:09.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "AI is the new old design material",
           "url": "https://uxdesign.cc/ai-is-the-new-old-design-material-0e7f83540c9a?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-13T02:33:09.000Z"
-        }
-      ]
-    },
-    {
-      "id": "67a7e5ee44f3",
-      "title": "Integrating Slides, Mathematics, and Simulation in One Page: GenAI-Assisted HTML Learning Objects for Engineering Courses",
-      "teaser": "Engineering courses spread their materials across slides (PPTX), typeset notes (LaTeX/PDF), and MATLAB, leaving students to connect them. We describe an instructor-in-the-loop workflow in wh",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T16:27:42.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Integrating Slides, Mathematics, and Simulation in One Page: GenAI-Assisted HTML Learning Objects for Engineering Courses",
-          "url": "https://arxiv.org/abs/2611.15686v1",
-          "publishedAt": "2026-11-11T16:27:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d0f9ed5224dd",
-      "title": "Brandrail – make Claude Code and Cursor follow your design system",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-13T03:17:26.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Brandrail – make Claude Code and Cursor follow your design system",
-          "url": "https://github.com/brandrail-app/brandrail",
-          "publishedAt": "2026-11-13T03:17:26.000Z"
         }
       ]
     },
@@ -92,9 +52,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T22:15:19.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -112,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T22:10:34.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +92,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T22:08:32.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -172,35 +132,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-10T23:34:58.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
           "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-10T23:34:58.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5c4ceb6ed124",
-      "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
-      "teaser": "Weekly curated resources for designers — thinkers and makers. “As AI becomes more capable of assembling interfaces from established patterns, this distinction deserves more attention. We are",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-09T12:20:07.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
-          "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-09T12:20:07.000Z"
         }
       ]
     },
@@ -214,33 +154,13 @@
       "publishedAt": "2026-11-01T01:27:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Design systems for agents",
           "url": "https://design.how",
           "publishedAt": "2026-11-01T01:27:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "4bc9a7cb2a47",
-      "title": "Give Haiku the UX rules and a checker, not just the request",
-      "teaser": "The simple version of the \"Haiku with a UX kit\" study. For the full method and every number, read the...",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T10:20:32.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Give Haiku the UX rules and a checker, not just the request",
-          "url": "https://dev.to/melolabs_melo_0f8fdb509b9/give-haiku-the-ux-rules-and-a-checker-not-just-the-request-dfi",
-          "publishedAt": "2026-11-11T10:20:32.000Z"
         }
       ]
     },
@@ -265,6 +185,26 @@
       ]
     },
     {
+      "id": "67a7e5ee44f3",
+      "title": "Integrating Slides, Mathematics, and Simulation in One Page: GenAI-Assisted HTML Learning Objects for Engineering Courses",
+      "teaser": "Engineering courses spread their materials across slides (PPTX), typeset notes (LaTeX/PDF), and MATLAB, leaving students to connect them. We describe an instructor-in-the-loop workflow in wh",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T16:27:42.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Integrating Slides, Mathematics, and Simulation in One Page: GenAI-Assisted HTML Learning Objects for Engineering Courses",
+          "url": "https://arxiv.org/abs/2611.15686v1",
+          "publishedAt": "2026-11-11T16:27:42.000Z"
+        }
+      ]
+    },
+    {
       "id": "9cca55adbbbe",
       "title": "Astryx: An open source design system that's customizable and agent ready",
       "teaser": "",
@@ -272,9 +212,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-08T23:27:30.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -287,26 +227,6 @@
           "title": "Astryx: An open source design system that's customizable and agent ready",
           "url": "https://github.com/meta/astryx",
           "publishedAt": "2026-11-08T23:27:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "71704470d949",
-      "title": "Understanding the Effects of Multi-Agent Deliberation for Human-AI Decision-Making",
-      "teaser": "Multi-agent deliberation (MAD), where multiple LLMs engage in structured discussion, improves AI performance on many benchmarks, but whether it helps humans make better decisions remains unt",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T01:42:31.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Understanding the Effects of Multi-Agent Deliberation for Human-AI Decision-Making",
-          "url": "https://arxiv.org/abs/2611.14901v1",
-          "publishedAt": "2026-11-11T01:42:31.000Z"
         }
       ]
     },
@@ -331,6 +251,46 @@
       ]
     },
     {
+      "id": "5e7ef3729765",
+      "title": "The crooked plate that felt more human than the algorithm",
+      "teaser": "We have spent years teaching machines to be flawless. Now the flawlessness is beginning to feel like a kind of absence. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T10:58:22.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The crooked plate that felt more human than the algorithm",
+          "url": "https://uxdesign.cc/the-crooked-plate-that-felt-more-human-than-the-algorithm-40bb4e5da147?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-13T10:58:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d0f9ed5224dd",
+      "title": "Brandrail – make Claude Code and Cursor follow your design system",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T03:17:26.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Brandrail – make Claude Code and Cursor follow your design system",
+          "url": "https://github.com/brandrail-app/brandrail",
+          "publishedAt": "2026-11-13T03:17:26.000Z"
+        }
+      ]
+    },
+    {
       "id": "2f852a2e1a4f",
       "title": "UX Conference January Announced (Jan 19 - Feb 1)",
       "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, ",
@@ -351,46 +311,6 @@
       ]
     },
     {
-      "id": "cd7e5daff899",
-      "title": "Agentic Dashboards: A New Design Paradigm for Visual Analytics",
-      "teaser": "Visual analytics systems traditionally combine analytical methods and interactive visualizations into a fixed application specified at the design phase. Coding agents offer a flexible approa",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-12T03:41:52.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Agentic Dashboards: A New Design Paradigm for Visual Analytics",
-          "url": "https://arxiv.org/abs/2611.16245v1",
-          "publishedAt": "2026-11-12T03:41:52.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8878685e91f0",
-      "title": "Trained on What Screen Readers Cannot Read: Accessibility Debt in the GUI Corpora Behind Computer-Use Agents",
-      "teaser": "Computer-use agents learn to operate mobile interfaces from corpora of captured screens and accessibility trees. The same trees are what a screen reader consumes, so an agent trained on them",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T23:28:30.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Trained on What Screen Readers Cannot Read: Accessibility Debt in the GUI Corpora Behind Computer-Use Agents",
-          "url": "https://arxiv.org/abs/2611.16107v1",
-          "publishedAt": "2026-11-11T23:28:30.000Z"
-        }
-      ]
-    },
-    {
       "id": "7f2f50d78c3a",
       "title": "Why are we cloning Photoshop?",
       "teaser": "AI is making it easy to recreate professional tools. I suspect there’s a bigger opportunity being overlooked. Editing in PhotoCraft October saw the release of PhotoCraft , an open-source Pho",
@@ -398,55 +318,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T22:20:42.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Why are we cloning Photoshop?",
           "url": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-11T22:20:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f95abd57c118",
-      "title": "What You See Is (Not) What You Got: The Human Factor in PDF Signature Verification",
-      "teaser": "Signed PDF documents have legally binding value under frameworks such as the EU's eIDAS regulation. In this work, we present Genuine PDF Forgeries, a novel attack class that focuses on human",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T13:40:53.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "What You See Is (Not) What You Got: The Human Factor in PDF Signature Verification",
-          "url": "https://arxiv.org/abs/2611.15472v1",
-          "publishedAt": "2026-11-11T13:40:53.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9b61d04877b9",
-      "title": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
-      "teaser": "Resumo. Testamos se o conjunto formado por um modelo pequeno (Haiku 5.5), um data lake de regras de...",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T10:17:16.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
-          "url": "https://dev.to/melolabs_melo_0f8fdb509b9/haiku-com-kit-de-ux-regras-abertas-e-um-codigo-minimo-fazem-um-modelo-pequeno-acertar-como-um-26do",
-          "publishedAt": "2026-11-11T10:17:16.000Z"
         }
       ]
     },
@@ -498,9 +378,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-11-02T19:40:03.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -547,6 +427,26 @@
           "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
           "url": "https://github.com/smokeeaasd/flawless-ui-ux",
           "publishedAt": "2026-11-05T17:30:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4bc9a7cb2a47",
+      "title": "Give Haiku the UX rules and a checker, not just the request",
+      "teaser": "The simple version of the \"Haiku with a UX kit\" study. For the full method and every number, read the...",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T10:20:32.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Give Haiku the UX rules and a checker, not just the request",
+          "url": "https://dev.to/melolabs_melo_0f8fdb509b9/give-haiku-the-ux-rules-and-a-checker-not-just-the-request-dfi",
+          "publishedAt": "2026-11-11T10:20:32.000Z"
         }
       ]
     },
@@ -720,7 +620,7 @@
       "publishedAt": "2026-10-15T02:02:26.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 30 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -740,13 +640,93 @@
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo",
           "url": "https://dev.to/urielbitton/session-timeout-ux-show-what-survives-sign-in-in-your-public-demo-2l81",
           "publishedAt": "2026-10-31T23:12:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "cd7e5daff899",
+      "title": "Agentic Dashboards: A New Design Paradigm for Visual Analytics",
+      "teaser": "Visual analytics systems traditionally combine analytical methods and interactive visualizations into a fixed application specified at the design phase. Coding agents offer a flexible approa",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-12T03:41:52.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Agentic Dashboards: A New Design Paradigm for Visual Analytics",
+          "url": "https://arxiv.org/abs/2611.16245v1",
+          "publishedAt": "2026-11-12T03:41:52.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8878685e91f0",
+      "title": "Trained on What Screen Readers Cannot Read: Accessibility Debt in the GUI Corpora Behind Computer-Use Agents",
+      "teaser": "Computer-use agents learn to operate mobile interfaces from corpora of captured screens and accessibility trees. The same trees are what a screen reader consumes, so an agent trained on them",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T23:28:30.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Trained on What Screen Readers Cannot Read: Accessibility Debt in the GUI Corpora Behind Computer-Use Agents",
+          "url": "https://arxiv.org/abs/2611.16107v1",
+          "publishedAt": "2026-11-11T23:28:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f95abd57c118",
+      "title": "What You See Is (Not) What You Got: The Human Factor in PDF Signature Verification",
+      "teaser": "Signed PDF documents have legally binding value under frameworks such as the EU's eIDAS regulation. In this work, we present Genuine PDF Forgeries, a novel attack class that focuses on human",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T13:40:53.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "What You See Is (Not) What You Got: The Human Factor in PDF Signature Verification",
+          "url": "https://arxiv.org/abs/2611.15472v1",
+          "publishedAt": "2026-11-11T13:40:53.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9b61d04877b9",
+      "title": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
+      "teaser": "Resumo. Testamos se o conjunto formado por um modelo pequeno (Haiku 5.5), um data lake de regras de...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T10:17:16.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
+          "url": "https://dev.to/melolabs_melo_0f8fdb509b9/haiku-com-kit-de-ux-regras-abertas-e-um-codigo-minimo-fazem-um-modelo-pequeno-acertar-como-um-26do",
+          "publishedAt": "2026-11-11T10:17:16.000Z"
         }
       ]
     },
@@ -871,26 +851,6 @@
       ]
     },
     {
-      "id": "cddc1f6901e9",
-      "title": "Designing the best AI Training Jobs Aggregator and standing out from copycats",
-      "teaser": "I'm a UX-researcher-turned-indie-hacker, and for years I've built side projects on my own. Somewhere...",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-21T08:24:19.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Designing the best AI Training Jobs Aggregator and standing out from copycats",
-          "url": "https://dev.to/uproot/designing-the-best-ai-training-jobs-aggregator-and-standing-out-from-copycats-ab7",
-          "publishedAt": "2026-10-21T08:24:19.000Z"
-        }
-      ]
-    },
-    {
       "id": "05d966511e89",
       "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
       "teaser": "Semi-related, I&#x27;m available for UI&#x2F;UX Engineering&#x2F;Design roles.",
@@ -898,9 +858,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-19T19:00:23.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -951,6 +911,26 @@
       ]
     },
     {
+      "id": "cddc1f6901e9",
+      "title": "Designing the best AI Training Jobs Aggregator and standing out from copycats",
+      "teaser": "I'm a UX-researcher-turned-indie-hacker, and for years I've built side projects on my own. Somewhere...",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-21T08:24:19.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Designing the best AI Training Jobs Aggregator and standing out from copycats",
+          "url": "https://dev.to/uproot/designing-the-best-ai-training-jobs-aggregator-and-standing-out-from-copycats-ab7",
+          "publishedAt": "2026-10-21T08:24:19.000Z"
+        }
+      ]
+    },
+    {
       "id": "8f59f494c085",
       "title": "UX Maps: Glossary",
       "teaser": "Use this glossary to quickly clarify key terms and concepts related to UX maps.",
@@ -976,73 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-13T06:05:46.341Z"
+      "fetchedAt": "2026-11-13T16:01:57.399Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-13T06:05:46.392Z"
+      "fetchedAt": "2026-11-13T16:01:57.449Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-13T06:05:46.393Z"
+      "fetchedAt": "2026-11-13T16:01:57.451Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-13T06:05:46.394Z"
+      "fetchedAt": "2026-11-13T16:01:57.452Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-13T06:05:46.395Z"
+      "fetchedAt": "2026-11-13T16:01:57.453Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-13T06:05:46.396Z"
+      "fetchedAt": "2026-11-13T16:01:57.454Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-13T06:05:46.397Z"
+      "fetchedAt": "2026-11-13T16:01:57.455Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 9,
-      "fetchedAt": "2026-11-13T06:05:46.398Z"
+      "fetchedAt": "2026-11-13T16:01:57.456Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 37,
-      "fetchedAt": "2026-11-13T06:05:46.399Z"
+      "fetchedAt": "2026-11-13T16:01:57.457Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-13T06:05:46.400Z"
+      "fetchedAt": "2026-11-13T16:01:57.458Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-13T06:05:46.400Z"
+      "fetchedAt": "2026-11-13T16:01:57.458Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-11-13T06:05:46.401Z"
+      "fetchedAt": "2026-11-13T16:01:57.459Z"
     }
   ]
 }
