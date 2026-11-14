@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T05:52:53.474Z",
-  "windowStart": "2026-10-15T05:52:53.474Z",
-  "windowEnd": "2026-11-14T05:52:53.474Z",
+  "generatedAt": "2026-11-14T14:54:48.894Z",
+  "windowStart": "2026-10-15T14:54:48.894Z",
+  "windowEnd": "2026-11-14T14:54:48.894Z",
   "topics": [
     {
       "id": "a746606e7ff5",
@@ -12,35 +12,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T23:51:42.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Decision theatre or decision design?",
           "url": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-13T23:51:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "d2af93bfd50f",
-      "title": "Sick of Herding AI Cats?",
-      "teaser": "I&#x27;m 54 and I&#x27;ve been a developer for 40 odd years, but the last couple of years have been the strangest yet. I&#x27;ve gone from hand crafting and taking pride in every line of cod",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-14T04:13:42.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Sick of Herding AI Cats?",
-          "url": "https://clowder.sh",
-          "publishedAt": "2026-11-14T04:13:42.000Z"
         }
       ]
     },
@@ -52,9 +32,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T02:33:09.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -92,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T22:15:19.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -107,14 +87,14 @@
     {
       "id": "27eb01ca0dc3",
       "title": "The bathroom flaws that infuriate every designer",
-      "teaser": "Throne Room Politics: Inside Designers Obsession with Bathrooms How one close look at everyday bathroom flaw will permeantly ruin your routine. I paused, leaving the bathroom. Something stra",
+      "teaser": "How one close look at everyday bathroom flaw will permeantly ruin your routine. I paused, leaving the bathroom. Something strange was happening, but what was it? There was a woman in a wheel",
       "tag": "Ethics",
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T22:10:34.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -132,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T22:08:32.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -172,9 +152,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-10T23:34:58.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -194,7 +174,7 @@
       "publishedAt": "2026-11-01T01:27:36.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -205,22 +185,22 @@
       ]
     },
     {
-      "id": "99eceb1f9a16",
-      "title": "Show HN: Harness Relay – the coding agents you have, working together",
-      "teaser": "If you already have multiple coding agents(one kind of agent also works though), you should really look into this project! It&#x27;s a desktop app that brings coding agents working together,",
-      "tag": "AI",
+      "id": "d2af93bfd50f",
+      "title": "Sick of Herding AI Cats?",
+      "teaser": "I&#x27;m 54 and I&#x27;ve been a developer for 40 odd years, but the last couple of years have been the strangest yet. I&#x27;ve gone from hand crafting and taking pride in every line of cod",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-13T21:01:02.000Z",
+      "publishedAt": "2026-11-14T04:13:42.000Z",
       "since": "today",
       "relevanceScore": 0.429,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "Show HN: Harness Relay – the coding agents you have, working together",
-          "url": "https://agentic-system-lab.github.io/harness-relay/",
-          "publishedAt": "2026-11-13T21:01:02.000Z"
+          "title": "Sick of Herding AI Cats?",
+          "url": "https://clowder.sh",
+          "publishedAt": "2026-11-14T04:13:42.000Z"
         }
       ]
     },
@@ -272,9 +252,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-08T23:27:30.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -287,46 +267,6 @@
           "title": "Astryx: An open source design system that's customizable and agent ready",
           "url": "https://github.com/meta/astryx",
           "publishedAt": "2026-11-08T23:27:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "71ed7e73d457",
-      "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
-      "teaser": "A cautionary tale for Asian capital attempting to operate technology businesses on both sides of the Pacific simultaneously Continue reading on UX Collective »",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-13T23:51:27.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
-          "url": "https://uxdesign.cc/schr%C3%B6dingers-huang-d1da36bff88c?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-13T23:51:27.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5329969f46ab",
-      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-      "teaser": "As AI speeds up development, it can be a challenge for research to adapt. Research can define what each release must measure and what it can help teams discover.",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-13T18:00:00.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-          "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-11-13T18:00:00.000Z"
         }
       ]
     },
@@ -347,6 +287,26 @@
           "title": "BoardUI: A React design system with 103 unique components",
           "url": "https://www.boardui.com",
           "publishedAt": "2026-11-02T16:41:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "99eceb1f9a16",
+      "title": "Show HN: Harness Relay – the coding agents you have, working together",
+      "teaser": "If you already have multiple coding agents(one kind of agent also works though), you should really look into this project! It&#x27;s a desktop app that brings coding agents working together,",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T21:01:02.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Harness Relay – the coding agents you have, working together",
+          "url": "https://agentic-system-lab.github.io/harness-relay/",
+          "publishedAt": "2026-11-13T21:01:02.000Z"
         }
       ]
     },
@@ -398,9 +358,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T22:20:42.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -420,7 +380,7 @@
       "publishedAt": "2026-11-02T19:40:03.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -631,6 +591,46 @@
       ]
     },
     {
+      "id": "71ed7e73d457",
+      "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
+      "teaser": "A cautionary tale for Asian capital attempting to operate technology businesses on both sides of the Pacific simultaneously Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T23:51:27.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
+          "url": "https://uxdesign.cc/schr%C3%B6dingers-huang-d1da36bff88c?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-13T23:51:27.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5329969f46ab",
+      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "teaser": "As AI speeds up development, it can be a challenge for research to adapt. Research can define what each release must measure and what it can help teams discover.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T18:00:00.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+          "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-11-13T18:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "5e7ef3729765",
       "title": "The crooked plate that felt more human than the algorithm",
       "teaser": "We have spent years teaching machines to be flawless. Now the flawlessness is beginning to feel like a kind of absence. Continue reading on UX Collective »",
@@ -680,7 +680,7 @@
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -718,9 +718,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T23:28:30.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -816,11 +816,11 @@
       "teaser": "Usability refers to how easily people can complete tasks with a design. Improve it by watching representative users do realistic tasks, early and repeatedly.",
       "tag": "Research",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-11-06T18:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "nngroup",
@@ -900,7 +900,7 @@
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -996,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-14T05:52:53.475Z"
+      "fetchedAt": "2026-11-14T14:54:48.895Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-14T05:52:53.548Z"
+      "fetchedAt": "2026-11-14T14:54:48.935Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-14T05:52:53.549Z"
+      "fetchedAt": "2026-11-14T14:54:48.937Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-14T05:52:53.551Z"
+      "fetchedAt": "2026-11-14T14:54:48.938Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-14T05:52:53.552Z"
+      "fetchedAt": "2026-11-14T14:54:48.938Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-14T05:52:53.553Z"
+      "fetchedAt": "2026-11-14T14:54:48.939Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-14T05:52:53.554Z"
+      "fetchedAt": "2026-11-14T14:54:48.940Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-11-14T05:52:53.555Z"
+      "fetchedAt": "2026-11-14T14:54:48.941Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 37,
-      "fetchedAt": "2026-11-14T05:52:53.557Z"
+      "fetchedAt": "2026-11-14T14:54:48.942Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-14T05:52:53.558Z"
+      "fetchedAt": "2026-11-14T14:54:48.942Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-14T05:52:53.559Z"
+      "fetchedAt": "2026-11-14T14:54:48.943Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-11-14T05:52:53.560Z"
+      "fetchedAt": "2026-11-14T14:54:48.944Z"
     }
   ]
 }
