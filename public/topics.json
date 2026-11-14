@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-14T14:54:48.894Z",
-  "windowStart": "2026-10-15T14:54:48.894Z",
-  "windowEnd": "2026-11-14T14:54:48.894Z",
+  "generatedAt": "2026-11-14T20:32:21.230Z",
+  "windowStart": "2026-10-15T20:32:21.230Z",
+  "windowEnd": "2026-11-14T20:32:21.230Z",
   "topics": [
     {
       "id": "a746606e7ff5",
@@ -165,6 +165,26 @@
       ]
     },
     {
+      "id": "eadd73a9ff9b",
+      "title": "Show HN: A platform-neutral language for design systems",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-04T14:38:35.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: A platform-neutral language for design systems",
+          "url": "https://play.milda.dev",
+          "publishedAt": "2026-11-04T14:38:35.000Z"
+        }
+      ]
+    },
+    {
       "id": "a8e6bff9f54e",
       "title": "Design systems for agents",
       "teaser": "",
@@ -192,35 +212,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-14T04:13:42.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Sick of Herding AI Cats?",
           "url": "https://clowder.sh",
           "publishedAt": "2026-11-14T04:13:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "eadd73a9ff9b",
-      "title": "Show HN: A platform-neutral language for design systems",
-      "teaser": "",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-11-04T14:38:35.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: A platform-neutral language for design systems",
-          "url": "https://play.milda.dev",
-          "publishedAt": "2026-11-04T14:38:35.000Z"
         }
       ]
     },
@@ -318,9 +318,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T03:17:26.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -340,7 +340,7 @@
       "publishedAt": "2026-11-06T04:34:21.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
       "sources": [
         {
           "name": "nngroup",
@@ -698,9 +698,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-12T03:41:52.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -778,9 +778,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-28T05:01:23.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -860,7 +860,7 @@
       "publishedAt": "2026-11-06T08:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "smashing",
@@ -958,9 +958,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-21T08:24:19.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -996,73 +996,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-14T14:54:48.895Z"
+      "fetchedAt": "2026-11-14T20:32:21.230Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-14T14:54:48.935Z"
+      "fetchedAt": "2026-11-14T20:32:21.282Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-14T14:54:48.937Z"
+      "fetchedAt": "2026-11-14T20:32:21.283Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-14T14:54:48.938Z"
+      "fetchedAt": "2026-11-14T20:32:21.284Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-14T14:54:48.938Z"
+      "fetchedAt": "2026-11-14T20:32:21.285Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-14T14:54:48.939Z"
+      "fetchedAt": "2026-11-14T20:32:21.287Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-14T14:54:48.940Z"
+      "fetchedAt": "2026-11-14T20:32:21.288Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-11-14T14:54:48.941Z"
+      "fetchedAt": "2026-11-14T20:32:21.288Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 37,
-      "fetchedAt": "2026-11-14T14:54:48.942Z"
+      "fetchedAt": "2026-11-14T20:32:21.289Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-14T14:54:48.942Z"
+      "fetchedAt": "2026-11-14T20:32:21.290Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-14T14:54:48.943Z"
+      "fetchedAt": "2026-11-14T20:32:21.291Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-11-14T14:54:48.944Z"
+      "fetchedAt": "2026-11-14T20:32:21.292Z"
     }
   ]
 }
