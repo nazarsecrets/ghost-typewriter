@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T15:31:59.978Z",
-  "windowStart": "2026-10-16T15:31:59.978Z",
-  "windowEnd": "2026-11-15T15:31:59.978Z",
+  "generatedAt": "2026-11-15T20:56:16.670Z",
+  "windowStart": "2026-10-16T20:56:16.670Z",
+  "windowEnd": "2026-11-15T20:56:16.670Z",
   "topics": [
     {
       "id": "a746606e7ff5",
@@ -192,9 +192,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-14T04:13:42.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -320,7 +320,7 @@
       "publishedAt": "2026-11-06T04:34:21.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 10 days",
       "sources": [
         {
           "name": "nngroup",
@@ -658,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-12T03:41:52.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -740,7 +740,7 @@
       "publishedAt": "2026-10-28T05:01:23.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -800,7 +800,7 @@
       "publishedAt": "2026-11-06T08:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "smashing",
@@ -889,26 +889,6 @@
           "publishedAt": "2026-10-23T17:00:00.000Z"
         }
       ]
-    },
-    {
-      "id": "8f59f494c085",
-      "title": "UX Maps: Glossary",
-      "teaser": "Use this glossary to quickly clarify key terms and concepts related to UX maps.",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-16T17:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "UX Maps: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-16T17:00:00.000Z"
-        }
-      ]
     }
   ],
   "sourceHealth": [
@@ -916,73 +896,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-15T15:31:59.978Z"
+      "fetchedAt": "2026-11-15T20:56:16.671Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-15T15:32:00.030Z"
+      "fetchedAt": "2026-11-15T20:56:16.703Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-15T15:32:00.031Z"
+      "fetchedAt": "2026-11-15T20:56:16.704Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-15T15:32:00.033Z"
+      "fetchedAt": "2026-11-15T20:56:16.704Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-15T15:32:00.034Z"
+      "fetchedAt": "2026-11-15T20:56:16.705Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-15T15:32:00.035Z"
+      "fetchedAt": "2026-11-15T20:56:16.705Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-15T15:32:00.036Z"
+      "fetchedAt": "2026-11-15T20:56:16.706Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-11-15T15:32:00.037Z"
+      "fetchedAt": "2026-11-15T20:56:16.706Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 37,
-      "fetchedAt": "2026-11-15T15:32:00.038Z"
+      "fetchedAt": "2026-11-15T20:56:16.707Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-15T15:32:00.039Z"
+      "fetchedAt": "2026-11-15T20:56:16.708Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-15T15:32:00.039Z"
+      "fetchedAt": "2026-11-15T20:56:16.708Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-11-15T15:32:00.041Z"
+      "fetchedAt": "2026-11-15T20:56:16.709Z"
     }
   ]
 }
