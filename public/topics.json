@@ -1,9 +1,29 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-15T20:56:16.670Z",
-  "windowStart": "2026-10-16T20:56:16.670Z",
-  "windowEnd": "2026-11-15T20:56:16.670Z",
+  "generatedAt": "2026-11-16T05:53:54.027Z",
+  "windowStart": "2026-10-17T05:53:54.027Z",
+  "windowEnd": "2026-11-16T05:53:54.027Z",
   "topics": [
+    {
+      "id": "e8cfd34e6f47",
+      "title": "Voice-Based Conversational Agents as AI Care Assistants: Evaluating Personalization, Intervention Delivery Fidelity, and Privacy Expectations in Older Adults' Care",
+      "teaser": "Generative AI enables voice-based conversational agents to play more active roles in older adults' care, including personalizing support and operating alongside clinicians and care partners.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T16:27:58.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Voice-Based Conversational Agents as AI Care Assistants: Evaluating Personalization, Intervention Delivery Fidelity, and Privacy Expectations in Older Adults' Care",
+          "url": "https://arxiv.org/abs/2611.18385v1",
+          "publishedAt": "2026-11-13T16:27:58.000Z"
+        }
+      ]
+    },
     {
       "id": "a746606e7ff5",
       "title": "Decision theatre or decision design?",
@@ -52,9 +72,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-12T11:14:40.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -134,7 +154,7 @@
       "publishedAt": "2026-11-04T09:18:02.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 11 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -174,7 +194,7 @@
       "publishedAt": "2026-11-04T14:38:35.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -201,26 +221,6 @@
           "title": "Sick of Herding AI Cats?",
           "url": "https://clowder.sh",
           "publishedAt": "2026-11-14T04:13:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "67a7e5ee44f3",
-      "title": "Integrating Slides, Mathematics, and Simulation in One Page: GenAI-Assisted HTML Learning Objects for Engineering Courses",
-      "teaser": "Engineering courses spread their materials across slides (PPTX), typeset notes (LaTeX/PDF), and MATLAB, leaving students to connect them. We describe an instructor-in-the-loop workflow in wh",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T16:27:42.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Integrating Slides, Mathematics, and Simulation in One Page: GenAI-Assisted HTML Learning Objects for Engineering Courses",
-          "url": "https://arxiv.org/abs/2611.15686v1",
-          "publishedAt": "2026-11-11T16:27:42.000Z"
         }
       ]
     },
@@ -260,7 +260,7 @@
       "publishedAt": "2026-11-02T16:41:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -380,7 +380,7 @@
       "publishedAt": "2026-11-06T10:35:22.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -398,9 +398,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-11-05T17:30:09.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -420,7 +420,7 @@
       "publishedAt": "2026-11-03T16:48:13.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -440,7 +440,7 @@
       "publishedAt": "2026-11-04T13:09:26.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -460,7 +460,7 @@
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "nngroup",
@@ -480,7 +480,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 23 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 24 days",
       "sources": [
         {
           "name": "nngroup",
@@ -500,7 +500,7 @@
       "publishedAt": "2026-10-23T09:38:12.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -516,11 +516,11 @@
       "teaser": "Test offline UX by interrupting a real task, inspecting what the interface knows about the attempted...",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-11-08T17:16:09.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -540,7 +540,7 @@
       "publishedAt": "2026-11-07T15:00:20.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -598,9 +598,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T10:58:22.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -620,7 +620,7 @@
       "publishedAt": "2026-11-01T16:35:26.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -671,46 +671,6 @@
       ]
     },
     {
-      "id": "8878685e91f0",
-      "title": "Trained on What Screen Readers Cannot Read: Accessibility Debt in the GUI Corpora Behind Computer-Use Agents",
-      "teaser": "Computer-use agents learn to operate mobile interfaces from corpora of captured screens and accessibility trees. The same trees are what a screen reader consumes, so an agent trained on them",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T23:28:30.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Trained on What Screen Readers Cannot Read: Accessibility Debt in the GUI Corpora Behind Computer-Use Agents",
-          "url": "https://arxiv.org/abs/2611.16107v1",
-          "publishedAt": "2026-11-11T23:28:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f95abd57c118",
-      "title": "What You See Is (Not) What You Got: The Human Factor in PDF Signature Verification",
-      "teaser": "Signed PDF documents have legally binding value under frameworks such as the EU's eIDAS regulation. In this work, we present Genuine PDF Forgeries, a novel attack class that focuses on human",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T13:40:53.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "What You See Is (Not) What You Got: The Human Factor in PDF Signature Verification",
-          "url": "https://arxiv.org/abs/2611.15472v1",
-          "publishedAt": "2026-11-11T13:40:53.000Z"
-        }
-      ]
-    },
-    {
       "id": "9b61d04877b9",
       "title": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
       "teaser": "Resumo. Testamos se o conjunto formado por um modelo pequeno (Haiku 5.5), um data lake de regras de...",
@@ -718,9 +678,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T10:17:16.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -760,7 +720,7 @@
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 26 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
       "sources": [
         {
           "name": "smashing",
@@ -820,7 +780,7 @@
       "publishedAt": "2026-10-23T14:27:01.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -860,7 +820,7 @@
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "nngroup",
@@ -880,7 +840,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "nngroup",
@@ -896,73 +856,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-15T20:56:16.671Z"
+      "fetchedAt": "2026-11-16T05:53:54.027Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-15T20:56:16.703Z"
+      "fetchedAt": "2026-11-16T05:53:54.077Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-15T20:56:16.704Z"
+      "fetchedAt": "2026-11-16T05:53:54.079Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-15T20:56:16.704Z"
+      "fetchedAt": "2026-11-16T05:53:54.080Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-15T20:56:16.705Z"
+      "fetchedAt": "2026-11-16T05:53:54.081Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-15T20:56:16.705Z"
+      "fetchedAt": "2026-11-16T05:53:54.082Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-15T20:56:16.706Z"
+      "fetchedAt": "2026-11-16T05:53:54.083Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-11-15T20:56:16.706Z"
+      "fetchedAt": "2026-11-16T05:53:54.084Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 37,
-      "fetchedAt": "2026-11-15T20:56:16.707Z"
+      "fetchedAt": "2026-11-16T05:53:54.085Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-15T20:56:16.708Z"
+      "fetchedAt": "2026-11-16T05:53:54.086Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-15T20:56:16.708Z"
+      "fetchedAt": "2026-11-16T05:53:54.086Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-11-15T20:56:16.709Z"
+      "fetchedAt": "2026-11-16T05:53:54.087Z"
     }
   ]
 }
