@@ -1,0 +1,21 @@
+- generic [ref=f2e3]:
+  - link "Skip to main content" [ref=f2e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f2e5]:
+    - button "SVR / Ghostwriter" [ref=f2e6] [cursor=pointer]:
+      - generic [ref=f2e7]: SVR
+      - generic [ref=f2e8]: /
+      - generic [ref=f2e9]: Ghostwriter
+    - navigation [ref=f2e10]:
+      - button "Drafts 0" [ref=f2e11] [cursor=pointer]:
+        - text: Drafts
+        - generic [ref=f2e12]: "0"
+  - main [ref=f2e13]:
+    - paragraph [ref=f2e14]: Today · November 17, 2026
+    - heading "What is worth noticing?" [level=1] [ref=f2e15]: What is worthnoticing?
+    - generic [ref=f2e16]:
+      - paragraph [ref=f2e17]: Choose an idea, then find the experience only you can write about.
+      - generic [ref=f2e18]:
+        - button "Refresh ideas" [disabled] [ref=f2e19]
+        - button "Start with a blank page →" [ref=f2e20] [cursor=pointer]
+    - generic "Loading ideas"

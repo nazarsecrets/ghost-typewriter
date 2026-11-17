@@ -13,6 +13,10 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 **Classification:** every new progress item is labeled **[UX]**, **[Dev]**, or
 **[UX+Dev]**. Read-only inspection does not require a separate tracker entry.
 
+**Commit message:** every ✅ Completed entry (from 2026-11-17 on) opens with a
+copy-ready commit message in a fenced `text` block, directly under its
+date/label line and before the outcome (format in `CLAUDE.md` / `AGENTS.md`).
+
 _Last updated: 2026-11-17_
 
 ---
@@ -31,8 +35,6 @@ No active implementation item.
 ---
 
 ## ⏸ On hold
-
-- **Historical pause record (resumed 2026-11-17):** Ghost hosting and AI connection. UI implementation and prior browser checks are recorded in `GHOST_VALIDATION.md`. Author selected GitHub Pages and directed the free hosted route; the Worker now uses Cloudflare's AI binding with server-owned instructions, a fixed open-weight Qwen model, bounded requests and schema validation. Pages subpath/workflow and free-tier quota feedback are prepared. `npm run build`, six `ghost:check` tests and Wrangler deploy dry-run pass (8.40 KiB Worker / 3.22 KiB gzip). Cloudflare was unauthenticated; login was opened and canceled at the pause. No push, deployment or live-provider sampling. Resume with Cloudflare authentication, browser verification of the new hosted API contract, then authorized publication. Earlier validation/README prose about the Anthropic template is historical and still needs reconciliation to this latest binding.
 
 - ⏸ **[UX] (held 2026-11-11 by author, while other aspects are built)** Assess long-session comfort on the open white canvas. Sound authenticity, comfort, and the on/off control were approved on 2026-10-18, with current motions retained for now. Remaining: write with the native caret and optional sound, and judge whether strike motion and Return's 8px text shift still earn their place without a sheet. (Merged with the former Pending comfort follow-up; the prior animated quill was distracting or tiring and the first silent trial was dull, but neither validates this version.)
 
@@ -60,9 +62,8 @@ No active implementation item.
 ### Ghost reattachment — after the paper is proven
 
 - ⬜ **[UX+Dev]** Design passage-anchored Ghost margin notes for Idea, Clarity, Voice, Evidence, and Structure while preserving the raw draft (PRD FR-5.1; log.md idea 12)
-- ⬜ **[UX+Dev]** Distinguish revisions from new drafts (FR-6.2). The structured critique schema and slip UI from FR-5.2 are now implemented; real-provider validation remains with the active Ghost item.
+- ⬜ **[UX+Dev]** Distinguish revisions from new drafts (FR-6.2). The structured critique schema and slip UI from FR-5.2 are implemented and live-provider validation passed on 2026-11-17.
 - ⬜ **[UX+Dev]** Add accept-insight and margin-comment motion only when their corresponding interactions exist (log.md idea 6)
-- ⬜ **[Dev]** Connect the selected free hosted Ghost AI path (PRD FR-10): GitHub Pages is confirmed; Workers AI route is adopted and deployed as recorded above; live validation and Pages publication remain with the active item.
 
 - ⬜ **[UX+Dev]** Decide whether an explicit pencil icon is useful beside the existing row-click editing action. If adopted, match the new inline SVG delete icon's line weight and keep both buttons accessible.
 
@@ -72,16 +73,41 @@ No active implementation item.
 
 ### Release and optional polish
 
-- ✅ **2026-11-17 [Dev]** GitHub Pages Actions build and deployment configured; see completed publication below.
 - ⬜ **[UX+Dev]** Evaluate remaining optional immersion only after the core writing behavior is settled: soft caret, paper texture, and View Transitions (PRD FR-8)
 
 ---
 
 ## ✅ Completed
 
+- ✅ **2026-11-17 [Dev]**
+  ```text
+  Reconcile stale Ghost hosting tracker status
+  ```
+  Removed the superseded hosting pause record and duplicate pending hosting/Pages entries; live API and hosted UI validation and publication are recorded below. Remote rate-limit enforcement remains pending; Enchanted Diary remains next.
+
+- ✅ **2026-11-17 [Dev]**
+  ```text
+  Require a copy-ready commit message on every completed tracker item
+
+  Claude (CLAUDE.md) and Codex (AGENTS.md) now open each Completed entry
+  with a fenced commit message, before the outcome, so the author can
+  copy it first. Agents write the message but do not commit unless asked.
+  ```
+  Added the commit-message rule and format to both agent guides and the tracker header; the Reflect guides entry below follows it. Earlier entries are unchanged.
+
 - ✅ **2026-11-17 [UX+Dev]** — Published Ghost at https://nazarsecrets.github.io/ghost-typewriter/ using Workers AI at `ghostwriter-reading.svr-ghostwriter.workers.dev/read`. Wrangler OAuth verified; endpoint TLS propagation resolved; disposable direct API and hosted browser readings returned structured slips with the original manuscript unchanged. CORS blocked-origin 403 and allowed preflight 204 pass; six contract tests, local build, and Pages workflow run `44171027143` build/deploy pass for `89492ec`. Preserved current remote topic manifest during merge. Reconciled hosting docs. Rate-limit observation is inconclusive and tracked separately. Enchanted Diary remains unimplemented.
 
-- ✅ **2026-11-17 [UX+Dev]** — Built three onboarding-reference changes in Reflect: the empty first paragraph uses the topic's Memory guide as its placeholder; an "Angles, not steps — use any, in any order." note sits above the guides; when Reflect opens on a draft that already has words, the guides fold to five label chips that each reveal one guide (existing `pathwayEnter` Anime.js motion, reduced-motion gated), with a Show all / Fold toggle. Folding is decided on entry only so typing never reflows the page. GSAP stays Ghost-only. `npm run build` passes; headless Chromium checked placeholder, note, no mid-typing fold, fold on return, chip reveal and aria-expanded, unfold, and no overflow at 320px, with no page errors.
+- ✅ **2026-11-17 [UX+Dev]**
+  ```text
+  Fold Reflect guides to labels and cue the first paragraph
+
+  Use the topic's Memory guide as the empty first paragraph's placeholder,
+  add an "Angles, not steps" note above the guides, and fold the guides to
+  label chips when Reflect opens on a draft that already has words. Each
+  chip reveals one guide with the existing pathwayEnter motion. Folding is
+  decided on entry only, so typing never reflows the page.
+  ```
+  Built three onboarding-reference changes in Reflect: the empty first paragraph uses the topic's Memory guide as its placeholder; an "Angles, not steps — use any, in any order." note sits above the guides; when Reflect opens on a draft that already has words, the guides fold to five label chips that each reveal one guide (existing `pathwayEnter` Anime.js motion, reduced-motion gated), with a Show all / Fold toggle. Folding is decided on entry only so typing never reflows the page. GSAP stays Ghost-only. `npm run build` passes; headless Chromium checked placeholder, note, no mid-typing fold, fold on return, chip reveal and aria-expanded, unfold, and no overflow at 320px, with no page errors.
 
 - ✅ **2026-11-17 [Dev]** — Followed Cloudflare’s official agent setup instructions: installed all 22 Cloudflare skills globally under `~/.agents/skills/`, registered the enabled `cloudflare` MCP server at `https://mcp.cloudflare.com/mcp` in Codex user configuration, and completed OAuth (CLI reported successful login). Installer warnings concerned unsupported PromptScript global installs; Codex skills installed successfully. Optional beta `cf` CLI skipped because this project already has Wrangler configuration. Restart Codex to load the MCP server. This does not deploy Ghost or establish Wrangler authentication.
 

@@ -1,0 +1,32 @@
+- generic [ref=f2e3]:
+  - link "Skip to main content" [ref=f2e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f2e5]:
+    - button "SVR / Ghostwriter" [ref=f2e6] [cursor=pointer]:
+      - generic [ref=f2e7]: SVR
+      - generic [ref=f2e8]: /
+      - generic [ref=f2e9]: Ghostwriter
+    - navigation [ref=f2e10]:
+      - button "Today" [ref=f2e21] [cursor=pointer]
+      - button "Sound off" [ref=f2e22] [cursor=pointer]
+      - button "Drafts 1" [ref=f2e42] [cursor=pointer]:
+        - text: Drafts
+        - generic [ref=f2e12]: "1"
+  - main [ref=f2e23]:
+    - generic "Document actions" [ref=f2e24]:
+      - generic "Saved on this device at 3:37:24 PM" [ref=f2e43]: All changes saved
+      - generic [ref=f2e26]:
+        - generic [ref=f2e27]: 19 words
+        - button "Export ▾" [ref=f2e29] [cursor=pointer]
+        - button "New draft" [ref=f2e30] [cursor=pointer]
+    - generic [ref=f2e31]:
+      - heading "Untitled manuscript" [level=1] [ref=f2e32]
+      - textbox "Manuscript title" [ref=f2e33]:
+        - /placeholder: Untitled
+      - time [ref=f2e34]: November 17, 2026 at 3:37 PM
+      - group "Manuscript" [ref=f2e35]:
+        - textbox "Paragraph 1" [active] [ref=f2e36]:
+          - /placeholder: Start with what you noticed…
+          - text: The chart was right. The question was stale. We measured clicks, but nobody asked whether readers understood the decision.
+  - 'button "Ghost: anchors, lenses and review" [ref=f2e57] [cursor=pointer]':
+    - generic [ref=f2e41]: Ghost

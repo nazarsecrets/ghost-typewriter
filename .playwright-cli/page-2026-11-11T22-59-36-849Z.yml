@@ -1,0 +1,105 @@
+- generic [ref=e3]:
+  - link "Skip to main content" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e5]:
+    - button "SVR / Ghostwriter" [ref=e6] [cursor=pointer]:
+      - generic [ref=e7]: SVR
+      - generic [ref=e8]: /
+      - generic [ref=e9]: Ghostwriter
+    - navigation [ref=e10]:
+      - button "Drafts 0" [ref=e11] [cursor=pointer]:
+        - text: Drafts
+        - generic [ref=e12]: "0"
+  - main [ref=e13]:
+    - paragraph [ref=e14]: Today · November 11, 2026
+    - heading "What is worth noticing?" [level=1] [ref=e15]: What is worthnoticing?
+    - generic [ref=e16]:
+      - paragraph [ref=e17]: Choose an idea, then find the experience only you can write about.
+      - generic [ref=e18]:
+        - button "Refresh ideas" [ref=e19] [cursor=pointer]
+        - button "Start with a blank page →" [ref=e20] [cursor=pointer]
+    - generic [ref=e21]:
+      - paragraph [ref=e22]: Earlier source desk
+      - generic "Topics are checked every 8 hours. Last synced 10/12/2026, 4:19:46 PM." [ref=e23]:
+        - time [ref=e24]: Last synced Oct 12
+        - text: •
+        - generic [ref=e25]: .
+        - text: New syncs haven't arrived
+    - region "Ideas worth considering" [ref=e26]:
+      - article [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]: Lead idea
+          - generic [ref=e30]: Technology
+        - 'button "Where should human judgment remain visible in an AI-assisted workflow? Why now: A recent source is raising questions about designing with uncertain systems across product and design work. Follow this thought →" [ref=e31] [cursor=pointer]':
+          - heading "Where should human judgment remain visible in an AI-assisted workflow?" [level=2] [ref=e32]
+          - paragraph [ref=e33]: "Why now: A recent source is raising questions about designing with uncertain systems across product and design work."
+          - generic [ref=e34]:
+            - text: Follow this thought
+            - generic [ref=e35]: →
+        - generic [ref=e36]:
+          - generic [ref=e37]: Latest
+          - generic [ref=e38]: Published today
+          - 'link "Hacker News: Agent-first design: Bringing UX to the user (opens in a new tab)" [ref=e39] [cursor=pointer]':
+            - /url: https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user
+            - text: Hacker News ↗
+      - generic "More ideas" [ref=e40]:
+        - article [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]: "02"
+            - generic [ref=e44]: Technology
+          - 'button "How does product responsibility change when an interface can act on a person''s behalf? Why now: A recent source is raising questions about designing with uncertain systems across product and design work." [ref=e45] [cursor=pointer]':
+            - strong [ref=e46]: How does product responsibility change when an interface can act on a person's behalf?
+            - generic [ref=e47]: "Why now: A recent source is raising questions about designing with uncertain systems across product and design work."
+          - generic [ref=e48]:
+            - generic [ref=e49]: Latest
+            - 'link "UX Collective: AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX (opens in a new tab)" [ref=e50] [cursor=pointer]':
+              - /url: https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4
+              - text: UX Collective ↗
+        - article [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53]: "03"
+            - generic [ref=e54]: Design
+          - 'button "When does consistency stop helping a team think clearly? Why now: A recent source is raising questions about design systems and judgment across product and design work." [ref=e55] [cursor=pointer]':
+            - strong [ref=e56]: When does consistency stop helping a team think clearly?
+            - generic [ref=e57]: "Why now: A recent source is raising questions about design systems and judgment across product and design work."
+          - generic [ref=e58]:
+            - generic [ref=e59]: Trending
+            - 'link "DEV Community: Why I Built DSLint: A Design System Linter for Figma (opens in a new tab)" [ref=e60] [cursor=pointer]':
+              - /url: https://dev.to/krishnakakade/why-i-built-dslint-a-design-system-linter-for-figma-51ge
+              - text: DEV Community ↗
+        - article [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]: "04"
+            - generic [ref=e64]: Ways of Working
+          - 'button "Which assumption about how this work gets done deserves to be questioned? Why now: A recent source is raising questions about how the work gets made across product and design work." [ref=e65] [cursor=pointer]':
+            - strong [ref=e66]: Which assumption about how this work gets done deserves to be questioned?
+            - generic [ref=e67]: "Why now: A recent source is raising questions about how the work gets made across product and design work."
+          - generic [ref=e68]:
+            - generic [ref=e69]: Trending
+            - 'link "DEV Community: Human-in-the-loop isn''t a safety net. It''s a UX problem with a compliance label. (opens in a new tab)" [ref=e70] [cursor=pointer]':
+              - /url: https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467
+              - text: DEV Community ↗
+        - article [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]: "05"
+            - generic [ref=e74]: Technology
+          - 'button "What should a designer make legible when the system cannot promise the same answer twice? Why now: Several recent sources are raising questions about designing with uncertain systems across product and design work." [ref=e75] [cursor=pointer]':
+            - strong [ref=e76]: What should a designer make legible when the system cannot promise the same answer twice?
+            - generic [ref=e77]: "Why now: Several recent sources are raising questions about designing with uncertain systems across product and design work."
+          - generic [ref=e78]:
+            - generic [ref=e79]: Under the Radar
+            - 'link "Hacker News: Design Systems for AI Agents (Luke Wroblewski) (opens in a new tab)" [ref=e80] [cursor=pointer]':
+              - /url: https://www.lukew.com/ff/2164/design-systems-for-ai-agents
+              - text: Hacker News ↗
+        - article [ref=e81]:
+          - generic [ref=e82]:
+            - generic [ref=e83]: "06"
+            - generic [ref=e84]: Design
+          - 'button "Who gets to decide when the system should be broken? Why now: A recent source is raising questions about design systems and judgment across product and design work." [ref=e85] [cursor=pointer]':
+            - strong [ref=e86]: Who gets to decide when the system should be broken?
+            - generic [ref=e87]: "Why now: A recent source is raising questions about design systems and judgment across product and design work."
+          - generic [ref=e88]:
+            - generic [ref=e89]: Under the Radar
+            - 'link "Hacker News: A Trump team wants to automate U.S. Web Design System accessibility testing (opens in a new tab)" [ref=e90] [cursor=pointer]':
+              - /url: https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/
+              - text: Hacker News ↗

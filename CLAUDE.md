@@ -24,8 +24,25 @@ current as part of doing the work — not as an optional extra:
    product behavior, UX direction, requirements, validation evidence, or scope;
    read-only inspection does not need its own entry. Classify new entries as
    **[UX]**, **[Dev]**, or **[UX+Dev]**.
-4. **When you finish** an item, move it to `✅ Completed` with today's date and a
-   one-line summary, and set a new `🎯 Next action`.
+4. **When you finish** an item, move it to `✅ Completed` with today's date, a
+   ready-to-use commit message, and a one-line summary, and set a new
+   `🎯 Next action`.
+   Format every Completed entry so its commit message is the first thing to
+   copy — a fenced `text` block directly under the date/label line, before the
+   outcome:
+
+   ````markdown
+   - ✅ **YYYY-MM-DD [UX+Dev]**
+     ```text
+     Imperative subject line, 72 characters or fewer
+
+     Optional body: what changed and why, wrapped at 72 columns.
+     ```
+     One-line outcome, with validation evidence.
+   ````
+
+   The message describes only that item's changes, so the author can commit it
+   as-is. Write it; don't run `git commit` unless the author asks.
 5. **When scope changes** (new task, discovered work, dropped item), add/remove
    the corresponding `⬜ Pending` entry.
 6. **Always** update the `_Last updated:_` date when you edit the tracker.

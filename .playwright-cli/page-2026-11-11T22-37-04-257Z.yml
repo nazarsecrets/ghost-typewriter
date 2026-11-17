@@ -1,0 +1,31 @@
+- generic [ref=e3]:
+  - link "Skip to main content" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e5]:
+    - button "SVR / Ghostwriter" [ref=e6] [cursor=pointer]:
+      - generic [ref=e7]: SVR
+      - generic [ref=e8]: /
+      - generic [ref=e9]: Ghostwriter
+    - navigation [ref=e10]:
+      - button "Today" [ref=e91] [cursor=pointer]
+      - button "Sound off" [ref=e92] [cursor=pointer]
+      - button "Drafts 0" [ref=e11] [cursor=pointer]:
+        - text: Drafts
+        - generic [ref=e12]: "0"
+  - main [ref=e93]:
+    - generic "Document actions" [ref=e94]:
+      - generic "Saved on this device at 5:37:03 PM" [ref=e95]: All changes saved
+      - generic [ref=e96]:
+        - generic [ref=e97]: 0 words
+        - button "Export ▾" [ref=e99] [cursor=pointer]
+        - button "New draft" [ref=e100] [cursor=pointer]
+    - generic [ref=e101]:
+      - heading "Untitled manuscript" [level=1] [ref=e102]
+      - textbox "Manuscript title" [ref=e103]:
+        - /placeholder: Untitled
+      - time [ref=e104]: November 11, 2026 at 5:37 PM
+      - group "Manuscript" [ref=e105]:
+        - textbox "Paragraph 1" [active] [ref=e106]:
+          - /placeholder: Start with what you noticed…
+    - 'button "Ghost: anchors, lenses and review. Set up" [ref=e107] [cursor=pointer]':
+      - generic [ref=e111]: Ghost · Set up
