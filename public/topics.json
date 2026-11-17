@@ -1,9 +1,49 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-17T07:30:41.616Z",
-  "windowStart": "2026-10-18T07:30:41.616Z",
-  "windowEnd": "2026-11-17T07:30:41.616Z",
+  "generatedAt": "2026-11-17T17:30:23.723Z",
+  "windowStart": "2026-10-18T17:30:23.723Z",
+  "windowEnd": "2026-11-17T17:30:23.723Z",
   "topics": [
+    {
+      "id": "577be07924fc",
+      "title": "Meet AI 2027 Conference (Dec 1)",
+      "teaser": "Roll up your sleeves! Meet shiny new [AI 2027 Conference](https://smashingconf.com/ai-2027-conference), a friendly online conference on AI-ready design systems, AI + Figma and AI design patt",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Meet AI 2027 Conference (Dec 1)",
+          "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "publishedAt": "2026-11-17T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "381d4136b96a",
+      "title": "PromptPoseFX: Authoring Pose-Driven Visual Effects through Augmented Prompting and Interactive Refinement",
+      "teaser": "Human pose-driven visual effects offer a compelling way for enhancing video expressiveness and storytelling. Authoring such effects with traditional video editing tools is a complex and time",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T03:51:07.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "PromptPoseFX: Authoring Pose-Driven Visual Effects through Augmented Prompting and Interactive Refinement",
+          "url": "https://arxiv.org/abs/2611.20485v1",
+          "publishedAt": "2026-11-16T03:51:07.000Z"
+        }
+      ]
+    },
     {
       "id": "8192e9a950eb",
       "title": "UI edge cases: A reference guide",
@@ -12,15 +52,55 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T21:20:24.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "UI edge cases: A reference guide",
           "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-16T21:20:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "398259032687",
+      "title": "AI Tool Adoption and Loyalty among Product, Industrial, and UX/UI Designers across the Double Diamond",
+      "teaser": "Designers share many AI tools, yet their roles produce different work. This survey compared 337 Product, Industrial and UX/UI Designers from 40 countries and regions across the four phases o",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T04:44:39.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "AI Tool Adoption and Loyalty among Product, Industrial, and UX/UI Designers across the Double Diamond",
+          "url": "https://arxiv.org/abs/2611.20519v1",
+          "publishedAt": "2026-11-16T04:44:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1deb66fa3f13",
+      "title": "Sidewalk Stewards: A Visual Analytics Approach for Interactive Topology Repair of Sidewalk Networks",
+      "teaser": "Accurate pedestrian network data is foundational to urban accessibility, routing, and infrastructure planning, yet such data remains scarce and difficult to produce at scale. Automated extra",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-15T23:51:40.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Sidewalk Stewards: A Visual Analytics Approach for Interactive Topology Repair of Sidewalk Networks",
+          "url": "https://arxiv.org/abs/2611.20330v1",
+          "publishedAt": "2026-11-15T23:51:40.000Z"
         }
       ]
     },
@@ -32,9 +112,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T23:51:42.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -52,9 +132,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T02:33:09.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -105,10 +185,30 @@
       ]
     },
     {
+      "id": "c3524a7d7679",
+      "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+      "teaser": "AI has sped up how teams design and build, but quality assurance (QA) testing hasn’t kept pace, and the web may be getting less accessible. Drawing on new research, Andrew Chung explains wha",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-17T08:00:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+          "publishedAt": "2026-11-17T08:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "7efe836f0250",
       "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
       "teaser": "Weekly curated resources for designers — thinkers and makers. “When Ted Chiang wrote in The New Yorker that AI isn’t going to make art, I felt vindicated. I forwarded it. To people who had n",
-      "tag": "Research",
+      "tag": "Leadership",
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T12:17:08.000Z",
@@ -121,6 +221,26 @@
           "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
           "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-16T12:17:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": "64bd7271602a",
+      "title": "Advancing Cognitive Pairwise Comparisons for Human-Centric Artificial Intelligence and Data Science: A Human-in-the-Loop Framework",
+      "teaser": "Human-centric artificial intelligence and data science (HCAD) systems increasingly involve human-in-the-loop (HITL) interventions to overcome the limitations of fully automated machine learn",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T11:36:13.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Advancing Cognitive Pairwise Comparisons for Human-Centric Artificial Intelligence and Data Science: A Human-in-the-Loop Framework",
+          "url": "https://arxiv.org/abs/2611.20926v1",
+          "publishedAt": "2026-11-16T11:36:13.000Z"
         }
       ]
     },
@@ -145,6 +265,26 @@
       ]
     },
     {
+      "id": "f73e2a6b12b1",
+      "title": "Reveal: A Provenance-Aware System for Multimodal Urban Data Exploration",
+      "teaser": "Urban sensing initiatives increasingly produce multimodal datasets that combine visual and textual information to capture city characteristics and subjective factors such as safety, comfort,",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-15T23:18:07.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Reveal: A Provenance-Aware System for Multimodal Urban Data Exploration",
+          "url": "https://arxiv.org/abs/2611.20311v1",
+          "publishedAt": "2026-11-15T23:18:07.000Z"
+        }
+      ]
+    },
+    {
       "id": "d2af93bfd50f",
       "title": "Sick of Herding AI Cats?",
       "teaser": "I&#x27;m 54 and I&#x27;ve been a developer for 40 odd years, but the last couple of years have been the strangest yet. I&#x27;ve gone from hand crafting and taking pride in every line of cod",
@@ -152,9 +292,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-14T04:13:42.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -174,7 +314,7 @@
       "publishedAt": "2026-11-08T23:27:30.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -191,22 +331,22 @@
       ]
     },
     {
-      "id": "6243e8ef238d",
-      "title": "Why bother paying for software anymore?",
-      "teaser": "And why design is the answer AI bros didn&#x2019;t expect. Continue reading on UX Collective »",
-      "tag": "AI",
+      "id": "c7128080f72a",
+      "title": "Semantic Validity vs. Graphical Arrangement in Visualization Grammars",
+      "teaser": "Systems for modular, declarative and compositional specification for data visualizations, otherwise known as visualization grammars, often claim Wilkinson's Grammar of Graphics as motivation",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-16T21:27:14.000Z",
-      "since": "today",
+      "publishedAt": "2026-11-16T13:24:34.000Z",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Why bother paying for software anymore?",
-          "url": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-16T21:27:14.000Z"
+          "name": "arxiv-hci",
+          "title": "Semantic Validity vs. Graphical Arrangement in Visualization Grammars",
+          "url": "https://arxiv.org/abs/2611.21073v1",
+          "publishedAt": "2026-11-16T13:24:34.000Z"
         }
       ]
     },
@@ -238,9 +378,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T21:01:02.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -258,9 +398,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T03:17:26.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -280,7 +420,7 @@
       "publishedAt": "2026-11-06T04:34:21.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
       "sources": [
         {
           "name": "nngroup",
@@ -298,9 +438,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T22:20:42.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -320,7 +460,7 @@
       "publishedAt": "2026-11-02T19:40:03.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -427,6 +567,26 @@
           "title": "Experience Design: Dropping the “User” from “User Experience”",
           "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-30T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6243e8ef238d",
+      "title": "Why bother paying for software anymore?",
+      "teaser": "And why design is the answer AI bros didn&#x2019;t expect. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T21:27:14.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Why bother paying for software anymore?",
+          "url": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-16T21:27:14.000Z"
         }
       ]
     },
@@ -538,9 +698,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T23:51:27.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -600,7 +760,7 @@
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -640,7 +800,7 @@
       "publishedAt": "2026-10-28T05:01:23.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -796,74 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-17T07:30:41.616Z"
+      "fetchedAt": "2026-11-17T17:30:23.723Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-17T07:30:41.653Z"
+      "fetchedAt": "2026-11-17T17:30:23.761Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-17T07:30:41.654Z"
+      "fetchedAt": "2026-11-17T17:30:23.762Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-17T07:30:41.655Z"
+      "fetchedAt": "2026-11-17T17:30:23.763Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-17T07:30:41.655Z"
+      "fetchedAt": "2026-11-17T17:30:23.763Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-17T07:30:41.656Z"
+      "fetchedAt": "2026-11-17T17:30:23.764Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-17T07:30:41.657Z"
+      "fetchedAt": "2026-11-17T17:30:23.765Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-11-17T07:30:41.657Z"
+      "fetchedAt": "2026-11-17T17:30:23.765Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-17T07:30:41.658Z"
+      "fetchedAt": "2026-11-17T17:30:23.766Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": false,
-      "items": 0,
-      "fetchedAt": "2026-11-17T07:30:41.659Z",
-      "error": "HTTP 429"
+      "ok": true,
+      "items": 30,
+      "fetchedAt": "2026-11-17T17:30:23.767Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-17T07:30:41.659Z"
+      "fetchedAt": "2026-11-17T17:30:23.767Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-11-17T07:30:41.660Z"
+      "fetchedAt": "2026-11-17T17:30:23.768Z"
     }
   ]
 }
