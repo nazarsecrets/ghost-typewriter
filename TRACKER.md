@@ -29,8 +29,9 @@ _Last updated: 2026-11-17_
 
 ## 🔄 In progress
 
+
 - 🔄 **[UX+Dev] (started 2026-11-17)** Enchanted Diary Phase 1: add an opt-in appearance selector and static diary styling around the mounted existing editor, preserving drafts, session records, navigation, writing behavior, and exports.
-No active implementation item.
+
 
 
 ---
@@ -60,7 +61,7 @@ No active implementation item.
 
 ### Ghost reattachment — after the paper is proven
 
-- ⬜ **[UX+Dev]** Design passage-anchored Ghost margin notes for Idea, Clarity, Voice, Evidence, and Structure while preserving the raw draft (PRD FR-5.1; log.md idea 12)
+- ⬜ **[UX+Dev]** Review and prototype [passage-note design](./docs/passage-notes-design.md): prove stable paragraph IDs and edit mapping first, then explicit note attachment and responsive margin/sheet behavior. Proposal drafted; implementation and author comfort review remain pending.
 - ⬜ **[UX+Dev]** Distinguish revisions from new drafts (FR-6.2). The structured critique schema and slip UI from FR-5.2 are implemented and live-provider validation passed on 2026-11-17.
 - ⬜ **[UX+Dev]** Add accept-insight and margin-comment motion only when their corresponding interactions exist (log.md idea 6)
 
@@ -77,6 +78,12 @@ No active implementation item.
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-11-17 [UX]**
+  ```text
+  Specify passage-anchored Ghost margin notes
+  ```
+  Added `docs/passage-notes-design.md` with intentional attachment, per-draft anchors, edit/split/merge and detached-note rules, wide margin and narrow sheet/toolbar layouts, accessibility, and prototype acceptance criteria. Linked from PRD; checked against current textarea selection, paragraph editing, and slip contract. Design only: no runtime change or validation claim. Stable IDs, undo mapping, highlight geometry, and author review remain implementation gates. Concurrent Enchanted Diary item and next action preserved.
 
 - ✅ **2026-11-17 [UX+Dev]**
   ```text

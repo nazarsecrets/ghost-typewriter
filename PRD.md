@@ -548,6 +548,8 @@ Wide screens use the gutter. Where the gutter cannot hold a legible slip, use a 
 
 Slips remain visible after editing, marked **Written for an earlier version of this draft**. A failed request preserves the previous slip. Check my frame maps every chosen beat to numbered paragraphs as strong, thin or missing, with a question to develop it. Frames stay author-chosen.
 
+Passage-anchored notes are specified as a design proposal in [docs/passage-notes-design.md](./docs/passage-notes-design.md): explicit attachment, edit tracking, detached-note recovery, and responsive margin presentation. They are not implemented; the current slip behavior above remains shipped behavior.
+
 #### FR-5.2 Critique requirements
 
 A validated JSON response contains, in order:
