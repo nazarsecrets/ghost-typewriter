@@ -1,0 +1,55 @@
+- generic [ref=e3]:
+  - link "Skip to main content" [ref=e4] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e5]:
+    - button "SVR / Ghostwriter" [ref=e6] [cursor=pointer]:
+      - generic [ref=e7]: SVR
+      - generic [ref=e8]: /
+      - generic [ref=e9]: Ghostwriter
+    - navigation [ref=e10]:
+      - button "Today" [ref=e83] [cursor=pointer]
+      - button "Sound off" [ref=e84] [cursor=pointer]
+      - button "Drafts 1" [ref=e85] [cursor=pointer]:
+        - text: Drafts
+        - generic [ref=e12]: "1"
+  - main [ref=e86]:
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]: Technology
+        - generic [ref=e90]: All changes saved · 0 words
+      - button "Focus on manuscript →" [ref=e91] [cursor=pointer]
+    - generic [ref=e92]:
+      - heading "Designing for models means designing for uncertainty." [active] [level=1] [ref=e93]
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - paragraph [ref=e96]: Angles, not steps — use any, in any order. Mark an angle when you’ve explored it.
+          - button "Fold to labels" [expanded] [ref=e97] [cursor=pointer]
+        - list "Guides to keep in mind" [ref=e98]:
+          - listitem [ref=e99]:
+            - strong [ref=e100]: "Memory:"
+            - generic [ref=e101] [cursor=pointer]:
+              - checkbox "Mark Memory as explored" [ref=e102]
+              - generic [ref=e103]: Think of a time a model behaved differently in a scenario you thought you had designed.
+          - listitem [ref=e104]:
+            - strong [ref=e105]: "Tension:"
+            - generic [ref=e106] [cursor=pointer]:
+              - checkbox "Mark Tension as explored" [ref=e107]
+              - generic [ref=e108]: What could you promise when the output was not predictable?
+          - listitem [ref=e109]:
+            - strong [ref=e110]: "Outcome:"
+            - generic [ref=e111] [cursor=pointer]:
+              - checkbox "Mark Outcome as explored" [ref=e112]
+              - generic [ref=e113]: What changed after you designed for variation instead of one ideal output?
+          - listitem [ref=e114]:
+            - strong [ref=e115]: "System:"
+            - generic [ref=e116] [cursor=pointer]:
+              - checkbox "Mark System as explored" [ref=e117]
+              - generic [ref=e118]: How did evaluation, confidence cues, and fallback states shape what happened?
+          - listitem [ref=e119]:
+            - strong [ref=e120]: "People:"
+            - generic [ref=e121] [cursor=pointer]:
+              - checkbox "Mark People as explored" [ref=e122]
+              - generic [ref=e123]: What did people depending on consistent model behavior notice first?
+      - group "Manuscript" [ref=e124]:
+        - textbox "Paragraph 1" [ref=e125]:
+          - /placeholder: Think of a time a model behaved differently in a scenario you thought you had designed.

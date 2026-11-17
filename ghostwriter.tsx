@@ -1,5 +1,5 @@
 import { lazy, Suspense, useCallback, useEffect, useLayoutEffect, useRef, useState, type KeyboardEvent } from "react";
-import { carriageReturn, enterWritingMode, focusParagraph, paperImpulse, pathwayEnter, pathwayExit, quietParagraph, strikeOf } from "./src/motion";
+import { carriageReturn, guideOverstrike, recedeGuides, enterWritingMode, focusParagraph, paperImpulse, pathwayEnter, pathwayExit, quietParagraph, strikeOf } from "./src/motion";
 import { advanceDeskOffset, loadTopics as loadTopicDesk, syncStatus, type DisplayTopic, type EditorialLens, type TopicResult } from "./src/topicSource";
 
 import { measureCaret } from "./src/caret";
@@ -19,8 +19,9 @@ type PathwayType = "Memory" | "Tension" | "Outcome" | "System" | "People";
 type Topic = DisplayTopic;
 type Pathway = { prompt: string; type: PathwayType };
 type Reflection = { angle: string; pathways: Pathway[] };
-type Draft = { ghost?: GhostState; id: string; title: string; updatedAt: string; content: string; topic?: Topic | null; notes?: Partial<Record<PathwayType, string>> };
+type Draft = { guideChecks?: string[]; ghost?: GhostState; id: string; title: string; updatedAt: string; content: string; topic?: Topic | null; notes?: Partial<Record<PathwayType, string>> };
 type Session = {
+  guideChecks?: string[];
   ghost?: GhostState;
   draftId?: string;
   savedAt?: string;
@@ -246,11 +247,13 @@ export default function Ghostwriter() {
   const [initialSession] = useState(() => readStorage(SESSION_KEY, INITIAL_SESSION));
   const restored = useRef(initialSession);
   const [draftId, setDraftId] = useState(() => initialSession.draftId || crypto.randomUUID());
+  const [guideChecks, setGuideChecks] = useState<string[]>(() => initialSession.guideChecks ?? []);
   const [ghost, setGhost] = useState(() => initialSession.ghost ?? initialGhost(Boolean(initialSession.selectedTopic)));
   const [view, setView] = useState<View>(restored.current.view);
   // Guides fold to their labels only when Reflect opens on a draft that already
   // has words, so the manuscript never jumps under the caret mid-sentence.
   const [guidesFolded, setGuidesFolded] = useState(false);
+  const guideSetRef = useRef<HTMLDivElement | null>(null);
   const [openGuide, setOpenGuide] = useState<string | null>(null);
   const openGuideRef = useRef<HTMLParagraphElement | null>(null);
   const [mode, setMode] = useState<Mode>(restored.current.mode);
@@ -339,12 +342,22 @@ export default function Ghostwriter() {
   const manuscript = paragraphs.join("\n\n");
   const wordCount = manuscript.trim().split(/\s+/).filter(Boolean).length;
   const guides = writingGuides(selectedTopic);
+  const hasWriting = wordCount > 0;
+  useEffect(() => recedeGuides(guideSetRef.current, hasWriting), [hasWriting, view, guidesFolded]);
   useEffect(() => {
     if (view !== "reflect") return;
     setGuidesFolded(wordCount > 0); setOpenGuide(null);
     // Folding is decided on entry only; later typing must not reflow the page.
   }, [view, draftId]);
   useEffect(() => { if (openGuide) pathwayEnter(openGuideRef.current); }, [openGuide]);
+  function guideMark(label: string, text: string) {
+    const checked = guideChecks.includes(label);
+    return <label className={`guide-mark ${checked ? "is-marked" : ""}`}><input type="checkbox" checked={checked} aria-label={`Mark ${label} as explored`} onChange={event => {
+      const marked = event.currentTarget.checked;
+      setGuideChecks(current => marked ? [...current, label] : current.filter(item => item !== label));
+      guideOverstrike(event.currentTarget.parentElement?.querySelector<HTMLElement>(".guide-overstrike") ?? null, marked);
+    }}/><span className="guide-mark-copy"><strong>{label}:</strong> {text}<span className="guide-overstrike" aria-hidden="true" /></span></label>;
+  }
   const topics = topicResult?.topics ?? [];
   const leadTopic = topics[0];
   const signalTopics = topics.slice(1);
@@ -381,7 +394,7 @@ export default function Ghostwriter() {
   }, [loadTopics, view]);
 
   useEffect(() => {
-    const session: Session = { ghost, draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review };
+    const session: Session = { guideChecks, ghost, draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review };
     const serialized = JSON.stringify(session);
     if (serialized === lastSavedSession.current) return;
     setSaveStatus("unsaved");
@@ -391,7 +404,7 @@ export default function Ghostwriter() {
       try {
         const timestamp = new Date().toISOString();
         if (title.trim() || manuscript.trim() || Object.values(reflectionAnswers).some((answer) => answer?.trim()) || readStorage<Draft[]>(DRAFTS_KEY, []).some((draft) => draft.id === draftId)) {
-          const draft: Draft = { ghost, id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
+          const draft: Draft = { guideChecks, ghost, id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
           const updated = [draft, ...readStorage<Draft[]>(DRAFTS_KEY, []).filter((item) => item.id !== draftId)];
           writeStorage(DRAFTS_KEY, updated);
           setDrafts(updated);
@@ -419,7 +432,7 @@ export default function Ghostwriter() {
       document.removeEventListener("visibilitychange", flush);
       window.removeEventListener("pagehide", persist);
     };
-  }, [ghost, draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review, manuscript]);
+  }, [guideChecks, ghost, draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review, manuscript]);
 
   useLayoutEffect(() => {
     const previous = lastPageView.current;
@@ -509,7 +522,7 @@ export default function Ghostwriter() {
     if (deletedDraftIds.current.has(draftId)) return true;
     if (!title.trim() && !manuscript.trim() && !Object.values(reflectionAnswers).some((answer) => answer?.trim())) return true;
     try {
-      const draft: Draft = { ghost, id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
+      const draft: Draft = { guideChecks, ghost, id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
       const updated = [draft, ...drafts.filter((item) => item.id !== draftId)];
       writeStorage(DRAFTS_KEY, updated); setDrafts(updated);
       return true;
@@ -519,7 +532,7 @@ export default function Ghostwriter() {
   function chooseTopic(topic: Topic) {
     if (!preserveDraft()) return;
     savedSelection.current = null;
-    setGhost(initialGhost(true)); setDraftId(crypto.randomUUID()); setSelectedTopic(topic); setTitle(topic.title);
+    setGuideChecks([]); setGhost(initialGhost(true)); setDraftId(crypto.randomUUID()); setSelectedTopic(topic); setTitle(topic.title);
     setParagraphs([""]); setActiveParagraph(0); setPathwayIndex(0);
     setReflectionAnswers({}); setReview(""); setPathways(fallbackReflection(topic)); setView("reflect");
     requestAnimationFrame(() => pathwayEnter(reflectionRef.current));
@@ -606,7 +619,7 @@ export default function Ghostwriter() {
   function startBlank() {
     if (!preserveDraft()) return;
     savedSelection.current = null;
-    setGhost(initialGhost(false)); setDraftId(crypto.randomUUID()); setPathways(null); setReflectionAnswers({}); setPathwayIndex(0); setReview("");
+    setGuideChecks([]); setGhost(initialGhost(false)); setDraftId(crypto.randomUUID()); setPathways(null); setReflectionAnswers({}); setPathwayIndex(0); setReview("");
     setSelectedTopic(null); setTitle(""); setParagraphs([""]); setActiveParagraph(0); setView("write");
     requestAnimationFrame(() => enterWritingMode(writingRef.current));
   }
@@ -632,7 +645,7 @@ export default function Ghostwriter() {
     savedSelection.current = null;
 
     lastSavedSession.current = JSON.stringify(nextSession);
-    setGhost(initialGhost(false));
+    setGuideChecks([]); setGhost(initialGhost(false));
     setDraftId(nextSession.draftId!);
     setView("today"); setMode("article"); setTone("reflective");
     setSelectedTopic(null); setPathways(null); setPathwayIndex(0);
@@ -678,7 +691,7 @@ export default function Ghostwriter() {
           if (!preserveDraft()) return;
           savedSelection.current = null;
           setDraftId(draft.id); setSelectedTopic(draft.topic || null); setPathways(null); setReflectionAnswers(draft.notes || {}); setPathwayIndex(0); setReview("");
-          setGhost(draft.ghost ?? initialGhost(Boolean(draft.topic))); setTitle(draft.title); setParagraphs(draft.content.split(/\n\s*\n/)); setActiveParagraph(0); setShowDrafts(false); setView("write");
+          setGuideChecks(draft.guideChecks ?? []); setGhost(draft.ghost ?? initialGhost(Boolean(draft.topic))); setTitle(draft.title); setParagraphs(draft.content.split(/\n\s*\n/)); setActiveParagraph(0); setShowDrafts(false); setView("write");
         }} aria-label={`Open draft: ${draft.title}`}><strong>{draft.title}</strong><time dateTime={draft.updatedAt}>{new Date(draft.updatedAt).toLocaleDateString()}</time></button>
         <button className="draft-delete" type="button" aria-label={`Delete draft: ${draft.title}`} title={`Delete ${draft.title}`} onClick={() => deleteDraft(draft)}>
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3m3 0-1 13H7L6 7m4 4v5m4-5v5" /></svg>
@@ -730,22 +743,21 @@ export default function Ghostwriter() {
 
     {view === "reflect" ? <main className="reflect-shell" id="main-content" tabIndex={-1}>
       <div className="guide-toolbar">
-        <span><span title={saveTimeLabel}>{saveLabel}</span> · {wordCount} {wordCount === 1 ? "word" : "words"}</span>
+        <span className="guide-toolbar-meta"><span className="guide-lens">{selectedTopic ? editorialLens(selectedTopic) : "Your writing"}</span><span><span title={saveTimeLabel}>{saveLabel}</span> · {wordCount} {wordCount === 1 ? "word" : "words"}</span></span>
         <button className="text-action" onClick={enterWriting}>Focus on manuscript →</button>
       </div>
       {soundError ? <p className="sound-error" role="alert">{soundError === "storage" ? "Sound preference could not be saved on this device." : "Sound could not start in this browser."}</p> : null}
       <div className="reflection-stage" ref={reflectionRef}>
-        <p className="pathway-label">{selectedTopic ? editorialLens(selectedTopic) : "Your writing"}</p>
         <h1 ref={reflectHeadingRef} tabIndex={-1}>{selectedTopic ? topicPrompt(selectedTopic) : "What would you like to explore?"}</h1>
-        {guides.length ? <div className="guide-set">
-          <div className="guide-note"><p>Angles, not steps — use any, in any order.</p>
+        {guides.length ? <div ref={guideSetRef} className={`guide-set ${wordCount > 0 ? "is-receded" : ""}`}>
+          <div className="guide-note"><p>Angles, not steps — use any, in any order. Mark an angle when you’ve explored it.</p>
             <button className="text-action" type="button" aria-expanded={!guidesFolded} aria-controls="writing-guides" onClick={() => { setGuidesFolded((folded) => !folded); setOpenGuide(null); }}>{guidesFolded ? "Show all angles" : "Fold to labels"}</button>
           </div>
           {guidesFolded ? <div className="guide-labels" id="writing-guides" aria-label="Guides to keep in mind">
-            <div className="guide-label-row">{guides.map((guide) => <button key={guide.label} type="button" className={openGuide === guide.label ? "selected" : ""} aria-expanded={openGuide === guide.label} aria-controls="open-guide" onClick={() => setOpenGuide((current) => current === guide.label ? null : guide.label)}>{guide.label}</button>)}</div>
-            {openGuide ? <p className="open-guide" id="open-guide" ref={openGuideRef}>{guides.find((guide) => guide.label === openGuide)?.text}</p> : null}
+            <div className="guide-label-row">{guides.map((guide) => <button key={guide.label} type="button" className={openGuide === guide.label ? "selected" : ""} aria-expanded={openGuide === guide.label} aria-controls="open-guide" onClick={() => setOpenGuide((current) => current === guide.label ? null : guide.label)}>{guideChecks.includes(guide.label) ? <s>{guide.label}</s> : guide.label}</button>)}</div>
+            {openGuide ? <p className="open-guide" id="open-guide" ref={openGuideRef}>{guideMark(openGuide, guides.find((guide) => guide.label === openGuide)?.text ?? "")}</p> : null}
           </div> : <ul className="writing-guides" id="writing-guides" aria-label="Guides to keep in mind">
-            {guides.map((guide) => <li key={guide.label}><strong>{guide.label}:</strong> {guide.text}</li>)}
+            {guides.map((guide) => <li key={guide.label}>{guideMark(guide.label, guide.text)}</li>)}
           </ul>}
         </div> : null}
         {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context">

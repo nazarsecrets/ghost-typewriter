@@ -329,3 +329,16 @@ html:has(.app[data-theme="typewriter"].view-write) { background: #fff; }
 
 /* Available to screen readers and to axe, absent from the page. */
 .visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+/* Reflect reference guides stay mounted so typing never moves the manuscript. */
+.guide-toolbar-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; }
+.guide-lens { color: var(--signal); text-transform: uppercase; letter-spacing: .14em; font-size: 10px; font-weight: 700; }
+.guide-set.is-receded { opacity: .68; }
+.guide-set.is-receded:hover, .guide-set.is-receded:focus-within { opacity: 1 !important; }
+.guide-mark { display: inline-flex; align-items: baseline; width: 100%; gap: 8px; cursor: pointer; }
+.guide-mark input { width: 16px; height: 16px; margin: 0; flex: 0 0 16px; vertical-align: middle; accent-color: var(--signal); }
+.guide-mark-copy { position: relative; display: inline-block; flex: 1; min-width: 0; vertical-align: top; }
+.guide-overstrike { position: absolute; inset: 0; pointer-events: none; transform: scaleX(0); transform-origin: left; background: repeating-linear-gradient(transparent 0, transparent calc(1.75em / 2), currentColor calc(1.75em / 2), currentColor calc(1.75em / 2 + 1px), transparent calc(1.75em / 2 + 1px), transparent 1.75em); }
+.guide-mark.is-marked .guide-overstrike { transform: scaleX(1); }
+@media (forced-colors: active) { .guide-set.is-receded { opacity: 1 !important; } .guide-mark.is-marked .guide-mark-copy { text-decoration: line-through; } }
+@media print { .guide-set.is-receded { opacity: 1 !important; } }

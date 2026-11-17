@@ -29,7 +29,8 @@ _Last updated: 2026-11-17_
 
 ## 🔄 In progress
 
-No active implementation item.
+- 🔄 **[UX+Dev] (started 2026-11-17)** Enchanted Diary Phase 1: add an opt-in appearance selector and static diary styling around the mounted existing editor, preserving drafts, session records, navigation, writing behavior, and exports.
+- 🔄 **[UX+Dev] (2026-11-17)** Move the Reflect lens to the toolbar, recede guides during writing, and add reversible per-draft guide overstrikes. Retain Anime.js and reduced-motion support.
 
 
 ---
@@ -44,7 +45,6 @@ No active implementation item.
 
 ### Optional Enchanted Diary theme
 
-- ⬜ **[UX+Dev]** Phase 1 of [ENCHANTED_DIARY_PLAN.md](./ENCHANTED_DIARY_PLAN.md): add an opt-in appearance selector and static diary styling around the mounted existing editor; preserve all session/draft records, writing behavior, navigation, and exports. Implementation has not started.
 - ⬜ **[UX+Dev]** Phase 2, after Phase 1 preservation checks pass: refine diary materials and add cancellable, accessible prompt/review ink presentation using existing Anime.js; no manuscript absorption, new AI service, storage migration, or replacement editor. Retain effects only after an author comfort check.
 
 ### Focused POC — prove World → Me
@@ -78,6 +78,12 @@ No active implementation item.
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-11-17 [UX]**
+  ```text
+  Update the getting-started guide for the Reflect writing flow
+  ```
+  Updated README onboarding for optional angles, the first-paragraph cue, folded labels, shared manuscript, local saves/export, and deliberate Ghost reading; replaced obsolete Anthropic setup instructions. Checked labels and consent behavior against current source. Documentation only; no runtime tests needed. Overstrike and motion proposals remain pending; Enchanted Diary remains next.
 
 - ✅ **2026-11-17 [Dev]**
   ```text

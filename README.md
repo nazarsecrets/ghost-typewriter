@@ -6,16 +6,32 @@ The product loop is: **Discover → Choose → Write → Reflect → Ghost → R
 
 World supplies things worth noticing. You remain the author. Ghost questions and refines only when invited.
 
+## Start writing
+
+Open [Ghostwriter](https://nazarsecrets.github.io/ghost-typewriter/). Writing needs no account or AI key.
+
+1. Choose an idea from Today, or select **Start with a blank page →** if you already know what to write.
+2. With a topic, write directly beneath its prompt. **Memory, Tension, Outcome, System, and People are angles, not steps**—use any, in any order. You can leave the others alone. The empty first paragraph carries the topic's Memory cue to help you begin; typing replaces the placeholder.
+3. Select **Focus on manuscript →** when you want more space. This is the same manuscript, so your writing carries across. Use **Writing guides** to return to the topic's angles.
+4. When you return to the guided view with words already in your draft, the angles fold to their labels. Select a label to reveal its guide, **Show all angles** to expand them, or **Fold to labels** to put them away. The guides stay in place while you type.
+5. Drafts save in this browser on this device. Check the save status, reopen work through **Drafts**, and use **Export ▾** to copy Markdown or download a copy you can keep elsewhere.
+
+Sound is optional and starts off. Use **Sound on/off** in the header to choose what feels comfortable.
+
+## Invite Ghost when you want a reading
+
+In the focused manuscript, open **Ghost**. Setup is optional; you can skip it and keep writing. Topic-based drafts start with reading off; blank-page drafts start with reading on. You can change **Let Ghost read this draft** for each draft.
+
+Turning reading on sends nothing. Choosing a lens, a frame check, or an editorial review sends the draft or selected passage to the hosted Cloudflare reading service. Choose **Question my argument**, for example, when you want a question about your reasoning. Ghost returns an editorial slip alongside your unchanged words. Static anchors remain available with reading off, and writing and export work without AI.
+
 ## Run locally
 
 ```sh
-cp .env.example .env
-# Optional: add ANTHROPIC_API_KEY for personalized Reflect/Review
 npm install
 npm run dev
 ```
 
-Topic discovery and writing do not require an API key. Optional local AI requests use the Vite proxy at `/api/anthropic`; the key stays in the development server environment.
+Topic discovery and writing do not require an API key. To enable optional hosted Ghost readings locally, copy `.env.example` to `.env`, set `VITE_GHOST_API_URL` to a Worker configured to allow your local app origin, and restart Vite. For a local Worker, use `GHOST_LOCAL=1` with Wrangler on port 8787. See [the Worker setup guide](./server/ghost/README.md). Never put a secret in a `VITE_` variable.
 
 Current sources are converted into original, lens-based questions by a deterministic local pipeline. Article headlines are kept only as provenance behind each prompt; no hosted model is needed to generate the Today desk.
 
@@ -36,6 +52,6 @@ Each build also records how every source reached its question in `data/editorial
 npm run build
 ```
 
-See [IMPLEMENTATION_PLAN.md](./IMPLEMENTATION_PLAN.md) for the interaction model, design system, and remaining production-hosting work.
+See [IMPLEMENTATION_PLAN.md](./IMPLEMENTATION_PLAN.md) for the interaction model, design system, and hosting details.
 
 See [PRD.md](./PRD.md) for the complete product requirements, inspiration-intelligence logic, acceptance criteria, risks, and release plan.

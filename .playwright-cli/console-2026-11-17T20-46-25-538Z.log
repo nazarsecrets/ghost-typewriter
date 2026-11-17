@@ -1,0 +1,5 @@
+[     350ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=88296265:20103
+[   17607ms] [WARNING] String syntax for `ease: "steps(8)"` has been removed from the core and replaced by importing and passing the easing function directly: `ease: steps(8)` @ http://127.0.0.1:5173/node_modules/.vite/deps/animejs.js?v=88296265:2098
+[   18457ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=88296265:20103
+[   44869ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=88296265:20103
+[   88772ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=88296265:20103

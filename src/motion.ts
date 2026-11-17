@@ -1,4 +1,4 @@
-import { animate, stagger, type JSAnimation } from "animejs";
+import { animate, stagger, steps, type JSAnimation } from "animejs";
 
 const reduceMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -129,4 +129,19 @@ export function carriageReturn(paper: HTMLElement | null) {
   carriage?.cancel(); surface?.cancel();
   carriage = animate(paper, { translateX: [0, 8, 0], duration: 340, ease: "out(3)" });
   surface = animate(paper, { "--sheet-lift": [0, 1, 0], duration: 380, ease: "out(3)" });
+}
+
+// Manual guide marks use a short stepped overstrike; text never moves.
+export function guideOverstrike(element: HTMLElement | null, marked: boolean) {
+  if (!element) return;
+  if (reduceMotion()) { element.style.transform = `scaleX(${marked ? 1 : 0})`; return; }
+  animate(element, { scaleX: marked ? [0, 1] : [1, 0], duration: 240, ease: steps(8) });
+}
+
+export function recedeGuides(element: HTMLElement | null, hasWriting: boolean) {
+  if (!element) return;
+  const opacity = hasWriting ? .68 : 1;
+  if (reduceMotion()) { element.style.opacity = String(opacity); return; }
+  const motion = animate(element, { opacity, duration: 240, ease: "linear" });
+  return () => { motion.cancel(); };
 }
