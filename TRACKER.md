@@ -19,13 +19,13 @@ _Last updated: 2026-11-17_
 
 ## 🎯 Next action (do this next)
 
-**[UX+Dev] Finish Ghost live validation and Pages publication.** Wrangler OAuth is verified and the Worker deployed (2026-11-17), and its endpoint now returns a real HTTP 200 `{ slip }` reading with disposable text. Recheck endpoint availability, validate the hosted `{ slip }` contract with disposable text, then publish the prepared GitHub Pages route. Live provider response is verified; Pages publication is next. Enchanted Diary remains pending.
+**[UX+Dev] Enchanted Diary Phase 1.** Add the opt-in appearance selector and static diary styling per `ENCHANTED_DIARY_PLAN.md`, preserving the mounted editor and saved drafts. Ghost is published and live reading verified; the separate rate-limit follow-up below remains pending.
 
 ---
 
 ## 🔄 In progress
 
-- 🔄 **[UX+Dev] (resumed 2026-11-17)** Ghost hosting: Wrangler OAuth verified for the intended account; deployed `ghostwriter-reading` to `https://ghostwriter-reading.svr-ghostwriter.workers.dev/read`, version `fa493932-707a-48e6-bf92-9029e3590e4b`. Wrangler registered a new workers.dev subdomain. Endpoint propagation resolved: disposable live reading returned HTTP 200 with `{ slip }`; blocked origin returned 403 and allowed preflight 204. Hosted browser validation, remote rate checking and Pages publication are in progress. Six contract tests and production build pass. Reconciled Worker README and validation prose from historical Anthropic template to current AI binding. GitHub Pages Actions hosting is enabled and repository variable `VITE_GHOST_API_URL` points to the deployed Worker; publication and browser verification are next. Integrated remote topic refresh history, retaining the current remote manifest when resolving its generated-file conflict.
+No active implementation item.
 
 
 ---
@@ -66,14 +66,20 @@ _Last updated: 2026-11-17_
 
 - ⬜ **[UX+Dev]** Decide whether an explicit pencil icon is useful beside the existing row-click editing action. If adopted, match the new inline SVG delete icon's line weight and keep both buttons accessible.
 
+### Hosted Ghost follow-up
+
+- ⬜ **[Dev]** Investigate remote rate-limit enforcement: the configured six-per-minute binding did not emit 429 during bounded invalid-request probes (7 then 20). Local rejection handling passes. Do not claim a hard global cap; see `GHOST_VALIDATION.md`.
+
 ### Release and optional polish
 
-- ⬜ **[Dev]** Configure the GitHub Pages build and deploy workflow after the focused POC passes browser QA
+- ✅ **2026-11-17 [Dev]** GitHub Pages Actions build and deployment configured; see completed publication below.
 - ⬜ **[UX+Dev]** Evaluate remaining optional immersion only after the core writing behavior is settled: soft caret, paper texture, and View Transitions (PRD FR-8)
 
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-11-17 [UX+Dev]** — Published Ghost at https://nazarsecrets.github.io/ghost-typewriter/ using Workers AI at `ghostwriter-reading.svr-ghostwriter.workers.dev/read`. Wrangler OAuth verified; endpoint TLS propagation resolved; disposable direct API and hosted browser readings returned structured slips with the original manuscript unchanged. CORS blocked-origin 403 and allowed preflight 204 pass; six contract tests, local build, and Pages workflow run `44171027143` build/deploy pass for `89492ec`. Preserved current remote topic manifest during merge. Reconciled hosting docs. Rate-limit observation is inconclusive and tracked separately. Enchanted Diary remains unimplemented.
 
 - ✅ **2026-11-17 [UX+Dev]** — Built three onboarding-reference changes in Reflect: the empty first paragraph uses the topic's Memory guide as its placeholder; an "Angles, not steps — use any, in any order." note sits above the guides; when Reflect opens on a draft that already has words, the guides fold to five label chips that each reveal one guide (existing `pathwayEnter` Anime.js motion, reduced-motion gated), with a Show all / Fold toggle. Folding is decided on entry only so typing never reflows the page. GSAP stays Ghost-only. `npm run build` passes; headless Chromium checked placeholder, note, no mid-typing fold, fold on return, chip reveal and aria-expanded, unfold, and no overflow at 320px, with no page errors.
 

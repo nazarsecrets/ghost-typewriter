@@ -33,12 +33,7 @@ The rule: motion serves stillness. The AI and the interface can move; the writin
 
 The target is **GitHub Pages** — free, zero-maintenance static hosting straight from the repo. Provider-independent topic discovery is compatible with static hosting through `public/topics.json` and the local Evergreen fallback. Only optional personalized Reflect and Ghost review calls require an AI production path; Pages cannot hold their secret key or proxy those requests. The local Vite dev proxy does not deploy.
 
-Two clean paths reconcile "free GitHub hosting" with the AI features (this is the one open item in the build sequence):
-
-1. **GitHub Pages + a free serverless proxy** *(recommended)* — deploy the built static site to Pages, and put one small serverless function (Cloudflare Workers or Vercel free tier) in front of the Anthropic API to hold the key. The function is the production equivalent of today's Vite proxy: `/api/anthropic/*` → Anthropic, key injected server-side. Keeps hosting free and the key off the client.
-2. **Fully static, bring-your-own-key** — ship only to Pages with no backend; the app prompts me to paste my own Anthropic key, stored in `localStorage` and sent directly from the browser. Zero infrastructure, but the key lives client-side (acceptable for a single-user personal tool, not for anything shared).
-
-Either way the app stays a static bundle, so the immersive front-end and free hosting are never in tension — only the API path needs a decision.
+The selected production path is GitHub Pages plus the Cloudflare Workers AI binding, with no provider credential in the browser. The fixed model and server-owned instructions return validated editorial slips from `/read`; the Worker restricts origins and request size and has an approximate rate-limit binding. `server/ghost/README.md` documents deployment. Discovery remains provider-independent. The older Anthropic/BYO-key proposal is superseded.
 
 ## Product principle
 
@@ -76,7 +71,7 @@ The author chose a guided flow with compact questions and a larger response surf
 - [x] Build the free source-backed topic pipeline, scheduled manifest, client loader, and honest Evergreen fallback.
 - [x] Connect the topic loader to Today, add honest provenance and desk rotation, and remove the Claude topic request.
 - [x] Add the deterministic source → signal → provocation layer: original lens-based questions lead, neutral Why now context explains currency, and source headlines remain provenance only.
-- [ ] Add production API handling for GitHub Pages hosting (see "Hosting" above): either a free serverless proxy holding the key, or a static bring-your-own-key fallback. Vite's development proxy is included for local use only and does not deploy.
+- [x] Connect production Ghost readings through Cloudflare Workers AI and deploy the static app with GitHub Pages Actions.
 - [x] Run browser-level rendering, manuscript entry, autosave, reload persistence, and console QA.
 
 ## Visual system

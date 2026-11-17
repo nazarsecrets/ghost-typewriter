@@ -181,7 +181,7 @@ Guided Memory, Tension, Outcome, System, and People pathways remain an optional 
 | Persistence | Debounced local session and recent drafts | Implemented with versioned `localStorage` |
 | Export | Markdown, text, Medium handoff | Implemented |
 | Motion | Six foundational Anime.js behaviors plus two typewriter responses | Implemented |
-| Production hosting | Static GitHub Pages deployment | Not yet configured |
+| Production hosting | Static GitHub Pages deployment | Published 2026-11-17 |
 | Production AI calls | Secure proxy or explicit BYO-key path | Decision required |
 
 ### POC findings and product implications
@@ -698,7 +698,7 @@ Optional future immersion:
 
 #### Production AI calls
 
-The local Vite proxy is development-only and cannot protect secrets on GitHub Pages. Production must use one of these explicit paths:
+The local Vite proxy is development-only and cannot protect secrets on GitHub Pages. The selected production path is GitHub Pages plus a Cloudflare Worker using the Workers AI binding. It needs no provider API key in the client. Earlier alternatives were:
 
 1. **Recommended:** GitHub Pages plus a free serverless proxy that stores the provider key and applies rate limits.
 2. **Personal fallback:** A bring-your-own-key mode with clear disclosure that the credential is stored locally in the browser.

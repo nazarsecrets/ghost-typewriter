@@ -19,10 +19,17 @@ Anchors sit above the low plume, rather than below the viewport edge. The plume 
 
 ## Outstanding external validation
 
-Cloudflare Workers AI is now the selected hosted route. On 2026-11-17, network-enabled Wrangler OAuth verification succeeded and `ghostwriter-reading` deployed at `https://ghostwriter-reading.svr-ghostwriter.workers.dev/read` (version `fa493932-707a-48e6-bf92-9029e3590e4b`). All six current contract tests and the production build passed. Initial TLS propagation resolved. A disposable live reading returned HTTP 200 with a structured `{ slip }`; blocked origin returned 403 and allowed preflight 204. GitHub Pages Actions hosting and the public endpoint variable are configured; publication and hosted browser validation are in progress. Earlier browser evidence above is fixture-backed and predates the current `{ slip }` hosted contract. The former Anthropic template prose is superseded by the AI binding implementation.
+Cloudflare Workers AI is now the selected hosted route. On 2026-11-17, network-enabled Wrangler OAuth verification succeeded and `ghostwriter-reading` deployed at `https://ghostwriter-reading.svr-ghostwriter.workers.dev/read` (version `fa493932-707a-48e6-bf92-9029e3590e4b`). All six current contract tests and the production build passed. Initial TLS propagation resolved. A disposable live reading returned HTTP 200 with a structured `{ slip }`; blocked origin returned 403 and allowed preflight 204. GitHub Pages Actions hosting and the public endpoint variable are configured; publication and hosted browser validation passed. Earlier browser evidence above is fixture-backed and predates the current `{ slip }` hosted contract. The former Anthropic template prose is superseded by the AI binding implementation.
 
 A production preview without any AI configuration also passed: setup axe, static frames/ticks, clear unconfigured-lens copy, manuscript editing, exports available, and no GSAP resource loaded before interaction.
 
 Real-provider sampling must check constructive specificity, no replacement prose, useful questions, response reliability under the schema, latency, and reading consent. Real mobile keyboard behavior and the author's motion/comfort verdict also remain unverified.
 
 Reference documentation checked: [GSAP context cleanup](https://gsap.com/docs/v3/GSAP/gsap.context/), [Cloudflare rate-limiting bindings](https://developers.cloudflare.com/workers/runtime-apis/bindings/rate-limit/). Rate limiting is approximate and per Cloudflare location, not a global spending cap.
+
+## Hosted publication — 2026-11-17
+
+- Pages workflow run `44171027143` passed build, all six Ghost tests and deployment for commit `89492ec`. Public app: https://nazarsecrets.github.io/ghost-typewriter/ . Project subpath assets load and the manuscript opens.
+- Direct live reading with disposable text returned HTTP 200 and `{ slip }`. Blocked-origin check: 403; allowed-origin preflight: 204.
+- Remote rate-limit observation remains inconclusive: seven then twenty invalid curl requests returned 400 without an observed 429. Python clients were rejected by Cloudflare with 1010 before reaching application validation. The local binding-rejection test passes; this is not evidence of a hard global rate cap.
+- Hosted browser: created an original disposable draft, skipped setup, explicitly invoked “Question my argument,” and received a rendered live editorial slip with a verbatim quote. The manuscript remained unchanged. Screenshot: `output/playwright/ghost-hosted-slip.png`. This verifies the current `{ slip }` browser contract.
