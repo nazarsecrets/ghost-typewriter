@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T18:14:38.523Z",
-  "windowStart": "2026-10-17T18:14:38.523Z",
-  "windowEnd": "2026-11-16T18:14:38.523Z",
+  "generatedAt": "2026-11-17T07:30:41.616Z",
+  "windowStart": "2026-10-18T07:30:41.616Z",
+  "windowEnd": "2026-11-17T07:30:41.616Z",
   "topics": [
     {
-      "id": "7efe836f0250",
-      "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
-      "teaser": "Weekly curated resources for designers — thinkers and makers. “When Ted Chiang wrote in The New Yorker that AI isn’t going to make art, I felt vindicated. I forwarded it. To people who had n",
-      "tag": "Research",
+      "id": "8192e9a950eb",
+      "title": "UI edge cases: A reference guide",
+      "teaser": "A practical reference guide for catching UI edge cases before they ship — organized by category, with how to test, how to detect them in the wild, and how to design a fix. With examples. UI ",
+      "tag": "Systems",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-16T12:17:08.000Z",
+      "publishedAt": "2026-11-16T21:20:24.000Z",
       "since": "today",
-      "relevanceScore": 0.857,
+      "relevanceScore": 1,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
-          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-16T12:17:08.000Z"
+          "title": "UI edge cases: A reference guide",
+          "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-16T21:20:24.000Z"
         }
       ]
     },
@@ -41,26 +41,6 @@
           "title": "Decision theatre or decision design?",
           "url": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-13T23:51:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e8cfd34e6f47",
-      "title": "Voice-Based Conversational Agents as AI Care Assistants: Evaluating Personalization, Intervention Delivery Fidelity, and Privacy Expectations in Older Adults' Care",
-      "teaser": "Generative AI enables voice-based conversational agents to play more active roles in older adults' care, including personalizing support and operating alongside clinicians and care partners.",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-13T16:27:58.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Voice-Based Conversational Agents as AI Care Assistants: Evaluating Personalization, Intervention Delivery Fidelity, and Privacy Expectations in Older Adults' Care",
-          "url": "https://arxiv.org/abs/2611.18385v1",
-          "publishedAt": "2026-11-13T16:27:58.000Z"
         }
       ]
     },
@@ -92,55 +72,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-12T11:14:40.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "The AI mind tax that afflicts those who use AI best",
           "url": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-12T11:14:40.000Z"
-        }
-      ]
-    },
-    {
-      "id": "3c64d6e05502",
-      "title": "Every click has a price now. Who designs how that “feels”?",
-      "teaser": "As the all-you-can-eat AI era is ending, UX designers must adapt to a new reality Since the democratization of AI, roughly by the end of 2022, companies sold access to their products for les",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T22:15:19.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Every click has a price now. Who designs how that “feels”?",
-          "url": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-11T22:15:19.000Z"
-        }
-      ]
-    },
-    {
-      "id": "27eb01ca0dc3",
-      "title": "The bathroom flaws that infuriate every designer",
-      "teaser": "How one close look at everyday bathroom flaw will permeantly ruin your routine. I paused, leaving the bathroom. Something strange was happening, but what was it? There was a woman in a wheel",
-      "tag": "Ethics",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-11T22:10:34.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The bathroom flaws that infuriate every designer",
-          "url": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-11T22:10:34.000Z"
         }
       ]
     },
@@ -154,13 +94,33 @@
       "publishedAt": "2026-11-04T09:18:02.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 12 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
           "url": "https://ai.greensighter.com/",
           "publishedAt": "2026-11-04T09:18:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7efe836f0250",
+      "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “When Ted Chiang wrote in The New Yorker that AI isn’t going to make art, I felt vindicated. I forwarded it. To people who had n",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T12:17:08.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
+          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-16T12:17:08.000Z"
         }
       ]
     },
@@ -174,7 +134,7 @@
       "publishedAt": "2026-11-04T14:38:35.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -231,22 +191,22 @@
       ]
     },
     {
-      "id": "56dd777ea30e",
-      "title": "The trash robot that doesn’t pick up, but hands out",
-      "teaser": "On kawaii, embarrassment, and designing to invite Continue reading on UX Collective »",
+      "id": "6243e8ef238d",
+      "title": "Why bother paying for software anymore?",
+      "teaser": "And why design is the answer AI bros didn&#x2019;t expect. Continue reading on UX Collective »",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-16T12:16:15.000Z",
+      "publishedAt": "2026-11-16T21:27:14.000Z",
       "since": "today",
       "relevanceScore": 0.429,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "The trash robot that doesn’t pick up, but hands out",
-          "url": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-16T12:16:15.000Z"
+          "title": "Why bother paying for software anymore?",
+          "url": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-16T21:27:14.000Z"
         }
       ]
     },
@@ -260,7 +220,7 @@
       "publishedAt": "2026-11-02T16:41:01.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -378,9 +338,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-11-06T10:35:22.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -400,7 +360,7 @@
       "publishedAt": "2026-11-05T17:30:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -420,7 +380,7 @@
       "publishedAt": "2026-11-03T16:48:13.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -440,7 +400,7 @@
       "publishedAt": "2026-11-04T13:09:26.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -458,9 +418,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-30T17:00:00.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
       "sources": [
         {
           "name": "nngroup",
@@ -478,15 +438,35 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-23T17:00:00.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 24 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 25 days",
       "sources": [
         {
           "name": "nngroup",
           "title": "UX Disciplines: Glossary",
           "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-23T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "56dd777ea30e",
+      "title": "The trash robot that doesn’t pick up, but hands out",
+      "teaser": "On kawaii, embarrassment, and designing to invite Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T12:16:15.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The trash robot that doesn’t pick up, but hands out",
+          "url": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-16T12:16:15.000Z"
         }
       ]
     },
@@ -498,9 +478,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-23T09:38:12.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -520,7 +500,7 @@
       "publishedAt": "2026-11-08T17:16:09.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -540,7 +520,7 @@
       "publishedAt": "2026-11-07T15:00:20.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -578,9 +558,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T18:00:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "nngroup",
@@ -598,9 +578,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T10:58:22.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -631,26 +611,6 @@
       ]
     },
     {
-      "id": "cd7e5daff899",
-      "title": "Agentic Dashboards: A New Design Paradigm for Visual Analytics",
-      "teaser": "Visual analytics systems traditionally combine analytical methods and interactive visualizations into a fixed application specified at the design phase. Coding agents offer a flexible approa",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-12T03:41:52.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Agentic Dashboards: A New Design Paradigm for Visual Analytics",
-          "url": "https://arxiv.org/abs/2611.16245v1",
-          "publishedAt": "2026-11-12T03:41:52.000Z"
-        }
-      ]
-    },
-    {
       "id": "9b61d04877b9",
       "title": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
       "teaser": "Resumo. Testamos se o conjunto formado por um modelo pequeno (Haiku 5.5), um data lake de regras de...",
@@ -658,9 +618,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-11T10:17:16.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "devto-ux",
@@ -700,7 +660,7 @@
       "publishedAt": "2026-10-20T10:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
       "sources": [
         {
           "name": "smashing",
@@ -718,9 +678,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-11-06T18:00:00.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "nngroup",
@@ -738,9 +698,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-11-06T08:00:00.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "smashing",
@@ -758,9 +718,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-23T14:27:01.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -780,7 +740,7 @@
       "publishedAt": "2026-10-19T19:00:23.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -798,9 +758,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-30T17:00:00.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "nngroup",
@@ -818,9 +778,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-10-23T17:00:00.000Z",
-      "since": "3 weeks ago",
+      "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
       "sources": [
         {
           "name": "nngroup",
@@ -836,73 +796,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-16T18:14:38.523Z"
+      "fetchedAt": "2026-11-17T07:30:41.616Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-16T18:14:38.564Z"
+      "fetchedAt": "2026-11-17T07:30:41.653Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-16T18:14:38.565Z"
+      "fetchedAt": "2026-11-17T07:30:41.654Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-16T18:14:38.566Z"
+      "fetchedAt": "2026-11-17T07:30:41.655Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-16T18:14:38.567Z"
+      "fetchedAt": "2026-11-17T07:30:41.655Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-16T18:14:38.568Z"
+      "fetchedAt": "2026-11-17T07:30:41.656Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-16T18:14:38.569Z"
+      "fetchedAt": "2026-11-17T07:30:41.657Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-11-16T18:14:38.569Z"
+      "fetchedAt": "2026-11-17T07:30:41.657Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 37,
-      "fetchedAt": "2026-11-16T18:14:38.570Z"
+      "items": 36,
+      "fetchedAt": "2026-11-17T07:30:41.658Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-11-16T18:14:38.571Z"
+      "ok": false,
+      "items": 0,
+      "fetchedAt": "2026-11-17T07:30:41.659Z",
+      "error": "HTTP 429"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-16T18:14:38.571Z"
+      "fetchedAt": "2026-11-17T07:30:41.659Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-11-16T18:14:38.572Z"
+      "fetchedAt": "2026-11-17T07:30:41.660Z"
     }
   ]
 }
