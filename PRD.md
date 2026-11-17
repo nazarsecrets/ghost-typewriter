@@ -387,31 +387,18 @@ The curated desk is an offline fallback and may also become a deliberate inspira
 
 Guided reflection is optional. The default POC path is Choose → Write; the author may invoke guided reflection before writing when a topic feels interesting but still abstract.
 
-#### FR-3.1 Sequential pathways
+#### FR-3.1 Writing angles
 
-The Reflect view presents one pathway at a time in this order:
+Memory, Tension, Outcome, System, and People are optional, topic-specific reference guides above one continuous manuscript. They may be used in any order. The topic's editorial lens belongs in the Reflect toolbar, outside the manuscript column. The first empty paragraph uses the Memory guide as a placeholder.
 
-1. Memory
-2. Tension
-3. Outcome
-4. System
-5. People
+#### FR-3.2 Guide behavior
 
-Each pathway contains one specific, grounded prompt. All five cards must never appear simultaneously.
-
-The reflection payload may also contain a one-sentence underlying angle. When shown, it provides quiet context for the sequence and must not read like a thesis the user is expected to adopt.
-
-#### FR-3.2 Self-interview behavior
-
-- The user may write an optional response under each question.
-- Responses persist as part of the active session.
-- Continue advances to the next pathway.
-- **Show me another angle** replaces the current question with another prompt of the same pathway type; it does not duplicate Continue behavior.
-- The pathway trail shows visited, current, and future states.
-- Visited pathways remain selectable.
-- Future pathways remain unavailable until reached.
-- The final pathway offers **Enter the manuscript**.
-- Reflection responses remain private working notes and are not automatically inserted into the manuscript.
+- Each angle can be marked as explored with a reversible native checkbox and a short typed overstrike. Marks persist per draft; existing drafts default to no marks.
+- Marks never change manuscript text or restrict another angle. No progress bar, score, required sequence, welcome survey, AI starter draft, or unsolicited tooltip.
+- On entry with existing prose, guides fold to label buttons; each reveals its guide and checkbox. Show all / Fold remains available.
+- Once the manuscript has words, guides fade to 0.68 opacity without collapsing or moving the caret. Hover and keyboard focus restore full visibility. Forced colors and print retain full opacity.
+- Motion stays on Anime.js, with immediate states under reduced motion. GSAP remains Ghost-only.
+- Earlier reflection notes remain recoverable and move into the manuscript only on explicit request.
 
 #### FR-3.3 Prompt generation and fallback
 

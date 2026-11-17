@@ -30,7 +30,7 @@ _Last updated: 2026-11-17_
 ## 🔄 In progress
 
 - 🔄 **[UX+Dev] (started 2026-11-17)** Enchanted Diary Phase 1: add an opt-in appearance selector and static diary styling around the mounted existing editor, preserving drafts, session records, navigation, writing behavior, and exports.
-- 🔄 **[UX+Dev] (2026-11-17)** Move the Reflect lens to the toolbar, recede guides during writing, and add reversible per-draft guide overstrikes. Retain Anime.js and reduced-motion support.
+No active implementation item.
 
 
 ---
@@ -49,8 +49,7 @@ _Last updated: 2026-11-17_
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
-- ⬜ **[UX]** (added 2026-11-17) Remaining onboarding-reference proposal for the Reflect guides: guides the author ticks off with a typed overstrike, with no progress bar. Author to decide. Also author to decide whether Reflect guide motion should move from Anime.js to GSAP (it would extend the 2026-11-11 Ghost-only GSAP exception to writing-time UI). Rejected as off-doctrine: welcome surveys, AI starter drafts, unsolicited tooltips, streaks or progress meters.
+
 
 ### Discovery robustness — after the core POC handoff
 
@@ -78,6 +77,16 @@ _Last updated: 2026-11-17_
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-11-17 [UX+Dev]**
+  ```text
+  Move the Reflect lens and add optional guide overstrikes
+
+  Keep the lens in the toolbar, recede reference guides without reflow,
+  and persist reversible guide marks with each draft. Retain Anime.js
+  and immediate reduced-motion states; keep GSAP limited to Ghost.
+  ```
+  Moved the lens out of the text column, added keyboard-accessible per-draft guide marks with stepped overstrikes, and fade guides to 0.68 after writing begins with hover/focus recovery and full opacity in forced colors/print. Ink-colored reference text preserves readability while dimmed. No progress meters or unsolicited onboarding. Updated PRD and README. Build and diff checks pass; Chromium verified reload persistence, reversible and keyboard marks, unchanged prose, stable manuscript position during fade, focus recovery, reduced motion/forced colors, and no overflow at 320px. Screenshots: `output/playwright/reflect-guide-marks-{mobile,desktop}.png`. Enchanted Diary remains next. Changes are local and uncommitted.
 
 - ✅ **2026-11-17 [UX]**
   ```text

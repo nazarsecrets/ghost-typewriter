@@ -277,7 +277,7 @@ html:has(.app[data-theme="typewriter"].view-write) { background: #fff; }
 .writing-guides li { padding-left: 4px; margin-block: 5px; }
 .writing-guides strong { color: var(--ink); font-weight: 500; }
 .guide-set { margin: 24px 0 36px; }
-.guide-set .writing-guides { margin: 14px 0 0; }
+.guide-set .writing-guides { margin: 14px 0 0; color: var(--ink); }
 .guide-note { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; }
 .guide-note p { margin: 0; color: var(--graphite); font: italic 14px/1.5 var(--serif); }
 .guide-labels { margin-top: 14px; }
@@ -333,7 +333,6 @@ html:has(.app[data-theme="typewriter"].view-write) { background: #fff; }
 /* Reflect reference guides stay mounted so typing never moves the manuscript. */
 .guide-toolbar-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; }
 .guide-lens { color: var(--signal); text-transform: uppercase; letter-spacing: .14em; font-size: 10px; font-weight: 700; }
-.guide-set.is-receded { opacity: .68; }
 .guide-set.is-receded:hover, .guide-set.is-receded:focus-within { opacity: 1 !important; }
 .guide-mark { display: inline-flex; align-items: baseline; width: 100%; gap: 8px; cursor: pointer; }
 .guide-mark input { width: 16px; height: 16px; margin: 0; flex: 0 0 16px; vertical-align: middle; accent-color: var(--signal); }
@@ -342,3 +341,7 @@ html:has(.app[data-theme="typewriter"].view-write) { background: #fff; }
 .guide-mark.is-marked .guide-overstrike { transform: scaleX(1); }
 @media (forced-colors: active) { .guide-set.is-receded { opacity: 1 !important; } .guide-mark.is-marked .guide-mark-copy { text-decoration: line-through; } }
 @media print { .guide-set.is-receded { opacity: 1 !important; } }
+
+/* Start reference text in ink so its receded state remains readable. */
+.guide-set .guide-note p, .guide-set .open-guide,
+.guide-set .guide-label-row button { color: var(--ink); }

@@ -13,7 +13,7 @@ Open [Ghostwriter](https://nazarsecrets.github.io/ghost-typewriter/). Writing ne
 1. Choose an idea from Today, or select **Start with a blank page →** if you already know what to write.
 2. With a topic, write directly beneath its prompt. **Memory, Tension, Outcome, System, and People are angles, not steps**—use any, in any order. You can leave the others alone. The empty first paragraph carries the topic's Memory cue to help you begin; typing replaces the placeholder.
 3. Select **Focus on manuscript →** when you want more space. This is the same manuscript, so your writing carries across. Use **Writing guides** to return to the topic's angles.
-4. When you return to the guided view with words already in your draft, the angles fold to their labels. Select a label to reveal its guide, **Show all angles** to expand them, or **Fold to labels** to put them away. The guides stay in place while you type.
+4. When you return to the guided view with words already in your draft, the angles fold to their labels. Select a label to reveal its guide, **Show all angles** to expand them, or **Fold to labels** to put them away. Mark any angle you have explored using its checkbox; its overstrike is optional, reversible, and saved with that draft. Guides fade to a quieter level once the draft has words, without moving the manuscript. Hover over them or focus a control to read them at full strength.
 5. Drafts save in this browser on this device. Check the save status, reopen work through **Drafts**, and use **Export ▾** to copy Markdown or download a copy you can keep elsewhere.
 
 Sound is optional and starts off. Use **Sound on/off** in the header to choose what feels comfortable.
