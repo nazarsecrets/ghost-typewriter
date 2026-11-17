@@ -1,936 +1,952 @@
 {
-  "version": 2,
-  "generatedAt": "2026-10-12T20:19:46.700Z",
-  "windowStart": "2026-09-12T20:19:46.700Z",
-  "windowEnd": "2026-10-12T20:19:46.700Z",
+  "version": 1,
+  "generatedAt": "2026-11-17T17:30:23.723Z",
+  "windowStart": "2026-10-18T17:30:23.723Z",
+  "windowEnd": "2026-11-17T17:30:23.723Z",
   "topics": [
     {
-      "id": "a1d23b1af71f",
-      "title": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "whyNow": "Several recent sources are raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
+      "id": "577be07924fc",
+      "title": "Meet AI 2027 Conference (Dec 1)",
+      "teaser": "Roll up your sleeves! Meet shiny new [AI 2027 Conference](https://smashingconf.com/ai-2027-conference), a friendly online conference on AI-ready design systems, AI + Figma and AI design patt",
       "tag": "Systems",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-04T15:55:03.000Z",
-      "since": "1 week ago",
+      "category": "Latest",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "since": "today",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 8 days",
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Design Systems for AI Agents (Luke Wroblewski)",
-          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
-          "publishedAt": "2026-10-05T23:39:08.000Z"
-        },
-        {
-          "name": "hn-designsystem",
-          "title": "Design Systems for AI Agents",
-          "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
-          "publishedAt": "2026-10-04T15:55:03.000Z"
+          "name": "smashing",
+          "title": "Meet AI 2027 Conference (Dec 1)",
+          "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "publishedAt": "2026-11-17T12:00:00.000Z"
         }
       ]
     },
     {
-      "id": "4b74e269aed3",
-      "title": "Design systems and judgment",
-      "provocation": "When does consistency stop helping a team think clearly?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
+      "id": "381d4136b96a",
+      "title": "PromptPoseFX: Authoring Pose-Driven Visual Effects through Augmented Prompting and Interactive Refinement",
+      "teaser": "Human pose-driven visual effects offer a compelling way for enhancing video expressiveness and storytelling. Authoring such effects with traditional video editing tools is a complex and time",
+      "tag": "AI",
       "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-10-11T07:19:22.000Z",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T03:51:07.000Z",
       "since": "2 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Ranked in a design community feed within 2 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Why I Built DSLint: A Design System Linter for Figma",
-          "url": "https://dev.to/krishnakakade/why-i-built-dslint-a-design-system-linter-for-figma-51ge",
-          "publishedAt": "2026-10-11T07:19:22.000Z"
-        }
-      ]
-    },
-    {
-      "id": "68573e2109b1",
-      "title": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T17:55:42.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "Agent-first design: Bringing UX to the user",
-          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
-          "publishedAt": "2026-10-12T17:55:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "789f972efb46",
-      "title": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T09:07:53.000Z",
-      "since": "today",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-12T09:07:53.000Z"
-        }
-      ]
-    },
-    {
-      "id": "fa36b5133b5f",
-      "title": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-10-12T08:53:11.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 0 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Human-in-the-loop isn't a safety net. It's a UX problem with a compliance label.",
-          "url": "https://dev.to/cyclopt_dimitrisk/human-in-the-loop-isnt-a-safety-net-its-a-ux-problem-with-a-compliance-label-2467",
-          "publishedAt": "2026-10-12T08:53:11.000Z"
-        }
-      ]
-    },
-    {
-      "id": "2524e0cd1b4d",
-      "title": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:17:58.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Tesler’s Law: complexity moved to a different part of the journey",
-          "url": "https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:17:58.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a8a067f7ca62",
-      "title": "Research that changes work",
-      "provocation": "What makes an insight powerful enough to change a team's direction?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:16:42.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Are synthetic users (really) the future of UX research?",
-          "url": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:16:42.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5eec00d6e199",
-      "title": "Research that changes work",
-      "provocation": "When does research create understanding, and when does it merely create evidence?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:16:30.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Synthetic users are making me rethink “imperfect research”",
-          "url": "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:16:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "64de644f2db7",
-      "title": "Interfaces and attention",
-      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:16:10.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "AI-generated UI is fast design, not UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:16:10.000Z"
-        }
-      ]
-    },
-    {
-      "id": "29d48de75ec3",
-      "title": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T23:15:43.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "What the AI era owes you",
-          "url": "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T23:15:43.000Z"
-        }
-      ]
-    },
-    {
-      "id": "81adf8cd1d59",
-      "title": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T09:40:56.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
-          "title": "NeuroDivSim: An Interactive Tool for Model-Based Reflection on Cognitive Diversity in Interface Design",
-          "url": "https://arxiv.org/abs/2610.11590v1",
-          "publishedAt": "2026-10-08T09:40:56.000Z"
+          "title": "PromptPoseFX: Authoring Pose-Driven Visual Effects through Augmented Prompting and Interactive Refinement",
+          "url": "https://arxiv.org/abs/2611.20485v1",
+          "publishedAt": "2026-11-16T03:51:07.000Z"
         }
       ]
     },
     {
-      "id": "9abe05852df3",
-      "title": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
+      "id": "8192e9a950eb",
+      "title": "UI edge cases: A reference guide",
+      "teaser": "A practical reference guide for catching UI edge cases before they ship — organized by category, with how to test, how to detect them in the wild, and how to design a fix. With examples. UI ",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T21:20:24.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "UI edge cases: A reference guide",
+          "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-16T21:20:24.000Z"
+        }
+      ]
+    },
+    {
+      "id": "398259032687",
+      "title": "AI Tool Adoption and Loyalty among Product, Industrial, and UX/UI Designers across the Double Diamond",
+      "teaser": "Designers share many AI tools, yet their roles produce different work. This survey compared 337 Product, Industrial and UX/UI Designers from 40 countries and regions across the four phases o",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T04:44:39.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "AI Tool Adoption and Loyalty among Product, Industrial, and UX/UI Designers across the Double Diamond",
+          "url": "https://arxiv.org/abs/2611.20519v1",
+          "publishedAt": "2026-11-16T04:44:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1deb66fa3f13",
+      "title": "Sidewalk Stewards: A Visual Analytics Approach for Interactive Topology Repair of Sidewalk Networks",
+      "teaser": "Accurate pedestrian network data is foundational to urban accessibility, routing, and infrastructure planning, yet such data remains scarce and difficult to produce at scale. Automated extra",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-15T23:51:40.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Sidewalk Stewards: A Visual Analytics Approach for Interactive Topology Repair of Sidewalk Networks",
+          "url": "https://arxiv.org/abs/2611.20330v1",
+          "publishedAt": "2026-11-15T23:51:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a746606e7ff5",
+      "title": "Decision theatre or decision design?",
+      "teaser": "AI has made information easy, but it has not made decisions simple. As machines produce more than we can read, our job is shifting from building knowledge to owning decisions. Are we ready? ",
       "tag": "Leadership",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-08T09:20:37.000Z",
+      "publishedAt": "2026-11-13T23:51:42.000Z",
       "since": "4 days ago",
       "relevanceScore": 1,
       "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "AI: incidents by design",
-          "url": "https://uxdesign.cc/ai-incidents-by-design-d4708a3dda9e?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-08T09:20:37.000Z"
+          "title": "Decision theatre or decision design?",
+          "url": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-13T23:51:42.000Z"
         }
       ]
     },
     {
-      "id": "846c8a2f2961",
-      "title": "Design systems and judgment",
-      "provocation": "Who gets to decide when the system should be broken?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-26T14:15:39.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
-          "url": "https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/",
-          "publishedAt": "2026-09-26T14:15:39.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f1bc9fd813d2",
-      "title": "Design systems and judgment",
-      "provocation": "When does consistency stop helping a team think clearly?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-01T10:33:21.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 11 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "First-class design systems on a Ryanair budget",
-          "url": "https://statecraftapp.com/field-notes/first-class-on-a-ryanair-budget",
-          "publishedAt": "2026-10-01T10:33:21.000Z"
-        }
-      ]
-    },
-    {
-      "id": "e7abc36915cd",
-      "title": "Design systems and judgment",
-      "provocation": "When does consistency stop helping a team think clearly?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-24T00:21:16.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 19 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Holistic design systems for the AI coding era",
-          "url": "https://numeric.substack.com/p/design-systems-at-numeric",
-          "publishedAt": "2026-09-24T00:21:16.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b18ab924e25d",
-      "title": "Design systems and judgment",
-      "provocation": "Who gets to decide when the system should be broken?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
+      "id": "c18f740efaa3",
+      "title": "AI is the new old design material",
+      "teaser": "A long workbench where hand tools, a stack of paper, and an open laptop share the same surface. Creative makers and builders have always learned their medium by working with it, from grindin",
       "tag": "AI",
       "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-22T22:53:01.000Z",
-      "since": "3 weeks ago",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T02:33:09.000Z",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 20 days",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "Show HN: Palette, a Figma plugin that turns one color into a whole UI system",
-          "url": "https://www.figma.com/community/plugin/1682163756621093164",
-          "publishedAt": "2026-09-22T22:53:01.000Z"
+          "name": "uxcollective",
+          "title": "AI is the new old design material",
+          "url": "https://uxdesign.cc/ai-is-the-new-old-design-material-0e7f83540c9a?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-13T02:33:09.000Z"
         }
       ]
     },
     {
-      "id": "de155264fb66",
-      "title": "Interfaces and attention",
-      "provocation": "Which interface choice quietly determines how a person understands the whole product?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
+      "id": "5197fa4c4753",
+      "title": "The AI mind tax that afflicts those who use AI best",
+      "teaser": "One person, a dozen tools, and nothing connecting them but her. AI was supposed to make work easier, but for the people who use it most, it just became a different kind of work, and a whole ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-12T11:14:40.000Z",
+      "since": "5 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 5 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The AI mind tax that afflicts those who use AI best",
+          "url": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-12T11:14:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b32e9ab77da2",
+      "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+      "teaser": "",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-28T00:29:04.000Z",
+      "publishedAt": "2026-11-04T09:18:02.000Z",
       "since": "2 weeks ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
+      "relevanceScore": 1,
+      "categoryReason": "High relevance (1.00) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-ux",
-          "title": "Show HN: Help us fire our UI/UX designers",
-          "url": "https://vosu.ai",
-          "publishedAt": "2026-09-28T00:29:04.000Z"
+          "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+          "url": "https://ai.greensighter.com/",
+          "publishedAt": "2026-11-04T09:18:02.000Z"
         }
       ]
     },
     {
-      "id": "881910a121ac",
-      "title": "Interfaces and attention",
-      "provocation": "Which interface choice quietly determines how a person understands the whole product?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "Process",
+      "id": "c3524a7d7679",
+      "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+      "teaser": "AI has sped up how teams design and build, but quality assurance (QA) testing hasn’t kept pace, and the web may be getting less accessible. Drawing on new research, Andrew Chung explains wha",
+      "tag": "Research",
       "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-10-05T18:03:04.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 7 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "SaaS Search UX: Keep Filters When Results Are Empty",
-          "url": "https://dev.to/urielbitton/saas-search-ux-keep-filters-when-results-are-empty-35b",
-          "publishedAt": "2026-10-05T18:03:04.000Z"
-        }
-      ]
-    },
-    {
-      "id": "169857c0668c",
-      "title": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-14T15:57:09.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "I Built a Desktop Pet That Actually Feels at Home on Linux",
-          "url": "https://dev.to/mikachu/designing-a-desktop-pet-native-to-linux-315m",
-          "publishedAt": "2026-09-14T15:57:09.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a32c268edfeb",
-      "title": "Interfaces and attention",
-      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-10-12T11:46:39.000Z",
+      "category": "Latest",
+      "publishedAt": "2026-11-17T08:00:00.000Z",
       "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 0 days",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 0 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Your Error Messages Are a Feature: What a \"Random Logout\" Bug Taught Me About Designing for Failure",
-          "url": "https://dev.to/saifyusuph/your-error-messages-are-a-feature-what-a-random-logout-bug-taught-me-about-designing-for-failure-354",
-          "publishedAt": "2026-10-12T11:46:39.000Z"
+          "name": "smashing",
+          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+          "publishedAt": "2026-11-17T08:00:00.000Z"
         }
       ]
     },
     {
-      "id": "3bb0a370b514",
-      "title": "Design systems and judgment",
-      "provocation": "When does consistency stop helping a team think clearly?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-04T12:41:33.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Show HN: Colorful Design System for Agents",
-          "url": "https://orbeez-kit.vercel.app/chat",
-          "publishedAt": "2026-10-04T12:41:33.000Z"
-        }
-      ]
-    },
-    {
-      "id": "be3d36a21013",
-      "title": "Interfaces and attention",
-      "provocation": "Which interface choice quietly determines how a person understands the whole product?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-10-06T14:21:12.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 6 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "SaaS Pagination UX: Return to the Same Table View",
-          "url": "https://dev.to/urielbitton/saas-pagination-ux-return-to-the-same-table-view-520k",
-          "publishedAt": "2026-10-06T14:21:12.000Z"
-        }
-      ]
-    },
-    {
-      "id": "cd34d5e5fcf0",
-      "title": "Access as a product choice",
-      "provocation": "What changes when accessibility is treated as a design premise rather than a final check?",
-      "whyNow": "A recent source is raising questions about access as a product choice across product and design work.",
-      "lens": "Industry",
-      "tag": "Process",
+      "id": "7efe836f0250",
+      "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
+      "teaser": "Weekly curated resources for designers — thinkers and makers. “When Ted Chiang wrote in The New Yorker that AI isn’t going to make art, I felt vindicated. I forwarded it. To people who had n",
+      "tag": "Leadership",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-09T11:45:31.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "HoldLight: Making Indoor Climbing More Accessible for Blind and Low-Vision Climbers through Layered Route Preview and Real-Time Next-Hold Guidance",
-          "url": "https://arxiv.org/abs/2610.13445v1",
-          "publishedAt": "2026-10-09T11:45:31.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8b8a34883fc2",
-      "title": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-09T04:32:02.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Work2Skill: Capturing Human GUI Experience for Reusable Agent Skill Induction",
-          "url": "https://arxiv.org/abs/2610.12984v1",
-          "publishedAt": "2026-10-09T04:32:02.000Z"
-        }
-      ]
-    },
-    {
-      "id": "84679c851736",
-      "title": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-10-05T15:09:22.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 7 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Building with Agents: QA and UX in the Loop",
-          "url": "https://dev.to/cloudx/building-with-agents-qa-and-ux-in-the-loop-1b6l",
-          "publishedAt": "2026-10-05T15:09:22.000Z"
-        }
-      ]
-    },
-    {
-      "id": "feea3a80930f",
-      "title": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-08T19:43:03.000Z",
-      "since": "4 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 4 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Incremental Retrieval-Augmented Generation for Human-in-the-Loop Decision Support",
-          "url": "https://arxiv.org/abs/2610.12666v1",
-          "publishedAt": "2026-10-08T19:43:03.000Z"
-        }
-      ]
-    },
-    {
-      "id": "76f3b424329b",
-      "title": "Interfaces and attention",
-      "provocation": "When does making an interaction easier also make its consequences harder to see?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-09-29T18:41:44.000Z",
-      "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 13 days",
-      "sources": [
-        {
-          "name": "devto-ux",
-          "title": "Password Reset UX: Make Recovery Clear and Safe",
-          "url": "https://dev.to/urielbitton/password-reset-ux-make-recovery-clear-and-safe-4i1b",
-          "publishedAt": "2026-09-29T18:41:44.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9c23ab338464",
-      "title": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-09-15T01:32:15.000Z",
-      "since": "4 weeks ago",
+      "publishedAt": "2026-11-16T12:17:08.000Z",
+      "since": "yesterday",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
-      "sources": [
-        {
-          "name": "hn-ux",
-          "title": "The UX Research Methodology subway map trap",
-          "url": "https://www.reddit.com/r/UXDesign/comments/1wercj5/the_ux_research_methodology_subway_map_trap/",
-          "publishedAt": "2026-09-15T01:32:15.000Z"
-        }
-      ]
-    },
-    {
-      "id": "34ddb5816666",
-      "title": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T11:35:46.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "On M.F. Husain and multiple meanings of the colour orange",
-          "url": "https://uxdesign.cc/on-m-f-husain-and-multiple-meanings-of-the-colour-orange-bf4b1a6f5504?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-12T11:35:46.000Z"
+          "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
+          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-16T12:17:08.000Z"
         }
       ]
     },
     {
-      "id": "474f451eece7",
-      "title": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-10-12T11:35:36.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Borrowed slopes",
-          "url": "https://uxdesign.cc/borrowed-slopes-cb5c5b464a61?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-12T11:35:36.000Z"
-        }
-      ]
-    },
-    {
-      "id": "27872e4a3829",
-      "title": "Design systems and judgment",
-      "provocation": "When does consistency stop helping a team think clearly?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-10-06T09:03:06.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Ranked in a design community feed within 6 days",
-      "sources": [
-        {
-          "name": "devto-design",
-          "title": "Your design tokens stop at the web boundary",
-          "url": "https://dev.to/zedalleys/your-design-tokens-stop-at-the-web-boundary-4p6a",
-          "publishedAt": "2026-10-06T09:03:06.000Z"
-        }
-      ]
-    },
-    {
-      "id": "b19ba53c904d",
-      "title": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
+      "id": "64bd7271602a",
+      "title": "Advancing Cognitive Pairwise Comparisons for Human-Centric Artificial Intelligence and Data Science: A Human-in-the-Loop Framework",
+      "teaser": "Human-centric artificial intelligence and data science (HCAD) systems increasingly involve human-in-the-loop (HITL) interventions to overcome the limitations of fully automated machine learn",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-05T11:33:13.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "publishedAt": "2026-11-16T11:36:13.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "First Agentic AI Design System to Bootstrap Products",
-          "url": "https://vitadesignsystem.com/",
-          "publishedAt": "2026-10-05T11:33:13.000Z"
+          "name": "arxiv-hci",
+          "title": "Advancing Cognitive Pairwise Comparisons for Human-Centric Artificial Intelligence and Data Science: A Human-in-the-Loop Framework",
+          "url": "https://arxiv.org/abs/2611.20926v1",
+          "publishedAt": "2026-11-16T11:36:13.000Z"
         }
       ]
     },
     {
-      "id": "77ffdd825f44",
-      "title": "Design systems and judgment",
-      "provocation": "Who gets to decide when the system should be broken?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
+      "id": "eadd73a9ff9b",
+      "title": "Show HN: A platform-neutral language for design systems",
+      "teaser": "",
       "tag": "Systems",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-05T08:12:06.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "publishedAt": "2026-11-04T14:38:35.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "A Design System in and for the Agentic Era",
-          "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
-          "publishedAt": "2026-10-05T08:12:06.000Z"
+          "title": "Show HN: A platform-neutral language for design systems",
+          "url": "https://play.milda.dev",
+          "publishedAt": "2026-11-04T14:38:35.000Z"
         }
       ]
     },
     {
-      "id": "7ccf3218495b",
-      "title": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "Process",
+      "id": "f73e2a6b12b1",
+      "title": "Reveal: A Provenance-Aware System for Multimodal Urban Data Exploration",
+      "teaser": "Urban sensing initiatives increasingly produce multimodal datasets that combine visual and textual information to capture city characteristics and subjective factors such as safety, comfort,",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-09T20:32:02.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "publishedAt": "2026-11-15T23:18:07.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
-          "name": "uxcollective",
-          "title": "Designing for an idea before it exists",
-          "url": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-10-09T20:32:02.000Z"
+          "name": "arxiv-hci",
+          "title": "Reveal: A Provenance-Aware System for Multimodal Urban Data Exploration",
+          "url": "https://arxiv.org/abs/2611.20311v1",
+          "publishedAt": "2026-11-15T23:18:07.000Z"
         }
       ]
     },
     {
-      "id": "422db61525d8",
-      "title": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
+      "id": "d2af93bfd50f",
+      "title": "Sick of Herding AI Cats?",
+      "teaser": "I&#x27;m 54 and I&#x27;ve been a developer for 40 odd years, but the last couple of years have been the strangest yet. I&#x27;ve gone from hand crafting and taking pride in every line of cod",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-08T13:03:49.000Z",
+      "publishedAt": "2026-11-14T04:13:42.000Z",
       "since": "4 days ago",
       "relevanceScore": 0.429,
       "categoryReason": "Published 4 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "STcubeOperator: A Framework for Analyzing Spatiotemporal Event Data",
-          "url": "https://arxiv.org/abs/2610.11894v1",
-          "publishedAt": "2026-10-08T13:03:49.000Z"
+          "name": "hn-designsystem",
+          "title": "Sick of Herding AI Cats?",
+          "url": "https://clowder.sh",
+          "publishedAt": "2026-11-14T04:13:42.000Z"
         }
       ]
     },
     {
-      "id": "68dd4d5a6774",
-      "title": "Research that changes work",
-      "provocation": "What makes an insight powerful enough to change a team's direction?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
+      "id": "9cca55adbbbe",
+      "title": "Astryx: An open source design system that's customizable and agent ready",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-08T23:27:30.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "An open source design system that's customizable and agent ready",
+          "url": "https://github.com/meta/astryx",
+          "publishedAt": "2026-11-10T22:00:08.000Z"
+        },
+        {
+          "name": "hn-designsystem",
+          "title": "Astryx: An open source design system that's customizable and agent ready",
+          "url": "https://github.com/meta/astryx",
+          "publishedAt": "2026-11-08T23:27:30.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c7128080f72a",
+      "title": "Semantic Validity vs. Graphical Arrangement in Visualization Grammars",
+      "teaser": "Systems for modular, declarative and compositional specification for data visualizations, otherwise known as visualization grammars, often claim Wilkinson's Grammar of Graphics as motivation",
       "tag": "Research",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-10-07T20:47:47.000Z",
+      "publishedAt": "2026-11-16T13:24:34.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Semantic Validity vs. Graphical Arrangement in Visualization Grammars",
+          "url": "https://arxiv.org/abs/2611.21073v1",
+          "publishedAt": "2026-11-16T13:24:34.000Z"
+        }
+      ]
+    },
+    {
+      "id": "819d92c0df8e",
+      "title": "BoardUI: A React design system with 103 unique components",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-02T16:41:01.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 15 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "BoardUI: A React design system with 103 unique components",
+          "url": "https://www.boardui.com",
+          "publishedAt": "2026-11-02T16:41:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "99eceb1f9a16",
+      "title": "Show HN: Harness Relay – the coding agents you have, working together",
+      "teaser": "If you already have multiple coding agents(one kind of agent also works though), you should really look into this project! It&#x27;s a desktop app that brings coding agents working together,",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T21:01:02.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Harness Relay – the coding agents you have, working together",
+          "url": "https://agentic-system-lab.github.io/harness-relay/",
+          "publishedAt": "2026-11-13T21:01:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d0f9ed5224dd",
+      "title": "Brandrail – make Claude Code and Cursor follow your design system",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T03:17:26.000Z",
       "since": "5 days ago",
       "relevanceScore": 0.429,
       "categoryReason": "Published 5 days ago",
       "sources": [
         {
-          "name": "arxiv-hci",
-          "title": "Feeling Wistful: Reflecting on Scholarly Sensibilities with Creative Reading Traces",
-          "url": "https://arxiv.org/abs/2610.10890v1",
-          "publishedAt": "2026-10-07T20:47:47.000Z"
+          "name": "hn-designsystem",
+          "title": "Brandrail – make Claude Code and Cursor follow your design system",
+          "url": "https://github.com/brandrail-app/brandrail",
+          "publishedAt": "2026-11-13T03:17:26.000Z"
         }
       ]
     },
     {
-      "id": "a228d8077d43",
-      "title": "Design systems and judgment",
-      "provocation": "Who gets to decide when the system should be broken?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
+      "id": "2f852a2e1a4f",
+      "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+      "teaser": "Take up to 5 in-depth training courses, teaching user experience best practices for successful design. Training focused on long-lasting skills for UX professionals. January 19 - February 1, ",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-27T22:06:14.000Z",
+      "publishedAt": "2026-11-06T04:34:21.000Z",
       "since": "2 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 12 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+          "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-11-06T04:34:21.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7f2f50d78c3a",
+      "title": "Why are we cloning Photoshop?",
+      "teaser": "AI is making it easy to recreate professional tools. I suspect there’s a bigger opportunity being overlooked. Editing in PhotoCraft October saw the release of PhotoCraft , an open-source Pho",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T22:20:42.000Z",
+      "since": "6 days ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "Published 6 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Why are we cloning Photoshop?",
+          "url": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-11T22:20:42.000Z"
+        }
+      ]
+    },
+    {
+      "id": "04b9f201d26b",
+      "title": "Show HN: An experiment in automated long-horizon builds with AMQP 0.9.1",
+      "teaser": "My cofounders and I are in the process of spinning up an AI integration lab, and over the last year we&#x27;ve consumed billions of tokens across multiple American, European, and Chinese mod",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-02T19:40:03.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.714,
+      "categoryReason": "High relevance (0.71) with limited coverage over 15 days",
       "sources": [
         {
           "name": "hn-designsystem",
-          "title": "A Quick Guide on Creating a Design System",
-          "url": "https://www.andrewcoyle.com/blog/a-quick-guide-on-creating-a-design-system",
-          "publishedAt": "2026-09-27T22:06:14.000Z"
+          "title": "Show HN: An experiment in automated long-horizon builds with AMQP 0.9.1",
+          "url": "https://github.com/siennathesane/switchboard",
+          "publishedAt": "2026-11-02T19:40:03.000Z"
         }
       ]
     },
     {
-      "id": "566766490bd4",
-      "title": "Design systems and judgment",
-      "provocation": "What judgment should a design system preserve rather than automate?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
+      "id": "feb9016c6972",
+      "title": "Designing Games for One Shared Phone: 7 UX Patterns From 30+ Pass-and-Play Games",
+      "teaser": "Most multiplayer advice assumes every player has their own screen. Pass-and-play games break that...",
+      "tag": "Process",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-30T10:03:43.000Z",
+      "publishedAt": "2026-11-06T10:35:22.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Designing Games for One Shared Phone: 7 UX Patterns From 30+ Pass-and-Play Games",
+          "url": "https://dev.to/dhaval109/designing-games-for-one-shared-phone-7-ux-patterns-from-30-pass-and-play-games-34hp",
+          "publishedAt": "2026-11-06T10:35:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "11984c643c5c",
+      "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
+      "teaser": "",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-05T17:30:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
       "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
       "sources": [
         {
-          "name": "hn-designsystem",
-          "title": "How to Sync a Design System with Claude Design",
-          "url": "https://nitayneeman.com/blog/how-to-sync-a-design-system-with-claude-design/",
-          "publishedAt": "2026-09-30T10:03:43.000Z"
+          "name": "hn-ux",
+          "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
+          "url": "https://github.com/smokeeaasd/flawless-ui-ux",
+          "publishedAt": "2026-11-05T17:30:09.000Z"
         }
       ]
     },
     {
-      "id": "355c8a83486d",
-      "title": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "Process",
+      "id": "e4421e05f203",
+      "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
+      "teaser": "Hey HN! I’ve been building an open RPG game engine called Oathshaper. It’s current incarnation was created with Godot and inspired by the BioWare classics (Jade Empire, Mass Effect, Knights ",
+      "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-28T10:16:02.000Z",
+      "publishedAt": "2026-11-03T16:48:13.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
       "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
-          "name": "hn-ux",
-          "title": "Common UX Design Methods, Ranked by Value",
-          "url": "https://jakobnielsenphd.substack.com/p/100-uxd-methods",
-          "publishedAt": "2026-09-28T10:16:02.000Z"
+          "name": "hn-designsystem",
+          "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
+          "url": "https://github.com/oathshaper/oathshaper",
+          "publishedAt": "2026-11-03T16:48:13.000Z"
         }
       ]
     },
     {
-      "id": "eea5252eb77d",
-      "title": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
+      "id": "055d508764ff",
+      "title": "Show HN: Screenshot to Tokens – give a web app a design system from a screenshot",
+      "teaser": "",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-04T13:09:26.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "High relevance (0.57) with limited coverage over 13 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Show HN: Screenshot to Tokens – give a web app a design system from a screenshot",
+          "url": "https://github.com/nhunsaker/screenshot-to-tokens",
+          "publishedAt": "2026-11-04T13:09:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6281ea8c10de",
+      "title": "Experience Design: Dropping the “User” from “User Experience”",
+      "teaser": "AI is expanding UX beyond human users to agents acting on their behalf. Experience design names this broader field, which still centers on people’s goals.",
       "tag": "AI",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-24T07:54:55.000Z",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "3 weeks ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 18 days",
       "sources": [
         {
-          "name": "hn-ux",
-          "title": "Phyll, a UX review for apps built with AI that keeps the design",
-          "url": "https://github.com/carlosphyll/phyll",
-          "publishedAt": "2026-09-24T07:54:55.000Z"
+          "name": "nngroup",
+          "title": "Experience Design: Dropping the “User” from “User Experience”",
+          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-30T17:00:00.000Z"
         }
       ]
     },
     {
-      "id": "41b123757eeb",
-      "title": "Leadership through uncertainty",
-      "provocation": "Which part of senior design work is important precisely because it is hard to point to?",
-      "whyNow": "A recent source is raising questions about leadership through uncertainty across product and design work.",
-      "lens": "Self",
-      "tag": "Leadership",
+      "id": "6243e8ef238d",
+      "title": "Why bother paying for software anymore?",
+      "teaser": "And why design is the answer AI bros didn&#x2019;t expect. Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T21:27:14.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Why bother paying for software anymore?",
+          "url": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-16T21:27:14.000Z"
+        }
+      ]
+    },
+    {
+      "id": "84c91daf12e9",
+      "title": "UX Disciplines: Glossary",
+      "teaser": "Definitions of fields related to user experience, including UX design, UI design, visual design, interaction design, service design, UX research, and DesignOps",
+      "tag": "Research",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-10-02T17:00:00.000Z",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 1,
+      "categoryReason": "High relevance (1.00) with limited coverage over 25 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-23T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "56dd777ea30e",
+      "title": "The trash robot that doesn’t pick up, but hands out",
+      "teaser": "On kawaii, embarrassment, and designing to invite Continue reading on UX Collective »",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-16T12:16:15.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The trash robot that doesn’t pick up, but hands out",
+          "url": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-16T12:16:15.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ef4d403b4282",
+      "title": "Show HN: Cryptex Vault – A password manager designed to outlive its creator",
+      "teaser": "Hello everyone! About four years ago, a password manager I&#x27;ve used and depended on has been acquired and soon after, it was shut down. If anyone remembers MYKI, it was a password manage",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-23T09:38:12.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: Cryptex Vault – A password manager designed to outlive its creator",
+          "url": "https://www.cryptex-vault.com/",
+          "publishedAt": "2026-10-23T09:38:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ed62f35a97f4",
+      "title": "Offline UX Testing: Disconnect During the Task in Your Public SaaS Demo",
+      "teaser": "Test offline UX by interrupting a real task, inspecting what the interface knows about the attempted...",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-08T17:16:09.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Offline UX Testing: Disconnect During the Task in Your Public SaaS Demo",
+          "url": "https://dev.to/urielbitton/offline-ux-testing-disconnect-during-the-task-in-your-public-saas-demo-21pb",
+          "publishedAt": "2026-11-08T17:16:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f52f62d7a19b",
+      "title": "The Developer's Design Advantage: Why UX and UI Matter with Kathryn Grayson Nanz [video]",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-07T15:00:20.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
       "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
-          "name": "nngroup",
-          "title": "Empathy Mapping: The First Step in Design Thinking",
-          "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-10-02T17:00:00.000Z"
+          "name": "hn-ux",
+          "title": "The Developer's Design Advantage: Why UX and UI Matter with Kathryn Grayson Nanz [video]",
+          "url": "https://www.youtube.com/watch?v=aoJ-7ozu8h0",
+          "publishedAt": "2026-11-07T15:00:20.000Z"
         }
       ]
     },
     {
-      "id": "edd263780606",
-      "title": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
-      "lens": "Ways of Working",
+      "id": "71ed7e73d457",
+      "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
+      "teaser": "A cautionary tale for Asian capital attempting to operate technology businesses on both sides of the Pacific simultaneously Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T23:51:27.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
+          "url": "https://uxdesign.cc/schr%C3%B6dingers-huang-d1da36bff88c?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-13T23:51:27.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5329969f46ab",
+      "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+      "teaser": "As AI speeds up development, it can be a challenge for research to adapt. Research can define what each release must measure and what it can help teams discover.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T18:00:00.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+          "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-11-13T18:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5e7ef3729765",
+      "title": "The crooked plate that felt more human than the algorithm",
+      "teaser": "We have spent years teaching machines to be flawless. Now the flawlessness is beginning to feel like a kind of absence. Continue reading on UX Collective »",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-13T10:58:22.000Z",
+      "since": "4 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 4 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The crooked plate that felt more human than the algorithm",
+          "url": "https://uxdesign.cc/the-crooked-plate-that-felt-more-human-than-the-algorithm-40bb4e5da147?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-13T10:58:22.000Z"
+        }
+      ]
+    },
+    {
+      "id": "17bf8d160104",
+      "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo",
+      "teaser": "A useful session timeout UX demo shows the work before expiry, the sign-in transition, and the exact...",
       "tag": "Process",
       "origin": "source-backed",
       "category": "Under the Radar",
-      "publishedAt": "2026-09-15T08:01:39.000Z",
-      "since": "4 weeks ago",
+      "publishedAt": "2026-10-31T23:12:50.000Z",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo",
+          "url": "https://dev.to/urielbitton/session-timeout-ux-show-what-survives-sign-in-in-your-public-demo-2l81",
+          "publishedAt": "2026-10-31T23:12:50.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9b61d04877b9",
+      "title": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
+      "teaser": "Resumo. Testamos se o conjunto formado por um modelo pequeno (Haiku 5.5), um data lake de regras de...",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-11T10:17:16.000Z",
+      "since": "6 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 6 days ago",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
+          "url": "https://dev.to/melolabs_melo_0f8fdb509b9/haiku-com-kit-de-ux-regras-abertas-e-um-codigo-minimo-fazem-um-modelo-pequeno-acertar-como-um-26do",
+          "publishedAt": "2026-11-11T10:17:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2acdf70fc7dc",
+      "title": "UX Design Patterns",
+      "teaser": "",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-28T05:01:23.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
       "sources": [
         {
           "name": "hn-ux",
-          "title": "UX should just be called Experience Design",
-          "url": "https://www.leadinginproduct.com/p/eexperience-design-is-a-better-term",
-          "publishedAt": "2026-09-15T08:01:39.000Z"
+          "title": "UX Design Patterns",
+          "url": "https://sambernheim.com/blog/ux-design-patterns",
+          "publishedAt": "2026-10-28T05:01:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "70e4549b006f",
+      "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+      "teaser": "Design systems thrive on consistency, so where does randomness fit in? Through playful demos of organic typography, bouncing letters, and splayed cards, Brecht De Ruyte shows how the new CSS",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 28 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+          "publishedAt": "2026-10-20T10:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "951d6a6dd7ca",
+      "title": "Usability 101: Introduction to Usability",
+      "teaser": "Usability refers to how easily people can complete tasks with a design. Improve it by watching representative users do realistic tasks, early and repeatedly.",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-06T18:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "Usability 101: Introduction to Usability",
+          "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-11-06T18:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b3d176ad0d3b",
+      "title": "A New Community For In-House UX People",
+      "teaser": "We’ve been working on something new! We’ve teamed up for a **new small community** for people doing UX-inside organizations &mdash; with weekly calls and a shared library of the business cas",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "since": "2 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "A New Community For In-House UX People",
+          "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+          "publishedAt": "2026-11-06T08:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8e6f6138875a",
+      "title": "Show HN: ParaGraFX – An iOS app for reading and illustrating ePub books",
+      "teaser": "A few years ago when Stable Diffusion was released, I happened to be reading Homer&#x27;s Iliad and came across a section where Achilles&#x27; shield is described in great detail. I fed the ",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-23T14:27:01.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: ParaGraFX – An iOS app for reading and illustrating ePub books",
+          "url": "https://apps.apple.com/us/app/paragrafx-illustrate-books/id6795768929",
+          "publishedAt": "2026-10-23T14:27:01.000Z"
+        }
+      ]
+    },
+    {
+      "id": "05d966511e89",
+      "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
+      "teaser": "Semi-related, I&#x27;m available for UI&#x2F;UX Engineering&#x2F;Design roles.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-19T19:00:23.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "sources": [
+        {
+          "name": "hn-ux",
+          "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
+          "url": "https://swirltogether.com/",
+          "publishedAt": "2026-10-19T19:00:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "fe0354922a2f",
+      "title": "The Role of UX in Agentic Software Factories",
+      "teaser": "AI-native software development lifecycles reduce UX to AI context. UX must discover user needs, shape what’s built, and evaluate it before and after launch.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-30T17:00:00.000Z",
+      "since": "3 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "The Role of UX in Agentic Software Factories",
+          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-30T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "235624794eb9",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "teaser": "AI saves UX practitioners time on nearly every task, yet most feel lukewarm about it: mandates, unreliable output, and inflated expectations eat the gains.",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "since": "4 weeks ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "sources": [
+        {
+          "name": "nngroup",
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-10-23T17:00:00.000Z"
         }
       ]
     }
@@ -940,73 +956,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-10-12T20:19:46.700Z"
+      "fetchedAt": "2026-11-17T17:30:23.723Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-12T20:19:46.721Z"
+      "fetchedAt": "2026-11-17T17:30:23.761Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-12T20:19:46.722Z"
+      "fetchedAt": "2026-11-17T17:30:23.762Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-10-12T20:19:46.722Z"
+      "fetchedAt": "2026-11-17T17:30:23.763Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-10-12T20:19:46.722Z"
+      "fetchedAt": "2026-11-17T17:30:23.763Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-12T20:19:46.723Z"
+      "fetchedAt": "2026-11-17T17:30:23.764Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-12T20:19:46.723Z"
+      "fetchedAt": "2026-11-17T17:30:23.765Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 11,
-      "fetchedAt": "2026-10-12T20:19:46.724Z"
+      "items": 8,
+      "fetchedAt": "2026-11-17T17:30:23.765Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 34,
-      "fetchedAt": "2026-10-12T20:19:46.724Z"
+      "items": 36,
+      "fetchedAt": "2026-11-17T17:30:23.766Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-10-12T20:19:46.724Z"
+      "fetchedAt": "2026-11-17T17:30:23.767Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-10-12T20:19:46.725Z"
+      "fetchedAt": "2026-11-17T17:30:23.767Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-10-12T20:19:46.725Z"
+      "fetchedAt": "2026-11-17T17:30:23.768Z"
     }
   ]
 }
