@@ -1,0 +1,66 @@
+/* Ghost uses the manuscript's existing ink, graphite and editorial type. */
+.ghost-root { --ghost-left: calc(max(28px, 4vw) + 672px + 56px); --ghost-keyboard: 0px; color: var(--ink); }
+.ghost-trigger { position: fixed; z-index: 42; left: var(--ghost-left); bottom: 32px; display: flex; align-items: center; gap: 7px; min-height: 44px; padding: 4px 8px; color: var(--graphite); background: var(--sheet); font: 12px "Avenir Next", Avenir, sans-serif; border: 0; cursor: pointer; }
+.ghost-trigger svg { width: 26px; height: 30px; flex: none; }
+.ghost-trigger.is-reading svg { fill: var(--signal); fill-opacity: .12; }
+.ghost-anchors { position: fixed; z-index: 10; left: var(--ghost-left); bottom: 92px; width: min(230px, calc(100vw - var(--ghost-left) - 28px)); max-height: 30vh; overflow-y: auto; color: var(--graphite); font-size: 12px; line-height: 1.6; overflow-wrap: anywhere; }
+.ghost-anchors:empty { display: none; }
+.ghost-anchors p { margin: 0 0 14px; }
+.ghost-anchors p > span { display: block; font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
+.ghost-anchors button { display: block; margin: 8px 0; color: var(--signal); }
+.ghost-anchors summary { cursor: pointer; }
+.ghost-beat { position: relative; display: flex; gap: 8px; padding: 7px 2px; }
+.ghost-beat small { display: block; line-height: 1.5; margin-top: 5px; }
+.ghost-paper { position: fixed; z-index: 45; left: var(--ghost-left); bottom: 88px; width: min(360px, calc(100vw - var(--ghost-left) - 28px)); max-height: min(720px, calc(100dvh - 180px)); overflow-y: auto; overscroll-behavior: contain; padding: 22px; background: var(--sheet); border: 1px solid var(--rule); box-shadow: 0 8px 32px #20231f12; font: 14px/1.65 "Avenir Next", Avenir, sans-serif; overflow-wrap: anywhere; transform-origin: bottom center; }
+.ghost-paper::after { content: ''; display: block; height: 4px; margin: 22px -22px -22px; border-top: 1px solid var(--rule); background: var(--paper); }
+.ghost-paper-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--rule); font-size: 10px; text-transform: uppercase; letter-spacing: .09em; }
+.ghost-paper-heading button { flex: none; font-size: 11px; text-transform: none; letter-spacing: 0; }
+.ghost-paper h2 { margin: 20px 0 12px; font: 500 25px/1.2 var(--serif); }
+.ghost-paper h3 { margin: 24px 0 10px; color: var(--graphite); font-size: 10px; font-weight: 500; text-transform: uppercase; letter-spacing: .12em; }
+.ghost-paper p { margin: 14px 0; }
+.ghost-paper button { border: 0; background: transparent; padding: 4px 0; min-height: 36px; text-align: left; cursor: pointer; color: var(--signal); }
+.ghost-paper input, .ghost-paper select, .ghost-paper textarea { font: inherit; color: var(--ink); accent-color: var(--signal); max-width: 100%; }
+.ghost-field { display: grid; gap: 5px; margin: 14px 0; font-size: 12px; }
+.ghost-field input, .ghost-field textarea, .ghost-field select { width: 100%; border: 1px solid var(--rule); background: transparent; padding: 8px; border-radius: 0; }
+.ghost-field textarea { resize: vertical; }
+.ghost-row { display: flex; align-items: baseline; gap: 10px; padding: 9px 0; width: 100%; }
+.ghost-row input[type=checkbox], .ghost-beat input { flex: none; width: 15px; height: 15px; margin: 0; }
+.ghost-reading { border-bottom: 1px solid var(--rule); }
+.ghost-reading > span { margin-left: auto; color: var(--graphite); font-size: 11px; }
+.ghost-caption, .ghost-result small { font-size: 11px; color: var(--graphite); }
+.ghost-lens { border-bottom: 1px solid var(--rule); }
+.ghost-lens > span:first-child { font-size: 11px; color: var(--graphite); }
+.ghost-lens small { display: block; font-size: 10px; color: var(--graphite); }
+.ghost-paper footer { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 24px; }
+.ghost-paper details { margin: 12px 0; }
+.ghost-paper summary { cursor: pointer; min-height: 32px; }
+.ghost-result { font-family: var(--serif); font-size: 17px; line-height: 1.55; }
+.ghost-result h3, .ghost-result small, .ghost-result .ghost-caption, .ghost-stale { font-family: "Avenir Next", Avenir, sans-serif; }
+.ghost-result blockquote { margin: 12px 0; padding-left: 12px; border-left: 1px solid var(--signal); }
+.ghost-result ul { padding-left: 20px; }
+.ghost-result small { display: block; }
+.ghost-stale { font-size: 11px; padding: 8px; background: var(--paper); }
+.ghost-message { padding-top: 12px; border-top: 1px solid var(--rule); font-size: 12px; }
+.ghost-message button { margin-right: 12px; }
+.ghost-back { margin-top: 8px; font-size: 11px; }
+.ghost-root.is-open .ghost-anchors { visibility: hidden; }
+/* A 160px gutter is the minimum for the resting emblem. A reading slip needs
+   280px; below that use a sheet and reserve its space, rather than cover text. */
+@media (max-width: 1110px) {
+  .ghost-root { --ghost-left: auto; }
+  .app:has(.ghost-root) .manuscript { padding-right: max(76px, calc(100% - 672px - max(28px, 4vw))); }
+  .ghost-trigger { left: auto; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom) + var(--ghost-keyboard)); }
+  .ghost-trigger > span { display: none; }
+  .ghost-anchors { position: relative; left: auto; bottom: auto; width: auto; max-width: 672px; max-height: none; margin: 0 20px 100px; }
+  .ghost-paper { left: auto; right: 16px; bottom: calc(72px + env(safe-area-inset-bottom) + var(--ghost-keyboard)); width: min(380px, calc(100vw - 32px)); max-height: min(45dvh, calc(100dvh - 160px - var(--ghost-keyboard))); }
+  .app:has(.ghost-root.is-open) .manuscript { height: calc(55dvh - 208px); min-height: 100px; overflow-y: auto; padding-bottom: 24px; }
+  .ghost-root.is-open .ghost-anchors { display: none; }
+}
+@media (forced-colors: active) { .ghost-paper { border: 1px solid CanvasText; } .ghost-trigger { border: 1px solid ButtonText; } }
+@media print { .ghost-root { display: none; } }
+
+.ghost-beat input { appearance: none; border: 1px solid var(--graphite); border-radius: 2px; }
+.ghost-tick { position: absolute; left: 3px; top: 8px; width: 13px; height: 15px; pointer-events: none; }
+.ghost-tick path { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.ghost-beat:has(input:checked) .ghost-tick path { stroke-dashoffset: 0; }
+@media (forced-colors: active) { .ghost-beat input { appearance: auto; } .ghost-tick { display: none; } }

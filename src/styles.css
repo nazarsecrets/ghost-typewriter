@@ -152,8 +152,8 @@ html:has(.app[data-theme="typewriter"].view-write) { background: #fff; }
 .manuscript-paragraph::placeholder { color: #b3b7b0; }
 /* The caret is the focus indicator here; an outline or gutter rule would read
    as a second, heavier cursor beside it. Forced colors still get an outline. */
-.manuscript-paragraph:focus-visible { outline: 0; }
-@media (forced-colors: active) { .manuscript-paragraph:focus-visible { outline: 2px solid Highlight; outline-offset: 2px; box-shadow: none; } }
+.manuscript-title:focus-visible, .manuscript-paragraph:focus-visible { outline: 0; }
+@media (forced-colors: active) { .manuscript-title:focus-visible, .manuscript-paragraph:focus-visible { outline: 2px solid Highlight; outline-offset: 2px; box-shadow: none; } }
 /* Resting states; quietParagraph animates to these same values. */
 .manuscript-paragraph.is-past { opacity: .82; }
 .manuscript-paragraph.is-distant { opacity: .68; }
@@ -276,6 +276,16 @@ html:has(.app[data-theme="typewriter"].view-write) { background: #fff; }
 .writing-guides { margin: 24px 0 36px; padding-left: 19px; color: var(--graphite); font-size: 14px; line-height: 1.75; }
 .writing-guides li { padding-left: 4px; margin-block: 5px; }
 .writing-guides strong { color: var(--ink); font-weight: 500; }
+.guide-set { margin: 24px 0 36px; }
+.guide-set .writing-guides { margin: 14px 0 0; }
+.guide-note { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 20px; }
+.guide-note p { margin: 0; color: var(--graphite); font: italic 14px/1.5 var(--serif); }
+.guide-labels { margin-top: 14px; }
+.guide-label-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.guide-label-row button { padding: 5px 12px; border: 1px solid var(--rule); border-radius: 999px; background: transparent; color: var(--graphite); font-size: 12px; letter-spacing: .02em; cursor: pointer; }
+.guide-label-row button:hover, .guide-label-row button.selected { border-color: var(--ink); color: var(--ink); }
+.guide-label-row button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.open-guide { margin: 12px 0 0; max-width: 620px; color: var(--graphite); font-size: 14px; line-height: 1.7; }
 @media (max-width: 760px) {
   .guide-toolbar { flex-wrap: wrap; gap: 12px; }
   .writing-guides { font-size: 13px; }

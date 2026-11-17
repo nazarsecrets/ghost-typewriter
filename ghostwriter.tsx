@@ -1,13 +1,16 @@
-import { useCallback, useEffect, useLayoutEffect, useRef, useState, type KeyboardEvent } from "react";
+import { lazy, Suspense, useCallback, useEffect, useLayoutEffect, useRef, useState, type KeyboardEvent } from "react";
 import { carriageReturn, enterWritingMode, focusParagraph, paperImpulse, pathwayEnter, pathwayExit, quietParagraph, strikeOf } from "./src/motion";
-import { advanceDeskOffset, loadTopics as loadTopicDesk, type DisplayTopic, type EditorialLens, type TopicResult } from "./src/topicSource";
+import { advanceDeskOffset, loadTopics as loadTopicDesk, syncStatus, type DisplayTopic, type EditorialLens, type TopicResult } from "./src/topicSource";
 
 import { measureCaret } from "./src/caret";
 import { stopWritingScroll } from "./src/motion";
 import { writingGuides } from "./src/writingGuides";
 import { enableTypewriterSound, muteTypewriterSound, playTypewriterSound, prepareTypewriterSound } from "./src/typewriterAudio";
 
-declare const __ANTHROPIC_CONFIGURED__: boolean;
+import { initialGhost, type GhostState } from "./src/ghostModel";
+const Ghost = lazy(() => import("./src/Ghost"));
+
+declare const __GHOST_CONFIGURED__: boolean;
 
 type View = "today" | "reflect" | "write" | "review";
 type Mode = "article" | "linkedin";
@@ -16,8 +19,9 @@ type PathwayType = "Memory" | "Tension" | "Outcome" | "System" | "People";
 type Topic = DisplayTopic;
 type Pathway = { prompt: string; type: PathwayType };
 type Reflection = { angle: string; pathways: Pathway[] };
-type Draft = { id: string; title: string; updatedAt: string; content: string; topic?: Topic | null; notes?: Partial<Record<PathwayType, string>> };
+type Draft = { ghost?: GhostState; id: string; title: string; updatedAt: string; content: string; topic?: Topic | null; notes?: Partial<Record<PathwayType, string>> };
 type Session = {
+  ghost?: GhostState;
   draftId?: string;
   savedAt?: string;
   view: View;
@@ -69,8 +73,6 @@ function topicPrompt(topic: Topic): string {
 function topicContext(topic: Topic): string {
   return topic.origin === "source-backed" ? topic.whyNow : topic.teaser;
 }
-
-const CRITIQUE_PROMPT = (mode: Mode, tone: Tone) => `You are a warm, precise UX writing editor. Review this ${mode === "article" ? "reflective UX article" : "LinkedIn post"} in a ${tone === "reflective" ? "gentle, observational" : "crisp, editorial"} tone. Return: grammar and mechanics, voice and tone, structure and flow, a refined version, what changed and why, 2-3 titles, and 3 relevant hashtags. Preserve the author's voice. Avoid buzzwords, performative claims, and vague language.`;
 
 function fallbackReflection(topic: Topic): Reflection {
   return {
@@ -144,18 +146,15 @@ function writeStorage<T>(key: string, data: T) {
   localStorage.setItem(key, JSON.stringify({ version: STORAGE_VERSION, data }));
 }
 
-async function askClaude(system: string | undefined, content: string, maxTokens = 1400, signal?: AbortSignal) {
-  const response = await fetch("/api/anthropic/v1/messages", {
-    method: "POST", signal,
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      model: "claude-sonnet-4-20250514", max_tokens: maxTokens,
-      ...(system ? { system } : {}), messages: [{ role: "user", content }]
-    })
+async function requestGhost(_system: string, content: string, signal: AbortSignal) {
+  const response = await fetch(import.meta.env.VITE_GHOST_API_URL || "/api/ghost/read", {
+    method: "POST", signal, headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ context: JSON.parse(content) })
   });
-  if (!response.ok) throw new Error(`API request failed (${response.status})`);
+  if (!response.ok) throw new Error(response.status === 429 ? "reading-limit" : `Reading failed (${response.status})`);
   const data = await response.json();
-  return data.content?.find((block: { type: string; text?: string }) => block.type === "text")?.text || "";
+  if (!data.slip) throw new Error("Invalid reading response");
+  return JSON.stringify(data.slip);
 }
 
 /** How long the typing has to stop before the writing position settles. */
@@ -175,9 +174,11 @@ type ParagraphEditorProps = {
   onMergeForward: (index: number) => void;
   onMoveCaret: (index: number, position: "start" | "end") => void;
   onSelection: (index: number, start: number, end: number) => void;
+  /** Overrides the default empty-paragraph cue (Reflect uses the Memory guide). */
+  placeholder?: string;
 };
 
-function ParagraphEditor({ value, index, activeIndex, paragraphCount, soundOn, register, onActivate, onChange, onEnter, onMergeBackward, onMergeForward, onMoveCaret, onSelection }: ParagraphEditorProps) {
+function ParagraphEditor({ value, index, activeIndex, paragraphCount, soundOn, register, onActivate, onChange, onEnter, onMergeBackward, onMergeForward, onMoveCaret, onSelection, placeholder }: ParagraphEditorProps) {
   const localRef = useRef<HTMLTextAreaElement | null>(null);
   const resize = useCallback(() => {
     const element = localRef.current;
@@ -235,7 +236,7 @@ function ParagraphEditor({ value, index, activeIndex, paragraphCount, soundOn, r
     ref={setRef}
     className={`manuscript-paragraph ${index === activeIndex ? "is-active" : ""} ${index < activeIndex ? "is-past" : ""} ${index < activeIndex - 1 ? "is-distant" : ""}`}
     value={value} rows={1} name={`paragraph-${index}`} autoComplete="off" aria-label={`Paragraph ${index + 1}`}
-    placeholder={index === 0 ? "Start with what you noticed…" : "Continue the thought…"}
+    placeholder={placeholder ?? (index === 0 ? "Start with what you noticed…" : "Continue the thought…")}
     onSelect={(event) => onSelection(index, event.currentTarget.selectionStart, event.currentTarget.selectionEnd)}
     onFocus={() => onActivate(index)} onChange={(event) => onChange(index, event.target.value)} onKeyDown={handleKeyDown}
   />;
@@ -245,7 +246,13 @@ export default function Ghostwriter() {
   const [initialSession] = useState(() => readStorage(SESSION_KEY, INITIAL_SESSION));
   const restored = useRef(initialSession);
   const [draftId, setDraftId] = useState(() => initialSession.draftId || crypto.randomUUID());
+  const [ghost, setGhost] = useState(() => initialSession.ghost ?? initialGhost(Boolean(initialSession.selectedTopic)));
   const [view, setView] = useState<View>(restored.current.view);
+  // Guides fold to their labels only when Reflect opens on a draft that already
+  // has words, so the manuscript never jumps under the caret mid-sentence.
+  const [guidesFolded, setGuidesFolded] = useState(false);
+  const [openGuide, setOpenGuide] = useState<string | null>(null);
+  const openGuideRef = useRef<HTMLParagraphElement | null>(null);
   const [mode, setMode] = useState<Mode>(restored.current.mode);
   const [tone, setTone] = useState<Tone>(restored.current.tone);
   const [selectedTopic, setSelectedTopic] = useState<Topic | null>(restored.current.selectedTopic);
@@ -259,14 +266,12 @@ export default function Ghostwriter() {
   const [topicResult, setTopicResult] = useState<TopicResult | null>(null);
   const [topicsLoading, setTopicsLoading] = useState(false);
   const [topicsError, setTopicsError] = useState("");
-  const [reviewLoading, setReviewLoading] = useState(false);
   const [saveStatus, setSaveStatus] = useState<"saved" | "unsaved" | "saving" | "error">("saved");
   const [savedAt, setSavedAt] = useState<string | undefined>(initialSession.savedAt);
   const savedSelection = useRef<{ index: number; start: number; end: number } | null>(null);
   const pendingCaret = useRef<{ index: number; offset: number } | null>(null);
   const previousView = useRef<View | null>(null);
   const lastPageView = useRef<View | null>(null);
-  const reviewRequest = useRef<AbortController | null>(null);
   const [drafts, setDrafts] = useState(() => readStorage<Draft[]>(DRAFTS_KEY, []));
   const [showDrafts, setShowDrafts] = useState(false);
   const [exportOpen, setExportOpen] = useState(false);
@@ -333,6 +338,13 @@ export default function Ghostwriter() {
 
   const manuscript = paragraphs.join("\n\n");
   const wordCount = manuscript.trim().split(/\s+/).filter(Boolean).length;
+  const guides = writingGuides(selectedTopic);
+  useEffect(() => {
+    if (view !== "reflect") return;
+    setGuidesFolded(wordCount > 0); setOpenGuide(null);
+    // Folding is decided on entry only; later typing must not reflow the page.
+  }, [view, draftId]);
+  useEffect(() => { if (openGuide) pathwayEnter(openGuideRef.current); }, [openGuide]);
   const topics = topicResult?.topics ?? [];
   const leadTopic = topics[0];
   const signalTopics = topics.slice(1);
@@ -344,6 +356,17 @@ export default function Ghostwriter() {
     catch (error) { setTopicsError(error instanceof Error ? error.message : "Topics could not be loaded."); }
     finally { setTopicsLoading(false); }
   }, []);
+
+  // Re-render the sync line each minute while the source desk is on screen.
+  const [clock, setClock] = useState(() => Date.now());
+  const showsSync = view === "today" && Boolean(topicResult?.generatedAt);
+  useEffect(() => {
+    if (!showsSync) return;
+    setClock(Date.now());
+    const timer = window.setInterval(() => setClock(Date.now()), 60_000);
+    return () => window.clearInterval(timer);
+  }, [showsSync]);
+  const sync = topicResult?.generatedAt ? syncStatus(topicResult.generatedAt, new Date(clock)) : null;
 
   function refreshTopics() {
     advanceDeskOffset();
@@ -358,7 +381,7 @@ export default function Ghostwriter() {
   }, [loadTopics, view]);
 
   useEffect(() => {
-    const session: Session = { draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review };
+    const session: Session = { ghost, draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review };
     const serialized = JSON.stringify(session);
     if (serialized === lastSavedSession.current) return;
     setSaveStatus("unsaved");
@@ -368,7 +391,7 @@ export default function Ghostwriter() {
       try {
         const timestamp = new Date().toISOString();
         if (title.trim() || manuscript.trim() || Object.values(reflectionAnswers).some((answer) => answer?.trim()) || readStorage<Draft[]>(DRAFTS_KEY, []).some((draft) => draft.id === draftId)) {
-          const draft: Draft = { id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
+          const draft: Draft = { ghost, id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
           const updated = [draft, ...readStorage<Draft[]>(DRAFTS_KEY, []).filter((item) => item.id !== draftId)];
           writeStorage(DRAFTS_KEY, updated);
           setDrafts(updated);
@@ -396,7 +419,7 @@ export default function Ghostwriter() {
       document.removeEventListener("visibilitychange", flush);
       window.removeEventListener("pagehide", persist);
     };
-  }, [draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review, manuscript]);
+  }, [ghost, draftId, view, mode, tone, selectedTopic, pathways, pathwayIndex, reflectionAnswers, title, paragraphs, activeParagraph, review, manuscript]);
 
   useLayoutEffect(() => {
     const previous = lastPageView.current;
@@ -486,7 +509,7 @@ export default function Ghostwriter() {
     if (deletedDraftIds.current.has(draftId)) return true;
     if (!title.trim() && !manuscript.trim() && !Object.values(reflectionAnswers).some((answer) => answer?.trim())) return true;
     try {
-      const draft: Draft = { id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
+      const draft: Draft = { ghost, id: draftId, title: title || "Untitled manuscript", content: manuscript, topic: selectedTopic, notes: reflectionAnswers, updatedAt: new Date().toISOString() };
       const updated = [draft, ...drafts.filter((item) => item.id !== draftId)];
       writeStorage(DRAFTS_KEY, updated); setDrafts(updated);
       return true;
@@ -495,8 +518,8 @@ export default function Ghostwriter() {
 
   function chooseTopic(topic: Topic) {
     if (!preserveDraft()) return;
-    savedSelection.current = null; reviewRequest.current?.abort();
-    setDraftId(crypto.randomUUID()); setSelectedTopic(topic); setTitle(topic.title);
+    savedSelection.current = null;
+    setGhost(initialGhost(true)); setDraftId(crypto.randomUUID()); setSelectedTopic(topic); setTitle(topic.title);
     setParagraphs([""]); setActiveParagraph(0); setPathwayIndex(0);
     setReflectionAnswers({}); setReview(""); setPathways(fallbackReflection(topic)); setView("reflect");
     requestAnimationFrame(() => pathwayEnter(reflectionRef.current));
@@ -550,19 +573,6 @@ export default function Ghostwriter() {
     if (element) reflectParagraphRefs.current.set(index, element); else reflectParagraphRefs.current.delete(index);
   }
 
-  async function requestReview() {
-    if (!manuscript.trim() || reviewLoading) return;
-    const controller = new AbortController();
-    reviewRequest.current = controller;
-    setView("review"); setReviewLoading(true);
-    try {
-      const response = await askClaude(CRITIQUE_PROMPT(mode, tone), `${title ? `${title}\n\n` : ""}${manuscript}`, 2600, controller.signal);
-      setReview(response);
-
-    } catch (error) { if (controller.signal.aborted) return; setReview(`The review could not be loaded. ${error instanceof Error ? error.message : "Try again."}`); }
-    finally { setReviewLoading(false); }
-  }
-
   function exportContent(extension: "txt" | "md") {
     const heading = title || "Untitled manuscript";
     const notes = Object.entries(reflectionAnswers).filter(([, answer]) => answer?.trim());
@@ -595,8 +605,8 @@ export default function Ghostwriter() {
 
   function startBlank() {
     if (!preserveDraft()) return;
-    savedSelection.current = null; reviewRequest.current?.abort();
-    setDraftId(crypto.randomUUID()); setPathways(null); setReflectionAnswers({}); setPathwayIndex(0); setReview("");
+    savedSelection.current = null;
+    setGhost(initialGhost(false)); setDraftId(crypto.randomUUID()); setPathways(null); setReflectionAnswers({}); setPathwayIndex(0); setReview("");
     setSelectedTopic(null); setTitle(""); setParagraphs([""]); setActiveParagraph(0); setView("write");
     requestAnimationFrame(() => enterWritingMode(writingRef.current));
   }
@@ -620,8 +630,9 @@ export default function Ghostwriter() {
     setDrafts(remaining);
     if (!nextSession) return;
     savedSelection.current = null;
-    reviewRequest.current?.abort();
+
     lastSavedSession.current = JSON.stringify(nextSession);
+    setGhost(initialGhost(false));
     setDraftId(nextSession.draftId!);
     setView("today"); setMode("article"); setTone("reflective");
     setSelectedTopic(null); setPathways(null); setPathwayIndex(0);
@@ -665,9 +676,9 @@ export default function Ghostwriter() {
       {drafts.length ? drafts.map((draft) => <div className="draft-row" key={draft.id}>
         <button className="draft-open" type="button" onClick={() => {
           if (!preserveDraft()) return;
-          savedSelection.current = null; reviewRequest.current?.abort();
+          savedSelection.current = null;
           setDraftId(draft.id); setSelectedTopic(draft.topic || null); setPathways(null); setReflectionAnswers(draft.notes || {}); setPathwayIndex(0); setReview("");
-          setTitle(draft.title); setParagraphs(draft.content.split(/\n\s*\n/)); setActiveParagraph(0); setShowDrafts(false); setView("write");
+          setGhost(draft.ghost ?? initialGhost(Boolean(draft.topic))); setTitle(draft.title); setParagraphs(draft.content.split(/\n\s*\n/)); setActiveParagraph(0); setShowDrafts(false); setView("write");
         }} aria-label={`Open draft: ${draft.title}`}><strong>{draft.title}</strong><time dateTime={draft.updatedAt}>{new Date(draft.updatedAt).toLocaleDateString()}</time></button>
         <button className="draft-delete" type="button" aria-label={`Delete draft: ${draft.title}`} title={`Delete ${draft.title}`} onClick={() => deleteDraft(draft)}>
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M4 7h16M9 7V4h6v3m3 0-1 13H7L6 7m4 4v5m4-5v5" /></svg>
@@ -684,7 +695,7 @@ export default function Ghostwriter() {
       {topicResult && leadTopic ? <>
         <div className="desk-heading">
           <p>{topicResult.origin === "curated" ? "Evergreen prompts" : `${topicResult.stale ? "Earlier" : "Current"} source desk`}</p>
-          {topicResult.generatedAt ? <time dateTime={topicResult.generatedAt}>Updated {new Date(topicResult.generatedAt).toLocaleDateString()}</time> : <span>Six prompts for reflection</span>}
+          {topicResult.generatedAt && sync ? <span className="sync-status" title={`Topics are checked every 8 hours. Last synced ${new Date(topicResult.generatedAt).toLocaleString()}.`}><time dateTime={topicResult.generatedAt}>{sync.synced}</time><span aria-hidden="true"> • </span><span className="visually-hidden">. </span>{sync.next}</span> : <span>Six prompts for reflection</span>}
         </div>
         {topicResult.shortfalls?.length ? <p className="loading-line" role="status">
           Showing {topics.length} of 6 source-backed ideas. {topicResult.shortfalls.map(({ category, available }) => `${category}: ${available} of 2 available`).join("; ")}. There are not enough qualified topics in these categories in this source desk.
@@ -726,9 +737,17 @@ export default function Ghostwriter() {
       <div className="reflection-stage" ref={reflectionRef}>
         <p className="pathway-label">{selectedTopic ? editorialLens(selectedTopic) : "Your writing"}</p>
         <h1 ref={reflectHeadingRef} tabIndex={-1}>{selectedTopic ? topicPrompt(selectedTopic) : "What would you like to explore?"}</h1>
-        <ul className="writing-guides" aria-label="Guides to keep in mind">
-          {writingGuides(selectedTopic).map((guide) => <li key={guide.label}><strong>{guide.label}:</strong> {guide.text}</li>)}
-        </ul>
+        {guides.length ? <div className="guide-set">
+          <div className="guide-note"><p>Angles, not steps — use any, in any order.</p>
+            <button className="text-action" type="button" aria-expanded={!guidesFolded} aria-controls="writing-guides" onClick={() => { setGuidesFolded((folded) => !folded); setOpenGuide(null); }}>{guidesFolded ? "Show all angles" : "Fold to labels"}</button>
+          </div>
+          {guidesFolded ? <div className="guide-labels" id="writing-guides" aria-label="Guides to keep in mind">
+            <div className="guide-label-row">{guides.map((guide) => <button key={guide.label} type="button" className={openGuide === guide.label ? "selected" : ""} aria-expanded={openGuide === guide.label} aria-controls="open-guide" onClick={() => setOpenGuide((current) => current === guide.label ? null : guide.label)}>{guide.label}</button>)}</div>
+            {openGuide ? <p className="open-guide" id="open-guide" ref={openGuideRef}>{guides.find((guide) => guide.label === openGuide)?.text}</p> : null}
+          </div> : <ul className="writing-guides" id="writing-guides" aria-label="Guides to keep in mind">
+            {guides.map((guide) => <li key={guide.label}><strong>{guide.label}:</strong> {guide.text}</li>)}
+          </ul>}
+        </div> : null}
         {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context">
           <summary>Your earlier reflection notes</summary>
           {Object.entries(reflectionAnswers).map(([label, answer]) => answer?.trim() ? <div key={label}><strong>{label}</strong><p>{answer}</p></div> : null)}
@@ -738,17 +757,17 @@ export default function Ghostwriter() {
             setReflectionAnswers({});
           }}>Move earlier notes into manuscript</button>
         </details> : null}
-        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} paragraphCount={paragraphs.length} soundOn={soundOn} register={registerReflectParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onMergeBackward={mergeBackward} onMergeForward={mergeForward} onMoveCaret={moveCaret} onSelection={rememberSelection} />)}</div>
+        <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} paragraphCount={paragraphs.length} soundOn={soundOn} register={registerReflectParagraph} placeholder={index === 0 && guides[0] ? guides[0].text : undefined} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onMergeBackward={mergeBackward} onMergeForward={mergeForward} onMoveCaret={moveCaret} onSelection={rememberSelection} />)}</div>
       </div>
     </main> : null}
 
-    {view === "write" ? <main className="writing-shell" id="main-content" tabIndex={-1} ref={writingRef}>
+    {view === "write" ? <><main className="writing-shell" id="main-content" tabIndex={-1} ref={writingRef}>
       <div className="document-toolbar" aria-label="Document actions">
         <span className="document-status" title={saveTimeLabel}>{saveLabel}</span>
         <div>
           <span>{wordCount} {wordCount === 1 ? "word" : "words"}</span>
           {selectedTopic ? <button onClick={() => void openReflection()}>Writing guides</button> : null}
-          {__ANTHROPIC_CONFIGURED__ ? <button disabled={!manuscript.trim()} onClick={() => void requestReview()}>Review</button> : null}
+
           <div className="export-control" ref={exportRef}>
             <button className="export-trigger" type="button" aria-haspopup="true" aria-expanded={exportOpen} aria-controls={exportOpen ? "export-options" : undefined} onClick={() => { setCopyMessage(null); setExportOpen((open) => !open); }}>Export ▾</button>
             {exportOpen ? <div className="export-popover" id="export-options" aria-label="Export options">
@@ -769,16 +788,18 @@ export default function Ghostwriter() {
         {Object.values(reflectionAnswers).some((answer) => answer?.trim()) ? <details className="writing-context"><summary>Your reflection notes</summary>{Object.entries(reflectionAnswers).map(([label, answer]) => answer?.trim() ? <div key={label}><strong>{label}</strong><p>{answer}</p></div> : null)}</details> : null}
         <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} paragraphCount={paragraphs.length} soundOn={soundOn} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onMergeBackward={mergeBackward} onMergeForward={mergeForward} onMoveCaret={moveCaret} onSelection={rememberSelection} />)}</div>
       </section>
-    </main> : null}
+    </main>
+      <Suspense fallback={null}><Ghost key={draftId} state={ghost} onChange={setGhost} title={title} paragraphs={paragraphs} guides={guides} prompted={Boolean(selectedTopic)} mode={mode} tone={tone} onMode={setMode} onTone={setTone} configured={__GHOST_CONFIGURED__} request={requestGhost} /></Suspense>
+    </> : null}
 
     {view === "review" ? <main className="review-shell" id="main-content" tabIndex={-1}>
       <div className="review-toolbar">{utility}<button className="primary-action" onClick={() => setView("write")}>Return to manuscript</button></div>
       <div className="review-columns">
         <article className="review-manuscript"><p className="eyebrow">Manuscript · {wordCount} words</p><h1 ref={reviewHeadingRef} tabIndex={-1}>{title || "Untitled manuscript"}</h1>{paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</article>
         <aside className="editorial-notes">
-          <div className="notes-heading"><span>Ghostwriter review</span><button disabled={reviewLoading} onClick={() => void requestReview()}>Review again</button></div>
-          {reviewLoading ? <p className="loading-line" role="status">Reading closely…</p> : <div className="review-copy">{review}</div>}
-          {!reviewLoading && review ? <div className="export-actions"><button onClick={() => download("md")}>Download Markdown</button><button onClick={() => download("txt")}>Download text</button><button onClick={() => void copyMarkdown()}>Copy Markdown</button><button onClick={() => window.open("https://medium.com/new-story", "_blank", "noopener,noreferrer")}>Open Medium</button>{copyMessage ? <span role="status">{copyMessage}</span> : null}</div> : null}
+          <div className="notes-heading"><span>Ghostwriter review</span><button onClick={() => setView("write")}>Open Ghost in manuscript</button></div>
+          <div className="review-copy">{review}</div>
+          {review ? <div className="export-actions"><button onClick={() => download("md")}>Download Markdown</button><button onClick={() => download("txt")}>Download text</button><button onClick={() => void copyMarkdown()}>Copy Markdown</button><button onClick={() => window.open("https://medium.com/new-story", "_blank", "noopener,noreferrer")}>Open Medium</button>{copyMessage ? <span role="status">{copyMessage}</span> : null}</div> : null}
         </aside>
       </div>
     </main> : null}

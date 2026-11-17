@@ -8,31 +8,33 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 - **Current POC scope:** [POC.md](./POC.md)
 - **Ideas backlog:** [log.md](./log.md)
 
-**Legend:** ✅ done · 🔄 in progress · ⬜ pending · 🎯 the one next action
+**Legend:** ✅ done · 🔄 in progress · ⏸ on hold · ⬜ pending · 🎯 the one next action
 
 **Classification:** every new progress item is labeled **[UX]**, **[Dev]**, or
 **[UX+Dev]**. Read-only inspection does not require a separate tracker entry.
 
-_Last updated: 2026-11-04_
+_Last updated: 2026-11-17_
 
 ---
 
 ## 🎯 Next action (do this next)
 
-**[UX] Write with sound enabled, then judge the feel.** The first silent trial
-felt dull and its sub-pixel responses did not read as a typewriter. Sound is now
-available through the fixed header, muted by default, with recorded strikes and
-a separate scrolling cue on Enter. Anime.js now gives the active line a short
-step on a key strike and moves the sheet on Return. Judge the paired feel and
-long-session comfort, then decide whether the four strike motions and Return
-still earn their place. Judge the new open white canvas in the same session,
-including whether Return's 8px text shift still earns its place without a sheet.
+**[UX+Dev] Finish Ghost live validation and Pages publication.** Wrangler OAuth is verified and the Worker deployed (2026-11-17), and its endpoint now returns a real HTTP 200 `{ slip }` reading with disposable text. Recheck endpoint availability, validate the hosted `{ slip }` contract with disposable text, then publish the prepared GitHub Pages route. Live provider response is verified; Pages publication is next. Enchanted Diary remains pending.
 
 ---
 
 ## 🔄 In progress
 
-- 🔄 **2026-10-18 [UX+Dev]** — Author approved sound authenticity/comfort and the on/off control, retained current motions for now, and requested paper grain. Applying grain and tying the existing new-paragraph sound directly to paragraph creation; Typewriter sound controls will not carry into Enchanted Diary.
+- 🔄 **[UX+Dev] (resumed 2026-11-17)** Ghost hosting: Wrangler OAuth verified for the intended account; deployed `ghostwriter-reading` to `https://ghostwriter-reading.svr-ghostwriter.workers.dev/read`, version `fa493932-707a-48e6-bf92-9029e3590e4b`. Wrangler registered a new workers.dev subdomain. Endpoint propagation resolved: disposable live reading returned HTTP 200 with `{ slip }`; blocked origin returned 403 and allowed preflight 204. Hosted browser validation, remote rate checking and Pages publication are in progress. Six contract tests and production build pass. Reconciled Worker README and validation prose from historical Anthropic template to current AI binding. GitHub Pages Actions hosting is enabled and repository variable `VITE_GHOST_API_URL` points to the deployed Worker; publication and browser verification are next.
+
+
+---
+
+## ⏸ On hold
+
+- **Historical pause record (resumed 2026-11-17):** Ghost hosting and AI connection. UI implementation and prior browser checks are recorded in `GHOST_VALIDATION.md`. Author selected GitHub Pages and directed the free hosted route; the Worker now uses Cloudflare's AI binding with server-owned instructions, a fixed open-weight Qwen model, bounded requests and schema validation. Pages subpath/workflow and free-tier quota feedback are prepared. `npm run build`, six `ghost:check` tests and Wrangler deploy dry-run pass (8.40 KiB Worker / 3.22 KiB gzip). Cloudflare was unauthenticated; login was opened and canceled at the pause. No push, deployment or live-provider sampling. Resume with Cloudflare authentication, browser verification of the new hosted API contract, then authorized publication. Earlier validation/README prose about the Anthropic template is historical and still needs reconciliation to this latest binding.
+
+- ⏸ **[UX] (held 2026-11-11 by author, while other aspects are built)** Assess long-session comfort on the open white canvas. Sound authenticity, comfort, and the on/off control were approved on 2026-10-18, with current motions retained for now. Remaining: write with the native caret and optional sound, and judge whether strike motion and Return's 8px text shift still earn their place without a sheet. (Merged with the former Pending comfort follow-up; the prior animated quill was distracting or tiring and the first silent trial was dull, but neither validates this version.)
 
 ---
 
@@ -40,27 +42,27 @@ including whether Return's 8px text shift still earns its place without a sheet.
 
 ### Optional Enchanted Diary theme
 
-- ⬜ **[UX+Dev]** Phase 1 of [ENCHANTED_DIARY_PLAN.md](./ENCHANTED_DIARY_PLAN.md): add an opt-in appearance selector and static diary styling around the mounted existing editor; preserve all session/draft records, writing behavior, navigation, and exports. Implementation has not started. The current author sound-and-motion session remains the next action.
+- ⬜ **[UX+Dev]** Phase 1 of [ENCHANTED_DIARY_PLAN.md](./ENCHANTED_DIARY_PLAN.md): add an opt-in appearance selector and static diary styling around the mounted existing editor; preserve all session/draft records, writing behavior, navigation, and exports. Implementation has not started.
 - ⬜ **[UX+Dev]** Phase 2, after Phase 1 preservation checks pass: refine diary materials and add cancellable, accessible prompt/review ink presentation using existing Anime.js; no manuscript absorption, new AI service, storage migration, or replacement editor. Retain effects only after an author comfort check.
 
 ### Focused POC — prove World → Me
 
-- ⬜ **[UX]** Author follow-up: assess long-session comfort with the native caret and optional sound. The prior animated writing quill was distracting or tiring; the first silent trial was dull, but neither is comfort validation of this revised version.
 - ⬜ **[UX]** Remaining writing-space ideas the author has not taken up yet: move the lens out of the text column into the margin or toolbar, and fade the five reference bullets out once writing is under way.
+- ⬜ **[UX]** (added 2026-11-17) Remaining onboarding-reference proposal for the Reflect guides: guides the author ticks off with a typed overstrike, with no progress bar. Author to decide. Also author to decide whether Reflect guide motion should move from Anime.js to GSAP (it would extend the 2026-11-11 Ghost-only GSAP exception to writing-time UI). Rejected as off-doctrine: welcome surveys, AI starter drafts, unsolicited tooltips, streaks or progress meters.
 
 ### Discovery robustness — after the core POC handoff
 
+- ⬜ **[UX+Dev]** Refresh cadence, remaining work: an all-seen state ("You've read this whole edition") and resetting the seen list per category, because today the source-backed desk stops changing after about 8 refreshes. Optional edition footnote and Evergreen copy are still awaiting the author's pick. The sync line is done; see Completed, 2026-11-11.
 - ⬜ **[UX]** Author: write more frames where the editorial review shows one question carrying several topics. On the 2026-10-12 build the single Process fallback question carried 7 of 42 topics, and Design systems, Designing with uncertain systems, Interfaces, and Research each had a question on 3–5. Every new provocation in `pipeline/editorialize.ts` needs five guide lines in `src/writingGuideCopy.json` or the build fails. No frames were added by an agent, so the existing set stays author-owned.
 - ⬜ **[UX]** Author: read `npm run topics:review` and record the first real verdicts in `data/editorial-verdicts.json`; the file is empty.
 - ⬜ **[Dev]** Optionally evaluate local Hugging Face embeddings for semantic relevance/clustering; keep the deterministic pipeline as the required fallback
 
 ### Ghost reattachment — after the paper is proven
 
-- ⬜ **[UX]** Define the dormant Ghost invocation and contextual lens chooser without permanent writing-time AI chrome (PRD FR-5.0; log.md idea 11)
 - ⬜ **[UX+Dev]** Design passage-anchored Ghost margin notes for Idea, Clarity, Voice, Evidence, and Structure while preserving the raw draft (PRD FR-5.1; log.md idea 12)
-- ⬜ **[UX+Dev]** Replace the single Review text block with a structured critique schema and distinguish revisions from new drafts (PRD FR-5.2, FR-6.2)
+- ⬜ **[UX+Dev]** Distinguish revisions from new drafts (FR-6.2). The structured critique schema and slip UI from FR-5.2 are now implemented; real-provider validation remains with the active Ghost item.
 - ⬜ **[UX+Dev]** Add accept-insight and margin-comment motion only when their corresponding interactions exist (log.md idea 6)
-- ⬜ **[Dev]** Choose and implement the production AI path for invoked Reflect/Review: free serverless proxy or BYO-key mode (PRD FR-10)
+- ⬜ **[Dev]** Connect the selected free hosted Ghost AI path (PRD FR-10): GitHub Pages is confirmed; Workers AI route is adopted and deployed as recorded above; live validation and Pages publication remain with the active item.
 
 - ⬜ **[UX+Dev]** Decide whether an explicit pencil icon is useful beside the existing row-click editing action. If adopted, match the new inline SVG delete icon's line weight and keep both buttons accessible.
 
@@ -72,6 +74,20 @@ including whether Return's 8px text shift still earns its place without a sheet.
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-11-17 [UX+Dev]** — Built three onboarding-reference changes in Reflect: the empty first paragraph uses the topic's Memory guide as its placeholder; an "Angles, not steps — use any, in any order." note sits above the guides; when Reflect opens on a draft that already has words, the guides fold to five label chips that each reveal one guide (existing `pathwayEnter` Anime.js motion, reduced-motion gated), with a Show all / Fold toggle. Folding is decided on entry only so typing never reflows the page. GSAP stays Ghost-only. `npm run build` passes; headless Chromium checked placeholder, note, no mid-typing fold, fold on return, chip reveal and aria-expanded, unfold, and no overflow at 320px, with no page errors.
+
+- ✅ **2026-11-17 [Dev]** — Followed Cloudflare’s official agent setup instructions: installed all 22 Cloudflare skills globally under `~/.agents/skills/`, registered the enabled `cloudflare` MCP server at `https://mcp.cloudflare.com/mcp` in Codex user configuration, and completed OAuth (CLI reported successful login). Installer warnings concerned unsupported PromptScript global installs; Codex skills installed successfully. Optional beta `cf` CLI skipped because this project already has Wrangler configuration. Restart Codex to load the MCP server. This does not deploy Ghost or establish Wrangler authentication.
+
+- ✅ **2026-11-11 [UX+Dev]** — Implemented Ghost's setup, static plume, six frames, four optional habits, per-draft reading defaults/persistence, five passage-aware lenses, frame checks, structured editorial slips, stale-result marking, cancellation/retry/offline states, and isolated GSAP. New critique leaves the manuscript editable and never requests rewritten prose; legacy saved Review text stays readable. Build and five contract/proxy tests pass. Browser checks covered consent, selection restoration, per-draft recovery, all lenses, invalid-response recovery, 320–1920px placement, fixed scroll position, reduced motion, immediate writing after close, and axe for setup/menu/slip; production anchors work without AI. `GHOST_VALIDATION.md` records evidence and remaining limits. An initial proxy template is present but undeployed; the complete feature remains In progress until the free hosted route and live-provider checks are resolved. PRD FR-5, the invocation document and agent guidance are reconciled.
+
+- ✅ **2026-11-11 [UX+Dev]** — Today's source desk heading now reads "Synced 3h ago • Next sync in 5h", replacing "Updated <date>", in the format the author chose. `syncStatus()` in `src/topicSource.ts` counts down to the next scheduled check on the workflow's 8-hour cron (00/08/16 UTC), never to new ideas. It shows "Next sync due now" for up to 90 minutes after a missed slot, then "Next sync is running late", and after 24 hours "Last synced Oct 12 • New syncs haven't arrived". The line re-renders each minute, and Evergreen desks show no sync line. `SYNC_INTERVAL_HOURS` must match `.github/workflows/topics.yml`. Validation: `npm run build` passes, and a script checked each state's wording at sample times. No browser check was run. The current local manifest (2026-10-12) shows the stale wording until the Pages deploy and the scheduled refresh are live.
+
+- ✅ **2026-11-11 [UX]** — Author confirmed distinct layouts: keep the prompt/guided view centered and the focused manuscript on its OneNote-style, left-aligned open canvas. Current CSS already implements this direction; no runtime changes or new browser validation were needed. This layout decision does not close the held long-session comfort assessment. Optional Enchanted Diary Phase 1 remains next.
+
+- ✅ **2026-11-11 [UX+Dev]** — Removed the manuscript title's visible focus border to match the paragraph editor's native-caret treatment; forced-colors mode retains its Highlight outline. `npm run build` passes; browser QA not run. The optional Enchanted Diary Phase 1 remains next.
+
+- ✅ **2026-11-09 [UX+Dev]** — Closed the 2026-10-18 sound/grain item after verifying its existing implementation: carriage audio follows paragraph creation, Shift+Enter and title navigation stay silent, strikes play when enabled, and muting persists after reload. Static grain loads on Typewriter Reflect and is removed in forced colors and print; Write remains smooth white per the superseding 2026-11-04 canvas decision. Production build passes; browser checks confirmed these behaviors and no console errors, plus paragraph creation under reduced motion without a new carriage transform. No runtime changes were needed. Enchanted Diary remains unimplemented; excluding Typewriter sound and its control remains a requirement of that pending theme, not a validated theme feature. Author's newer canvas comfort follow-up remains next.
 
 - ✅ **2026-11-04 [UX+Dev]** — Replaced the Write sheet and desk with a OneNote-style open white canvas from the author's reference, superseding the two sheet entries below. No edges, shadow, or grain on Write; text starts at the upper left in line with the header; the column stays capped at 672px with open space to the right. Title now comes first, with date and time beneath it, and the "Your manuscript" label is gone. The date shows the last save because drafts store no creation date. Free positioning, sideways growth, and ruled lines were not built, since they would require replacing the paragraph editor. The machine-illustration pending item is dropped as moot. Validation: `npm run build` passes; browser checks from 1920px to 320px, and with reduced motion at 1280px, covered typing, paragraph creation, reload recovery, no horizontal overflow including during Return, caret at 0.296–0.297 of viewport height, and no console errors. axe not re-run.
 

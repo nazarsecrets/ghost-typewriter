@@ -43,7 +43,11 @@ tracker stale. If a task made no tracked progress, say so — don't silently ski
   synthetic recency ("surfaced N days ago") for non-source-backed content (PRD §8).
 - **Motion:** Anime.js only, the named behaviors, under ~600ms, always gated
   behind `prefers-reduced-motion`. Motion serves stillness; no state may loop.
-- **Theme:** the instrument is a **typewriter**, not a quill. The Plume is muted
+  Exception (author decision 2026-11-11): Ghost's interactions (plume menu,
+  editor's slip, frame beats) use GSAP with calm motion plus about 3% overshoot
+  personality (no idle or looping motion); see `GHOST_INVOCATION.md`. Writing-time
+  motion stays on Anime.js. GSAP loads only when a Ghost interaction needs motion.
+- **Theme:** the instrument is a **typewriter**, not a quill. Ghost's static plume is the editor's emblem; the animated Plume cursor is muted
   (unwired, files retained) by author decision — see `typewriting-feel.md` for the
   interaction model. Writing-time motion answers a keystroke; it never precedes or
   delays one, and the text model is always authoritative. On 2026-10-18 the
@@ -67,6 +71,8 @@ tracker stale. If a task made no tracked progress, say so — don't silently ski
 ## Layout
 
 - `ghostwriter.tsx` — the app (single component, four views).
+- `src/Ghost.tsx`, `src/ghostModel.ts`, `src/ghost.css` — Ghost setup, anchors, consent and structured editorial slips.
+- `server/ghost/` — Cloudflare Workers AI production reading proxy and setup instructions.
 - `src/motion.ts` — six foundational Anime.js behaviors, two typewriter response behaviors, and writing-rule constants
   (`WRITING_ANCHOR`, the opacity ladder).
 - `src/PlumeCursor.tsx` — the quill cursor and its inkwell. **Muted:** retained but

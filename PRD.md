@@ -543,54 +543,35 @@ Typing feedback may use restrained character landing, caret movement, or minute 
 
 #### FR-5.0 Intentional Ghost invocation
 
-Ghost has no permanent panel. While the author writes, it may be represented by a quiet dormant mark that performs no action until invoked.
+Ghost is represented in the focused manuscript by a static plume plus **Ghost**, fixed low in the right margin. It is the editor's pen, not the author's cursor. It opens by click or Cmd/Ctrl+Shift+Enter; nothing appears unsolicited. Ghost stays out of Guided Reflect.
 
-When invoked after writing, Ghost offers a small set of author-controlled lenses:
+- Reading is saved per draft: on by default for original drafts, off for prompted drafts. Turning it on sends nothing; only an explicit lens, frame check or review sends text.
+- Setup explains this boundary, offers all six optional frames and four optional habits, and can be skipped. Completion is remembered on-device.
+- Static anchors work without AI or reading consent. Frames are What · So what · Now what, Claim first, SCQA, Case story, Changed my mind, and Hook · Story · Lesson · Ask. Prompted drafts start with their five writing guides as anchors. Authors tick beats themselves and can switch or drop frames without modifying prose.
+- Habits are North star, Name your reader, Draft before you edit, and Park the next line. Draft-first is opt-in; its gate is always explained and can be released with First draft done or by switching it off.
+- Five lenses are fixed in order: Question my argument, Find what's missing, Help me go deeper, Challenge an assumption, Help me structure this. A lens uses the selected passage when present, otherwise the draft. Full review and Check my frame use the whole draft.
 
-- Question my argument.
-- Find what is missing.
-- Help me go deeper.
-- Challenge this assumption.
-- Help me structure this.
-
-The invocation avoids generic “What can I help you with?” framing. It is contextual to the current manuscript and begins with questions or observations rather than rewritten prose.
+See [GHOST_INVOCATION.md](./GHOST_INVOCATION.md) for the interaction contract.
 
 #### FR-5.1 Review structure
 
-Review displays:
+An editor's slip opens alongside the editable manuscript; lens and review results no longer navigate to a separate Review view. A legacy saved Review surface remains readable for compatibility. The slip never changes raw prose.
 
-- The manuscript in a read-only editorial presentation.
-- Editorial notes in a separate adjacent panel on desktop.
-- A stacked layout on smaller screens.
-- A clear **Return to manuscript** action.
-- The untouched raw draft as the authoritative left-hand artifact.
-- Ghost observations as separate margin-like annotations rather than inline replacements.
+Wide screens use the gutter. Where the gutter cannot hold a legible slip, use a bottom sheet with a separate scroll area for the manuscript above it; reserve room for the fixed plume. Escape and Roll up restore the captured caret and selection. Clicking manuscript text closes Ghost and lets the author choose a new caret.
 
-Editorial annotations use these lenses when applicable:
-
-- **Idea:** the argument could go deeper.
-- **Clarity:** a sentence is carrying too much.
-- **Voice:** a passage sounds more generic than the surrounding draft.
-- **Evidence:** a claim would benefit from a concrete example.
-- **Structure:** the strongest idea appears too late or in the wrong place.
-
-Each annotation points to relevant manuscript text and may offer a question or development action. Suggestions do not modify manuscript content until the author explicitly accepts or rewrites them.
+Slips remain visible after editing, marked **Written for an earlier version of this draft**. A failed request preserves the previous slip. Check my frame maps every chosen beat to numbered paragraphs as strong, thin or missing, with a question to develop it. Frames stay author-chosen.
 
 #### FR-5.2 Critique requirements
 
-The editorial review includes, in order:
+A validated JSON response contains, in order:
 
-1. Grammar and mechanics.
-2. Voice and tone.
-3. Structure and flow.
-4. A refined version preserving the author's voice.
-5. What changed and why.
-6. Two or three alternative titles.
-7. Three relevant hashtags when appropriate.
+1. A one-sentence reading of the author's point.
+2. One specific strength with an exact quote from supplied text.
+3. One next move, framed as a question with its reason.
+4. At most two questions to carry into revision.
+5. Mechanics folded away behind a count, only in a full review.
 
-The provider response should use a validated structured schema for these sections. The interface may render prose within a section, but it must not depend on parsing arbitrary heading text from one unstructured response.
-
-The review must flag buzzwords, performative claims, vague language, unsupported outcomes, and weak connections to systems or product consequences.
+Visible response prose is limited to 180 words. No rewritten version, replacement prose, scores, percentages, alternative titles, or hashtags. Tone builds the writer up through specific observations. Invalid responses fail safely rather than rendering arbitrary provider output. The selected reader, north star, mode and tone inform the request. A frame check additionally validates all beat labels and paragraph references.
 
 #### FR-5.3 Mode and tone
 

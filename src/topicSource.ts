@@ -98,6 +98,37 @@ function selectBalanced(topics: SourceBackedTopic[], seen: Set<string>): SourceB
   return chosen;
 }
 
+// Sync cadence. Must match the cron in .github/workflows/topics.yml
+// ("0 */8 * * *": 00:00, 08:00, 16:00 UTC). The countdown is to the next
+// scheduled check, which is a fact; it never promises that new ideas arrive.
+export const SYNC_INTERVAL_HOURS = 8;
+const SYNC_GRACE_MINUTES = 90; // scheduled runs start late; allow before saying so
+
+export type SyncState = "scheduled" | "due" | "late" | "stale";
+export type SyncStatus = { state: SyncState; synced: string; next: string };
+
+function compactDuration(ms: number, round: (n: number) => number): string {
+  const minutes = Math.max(1, round(ms / 60_000));
+  return minutes < 60 ? `${minutes}m` : `${round(ms / 3_600_000)}h`;
+}
+
+// "Synced 3h ago • Next sync in 5h". Synced = when the manifest was generated.
+export function syncStatus(generatedAt: string, now = new Date()): SyncStatus {
+  const synced = Date.parse(generatedAt);
+  const age = Math.max(0, now.getTime() - synced);
+  if (age > STALE_HOURS * 3_600_000) {
+    const date = new Date(synced).toLocaleDateString("en-US", { month: "short", day: "numeric" });
+    return { state: "stale", synced: `Last synced ${date}`, next: "New syncs haven't arrived" };
+  }
+  const syncedLabel = age < 60_000 ? "Synced just now" : `Synced ${compactDuration(age, Math.floor)} ago`;
+  const interval = SYNC_INTERVAL_HOURS * 3_600_000;
+  const nextSlot = (Math.floor(synced / interval) + 1) * interval; // first scheduled run after this sync
+  const untilNext = nextSlot - now.getTime();
+  if (untilNext > 0) return { state: "scheduled", synced: syncedLabel, next: `Next sync in ${compactDuration(untilNext, Math.floor)}` };
+  if (-untilNext <= SYNC_GRACE_MINUTES * 60_000) return { state: "due", synced: syncedLabel, next: "Next sync due now" };
+  return { state: "late", synced: syncedLabel, next: "Next sync is running late" };
+}
+
 // Advance the curated desk to a fresh deterministic set.
 export function advanceDeskOffset(): number {
   const next = Number(localStorage.getItem(OFFSET_KEY) || "0") + 1;
