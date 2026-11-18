@@ -1,9 +1,31 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-18T06:55:11.008Z",
-  "windowStart": "2026-10-19T06:55:11.008Z",
-  "windowEnd": "2026-11-18T06:55:11.008Z",
+  "generatedAt": "2026-11-18T17:06:20.304Z",
+  "windowStart": "2026-10-19T17:06:20.304Z",
+  "windowEnd": "2026-11-18T17:06:20.304Z",
   "topics": [
+    {
+      "id": "ef819ef3ecec",
+      "title": "Design systems and judgment",
+      "provocation": "What judgment should a design system preserve rather than automate?",
+      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
+      "lens": "Design",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-18T15:30:57.000Z",
+      "since": "today",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design Systems Should Be Fast by Default",
+          "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+          "publishedAt": "2026-11-18T15:30:57.000Z"
+        }
+      ]
+    },
     {
       "id": "f101e2a54c96",
       "title": "Research that changes work",
@@ -14,9 +36,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-17T23:26:24.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -49,28 +71,6 @@
       ]
     },
     {
-      "id": "6dc9305b2fba",
-      "title": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-17T08:00:17.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "An AI-Driven Assistant for Human-Centric Building Digital Twin Systems: Design, Implementation, and Comparative User Evaluation",
-          "url": "https://arxiv.org/abs/2611.22350v1",
-          "publishedAt": "2026-11-17T08:00:17.000Z"
-        }
-      ]
-    },
-    {
       "id": "8192e9a950eb",
       "title": "Interfaces and attention",
       "provocation": "Which interface choice quietly determines how a person understands the whole product?",
@@ -80,9 +80,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T21:20:24.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -102,9 +102,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T23:51:42.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -124,9 +124,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T02:33:09.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -181,50 +181,6 @@
       ]
     },
     {
-      "id": "1a89d281b7fc",
-      "title": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-17T03:22:21.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Big Brains, Tiny Board: Pupavision, an Agentic Physical AI Instrument for Monitoring Drosophila Pupariation and Lifecycle Transitions",
-          "url": "https://arxiv.org/abs/2611.22136v1",
-          "publishedAt": "2026-11-17T03:22:21.000Z"
-        }
-      ]
-    },
-    {
-      "id": "63fae86f8a75",
-      "title": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-16T23:40:20.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Supporting Researcher Control in AI-Assisted Social Media Analysis: A Mixed-Methods Study of AI4OSN",
-          "url": "https://arxiv.org/abs/2611.22006v1",
-          "publishedAt": "2026-11-16T23:40:20.000Z"
-        }
-      ]
-    },
-    {
       "id": "7efe836f0250",
       "title": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -258,7 +214,7 @@
       "publishedAt": "2026-11-08T23:27:30.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -271,50 +227,6 @@
           "title": "Astryx: An open source design system that's customizable and agent ready",
           "url": "https://github.com/meta/astryx",
           "publishedAt": "2026-11-08T23:27:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "5028c8be40af",
-      "title": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-17T23:25:21.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
-          "url": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-17T23:25:21.000Z"
-        }
-      ]
-    },
-    {
-      "id": "234c8953d698",
-      "title": "Research that changes work",
-      "provocation": "When does research create understanding, and when does it merely create evidence?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-17T13:09:00.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AI as Anchor: How Interview Sequencing Relates to the Appropriation of Synthetic Stakeholder Voices in Design Education",
-          "url": "https://arxiv.org/abs/2611.22740v1",
-          "publishedAt": "2026-11-17T13:09:00.000Z"
         }
       ]
     },
@@ -350,9 +262,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T03:17:26.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -451,6 +363,28 @@
       ]
     },
     {
+      "id": "5028c8be40af",
+      "title": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
+      "lens": "Technology",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-17T23:25:21.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
+          "url": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-17T23:25:21.000Z"
+        }
+      ]
+    },
+    {
       "id": "6281ea8c10de",
       "title": "Designing with uncertain systems",
       "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
@@ -504,9 +438,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T21:27:14.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -535,28 +469,6 @@
           "title": "UX Disciplines: Glossary",
           "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-23T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c7128080f72a",
-      "title": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-16T13:24:34.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Semantic Validity vs. Graphical Arrangement in Visualization Grammars",
-          "url": "https://arxiv.org/abs/2611.21073v1",
-          "publishedAt": "2026-11-16T13:24:34.000Z"
         }
       ]
     },
@@ -614,9 +526,9 @@
       "origin": "source-backed",
       "category": "Trending",
       "publishedAt": "2026-10-31T23:12:50.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 17 days",
+      "categoryReason": "Ranked in a design community feed within 18 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -636,9 +548,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T23:51:27.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -726,7 +638,7 @@
       "publishedAt": "2026-10-28T05:01:23.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -852,73 +764,74 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-18T06:55:11.008Z"
+      "fetchedAt": "2026-11-18T17:06:20.304Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-18T06:55:11.045Z"
+      "fetchedAt": "2026-11-18T17:06:20.338Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-18T06:55:11.046Z"
+      "fetchedAt": "2026-11-18T17:06:20.339Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-18T06:55:11.047Z"
+      "fetchedAt": "2026-11-18T17:06:20.340Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-18T06:55:11.048Z"
+      "fetchedAt": "2026-11-18T17:06:20.341Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-18T06:55:11.049Z"
+      "fetchedAt": "2026-11-18T17:06:20.341Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-18T06:55:11.049Z"
+      "fetchedAt": "2026-11-18T17:06:20.342Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 8,
-      "fetchedAt": "2026-11-18T06:55:11.050Z"
+      "fetchedAt": "2026-11-18T17:06:20.343Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 37,
-      "fetchedAt": "2026-11-18T06:55:11.051Z"
+      "fetchedAt": "2026-11-18T17:06:20.343Z"
     },
     {
       "source": "arxiv-hci",
-      "ok": true,
-      "items": 30,
-      "fetchedAt": "2026-11-18T06:55:11.051Z"
+      "ok": false,
+      "items": 0,
+      "fetchedAt": "2026-11-18T17:06:20.344Z",
+      "error": "This operation was aborted"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-18T06:55:11.052Z"
+      "fetchedAt": "2026-11-18T17:06:20.344Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-11-18T06:55:11.053Z"
+      "fetchedAt": "2026-11-18T17:06:20.345Z"
     }
   ]
 }

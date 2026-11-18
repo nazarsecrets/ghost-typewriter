@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-18T06:55:11.008Z",
+  "generatedAt": "2026-11-18T17:06:20.304Z",
   "summary": {
-    "topics": 38,
-    "flagged": 20,
+    "topics": 34,
+    "flagged": 17,
     "byFlag": {
       "fallback-frame": 5,
-      "thin-match": 7,
-      "ambiguous": 8
+      "thin-match": 6,
+      "ambiguous": 6
     },
     "weakKeywords": [
       {
@@ -17,21 +17,6 @@
       {
         "keyword": "team",
         "theme": "Leadership through uncertainty",
-        "flagged": 2
-      },
-      {
-        "keyword": "research",
-        "theme": "Research that changes work",
-        "flagged": 2
-      },
-      {
-        "keyword": "insight",
-        "theme": "Research that changes work",
-        "flagged": 2
-      },
-      {
-        "keyword": "usability",
-        "theme": "Research that changes work",
         "flagged": 2
       },
       {
@@ -70,16 +55,6 @@
         "flagged": 1
       },
       {
-        "keyword": "participant",
-        "theme": "Research that changes work",
-        "flagged": 1
-      },
-      {
-        "keyword": "interview",
-        "theme": "Research that changes work",
-        "flagged": 1
-      },
-      {
         "keyword": "interface",
         "theme": "Interfaces and attention",
         "flagged": 1
@@ -105,6 +80,11 @@
         "flagged": 1
       },
       {
+        "keyword": "research",
+        "theme": "Research that changes work",
+        "flagged": 1
+      },
+      {
         "keyword": "organization",
         "theme": "Leadership through uncertainty",
         "flagged": 1
@@ -112,19 +92,19 @@
     ],
     "overusedFrames": [
       {
-        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-        "theme": "Designing with uncertain systems",
-        "topics": 5
-      },
-      {
         "provocation": "What judgment should a design system preserve rather than automate?",
         "theme": "Design systems and judgment",
-        "topics": 5
+        "topics": 6
       },
       {
         "provocation": "Which assumption about how this work gets done deserves to be questioned?",
         "theme": "How the work gets made",
         "topics": 5
+      },
+      {
+        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+        "theme": "Designing with uncertain systems",
+        "topics": 4
       },
       {
         "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
@@ -237,45 +217,6 @@
       ]
     },
     {
-      "id": "63fae86f8a75",
-      "theme": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Supporting Researcher Control in AI-Assisted Social Media Analysis: A Mixed-Methods Study of AI4OSN",
-      "sourceUrl": "https://arxiv.org/abs/2611.22006v1",
-      "match": {
-        "theme": "Research that changes work",
-        "score": 5,
-        "hits": [
-          {
-            "keyword": "research",
-            "where": "headline"
-          },
-          {
-            "keyword": "insight",
-            "where": "description"
-          },
-          {
-            "keyword": "participant",
-            "where": "description"
-          },
-          {
-            "keyword": "usability",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 5
-        },
-        "forced": false
-      },
-      "flags": [
-        "ambiguous"
-      ]
-    },
-    {
       "id": "9cca55adbbbe",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -295,37 +236,6 @@
         "runnerUp": {
           "theme": "Designing with uncertain systems",
           "score": 2
-        },
-        "forced": false
-      },
-      "flags": [
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "234c8953d698",
-      "theme": "Research that changes work",
-      "provocation": "When does research create understanding, and when does it merely create evidence?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "AI as Anchor: How Interview Sequencing Relates to the Appropriation of Synthetic Stakeholder Voices in Design Education",
-      "sourceUrl": "https://arxiv.org/abs/2611.22740v1",
-      "match": {
-        "theme": "Research that changes work",
-        "score": 3,
-        "hits": [
-          {
-            "keyword": "interview",
-            "where": "headline"
-          },
-          {
-            "keyword": "insight",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 3
         },
         "forced": false
       },
@@ -460,30 +370,6 @@
           "theme": "Research that changes work",
           "score": 1
         },
-        "forced": false
-      },
-      "flags": [
-        "thin-match"
-      ]
-    },
-    {
-      "id": "c7128080f72a",
-      "theme": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Semantic Validity vs. Graphical Arrangement in Visualization Grammars",
-      "sourceUrl": "https://arxiv.org/abs/2611.21073v1",
-      "match": {
-        "theme": "Research that changes work",
-        "score": 1,
-        "hits": [
-          {
-            "keyword": "usability",
-            "where": "description"
-          }
-        ],
-        "runnerUp": null,
         "forced": false
       },
       "flags": [
@@ -676,6 +562,28 @@
       ]
     },
     {
+      "id": "ef819ef3ecec",
+      "theme": "Design systems and judgment",
+      "provocation": "What judgment should a design system preserve rather than automate?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "Design Systems Should Be Fast by Default",
+      "sourceUrl": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
       "id": "f101e2a54c96",
       "theme": "Research that changes work",
       "provocation": "What makes an insight powerful enough to change a team's direction?",
@@ -715,35 +623,6 @@
         "runnerUp": {
           "theme": "Leadership through uncertainty",
           "score": 5
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "6dc9305b2fba",
-      "theme": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "An AI-Driven Assistant for Human-Centric Building Digital Twin Systems: Design, Implementation, and Comparative User Evaluation",
-      "sourceUrl": "https://arxiv.org/abs/2611.22350v1",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 3,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          },
-          {
-            "keyword": "generative",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Interfaces and attention",
-          "score": 2
         },
         "forced": false
       },
@@ -858,39 +737,6 @@
       "flags": []
     },
     {
-      "id": "1a89d281b7fc",
-      "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "tag": "AI",
-      "source": "arxiv-hci",
-      "sourceTitle": "Big Brains, Tiny Board: Pupavision, an Agentic Physical AI Instrument for Monitoring Drosophila Pupariation and Lifecycle Transitions",
-      "sourceUrl": "https://arxiv.org/abs/2611.22136v1",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 5,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          },
-          {
-            "keyword": "agent",
-            "where": "headline"
-          },
-          {
-            "keyword": "model",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 1
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "7efe836f0250",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -909,31 +755,6 @@
         ],
         "runnerUp": {
           "theme": "Designing with uncertain systems",
-          "score": 1
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "5028c8be40af",
-      "theme": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "tag": "AI",
-      "source": "uxcollective",
-      "sourceTitle": "Everyone knows sparkles mean AI. Use them to make design audits easier",
-      "sourceUrl": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Prototypes as decisions",
           "score": 1
         },
         "forced": false
@@ -1041,6 +862,31 @@
         "runnerUp": {
           "theme": "Interfaces and attention",
           "score": 2
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "5028c8be40af",
+      "theme": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "Everyone knows sparkles mean AI. Use them to make design audits easier",
+      "sourceUrl": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Prototypes as decisions",
+          "score": 1
         },
         "forced": false
       },
