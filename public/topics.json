@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-19T06:55:48.102Z",
-  "windowStart": "2026-10-20T06:55:48.102Z",
-  "windowEnd": "2026-11-19T06:55:48.102Z",
+  "generatedAt": "2026-11-19T17:13:59.263Z",
+  "windowStart": "2026-10-20T17:13:59.263Z",
+  "windowEnd": "2026-11-19T17:13:59.263Z",
   "topics": [
     {
-      "id": "9141fb84cb71",
-      "title": "Leadership through uncertainty",
-      "provocation": "When should a leader protect the team's judgment instead of accelerating its output?",
-      "whyNow": "A recent source is raising questions about leadership through uncertainty across product and design work.",
-      "lens": "Self",
-      "tag": "AI",
+      "id": "01ea91246cfd",
+      "title": "Interfaces and attention",
+      "provocation": "Which interface choice quietly determines how a person understands the whole product?",
+      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
+      "lens": "Design",
+      "tag": "Leadership",
       "origin": "source-backed",
       "category": "Latest",
-      "publishedAt": "2026-11-18T20:17:39.000Z",
+      "publishedAt": "2026-11-19T12:54:05.000Z",
       "since": "today",
       "relevanceScore": 1,
       "categoryReason": "Published 0 days ago",
       "sources": [
         {
           "name": "uxcollective",
-          "title": "If AI works from anywhere, why are we commuting to watch it?",
-          "url": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-18T20:17:39.000Z"
+          "title": "Send the Firefighters to the Fires",
+          "url": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-19T12:54:05.000Z"
         }
       ]
     },
@@ -49,6 +49,28 @@
       ]
     },
     {
+      "id": "9141fb84cb71",
+      "title": "Leadership through uncertainty",
+      "provocation": "When should a leader protect the team's judgment instead of accelerating its output?",
+      "whyNow": "A recent source is raising questions about leadership through uncertainty across product and design work.",
+      "lens": "Self",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-18T20:17:39.000Z",
+      "since": "yesterday",
+      "relevanceScore": 1,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "If AI works from anywhere, why are we commuting to watch it?",
+          "url": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-18T20:17:39.000Z"
+        }
+      ]
+    },
+    {
       "id": "f101e2a54c96",
       "title": "Research that changes work",
       "provocation": "What makes an insight powerful enough to change a team's direction?",
@@ -58,9 +80,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-17T23:26:24.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -102,9 +124,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T21:20:24.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -124,9 +146,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T23:51:42.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -212,9 +234,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-11-08T23:27:30.000Z",
-      "since": "1 week ago",
+      "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 11 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -227,72 +249,6 @@
           "title": "Astryx: An open source design system that's customizable and agent ready",
           "url": "https://github.com/meta/astryx",
           "publishedAt": "2026-11-08T23:27:30.000Z"
-        }
-      ]
-    },
-    {
-      "id": "060c2387536e",
-      "title": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-18T20:17:05.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Too Claudified",
-          "url": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-18T20:17:05.000Z"
-        }
-      ]
-    },
-    {
-      "id": "491c35484e8e",
-      "title": "Interfaces and attention",
-      "provocation": "When does making an interaction easier also make its consequences harder to see?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-18T06:27:01.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Effects of Locomotion and Viewpoint Control on Immersive Robot Telepresence for Navigation and Inspection",
-          "url": "https://arxiv.org/abs/2611.23939v1",
-          "publishedAt": "2026-11-18T06:27:01.000Z"
-        }
-      ]
-    },
-    {
-      "id": "234c8953d698",
-      "title": "Research that changes work",
-      "provocation": "When does research create understanding, and when does it merely create evidence?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-17T13:09:00.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "AI as Anchor: How Interview Sequencing Relates to the Appropriation of Synthetic Stakeholder Voices in Design Education",
-          "url": "https://arxiv.org/abs/2611.22740v1",
-          "publishedAt": "2026-11-17T13:09:00.000Z"
         }
       ]
     },
@@ -328,9 +284,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-13T03:17:26.000Z",
-      "since": "6 days ago",
+      "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 6 days ago",
+      "categoryReason": "Published 7 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -429,6 +385,50 @@
       ]
     },
     {
+      "id": "060c2387536e",
+      "title": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
+      "lens": "Ways of Working",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-18T20:17:05.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Too Claudified",
+          "url": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-18T20:17:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "491c35484e8e",
+      "title": "Interfaces and attention",
+      "provocation": "When does making an interaction easier also make its consequences harder to see?",
+      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
+      "lens": "Design",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-18T06:27:01.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Effects of Locomotion and Viewpoint Control on Immersive Robot Telepresence for Navigation and Inspection",
+          "url": "https://arxiv.org/abs/2611.23939v1",
+          "publishedAt": "2026-11-18T06:27:01.000Z"
+        }
+      ]
+    },
+    {
       "id": "5028c8be40af",
       "title": "Designing with uncertain systems",
       "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
@@ -438,9 +438,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-17T23:25:21.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -469,6 +469,28 @@
           "title": "Experience Design: Dropping the “User” from “User Experience”",
           "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-30T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "234c8953d698",
+      "title": "Research that changes work",
+      "provocation": "When does research create understanding, and when does it merely create evidence?",
+      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
+      "lens": "Design",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-17T13:09:00.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "AI as Anchor: How Interview Sequencing Relates to the Appropriation of Synthetic Stakeholder Voices in Design Education",
+          "url": "https://arxiv.org/abs/2611.22740v1",
+          "publishedAt": "2026-11-17T13:09:00.000Z"
         }
       ]
     },
@@ -504,9 +526,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T21:27:14.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -594,35 +616,13 @@
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 18 days",
+      "categoryReason": "Ranked in a design community feed within 19 days",
       "sources": [
         {
           "name": "devto-ux",
           "title": "Session Timeout UX: Show What Survives Sign-In in Your Public Demo",
           "url": "https://dev.to/urielbitton/session-timeout-ux-show-what-survives-sign-in-in-your-public-demo-2l81",
           "publishedAt": "2026-10-31T23:12:50.000Z"
-        }
-      ]
-    },
-    {
-      "id": "71ed7e73d457",
-      "title": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-13T23:51:27.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
-          "url": "https://uxdesign.cc/schr%C3%B6dingers-huang-d1da36bff88c?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-13T23:51:27.000Z"
         }
       ]
     },
@@ -682,35 +682,13 @@
       "publishedAt": "2026-10-28T05:01:23.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "UX Design Patterns",
           "url": "https://sambernheim.com/blog/ux-design-patterns",
           "publishedAt": "2026-10-28T05:01:23.000Z"
-        }
-      ]
-    },
-    {
-      "id": "70e4549b006f",
-      "title": "Design systems and judgment",
-      "provocation": "When does consistency stop helping a team think clearly?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-10-20T10:00:00.000Z",
-      "since": "4 weeks ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 30 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
-          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
-          "publishedAt": "2026-10-20T10:00:00.000Z"
         }
       ]
     },
@@ -808,73 +786,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-19T06:55:48.103Z"
+      "fetchedAt": "2026-11-19T17:13:59.263Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-19T06:55:48.152Z"
+      "fetchedAt": "2026-11-19T17:13:59.305Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-19T06:55:48.153Z"
+      "fetchedAt": "2026-11-19T17:13:59.307Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-19T06:55:48.155Z"
+      "fetchedAt": "2026-11-19T17:13:59.308Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-19T06:55:48.156Z"
+      "fetchedAt": "2026-11-19T17:13:59.309Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-19T06:55:48.157Z"
+      "fetchedAt": "2026-11-19T17:13:59.309Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-19T06:55:48.158Z"
+      "fetchedAt": "2026-11-19T17:13:59.310Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 7,
-      "fetchedAt": "2026-11-19T06:55:48.158Z"
+      "fetchedAt": "2026-11-19T17:13:59.311Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-19T06:55:48.159Z"
+      "fetchedAt": "2026-11-19T17:13:59.311Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-19T06:55:48.160Z"
+      "fetchedAt": "2026-11-19T17:13:59.312Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-19T06:55:48.161Z"
+      "fetchedAt": "2026-11-19T17:13:59.313Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-11-19T06:55:48.162Z"
+      "fetchedAt": "2026-11-19T17:13:59.314Z"
     }
   ]
 }
