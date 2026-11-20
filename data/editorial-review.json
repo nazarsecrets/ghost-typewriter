@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-20T06:46:57.588Z",
+  "generatedAt": "2026-11-20T16:52:14.076Z",
   "summary": {
     "topics": 40,
-    "flagged": 18,
+    "flagged": 19,
     "byFlag": {
-      "fallback-frame": 4,
+      "fallback-frame": 5,
       "thin-match": 8,
       "ambiguous": 8
     },
@@ -70,11 +70,6 @@
         "flagged": 1
       },
       {
-        "keyword": "participant",
-        "theme": "Research that changes work",
-        "flagged": 1
-      },
-      {
         "keyword": "figma",
         "theme": "Design systems and judgment",
         "flagged": 1
@@ -82,6 +77,11 @@
       {
         "keyword": "design system",
         "theme": "Design systems and judgment",
+        "flagged": 1
+      },
+      {
+        "keyword": "participant",
+        "theme": "Research that changes work",
         "flagged": 1
       },
       {
@@ -123,11 +123,6 @@
       },
       {
         "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-        "theme": "Designing with uncertain systems",
-        "topics": 3
-      },
-      {
-        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
         "theme": "Designing with uncertain systems",
         "topics": 3
       }
@@ -249,38 +244,6 @@
       ]
     },
     {
-      "id": "05f997acdb96",
-      "theme": "Research that changes work",
-      "provocation": "When does research create understanding, and when does it merely create evidence?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Presenting Your Figures: Data-informed Animated Transitions Across Scientific Figure Panels",
-      "sourceUrl": "https://arxiv.org/abs/2611.26036v1",
-      "match": {
-        "theme": "Research that changes work",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "research",
-            "where": "description"
-          },
-          {
-            "keyword": "participant",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 2
-        },
-        "forced": false
-      },
-      "flags": [
-        "thin-match",
-        "ambiguous"
-      ]
-    },
-    {
       "id": "b32e9ab77da2",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -335,25 +298,48 @@
       ]
     },
     {
-      "id": "d566dc438c1a",
+      "id": "4bc9a7cb2a47",
+      "theme": "Evidence and conviction",
+      "provocation": "What would have to be learned before your opinion on this should change?",
+      "tag": "Research",
+      "source": "devto-ux",
+      "sourceTitle": "Give Haiku the UX rules and a checker, not just the request",
+      "sourceUrl": "https://dev.to/melolabs_melo_0f8fdb509b9/give-haiku-the-ux-rules-and-a-checker-not-just-the-request-dfi",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
+      ]
+    },
+    {
+      "id": "05f997acdb96",
       "theme": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
+      "provocation": "When does research create understanding, and when does it merely create evidence?",
       "tag": "Research",
       "source": "arxiv-hci",
-      "sourceTitle": "Open Response Explorer: a Structured Collaborative Writing System for Peer-Informed Open-Response Assignments",
-      "sourceUrl": "https://arxiv.org/abs/2611.25169v1",
+      "sourceTitle": "Presenting Your Figures: Data-informed Animated Transitions Across Scientific Figure Panels",
+      "sourceUrl": "https://arxiv.org/abs/2611.26036v1",
       "match": {
         "theme": "Research that changes work",
-        "score": 1,
+        "score": 2,
         "hits": [
           {
-            "keyword": "usability",
+            "keyword": "research",
+            "where": "description"
+          },
+          {
+            "keyword": "participant",
             "where": "description"
           }
         ],
         "runnerUp": {
-          "theme": "Interfaces and attention",
-          "score": 1
+          "theme": "Designing with uncertain systems",
+          "score": 2
         },
         "forced": false
       },
@@ -405,6 +391,34 @@
         "forced": false
       },
       "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "d566dc438c1a",
+      "theme": "Research that changes work",
+      "provocation": "Which part of research work most often disappears between learning and deciding?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "Open Response Explorer: a Structured Collaborative Writing System for Peer-Informed Open-Response Assignments",
+      "sourceUrl": "https://arxiv.org/abs/2611.25169v1",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 1,
+        "hits": [
+          {
+            "keyword": "usability",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Interfaces and attention",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match",
         "ambiguous"
       ]
     },
@@ -638,6 +652,28 @@
       ]
     },
     {
+      "id": "ef819ef3ecec",
+      "theme": "Design systems and judgment",
+      "provocation": "What judgment should a design system preserve rather than automate?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "Design Systems Should Be Fast by Default",
+      "sourceUrl": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
       "id": "beb98a05fa0d",
       "theme": "Research that changes work",
       "provocation": "Which part of research work most often disappears between learning and deciding?",
@@ -661,83 +697,6 @@
         "runnerUp": {
           "theme": "Automation and control",
           "score": 2
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "ef819ef3ecec",
-      "theme": "Design systems and judgment",
-      "provocation": "What judgment should a design system preserve rather than automate?",
-      "tag": "Systems",
-      "source": "hn-designsystem",
-      "sourceTitle": "Design Systems Should Be Fast by Default",
-      "sourceUrl": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
-      "match": {
-        "theme": "Design systems and judgment",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "design system",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "4065fa8a83a1",
-      "theme": "Automation and control",
-      "provocation": "When does convenience make a system's judgment harder to question?",
-      "tag": "Process",
-      "source": "uxcollective",
-      "sourceTitle": "Everyone’s got the tools. Not everyone’s got the tricks.",
-      "sourceUrl": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Automation and control",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "tool",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "27566c42fc47",
-      "theme": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study",
-      "sourceUrl": "https://arxiv.org/abs/2611.25428v1",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 5,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          },
-          {
-            "keyword": "model",
-            "where": "description"
-          },
-          {
-            "keyword": "generative",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 3
         },
         "forced": false
       },
@@ -885,83 +844,55 @@
       "flags": []
     },
     {
-      "id": "2265bf10b101",
-      "theme": "Interfaces and attention",
-      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Modeling Learner-Technology Interaction Through Multilevel Gaze Transition Dynamics to Inform Usability in Online Learning",
-      "sourceUrl": "https://arxiv.org/abs/2611.25294v1",
+      "id": "4065fa8a83a1",
+      "theme": "Automation and control",
+      "provocation": "When does convenience make a system's judgment harder to question?",
+      "tag": "Process",
+      "source": "uxcollective",
+      "sourceTitle": "Everyone’s got the tools. Not everyone’s got the tricks.",
+      "sourceUrl": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
       "match": {
-        "theme": "Interfaces and attention",
-        "score": 4,
+        "theme": "Automation and control",
+        "score": 2,
         "hits": [
           {
-            "keyword": "interface",
-            "where": "description"
-          },
+            "keyword": "tool",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "27566c42fc47",
+      "theme": "Designing with uncertain systems",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study",
+      "sourceUrl": "https://arxiv.org/abs/2611.25428v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 5,
+        "hits": [
           {
-            "keyword": "interaction",
+            "keyword": "ai",
             "where": "headline"
           },
           {
-            "keyword": "navigation",
+            "keyword": "model",
             "where": "description"
+          },
+          {
+            "keyword": "generative",
+            "where": "headline"
           }
         ],
         "runnerUp": {
           "theme": "Research that changes work",
           "score": 3
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "b58018a08f2c",
-      "theme": "Interfaces and attention",
-      "provocation": "When does making an interaction easier also make its consequences harder to see?",
-      "tag": "Ethics",
-      "source": "arxiv-hci",
-      "sourceTitle": "Design and Evaluation of a Body-Machine Interface as an Alternative Control Paradigm for Pedal-based Sewing Machines",
-      "sourceUrl": "https://arxiv.org/abs/2611.25261v1",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "interface",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 1
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "c2416b0d1889",
-      "theme": "Interfaces and attention",
-      "provocation": "When does making an interaction easier also make its consequences harder to see?",
-      "tag": "AI",
-      "source": "arxiv-hci",
-      "sourceTitle": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
-      "sourceUrl": "https://arxiv.org/abs/2611.25200v1",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "website",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 1
         },
         "forced": false
       },
@@ -1074,6 +1005,89 @@
       "flags": []
     },
     {
+      "id": "2265bf10b101",
+      "theme": "Interfaces and attention",
+      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "Modeling Learner-Technology Interaction Through Multilevel Gaze Transition Dynamics to Inform Usability in Online Learning",
+      "sourceUrl": "https://arxiv.org/abs/2611.25294v1",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 4,
+        "hits": [
+          {
+            "keyword": "interface",
+            "where": "description"
+          },
+          {
+            "keyword": "interaction",
+            "where": "headline"
+          },
+          {
+            "keyword": "navigation",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 3
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "b58018a08f2c",
+      "theme": "Interfaces and attention",
+      "provocation": "When does making an interaction easier also make its consequences harder to see?",
+      "tag": "Ethics",
+      "source": "arxiv-hci",
+      "sourceTitle": "Design and Evaluation of a Body-Machine Interface as an Alternative Control Paradigm for Pedal-based Sewing Machines",
+      "sourceUrl": "https://arxiv.org/abs/2611.25261v1",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "interface",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "c2416b0d1889",
+      "theme": "Interfaces and attention",
+      "provocation": "When does making an interaction easier also make its consequences harder to see?",
+      "tag": "AI",
+      "source": "arxiv-hci",
+      "sourceTitle": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
+      "sourceUrl": "https://arxiv.org/abs/2611.25200v1",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "website",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
       "id": "5028c8be40af",
       "theme": "Designing with uncertain systems",
       "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
@@ -1137,28 +1151,6 @@
         "hits": [
           {
             "keyword": "robot",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "9b61d04877b9",
-      "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "tag": "AI",
-      "source": "devto-ux",
-      "sourceTitle": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
-      "sourceUrl": "https://dev.to/melolabs_melo_0f8fdb509b9/haiku-com-kit-de-ux-regras-abertas-e-um-codigo-minimo-fazem-um-modelo-pequeno-acertar-como-um-26do",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "model",
             "where": "headline"
           }
         ],
