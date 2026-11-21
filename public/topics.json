@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-20T16:52:14.076Z",
-  "windowStart": "2026-10-21T16:52:14.076Z",
-  "windowEnd": "2026-11-20T16:52:14.076Z",
+  "generatedAt": "2026-11-21T06:40:28.352Z",
+  "windowStart": "2026-10-22T06:40:28.352Z",
+  "windowEnd": "2026-11-21T06:40:28.352Z",
   "topics": [
     {
       "id": "ef819ef3ecec",
@@ -14,9 +14,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T15:30:57.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -36,9 +36,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-19T12:54:05.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -58,9 +58,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-19T06:16:39.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -124,9 +124,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-17T12:00:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -170,7 +170,7 @@
       "publishedAt": "2026-11-04T09:18:02.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 16 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -192,7 +192,7 @@
       "publishedAt": "2026-11-04T14:38:35.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -212,9 +212,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T12:17:08.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.857,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -253,24 +253,24 @@
       ]
     },
     {
-      "id": "4bc9a7cb2a47",
-      "title": "Evidence and conviction",
-      "provocation": "What would have to be learned before your opinion on this should change?",
-      "whyNow": "A recent source is raising questions about evidence and conviction across product and design work.",
+      "id": "88c5db26f9b5",
+      "title": "Research that changes work",
+      "provocation": "Which part of research work most often disappears between learning and deciding?",
+      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
       "lens": "Design",
       "tag": "Research",
       "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-11-11T10:20:32.000Z",
-      "since": "1 week ago",
+      "category": "Latest",
+      "publishedAt": "2026-11-20T18:00:00.000Z",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 9 days",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Give Haiku the UX rules and a checker, not just the request",
-          "url": "https://dev.to/melolabs_melo_0f8fdb509b9/give-haiku-the-ux-rules-and-a-checker-not-just-the-request-dfi",
-          "publishedAt": "2026-11-11T10:20:32.000Z"
+          "name": "nngroup",
+          "title": "Qualitative User-Research Methods: An Overview",
+          "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-11-20T18:00:00.000Z"
         }
       ]
     },
@@ -330,7 +330,7 @@
       "publishedAt": "2026-11-02T16:41:01.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 18 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -372,9 +372,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-19T12:46:05.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -396,7 +396,7 @@
       "publishedAt": "2026-11-06T10:35:22.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 14 days",
+      "categoryReason": "Ranked in a design community feed within 15 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -416,9 +416,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-17T08:00:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "smashing",
@@ -440,13 +440,35 @@
       "publishedAt": "2026-11-05T17:30:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-ux",
           "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
           "url": "https://github.com/smokeeaasd/flawless-ui-ux",
           "publishedAt": "2026-11-05T17:30:09.000Z"
+        }
+      ]
+    },
+    {
+      "id": "4bc9a7cb2a47",
+      "title": "Evidence and conviction",
+      "provocation": "What would have to be learned before your opinion on this should change?",
+      "whyNow": "A recent source is raising questions about evidence and conviction across product and design work.",
+      "lens": "Design",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Trending",
+      "publishedAt": "2026-11-11T10:20:32.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.429,
+      "categoryReason": "Ranked in a design community feed within 10 days",
+      "sources": [
+        {
+          "name": "devto-ux",
+          "title": "Give Haiku the UX rules and a checker, not just the request",
+          "url": "https://dev.to/melolabs_melo_0f8fdb509b9/give-haiku-the-ux-rules-and-a-checker-not-just-the-request-dfi",
+          "publishedAt": "2026-11-11T10:20:32.000Z"
         }
       ]
     },
@@ -462,7 +484,7 @@
       "publishedAt": "2026-11-04T13:09:26.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 16 days",
+      "categoryReason": "High relevance (0.57) with limited coverage over 17 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -616,7 +638,7 @@
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.86) with limited coverage over 22 days",
       "sources": [
         {
           "name": "nngroup",
@@ -638,7 +660,7 @@
       "publishedAt": "2026-11-08T17:16:09.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 12 days",
+      "categoryReason": "Ranked in a design community feed within 13 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -682,7 +704,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 28 days",
+      "categoryReason": "High relevance (1.00) with limited coverage over 29 days",
       "sources": [
         {
           "name": "nngroup",
@@ -702,9 +724,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T12:16:15.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -726,7 +748,7 @@
       "publishedAt": "2026-11-07T15:00:20.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -766,11 +788,11 @@
       "lens": "Design",
       "tag": "Research",
       "origin": "source-backed",
-      "category": "Latest",
+      "category": "Under the Radar",
       "publishedAt": "2026-11-13T18:00:00.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 7 days ago",
+      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
       "sources": [
         {
           "name": "nngroup",
@@ -792,7 +814,7 @@
       "publishedAt": "2026-10-28T05:01:23.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 23 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 24 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -814,7 +836,7 @@
       "publishedAt": "2026-11-06T18:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "nngroup",
@@ -836,7 +858,7 @@
       "publishedAt": "2026-11-06T08:00:00.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
       "sources": [
         {
           "name": "smashing",
@@ -858,7 +880,7 @@
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "nngroup",
@@ -880,7 +902,7 @@
       "publishedAt": "2026-10-23T17:00:00.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
       "sources": [
         {
           "name": "nngroup",
@@ -896,73 +918,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-20T16:52:14.077Z"
+      "fetchedAt": "2026-11-21T06:40:28.353Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-20T16:52:14.126Z"
+      "fetchedAt": "2026-11-21T06:40:28.392Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-20T16:52:14.128Z"
+      "fetchedAt": "2026-11-21T06:40:28.393Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-20T16:52:14.129Z"
+      "fetchedAt": "2026-11-21T06:40:28.394Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-20T16:52:14.130Z"
+      "fetchedAt": "2026-11-21T06:40:28.395Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-20T16:52:14.131Z"
+      "fetchedAt": "2026-11-21T06:40:28.396Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-20T16:52:14.132Z"
+      "fetchedAt": "2026-11-21T06:40:28.397Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 7,
-      "fetchedAt": "2026-11-20T16:52:14.133Z"
+      "fetchedAt": "2026-11-21T06:40:28.397Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 36,
-      "fetchedAt": "2026-11-20T16:52:14.134Z"
+      "fetchedAt": "2026-11-21T06:40:28.398Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-20T16:52:14.135Z"
+      "fetchedAt": "2026-11-21T06:40:28.399Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-20T16:52:14.136Z"
+      "fetchedAt": "2026-11-21T06:40:28.399Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-20T16:52:14.137Z"
+      "fetchedAt": "2026-11-21T06:40:28.400Z"
     }
   ]
 }

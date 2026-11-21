@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-20T16:52:14.076Z",
+  "generatedAt": "2026-11-21T06:40:28.352Z",
   "summary": {
-    "topics": 40,
+    "topics": 41,
     "flagged": 19,
     "byFlag": {
       "fallback-frame": 5,
@@ -119,6 +119,11 @@
       {
         "provocation": "Which interface choice quietly determines how a person understands the whole product?",
         "theme": "Interfaces and attention",
+        "topics": 3
+      },
+      {
+        "provocation": "Which part of research work most often disappears between learning and deciding?",
+        "theme": "Research that changes work",
         "topics": 3
       },
       {
@@ -298,25 +303,6 @@
       ]
     },
     {
-      "id": "4bc9a7cb2a47",
-      "theme": "Evidence and conviction",
-      "provocation": "What would have to be learned before your opinion on this should change?",
-      "tag": "Research",
-      "source": "devto-ux",
-      "sourceTitle": "Give Haiku the UX rules and a checker, not just the request",
-      "sourceUrl": "https://dev.to/melolabs_melo_0f8fdb509b9/give-haiku-the-ux-rules-and-a-checker-not-just-the-request-dfi",
-      "match": {
-        "theme": null,
-        "score": 0,
-        "hits": [],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": [
-        "fallback-frame"
-      ]
-    },
-    {
       "id": "05f997acdb96",
       "theme": "Research that changes work",
       "provocation": "When does research create understanding, and when does it merely create evidence?",
@@ -392,6 +378,25 @@
       },
       "flags": [
         "ambiguous"
+      ]
+    },
+    {
+      "id": "4bc9a7cb2a47",
+      "theme": "Evidence and conviction",
+      "provocation": "What would have to be learned before your opinion on this should change?",
+      "tag": "Research",
+      "source": "devto-ux",
+      "sourceTitle": "Give Haiku the UX rules and a checker, not just the request",
+      "sourceUrl": "https://dev.to/melolabs_melo_0f8fdb509b9/give-haiku-the-ux-rules-and-a-checker-not-just-the-request-dfi",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
       ]
     },
     {
@@ -839,6 +844,28 @@
           "theme": "Designing with uncertain systems",
           "score": 1
         },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "88c5db26f9b5",
+      "theme": "Research that changes work",
+      "provocation": "Which part of research work most often disappears between learning and deciding?",
+      "tag": "Research",
+      "source": "nngroup",
+      "sourceTitle": "Qualitative User-Research Methods: An Overview",
+      "sourceUrl": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "research",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
         "forced": false
       },
       "flags": []
