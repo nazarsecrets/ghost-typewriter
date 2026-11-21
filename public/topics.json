@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-21T06:40:28.352Z",
-  "windowStart": "2026-10-22T06:40:28.352Z",
-  "windowEnd": "2026-11-21T06:40:28.352Z",
+  "generatedAt": "2026-11-21T16:00:22.352Z",
+  "windowStart": "2026-10-22T16:00:22.352Z",
+  "windowEnd": "2026-11-21T16:00:22.352Z",
   "topics": [
     {
       "id": "ef819ef3ecec",
@@ -80,9 +80,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T20:17:39.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -102,9 +102,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-17T23:26:24.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -146,9 +146,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T21:20:24.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -225,6 +225,28 @@
       ]
     },
     {
+      "id": "0dae865dee2b",
+      "title": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
+      "lens": "Technology",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-21T14:34:16.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The judge used to be the user",
+          "url": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-21T14:34:16.000Z"
+        }
+      ]
+    },
+    {
       "id": "9cca55adbbbe",
       "title": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -236,7 +258,7 @@
       "publishedAt": "2026-11-08T23:27:30.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 12 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -253,28 +275,6 @@
       ]
     },
     {
-      "id": "88c5db26f9b5",
-      "title": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-20T18:00:00.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "nngroup",
-          "title": "Qualitative User-Research Methods: An Overview",
-          "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "publishedAt": "2026-11-20T18:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "4065fa8a83a1",
       "title": "Automation and control",
       "provocation": "When does convenience make a system's judgment harder to question?",
@@ -284,9 +284,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-19T21:36:22.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -306,37 +306,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-19T03:09:14.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
           "title": "GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study",
           "url": "https://arxiv.org/abs/2611.25428v1",
           "publishedAt": "2026-11-19T03:09:14.000Z"
-        }
-      ]
-    },
-    {
-      "id": "819d92c0df8e",
-      "title": "Design systems and judgment",
-      "provocation": "When does consistency stop helping a team think clearly?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-11-02T16:41:01.000Z",
-      "since": "3 weeks ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "High relevance (0.57) with limited coverage over 19 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "BoardUI: A React design system with 103 unique components",
-          "url": "https://www.boardui.com",
-          "publishedAt": "2026-11-02T16:41:01.000Z"
         }
       ]
     },
@@ -352,7 +330,7 @@
       "publishedAt": "2026-11-13T03:17:26.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 8 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -451,24 +429,24 @@
       ]
     },
     {
-      "id": "4bc9a7cb2a47",
-      "title": "Evidence and conviction",
-      "provocation": "What would have to be learned before your opinion on this should change?",
-      "whyNow": "A recent source is raising questions about evidence and conviction across product and design work.",
+      "id": "88c5db26f9b5",
+      "title": "Research that changes work",
+      "provocation": "Which part of research work most often disappears between learning and deciding?",
+      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
       "lens": "Design",
       "tag": "Research",
       "origin": "source-backed",
-      "category": "Trending",
-      "publishedAt": "2026-11-11T10:20:32.000Z",
-      "since": "1 week ago",
+      "category": "Latest",
+      "publishedAt": "2026-11-20T18:00:00.000Z",
+      "since": "yesterday",
       "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 10 days",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
-          "name": "devto-ux",
-          "title": "Give Haiku the UX rules and a checker, not just the request",
-          "url": "https://dev.to/melolabs_melo_0f8fdb509b9/give-haiku-the-ux-rules-and-a-checker-not-just-the-request-dfi",
-          "publishedAt": "2026-11-11T10:20:32.000Z"
+          "name": "nngroup",
+          "title": "Qualitative User-Research Methods: An Overview",
+          "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "publishedAt": "2026-11-20T18:00:00.000Z"
         }
       ]
     },
@@ -504,9 +482,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T23:42:04.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -526,9 +504,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T22:44:44.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -548,9 +526,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T21:18:18.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -570,9 +548,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T20:50:55.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -592,9 +570,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T20:17:05.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -614,9 +592,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-17T23:25:21.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -680,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T21:27:14.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -711,28 +689,6 @@
           "title": "UX Disciplines: Glossary",
           "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "publishedAt": "2026-10-23T17:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "56dd777ea30e",
-      "title": "Automation and control",
-      "provocation": "What control should never disappear simply because a task can be automated?",
-      "whyNow": "A recent source is raising questions about automation and control across product and design work.",
-      "lens": "Technology",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-16T12:16:15.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The trash robot that doesn’t pick up, but hands out",
-          "url": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-16T12:16:15.000Z"
         }
       ]
     },
@@ -770,7 +726,7 @@
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 20 days",
+      "categoryReason": "Ranked in a design community feed within 21 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -918,73 +874,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-21T06:40:28.353Z"
+      "fetchedAt": "2026-11-21T16:00:22.353Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-21T06:40:28.392Z"
+      "fetchedAt": "2026-11-21T16:00:22.406Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-21T06:40:28.393Z"
+      "fetchedAt": "2026-11-21T16:00:22.407Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-21T06:40:28.394Z"
+      "fetchedAt": "2026-11-21T16:00:22.409Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-21T06:40:28.395Z"
+      "fetchedAt": "2026-11-21T16:00:22.410Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-21T06:40:28.396Z"
+      "fetchedAt": "2026-11-21T16:00:22.411Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-21T06:40:28.397Z"
+      "fetchedAt": "2026-11-21T16:00:22.412Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 7,
-      "fetchedAt": "2026-11-21T06:40:28.397Z"
+      "fetchedAt": "2026-11-21T16:00:22.413Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
-      "items": 36,
-      "fetchedAt": "2026-11-21T06:40:28.398Z"
+      "items": 35,
+      "fetchedAt": "2026-11-21T16:00:22.414Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-21T06:40:28.399Z"
+      "fetchedAt": "2026-11-21T16:00:22.415Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-21T06:40:28.399Z"
+      "fetchedAt": "2026-11-21T16:00:22.416Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-21T06:40:28.400Z"
+      "fetchedAt": "2026-11-21T16:00:22.417Z"
     }
   ]
 }

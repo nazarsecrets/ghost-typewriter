@@ -1,14 +1,19 @@
 {
-  "generatedAt": "2026-11-21T06:40:28.352Z",
+  "generatedAt": "2026-11-21T16:00:22.352Z",
   "summary": {
-    "topics": 41,
+    "topics": 39,
     "flagged": 19,
     "byFlag": {
-      "fallback-frame": 5,
-      "thin-match": 8,
+      "fallback-frame": 4,
+      "thin-match": 9,
       "ambiguous": 8
     },
     "weakKeywords": [
+      {
+        "keyword": "ai",
+        "theme": "Designing with uncertain systems",
+        "flagged": 3
+      },
       {
         "keyword": "interface",
         "theme": "Interfaces and attention",
@@ -27,11 +32,6 @@
       {
         "keyword": "organization",
         "theme": "Leadership through uncertainty",
-        "flagged": 2
-      },
-      {
-        "keyword": "ai",
-        "theme": "Designing with uncertain systems",
         "flagged": 2
       },
       {
@@ -75,6 +75,11 @@
         "flagged": 1
       },
       {
+        "keyword": "model",
+        "theme": "Designing with uncertain systems",
+        "flagged": 1
+      },
+      {
         "keyword": "design system",
         "theme": "Design systems and judgment",
         "flagged": 1
@@ -112,6 +117,11 @@
         "topics": 6
       },
       {
+        "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+        "theme": "Designing with uncertain systems",
+        "topics": 4
+      },
+      {
         "provocation": "Which assumption about how this work gets done deserves to be questioned?",
         "theme": "How the work gets made",
         "topics": 4
@@ -124,11 +134,6 @@
       {
         "provocation": "Which part of research work most often disappears between learning and deciding?",
         "theme": "Research that changes work",
-        "topics": 3
-      },
-      {
-        "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-        "theme": "Designing with uncertain systems",
         "topics": 3
       }
     ],
@@ -276,6 +281,34 @@
       ]
     },
     {
+      "id": "0dae865dee2b",
+      "theme": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "The judge used to be the user",
+      "sourceUrl": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "thin-match"
+      ]
+    },
+    {
       "id": "9cca55adbbbe",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -378,25 +411,6 @@
       },
       "flags": [
         "ambiguous"
-      ]
-    },
-    {
-      "id": "4bc9a7cb2a47",
-      "theme": "Evidence and conviction",
-      "provocation": "What would have to be learned before your opinion on this should change?",
-      "tag": "Research",
-      "source": "devto-ux",
-      "sourceTitle": "Give Haiku the UX rules and a checker, not just the request",
-      "sourceUrl": "https://dev.to/melolabs_melo_0f8fdb509b9/give-haiku-the-ux-rules-and-a-checker-not-just-the-request-dfi",
-      "match": {
-        "theme": null,
-        "score": 0,
-        "hits": [],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": [
-        "fallback-frame"
       ]
     },
     {
@@ -849,28 +863,6 @@
       "flags": []
     },
     {
-      "id": "88c5db26f9b5",
-      "theme": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "tag": "Research",
-      "source": "nngroup",
-      "sourceTitle": "Qualitative User-Research Methods: An Overview",
-      "sourceUrl": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "match": {
-        "theme": "Research that changes work",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "research",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "4065fa8a83a1",
       "theme": "Automation and control",
       "provocation": "When does convenience make a system's judgment harder to question?",
@@ -926,32 +918,6 @@
       "flags": []
     },
     {
-      "id": "819d92c0df8e",
-      "theme": "Design systems and judgment",
-      "provocation": "When does consistency stop helping a team think clearly?",
-      "tag": "Systems",
-      "source": "hn-designsystem",
-      "sourceTitle": "BoardUI: A React design system with 103 unique components",
-      "sourceUrl": "https://www.boardui.com",
-      "match": {
-        "theme": "Design systems and judgment",
-        "score": 4,
-        "hits": [
-          {
-            "keyword": "design system",
-            "where": "headline"
-          },
-          {
-            "keyword": "component",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "d0f9ed5224dd",
       "theme": "Design systems and judgment",
       "provocation": "Who gets to decide when the system should be broken?",
@@ -998,6 +964,28 @@
           "theme": "Designing with uncertain systems",
           "score": 2
         },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "88c5db26f9b5",
+      "theme": "Research that changes work",
+      "provocation": "Which part of research work most often disappears between learning and deciding?",
+      "tag": "Research",
+      "source": "nngroup",
+      "sourceTitle": "Qualitative User-Research Methods: An Overview",
+      "sourceUrl": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "research",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
         "forced": false
       },
       "flags": []
@@ -1160,28 +1148,6 @@
           "theme": "Designing with uncertain systems",
           "score": 1
         },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "56dd777ea30e",
-      "theme": "Automation and control",
-      "provocation": "What control should never disappear simply because a task can be automated?",
-      "tag": "Process",
-      "source": "uxcollective",
-      "sourceTitle": "The trash robot that doesn’t pick up, but hands out",
-      "sourceUrl": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Automation and control",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "robot",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
         "forced": false
       },
       "flags": []
