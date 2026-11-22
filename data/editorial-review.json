@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T16:00:22.352Z",
+  "generatedAt": "2026-11-22T06:09:48.121Z",
   "summary": {
     "topics": 39,
     "flagged": 19,
@@ -75,11 +75,6 @@
         "flagged": 1
       },
       {
-        "keyword": "model",
-        "theme": "Designing with uncertain systems",
-        "flagged": 1
-      },
-      {
         "keyword": "design system",
         "theme": "Design systems and judgment",
         "flagged": 1
@@ -87,6 +82,11 @@
       {
         "keyword": "participant",
         "theme": "Research that changes work",
+        "flagged": 1
+      },
+      {
+        "keyword": "model",
+        "theme": "Designing with uncertain systems",
         "flagged": 1
       },
       {
@@ -281,34 +281,6 @@
       ]
     },
     {
-      "id": "0dae865dee2b",
-      "theme": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "tag": "AI",
-      "source": "uxcollective",
-      "sourceTitle": "The judge used to be the user",
-      "sourceUrl": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "description"
-          },
-          {
-            "keyword": "model",
-            "where": "description"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": [
-        "thin-match"
-      ]
-    },
-    {
       "id": "9cca55adbbbe",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -411,6 +383,34 @@
       },
       "flags": [
         "ambiguous"
+      ]
+    },
+    {
+      "id": "0dae865dee2b",
+      "theme": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "The judge used to be the user",
+      "sourceUrl": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "thin-match"
       ]
     },
     {
