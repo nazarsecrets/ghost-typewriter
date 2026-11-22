@@ -1,18 +1,43 @@
 {
-  "generatedAt": "2026-11-22T06:09:48.121Z",
+  "generatedAt": "2026-11-22T16:07:18.393Z",
   "summary": {
     "topics": 39,
-    "flagged": 19,
+    "flagged": 21,
     "byFlag": {
       "fallback-frame": 4,
-      "thin-match": 9,
+      "thin-match": 11,
       "ambiguous": 8
     },
     "weakKeywords": [
       {
+        "keyword": "research",
+        "theme": "Research that changes work",
+        "flagged": 3
+      },
+      {
         "keyword": "ai",
         "theme": "Designing with uncertain systems",
         "flagged": 3
+      },
+      {
+        "keyword": "design system",
+        "theme": "Design systems and judgment",
+        "flagged": 2
+      },
+      {
+        "keyword": "figma",
+        "theme": "Design systems and judgment",
+        "flagged": 2
+      },
+      {
+        "keyword": "participant",
+        "theme": "Research that changes work",
+        "flagged": 2
+      },
+      {
+        "keyword": "usability",
+        "theme": "Research that changes work",
+        "flagged": 2
       },
       {
         "keyword": "interface",
@@ -35,14 +60,34 @@
         "flagged": 2
       },
       {
-        "keyword": "research",
-        "theme": "Research that changes work",
-        "flagged": 2
-      },
-      {
         "keyword": "agent",
         "theme": "Designing with uncertain systems",
         "flagged": 2
+      },
+      {
+        "keyword": "component",
+        "theme": "Design systems and judgment",
+        "flagged": 1
+      },
+      {
+        "keyword": "token",
+        "theme": "Design systems and judgment",
+        "flagged": 1
+      },
+      {
+        "keyword": "library",
+        "theme": "Design systems and judgment",
+        "flagged": 1
+      },
+      {
+        "keyword": "interview",
+        "theme": "Research that changes work",
+        "flagged": 1
+      },
+      {
+        "keyword": "discovery",
+        "theme": "Research that changes work",
+        "flagged": 1
       },
       {
         "keyword": "app",
@@ -70,28 +115,8 @@
         "flagged": 1
       },
       {
-        "keyword": "figma",
-        "theme": "Design systems and judgment",
-        "flagged": 1
-      },
-      {
-        "keyword": "design system",
-        "theme": "Design systems and judgment",
-        "flagged": 1
-      },
-      {
-        "keyword": "participant",
-        "theme": "Research that changes work",
-        "flagged": 1
-      },
-      {
         "keyword": "model",
         "theme": "Designing with uncertain systems",
-        "flagged": 1
-      },
-      {
-        "keyword": "usability",
-        "theme": "Research that changes work",
         "flagged": 1
       },
       {
@@ -127,8 +152,8 @@
         "topics": 4
       },
       {
-        "provocation": "Which interface choice quietly determines how a person understands the whole product?",
-        "theme": "Interfaces and attention",
+        "provocation": "When does research create understanding, and when does it merely create evidence?",
+        "theme": "Research that changes work",
         "topics": 3
       },
       {
@@ -144,6 +169,92 @@
     }
   },
   "entries": [
+    {
+      "id": "420ea823062a",
+      "theme": "Design systems and judgment",
+      "provocation": "What judgment should a design system preserve rather than automate?",
+      "tag": "Systems",
+      "source": "uxcollective",
+      "sourceTitle": "The attack of the giant AI design slop monster: a survivor’s guide",
+      "sourceUrl": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 5,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "description"
+          },
+          {
+            "keyword": "component",
+            "where": "description"
+          },
+          {
+            "keyword": "token",
+            "where": "description"
+          },
+          {
+            "keyword": "library",
+            "where": "description"
+          },
+          {
+            "keyword": "figma",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 4
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match"
+      ]
+    },
+    {
+      "id": "9545a6430fb1",
+      "theme": "Research that changes work",
+      "provocation": "When does research create understanding, and when does it merely create evidence?",
+      "tag": "Research",
+      "source": "uxcollective",
+      "sourceTitle": "Prototypes have always been the most effective specification-especially with AI",
+      "sourceUrl": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 5,
+        "hits": [
+          {
+            "keyword": "research",
+            "where": "description"
+          },
+          {
+            "keyword": "interview",
+            "where": "description"
+          },
+          {
+            "keyword": "discovery",
+            "where": "description"
+          },
+          {
+            "keyword": "participant",
+            "where": "description"
+          },
+          {
+            "keyword": "usability",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 4
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match"
+      ]
+    },
     {
       "id": "01ea91246cfd",
       "theme": "Interfaces and attention",
@@ -767,55 +878,6 @@
       "flags": []
     },
     {
-      "id": "8192e9a950eb",
-      "theme": "Interfaces and attention",
-      "provocation": "Which interface choice quietly determines how a person understands the whole product?",
-      "tag": "Systems",
-      "source": "uxcollective",
-      "sourceTitle": "UI edge cases: A reference guide",
-      "sourceUrl": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 8,
-        "hits": [
-          {
-            "keyword": "interface",
-            "where": "description"
-          },
-          {
-            "keyword": "interaction",
-            "where": "description"
-          },
-          {
-            "keyword": "mobile",
-            "where": "description"
-          },
-          {
-            "keyword": "app",
-            "where": "description"
-          },
-          {
-            "keyword": "website",
-            "where": "description"
-          },
-          {
-            "keyword": "ui",
-            "where": "headline"
-          },
-          {
-            "keyword": "search",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Design systems and judgment",
-          "score": 3
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "eadd73a9ff9b",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -833,31 +895,6 @@
           }
         ],
         "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "7efe836f0250",
-      "theme": "Design systems and judgment",
-      "provocation": "What judgment should a design system preserve rather than automate?",
-      "tag": "Leadership",
-      "source": "uxcollective",
-      "sourceTitle": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
-      "sourceUrl": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Design systems and judgment",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "token",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 1
-        },
         "forced": false
       },
       "flags": []

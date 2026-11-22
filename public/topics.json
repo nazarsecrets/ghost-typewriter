@@ -1,9 +1,53 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-22T06:09:48.121Z",
-  "windowStart": "2026-10-23T06:09:48.121Z",
-  "windowEnd": "2026-11-22T06:09:48.121Z",
+  "generatedAt": "2026-11-22T16:07:18.393Z",
+  "windowStart": "2026-10-23T16:07:18.393Z",
+  "windowEnd": "2026-11-22T16:07:18.393Z",
   "topics": [
+    {
+      "id": "420ea823062a",
+      "title": "Design systems and judgment",
+      "provocation": "What judgment should a design system preserve rather than automate?",
+      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
+      "lens": "Design",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-22T11:36:59.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The attack of the giant AI design slop monster: a survivor’s guide",
+          "url": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-22T11:36:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9545a6430fb1",
+      "title": "Research that changes work",
+      "provocation": "When does research create understanding, and when does it merely create evidence?",
+      "whyNow": "A recent source is raising questions about research that changes work across product and design work.",
+      "lens": "Design",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-22T11:36:31.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Prototypes have always been the most effective specification-especially with AI",
+          "url": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-22T11:36:31.000Z"
+        }
+      ]
+    },
     {
       "id": "ef819ef3ecec",
       "title": "Design systems and judgment",
@@ -80,9 +124,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T20:17:39.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -102,9 +146,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-17T23:26:24.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -133,28 +177,6 @@
           "title": "Meet AI 2027 Conference (Dec 1)",
           "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
           "publishedAt": "2026-11-17T12:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "8192e9a950eb",
-      "title": "Interfaces and attention",
-      "provocation": "Which interface choice quietly determines how a person understands the whole product?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-16T21:20:24.000Z",
-      "since": "5 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 5 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "UI edge cases: A reference guide",
-          "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-16T21:20:24.000Z"
         }
       ]
     },
@@ -203,28 +225,6 @@
       ]
     },
     {
-      "id": "7efe836f0250",
-      "title": "Design systems and judgment",
-      "provocation": "What judgment should a design system preserve rather than automate?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-16T12:17:08.000Z",
-      "since": "6 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 6 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
-          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-16T12:17:08.000Z"
-        }
-      ]
-    },
-    {
       "id": "9cca55adbbbe",
       "title": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -236,7 +236,7 @@
       "publishedAt": "2026-11-08T23:27:30.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -262,9 +262,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-19T21:36:22.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -284,9 +284,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-19T03:09:14.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -308,7 +308,7 @@
       "publishedAt": "2026-11-13T03:17:26.000Z",
       "since": "1 week ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 9 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 10 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -482,9 +482,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T23:42:04.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -504,9 +504,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T22:44:44.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -526,9 +526,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T21:18:18.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -548,9 +548,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T20:50:55.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -570,9 +570,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-18T20:17:05.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -592,9 +592,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-17T23:25:21.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -658,9 +658,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-16T21:27:14.000Z",
-      "since": "5 days ago",
+      "since": "6 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 5 days ago",
+      "categoryReason": "Published 6 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -722,11 +722,11 @@
       "lens": "Ways of Working",
       "tag": "Process",
       "origin": "source-backed",
-      "category": "Trending",
+      "category": "Under the Radar",
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Ranked in a design community feed within 21 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 22 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -874,73 +874,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-22T06:09:48.121Z"
+      "fetchedAt": "2026-11-22T16:07:18.394Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-22T06:09:48.160Z"
+      "fetchedAt": "2026-11-22T16:07:18.444Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-22T06:09:48.161Z"
+      "fetchedAt": "2026-11-22T16:07:18.445Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-22T06:09:48.162Z"
+      "fetchedAt": "2026-11-22T16:07:18.447Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-22T06:09:48.163Z"
+      "fetchedAt": "2026-11-22T16:07:18.448Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-22T06:09:48.164Z"
+      "fetchedAt": "2026-11-22T16:07:18.449Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-22T06:09:48.164Z"
+      "fetchedAt": "2026-11-22T16:07:18.450Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
-      "items": 7,
-      "fetchedAt": "2026-11-22T06:09:48.165Z"
+      "items": 5,
+      "fetchedAt": "2026-11-22T16:07:18.450Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 35,
-      "fetchedAt": "2026-11-22T06:09:48.166Z"
+      "fetchedAt": "2026-11-22T16:07:18.451Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-22T06:09:48.166Z"
+      "fetchedAt": "2026-11-22T16:07:18.452Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-22T06:09:48.167Z"
+      "fetchedAt": "2026-11-22T16:07:18.453Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-22T06:09:48.168Z"
+      "fetchedAt": "2026-11-22T16:07:18.454Z"
     }
   ]
 }
