@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-22T16:07:18.393Z",
+  "generatedAt": "2026-11-23T07:01:34.386Z",
   "summary": {
-    "topics": 39,
+    "topics": 37,
     "flagged": 21,
     "byFlag": {
       "fallback-frame": 4,
@@ -10,14 +10,24 @@
     },
     "weakKeywords": [
       {
+        "keyword": "ai",
+        "theme": "Designing with uncertain systems",
+        "flagged": 4
+      },
+      {
         "keyword": "research",
         "theme": "Research that changes work",
         "flagged": 3
       },
       {
-        "keyword": "ai",
+        "keyword": "agent",
         "theme": "Designing with uncertain systems",
         "flagged": 3
+      },
+      {
+        "keyword": "model",
+        "theme": "Designing with uncertain systems",
+        "flagged": 2
       },
       {
         "keyword": "design system",
@@ -35,17 +45,7 @@
         "flagged": 2
       },
       {
-        "keyword": "usability",
-        "theme": "Research that changes work",
-        "flagged": 2
-      },
-      {
         "keyword": "interface",
-        "theme": "Interfaces and attention",
-        "flagged": 2
-      },
-      {
-        "keyword": "ui",
         "theme": "Interfaces and attention",
         "flagged": 2
       },
@@ -60,9 +60,9 @@
         "flagged": 2
       },
       {
-        "keyword": "agent",
+        "keyword": "machine learning",
         "theme": "Designing with uncertain systems",
-        "flagged": 2
+        "flagged": 1
       },
       {
         "keyword": "component",
@@ -90,7 +90,17 @@
         "flagged": 1
       },
       {
+        "keyword": "usability",
+        "theme": "Research that changes work",
+        "flagged": 1
+      },
+      {
         "keyword": "app",
+        "theme": "Interfaces and attention",
+        "flagged": 1
+      },
+      {
+        "keyword": "ui",
         "theme": "Interfaces and attention",
         "flagged": 1
       },
@@ -115,21 +125,6 @@
         "flagged": 1
       },
       {
-        "keyword": "model",
-        "theme": "Designing with uncertain systems",
-        "flagged": 1
-      },
-      {
-        "keyword": "interaction",
-        "theme": "Interfaces and attention",
-        "flagged": 1
-      },
-      {
-        "keyword": "visual design",
-        "theme": "Interfaces and attention",
-        "flagged": 1
-      },
-      {
         "keyword": "developer",
         "theme": "The work around the artifact",
         "flagged": 1
@@ -142,9 +137,9 @@
         "topics": 6
       },
       {
-        "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
         "theme": "Designing with uncertain systems",
-        "topics": 4
+        "topics": 5
       },
       {
         "provocation": "Which assumption about how this work gets done deserves to be questioned?",
@@ -157,8 +152,8 @@
         "topics": 3
       },
       {
-        "provocation": "Which part of research work most often disappears between learning and deciding?",
-        "theme": "Research that changes work",
+        "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+        "theme": "Designing with uncertain systems",
         "topics": 3
       }
     ],
@@ -169,6 +164,42 @@
     }
   },
   "entries": [
+    {
+      "id": "c201707f24e0",
+      "theme": "Designing with uncertain systems",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "Lessons from 3D scanning St John’s Co-Cathedral",
+      "sourceUrl": "https://uxdesign.cc/lessons-from-3d-scanning-st-johns-co-cathedral-700911d61cfe?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          },
+          {
+            "keyword": "machine learning",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "The work around the artifact",
+          "score": 3
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match",
+        "ambiguous"
+      ]
+    },
     {
       "id": "420ea823062a",
       "theme": "Design systems and judgment",
@@ -392,6 +423,30 @@
       ]
     },
     {
+      "id": "5934cbf898e5",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "How to write great skills",
+      "sourceUrl": "https://uxdesign.cc/how-to-write-great-skills-91635bc45ada?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 1,
+        "hits": [
+          {
+            "keyword": "agent",
+            "where": "description"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "thin-match"
+      ]
+    },
+    {
       "id": "9cca55adbbbe",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -525,34 +580,6 @@
       ]
     },
     {
-      "id": "d566dc438c1a",
-      "theme": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Open Response Explorer: a Structured Collaborative Writing System for Peer-Informed Open-Response Assignments",
-      "sourceUrl": "https://arxiv.org/abs/2611.25169v1",
-      "match": {
-        "theme": "Research that changes work",
-        "score": 1,
-        "hits": [
-          {
-            "keyword": "usability",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Interfaces and attention",
-          "score": 1
-        },
-        "forced": false
-      },
-      "flags": [
-        "thin-match",
-        "ambiguous"
-      ]
-    },
-    {
       "id": "060c2387536e",
       "theme": "How the work gets made",
       "provocation": "Which assumption about how this work gets done deserves to be questioned?",
@@ -617,41 +644,6 @@
           }
         ],
         "runnerUp": null,
-        "forced": false
-      },
-      "flags": [
-        "thin-match"
-      ]
-    },
-    {
-      "id": "84c91daf12e9",
-      "theme": "Interfaces and attention",
-      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
-      "tag": "Research",
-      "source": "nngroup",
-      "sourceTitle": "UX Disciplines: Glossary",
-      "sourceUrl": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 3,
-        "hits": [
-          {
-            "keyword": "interaction",
-            "where": "description"
-          },
-          {
-            "keyword": "visual design",
-            "where": "description"
-          },
-          {
-            "keyword": "ui",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 1
-        },
         "forced": false
       },
       "flags": [
@@ -833,51 +825,6 @@
       "flags": []
     },
     {
-      "id": "f101e2a54c96",
-      "theme": "Research that changes work",
-      "provocation": "What makes an insight powerful enough to change a team's direction?",
-      "tag": "Research",
-      "source": "uxcollective",
-      "sourceTitle": "What is a researcher’s worth?",
-      "sourceUrl": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Research that changes work",
-        "score": 7,
-        "hits": [
-          {
-            "keyword": "research",
-            "where": "headline"
-          },
-          {
-            "keyword": "interview",
-            "where": "description"
-          },
-          {
-            "keyword": "insight",
-            "where": "description"
-          },
-          {
-            "keyword": "discovery",
-            "where": "description"
-          },
-          {
-            "keyword": "participant",
-            "where": "description"
-          },
-          {
-            "keyword": "usability",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Leadership through uncertainty",
-          "score": 5
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "eadd73a9ff9b",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -895,6 +842,83 @@
           }
         ],
         "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "6a211e21d342",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "Seven things AI killed while you were measuring productivity",
+      "sourceUrl": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "944288ee6ef1",
+      "theme": "Research that changes work",
+      "provocation": "What makes an insight powerful enough to change a team's direction?",
+      "tag": "Research",
+      "source": "devto-ux",
+      "sourceTitle": "Your usability test is incomplete if you can't see how the tester reacts",
+      "sourceUrl": "https://dev.to/asiboy6789/your-usability-test-is-incomplete-if-you-cant-see-how-the-tester-reacts-4935",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "usability",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "bfc27f05f675",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "Standard-Anchored Delegation in Teachers' Use of Generative AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27533v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 5,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          },
+          {
+            "keyword": "generative",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 3
+        },
         "forced": false
       },
       "flags": []
@@ -1115,81 +1139,6 @@
       "flags": []
     },
     {
-      "id": "c2416b0d1889",
-      "theme": "Interfaces and attention",
-      "provocation": "When does making an interaction easier also make its consequences harder to see?",
-      "tag": "AI",
-      "source": "arxiv-hci",
-      "sourceTitle": "Squoosh Bench: Evaluating UX-1 on 318 Historical Website A/B Tests",
-      "sourceUrl": "https://arxiv.org/abs/2611.25200v1",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "website",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 1
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "5028c8be40af",
-      "theme": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "tag": "AI",
-      "source": "uxcollective",
-      "sourceTitle": "Everyone knows sparkles mean AI. Use them to make design audits easier",
-      "sourceUrl": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Prototypes as decisions",
-          "score": 1
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "6243e8ef238d",
-      "theme": "Automation and control",
-      "provocation": "What control should never disappear simply because a task can be automated?",
-      "tag": "AI",
-      "source": "uxcollective",
-      "sourceTitle": "Why bother paying for software anymore?",
-      "sourceUrl": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Automation and control",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "software",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 1
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "951d6a6dd7ca",
       "theme": "Research that changes work",
       "provocation": "What makes an insight powerful enough to change a team's direction?",
@@ -1236,28 +1185,6 @@
           "theme": "Automation and control",
           "score": 2
         },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "235624794eb9",
-      "theme": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
-      "tag": "AI",
-      "source": "nngroup",
-      "sourceTitle": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "sourceUrl": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
         "forced": false
       },
       "flags": []
