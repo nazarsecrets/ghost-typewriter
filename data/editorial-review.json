@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-23T07:01:34.386Z",
+  "generatedAt": "2026-11-23T20:00:20.261Z",
   "summary": {
     "topics": 37,
     "flagged": 21,
     "byFlag": {
-      "fallback-frame": 4,
-      "thin-match": 11,
-      "ambiguous": 8
+      "fallback-frame": 3,
+      "thin-match": 12,
+      "ambiguous": 9
     },
     "weakKeywords": [
       {
@@ -25,8 +25,18 @@
         "flagged": 3
       },
       {
-        "keyword": "model",
-        "theme": "Designing with uncertain systems",
+        "keyword": "app",
+        "theme": "Interfaces and attention",
+        "flagged": 2
+      },
+      {
+        "keyword": "ui",
+        "theme": "Interfaces and attention",
+        "flagged": 2
+      },
+      {
+        "keyword": "search",
+        "theme": "Interfaces and attention",
         "flagged": 2
       },
       {
@@ -60,9 +70,9 @@
         "flagged": 2
       },
       {
-        "keyword": "machine learning",
+        "keyword": "model",
         "theme": "Designing with uncertain systems",
-        "flagged": 1
+        "flagged": 2
       },
       {
         "keyword": "component",
@@ -95,21 +105,6 @@
         "flagged": 1
       },
       {
-        "keyword": "app",
-        "theme": "Interfaces and attention",
-        "flagged": 1
-      },
-      {
-        "keyword": "ui",
-        "theme": "Interfaces and attention",
-        "flagged": 1
-      },
-      {
-        "keyword": "search",
-        "theme": "Interfaces and attention",
-        "flagged": 1
-      },
-      {
         "keyword": "manager",
         "theme": "Leadership through uncertainty",
         "flagged": 1
@@ -122,6 +117,11 @@
       {
         "keyword": "senior",
         "theme": "Leadership through uncertainty",
+        "flagged": 1
+      },
+      {
+        "keyword": "machine learning",
+        "theme": "Designing with uncertain systems",
         "flagged": 1
       },
       {
@@ -142,11 +142,6 @@
         "topics": 5
       },
       {
-        "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-        "theme": "How the work gets made",
-        "topics": 4
-      },
-      {
         "provocation": "When does research create understanding, and when does it merely create evidence?",
         "theme": "Research that changes work",
         "topics": 3
@@ -154,6 +149,11 @@
       {
         "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
         "theme": "Designing with uncertain systems",
+        "topics": 3
+      },
+      {
+        "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+        "theme": "How the work gets made",
         "topics": 3
       }
     ],
@@ -165,32 +165,32 @@
   },
   "entries": [
     {
-      "id": "c201707f24e0",
-      "theme": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "id": "189d78da8be6",
+      "theme": "Interfaces and attention",
+      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
       "tag": "AI",
       "source": "uxcollective",
-      "sourceTitle": "Lessons from 3D scanning St John’s Co-Cathedral",
-      "sourceUrl": "https://uxdesign.cc/lessons-from-3d-scanning-st-johns-co-cathedral-700911d61cfe?source=rss----138adf9c44c---4",
+      "sourceTitle": "Decision theater, Human.MD, What is a researcher’s worth",
+      "sourceUrl": "https://uxdesign.cc/decision-theater-human-md-what-is-a-researchers-worth-d7687978bd26?source=rss----138adf9c44c---4",
       "match": {
-        "theme": "Designing with uncertain systems",
+        "theme": "Interfaces and attention",
         "score": 3,
         "hits": [
           {
-            "keyword": "ai",
+            "keyword": "app",
             "where": "description"
           },
           {
-            "keyword": "model",
+            "keyword": "ui",
             "where": "description"
           },
           {
-            "keyword": "machine learning",
+            "keyword": "search",
             "where": "description"
           }
         ],
         "runnerUp": {
-          "theme": "The work around the artifact",
+          "theme": "Automation and control",
           "score": 3
         },
         "forced": false
@@ -396,6 +396,42 @@
       ]
     },
     {
+      "id": "c201707f24e0",
+      "theme": "Designing with uncertain systems",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "Lessons from 3D scanning St John’s Co-Cathedral",
+      "sourceUrl": "https://uxdesign.cc/lessons-from-3d-scanning-st-johns-co-cathedral-700911d61cfe?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          },
+          {
+            "keyword": "machine learning",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "The work around the artifact",
+          "score": 3
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match",
+        "ambiguous"
+      ]
+    },
+    {
       "id": "b32e9ab77da2",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -420,30 +456,6 @@
       },
       "flags": [
         "ambiguous"
-      ]
-    },
-    {
-      "id": "5934cbf898e5",
-      "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "tag": "AI",
-      "source": "uxcollective",
-      "sourceTitle": "How to write great skills",
-      "sourceUrl": "https://uxdesign.cc/how-to-write-great-skills-91635bc45ada?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 1,
-        "hits": [
-          {
-            "keyword": "agent",
-            "where": "description"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": [
-        "thin-match"
       ]
     },
     {
@@ -525,6 +537,30 @@
       ]
     },
     {
+      "id": "5934cbf898e5",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "How to write great skills",
+      "sourceUrl": "https://uxdesign.cc/how-to-write-great-skills-91635bc45ada?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 1,
+        "hits": [
+          {
+            "keyword": "agent",
+            "where": "description"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "thin-match"
+      ]
+    },
+    {
       "id": "11984c643c5c",
       "theme": "Designing with uncertain systems",
       "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
@@ -577,25 +613,6 @@
       },
       "flags": [
         "thin-match"
-      ]
-    },
-    {
-      "id": "060c2387536e",
-      "theme": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "tag": "Process",
-      "source": "uxcollective",
-      "sourceTitle": "Too Claudified",
-      "sourceUrl": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": null,
-        "score": 0,
-        "hits": [],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": [
-        "fallback-frame"
       ]
     },
     {
@@ -847,83 +864,6 @@
       "flags": []
     },
     {
-      "id": "6a211e21d342",
-      "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "tag": "AI",
-      "source": "uxcollective",
-      "sourceTitle": "Seven things AI killed while you were measuring productivity",
-      "sourceUrl": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "944288ee6ef1",
-      "theme": "Research that changes work",
-      "provocation": "What makes an insight powerful enough to change a team's direction?",
-      "tag": "Research",
-      "source": "devto-ux",
-      "sourceTitle": "Your usability test is incomplete if you can't see how the tester reacts",
-      "sourceUrl": "https://dev.to/asiboy6789/your-usability-test-is-incomplete-if-you-cant-see-how-the-tester-reacts-4935",
-      "match": {
-        "theme": "Research that changes work",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "usability",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "bfc27f05f675",
-      "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Standard-Anchored Delegation in Teachers' Use of Generative AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.27533v1",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 5,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          },
-          {
-            "keyword": "model",
-            "where": "description"
-          },
-          {
-            "keyword": "generative",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 3
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "4065fa8a83a1",
       "theme": "Automation and control",
       "provocation": "When does convenience make a system's judgment harder to question?",
@@ -1030,6 +970,50 @@
       "flags": []
     },
     {
+      "id": "6a211e21d342",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "Seven things AI killed while you were measuring productivity",
+      "sourceUrl": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "944288ee6ef1",
+      "theme": "Research that changes work",
+      "provocation": "What makes an insight powerful enough to change a team's direction?",
+      "tag": "Research",
+      "source": "devto-ux",
+      "sourceTitle": "Your usability test is incomplete if you can't see how the tester reacts",
+      "sourceUrl": "https://dev.to/asiboy6789/your-usability-test-is-incomplete-if-you-cant-see-how-the-tester-reacts-4935",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "usability",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
       "id": "88c5db26f9b5",
       "theme": "Research that changes work",
       "provocation": "Which part of research work most often disappears between learning and deciding?",
@@ -1047,6 +1031,39 @@
           }
         ],
         "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "bfc27f05f675",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "Standard-Anchored Delegation in Teachers' Use of Generative AI",
+      "sourceUrl": "https://arxiv.org/abs/2611.27533v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 5,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          },
+          {
+            "keyword": "generative",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 3
+        },
         "forced": false
       },
       "flags": []
