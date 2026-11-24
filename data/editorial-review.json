@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-23T20:00:20.261Z",
+  "generatedAt": "2026-11-24T09:26:46.649Z",
   "summary": {
-    "topics": 37,
-    "flagged": 21,
+    "topics": 36,
+    "flagged": 22,
     "byFlag": {
-      "fallback-frame": 3,
-      "thin-match": 12,
-      "ambiguous": 9
+      "fallback-frame": 4,
+      "thin-match": 11,
+      "ambiguous": 10
     },
     "weakKeywords": [
       {
@@ -15,29 +15,9 @@
         "flagged": 4
       },
       {
-        "keyword": "research",
-        "theme": "Research that changes work",
-        "flagged": 3
-      },
-      {
         "keyword": "agent",
         "theme": "Designing with uncertain systems",
-        "flagged": 3
-      },
-      {
-        "keyword": "app",
-        "theme": "Interfaces and attention",
-        "flagged": 2
-      },
-      {
-        "keyword": "ui",
-        "theme": "Interfaces and attention",
-        "flagged": 2
-      },
-      {
-        "keyword": "search",
-        "theme": "Interfaces and attention",
-        "flagged": 2
+        "flagged": 4
       },
       {
         "keyword": "design system",
@@ -50,29 +30,24 @@
         "flagged": 2
       },
       {
-        "keyword": "participant",
+        "keyword": "research",
         "theme": "Research that changes work",
         "flagged": 2
       },
       {
-        "keyword": "interface",
-        "theme": "Interfaces and attention",
-        "flagged": 2
-      },
-      {
-        "keyword": "team",
-        "theme": "Leadership through uncertainty",
-        "flagged": 2
-      },
-      {
-        "keyword": "organization",
-        "theme": "Leadership through uncertainty",
+        "keyword": "usability",
+        "theme": "Research that changes work",
         "flagged": 2
       },
       {
         "keyword": "model",
         "theme": "Designing with uncertain systems",
         "flagged": 2
+      },
+      {
+        "keyword": "prototyping",
+        "theme": "Prototypes as decisions",
+        "flagged": 1
       },
       {
         "keyword": "component",
@@ -100,23 +75,8 @@
         "flagged": 1
       },
       {
-        "keyword": "usability",
+        "keyword": "participant",
         "theme": "Research that changes work",
-        "flagged": 1
-      },
-      {
-        "keyword": "manager",
-        "theme": "Leadership through uncertainty",
-        "flagged": 1
-      },
-      {
-        "keyword": "career",
-        "theme": "Leadership through uncertainty",
-        "flagged": 1
-      },
-      {
-        "keyword": "senior",
-        "theme": "Leadership through uncertainty",
         "flagged": 1
       },
       {
@@ -125,35 +85,65 @@
         "flagged": 1
       },
       {
+        "keyword": "app",
+        "theme": "Interfaces and attention",
+        "flagged": 1
+      },
+      {
+        "keyword": "ui",
+        "theme": "Interfaces and attention",
+        "flagged": 1
+      },
+      {
+        "keyword": "search",
+        "theme": "Interfaces and attention",
+        "flagged": 1
+      },
+      {
+        "keyword": "interface",
+        "theme": "Interfaces and attention",
+        "flagged": 1
+      },
+      {
         "keyword": "developer",
         "theme": "The work around the artifact",
+        "flagged": 1
+      },
+      {
+        "keyword": "team",
+        "theme": "Leadership through uncertainty",
+        "flagged": 1
+      },
+      {
+        "keyword": "organization",
+        "theme": "Leadership through uncertainty",
         "flagged": 1
       }
     ],
     "overusedFrames": [
+      {
+        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+        "theme": "Designing with uncertain systems",
+        "topics": 7
+      },
       {
         "provocation": "What judgment should a design system preserve rather than automate?",
         "theme": "Design systems and judgment",
         "topics": 6
       },
       {
-        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-        "theme": "Designing with uncertain systems",
-        "topics": 5
-      },
-      {
-        "provocation": "When does research create understanding, and when does it merely create evidence?",
-        "theme": "Research that changes work",
-        "topics": 3
-      },
-      {
         "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
         "theme": "Designing with uncertain systems",
-        "topics": 3
+        "topics": 4
       },
       {
         "provocation": "Which assumption about how this work gets done deserves to be questioned?",
         "theme": "How the work gets made",
+        "topics": 4
+      },
+      {
+        "provocation": "When does research create understanding, and when does it merely create evidence?",
+        "theme": "Research that changes work",
         "topics": 3
       }
     ],
@@ -165,39 +155,27 @@
   },
   "entries": [
     {
-      "id": "189d78da8be6",
-      "theme": "Interfaces and attention",
-      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
-      "tag": "AI",
+      "id": "eef46cc40d2e",
+      "theme": "Prototypes as decisions",
+      "provocation": "When does a prototype begin making decisions the team has not discussed?",
+      "tag": "Process",
       "source": "uxcollective",
-      "sourceTitle": "Decision theater, Human.MD, What is a researcher’s worth",
-      "sourceUrl": "https://uxdesign.cc/decision-theater-human-md-what-is-a-researchers-worth-d7687978bd26?source=rss----138adf9c44c---4",
+      "sourceTitle": "Is product design a people industry or a tech industry?",
+      "sourceUrl": "https://uxdesign.cc/is-product-design-a-people-industry-or-a-tech-industry-b8f9acc8cb6d?source=rss----138adf9c44c---4",
       "match": {
-        "theme": "Interfaces and attention",
-        "score": 3,
+        "theme": "Prototypes as decisions",
+        "score": 1,
         "hits": [
           {
-            "keyword": "app",
-            "where": "description"
-          },
-          {
-            "keyword": "ui",
-            "where": "description"
-          },
-          {
-            "keyword": "search",
+            "keyword": "prototyping",
             "where": "description"
           }
         ],
-        "runnerUp": {
-          "theme": "Automation and control",
-          "score": 3
-        },
+        "runnerUp": null,
         "forced": false
       },
       "flags": [
-        "thin-match",
-        "ambiguous"
+        "thin-match"
       ]
     },
     {
@@ -273,88 +251,6 @@
           },
           {
             "keyword": "usability",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 4
-        },
-        "forced": false
-      },
-      "flags": [
-        "thin-match"
-      ]
-    },
-    {
-      "id": "01ea91246cfd",
-      "theme": "Interfaces and attention",
-      "provocation": "Which interface choice quietly determines how a person understands the whole product?",
-      "tag": "Leadership",
-      "source": "uxcollective",
-      "sourceTitle": "Send the Firefighters to the Fires",
-      "sourceUrl": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 4,
-        "hits": [
-          {
-            "keyword": "interface",
-            "where": "description"
-          },
-          {
-            "keyword": "app",
-            "where": "description"
-          },
-          {
-            "keyword": "ui",
-            "where": "description"
-          },
-          {
-            "keyword": "search",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Design systems and judgment",
-          "score": 3
-        },
-        "forced": false
-      },
-      "flags": [
-        "thin-match"
-      ]
-    },
-    {
-      "id": "9141fb84cb71",
-      "theme": "Leadership through uncertainty",
-      "provocation": "When should a leader protect the team's judgment instead of accelerating its output?",
-      "tag": "AI",
-      "source": "uxcollective",
-      "sourceTitle": "If AI works from anywhere, why are we commuting to watch it?",
-      "sourceUrl": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Leadership through uncertainty",
-        "score": 5,
-        "hits": [
-          {
-            "keyword": "manager",
-            "where": "description"
-          },
-          {
-            "keyword": "career",
-            "where": "description"
-          },
-          {
-            "keyword": "senior",
-            "where": "description"
-          },
-          {
-            "keyword": "team",
-            "where": "description"
-          },
-          {
-            "keyword": "organization",
             "where": "description"
           }
         ],
@@ -459,6 +355,89 @@
       ]
     },
     {
+      "id": "72a0054a2f09",
+      "theme": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "tag": "Process",
+      "source": "uxcollective",
+      "sourceTitle": "Don’t make me read",
+      "sourceUrl": "https://uxdesign.cc/dont-make-me-read-a6821e418bb1?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
+      ]
+    },
+    {
+      "id": "189d78da8be6",
+      "theme": "Interfaces and attention",
+      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "Decision theater, Human.MD, What is a researcher’s worth",
+      "sourceUrl": "https://uxdesign.cc/decision-theater-human-md-what-is-a-researchers-worth-d7687978bd26?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "app",
+            "where": "description"
+          },
+          {
+            "keyword": "ui",
+            "where": "description"
+          },
+          {
+            "keyword": "search",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Automation and control",
+          "score": 3
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match",
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "157e42d95437",
+      "theme": "Research that changes work",
+      "provocation": "When does research create understanding, and when does it merely create evidence?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "When Being Wrong Is Right: Reverse-Capability Audio CAPTCHAs through Psychoacoustic Design",
+      "sourceUrl": "https://arxiv.org/abs/2611.28823v1",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 1,
+        "hits": [
+          {
+            "keyword": "usability",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": [
+        "thin-match",
+        "ambiguous"
+      ]
+    },
+    {
       "id": "9cca55adbbbe",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -486,34 +465,29 @@
       ]
     },
     {
-      "id": "05f997acdb96",
-      "theme": "Research that changes work",
-      "provocation": "When does research create understanding, and when does it merely create evidence?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Presenting Your Figures: Data-informed Animated Transitions Across Scientific Figure Panels",
-      "sourceUrl": "https://arxiv.org/abs/2611.26036v1",
+      "id": "d18c15805195",
+      "theme": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "tag": "AI",
+      "source": "devto-design",
+      "sourceTitle": "I put a design team of four agents in a Slack room: a first-timer's guide to Switch",
+      "sourceUrl": "https://dev.to/romeet9/i-put-a-design-team-of-four-agents-in-a-slack-room-a-first-timers-guide-to-switch-37nf",
       "match": {
-        "theme": "Research that changes work",
+        "theme": "Designing with uncertain systems",
         "score": 2,
         "hits": [
           {
-            "keyword": "research",
-            "where": "description"
-          },
-          {
-            "keyword": "participant",
-            "where": "description"
+            "keyword": "agent",
+            "where": "headline"
           }
         ],
         "runnerUp": {
-          "theme": "Designing with uncertain systems",
+          "theme": "Leadership through uncertainty",
           "score": 2
         },
         "forced": false
       },
       "flags": [
-        "thin-match",
         "ambiguous"
       ]
     },
@@ -791,6 +765,47 @@
       ]
     },
     {
+      "id": "a7400ac60d1f",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "arxiv-hci",
+      "sourceTitle": "The user who is not there: genealogy and critique of simulated users built with generative AI in UX testing",
+      "sourceUrl": "https://arxiv.org/abs/2611.30674v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 7,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "agent",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          },
+          {
+            "keyword": "llm",
+            "where": "description"
+          },
+          {
+            "keyword": "generative",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 4
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
       "id": "ef819ef3ecec",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -813,29 +828,33 @@
       "flags": []
     },
     {
-      "id": "beb98a05fa0d",
-      "theme": "Research that changes work",
-      "provocation": "Which part of research work most often disappears between learning and deciding?",
-      "tag": "Research",
+      "id": "846b34e2184e",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
       "source": "arxiv-hci",
-      "sourceTitle": "Design and Evaluation of Epira: An Automated Interview System for Case Investigation and Contact Tracing",
-      "sourceUrl": "https://arxiv.org/abs/2611.25577v1",
+      "sourceTitle": "ARRANGE: Agentic Skills for Layering Vocals",
+      "sourceUrl": "https://arxiv.org/abs/2611.29283v1",
       "match": {
-        "theme": "Research that changes work",
-        "score": 3,
+        "theme": "Designing with uncertain systems",
+        "score": 4,
         "hits": [
           {
-            "keyword": "interview",
+            "keyword": "agent",
             "where": "headline"
           },
           {
-            "keyword": "usability",
+            "keyword": "model",
+            "where": "description"
+          },
+          {
+            "keyword": "llm",
             "where": "description"
           }
         ],
         "runnerUp": {
-          "theme": "Automation and control",
-          "score": 2
+          "theme": "Research that changes work",
+          "score": 1
         },
         "forced": false
       },
@@ -886,39 +905,6 @@
       "flags": []
     },
     {
-      "id": "27566c42fc47",
-      "theme": "Designing with uncertain systems",
-      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "GenAI-DBT: Evaluating a DBT-Informed Generative AI Platform for Mindfulness Skills Training: A Pilot Randomized Study",
-      "sourceUrl": "https://arxiv.org/abs/2611.25428v1",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 5,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          },
-          {
-            "keyword": "model",
-            "where": "description"
-          },
-          {
-            "keyword": "generative",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 3
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "d0f9ed5224dd",
       "theme": "Design systems and judgment",
       "provocation": "Who gets to decide when the system should be broken?",
@@ -932,6 +918,28 @@
         "hits": [
           {
             "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "9b61d04877b9",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "devto-ux",
+      "sourceTitle": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
+      "sourceUrl": "https://dev.to/melolabs_melo_0f8fdb509b9/haiku-com-kit-de-ux-regras-abertas-e-um-codigo-minimo-fazem-um-modelo-pequeno-acertar-como-um-26do",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "model",
             "where": "headline"
           }
         ],
@@ -1036,39 +1044,6 @@
       "flags": []
     },
     {
-      "id": "bfc27f05f675",
-      "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Standard-Anchored Delegation in Teachers' Use of Generative AI",
-      "sourceUrl": "https://arxiv.org/abs/2611.27533v1",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 5,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          },
-          {
-            "keyword": "model",
-            "where": "description"
-          },
-          {
-            "keyword": "generative",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 3
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "055d508764ff",
       "theme": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -1092,64 +1067,6 @@
         "runnerUp": {
           "theme": "Interfaces and attention",
           "score": 2
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "2265bf10b101",
-      "theme": "Interfaces and attention",
-      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Modeling Learner-Technology Interaction Through Multilevel Gaze Transition Dynamics to Inform Usability in Online Learning",
-      "sourceUrl": "https://arxiv.org/abs/2611.25294v1",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 4,
-        "hits": [
-          {
-            "keyword": "interface",
-            "where": "description"
-          },
-          {
-            "keyword": "interaction",
-            "where": "headline"
-          },
-          {
-            "keyword": "navigation",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 3
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "b58018a08f2c",
-      "theme": "Interfaces and attention",
-      "provocation": "When does making an interaction easier also make its consequences harder to see?",
-      "tag": "Ethics",
-      "source": "arxiv-hci",
-      "sourceTitle": "Design and Evaluation of a Body-Machine Interface as an Alternative Control Paradigm for Pedal-based Sewing Machines",
-      "sourceUrl": "https://arxiv.org/abs/2611.25261v1",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "interface",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 1
         },
         "forced": false
       },
