@@ -64,3 +64,5 @@
 .ghost-tick path { stroke-dasharray: 1; stroke-dashoffset: 1; }
 .ghost-beat:has(input:checked) .ghost-tick path { stroke-dashoffset: 0; }
 @media (forced-colors: active) { .ghost-beat input { appearance: auto; } .ghost-tick { display: none; } }
+.ghost-recall section + section { margin-top: 8px; padding-top: 4px; border-top: 1px solid var(--rule); }
+.ghost-recall-row { text-align: left; } .ghost-recall-row small { display: block; font-size: 10px; color: var(--graphite); }

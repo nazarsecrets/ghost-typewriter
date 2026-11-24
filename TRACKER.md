@@ -17,7 +17,7 @@ Every agent and every session must keep this current (see the rule in `CLAUDE.md
 copy-ready commit message in a fenced `text` block, directly under its
 date/label line and before the outcome (format in `CLAUDE.md` / `AGENTS.md`).
 
-_Last updated: 2026-11-17_
+_Last updated: 2026-11-24_
 
 ---
 
@@ -65,6 +65,10 @@ _Last updated: 2026-11-17_
 - ⬜ **[UX+Dev]** Distinguish revisions from new drafts (FR-6.2). The structured critique schema and slip UI from FR-5.2 are implemented and live-provider validation passed on 2026-11-17.
 - ⬜ **[UX+Dev]** Add accept-insight and margin-comment motion only when their corresponding interactions exist (log.md idea 6)
 
+- ⬜ **[UX+Dev]** Draft memory Phase 2: author comfort check on real drafts (are matches meaningful, is "Shares:" useful?), then decide on opening the matched draft at that paragraph, and whether on-device embeddings (for example transformers.js, lazy-loaded) earn their download over the current lexical matching. Later, connect it to the Companion boundaries and use it to show novice writers their growth.
+
+- ⬜ **[UX+Dev]** Ghost companion ([proposal](./docs/ghost-companion-design.md)): author decides the four rule amendments and the character look (§7), then prototype Phase 1 — Quiet/Companion/Mentor level, opt-in five-stop tour from the right-margin plume, three boundary reactions (open draft, mark angle, self-set word goal) with cooldown, fade-on-keystroke and don't-mention-again. GSAP only; no writing-time motion changes. Retain only after an author comfort check.
+
 - ⬜ **[UX+Dev]** Decide whether an explicit pencil icon is useful beside the existing row-click editing action. If adopted, match the new inline SVG delete icon's line weight and keep both buttons accessible.
 
 ### Hosted Ghost follow-up
@@ -78,6 +82,29 @@ _Last updated: 2026-11-17_
 ---
 
 ## ✅ Completed
+
+- ✅ **2026-11-24 [UX+Dev]**
+  ```text
+  Add on-device draft memory to Ghost
+
+  Ghost's menu can now find passages in the writer's other saved drafts
+  that relate to the current draft or selection. Matching is lexical
+  BM25 over paragraphs, runs entirely in the browser, sends nothing, and
+  shows the shared words for each match. Records the author decision to
+  build for novice and seasoned writers in the PRD.
+  ```
+  `src/draftMemory.ts` and a "Your own words" entry in Ghost's menu return up to three passages, one per draft, with title, date, paragraph and shared words. Available with reading off or AI unconfigured. `npm run build` passes; `npm run ghost:check` passes 10 tests, 4 of them new for draft memory. In headless Chromium, the related March paragraph surfaced and the unrelated draft stayed out, with no page errors and no overflow at 1440px or 390px (where the existing bottom sheet is used).
+
+- ✅ **2026-11-19 [UX]**
+  ```text
+  Propose an opt-in Clippy-style Ghost companion
+
+  Add docs/ghost-companion-design.md: Clippy lessons mapped to rules,
+  Quiet/Companion/Mentor levels, boundary-only reactions, author-set
+  Mentor habits, a Ghost-led opt-in tour of the existing onboarding,
+  GSAP gesture plan, and the rule amendments awaiting author decision.
+  ```
+  Proposal only; Ghost stays in the right margin, Quiet remains the default, and no code changed. Author decisions and Phase 1 prototype added to Pending.
 
 - ✅ **2026-11-17 [UX]**
   ```text

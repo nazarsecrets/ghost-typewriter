@@ -1,10 +1,11 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { FRAMES, LENSES, ghostBeats, GHOST_SYSTEM, parseSlip, type GhostState, type GhostAction } from './ghostModel';
 import type { WritingGuide } from './writingGuides';
+import { recallPassages, type MemoryDraft, type Recollection } from './draftMemory';
 import './ghost.css';
 import { stopWritingScroll } from './motion';
 
-type Props = { state: GhostState; onChange: (state: GhostState) => void; title: string; paragraphs: string[]; guides: WritingGuide[]; prompted: boolean; mode: string; tone: string; onMode: (mode: 'article' | 'linkedin') => void; onTone: (tone: 'reflective' | 'editorial') => void; configured: boolean; request: (system: string, content: string, signal: AbortSignal) => Promise<string> };
+type Props = { drafts: MemoryDraft[]; draftId: string; state: GhostState; onChange: (state: GhostState) => void; title: string; paragraphs: string[]; guides: WritingGuide[]; prompted: boolean; mode: string; tone: string; onMode: (mode: 'article' | 'linkedin') => void; onTone: (tone: 'reflective' | 'editorial') => void; configured: boolean; request: (system: string, content: string, signal: AbortSignal) => Promise<string> };
 const SETUP_KEY = 'svr-ghostwriter-ghost-setup';
 function setupSeen() { try { return localStorage.getItem(SETUP_KEY) === '1'; } catch { return false; } }
 function Plume() { return <svg aria-hidden="true" viewBox="0 0 32 32" fill="none"><path d="M5 28 22 8M10 23C5 13 19 2 28 3c1 9-5 21-18 20Z" stroke="currentColor" strokeWidth="1.3"/><path d="m12 20 9-1m-5-4 8-1m-5-3 6-1M12 20l-1-6" stroke="currentColor" strokeWidth="1.1"/></svg>; }
@@ -12,7 +13,8 @@ function Plume() { return <svg aria-hidden="true" viewBox="0 0 32 32" fill="none
 export default function Ghost(props: Props) {
   const { state, onChange, title, paragraphs, guides, prompted, configured } = props;
   const [seen, setSeen] = useState(setupSeen);
-  const [panel, setPanel] = useState<'menu' | 'setup' | 'slip' | null>(null);
+  const [panel, setPanel] = useState<'menu' | 'setup' | 'slip' | 'recall' | null>(null);
+  const [recalled, setRecalled] = useState<Recollection[]>([]);
   const [step, setStep] = useState(1);
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState('');
@@ -164,6 +166,14 @@ export default function Ghost(props: Props) {
     } finally { window.clearTimeout(timeout); if (request.current === controller) setBusy(false); }
   }
 
+  function recall() {
+    const query = passage.current || source;
+    setMessage(''); setError(false);
+    setScope(passage.current ? 'this passage' : 'this draft');
+    setRecalled(query.trim() ? recallPassages(query, props.drafts, { excludeId: props.draftId }) : []);
+    setPanel('recall');
+  }
+
   function tick(label: string, checked: boolean, element: HTMLElement) {
     update({ completed: checked ? [...state.completed, label] : state.completed.filter(b => b !== label) });
     if (checked && !matchMedia('(prefers-reduced-motion: reduce)').matches) void import('gsap').then(({ gsap }) => { if (!element.isConnected || !alive.current) return; tickCleanup.current?.(); const lift = gsap.fromTo(element, { y: -2 }, { y: 0, duration: .28, ease: 'back.out(0.9)', clearProps: 'transform' }); const path = element.querySelector('.ghost-tick path'); const draw = path ? gsap.fromTo(path, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: .28, ease: 'power2.out', clearProps: 'strokeDashoffset' }) : null; tickCleanup.current = () => { lift.kill(); draw?.kill(); }; }).catch(() => {});
@@ -181,8 +191,8 @@ export default function Ghost(props: Props) {
       {!panel && message === 'First draft done. Lenses are open.' ? <p role="status">{message}</p> : null}
     </aside>
     <button ref={trigger} className={`ghost-trigger ${state.reading ? 'is-reading' : ''}`} aria-label={state.reading ? `Ghost: anchors, lenses and review${!seen ? '. Set up' : ''}` : "Ghost isn't reading this draft. Anchors are still available."} aria-expanded={panel !== null} aria-controls={panel ? 'ghost-paper' : undefined} aria-haspopup="dialog" onPointerDown={remember} onClick={open}><Plume/><span>Ghost{!seen ? ' · Set up' : ''}</span></button>
-    {panel ? <section ref={paper} id="ghost-paper" className={`ghost-paper ghost-${panel}`} role="dialog" aria-label={panel === 'setup' ? 'Ghost setup' : panel === 'slip' ? "Editor's slip" : 'Ghost'}>
-      <div className="ghost-paper-heading"><span>{panel === 'setup' ? `Ghost · Set up · ${step} of 3` : panel === 'slip' ? "Editor's slip" : 'Ghost'}</span><button onClick={() => void close()} aria-label="Roll up Ghost">Roll up ↑</button></div>
+    {panel ? <section ref={paper} id="ghost-paper" className={`ghost-paper ghost-${panel}`} role="dialog" aria-label={panel === 'setup' ? 'Ghost setup' : panel === 'slip' ? "Editor's slip" : panel === 'recall' ? 'From your drafts' : 'Ghost'}>
+      <div className="ghost-paper-heading"><span>{panel === 'setup' ? `Ghost · Set up · ${step} of 3` : panel === 'slip' ? "Editor's slip" : panel === 'recall' ? 'From your drafts' : 'Ghost'}</span><button onClick={() => void close()} aria-label="Roll up Ghost">Roll up ↑</button></div>
       {panel === 'setup' ? <>
         {step === 1 ? <><h2>An editor, when you ask.</h2><p>I read only when you let me, I never rewrite your words, and I speak only when you ask.</p>{reading}<p className="ghost-caption">Turning reading on sends nothing. Only a lens, frame check or review sends text.</p></> : null}
         {step === 2 ? <><h2>Give the page a foothold.</h2>{prompted ? <p>This draft already has its five writing guides as its frame.</p> : null}{frames}</> : null}
@@ -194,6 +204,7 @@ export default function Ghost(props: Props) {
         {!configured ? <p className="ghost-caption">Reading is not connected. Your anchors work here, on this device.</p> : null}
         {locked ? <button className="ghost-row" onClick={() => { update({ firstDraftDone: true }); setMessage('First draft done. Lenses are open.'); }}>First draft done</button> : null}
         <h3>Anchors</h3>{frames}<button className="ghost-row" onClick={() => void ask('Check my frame')}>Check my frame</button><details><summary>Habits</summary>{habits}</details>
+        <h3>Your own words</h3><button className="ghost-row ghost-recall-row" onClick={recall}><span>Find related passages in my other drafts<small>on this device · {scope}</small></span></button>
         <h3>Lenses</h3>{LENSES.map((lens, i) => <button className="ghost-row ghost-lens" key={lens} onClick={() => void ask(lens)}><span>{i + 1}</span><span>{lens}<small>{locked ? 'after your first draft' : scope}</small></span></button>)}
         <h3>Review</h3><label className="ghost-field">Format<select value={props.mode} onChange={e => props.onMode(e.target.value as 'article' | 'linkedin')}><option value="article">Article</option><option value="linkedin">LinkedIn</option></select></label><label className="ghost-field">Editorial tone<select value={props.tone} onChange={e => props.onTone(e.target.value as 'reflective' | 'editorial')}><option value="reflective">Reflective</option><option value="editorial">Editorial</option></select></label><button className="ghost-row" onClick={() => void ask("Editor's slip")}>Editor's slip for the whole draft</button>{slip ? <button className="ghost-row" onClick={() => setPanel('slip')}>Read previous slip</button> : null}
       </> : null}
@@ -202,6 +213,16 @@ export default function Ghost(props: Props) {
         <button className="ghost-back" onClick={() => { request.current?.abort(); setBusy(false); setMessage(''); setError(false); setPanel('menu'); }}>← Anchors and lenses</button>
         {busy ? <p role="status">Reading closely…</p> : null}
         {slip ? <article className="ghost-result"><p className="ghost-caption">{slip.action} · {slip.scope}</p>{slip.source !== source || slip.title !== title ? <p className="ghost-stale">Written for an earlier version of this draft</p> : null}<p>{slip.result.understanding}</p><h3>What's working</h3><blockquote>“{slip.result.strength.quote}”</blockquote><p>{slip.result.strength.note}</p><h3>The one move</h3><p>{slip.result.move.question}</p><p>{slip.result.move.reason}</p>{slip.result.questions.length ? <><h3>Questions to carry</h3><ul>{slip.result.questions.map(q => <li key={q}>{q}</li>)}</ul></> : null}{slip.result.frame ? <><h3>Your frame</h3>{slip.result.frame.map(b => <p key={b.beat}><strong>{b.beat} · {b.status}</strong><small>{b.paragraphs.length ? `Paragraphs ${b.paragraphs.join(', ')}` : 'No paragraph yet'}</small>{b.question}</p>)}</> : null}{slip.result.mechanics.length ? <details><summary>Small things ({slip.result.mechanics.length})</summary><ul>{slip.result.mechanics.map(m => <li key={m}>{m}</li>)}</ul></details> : null}</article> : null}
+      </> : null}
+      {panel === 'recall' ? <>
+        <h2>You've written near this before.</h2>
+        <button className="ghost-back" onClick={() => setPanel('menu')}>← Anchors and lenses</button>
+        <p className="ghost-caption">Matched against {scope} on this device. Nothing was sent.</p>
+        {recalled.length ? <article className="ghost-result ghost-recall" aria-live="polite">{recalled.map(item => <section key={item.draftId}>
+          <h3>{item.title} · {new Date(item.updatedAt).toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' })} · ¶{item.paragraph}</h3>
+          <blockquote>{item.passage.length > 360 ? `${item.passage.slice(0, 360).replace(/\s+\S*$/, '')}…` : item.passage}</blockquote>
+          <small>Shares: {item.shared.join(', ')}</small>
+        </section>)}</article> : <p role="status">Nothing in your other drafts connects closely yet. This grows as you write more.</p>}
       </> : null}
       {message ? <div className="ghost-message" role={error ? 'alert' : 'status'}><p>{message}</p>{!state.reading ? <button onClick={() => { update({ reading: true }); setMessage('Reading is on. Choose a lens when you are ready.'); }}>Turn on</button> : locked ? <><button onClick={() => { update({ firstDraftDone: true }); setMessage('First draft done. Lenses are open.'); }}>Mark done now</button><button onClick={() => void close()}>Keep drafting</button></> : error ? <button onClick={() => void ask(lastAction.current)}>Try again</button> : null}</div> : null}
       {storageError ? <p role="alert">Setup could not be saved on this device. It will appear again next time.</p> : null}

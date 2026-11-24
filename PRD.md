@@ -70,6 +70,10 @@ The product must never allow Ghost to take over Me. This separation governs topi
 
 A senior B2B product designer with a UX-generalist and systems-thinking practice. The user writes reflective articles grounded in research, complex workflows, realistic prototypes, team decisions, and observed outcomes.
 
+**Audience direction (author decision 2026-11-24):** the product will be built out for writers in general, both novice and seasoned. Today the author is the only user, so single-author, on-device and account-free remain the V1 constraints. New work must serve both: seasoned writers keep silence and precision (Quiet Ghost), and novice writers can opt into structure and company (see `docs/ghost-companion-design.md`). Progress is shown through the writer's own words, never through scores or streaks.
+
+**Draft memory (FR, prototype 2026-11-24):** from Ghost's menu, **Find related passages in my other drafts** matches the current draft or selected passage against the writer's saved drafts on this device. It returns up to three passages, one per draft, each with its draft title, date, paragraph number and the words it shares. Nothing is sent, and it works with reading off or AI unconfigured. Matching is lexical (BM25) in Phase 1; on-device embeddings may replace scoring later behind the same interface.
+
 ### Core jobs
 
 When the user wants to publish but does not know where to begin, they want to see a small set of relevant current conversations so they can identify one that connects to their work.

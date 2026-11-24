@@ -10,7 +10,7 @@
     "topics:build": "tsx pipeline/build.ts",
     "topics:review": "tsx pipeline/review.ts",
     "guides:check": "node tools/check-guide-coverage.mjs",
-    "ghost:check": "node --import tsx --test tests/ghost.test.ts tests/ghost-proxy.test.mjs"
+    "ghost:check": "node --import tsx --test tests/ghost.test.ts tests/ghost-proxy.test.mjs tests/draftMemory.test.ts"
   },
   "dependencies": {
     "animejs": "^4.1.3",

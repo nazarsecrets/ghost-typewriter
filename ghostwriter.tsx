@@ -801,7 +801,7 @@ export default function Ghostwriter() {
         <div className="paragraphs" role="group" aria-label="Manuscript">{paragraphs.map((paragraph, index) => <ParagraphEditor key={index} value={paragraph} index={index} activeIndex={activeParagraph} paragraphCount={paragraphs.length} soundOn={soundOn} register={registerParagraph} onActivate={setActiveParagraph} onChange={updateParagraph} onEnter={addParagraph} onMergeBackward={mergeBackward} onMergeForward={mergeForward} onMoveCaret={moveCaret} onSelection={rememberSelection} />)}</div>
       </section>
     </main>
-      <Suspense fallback={null}><Ghost key={draftId} state={ghost} onChange={setGhost} title={title} paragraphs={paragraphs} guides={guides} prompted={Boolean(selectedTopic)} mode={mode} tone={tone} onMode={setMode} onTone={setTone} configured={__GHOST_CONFIGURED__} request={requestGhost} /></Suspense>
+      <Suspense fallback={null}><Ghost key={draftId} drafts={drafts} draftId={draftId} state={ghost} onChange={setGhost} title={title} paragraphs={paragraphs} guides={guides} prompted={Boolean(selectedTopic)} mode={mode} tone={tone} onMode={setMode} onTone={setTone} configured={__GHOST_CONFIGURED__} request={requestGhost} /></Suspense>
     </> : null}
 
     {view === "review" ? <main className="review-shell" id="main-content" tabIndex={-1}>
