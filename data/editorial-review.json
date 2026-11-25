@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-25T00:30:30.743Z",
+  "generatedAt": "2026-11-25T18:34:02.794Z",
   "summary": {
-    "topics": 37,
+    "topics": 38,
     "flagged": 20,
     "byFlag": {
       "fallback-frame": 4,
-      "thin-match": 9,
+      "thin-match": 8,
       "ambiguous": 8
     },
     "weakKeywords": [
       {
         "keyword": "ai",
         "theme": "Designing with uncertain systems",
-        "flagged": 3
+        "flagged": 4
       },
       {
         "keyword": "agent",
@@ -105,11 +105,6 @@
         "flagged": 1
       },
       {
-        "keyword": "usability",
-        "theme": "Research that changes work",
-        "flagged": 1
-      },
-      {
         "keyword": "research",
         "theme": "Research that changes work",
         "flagged": 1
@@ -127,19 +122,14 @@
     ],
     "overusedFrames": [
       {
-        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+        "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
         "theme": "Designing with uncertain systems",
         "topics": 6
       },
       {
-        "provocation": "What judgment should a design system preserve rather than automate?",
-        "theme": "Design systems and judgment",
-        "topics": 5
-      },
-      {
-        "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
         "theme": "Designing with uncertain systems",
-        "topics": 4
+        "topics": 5
       },
       {
         "provocation": "Which assumption about how this work gets done deserves to be questioned?",
@@ -147,8 +137,18 @@
         "topics": 4
       },
       {
+        "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+        "theme": "Designing with uncertain systems",
+        "topics": 3
+      },
+      {
         "provocation": "What keeps getting lost between a design decision and its implementation?",
         "theme": "The work around the artifact",
+        "topics": 3
+      },
+      {
+        "provocation": "What judgment should a design system preserve rather than automate?",
+        "theme": "Design systems and judgment",
         "topics": 3
       }
     ],
@@ -328,12 +328,12 @@
       ]
     },
     {
-      "id": "24a4da03f007",
+      "id": "b560e948daaa",
       "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
       "tag": "AI",
       "source": "uxcollective",
-      "sourceTitle": "Beyond the Pixel: Reclaiming Design as a Reflective Practice",
+      "sourceTitle": "Beyond the craft: Reclaiming Design as a Reflective Practice",
       "sourceUrl": "https://uxdesign.cc/beyond-the-pixel-reclaiming-design-as-a-reflective-practice-6f6789acb2bd?source=rss----138adf9c44c---4",
       "match": {
         "theme": "Designing with uncertain systems",
@@ -349,6 +349,33 @@
       },
       "flags": [
         "thin-match"
+      ]
+    },
+    {
+      "id": "28ac98f347b3",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "Beyond Average Gains: Probing the Equity--Vulnerability Tension in Structured Visual AI for Learning",
+      "sourceUrl": "https://arxiv.org/abs/2611.31899v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Interfaces and attention",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
       ]
     },
     {
@@ -475,34 +502,6 @@
         "forced": false
       },
       "flags": [
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "157e42d95437",
-      "theme": "Research that changes work",
-      "provocation": "When does research create understanding, and when does it merely create evidence?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "When Being Wrong Is Right: Reverse-Capability Audio CAPTCHAs through Psychoacoustic Design",
-      "sourceUrl": "https://arxiv.org/abs/2611.28823v1",
-      "match": {
-        "theme": "Research that changes work",
-        "score": 1,
-        "hits": [
-          {
-            "keyword": "usability",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 1
-        },
-        "forced": false
-      },
-      "flags": [
-        "thin-match",
         "ambiguous"
       ]
     },
@@ -709,6 +708,68 @@
       ]
     },
     {
+      "id": "29052dc27fde",
+      "theme": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "tag": "AI",
+      "source": "arxiv-hci",
+      "sourceTitle": "Calm Agent: Reframing Agent Interaction around Intermittent Human Attention",
+      "sourceUrl": "https://arxiv.org/abs/2611.32009v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 4,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "description"
+          },
+          {
+            "keyword": "agent",
+            "where": "headline"
+          },
+          {
+            "keyword": "generative",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Interfaces and attention",
+          "score": 3
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "1f4c3addc89e",
+      "theme": "Designing with uncertain systems",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "tag": "AI",
+      "source": "arxiv-hci",
+      "sourceTitle": "COGENT: A Modular Cognitive Architecture for Agentic User Simulation",
+      "sourceUrl": "https://arxiv.org/abs/2611.31559v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "agent",
+            "where": "headline"
+          },
+          {
+            "keyword": "llm",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Interfaces and attention",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
       "id": "c6d0ba222d22",
       "theme": "Leadership through uncertainty",
       "provocation": "When should a leader protect the team's judgment instead of accelerating its output?",
@@ -740,6 +801,127 @@
         "runnerUp": {
           "theme": "The work around the artifact",
           "score": 3
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "a7400ac60d1f",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "arxiv-hci",
+      "sourceTitle": "The user who is not there: genealogy and critique of simulated users built with generative AI in UX testing",
+      "sourceUrl": "https://arxiv.org/abs/2611.30674v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 7,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "agent",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
+          },
+          {
+            "keyword": "llm",
+            "where": "description"
+          },
+          {
+            "keyword": "generative",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 4
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "ef819ef3ecec",
+      "theme": "Design systems and judgment",
+      "provocation": "What judgment should a design system preserve rather than automate?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "Design Systems Should Be Fast by Default",
+      "sourceUrl": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "f4288f945108",
+      "theme": "Designing with uncertain systems",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
+      "tag": "AI",
+      "source": "arxiv-hci",
+      "sourceTitle": "One Style Fits All? Cultural Values Embedded in Conversational AI via a People-Pleasing Lens",
+      "sourceUrl": "https://arxiv.org/abs/2611.32939v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "llm",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "910150d2ec7a",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "AI",
+      "source": "arxiv-hci",
+      "sourceTitle": "Found in Translation: Five Entry Points to Translate AI Literacy Frameworks in the Design of Educational Materials",
+      "sourceUrl": "https://arxiv.org/abs/2611.32377v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "generative",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 1
         },
         "forced": false
       },
@@ -794,16 +976,16 @@
       "flags": []
     },
     {
-      "id": "a7400ac60d1f",
+      "id": "a03246a00875",
       "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
       "tag": "AI",
       "source": "arxiv-hci",
-      "sourceTitle": "The user who is not there: genealogy and critique of simulated users built with generative AI in UX testing",
-      "sourceUrl": "https://arxiv.org/abs/2611.30674v1",
+      "sourceTitle": "Where is the Interface for the AI Harness?",
+      "sourceUrl": "https://arxiv.org/abs/2611.31739v1",
       "match": {
         "theme": "Designing with uncertain systems",
-        "score": 7,
+        "score": 4,
         "hits": [
           {
             "keyword": "ai",
@@ -816,19 +998,11 @@
           {
             "keyword": "model",
             "where": "description"
-          },
-          {
-            "keyword": "llm",
-            "where": "description"
-          },
-          {
-            "keyword": "generative",
-            "where": "headline"
           }
         ],
         "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 4
+          "theme": "Interfaces and attention",
+          "score": 3
         },
         "forced": false
       },
@@ -842,28 +1016,6 @@
       "source": "hn-designsystem",
       "sourceTitle": "Can a Skill Replace a Design System?",
       "sourceUrl": "https://openteams.com/engineering-blog/can-a-skill-replace-a-design-system/",
-      "match": {
-        "theme": "Design systems and judgment",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "design system",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "ef819ef3ecec",
-      "theme": "Design systems and judgment",
-      "provocation": "What judgment should a design system preserve rather than automate?",
-      "tag": "Systems",
-      "source": "hn-designsystem",
-      "sourceTitle": "Design Systems Should Be Fast by Default",
-      "sourceUrl": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
       "match": {
         "theme": "Design systems and judgment",
         "score": 2,
@@ -900,61 +1052,6 @@
           }
         ],
         "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "eadd73a9ff9b",
-      "theme": "Design systems and judgment",
-      "provocation": "What judgment should a design system preserve rather than automate?",
-      "tag": "Systems",
-      "source": "hn-designsystem",
-      "sourceTitle": "Show HN: A platform-neutral language for design systems",
-      "sourceUrl": "https://play.milda.dev",
-      "match": {
-        "theme": "Design systems and judgment",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "design system",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "846b34e2184e",
-      "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "tag": "AI",
-      "source": "arxiv-hci",
-      "sourceTitle": "ARRANGE: Agentic Skills for Layering Vocals",
-      "sourceUrl": "https://arxiv.org/abs/2611.29283v1",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 4,
-        "hits": [
-          {
-            "keyword": "agent",
-            "where": "headline"
-          },
-          {
-            "keyword": "model",
-            "where": "description"
-          },
-          {
-            "keyword": "llm",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 1
-        },
         "forced": false
       },
       "flags": []
@@ -1046,57 +1143,6 @@
         "hits": [
           {
             "keyword": "research",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "055d508764ff",
-      "theme": "Design systems and judgment",
-      "provocation": "What judgment should a design system preserve rather than automate?",
-      "tag": "Systems",
-      "source": "hn-designsystem",
-      "sourceTitle": "Show HN: Screenshot to Tokens – give a web app a design system from a screenshot",
-      "sourceUrl": "https://github.com/nhunsaker/screenshot-to-tokens",
-      "match": {
-        "theme": "Design systems and judgment",
-        "score": 4,
-        "hits": [
-          {
-            "keyword": "design system",
-            "where": "headline"
-          },
-          {
-            "keyword": "token",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Interfaces and attention",
-          "score": 2
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "9b61d04877b9",
-      "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "tag": "AI",
-      "source": "devto-ux",
-      "sourceTitle": "Haiku com kit de UX: regras abertas e um código mínimo fazem um modelo pequeno acertar como um maior?",
-      "sourceUrl": "https://dev.to/melolabs_melo_0f8fdb509b9/haiku-com-kit-de-ux-regras-abertas-e-um-codigo-minimo-fazem-um-modelo-pequeno-acertar-como-um-26do",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "model",
             "where": "headline"
           }
         ],
