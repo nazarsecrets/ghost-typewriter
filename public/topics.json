@@ -1,9 +1,31 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-26T07:50:04.495Z",
-  "windowStart": "2026-10-27T07:50:04.495Z",
-  "windowEnd": "2026-11-26T07:50:04.495Z",
+  "generatedAt": "2026-11-26T18:17:35.654Z",
+  "windowStart": "2026-10-27T18:17:35.654Z",
+  "windowEnd": "2026-11-26T18:17:35.654Z",
   "topics": [
+    {
+      "id": "b375d14a52cb",
+      "title": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
+      "lens": "Technology",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-26T12:18:31.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Machines are trying to get gut feelings while you’re telling me to ignore mine",
+          "url": "https://uxdesign.cc/machines-are-trying-to-get-gut-feelings-while-youre-telling-me-to-ignore-mine-17095e56f22d?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-26T12:18:31.000Z"
+        }
+      ]
+    },
     {
       "id": "25670fc3f48a",
       "title": "Designing with uncertain systems",
@@ -14,15 +36,147 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-25T22:34:12.000Z",
-      "since": "today",
+      "since": "yesterday",
       "relevanceScore": 1,
-      "categoryReason": "Published 0 days ago",
+      "categoryReason": "Published 1 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Future-proofing is dead and AI killed it",
           "url": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-25T22:34:12.000Z"
+        }
+      ]
+    },
+    {
+      "id": "157a89b5500f",
+      "title": "The work around the artifact",
+      "provocation": "What keeps getting lost between a design decision and its implementation?",
+      "whyNow": "A recent source is raising questions about the work around the artifact across product and design work.",
+      "lens": "Ways of Working",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-24T22:16:19.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Futures thinking as an everyday design practice",
+          "url": "https://uxdesign.cc/futures-thinking-as-an-everyday-design-practice-465146ee6db8?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-24T22:16:19.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c6d0ba222d22",
+      "title": "Leadership through uncertainty",
+      "provocation": "When should a leader protect the team's judgment instead of accelerating its output?",
+      "whyNow": "A recent source is raising questions about leadership through uncertainty across product and design work.",
+      "lens": "Self",
+      "tag": "Leadership",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-24T22:15:00.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Four hidden dimensions of effective teams",
+          "url": "https://uxdesign.cc/four-hidden-dimensions-of-effective-teams-be268c61cf44?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-24T22:15:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ea3bb2513543",
+      "title": "Interfaces and attention",
+      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
+      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
+      "lens": "Design",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-24T22:10:40.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 1,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Who draws the in-betweens?",
+          "url": "https://uxdesign.cc/who-draws-the-in-betweens-3b61d1957efe?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-24T22:10:40.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ef819ef3ecec",
+      "title": "Design systems and judgment",
+      "provocation": "What judgment should a design system preserve rather than automate?",
+      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
+      "lens": "Design",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-18T15:30:57.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
+      "sources": [
+        {
+          "name": "hn-designsystem",
+          "title": "Design Systems Should Be Fast by Default",
+          "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+          "publishedAt": "2026-11-18T15:30:57.000Z"
+        }
+      ]
+    },
+    {
+      "id": "29052dc27fde",
+      "title": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
+      "lens": "Technology",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-24T05:56:02.000Z",
+      "since": "3 days ago",
+      "relevanceScore": 0.857,
+      "categoryReason": "Published 3 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Calm Agent: Reframing Agent Interaction around Intermittent Human Attention",
+          "url": "https://arxiv.org/abs/2611.32009v1",
+          "publishedAt": "2026-11-24T05:56:02.000Z"
+        }
+      ]
+    },
+    {
+      "id": "577be07924fc",
+      "title": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
+      "lens": "Technology",
+      "tag": "Systems",
+      "origin": "source-backed",
+      "category": "Under the Radar",
+      "publishedAt": "2026-11-17T12:00:00.000Z",
+      "since": "1 week ago",
+      "relevanceScore": 1,
+      "categoryReason": "High relevance (1.00) with limited coverage over 9 days",
+      "sources": [
+        {
+          "name": "smashing",
+          "title": "Meet AI 2027 Conference (Dec 1)",
+          "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "publishedAt": "2026-11-17T12:00:00.000Z"
         }
       ]
     },
@@ -71,248 +225,6 @@
       ]
     },
     {
-      "id": "157a89b5500f",
-      "title": "The work around the artifact",
-      "provocation": "What keeps getting lost between a design decision and its implementation?",
-      "whyNow": "A recent source is raising questions about the work around the artifact across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-24T22:16:19.000Z",
-      "since": "yesterday",
-      "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Futures thinking as an everyday design practice",
-          "url": "https://uxdesign.cc/futures-thinking-as-an-everyday-design-practice-465146ee6db8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-24T22:16:19.000Z"
-        }
-      ]
-    },
-    {
-      "id": "c6d0ba222d22",
-      "title": "Leadership through uncertainty",
-      "provocation": "When should a leader protect the team's judgment instead of accelerating its output?",
-      "whyNow": "A recent source is raising questions about leadership through uncertainty across product and design work.",
-      "lens": "Self",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-24T22:15:00.000Z",
-      "since": "yesterday",
-      "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Four hidden dimensions of effective teams",
-          "url": "https://uxdesign.cc/four-hidden-dimensions-of-effective-teams-be268c61cf44?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-24T22:15:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "ea3bb2513543",
-      "title": "Interfaces and attention",
-      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-24T22:10:40.000Z",
-      "since": "yesterday",
-      "relevanceScore": 1,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Who draws the in-betweens?",
-          "url": "https://uxdesign.cc/who-draws-the-in-betweens-3b61d1957efe?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-24T22:10:40.000Z"
-        }
-      ]
-    },
-    {
-      "id": "eef46cc40d2e",
-      "title": "Prototypes as decisions",
-      "provocation": "When does a prototype begin making decisions the team has not discussed?",
-      "whyNow": "A recent source is raising questions about prototypes as decisions across product and design work.",
-      "lens": "Design",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-23T22:40:34.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Is product design a people industry or a tech industry?",
-          "url": "https://uxdesign.cc/is-product-design-a-people-industry-or-a-tech-industry-b8f9acc8cb6d?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-23T22:40:34.000Z"
-        }
-      ]
-    },
-    {
-      "id": "ef819ef3ecec",
-      "title": "Design systems and judgment",
-      "provocation": "What judgment should a design system preserve rather than automate?",
-      "whyNow": "A recent source is raising questions about design systems and judgment across product and design work.",
-      "lens": "Design",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-11-18T15:30:57.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "High relevance (0.86) with limited coverage over 8 days",
-      "sources": [
-        {
-          "name": "hn-designsystem",
-          "title": "Design Systems Should Be Fast by Default",
-          "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
-          "publishedAt": "2026-11-18T15:30:57.000Z"
-        }
-      ]
-    },
-    {
-      "id": "9670474001ee",
-      "title": "Interfaces and attention",
-      "provocation": "When does making an interaction easier also make its consequences harder to see?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-25T00:46:57.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Evaluating Strategies for Multimodal Bidirectional Interactions between Pedestrians and AVs",
-          "url": "https://arxiv.org/abs/2611.33581v1",
-          "publishedAt": "2026-11-25T00:46:57.000Z"
-        }
-      ]
-    },
-    {
-      "id": "29052dc27fde",
-      "title": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-24T05:56:02.000Z",
-      "since": "2 days ago",
-      "relevanceScore": 0.857,
-      "categoryReason": "Published 2 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Calm Agent: Reframing Agent Interaction around Intermittent Human Attention",
-          "url": "https://arxiv.org/abs/2611.32009v1",
-          "publishedAt": "2026-11-24T05:56:02.000Z"
-        }
-      ]
-    },
-    {
-      "id": "577be07924fc",
-      "title": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "Systems",
-      "origin": "source-backed",
-      "category": "Under the Radar",
-      "publishedAt": "2026-11-17T12:00:00.000Z",
-      "since": "1 week ago",
-      "relevanceScore": 1,
-      "categoryReason": "High relevance (1.00) with limited coverage over 9 days",
-      "sources": [
-        {
-          "name": "smashing",
-          "title": "Meet AI 2027 Conference (Dec 1)",
-          "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
-          "publishedAt": "2026-11-17T12:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "33fc25564d98",
-      "title": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-25T22:34:52.000Z",
-      "since": "today",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 0 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Things you’re not supposed to say on LinkedIn",
-          "url": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-25T22:34:52.000Z"
-        }
-      ]
-    },
-    {
-      "id": "a2dcb2537a9f",
-      "title": "Interfaces and attention",
-      "provocation": "When does making an interaction easier also make its consequences harder to see?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "Research",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-25T18:59:59.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "MidasTUI: Instant Tangible User Interfaces for Wearable Displays using Everyday Objects",
-          "url": "https://arxiv.org/abs/2611.34945v1",
-          "publishedAt": "2026-11-25T18:59:59.000Z"
-        }
-      ]
-    },
-    {
-      "id": "bd6ef0a921f1",
-      "title": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-25T10:32:58.000Z",
-      "since": "yesterday",
-      "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
-      "sources": [
-        {
-          "name": "arxiv-hci",
-          "title": "Somatic Alignment: Scaffolding Non-Visible Inner Body Sensations in and beyond Vocal Pedagogy",
-          "url": "https://arxiv.org/abs/2611.34133v1",
-          "publishedAt": "2026-11-25T10:32:58.000Z"
-        }
-      ]
-    },
-    {
       "id": "b32e9ab77da2",
       "title": "Design systems and judgment",
       "provocation": "What judgment should a design system preserve rather than automate?",
@@ -344,9 +256,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-24T22:13:57.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -366,9 +278,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-24T22:11:13.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.714,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -410,9 +322,9 @@
       "origin": "source-backed",
       "category": "Under the Radar",
       "publishedAt": "2026-11-08T23:27:30.000Z",
-      "since": "2 weeks ago",
+      "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 17 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 18 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -429,6 +341,28 @@
       ]
     },
     {
+      "id": "9670474001ee",
+      "title": "Interfaces and attention",
+      "provocation": "When does making an interaction easier also make its consequences harder to see?",
+      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
+      "lens": "Design",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-25T00:46:57.000Z",
+      "since": "2 days ago",
+      "relevanceScore": 0.571,
+      "categoryReason": "Published 2 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Evaluating Strategies for Multimodal Bidirectional Interactions between Pedestrians and AVs",
+          "url": "https://arxiv.org/abs/2611.33581v1",
+          "publishedAt": "2026-11-25T00:46:57.000Z"
+        }
+      ]
+    },
+    {
       "id": "63e77605d53e",
       "title": "Designing with uncertain systems",
       "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
@@ -438,9 +372,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-24T22:11:59.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -506,13 +440,79 @@
       "publishedAt": "2026-11-13T03:17:26.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 13 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 14 days",
       "sources": [
         {
           "name": "hn-designsystem",
           "title": "Brandrail – make Claude Code and Cursor follow your design system",
           "url": "https://github.com/brandrail-app/brandrail",
           "publishedAt": "2026-11-13T03:17:26.000Z"
+        }
+      ]
+    },
+    {
+      "id": "33fc25564d98",
+      "title": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
+      "lens": "Ways of Working",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-25T22:34:52.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "Things you’re not supposed to say on LinkedIn",
+          "url": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-25T22:34:52.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a2dcb2537a9f",
+      "title": "Interfaces and attention",
+      "provocation": "When does making an interaction easier also make its consequences harder to see?",
+      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
+      "lens": "Design",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-25T18:59:59.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "MidasTUI: Instant Tangible User Interfaces for Wearable Displays using Everyday Objects",
+          "url": "https://arxiv.org/abs/2611.34945v1",
+          "publishedAt": "2026-11-25T18:59:59.000Z"
+        }
+      ]
+    },
+    {
+      "id": "bd6ef0a921f1",
+      "title": "Designing with uncertain systems",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
+      "lens": "Technology",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-25T10:32:58.000Z",
+      "since": "yesterday",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 1 days ago",
+      "sources": [
+        {
+          "name": "arxiv-hci",
+          "title": "Somatic Alignment: Scaffolding Non-Visible Inner Body Sensations in and beyond Vocal Pedagogy",
+          "url": "https://arxiv.org/abs/2611.34133v1",
+          "publishedAt": "2026-11-25T10:32:58.000Z"
         }
       ]
     },
@@ -526,9 +526,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-24T22:09:23.000Z",
-      "since": "yesterday",
+      "since": "2 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 1 days ago",
+      "categoryReason": "Published 2 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -548,9 +548,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-24T03:57:30.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -770,7 +770,7 @@
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 25 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 26 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -814,7 +814,7 @@
       "publishedAt": "2026-10-28T05:01:23.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 29 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 30 days",
       "sources": [
         {
           "name": "hn-ux",
@@ -896,73 +896,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-26T07:50:04.495Z"
+      "fetchedAt": "2026-11-26T18:17:35.655Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-26T07:50:04.551Z"
+      "fetchedAt": "2026-11-26T18:17:35.705Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-26T07:50:04.553Z"
+      "fetchedAt": "2026-11-26T18:17:35.707Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-26T07:50:04.554Z"
+      "fetchedAt": "2026-11-26T18:17:35.708Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-26T07:50:04.555Z"
+      "fetchedAt": "2026-11-26T18:17:35.709Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-26T07:50:04.556Z"
+      "fetchedAt": "2026-11-26T18:17:35.710Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-26T07:50:04.557Z"
+      "fetchedAt": "2026-11-26T18:17:35.711Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 5,
-      "fetchedAt": "2026-11-26T07:50:04.558Z"
+      "fetchedAt": "2026-11-26T18:17:35.711Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 33,
-      "fetchedAt": "2026-11-26T07:50:04.559Z"
+      "fetchedAt": "2026-11-26T18:17:35.712Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-26T07:50:04.560Z"
+      "fetchedAt": "2026-11-26T18:17:35.713Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-26T07:50:04.561Z"
+      "fetchedAt": "2026-11-26T18:17:35.714Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
-      "items": 4,
-      "fetchedAt": "2026-11-26T07:50:04.562Z"
+      "items": 3,
+      "fetchedAt": "2026-11-26T18:17:35.715Z"
     }
   ]
 }

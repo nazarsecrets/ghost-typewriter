@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T07:50:04.495Z",
+  "generatedAt": "2026-11-26T18:17:35.654Z",
   "summary": {
     "topics": 40,
     "flagged": 22,
@@ -12,21 +12,21 @@
       {
         "keyword": "ai",
         "theme": "Designing with uncertain systems",
-        "flagged": 5
+        "flagged": 6
       },
       {
         "keyword": "agent",
         "theme": "Designing with uncertain systems",
-        "flagged": 3
+        "flagged": 4
       },
       {
         "keyword": "generative",
         "theme": "Designing with uncertain systems",
-        "flagged": 2
+        "flagged": 3
       },
       {
-        "keyword": "organization",
-        "theme": "Leadership through uncertainty",
+        "keyword": "model",
+        "theme": "Designing with uncertain systems",
         "flagged": 2
       },
       {
@@ -37,6 +37,11 @@
       {
         "keyword": "interface",
         "theme": "Interfaces and attention",
+        "flagged": 2
+      },
+      {
+        "keyword": "organization",
+        "theme": "Leadership through uncertainty",
         "flagged": 2
       },
       {
@@ -85,16 +90,6 @@
         "flagged": 1
       },
       {
-        "keyword": "prototyping",
-        "theme": "Prototypes as decisions",
-        "flagged": 1
-      },
-      {
-        "keyword": "model",
-        "theme": "Designing with uncertain systems",
-        "flagged": 1
-      },
-      {
         "keyword": "figma",
         "theme": "Design systems and judgment",
         "flagged": 1
@@ -119,7 +114,7 @@
       {
         "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
         "theme": "Designing with uncertain systems",
-        "topics": 7
+        "topics": 8
       },
       {
         "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
@@ -150,20 +145,28 @@
   },
   "entries": [
     {
-      "id": "a11cc8b3066f",
+      "id": "b375d14a52cb",
       "theme": "Designing with uncertain systems",
-      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Supporting Without Taking Over: AI Support in Gratitude Writing",
-      "sourceUrl": "https://arxiv.org/abs/2611.34673v1",
+      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "Machines are trying to get gut feelings while you’re telling me to ignore mine",
+      "sourceUrl": "https://uxdesign.cc/machines-are-trying-to-get-gut-feelings-while-youre-telling-me-to-ignore-mine-17095e56f22d?source=rss----138adf9c44c---4",
       "match": {
         "theme": "Designing with uncertain systems",
-        "score": 3,
+        "score": 4,
         "hits": [
           {
             "keyword": "ai",
-            "where": "headline"
+            "where": "description"
+          },
+          {
+            "keyword": "agent",
+            "where": "description"
+          },
+          {
+            "keyword": "model",
+            "where": "description"
           },
           {
             "keyword": "generative",
@@ -171,40 +174,13 @@
           }
         ],
         "runnerUp": {
-          "theme": "Research that changes work",
+          "theme": "Leadership through uncertainty",
           "score": 3
         },
         "forced": false
       },
       "flags": [
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "3a732bdbb628",
-      "theme": "Leadership through uncertainty",
-      "provocation": "What kind of clarity can a design leader provide without pretending to have certainty?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "RecField: Embedding Recommendations into Spatial Movie Organization as Affordances for Serendipitous Encounters",
-      "sourceUrl": "https://arxiv.org/abs/2611.34330v1",
-      "match": {
-        "theme": "Leadership through uncertainty",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "organization",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 2
-        },
-        "forced": false
-      },
-      "flags": [
-        "ambiguous"
+        "thin-match"
       ]
     },
     {
@@ -298,30 +274,6 @@
       ]
     },
     {
-      "id": "eef46cc40d2e",
-      "theme": "Prototypes as decisions",
-      "provocation": "When does a prototype begin making decisions the team has not discussed?",
-      "tag": "Process",
-      "source": "uxcollective",
-      "sourceTitle": "Is product design a people industry or a tech industry?",
-      "sourceUrl": "https://uxdesign.cc/is-product-design-a-people-industry-or-a-tech-industry-b8f9acc8cb6d?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Prototypes as decisions",
-        "score": 1,
-        "hits": [
-          {
-            "keyword": "prototyping",
-            "where": "description"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": [
-        "thin-match"
-      ]
-    },
-    {
       "id": "577be07924fc",
       "theme": "Designing with uncertain systems",
       "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
@@ -340,6 +292,118 @@
         ],
         "runnerUp": {
           "theme": "Design systems and judgment",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "a11cc8b3066f",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "Supporting Without Taking Over: AI Support in Gratitude Writing",
+      "sourceUrl": "https://arxiv.org/abs/2611.34673v1",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          },
+          {
+            "keyword": "generative",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 3
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "3a732bdbb628",
+      "theme": "Leadership through uncertainty",
+      "provocation": "What kind of clarity can a design leader provide without pretending to have certainty?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "RecField: Embedding Recommendations into Spatial Movie Organization as Affordances for Serendipitous Encounters",
+      "sourceUrl": "https://arxiv.org/abs/2611.34330v1",
+      "match": {
+        "theme": "Leadership through uncertainty",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "organization",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "b32e9ab77da2",
+      "theme": "Design systems and judgment",
+      "provocation": "What judgment should a design system preserve rather than automate?",
+      "tag": "AI",
+      "source": "hn-ux",
+      "sourceTitle": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+      "sourceUrl": "https://ai.greensighter.com/",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "figma",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 2
+        },
+        "forced": false
+      },
+      "flags": [
+        "ambiguous"
+      ]
+    },
+    {
+      "id": "9cca55adbbbe",
+      "theme": "Design systems and judgment",
+      "provocation": "What judgment should a design system preserve rather than automate?",
+      "tag": "Systems",
+      "source": "hn-designsystem",
+      "sourceTitle": "An open source design system that's customizable and agent ready",
+      "sourceUrl": "https://github.com/meta/astryx",
+      "match": {
+        "theme": "Design systems and judgment",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "design system",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
           "score": 2
         },
         "forced": false
@@ -396,60 +460,6 @@
       },
       "flags": [
         "thin-match"
-      ]
-    },
-    {
-      "id": "b32e9ab77da2",
-      "theme": "Design systems and judgment",
-      "provocation": "What judgment should a design system preserve rather than automate?",
-      "tag": "AI",
-      "source": "hn-ux",
-      "sourceTitle": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
-      "sourceUrl": "https://ai.greensighter.com/",
-      "match": {
-        "theme": "Design systems and judgment",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "figma",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 2
-        },
-        "forced": false
-      },
-      "flags": [
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "9cca55adbbbe",
-      "theme": "Design systems and judgment",
-      "provocation": "What judgment should a design system preserve rather than automate?",
-      "tag": "Systems",
-      "source": "hn-designsystem",
-      "sourceTitle": "An open source design system that's customizable and agent ready",
-      "sourceUrl": "https://github.com/meta/astryx",
-      "match": {
-        "theme": "Design systems and judgment",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "design system",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 2
-        },
-        "forced": false
-      },
-      "flags": [
-        "ambiguous"
       ]
     },
     {
@@ -844,35 +854,6 @@
       "flags": []
     },
     {
-      "id": "9670474001ee",
-      "theme": "Interfaces and attention",
-      "provocation": "When does making an interaction easier also make its consequences harder to see?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "Evaluating Strategies for Multimodal Bidirectional Interactions between Pedestrians and AVs",
-      "sourceUrl": "https://arxiv.org/abs/2611.33581v1",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 3,
-        "hits": [
-          {
-            "keyword": "interface",
-            "where": "description"
-          },
-          {
-            "keyword": "interaction",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 2
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "29052dc27fde",
       "theme": "Designing with uncertain systems",
       "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
@@ -900,35 +881,6 @@
         "runnerUp": {
           "theme": "Interfaces and attention",
           "score": 3
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "a2dcb2537a9f",
-      "theme": "Interfaces and attention",
-      "provocation": "When does making an interaction easier also make its consequences harder to see?",
-      "tag": "Research",
-      "source": "arxiv-hci",
-      "sourceTitle": "MidasTUI: Instant Tangible User Interfaces for Wearable Displays using Everyday Objects",
-      "sourceUrl": "https://arxiv.org/abs/2611.34945v1",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 3,
-        "hits": [
-          {
-            "keyword": "interface",
-            "where": "headline"
-          },
-          {
-            "keyword": "interaction",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Research that changes work",
-          "score": 1
         },
         "forced": false
       },
@@ -1000,6 +952,35 @@
           }
         ],
         "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "9670474001ee",
+      "theme": "Interfaces and attention",
+      "provocation": "When does making an interaction easier also make its consequences harder to see?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "Evaluating Strategies for Multimodal Bidirectional Interactions between Pedestrians and AVs",
+      "sourceUrl": "https://arxiv.org/abs/2611.33581v1",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "interface",
+            "where": "description"
+          },
+          {
+            "keyword": "interaction",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 2
+        },
         "forced": false
       },
       "flags": []
@@ -1106,6 +1087,35 @@
           }
         ],
         "runnerUp": null,
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "a2dcb2537a9f",
+      "theme": "Interfaces and attention",
+      "provocation": "When does making an interaction easier also make its consequences harder to see?",
+      "tag": "Research",
+      "source": "arxiv-hci",
+      "sourceTitle": "MidasTUI: Instant Tangible User Interfaces for Wearable Displays using Everyday Objects",
+      "sourceUrl": "https://arxiv.org/abs/2611.34945v1",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 3,
+        "hits": [
+          {
+            "keyword": "interface",
+            "where": "headline"
+          },
+          {
+            "keyword": "interaction",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 1
+        },
         "forced": false
       },
       "flags": []
