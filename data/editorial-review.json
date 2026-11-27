@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-26T18:17:35.654Z",
+  "generatedAt": "2026-11-27T07:50:07.563Z",
   "summary": {
-    "topics": 40,
-    "flagged": 22,
+    "topics": 39,
+    "flagged": 21,
     "byFlag": {
-      "fallback-frame": 4,
+      "fallback-frame": 3,
       "thin-match": 8,
       "ambiguous": 10
     },
@@ -122,11 +122,6 @@
         "topics": 5
       },
       {
-        "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-        "theme": "How the work gets made",
-        "topics": 4
-      },
-      {
         "provocation": "What keeps getting lost between a design decision and its implementation?",
         "theme": "The work around the artifact",
         "topics": 3
@@ -134,6 +129,11 @@
       {
         "provocation": "What judgment should a design system preserve rather than automate?",
         "theme": "Design systems and judgment",
+        "topics": 3
+      },
+      {
+        "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+        "theme": "How the work gets made",
         "topics": 3
       }
     ],
@@ -709,25 +709,6 @@
       },
       "flags": [
         "ambiguous"
-      ]
-    },
-    {
-      "id": "2acdf70fc7dc",
-      "theme": "How the work gets made",
-      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-      "tag": "Process",
-      "source": "hn-ux",
-      "sourceTitle": "UX Design Patterns",
-      "sourceUrl": "https://sambernheim.com/blog/ux-design-patterns",
-      "match": {
-        "theme": null,
-        "score": 0,
-        "hits": [],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": [
-        "fallback-frame"
       ]
     },
     {
