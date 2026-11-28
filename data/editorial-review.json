@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-28T07:18:32.507Z",
+  "generatedAt": "2026-11-28T16:45:10.825Z",
   "summary": {
     "topics": 39,
-    "flagged": 20,
+    "flagged": 21,
     "byFlag": {
-      "fallback-frame": 3,
+      "fallback-frame": 4,
       "thin-match": 8,
       "ambiguous": 9
     },
@@ -35,13 +35,13 @@
         "flagged": 2
       },
       {
-        "keyword": "developer",
+        "keyword": "process",
         "theme": "The work around the artifact",
         "flagged": 2
       },
       {
-        "keyword": "interface",
-        "theme": "Interfaces and attention",
+        "keyword": "developer",
+        "theme": "The work around the artifact",
         "flagged": 2
       },
       {
@@ -90,33 +90,8 @@
         "flagged": 1
       },
       {
-        "keyword": "process",
-        "theme": "The work around the artifact",
-        "flagged": 1
-      },
-      {
         "keyword": "engineering",
         "theme": "The work around the artifact",
-        "flagged": 1
-      },
-      {
-        "keyword": "interaction",
-        "theme": "Interfaces and attention",
-        "flagged": 1
-      },
-      {
-        "keyword": "navigation",
-        "theme": "Interfaces and attention",
-        "flagged": 1
-      },
-      {
-        "keyword": "website",
-        "theme": "Interfaces and attention",
-        "flagged": 1
-      },
-      {
-        "keyword": "ui",
-        "theme": "Interfaces and attention",
         "flagged": 1
       },
       {
@@ -130,6 +105,11 @@
         "flagged": 1
       },
       {
+        "keyword": "interface",
+        "theme": "Interfaces and attention",
+        "flagged": 1
+      },
+      {
         "keyword": "team",
         "theme": "Leadership through uncertainty",
         "flagged": 1
@@ -137,14 +117,19 @@
     ],
     "overusedFrames": [
       {
-        "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
+        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
         "theme": "Designing with uncertain systems",
         "topics": 6
       },
       {
-        "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+        "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
         "theme": "Designing with uncertain systems",
         "topics": 5
+      },
+      {
+        "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+        "theme": "How the work gets made",
+        "topics": 4
       },
       {
         "provocation": "What keeps getting lost between a design decision and its implementation?",
@@ -154,11 +139,6 @@
       {
         "provocation": "What judgment should a design system preserve rather than automate?",
         "theme": "Design systems and judgment",
-        "topics": 3
-      },
-      {
-        "provocation": "Which assumption about how this work gets done deserves to be questioned?",
-        "theme": "How the work gets made",
         "topics": 3
       }
     ],
@@ -303,49 +283,6 @@
       ]
     },
     {
-      "id": "ea3bb2513543",
-      "theme": "Interfaces and attention",
-      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
-      "tag": "AI",
-      "source": "uxcollective",
-      "sourceTitle": "Who draws the in-betweens?",
-      "sourceUrl": "https://uxdesign.cc/who-draws-the-in-betweens-3b61d1957efe?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Interfaces and attention",
-        "score": 5,
-        "hits": [
-          {
-            "keyword": "interface",
-            "where": "description"
-          },
-          {
-            "keyword": "interaction",
-            "where": "description"
-          },
-          {
-            "keyword": "navigation",
-            "where": "description"
-          },
-          {
-            "keyword": "website",
-            "where": "description"
-          },
-          {
-            "keyword": "ui",
-            "where": "description"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Designing with uncertain systems",
-          "score": 3
-        },
-        "forced": false
-      },
-      "flags": [
-        "thin-match"
-      ]
-    },
-    {
       "id": "577be07924fc",
       "theme": "Designing with uncertain systems",
       "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
@@ -370,6 +307,49 @@
       },
       "flags": [
         "ambiguous"
+      ]
+    },
+    {
+      "id": "41fad1127f18",
+      "theme": "The work around the artifact",
+      "provocation": "What keeps getting lost between a design decision and its implementation?",
+      "tag": "Process",
+      "source": "uxcollective",
+      "sourceTitle": "How I cut the code Claude writes by up to 16× and 97% per coded section",
+      "sourceUrl": "https://uxdesign.cc/how-i-cut-claude-tokens-by-up-to-95-in-product-design-and-improved-design-quality-d9dc7cec148f?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "The work around the artifact",
+        "score": 1,
+        "hits": [
+          {
+            "keyword": "process",
+            "where": "description"
+          }
+        ],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "thin-match"
+      ]
+    },
+    {
+      "id": "13c2f6682267",
+      "theme": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "tag": "Process",
+      "source": "uxcollective",
+      "sourceTitle": "The day after a holiday Japan doesn’t have",
+      "sourceUrl": "https://uxdesign.cc/the-day-after-a-holiday-japan-doesnt-have-2060c9e6b093?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": null,
+        "score": 0,
+        "hits": [],
+        "runnerUp": null,
+        "forced": false
+      },
+      "flags": [
+        "fallback-frame"
       ]
     },
     {
@@ -764,6 +744,68 @@
       ]
     },
     {
+      "id": "625500c7aa59",
+      "theme": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "tag": "Research",
+      "source": "uxcollective",
+      "sourceTitle": "What working with AI is doing to us",
+      "sourceUrl": "https://uxdesign.cc/what-working-with-ai-is-doing-to-us-c0df05190b66?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Designing with uncertain systems",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "ai",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Research that changes work",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "15896664e7cb",
+      "theme": "Interfaces and attention",
+      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
+      "tag": "AI",
+      "source": "uxcollective",
+      "sourceTitle": "The end of the interface is the beginning of design",
+      "sourceUrl": "https://uxdesign.cc/the-end-of-the-interface-is-the-beginning-of-design-69752781d066?source=rss----138adf9c44c---4",
+      "match": {
+        "theme": "Interfaces and attention",
+        "score": 5,
+        "hits": [
+          {
+            "keyword": "interface",
+            "where": "headline"
+          },
+          {
+            "keyword": "visual design",
+            "where": "description"
+          },
+          {
+            "keyword": "ui",
+            "where": "description"
+          },
+          {
+            "keyword": "search",
+            "where": "description"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Designing with uncertain systems",
+          "score": 4
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
       "id": "25670fc3f48a",
       "theme": "Designing with uncertain systems",
       "provocation": "How does product responsibility change when an interface can act on a person's behalf?",
@@ -889,54 +931,6 @@
       "flags": []
     },
     {
-      "id": "487f298dd6ad",
-      "theme": "Leadership through uncertainty",
-      "provocation": "What kind of clarity can a design leader provide without pretending to have certainty?",
-      "tag": "Leadership",
-      "source": "uxcollective",
-      "sourceTitle": "If you want to grow beyond Senior Designer, you have to address this one thing",
-      "sourceUrl": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Leadership through uncertainty",
-        "score": 3,
-        "hits": [
-          {
-            "keyword": "career",
-            "where": "description"
-          },
-          {
-            "keyword": "senior",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "f9f7ac66e3c4",
-      "theme": "The work around the artifact",
-      "provocation": "What keeps getting lost between a design decision and its implementation?",
-      "tag": "Process",
-      "source": "uxcollective",
-      "sourceTitle": "The design process is changing. Are we asking the right questions?",
-      "sourceUrl": "https://uxdesign.cc/the-design-process-is-changing-are-we-asking-the-right-questions-c3c376cb7cb8?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "The work around the artifact",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "process",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "75f07e84289d",
       "theme": "Design systems and judgment",
       "provocation": "When does consistency stop helping a team think clearly?",
@@ -983,32 +977,6 @@
           "theme": "Research that changes work",
           "score": 2
         },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
-      "id": "63e77605d53e",
-      "theme": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "tag": "AI",
-      "source": "uxcollective",
-      "sourceTitle": "Designing for the AI agent customer",
-      "sourceUrl": "https://uxdesign.cc/designing-ux-for-agentic-commerce-digital-marketing-for-personal-ai-agents-c8c99e1b0b37?source=rss----138adf9c44c---4",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 4,
-        "hits": [
-          {
-            "keyword": "ai",
-            "where": "headline"
-          },
-          {
-            "keyword": "agent",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": null,
         "forced": false
       },
       "flags": []

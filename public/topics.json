@@ -1,9 +1,53 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-28T07:18:32.507Z",
-  "windowStart": "2026-10-29T07:18:32.507Z",
-  "windowEnd": "2026-11-28T07:18:32.507Z",
+  "generatedAt": "2026-11-28T16:45:10.825Z",
+  "windowStart": "2026-10-29T16:45:10.825Z",
+  "windowEnd": "2026-11-28T16:45:10.825Z",
   "topics": [
+    {
+      "id": "625500c7aa59",
+      "title": "Designing with uncertain systems",
+      "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
+      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
+      "lens": "Technology",
+      "tag": "Research",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-28T11:48:55.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "What working with AI is doing to us",
+          "url": "https://uxdesign.cc/what-working-with-ai-is-doing-to-us-c0df05190b66?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-28T11:48:55.000Z"
+        }
+      ]
+    },
+    {
+      "id": "15896664e7cb",
+      "title": "Interfaces and attention",
+      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
+      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
+      "lens": "Design",
+      "tag": "AI",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-28T10:05:49.000Z",
+      "since": "today",
+      "relevanceScore": 1,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The end of the interface is the beginning of design",
+          "url": "https://uxdesign.cc/the-end-of-the-interface-is-the-beginning-of-design-69752781d066?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-28T10:05:49.000Z"
+        }
+      ]
+    },
     {
       "id": "81c4f20298d0",
       "title": "Research that changes work",
@@ -58,9 +102,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-25T22:34:12.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -80,9 +124,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-24T22:16:19.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -102,37 +146,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-24T22:15:00.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "uxcollective",
           "title": "Four hidden dimensions of effective teams",
           "url": "https://uxdesign.cc/four-hidden-dimensions-of-effective-teams-be268c61cf44?source=rss----138adf9c44c---4",
           "publishedAt": "2026-11-24T22:15:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "ea3bb2513543",
-      "title": "Interfaces and attention",
-      "provocation": "What is the interface asking people to notice, and what does it teach them to ignore?",
-      "whyNow": "A recent source is raising questions about interfaces and attention across product and design work.",
-      "lens": "Design",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-24T22:10:40.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 1,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Who draws the in-betweens?",
-          "url": "https://uxdesign.cc/who-draws-the-in-betweens-3b61d1957efe?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-24T22:10:40.000Z"
         }
       ]
     },
@@ -203,6 +225,50 @@
       ]
     },
     {
+      "id": "41fad1127f18",
+      "title": "The work around the artifact",
+      "provocation": "What keeps getting lost between a design decision and its implementation?",
+      "whyNow": "A recent source is raising questions about the work around the artifact across product and design work.",
+      "lens": "Ways of Working",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-28T10:08:00.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "How I cut the code Claude writes by up to 16× and 97% per coded section",
+          "url": "https://uxdesign.cc/how-i-cut-claude-tokens-by-up-to-95-in-product-design-and-improved-design-quality-d9dc7cec148f?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-28T10:08:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "13c2f6682267",
+      "title": "How the work gets made",
+      "provocation": "Which assumption about how this work gets done deserves to be questioned?",
+      "whyNow": "A recent source is raising questions about how the work gets made across product and design work.",
+      "lens": "Ways of Working",
+      "tag": "Process",
+      "origin": "source-backed",
+      "category": "Latest",
+      "publishedAt": "2026-11-28T10:06:49.000Z",
+      "since": "today",
+      "relevanceScore": 0.429,
+      "categoryReason": "Published 0 days ago",
+      "sources": [
+        {
+          "name": "uxcollective",
+          "title": "The day after a holiday Japan doesn’t have",
+          "url": "https://uxdesign.cc/the-day-after-a-holiday-japan-doesnt-have-2060c9e6b093?source=rss----138adf9c44c---4",
+          "publishedAt": "2026-11-28T10:06:49.000Z"
+        }
+      ]
+    },
+    {
       "id": "a11cc8b3066f",
       "title": "Designing with uncertain systems",
       "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
@@ -269,50 +335,6 @@
       ]
     },
     {
-      "id": "487f298dd6ad",
-      "title": "Leadership through uncertainty",
-      "provocation": "What kind of clarity can a design leader provide without pretending to have certainty?",
-      "whyNow": "A recent source is raising questions about leadership through uncertainty across product and design work.",
-      "lens": "Self",
-      "tag": "Leadership",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-24T22:13:57.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "If you want to grow beyond Senior Designer, you have to address this one thing",
-          "url": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-24T22:13:57.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f9f7ac66e3c4",
-      "title": "The work around the artifact",
-      "provocation": "What keeps getting lost between a design decision and its implementation?",
-      "whyNow": "A recent source is raising questions about the work around the artifact across product and design work.",
-      "lens": "Ways of Working",
-      "tag": "Process",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-24T22:11:13.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.714,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "The design process is changing. Are we asking the right questions?",
-          "url": "https://uxdesign.cc/the-design-process-is-changing-are-we-asking-the-right-questions-c3c376cb7cb8?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-24T22:11:13.000Z"
-        }
-      ]
-    },
-    {
       "id": "75f07e84289d",
       "title": "Design systems and judgment",
       "provocation": "When does consistency stop helping a team think clearly?",
@@ -346,7 +368,7 @@
       "publishedAt": "2026-11-08T23:27:30.000Z",
       "since": "3 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 19 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 20 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -372,37 +394,15 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-25T00:46:57.000Z",
-      "since": "3 days ago",
+      "since": "4 days ago",
       "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
+      "categoryReason": "Published 4 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
           "title": "Evaluating Strategies for Multimodal Bidirectional Interactions between Pedestrians and AVs",
           "url": "https://arxiv.org/abs/2611.33581v1",
           "publishedAt": "2026-11-25T00:46:57.000Z"
-        }
-      ]
-    },
-    {
-      "id": "63e77605d53e",
-      "title": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "whyNow": "A recent source is raising questions about designing with uncertain systems across product and design work.",
-      "lens": "Technology",
-      "tag": "AI",
-      "origin": "source-backed",
-      "category": "Latest",
-      "publishedAt": "2026-11-24T22:11:59.000Z",
-      "since": "3 days ago",
-      "relevanceScore": 0.571,
-      "categoryReason": "Published 3 days ago",
-      "sources": [
-        {
-          "name": "uxcollective",
-          "title": "Designing for the AI agent customer",
-          "url": "https://uxdesign.cc/designing-ux-for-agentic-commerce-digital-marketing-for-personal-ai-agents-c8c99e1b0b37?source=rss----138adf9c44c---4",
-          "publishedAt": "2026-11-24T22:11:59.000Z"
         }
       ]
     },
@@ -484,7 +484,7 @@
       "publishedAt": "2026-11-13T03:17:26.000Z",
       "since": "2 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 15 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 16 days",
       "sources": [
         {
           "name": "hn-designsystem",
@@ -504,9 +504,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-25T22:34:52.000Z",
-      "since": "2 days ago",
+      "since": "3 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 2 days ago",
+      "categoryReason": "Published 3 days ago",
       "sources": [
         {
           "name": "uxcollective",
@@ -570,9 +570,9 @@
       "origin": "source-backed",
       "category": "Latest",
       "publishedAt": "2026-11-24T03:57:30.000Z",
-      "since": "4 days ago",
+      "since": "5 days ago",
       "relevanceScore": 0.429,
-      "categoryReason": "Published 4 days ago",
+      "categoryReason": "Published 5 days ago",
       "sources": [
         {
           "name": "arxiv-hci",
@@ -770,7 +770,7 @@
       "publishedAt": "2026-10-31T23:12:50.000Z",
       "since": "4 weeks ago",
       "relevanceScore": 0.429,
-      "categoryReason": "High relevance (0.43) with limited coverage over 27 days",
+      "categoryReason": "High relevance (0.43) with limited coverage over 28 days",
       "sources": [
         {
           "name": "devto-ux",
@@ -874,73 +874,73 @@
       "source": "smashing",
       "ok": true,
       "items": 40,
-      "fetchedAt": "2026-11-28T07:18:32.507Z"
+      "fetchedAt": "2026-11-28T16:45:10.826Z"
     },
     {
       "source": "nngroup",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-28T07:18:32.537Z"
+      "fetchedAt": "2026-11-28T16:45:10.866Z"
     },
     {
       "source": "uxcollective",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-28T07:18:32.538Z"
+      "fetchedAt": "2026-11-28T16:45:10.867Z"
     },
     {
       "source": "alistapart",
       "ok": true,
       "items": 20,
-      "fetchedAt": "2026-11-28T07:18:32.539Z"
+      "fetchedAt": "2026-11-28T16:45:10.868Z"
     },
     {
       "source": "uxmatters",
       "ok": true,
       "items": 10,
-      "fetchedAt": "2026-11-28T07:18:32.539Z"
+      "fetchedAt": "2026-11-28T16:45:10.869Z"
     },
     {
       "source": "devto-ux",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-28T07:18:32.540Z"
+      "fetchedAt": "2026-11-28T16:45:10.869Z"
     },
     {
       "source": "devto-design",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-28T07:18:32.540Z"
+      "fetchedAt": "2026-11-28T16:45:10.870Z"
     },
     {
       "source": "hn-ux",
       "ok": true,
       "items": 4,
-      "fetchedAt": "2026-11-28T07:18:32.541Z"
+      "fetchedAt": "2026-11-28T16:45:10.871Z"
     },
     {
       "source": "hn-designsystem",
       "ok": true,
       "items": 33,
-      "fetchedAt": "2026-11-28T07:18:32.541Z"
+      "fetchedAt": "2026-11-28T16:45:10.871Z"
     },
     {
       "source": "arxiv-hci",
       "ok": true,
       "items": 30,
-      "fetchedAt": "2026-11-28T07:18:32.542Z"
+      "fetchedAt": "2026-11-28T16:45:10.872Z"
     },
     {
       "source": "gh-radix",
       "ok": true,
       "items": 0,
-      "fetchedAt": "2026-11-28T07:18:32.542Z"
+      "fetchedAt": "2026-11-28T16:45:10.873Z"
     },
     {
       "source": "gh-storybook",
       "ok": true,
       "items": 3,
-      "fetchedAt": "2026-11-28T07:18:32.543Z"
+      "fetchedAt": "2026-11-28T16:45:10.873Z"
     }
   ]
 }
