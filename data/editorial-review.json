@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-27T18:00:00.792Z",
+  "generatedAt": "2026-11-28T07:18:32.507Z",
   "summary": {
-    "topics": 40,
-    "flagged": 21,
+    "topics": 39,
+    "flagged": 20,
     "byFlag": {
       "fallback-frame": 3,
       "thin-match": 8,
-      "ambiguous": 10
+      "ambiguous": 9
     },
     "weakKeywords": [
       {
@@ -17,7 +17,7 @@
       {
         "keyword": "agent",
         "theme": "Designing with uncertain systems",
-        "flagged": 4
+        "flagged": 3
       },
       {
         "keyword": "generative",
@@ -139,7 +139,7 @@
       {
         "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
         "theme": "Designing with uncertain systems",
-        "topics": 7
+        "topics": 6
       },
       {
         "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
@@ -608,33 +608,6 @@
       ]
     },
     {
-      "id": "d18c15805195",
-      "theme": "Designing with uncertain systems",
-      "provocation": "What should a designer make legible when the system cannot promise the same answer twice?",
-      "tag": "AI",
-      "source": "devto-design",
-      "sourceTitle": "I put a design team of four agents in a Slack room: a first-timer's guide to Switch",
-      "sourceUrl": "https://dev.to/romeet9/i-put-a-design-team-of-four-agents-in-a-slack-room-a-first-timers-guide-to-switch-37nf",
-      "match": {
-        "theme": "Designing with uncertain systems",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "agent",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Leadership through uncertainty",
-          "score": 2
-        },
-        "forced": false
-      },
-      "flags": [
-        "ambiguous"
-      ]
-    },
-    {
       "id": "6281ea8c10de",
       "theme": "Designing with uncertain systems",
       "provocation": "Where should human judgment remain visible in an AI-assisted workflow?",
@@ -916,31 +889,6 @@
       "flags": []
     },
     {
-      "id": "72a4217d7866",
-      "theme": "Research that changes work",
-      "provocation": "When does research create understanding, and when does it merely create evidence?",
-      "tag": "Research",
-      "source": "nngroup",
-      "sourceTitle": "Usability Testing 101",
-      "sourceUrl": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "match": {
-        "theme": "Research that changes work",
-        "score": 2,
-        "hits": [
-          {
-            "keyword": "usability",
-            "where": "headline"
-          }
-        ],
-        "runnerUp": {
-          "theme": "Leadership through uncertainty",
-          "score": 1
-        },
-        "forced": false
-      },
-      "flags": []
-    },
-    {
       "id": "487f298dd6ad",
       "theme": "Leadership through uncertainty",
       "provocation": "What kind of clarity can a design leader provide without pretending to have certainty?",
@@ -1117,6 +1065,31 @@
         ],
         "runnerUp": {
           "theme": "Research that changes work",
+          "score": 1
+        },
+        "forced": false
+      },
+      "flags": []
+    },
+    {
+      "id": "72a4217d7866",
+      "theme": "Research that changes work",
+      "provocation": "When does research create understanding, and when does it merely create evidence?",
+      "tag": "Research",
+      "source": "nngroup",
+      "sourceTitle": "Usability Testing 101",
+      "sourceUrl": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "match": {
+        "theme": "Research that changes work",
+        "score": 2,
+        "hits": [
+          {
+            "keyword": "usability",
+            "where": "headline"
+          }
+        ],
+        "runnerUp": {
+          "theme": "Leadership through uncertainty",
           "score": 1
         },
         "forced": false
